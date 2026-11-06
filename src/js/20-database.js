@@ -56,18 +56,40 @@ function dashboard(){
 }
 
 /* ════ 뷰: 데이터베이스 ════
-   번호·제목·태그·등급 + 본문 검색, 등급 필터. 입력할 때는 표만 다시 그림 */
+   검색(번호·제목·별명·태그·본문) + 등급 · 시리즈 · 태그 필터 + 정렬 + 50건씩 페이지
+   상태는 주소(#database?q=&c=&s=&t=&o=&p=)에 그대로 남아 새로고침·공유가 됨 */
+const DB_PAGE=50;
+const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["x","그 외"]];
+const SORTS=[["num","번호순"],["rate","평가 높은순"],["name","이름순"],["recent","최근 열람순"]];
+const TOP_TAGS=(()=>{const c={};for(const d of Object.values(SCP))for(const t of d.tags||[])if(!["안전","유클리드","케테르","아폴리온","타우미엘"].includes(t))c[t]=(c[t]||0)+1;return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,24)})();
+function dbState(params){
+  const g=k=>(params&&params.get(k))||"";
+  return {q:g("q"), c:g("c")||"all", s:g("s")||"all", t:g("t"), o:g("o")||"num", p:Math.max(1,+g("p")||1)};
+}
+function dbHash(st){
+  const p=new URLSearchParams();
+  if(st.q) p.set("q",st.q); if(st.c!=="all") p.set("c",st.c); if(st.s!=="all") p.set("s",st.s);
+  if(st.t) p.set("t",st.t); if(st.o!=="num") p.set("o",st.o); if(st.p>1) p.set("p",st.p);
+  const qs=p.toString(); return "#database"+(qs?"?"+qs:"");
+}
 function database(params){
-  const q=params?params.get("q")||"":"", c=params?params.get("c")||"all":"all";
+  const st=dbState(params);
   return `
   <h2 class="ph">격리 <span>데이터베이스</span> · ${Object.keys(SCP).length}건 색인됨</h2>
   <div class="search">
     <label for="dbq" class="sr">검색</label>
-    <input id="dbq" type="search" placeholder="항목 번호, 제목, 태그, 본문 내용으로 검색" value="${esc(q)}" autocomplete="off">
-    <span class="dim2" style="font-size:11px">열람 권한: ${LVL_NAME[S.level]}</span>
+    <input id="dbq" type="search" placeholder="항목 번호, 제목, 별명, 태그로 검색" value="${esc(st.q)}" autocomplete="off">
+    <button type="button" class="btn" id="dbrand" title="열람 가능한 문서 중 무작위로 하나 열기">무작위 문서</button>
   </div>
-  <div class="filters" role="group" aria-label="등급 필터">${CLASS_FILTERS.map(([k,l])=>`<button type="button" class="chip ${k===c?"on":""}" data-c="${k}" aria-pressed="${k===c}">${l}</button>`).join("")}</div>
-  <div id="dbrows">${dbRows(q,c)}</div>
+  <div class="filters" role="group" aria-label="등급 필터">${CLASS_FILTERS.map(([k,l])=>`<button type="button" class="chip ${k===st.c?"on":""}" data-c="${k}" aria-pressed="${k===st.c}">${l}</button>`).join("")}</div>
+  <div class="dbopts">
+    <label class="sr" for="dbs">시리즈</label><select id="dbs">${SERIES.map(([k,l])=>`<option value="${k}" ${k===st.s?"selected":""}>${l}</option>`).join("")}</select>
+    <label class="sr" for="dbo">정렬</label><select id="dbo">${SORTS.map(([k,l])=>`<option value="${k}" ${k===st.o?"selected":""}>${l}</option>`).join("")}</select>
+    <details class="tagbox"${st.t?" open":""}><summary>태그로 찾기${st.t?` · <b class="amber">#${esc(st.t)}</b>`:""}</summary>
+      <div class="tags">${TOP_TAGS.map(([t,n])=>`<button type="button" class="tagc ${t===st.t?"on":""}" data-t="${esc(t)}">#${esc(t)} <span class="dim2">${n}</span></button>`).join("")}${st.t?`<button type="button" class="tagc clr" data-t="">✕ 태그 해제</button>`:""}</div></details>
+    <span class="dim2 lvlnote">열람 권한: ${LVL_NAME[S.level]}</span>
+  </div>
+  <div id="dbrows">${dbRows(st)}</div>
   <p class="dim2" style="margin-top:14px;font-size:11px">목록에 없는 항목은 존재하지 않거나, 귀하가 그 존재를 알 권한이 없습니다.</p>`;
 }
 function matchClass(d,c){
@@ -77,56 +99,86 @@ function matchClass(d,c){
   if(c==="other") return !["safe","euclid","keter","apollyon"].includes(k);
   return k===c;
 }
-function dbRows(q,c){
-  const ql=q.trim().toLowerCase();
-  const hits=[];
+function inSeries(d,s){
+  if(s==="all") return true;
+  const [n,sfx]=idNum(d.id); if(sfx) return s==="x";
+  if(s==="1") return n<1000; if(s==="2") return n>=1000&&n<2000; if(s==="3") return n>=2000&&n<3000;
+  return n>=3000;
+}
+function dbHits(st){
+  const ql=st.q.trim().toLowerCase(), hits=[];
   for(const d of Object.values(SCP)){
-    if(!matchClass(d,c)) continue;
+    if(!matchClass(d,st.c) || !inSeries(d,st.s) || (st.t && !(d.tags||[]).includes(st.t))) continue;
     if(!ql){ hits.push({d}); continue }
     const meta=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+d.object_class).toLowerCase();
-    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,"scp-$1"))){ hits.push({d}); continue }
-    // 본문 검색: 권한이 있는 문서만 내용 일부를 보여줌
+    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,m=>"scp-"+m.padStart(3,"0")))){ hits.push({d}); continue }
+    // 본문 검색: 본문을 불러온 문서만
     const i=(d.full_text||"").toLowerCase().indexOf(ql);
     if(i>=0) hits.push({d, at:i});
   }
-  hits.sort((a,b)=>byId(a.d.id,b.d.id));
-  // 본문은 연 적 있는 문서만 메모리에 있음 → 나머지 본문까지 찾으려면 불러오기
+  const name=d=>docName(d)||"\uffff";
+  const rec=id=>{const i=S.recent.indexOf(id);return i<0?1e9:i};
+  const cmp={num:(a,b)=>byId(a.d.id,b.d.id), rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
+    name:(a,b)=>name(a.d).localeCompare(name(b.d),"ko")||byId(a.d.id,b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
+  return hits.sort(cmp);
+}
+function pager(cur,total,hrefFor){
+  if(total<=1) return "";
+  const win=[...new Set([1,cur-2,cur-1,cur,cur+1,cur+2,total])].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b);
+  let out="", prev=0;
+  for(const n of win){ if(n-prev>1) out+=`<span class="dim2">…</span>`; out+=n===cur?`<b aria-current="page">${n}</b>`:`<a href="${hrefFor(n)}">${n}</a>`; prev=n }
+  return `<nav class="pager" aria-label="페이지">${cur>1?`<a href="${hrefFor(cur-1)}" aria-label="이전 페이지">‹</a>`:""}${out}${cur<total?`<a href="${hrefFor(cur+1)}" aria-label="다음 페이지">›</a>`:""}</nav>`;
+}
+function dbRows(st){
+  const ql=st.q.trim();
+  const hits=dbHits(st), pages=Math.max(1,Math.ceil(hits.length/DB_PAGE)), cur=Math.min(st.p,pages);
   const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
-  const more=unloaded?`<div class="empty"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
-  if(!hits.length) return (c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">"${esc(q)}"에 해당하는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 등급 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
-  return more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm">관련 문서</th><th>요구 권한</th><th class="hm">상태</th></tr>
-  ${hits.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:(d.subs??splitDoc(d).subs.length); const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
+  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
+  const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
+  return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
+  ${page.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
     const href="#"+d.id.toLowerCase();
-    const tags=`<td class="dim hm">${(d.tags||[]).slice(0,4).map(esc).join(" · ")||"—"}</td>`;
-    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}<td class="dim2 hm">—</td><td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
-    const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,q.trim().length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
+    const tags=`<td class="dim hm">${(d.tags||[]).filter(t=>t!==d.object_class).slice(0,4).map(t=>`<button type="button" class="tagl" data-t="${esc(t)}">${esc(t)}</button>`).join(" · ")||"—"}</td>`;
+    const rate=`<td class="hm c dim">${typeof d.rating==="number"?(d.rating>0?"+":"")+d.rating:"—"}</td>`;
+    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
+    const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row ${ok?"":"locked"}" data-href="${href}">
-      <td>${rowLink(href,d.id,ok?"hi":"")}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
-      <td>${badge(d)}</td>${tags}
-      <td class="dim2 hm">${ns?ns+"건":"—"}</td>
+      <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
+      <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
       <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
-  </table>`;
+  </table>${pager(cur,pages,n=>dbHash({...st,p:n}))}`;
 }
 function snippet(text,at,len){
   const a=Math.max(0,at-40), b=Math.min(text.length,at+len+60), sp=t=>esc(t.replace(/\s+/g," "));
   return (a>0?"…":"")+sp(text.slice(a,at))+`<mark>${sp(text.slice(at,at+len))}</mark>`+sp(text.slice(at+len,b))+(b<text.length?"…":"");
 }
 function bindDatabase(){
-  const inp=$("#dbq"); let c=new URLSearchParams(location.hash.split("?")[1]||"").get("c")||"all";
-  const upd=()=>{
+  const st=dbState(new URLSearchParams(location.hash.split("?")[1]||""));
+  const inp=$("#dbq"); let t=0;
+  const upd=(resetPage=true)=>{
     if(!$("#dbrows")) return;
-    $("#dbrows").innerHTML=dbRows(inp.value,c);
-    const p=new URLSearchParams(); if(inp.value) p.set("q",inp.value); if(c!=="all") p.set("c",c);
-    const qs=p.toString(); history.replaceState(null,"","#database"+(qs?"?"+qs:""));
+    if(resetPage) st.p=1;
+    st.q=inp.value; $("#dbrows").innerHTML=dbRows(st);
+    history.replaceState(null,"",dbHash(st));
   };
-  inp.addEventListener("input",upd);
+  inp.addEventListener("input",()=>{ clearTimeout(t); t=setTimeout(upd,120) });
+  $("#dbs").addEventListener("change",e=>{ st.s=e.target.value; upd() });
+  $("#dbo").addEventListener("change",e=>{ st.o=e.target.value; upd() });
+  $("#dbrand").addEventListener("click",()=>{
+    const pool=dbHits({...st,q:""}).map(h=>h.d).filter(d=>!SPECIAL[d.id]&&lvlFor(d.id)>=reqLevel(d.object_class));
+    if(!pool.length){ toast("조건에 맞는 열람 가능 문서가 없습니다."); return }
+    openDoc(pick(pool).id);
+  });
+  document.querySelector(".tagbox").addEventListener("click",e=>{ const b=e.target.closest("[data-t]"); if(!b) return; st.t=b.dataset.t; st.p=1; go(dbHash(st)) });
   $("#dbrows").addEventListener("click",e=>{
+    const tg=e.target.closest(".tagl"); if(tg){ e.stopPropagation(); st.t=tg.dataset.t; st.p=1; go(dbHash(st)); return }
     const b=e.target.closest("#ftbtn"); if(!b) return;
     b.disabled=true;
-    loadAllBodies((n,t)=>{ b.textContent=`본문 불러오는 중… ${Math.round(n/t*100)}%` }).then(upd);
+    loadAllBodies((n,tot)=>{ b.textContent=`본문 불러오는 중… ${Math.round(n/tot*100)}%` }).then(()=>upd(false));
   });
-  document.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
-    c=b.dataset.c; document.querySelectorAll(".chip").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",x===b)}); upd();
+  document.querySelectorAll(".filters .chip").forEach(b=>b.addEventListener("click",()=>{
+    st.c=b.dataset.c; document.querySelectorAll(".filters .chip").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",x===b)}); upd();
   }));
 }

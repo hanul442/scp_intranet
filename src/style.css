@@ -400,6 +400,27 @@ body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;bo
 body[data-theme=light] #wm{opacity:.06;filter:invert(1)}
 body[data-theme=light] ::selection{color:#fff}
 
+/* ─── 데이터베이스: 시리즈 · 정렬 · 태그 · 페이지 ─── */
+.dbopts{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start;margin:-6px 0 14px}
+.dbopts select,.selx{background:var(--panel);color:var(--fg);border:1px solid var(--line2);padding:3px 8px;font:inherit;font-size:12px}
+.dbopts .lvlnote{margin-left:auto;font-size:11px;padding-top:4px}
+.tagbox{flex:1 1 100%;order:3}
+.tagbox summary{cursor:pointer;font-size:12px;color:var(--fg2);display:inline-block;padding:2px 0}
+.tagbox summary:hover{color:var(--hi)}
+.tagbox .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.tagc{border:1px solid var(--line);padding:1px 8px;font-size:11px;color:var(--fg2);cursor:pointer}
+.tagc:hover{border-color:var(--fg3);color:var(--hi)}
+.tagc.on{border-color:var(--amber);color:var(--amber)}
+.tagc.clr{color:var(--red2)}
+.tagl{font:inherit;color:inherit;cursor:pointer;border-bottom:1px dotted transparent}
+.tagl:hover{color:var(--amber);border-bottom-color:var(--amber)}
+.dbcount{font-size:11px;margin-bottom:6px}
+.empty.slim{padding:10px;margin-bottom:10px}
+nav.pager a{min-width:28px;padding:2px 8px;border:1px solid var(--line);color:var(--fg2);text-decoration:none;text-align:center}
+nav.pager a:hover{color:var(--hi);border-color:var(--fg3)}
+nav.pager span{padding:2px 4px}
+td.c,th.c{text-align:center}
+
 @media print{
   html,body{overflow:visible;height:auto;background:#fff;color:#000}
   .crt::before,.crt::after,#wm,#toasts,.topbar,.gnb,.nav,.side,.cmd,#glitch,.eyes,#boot,#login,.mback{display:none!important}
@@ -458,6 +479,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .snip{max-width:none}
   .search{flex-wrap:wrap}
   .search .dim2{flex-basis:100%}
+  .dbopts .lvlnote{display:none}
   .bbar{flex-wrap:wrap;gap:8px}
   .cd{min-height:52px;padding:3px}
   .cd .ev,.cd .more{display:none}
