@@ -274,7 +274,7 @@ document.addEventListener("click",e=>{
 });
 
 /* ════ 단축키 ════ ? 도움말 · g 다음 글자로 이동 */
-const GOKEYS={q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
+const GOKEYS={v:["#survey","사내 설문"],q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
 function showKeys(){
   modal({title:"단축키",cls:"wide",html:`<table class="keys">
     <tr><td><kbd>/</kbd></td><td>커맨드라인으로 이동</td></tr>
