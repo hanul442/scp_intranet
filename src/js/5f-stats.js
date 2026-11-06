@@ -20,7 +20,7 @@ function stats(){
   const tagRows=TOP_TAGS.slice(0,12).map(([t,n])=>({label:esc(t),n,href:`#database?t=${encodeURIComponent(t)}`}));
   const rated=docs.filter(d=>d.rating!=null&&!isNaN(+d.rating)), avg=rated.length?Math.round(rated.reduce((s,d)=>s+ +d.rating,0)/rated.length):0;
   const top=[...rated].sort((a,b)=>b.rating-a.rating).slice(0,10);
-  const au={}; docs.forEach(d=>{const a=(d.author||"").trim(); if(a&&a!=="작자 미상") au[a]=(au[a]||0)+1});
+  const au={}; docs.forEach(d=>{const a=(d.author||"").trim(); if(a&&!["작자 미상","미상"].includes(a)) au[a]=(au[a]||0)+1});
   const auRows=Object.entries(au).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([a,n])=>({label:esc(a),n,href:`#database?q=${encodeURIComponent(a)}`}));
   const tagN=new Set(docs.flatMap(d=>d.tags||[])).size;
   return `<h2 class="ph">격리 문서 <span>통계</span></h2>
