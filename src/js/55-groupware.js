@@ -259,7 +259,7 @@ function gwWidgets(){
     <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
       ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
     <div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>
-    <div class="card w"><div class="k">사내 설문</div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
+    <div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
       ${vote?`<div class="dim" style="margin-top:6px">찬성 100% · 반대 0%<br><span class="dim2" style="font-size:11px">귀하는 찬성하셨습니다.${vote==="no"?" (반대 의견은 집계되지 않았습니다)":""}</span></div>`
         :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>
   </div>`;

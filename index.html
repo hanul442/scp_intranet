@@ -531,6 +531,30 @@ table.atttab{max-width:820px}
 .gnb{overflow-x:auto;scrollbar-width:none}
 .gnb a{white-space:nowrap;flex:none}
 
+/* ─── 설문 ─── */
+.svh{font-size:11px;letter-spacing:.2em;color:var(--fg3);font-weight:400;margin:16px 0 8px}
+.svgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.svcard{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--fg);font-size:12px}
+.svcard b{font-size:13.5px;font-weight:500;color:var(--hi)}
+.svcard:hover{border-color:var(--fg3)}
+.svcard.closed{opacity:.75}
+.svst{align-self:flex-start;font-size:10.5px;padding:0 7px;border:1px solid var(--line2)}
+.svst.open{color:var(--amber);border-color:var(--amber)}.svst.done{color:var(--green);border-color:var(--green)}.svst.end{color:var(--fg3)}
+.svtitle{font-size:17px;color:var(--hi);font-weight:500;margin:4px 0 14px}
+.svq{border:1px solid var(--line);background:var(--panel);padding:12px 16px;margin-bottom:10px;max-width:760px}
+.svq legend{padding:0 4px}
+.svq b{font-weight:500;color:var(--hi)}
+.svr{display:grid;grid-template-columns:minmax(120px,200px) 1fr 76px;gap:10px;align-items:center;font-size:12.5px;padding:3px 0}
+.svr.me span:first-child{color:var(--hi)}
+.svbar{height:8px;background:var(--line)}.svbar i{display:block;height:100%;background:var(--cyan)}
+.svr.me .svbar i{background:var(--amber)}
+.svscale{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.svscale label{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;min-width:58px;border:1px solid var(--line);padding:6px 4px}
+.svscale input{accent-color:var(--amber)}
+.svscale small{font-size:10.5px;color:var(--fg3)}
+.svtext{width:100%;margin-top:8px;background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:6px 8px;font:inherit}
+body[data-theme=light] .svq,body[data-theme=light] .svscale label{border-radius:6px}
+
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
 body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
@@ -636,6 +660,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
   .grid,.tkcats{grid-template-columns:1fr 1fr;gap:8px}
+  .svr{grid-template-columns:1fr 64px}.svr .svbar{grid-column:1/-1;grid-row:2}
   .rgrid{grid-template-columns:96px minmax(640px,1fr)}
   .grid .card{padding:10px 12px}
   .card .v{font-size:19px}
@@ -710,6 +735,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
     <a href="#dashboard" data-v="dashboard">홈</a>
     <a href="#messages" data-v="messages">메일 <span id="unread" class="amber"></span></a>
     <a href="#board" data-v="board">게시판</a>
+    <a href="#survey" data-v="survey">설문</a>
     <a href="#approval" data-v="approval">전자결재 <span id="apprn" class="amber"></span></a>
     <a href="#calendar" data-v="calendar">일정</a>
     <a href="#attendance" data-v="attendance">근태</a>
@@ -735,6 +761,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
       <a href="#attendance" data-v="attendance" class="mob">근태</a>
       <a href="#rooms" data-v="rooms" class="mob">회의실</a>
       <a href="#helpdesk" data-v="helpdesk" class="mob">업무요청</a>
+      <a href="#survey" data-v="survey" class="mob">설문</a>
       <a href="#archive" data-v="archive" class="mob">자료실</a>
       <a href="#org" data-v="org" class="mob">조직도</a>
       <a href="#search" data-v="search" class="mob">통합 검색</a>
@@ -959,7 +986,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk, survey};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -992,7 +1019,7 @@ function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
 /* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
 const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
   messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
-  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"]};
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"],survey:["커뮤니케이션","사내 설문"]};
 function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
 const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
 function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
@@ -1789,7 +1816,7 @@ function gwWidgets(){
     <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
       ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
     <div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>
-    <div class="card w"><div class="k">사내 설문</div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
+    <div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
       ${vote?`<div class="dim" style="margin-top:6px">찬성 100% · 반대 0%<br><span class="dim2" style="font-size:11px">귀하는 찬성하셨습니다.${vote==="no"?" (반대 의견은 집계되지 않았습니다)":""}</span></div>`
         :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>
   </div>`;
@@ -2367,7 +2394,7 @@ document.addEventListener("click",e=>{
 });
 
 /* ════ 단축키 ════ ? 도움말 · g 다음 글자로 이동 */
-const GOKEYS={q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
+const GOKEYS={v:["#survey","사내 설문"],q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
 function showKeys(){
   modal({title:"단축키",cls:"wide",html:`<table class="keys">
     <tr><td><kbd>/</kbd></td><td>커맨드라인으로 이동</td></tr>
@@ -2690,6 +2717,72 @@ function tkDoc(no){
 document.addEventListener("click",e=>{
   const b=e.target.closest("[data-tkrate]"); if(!b) return;
   store.set(tkKey(),tkList().map(t=>t.no===+b.dataset.no?{...t,rate:+b.dataset.tkrate}:t)); route();
+});
+
+/* ════════════════════════════════════════════
+   사내 설문 — 진행 중 · 마감 설문, 응답 후 결과(막대)
+   응답: store "sv_<user>" = {설문id: {질문idx: 값}}
+   결과 = 고정된 기존 응답 수 + 내 응답
+   ════════════════════════════════════════════ */
+// 질문: [종류(one|multi|scale|text), 질문, 보기, 기존 응답 수(보기별)]
+const SURVEYS=[
+ {id:"caf",title:"카페테리아 A 11월 메뉴 만족도 조사",dept:"복리후생팀",end:10,n:212,qs:[
+   ["scale","전반적인 식사 만족도",["매우 불만","불만","보통","만족","매우 만족"],[9,21,74,81,27]],
+   ["one","가장 개선이 필요한 부분",["메뉴 다양성","맛","양","배식 시간","위생"],[71,38,22,64,17]],
+   ["multi","추가되었으면 하는 메뉴 (복수 선택)",["샐러드 바","면 요리","야간 간편식","채식 메뉴","디저트"],[88,97,121,34,59]],
+   ["text","기타 의견",[],[]]]},
+ {id:"ws",title:"2027년 상반기 부서 워크숍 장소 선호도",dept:"인사관리과",end:4,n:148,qs:[
+   ["one","선호하는 워크숍 형태",["1일 외부 연수원","1박 2일 리조트","기지 내 세미나","온라인"],[41,63,29,15]],
+   ["one","선호 시기",["3월","4월","5월","6월"],[12,58,61,17]]]},
+ {id:"club",title:"사내 동호회 신설 수요 조사",dept:"복리후생팀",end:12,n:96,qs:[
+   ["multi","참여하고 싶은 동호회 (복수 선택)",["독서","보드게임","러닝","사진","요리","바둑"],[31,44,37,19,22,9]],
+   ["one","선호 활동 시간",["점심시간","퇴근 후","주말"],[38,47,11]]]},
+ {id:"term",title:"SCiPNET 단말 사용성 설문",dept:"전산팀",end:7,n:301,qs:[
+   ["scale","단말 화면이 읽기 편하십니까?",["전혀","아니다","보통","그렇다","매우"],[14,38,102,111,36]],
+   ["one","가장 자주 쓰는 메뉴",["격리 데이터베이스","메일","전자결재","게시판","일정"],[142,61,39,33,26]],
+   ["text","불편한 점이나 바라는 기능",[],[]]]},
+ {id:"sec26",title:"2026년 하반기 정보보안 교육 만족도",dept:"RAISA",end:-5,n:388,qs:[
+   ["scale","교육 내용이 업무에 도움이 되었습니까?",["전혀","아니다","보통","그렇다","매우"],[11,29,140,152,56]],
+   ["one","교육 방식 선호",["온라인","집합 교육","혼합"],[231,58,99]]]},
+];
+const svKey=()=>"sv_"+S.user, svAns=()=>store.get(svKey(),{});
+const svEnd=s=>daysAgo(-s.end), svOpen=s=>s.end>=0;
+function survey(qs){
+  const id=qs&&qs.get("id"); if(id) return svDoc(id);
+  const A=svAns();
+  const card=s=>`<a class="card svcard ${svOpen(s)?"":"closed"}" href="#survey?id=${s.id}"><span class="svst ${svOpen(s)?(A[s.id]?"done":"open"):"end"}">${svOpen(s)?(A[s.id]?"참여 완료":"진행 중"):"마감"}</span><b>${esc(s.title)}</b><span class="dim2">${s.dept} · ${s.qs.length}문항 · 응답 ${s.n+(A[s.id]?1:0)}명</span><span class="dim2">${svOpen(s)?`마감 ${svEnd(s)} (D-${s.end})`:`${svEnd(s)} 마감`}</span></a>`;
+  return `<h2 class="ph">사내 <span>설문</span></h2>
+  <h4 class="svh">진행 중</h4><div class="svgrid">${SURVEYS.filter(svOpen).map(card).join("")}</div>
+  <h4 class="svh">마감</h4><div class="svgrid">${SURVEYS.filter(s=>!svOpen(s)).map(card).join("")}</div>`;
+}
+function svCounts(s, qi){
+  const q=s.qs[qi], mine=(svAns()[s.id]||{})[qi], c=q[3].slice();
+  if(mine!=null && q[0]!=="text") (Array.isArray(mine)?mine:[mine]).forEach(v=>c[+v]=(c[+v]||0)+1);
+  return c;
+}
+function svDoc(id){
+  const s=SURVEYS.find(x=>x.id===id); if(!s) return `<a class="back" href="#survey">← 설문 목록</a><div class="empty">없는 설문입니다.</div>`;
+  const my=svAns()[s.id], show=my||!svOpen(s);
+  const head=`<a class="back" href="#survey">← 설문 목록</a><div class="adoc"><div class="dim2" style="font-size:11px">${s.dept} · ${svOpen(s)?`마감 ${svEnd(s)}`:"마감됨"} · 응답 ${s.n+(my?1:0)}명 · 익명</div><h3 class="svtitle">${esc(s.title)}</h3>`;
+  if(show) return head+s.qs.map((q,qi)=>{
+    if(q[0]==="text") return `<div class="svq"><b>${qi+1}. ${esc(q[1])}</b><div class="dim" style="margin-top:6px">${my&&my[qi]?`내 응답: “${esc(my[qi])}”`:'<span class="dim2">주관식 응답은 담당 부서만 볼 수 있습니다.</span>'}</div></div>`;
+    const c=svCounts(s,qi), tot=c.reduce((a,b)=>a+b,0)||1, mx=Math.max(...c), mine=my?[].concat(my[qi]??[]).map(Number):[];
+    return `<div class="svq"><b>${qi+1}. ${esc(q[1])}</b>${q[2].map((o,oi)=>`<div class="svr ${mine.includes(oi)?"me":""}"><span>${esc(o)}${mine.includes(oi)?' <small class="amber">내 선택</small>':""}</span><span class="svbar"><i style="width:${(c[oi]/mx*100).toFixed(1)}%"></i></span><span class="dim">${Math.round(c[oi]/tot*100)}% <small class="dim2">${c[oi]}</small></span></div>`).join("")}
+      ${q[0]==="scale"?`<div class="dim2" style="font-size:11px;margin-top:4px">평균 ${(c.reduce((a,v,i)=>a+v*(i+1),0)/tot).toFixed(2)} / 5</div>`:""}</div>`}).join("")+`${my&&svOpen(s)?`<p class="dim2" style="font-size:11px;margin-top:12px">참여해 주셔서 감사합니다. 결과는 마감 후 확정됩니다.</p>`:""}</div>`;
+  return head+`<form data-sv="${s.id}">${s.qs.map((q,qi)=>`<fieldset class="svq"><legend><b>${qi+1}. ${esc(q[1])}</b>${q[0]==="text"?' <span class="dim2">(선택)</span>':""}</legend>
+    ${q[0]==="text"?`<textarea name="q${qi}" rows="3" maxlength="300" class="svtext"></textarea>`
+     :q[0]==="scale"?`<div class="svscale">${q[2].map((o,oi)=>`<label><input type="radio" name="q${qi}" value="${oi}" required><span>${oi+1}</span><small>${esc(o)}</small></label>`).join("")}</div>`
+     :q[2].map((o,oi)=>`<label class="chk"><input type="${q[0]==="multi"?"checkbox":"radio"}" name="q${qi}" value="${oi}" ${q[0]==="one"?"required":""}> ${esc(o)}</label>`).join("")}</fieldset>`).join("")}
+    <div class="factions" style="justify-content:flex-start"><button class="btn primary" type="submit">제출</button><a class="btn" href="#survey">나중에</a></div></form></div>`;
+}
+document.addEventListener("submit",e=>{
+  const f=e.target.closest("form[data-sv]"); if(!f) return; e.preventDefault();
+  const s=SURVEYS.find(x=>x.id===f.dataset.sv), ans={};
+  for(let qi=0;qi<s.qs.length;qi++){ const q=s.qs[qi], fd=new FormData(f).getAll("q"+qi);
+    if(q[0]==="multi"){ if(!fd.length){ toast(`${qi+1}번 문항을 하나 이상 고르십시오.`,"danger"); return } ans[qi]=fd.map(Number) }
+    else if(q[0]==="text") ans[qi]=(fd[0]||"").trim();
+    else ans[qi]=+fd[0] }
+  store.set(svKey(),{...svAns(),[s.id]:ans}); feedPush(`설문 참여 — ${S.user} · ${s.title.slice(0,16)}`,""); toast("응답이 제출되었습니다."); route();
 });
 
 /* ════ 피드 ════ */
