@@ -38,6 +38,7 @@ function regs(qs){
   ${big?`<form class="search" data-regq><label for="rgq" class="sr">규정 내 검색</label><input id="rgq" name="q" type="search" placeholder="이 문서에서 찾기 (예: 제19기지, 엡실론-11)" value="${esc(q)}" autocomplete="off"><button class="btn" type="submit">찾기</button></form>`:""}
   <div class="doc regs">
     <div class="hdr"><h1>${esc(page.title)}</h1><span class="badge unknown">RAISA 배포</span></div>
+    ${!q&&typeof REG_IG==="object"&&REG_IG[page.slug]?REG_IG[page.slug]():""}
     ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1);
       return `<div class="sec">${s.title?`<h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}>`:""}
       ${s.body?`<div class="body">${linkRefs(markDM(esc(s.body)),"")}</div>`:""}</div>`}).join("")
