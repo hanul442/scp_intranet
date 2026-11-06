@@ -608,6 +608,12 @@ a.sr2:hover{background:var(--bg2)}a.sr2:hover .sl{color:var(--amber)}
 .scol{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;min-width:0}
 .scol i{display:block;width:100%;max-width:22px;background:var(--cyan);min-height:1px}
 .scn{font-size:10px;color:var(--fg2);height:14px}.scd{font-size:10px;color:var(--fg3);margin-top:3px}
+/* 문서 개인 메모 */
+.dnote{margin:22px 0 6px;border:1px solid var(--line);background:var(--panel);padding:8px 12px}
+.dnote summary{cursor:pointer;font-size:12.5px;color:var(--hi);padding:2px 0}
+.dnote[open] summary{margin-bottom:8px}
+.dnprev{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;max-width:520px}
+body[data-theme=light] .dnote{border-radius:6px}
 /* 404 */
 .nf{max-width:560px;margin:40px auto;text-align:center}
 .nfc{font-size:64px;letter-spacing:.1em;color:var(--fg3);line-height:1}
@@ -918,7 +924,7 @@ const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"�
 const LVL_TAG={1:["비밀","l1"],2:["제한","l2"],3:["기밀","l3"],4:["극비","l4"],5:["O5 전용","l5"]};
 const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
 function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
-const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"]];
+const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"],["note","✎ 내 메모"]];
 
 /* ════ 상태 ════ */
 const S = { user:"", level:2, view:"dashboard", doc:null, denied:0, booted:false, sid:0,
@@ -1194,6 +1200,7 @@ function database(params){
 function matchClass(d,c){
   if(c==="all") return true;
   if(c==="fav") return isFav(d.id);
+  if(c==="note") return !!dnAll()[d.id];
   const k=classKey(d.object_class);
   if(c==="other") return !["safe","euclid","keter","apollyon"].includes(k);
   return k===c;
@@ -1411,6 +1418,7 @@ function showDoc(id){
     ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
     ${subsBox(d)}
+    ${docNoteBox(id)}
     ${similarBox(d)}
     ${clsBanner(need)}
     ${docPN(id)}
@@ -2996,7 +3004,7 @@ function notes(qs){
       ${n.done?`<button type="button" class="xref" data-todoclear>완료한 일 ${n.done}건 지우기</button>`:""}
     </section>
     <section class="card"><div class="k">메모</div>${memoBox(14)}</section>
-  </div>`;
+  </div>${docNoteList()}`;
 }
 
 let todoRefocus=false, memoTimer=0;
@@ -3151,6 +3159,31 @@ function glitch(intensity=1){
 function scheduleGlitch(){ sessionLater(()=>{ glitch(1); scheduleGlitch() }, rnd(25000,70000)) }
 function scheduleAlert(){ sessionLater(()=>{ $("#topalert").classList.add("on"); feedPush("▲ 구역 7 격리 실패 경보 — 확인 중","red"); sessionLater(()=>{$("#topalert").classList.remove("on");feedPush("구역 7 경보 해제 — 오탐으로 분류됨","amber")},rnd(5000,9000)); scheduleAlert() }, rnd(60000,150000)) }
 
+
+/* ════════════════════════════════════════════
+   문서 개인 메모 — 문서마다 본인만 보는 메모 (자동 저장)
+   기록: store "dnote_<user>" = {문서id: {t, at}}
+   ════════════════════════════════════════════ */
+const dnKey=()=>"dnote_"+S.user, dnAll=()=>store.get(dnKey(),{});
+function dnSave(id,t){ const A=dnAll(); if(t.trim()) A[id]={t,at:Date.now()}; else delete A[id]; store.set(dnKey(),A); return A[id] }
+function docNoteBox(id){
+  const n=dnAll()[id];
+  return `<details class="dnote" ${n?"open":""}><summary>내 메모 ${n?`<span class="dim2">· ${fmtDate(n.at).slice(0,16)}</span>`:`<span class="dim2">· 이 문서에 나만 보는 메모 남기기</span>`}</summary>
+    <label class="sr" for="dnin">${id} 메모</label><textarea id="dnin" class="memo" rows="4" maxlength="3000" data-dn="${id}" placeholder="격리 절차 요점, 관련 문서 번호, 할 일 등. 다른 직원에게는 보이지 않습니다.">${esc(n?n.t:"")}</textarea>
+    <div class="dim2 memost" id="dnst">${n?"자동 저장됨":"입력하면 자동 저장됩니다."}</div></details>`;
+}
+/* 메모를 남긴 문서 목록 (#notes 화면 아래) */
+function docNoteList(){
+  const L=Object.entries(dnAll()).filter(([id])=>SCP[id]).sort((a,b)=>b[1].at-a[1].at);
+  return `<h3 class="ph" style="margin-top:24px">문서 <span>메모</span> ${L.length?`<span class="dim2" style="font-size:12px">${L.length}건</span>`:""}</h3>
+  ${L.length?`<table><tr><th>항목</th><th>메모</th><th class="hm">수정</th></tr>${L.map(([id,n])=>`<tr class="row" data-href="#${id.toLowerCase()}"><td style="white-space:nowrap">${rowLink("#"+id.toLowerCase(),id)}<div>${badge(SCP[id])}</div></td>
+    <td class="dim dnprev">${esc(n.t.slice(0,140))}${n.t.length>140?"…":""}</td><td class="dim2 hm" style="white-space:nowrap">${fmtDate(n.at).slice(0,16)}</td></tr>`).join("")}</table>`
+  :`<div class="empty">메모를 남긴 문서가 없습니다. 문서 아래 '내 메모'를 펼쳐 적으면 여기에 모입니다.</div>`}`;
+}
+let dnTimer=0;
+function dnFlush(el){ clearTimeout(dnTimer); const n=dnSave(el.dataset.dn,el.value); const s=$("#dnst"); if(s) s.textContent=n?"저장됨 "+fmtDate(n.at).slice(11,16):"메모를 지웠습니다." }
+document.addEventListener("input",e=>{ const el=e.target; if(!el.dataset||!el.dataset.dn) return; clearTimeout(dnTimer); dnTimer=setTimeout(()=>dnFlush(el),500) });
+document.addEventListener("change",e=>{ const el=e.target; if(el.dataset&&el.dataset.dn) dnFlush(el) });
 
 /* ════ 커맨드 라인 ════ */
 const HELP=`사용 가능한 명령:

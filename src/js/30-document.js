@@ -127,6 +127,7 @@ function showDoc(id){
     ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
     ${subsBox(d)}
+    ${docNoteBox(id)}
     ${similarBox(d)}
     ${clsBanner(need)}
     ${docPN(id)}

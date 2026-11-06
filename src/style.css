@@ -600,6 +600,12 @@ a.sr2:hover{background:var(--bg2)}a.sr2:hover .sl{color:var(--amber)}
 .scol{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;min-width:0}
 .scol i{display:block;width:100%;max-width:22px;background:var(--cyan);min-height:1px}
 .scn{font-size:10px;color:var(--fg2);height:14px}.scd{font-size:10px;color:var(--fg3);margin-top:3px}
+/* 문서 개인 메모 */
+.dnote{margin:22px 0 6px;border:1px solid var(--line);background:var(--panel);padding:8px 12px}
+.dnote summary{cursor:pointer;font-size:12.5px;color:var(--hi);padding:2px 0}
+.dnote[open] summary{margin-bottom:8px}
+.dnprev{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;max-width:520px}
+body[data-theme=light] .dnote{border-radius:6px}
 /* 404 */
 .nf{max-width:560px;margin:40px auto;text-align:center}
 .nfc{font-size:64px;letter-spacing:.1em;color:var(--fg3);line-height:1}
