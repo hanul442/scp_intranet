@@ -51,7 +51,9 @@ $("#loginform").addEventListener("submit",async e=>{
   store.set("user",S.user);
   msg.style.color="var(--green)";
   msg.textContent = prev ? `인증 완료. 이전 세션 기록을 복원합니다 (위반 ${S.denied}회)` : "인증 완료. 세션을 여는 중";
-  await sleep(prev?900:600); enter(!!prev);
+  await sleep(prev?900:600);
+  if(!prev){ msg.textContent="최초 접속 — 보안 서약서 확인이 필요합니다"; await pledge() }
+  enter(!!prev);
 });
 
 function enter(returning){
@@ -62,13 +64,13 @@ function enter(returning){
   $("#feed").innerHTML="";
   saveSession();
   route(); startFeed(returning); startClock(); scheduleGlitch(); scheduleAlert();
-  updateUnread();
+  updateUnread(); groupwareStart(returning);
 }
 
 /* 로그아웃: 세션 반복 작업(피드·시계·글리치·경보)은 S.sid 가 바뀌면 스스로 멈춤 */
 function logout(){
   saveSession();
-  S.sid++; S.booted=false; clearEffects();
+  S.sid++; S.booted=false; clearEffects(); closeModal(); GW.expiring=false;
   $("#topalert").classList.remove("on");
   history.replaceState(null,"",location.pathname+location.search);
   show("login"); $("#p").value="";
@@ -84,7 +86,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -103,7 +105,7 @@ function route(){
   render(VIEWS[v](new URLSearchParams(qs||"")));
   if(v==="database") bindDatabase();
 }
-function setNav(v){ document.querySelectorAll(".nav a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
+function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
