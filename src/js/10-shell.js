@@ -57,7 +57,7 @@ $("#loginform").addEventListener("submit",async e=>{
 });
 
 function enter(returning){
-  show("main"); S.booted=true; S.sid++;
+  show("main"); $("#emb").innerHTML=EMBLEM; S.booted=true; S.sid++;
   $("#who").textContent=S.user;
   $("#lvl").textContent=LVL_NAME[S.level];
   $("#sess").textContent="세션 "+hash(S.user+Date.now()).toString(16).toUpperCase().slice(0,8);
@@ -109,14 +109,20 @@ function route(){
   let [v,qs]=h.split("?");
   if(!VIEWS[v]) v="dashboard";
   S.view=v; S.doc=null; setNav(v);
-  render(VIEWS[v](new URLSearchParams(qs||"")));
+  render(viewCrumb(v)+VIEWS[v](new URLSearchParams(qs||"")));
   if(v==="database") bindDatabase();
 }
 function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
-function render(html){clearEffects();const c=$("#content");c.innerHTML=html;c.scrollTop=0}
+/* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
+const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
+  messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"]};
+function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
+const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
+function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
 function later(fn,ms){const t=setTimeout(fn,ms);S.timers.push(t);return t}
 function every(fn,ms){const t=setInterval(fn,ms);S.timers.push(t);return t}
 function listen(ev,fn,capture=false){document.addEventListener(ev,fn,capture);S.listeners.push([ev,fn,capture])}
