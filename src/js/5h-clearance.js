@@ -31,7 +31,8 @@ function showMyClearance(){
     <h4 class="clrh">보안 인가 ${n}등급</h4><p>${esc(b.what)}</p>${b.who?`<p class="dim">${esc(b.who)}</p>`:""}
     <h4 class="clrh">${c}계급</h4><p>${esc(clsBrief(c))}</p>
     <h4 class="clrh">알 필요 원칙</h4><p class="dim">${NEED_TO_KNOW}</p>
-    <table class="kv clrtab"><tr><th>등급</th><th>명칭</th><th>주로 부여되는 인원</th></tr>${[0,1,2,3,4,5].map(k=>`<tr class="${k===n?"me":""}"><td>Level ${k}</td><td>${(LVL_TAG[k])[0]}<div class="dim2">${LVL_EN[k]}</div></td><td class="dim">${esc(clrBrief(k).who.replace(/^보통\s*/,""))}</td></tr>`).join("")}</table>`,
+    <h4 class="clrh">등급 체계</h4>${clrPyramid(n)}
+    <h4 class="clrh">인원 계급 체계</h4>${classLadder(c)}`,
     buttons:[{label:"규정집 열기",act:x=>{x();go("#regs")}},{label:"닫기",primary:true,act:x=>x()}]});
 }
 document.addEventListener("click",e=>{ if(e.target.closest("#lvl")) showMyClearance() });

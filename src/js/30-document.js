@@ -121,10 +121,11 @@ function showDoc(id){
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
     ${docCover(d,need)}
+    ${docInfo(d,need,sd)}
     ${docTools(id)}
     ${resumeBar(id)}
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
-    <div class="meta"><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span>${d.subs||splitDoc(d).subs.length?`<span>부록 ${splitDoc(d).subs.length}건</span>`:""}<span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
+    <div class="meta"><span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
     ${subsBox(d)}

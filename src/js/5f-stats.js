@@ -30,7 +30,8 @@ function stats(){
     <div class="card"><div class="k">작성자</div><div class="v">${Object.keys(au).length.toLocaleString()}<small>명</small></div></div>
   </div>
   <div class="statgrid">
-    <section class="card"><div class="k">등급별 분포</div>${statBars(classRows)}</section>
+    <section class="card"><div class="k">등급별 분포</div><div class="dwrap">${donut(classRows,"전체 문서")}${statBars(classRows)}</div></section>
+    <section class="card"><div class="k">필요 인가 등급별 문서 · 내 열람 범위</div>${levelReach()}</section>
     <section class="card"><div class="k">시리즈별 분포</div>${statBars(serRows)}</section>
     <section class="card"><div class="k">많이 쓰인 태그 · 전체 ${tagN.toLocaleString()}종 (등급 태그 제외)</div>${statBars(tagRows)}</section>
     <section class="card"><div class="k">문서를 많이 쓴 작성자</div>${statBars(auRows)}</section>
