@@ -763,6 +763,20 @@ body[data-theme=light] .ochart,body[data-theme=light] .obox,body[data-theme=ligh
 body[data-theme=light] .obox,body[data-theme=light] .ohqt{background:#fff}
 @media(max-width:720px){.otree .ohqn{display:none}.ohqs{grid-template-columns:1fr}.ohqs::before,.ohq::before{display:none}.oroot::after{display:none}.oroot{padding-bottom:10px}.ohqs{padding-top:0}}
 
+/* ─── 보안 인가 · 인원 계급 ─── */
+#lvl{cursor:pointer}#lvl:hover,#lvl:focus-visible{text-decoration:underline}
+.clrnote{border:1px solid var(--line2);background:var(--bg2);padding:10px 14px;margin:12px 0;font-size:12.5px;line-height:1.75}
+.clrnote>b{color:var(--hi);margin-right:6px}.clrnote p{margin:4px 0 0}
+.clrcard{display:flex;gap:14px;align-items:center;margin-bottom:6px}
+.clrlv{width:52px;height:52px;display:grid;place-items:center;font-size:26px;font-weight:700;border:2px solid currentColor}
+.clrlv.l1{color:var(--l1)}.clrlv.l2{color:var(--l2)}.clrlv.l3{color:var(--l3)}.clrlv.l4{color:var(--l4)}.clrlv.l5{color:var(--l5)}
+.clrh{font-size:12px;letter-spacing:.12em;color:var(--amber);margin:14px 0 4px;font-weight:500}
+.clrtab{margin-top:14px;width:100%;font-size:12px}.clrtab th{text-align:left;color:var(--fg3);font-weight:400}
+.clrtab tr.me td{background:var(--bg2);color:var(--hi)}
+.ctag{display:inline-block;min-width:1.6em;text-align:center;border:1px solid var(--line2);font-size:10.5px;padding:0 4px;color:var(--fg2)}
+.pcm .lvtag{font-size:10px}
+body[data-theme=light] .clrnote{border-radius:6px;background:#f7f9fb}
+
 /* ─── 접근성 ─── */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 a:focus-visible,button:focus-visible,input:focus-visible,.content:focus-visible{outline:1px solid var(--amber);outline-offset:2px}
@@ -1005,7 +1019,9 @@ function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.loca
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
 /* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */
 const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"○",unknown:"?"};
-const LVL_TAG={1:["비밀","l1"],2:["제한","l2"],3:["기밀","l3"],4:["극비","l4"],5:["O5 전용","l5"]};
+/* 재단 보안 인가 등급 정식 명칭 (규정집 "보안 인가 등급") */
+const LVL_TAG={0:["공무 한정 사용","l1"],1:["신임","l1"],2:["제한","l2"],3:["비밀","l3"],4:["극비","l4"],5:["타우미엘","l5"]};
+const LVL_EN={0:"For Official Use Only",1:"Confidential",2:"Restricted",3:"Secret",4:"Top Secret",5:"Thaumiel"};
 const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
 function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
 const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"],["note","✎ 내 메모"]];
@@ -1013,7 +1029,9 @@ const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리�
 /* ════ 상태 ════ */
 const S = { user:"", level:2, view:"dashboard", doc:null, denied:0, booted:false, sid:0,
             recent:[], readMsgs:[], timers:[], listeners:[] };
-const LVL_NAME = {1:"Level 1 — 비밀",2:"Level 2 — 제한",3:"Level 3 — 기밀",4:"Level 4 — 극비",5:"Level 5 — 타우미엘"};
+const LVL_NAME = Object.fromEntries(Object.entries(LVL_TAG).map(([n,[t]])=>[n,`Level ${n} — ${t}`]));
+/* 인원 계급 (A~E): 사용자는 식별번호로 정함 — D-#### 는 D계급, 나머지 연구·보안 인원은 C계급 */
+const userClass=u=>/^D-?\d/i.test(u||"")?"D":"C";
 const $ = s=>document.querySelector(s);
 const esc = s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const rnd = (a,b)=>a+Math.floor(Math.random()*(b-a+1));
@@ -1106,7 +1124,8 @@ $("#loginform").addEventListener("submit",async e=>{
   S.readMsgs = prev ? prev.readMsgs||[] : [];
   store.set("user",S.user);
   msg.style.color="var(--green)";
-  msg.textContent = prev ? `인증 완료. 이전 세션 기록을 복원합니다 (위반 ${S.denied}회)` : "인증 완료. 세션을 여는 중";
+  const clr=`보안 인가 ${S.level}등급(${LVL_TAG[S.level][0]}) · ${userClass(S.user)}계급`;
+  msg.textContent = prev ? `인증 완료 — ${clr}. 이전 세션 기록을 복원합니다 (위반 ${S.denied}회)` : `인증 완료 — ${clr}. 세션을 여는 중`;
   await sleep(prev?900:600);
   if(!prev){ msg.textContent="최초 접속 — 보안 서약서 확인이 필요합니다"; await pledge() }
   enter(!!prev);
@@ -1116,6 +1135,7 @@ function enter(returning){
   show("main"); $("#emb").innerHTML=EMBLEM; S.booted=true; S.sid++;
   $("#who").textContent=S.user;
   $("#lvl").textContent=LVL_NAME[S.level];
+  $("#lvl").setAttribute("role","button"); $("#lvl").tabIndex=0; $("#lvl").title=`${LVL_EN[S.level]} · ${userClass(S.user)}계급 — 눌러서 내 보안 인가 보기`;
   $("#sess").textContent="세션 "+hash(S.user+Date.now()).toString(16).toUpperCase().slice(0,8);
   $("#feed").innerHTML="";
   saveSession();
@@ -1454,7 +1474,7 @@ function showSub(id, idx){
     <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
-    <div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
+    ${clrNeedNote(s.level)}<div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
@@ -1479,6 +1499,7 @@ function showDoc(id){
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
       <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
       <div class="sec"><h4><i>2.</i> 설명</h4><div class="body">${blackBars(rnd(30,60))}</div></div>
+      ${clrNeedNote(need)}
       ${S.denied>=3?`<div class="notice danger">귀하의 단말에 기억소거 담당 인원이 배정되었습니다. 자리에서 이동하지 마십시오.</div>`:""}
     </div>`);
     return;
@@ -1848,7 +1869,7 @@ function modal({title, html, buttons=[], dismiss=true, cls="", onOpen}){
   back.querySelectorAll(".mf button").forEach(b=>b.addEventListener("click",()=>buttons[+b.dataset.i].act(close)));
   const m={back,close}; GW.modal=m;
   if(onOpen) onOpen(back,close);
-  const first=back.querySelector("input,.mf button.primary,.mf button"); if(first) first.focus();
+  const first=back.querySelector("input,.mf button.primary,.mf button"); if(first) first.focus({preventScroll:true});
   return m;
 }
 function closeModal(){ if(GW.modal) GW.modal.close() }
@@ -2318,7 +2339,7 @@ document.addEventListener("click",e=>{
    [분류, 제목, 부서, 며칠 전, 본문] — 본문 미리보기 · 텍스트 사본 내려받기 */
 const ARCHIVE=[
  ["규정","보안 등급 및 문서 열람 권한 기준","RAISA",40,
-  "1. 인원 보안 등급\n  · Level 1 (비밀) — D계급 인원 (식별번호 D-)\n  · Level 2 (제한) — 일반 연구·보안 인원\n  · Level 3 (기밀) — 박사급·선임 인원 (DR-, MD-, R4-, L4-)\n  · Level 4 (극비) — 기지 관리자급, 재정의 코드 승인자\n  · Level 5 — O5 평의회 (본 단말 사용 불가)\n\n2. 문서 요구 권한\n  · 안전 · 무효 · 해명 등급 문서 — Level 1\n  · 유클리드 등급 문서 — Level 2\n  · 케테르 등급 문서 — Level 3\n  · 아폴리온 · 타우미엘 · 미상 — Level 4\n  · 일부 부록은 상위 문서보다 한 단계 높은 권한을 요구할 수 있음\n\n3. 열람 권한 초과 시도\n  · 모든 시도는 RAISA에 기록되며 누적 3회 시 기억소거 검토 대상\n\n4. 임시 열람\n  · 전자결재 '문서 열람 권한 신청'으로 한 단계 위 문서를 24시간 열람 가능"],
+  "1. 보안 인가 등급 (재단 규정)\n  · Level 0 (공무 한정 사용) — 격리 정보가 필요 없는 비보안 사무·잡무 인원\n  · Level 1 (신임) — 격리 시설의 사무·물류·잡무 인원 · 본 기지에서는 D계급 인원(D-)\n  · Level 2 (제한) — 대부분의 연구원·현장 요원·격리 전문가\n  · Level 3 (비밀) — 선임 연구원·프로젝트 책임자·보안 담당관 (DR-, MD-, R4-, L4-)\n  · Level 4 (극비) — 기지 이사관·보안 책임자·기동특무부대 사령관\n  · Level 5 (타우미엘) — O5 평의원 (본 단말 사용 불가)\n  · 인가 등급이 있어도 업무상 '알 필요가 있는' 정보에만 접근할 수 있음\n\n   인원 계급: A(전략 필수 인원) · B(국지 필수 인원) · C(변칙 개체 직접 취급) · D(소모성 인원) · E(노출 의심 임시 계급)\n\n2. 문서 요구 권한\n  · 안전 · 무효 · 해명 등급 문서 — Level 1\n  · 유클리드 등급 문서 — Level 2\n  · 케테르 등급 문서 — Level 3\n  · 아폴리온 · 타우미엘 · 미상 — Level 4\n  · 일부 부록은 상위 문서보다 한 단계 높은 권한을 요구할 수 있음\n\n3. 열람 권한 초과 시도\n  · 모든 시도는 RAISA에 기록되며 누적 3회 시 기억소거 검토 대상\n\n4. 임시 열람\n  · 전자결재 '문서 열람 권한 신청'으로 한 단계 위 문서를 24시간 열람 가능"],
  ["규정","격리 등급 분류 기준","격리 절차 위원회",120,
   "안전 (Safe)\n  충분히 이해되어 있어 신뢰성 있게 격리할 수 있는 개체. 위험하지 않다는 뜻이 아니다.\n\n유클리드 (Euclid)\n  충분히 이해되지 않았거나 본질적으로 예측할 수 없는 개체. 격리가 항상 신뢰할 수 있는 것은 아니다.\n\n케테르 (Keter)\n  지속적으로 격리하기 극도로 어렵거나, 격리 절차가 광범위하고 복잡한 개체.\n\n아폴리온 (Apollyon)\n  격리할 수 없으며, 격리 실패가 임박했거나 이미 진행 중인 개체.\n\n타우미엘 (Thaumiel)\n  다른 변칙 개체를 격리하거나 대응하는 데 재단이 사용하는 개체. 존재 자체가 극비.\n\n무효 (Neutralized) · 해명 (Explained)\n  변칙성을 잃었거나 과학적으로 완전히 설명된 개체."],
  ["안내","SCiPNET 단말 이용 안내 (명령어 · 단축키)","전산팀",25,
@@ -2377,7 +2398,7 @@ document.addEventListener("submit",e=>{
 /* ════ 직원 주소록 ════ [식별번호, 이름, 부서, 직책, 상태] */
 const DEPTS=["기지 관리부","연구부 · 격리동 B","보안부","RAISA 분소","인사관리과","시설관리과","전산팀","의무실","복리후생팀"];
 const DIR=[
- ["A-19-0001","<span class='redact'>████</span>","기지 관리부","제19기지 관리자","근무 중"],
+ ["A-19-0001","<span class='redact'>████</span>","기지 관리부","제19기지 이사관","근무 중"],
  ["A-19-0007","배유나","기지 관리부","관리자 비서실장","근무 중"],
  ["R-19-1177","정우진","연구부 · 격리동 B","선임 연구원 (팀장)","근무 중"],
  ["R-19-0412","서하윤","연구부 · 격리동 B","연구원","근무 중"],
@@ -2416,7 +2437,7 @@ const DEPT_INFO={
  "RAISA 분소":     {hq:"보안 본부",loc:"관리동 3층",ext:"4-0700",job:"정보보안 심사, 열람 기록 감사, 문서 등급 관리",dot:"RAISA 본부 파견"},
 };
 const HQS=["관리 본부","연구 본부","보안 본부"];
-const RANK=t=>/관리자$/.test(t)?0:/(팀장|과장|실장|장\)|의무관)/.test(t)?1:/(선임|주임|전문가|심사)/.test(t)?2:3;
+const RANK=t=>/(관리자|이사관)$/.test(t)?0:/(팀장|과장|실장|장\)|의무관)/.test(t)?1:/(선임|주임|전문가|심사)/.test(t)?2:3;
 const deptHead=d=>DIR.filter(r=>r[2]===d).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
 const pName=r=>r[1].replace(/<[^>]+>/g,"")||"[편집됨]";
 const initials=r=>{const n=pName(r).replace(/[^가-힣A-Za-z]/g,"");return n?(/[가-힣]/.test(n)?n.slice(-2):n.slice(0,2).toUpperCase()):"?"};
@@ -2428,13 +2449,13 @@ function orgBox(d,cur){
 function orgChart(){
   const top=DIR.find(r=>r[0]==="A-19-0001");
   return `<div class="ochart" role="tree" aria-label="SITE-19 조직 체계">
-    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 관리자</b><span>${top?top[1]:""}</span><span class="dim2">기지 관리부 · 비서실</span></a></div>
+    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 이사관</b><span class="dim2">Site Director</span><span>${top?top[1]:""}</span><span>${clrTag("A-19-0001")}</span></a></div>
     <div class="ohqs">${HQS.map(hq=>`<div class="ohq"><div class="ohqt">${hq}</div>
       <div class="odepts">${DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(d=>orgBox(d)).join("")}</div></div>`).join("")}</div></div>`;
 }
 function personCard(r){
   return `<button type="button" class="pcard" data-person="${r[0]}"><span class="pav" aria-hidden="true">${initials(r)}</span>
-    <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
+    <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span>${clrTag(r[0])}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
 }
 function org(qs){
   const dept=(qs&&qs.get("d"))||"", q=((qs&&qs.get("q"))||"").trim();
@@ -2459,8 +2480,8 @@ function org(qs){
   } else {
     const rows=[...DIR].sort((a,b)=>DEPTS.indexOf(a[2])-DEPTS.indexOf(b[2])||RANK(a[3])-RANK(b[3]));
     main=`${orgChart()}<h4 class="osub">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
-      <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>내선</th><th>상태</th></tr>
-      ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
+      <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>인가 · 계급</th><th>내선</th><th>상태</th></tr>
+      ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm" style="white-space:nowrap">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td style="white-space:nowrap">${clrTag(r[0])}</td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
   }
   return `<h2 class="ph">조직<span>도</span> · SITE-19</h2>
   <div class="orgwrap">${side}<div>${form}${main}
@@ -2472,7 +2493,7 @@ document.addEventListener("click",e=>{
   const r=dirById(b.dataset.person); if(!r) return; const I=DEPT_INFO[r[2]]||{};
   modal({title:"인사 카드",html:`<div class="pfull"><span class="pav lg" aria-hidden="true">${initials(r)}</span><div><b class="pn2">${r[1]}</b><div class="dim">${r[3]}</div></div></div>
     <table class="kv" style="margin-top:12px"><tr><td class="dim2">식별번호</td><td>${r[0]}</td></tr><tr><td class="dim2">소속</td><td>${I.hq?I.hq+" › ":""}${r[2]}</td></tr>
-    <tr><td class="dim2">근무지</td><td>${I.loc||"—"}</td></tr><tr><td class="dim2">상태</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>
+    <tr><td class="dim2">근무지</td><td>${I.loc||"—"}</td></tr><tr><td class="dim2">재단 직함</td><td>${staffClr(r[0])[2]}</td></tr><tr><td class="dim2">보안 인가</td><td>${lvLabel(staffClr(r[0])[0])}</td></tr><tr><td class="dim2">인원 계급</td><td>${staffClr(r[0])[1]}계급 <div class="dim2" style="font-size:11.5px">${esc(clsBrief(staffClr(r[0])[1]))}</div></td></tr><tr><td class="dim2">상태</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>
     <tr><td class="dim2">내선</td><td>4-${srnd(r[0]+"e",1,9)}** <span class="dim2">(조직도 표에서 사유 입력 후 열람)</span></td></tr></table>`,
     buttons:[{label:"부서 보기",act:c=>{c();go("#org?d="+encodeURIComponent(r[2]))}},{label:"메일 쓰기",primary:true,act:c=>{c();go("#messages?new=1&to="+encodeURIComponent(r[0]))}}]});
 });
@@ -2622,7 +2643,7 @@ function settings(){
   return `<h2 class="ph">환경 <span>설정</span> · ${esc(S.user)}</h2>
   <div class="setgrid">
     <section class="card"><div class="k">내 정보</div>
-      <table class="kv"><tr><td class="dim2">식별번호</td><td>${esc(S.user)}</td></tr><tr><td class="dim2">보안 등급</td><td>${LVL_NAME[S.level]}</td></tr>
+      <table class="kv"><tr><td class="dim2">식별번호</td><td>${esc(S.user)}</td></tr><tr><td class="dim2">보안 인가</td><td>${LVL_NAME[S.level]} <span class="dim2">(${LVL_EN[S.level]})</span></td></tr><tr><td class="dim2">인원 계급</td><td>${userClass(S.user)}계급</td></tr>
       <tr><td class="dim2">소속</td><td>SITE-19 격리동 B</td></tr><tr><td class="dim2">세션</td><td>${$("#sess").textContent}</td></tr>
       <tr><td class="dim2">누적 위반</td><td class="${S.denied?"amber":""}">${S.denied}회</td></tr><tr><td class="dim2">열람 기록</td><td>${S.recent.length}건 · 즐겨찾기 ${favs().length}건</td></tr></table></section>
     <section class="card"><div class="k">화면 테마</div>
@@ -3098,10 +3119,11 @@ document.addEventListener("submit",e=>{
    ════════════════════════════════════════════ */
 const COURSES=[
  {id:"sec",title:"정보보안 기초",req:true,due:25,min:20,dept:"RAISA",lessons:[
-   ["보안 등급의 이해","재단 문서는 Level 1(비밀)부터 Level 5(O5 전용)까지 나뉩니다.\n\n· 문서마다 요구 권한이 정해져 있고, 현재 권한보다 높은 문서는 열람할 수 없습니다.\n· 업무상 꼭 필요하면 전자결재로 한 단계 위 문서의 임시 열람(24시간)을 신청합니다.\n· 권한을 넘는 열람 시도는 모두 기록되며, 누적 3회면 검토 대상이 됩니다."],
+   ["보안 등급의 이해","재단 보안 인가는 Level 0(공무 한정 사용)·1(신임)·2(제한)·3(비밀)·4(극비)·5(타우미엘)로 나뉩니다. 등급이 있어도 업무상 '알 필요가 있는' 정보만 열람할 수 있습니다.\n\n· 문서마다 요구 권한이 정해져 있고, 현재 권한보다 높은 문서는 열람할 수 없습니다.\n· 업무상 꼭 필요하면 전자결재로 한 단계 위 문서의 임시 열람(24시간)을 신청합니다.\n· 권한을 넘는 열람 시도는 모두 기록되며, 누적 3회면 검토 대상이 됩니다."],
    ["정보 반출 금지","· 문서 본문 복사, 화면 촬영, 외부 저장장치 사용은 금지입니다.\n· 모든 화면에는 열람자 식별번호가 워터마크로 표시됩니다.\n· 출력물은 사용 후 24시간 안에 파쇄합니다.\n· 보안 USB는 보안부에 업무 요청으로 신청합니다."],
    ["계정과 인증 코드","· 인증 코드는 90일마다 바꿉니다.\n· 최근 3회 안에 쓴 코드는 다시 쓸 수 없습니다.\n· 자리를 비울 때는 로그아웃하거나 화면을 잠급니다. 일정 시간 입력이 없으면 자동으로 로그아웃됩니다."]],
-  quiz:[["타 문서 임시 열람 승인은 최대 몇 시간 유효합니까?",["1시간","8시간","24시간","무기한"],2],
+  quiz:[["보안 인가 3등급의 정식 명칭은?",["신임","제한","비밀","극비"],2],
+        ["타 문서 임시 열람 승인은 최대 몇 시간 유효합니까?",["1시간","8시간","24시간","무기한"],2],
         ["권한을 넘는 열람 시도가 몇 회 누적되면 검토 대상이 됩니까?",["1회","3회","5회","10회"],1],
         ["출력물은 언제까지 파쇄해야 합니까?",["사용 후 24시간 안","일주일 안","퇴사 시","파쇄할 필요 없음"],0],
         ["인증 코드 변경 주기는?",["30일","60일","90일","1년"],2],
@@ -3390,6 +3412,57 @@ document.addEventListener("submit",e=>{
   q?p.set("q",q):p.delete("q"); go("#regs"+(p.toString()?"?"+p:""));
 });
 
+/* ════════════════════════════════════════════
+   보안 인가 등급 · 인원 계급 · 직함 — 규정집(RULES, 5g-regs.js)의 정식 규정을 화면 곳곳에 적용
+   상단 등급 표시 클릭 → 내 인가 카드 / 문서 접근 거부 시 해당 등급 규정 / 조직도 인가·계급
+   ════════════════════════════════════════════ */
+/* 규정 본문을 문장 단위로: [무엇에 접근하는 등급인가, 누구에게 부여되는가] */
+function clrBrief(n){
+  const s=typeof clearanceInfo==="function"&&clearanceInfo(n); if(!s) return {what:"",who:""};
+  const ss=s.body.split(/(?<=다\.)\s+/);
+  return {what:ss[0]||"", who:ss.find(x=>/부여/.test(x))||ss[1]||""};
+}
+function clsBrief(c){
+  const s=typeof personnelClassInfo==="function"&&personnelClassInfo(c); if(!s) return "";
+  return s.body.split(/(?<=다\.)\s+/)[0]||"";
+}
+const NEED_TO_KNOW="인가 등급이 있다고 해서 그 등급의 모든 정보에 접근할 수 있는 것은 아닙니다. 재단 인원은 업무상 \"알 필요가 있는\"(need-to-know) 정보에만 접근할 수 있으며, 부서별 정보공개 담당관의 재량을 따릅니다.";
+const lvLabel=n=>`Level ${n} · ${(LVL_TAG[n]||LVL_TAG[4])[0]} <span class="dim2">(${LVL_EN[n]||""})</span>`;
+
+/* 문서 접근 거부 화면에 붙는 규정 안내 */
+function clrNeedNote(need){
+  const b=clrBrief(need);
+  return `<div class="clrnote"><b>보안 인가 ${need}등급 규정</b> ${lvLabel(need)}
+    <p>${esc(b.what)}</p>${b.who?`<p class="dim">${esc(b.who)}</p>`:""}
+    <p class="dim2">현재 귀하는 Level ${S.level} (${(LVL_TAG[S.level]||LVL_TAG[1])[0]}) · ${userClass(S.user)}계급입니다. ${NEED_TO_KNOW} <a class="xref" href="#regs">규정집 보기</a></p></div>`;
+}
+
+/* 내 보안 인가 카드 (상단 등급 표시를 누르면) */
+function showMyClearance(){
+  const n=S.level, c=userClass(S.user), b=clrBrief(n);
+  modal({title:"보안 인가 · 인원 계급",cls:"wide",html:`
+    <div class="clrcard"><div class="clrlv l${Math.min(5,Math.max(1,n))}">${n}</div><div><b class="hi" style="font-size:15px">${esc(S.user)}</b><div>${lvLabel(n)} · ${c}계급</div></div></div>
+    <h4 class="clrh">보안 인가 ${n}등급</h4><p>${esc(b.what)}</p>${b.who?`<p class="dim">${esc(b.who)}</p>`:""}
+    <h4 class="clrh">${c}계급</h4><p>${esc(clsBrief(c))}</p>
+    <h4 class="clrh">알 필요 원칙</h4><p class="dim">${NEED_TO_KNOW}</p>
+    <table class="kv clrtab"><tr><th>등급</th><th>명칭</th><th>주로 부여되는 인원</th></tr>${[0,1,2,3,4,5].map(k=>`<tr class="${k===n?"me":""}"><td>Level ${k}</td><td>${(LVL_TAG[k])[0]}<div class="dim2">${LVL_EN[k]}</div></td><td class="dim">${esc(clrBrief(k).who.replace(/^보통\s*/,""))}</td></tr>`).join("")}</table>`,
+    buttons:[{label:"규정집 열기",act:x=>{x();go("#regs")}},{label:"닫기",primary:true,act:x=>x()}]});
+}
+document.addEventListener("click",e=>{ if(e.target.closest("#lvl")) showMyClearance() });
+
+/* 조직도: 직원별 보안 인가 등급 · 인원 계급 · 재단 표준 직함 */
+const STAFF_CLR={
+ "A-19-0001":[4,"A","기지 이사관"], "A-19-0007":[3,"B","행정직"],
+ "R-19-1177":[3,"C","선임 연구원"], "R-19-0412":[2,"C","연구원"], "R-19-0893":[2,"C","격리 전문가"], "R-19-1530":[2,"C","연구원"], "R-19-1802":[2,"C","연구 조교"],
+ "A-19-0120":[3,"C","보안담당관 (선임)"], "A-19-0051":[2,"C","보안담당관"], "A-19-0233":[2,"C","보안담당관"],
+ "RA-07":[4,"B","정보공개 담당관"],
+ "A-19-0310":[2,"B","행정직"], "A-19-0344":[1,"B","행정직"], "A-19-0402":[1,"C","격리 시설 기술자"], "A-19-0517":[1,"B","행정직"],
+ "M-19-0021":[2,"C","의료 인원"], "M-19-0035":[2,"C","의료 인원"], "A-19-0620":[0,"B","행정직"],
+};
+const staffClr=id=>STAFF_CLR[id]||[1,"C","직원"];
+const clrTag=id=>{const [n,c]=staffClr(id);return `<span class="lvtag ${(LVL_TAG[n]||LVL_TAG[1])[1]}" title="${LVL_EN[n]}">L${n} ${(LVL_TAG[n]||LVL_TAG[1])[0]}</span> <span class="ctag" title="${c}계급">${c}</span>`};
+document.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ")&&e.target.id==="lvl"){ e.preventDefault(); showMyClearance() } });
+
 /* ════ 피드 ════ */
 const FEED_T=[
  ()=>[`${pick(Object.keys(SCP))} 격리 상태 정상`,""],
@@ -3506,7 +3579,7 @@ $("#cmdline").addEventListener("keydown",e=>{
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
     case "history": go("#history"); break;
-    case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]}\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n열람    ${S.recent.length}건\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${srnd(S.user,2,7)}건의 불일치를 포함합니다.`); break;
+    case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]} (${LVL_EN[S.level]})\n계급    ${userClass(S.user)}계급\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n열람    ${S.recent.length}건\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${srnd(S.user,2,7)}건의 불일치를 포함합니다.`); break;
     case "fx": toggleFx(); out(`화면 효과 ${FX.on?"활성화":"비활성화"}. (깜빡임·글리치·흔들림)`); break;
     case "clear": route(); break;
     case "logout": logout(); break;

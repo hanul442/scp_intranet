@@ -79,7 +79,7 @@ function showSub(id, idx){
     <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
-    <div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
+    ${clrNeedNote(s.level)}<div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
@@ -104,6 +104,7 @@ function showDoc(id){
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
       <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
       <div class="sec"><h4><i>2.</i> 설명</h4><div class="body">${blackBars(rnd(30,60))}</div></div>
+      ${clrNeedNote(need)}
       ${S.denied>=3?`<div class="notice danger">귀하의 단말에 기억소거 담당 인원이 배정되었습니다. 자리에서 이동하지 마십시오.</div>`:""}
     </div>`);
     return;

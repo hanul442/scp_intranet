@@ -34,7 +34,7 @@ function modal({title, html, buttons=[], dismiss=true, cls="", onOpen}){
   back.querySelectorAll(".mf button").forEach(b=>b.addEventListener("click",()=>buttons[+b.dataset.i].act(close)));
   const m={back,close}; GW.modal=m;
   if(onOpen) onOpen(back,close);
-  const first=back.querySelector("input,.mf button.primary,.mf button"); if(first) first.focus();
+  const first=back.querySelector("input,.mf button.primary,.mf button"); if(first) first.focus({preventScroll:true});
   return m;
 }
 function closeModal(){ if(GW.modal) GW.modal.close() }
