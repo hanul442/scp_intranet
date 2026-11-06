@@ -2,6 +2,8 @@
 
 SCP 재단 인트라넷 느낌의 정적 팬 사이트. 콘텐츠는 SCP 재단 한국어 위키(scpko.wikidot.com)에서 가져오며 **CC BY-SA 3.0** 으로 배포됩니다. 각 문서 하단에 원 저자·역자·출처를 표기합니다.
 
+**사이트 주소:** https://hanul442.github.io/scp_intranet/
+
 ## 구조
 - `crawler.py` — scpko 위키에서 SCP 문서를 긁어 `data/scp.json` 생성 (`python3 crawler.py 173 049 ...`, 인자 없으면 기본 20개)
 - `normalize.py` — 등급 표기 정리(취소선 소실, `유클리드/잠재적 케테르` 등)와 위키 잔여물 제거. 빌드할 때 자동 적용
