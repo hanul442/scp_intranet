@@ -755,6 +755,20 @@ body[data-theme=light] .ochart,body[data-theme=light] .obox,body[data-theme=ligh
 body[data-theme=light] .obox,body[data-theme=light] .ohqt{background:#fff}
 @media(max-width:720px){.otree .ohqn{display:none}.ohqs{grid-template-columns:1fr}.ohqs::before,.ohq::before{display:none}.oroot::after{display:none}.oroot{padding-bottom:10px}.ohqs{padding-top:0}}
 
+/* ─── 보안 인가 · 인원 계급 ─── */
+#lvl{cursor:pointer}#lvl:hover,#lvl:focus-visible{text-decoration:underline}
+.clrnote{border:1px solid var(--line2);background:var(--bg2);padding:10px 14px;margin:12px 0;font-size:12.5px;line-height:1.75}
+.clrnote>b{color:var(--hi);margin-right:6px}.clrnote p{margin:4px 0 0}
+.clrcard{display:flex;gap:14px;align-items:center;margin-bottom:6px}
+.clrlv{width:52px;height:52px;display:grid;place-items:center;font-size:26px;font-weight:700;border:2px solid currentColor}
+.clrlv.l1{color:var(--l1)}.clrlv.l2{color:var(--l2)}.clrlv.l3{color:var(--l3)}.clrlv.l4{color:var(--l4)}.clrlv.l5{color:var(--l5)}
+.clrh{font-size:12px;letter-spacing:.12em;color:var(--amber);margin:14px 0 4px;font-weight:500}
+.clrtab{margin-top:14px;width:100%;font-size:12px}.clrtab th{text-align:left;color:var(--fg3);font-weight:400}
+.clrtab tr.me td{background:var(--bg2);color:var(--hi)}
+.ctag{display:inline-block;min-width:1.6em;text-align:center;border:1px solid var(--line2);font-size:10.5px;padding:0 4px;color:var(--fg2)}
+.pcm .lvtag{font-size:10px}
+body[data-theme=light] .clrnote{border-radius:6px;background:#f7f9fb}
+
 /* ─── 접근성 ─── */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 a:focus-visible,button:focus-visible,input:focus-visible,.content:focus-visible{outline:1px solid var(--amber);outline-offset:2px}

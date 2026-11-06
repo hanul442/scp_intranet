@@ -5,7 +5,7 @@
 /* ════ 직원 주소록 ════ [식별번호, 이름, 부서, 직책, 상태] */
 const DEPTS=["기지 관리부","연구부 · 격리동 B","보안부","RAISA 분소","인사관리과","시설관리과","전산팀","의무실","복리후생팀"];
 const DIR=[
- ["A-19-0001","<span class='redact'>████</span>","기지 관리부","제19기지 관리자","근무 중"],
+ ["A-19-0001","<span class='redact'>████</span>","기지 관리부","제19기지 이사관","근무 중"],
  ["A-19-0007","배유나","기지 관리부","관리자 비서실장","근무 중"],
  ["R-19-1177","정우진","연구부 · 격리동 B","선임 연구원 (팀장)","근무 중"],
  ["R-19-0412","서하윤","연구부 · 격리동 B","연구원","근무 중"],
@@ -44,7 +44,7 @@ const DEPT_INFO={
  "RAISA 분소":     {hq:"보안 본부",loc:"관리동 3층",ext:"4-0700",job:"정보보안 심사, 열람 기록 감사, 문서 등급 관리",dot:"RAISA 본부 파견"},
 };
 const HQS=["관리 본부","연구 본부","보안 본부"];
-const RANK=t=>/관리자$/.test(t)?0:/(팀장|과장|실장|장\)|의무관)/.test(t)?1:/(선임|주임|전문가|심사)/.test(t)?2:3;
+const RANK=t=>/(관리자|이사관)$/.test(t)?0:/(팀장|과장|실장|장\)|의무관)/.test(t)?1:/(선임|주임|전문가|심사)/.test(t)?2:3;
 const deptHead=d=>DIR.filter(r=>r[2]===d).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
 const pName=r=>r[1].replace(/<[^>]+>/g,"")||"[편집됨]";
 const initials=r=>{const n=pName(r).replace(/[^가-힣A-Za-z]/g,"");return n?(/[가-힣]/.test(n)?n.slice(-2):n.slice(0,2).toUpperCase()):"?"};
@@ -56,13 +56,13 @@ function orgBox(d,cur){
 function orgChart(){
   const top=DIR.find(r=>r[0]==="A-19-0001");
   return `<div class="ochart" role="tree" aria-label="SITE-19 조직 체계">
-    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 관리자</b><span>${top?top[1]:""}</span><span class="dim2">기지 관리부 · 비서실</span></a></div>
+    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 이사관</b><span class="dim2">Site Director</span><span>${top?top[1]:""}</span><span>${clrTag("A-19-0001")}</span></a></div>
     <div class="ohqs">${HQS.map(hq=>`<div class="ohq"><div class="ohqt">${hq}</div>
       <div class="odepts">${DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(d=>orgBox(d)).join("")}</div></div>`).join("")}</div></div>`;
 }
 function personCard(r){
   return `<button type="button" class="pcard" data-person="${r[0]}"><span class="pav" aria-hidden="true">${initials(r)}</span>
-    <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
+    <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span>${clrTag(r[0])}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
 }
 function org(qs){
   const dept=(qs&&qs.get("d"))||"", q=((qs&&qs.get("q"))||"").trim();
@@ -87,8 +87,8 @@ function org(qs){
   } else {
     const rows=[...DIR].sort((a,b)=>DEPTS.indexOf(a[2])-DEPTS.indexOf(b[2])||RANK(a[3])-RANK(b[3]));
     main=`${orgChart()}<h4 class="osub">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
-      <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>내선</th><th>상태</th></tr>
-      ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
+      <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>인가 · 계급</th><th>내선</th><th>상태</th></tr>
+      ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm" style="white-space:nowrap">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td style="white-space:nowrap">${clrTag(r[0])}</td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
   }
   return `<h2 class="ph">조직<span>도</span> · SITE-19</h2>
   <div class="orgwrap">${side}<div>${form}${main}
@@ -100,7 +100,7 @@ document.addEventListener("click",e=>{
   const r=dirById(b.dataset.person); if(!r) return; const I=DEPT_INFO[r[2]]||{};
   modal({title:"인사 카드",html:`<div class="pfull"><span class="pav lg" aria-hidden="true">${initials(r)}</span><div><b class="pn2">${r[1]}</b><div class="dim">${r[3]}</div></div></div>
     <table class="kv" style="margin-top:12px"><tr><td class="dim2">식별번호</td><td>${r[0]}</td></tr><tr><td class="dim2">소속</td><td>${I.hq?I.hq+" › ":""}${r[2]}</td></tr>
-    <tr><td class="dim2">근무지</td><td>${I.loc||"—"}</td></tr><tr><td class="dim2">상태</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>
+    <tr><td class="dim2">근무지</td><td>${I.loc||"—"}</td></tr><tr><td class="dim2">재단 직함</td><td>${staffClr(r[0])[2]}</td></tr><tr><td class="dim2">보안 인가</td><td>${lvLabel(staffClr(r[0])[0])}</td></tr><tr><td class="dim2">인원 계급</td><td>${staffClr(r[0])[1]}계급 <div class="dim2" style="font-size:11.5px">${esc(clsBrief(staffClr(r[0])[1]))}</div></td></tr><tr><td class="dim2">상태</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>
     <tr><td class="dim2">내선</td><td>4-${srnd(r[0]+"e",1,9)}** <span class="dim2">(조직도 표에서 사유 입력 후 열람)</span></td></tr></table>`,
     buttons:[{label:"부서 보기",act:c=>{c();go("#org?d="+encodeURIComponent(r[2]))}},{label:"메일 쓰기",primary:true,act:c=>{c();go("#messages?new=1&to="+encodeURIComponent(r[0]))}}]});
 });
@@ -250,7 +250,7 @@ function settings(){
   return `<h2 class="ph">환경 <span>설정</span> · ${esc(S.user)}</h2>
   <div class="setgrid">
     <section class="card"><div class="k">내 정보</div>
-      <table class="kv"><tr><td class="dim2">식별번호</td><td>${esc(S.user)}</td></tr><tr><td class="dim2">보안 등급</td><td>${LVL_NAME[S.level]}</td></tr>
+      <table class="kv"><tr><td class="dim2">식별번호</td><td>${esc(S.user)}</td></tr><tr><td class="dim2">보안 인가</td><td>${LVL_NAME[S.level]} <span class="dim2">(${LVL_EN[S.level]})</span></td></tr><tr><td class="dim2">인원 계급</td><td>${userClass(S.user)}계급</td></tr>
       <tr><td class="dim2">소속</td><td>SITE-19 격리동 B</td></tr><tr><td class="dim2">세션</td><td>${$("#sess").textContent}</td></tr>
       <tr><td class="dim2">누적 위반</td><td class="${S.denied?"amber":""}">${S.denied}회</td></tr><tr><td class="dim2">열람 기록</td><td>${S.recent.length}건 · 즐겨찾기 ${favs().length}건</td></tr></table></section>
     <section class="card"><div class="k">화면 테마</div>

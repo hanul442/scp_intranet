@@ -50,7 +50,8 @@ $("#loginform").addEventListener("submit",async e=>{
   S.readMsgs = prev ? prev.readMsgs||[] : [];
   store.set("user",S.user);
   msg.style.color="var(--green)";
-  msg.textContent = prev ? `인증 완료. 이전 세션 기록을 복원합니다 (위반 ${S.denied}회)` : "인증 완료. 세션을 여는 중";
+  const clr=`보안 인가 ${S.level}등급(${LVL_TAG[S.level][0]}) · ${userClass(S.user)}계급`;
+  msg.textContent = prev ? `인증 완료 — ${clr}. 이전 세션 기록을 복원합니다 (위반 ${S.denied}회)` : `인증 완료 — ${clr}. 세션을 여는 중`;
   await sleep(prev?900:600);
   if(!prev){ msg.textContent="최초 접속 — 보안 서약서 확인이 필요합니다"; await pledge() }
   enter(!!prev);
@@ -60,6 +61,7 @@ function enter(returning){
   show("main"); $("#emb").innerHTML=EMBLEM; S.booted=true; S.sid++;
   $("#who").textContent=S.user;
   $("#lvl").textContent=LVL_NAME[S.level];
+  $("#lvl").setAttribute("role","button"); $("#lvl").tabIndex=0; $("#lvl").title=`${LVL_EN[S.level]} · ${userClass(S.user)}계급 — 눌러서 내 보안 인가 보기`;
   $("#sess").textContent="세션 "+hash(S.user+Date.now()).toString(16).toUpperCase().slice(0,8);
   $("#feed").innerHTML="";
   saveSession();
