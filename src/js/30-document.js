@@ -84,9 +84,10 @@ function showSub(id, idx){
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
+  ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
   <div class="sec"><div class="body">${linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id)}</div></div>
-  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`);
+  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
 /* ════ 문서 열람 ════ */
@@ -120,16 +121,19 @@ function showDoc(id){
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
     ${docCover(d,need)}
     ${docTools(id)}
+    ${resumeBar(id)}
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
     <div class="meta"><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span>${d.subs||splitDoc(d).subs.length?`<span>부록 ${splitDoc(d).subs.length}건</span>`:""}<span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
+    ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
     ${subsBox(d)}
+    ${similarBox(d)}
     ${clsBanner(need)}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
     ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
   </div>`);
-  docEffects(id);
+  afterDocRender(id); docEffects(id);
 }
 function attrib(d){return `<div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · CC BY-SA 3.0</div>`}
 
