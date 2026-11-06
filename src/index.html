@@ -39,7 +39,9 @@
     <span class="dim site">SITE-19 · 격리동 B</span>
     <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
     <span class="sp"></span>
-    <span id="who" class="dim"></span>
+    <form id="gsearch" class="gsearch" role="search"><label for="gq" class="sr">통합 검색</label><input id="gq" name="q" type="search" placeholder="통합 검색  Ctrl+K" autocomplete="off" spellcheck="false"></form>
+    <button type="button" class="audio-btn bell" id="bell" aria-label="알림" aria-expanded="false" aria-controls="notipanel">알림 <span id="belln" class="amber"></span></button>
+    <a id="who" class="dim" href="#settings" title="환경 설정"></a>
     <span class="lvl" id="lvl"></span>
     <span id="clock" class="dim"></span>
     <button type="button" class="audio-btn" id="fxbtn" title="깜빡임·글리치·흔들림 효과 켜기/끄기" aria-pressed="true">FX ON</button>
@@ -51,7 +53,7 @@
     <a href="#board" data-v="board">게시판</a>
     <a href="#approval" data-v="approval">전자결재 <span id="apprn" class="amber"></span></a>
     <a href="#calendar" data-v="calendar">일정</a>
-    <a href="#personnel" data-v="personnel">조직도</a>
+    <a href="#org" data-v="org">조직도</a>
     <a href="#archive" data-v="archive">자료실</a>
     <span class="sp"></span>
     <span class="dim2 gnbnote">SCP 재단 그룹웨어 · 사내 전용</span>
@@ -68,6 +70,9 @@
       <a href="#approval" data-v="approval" class="mob">전자결재</a>
       <a href="#calendar" data-v="calendar" class="mob">일정</a>
       <a href="#archive" data-v="archive" class="mob">자료실</a>
+      <a href="#org" data-v="org" class="mob">조직도</a>
+      <a href="#search" data-v="search" class="mob">통합 검색</a>
+      <a href="#settings" data-v="settings" class="mob">설정</a>
       <div class="sect">제한</div>
       <a href="#o5" data-v="o5" class="dim2">O5 평의회 기록</a>
       <div class="foot">SCiPNET v4.17.2<br>RAISA 감사 활성<br><span id="sess"></span></div>
@@ -89,6 +94,7 @@
 <div id="wm" aria-hidden="true"></div>
 <div id="printhdr" aria-hidden="true"></div>
 <div id="toasts" aria-live="polite"></div>
+<div id="notipanel" class="notipanel" hidden></div>
 <div id="glitch"></div>
 <div class="eyes" id="eyes"></div>
 

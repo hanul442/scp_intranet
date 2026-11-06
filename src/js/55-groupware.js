@@ -7,7 +7,7 @@
 function toast(text, cls=""){
   const box=$("#toasts"); if(!box) return;
   const el=document.createElement("div"); el.className="toast "+cls; el.setAttribute("role","status"); el.innerHTML=text;
-  box.appendChild(el);
+  box.appendChild(el); notiLog(text,cls);
   setTimeout(()=>el.classList.add("out"),4200); setTimeout(()=>el.remove(),4700);
 }
 /* 모달 하나만 띄움. buttons: [{label, primary, act(close)}] · dismiss=false 면 Esc로 닫을 수 없음 */
@@ -133,7 +133,7 @@ function expiryWarning(){
 
 /* ─── 로그인 직후 그룹웨어 시작 ─── */
 function groupwareStart(returning){
-  GW.copyTries=0; drawWatermark(); startIdleWatch(); apprWatch(); apprBadge();
+  GW.copyTries=0; workspaceStart(); drawWatermark(); startIdleWatch(); apprWatch(); apprBadge();
   sessionLoop(drawWatermark, 60000);
   sessionLater(popupNotice, 700);
   if(returning){
@@ -182,12 +182,16 @@ const BOARD=[
 const BOARD_TAG={ "필독":"red", "보안":"amber" };
 function boardViews(no){ return no===1247?0:srnd("v"+no,38,612)+(store.get("bread_"+S.user,[]).includes(no)?1:0) }
 function board(qs){
+  if(qs&&qs.get("tab")==="free") return freeBoard(qs);
   const no=+(qs&&qs.get("no"));
   if(no) return boardPost(no);
-  return `<h2 class="ph">공지사항 <span>게시판</span> · 전 직원</h2>
-  <div class="bbar"><span class="dim2">전체 ${BOARD.length+1239}건 · 1 / 104 페이지</span><span class="sp"></span><button type="button" class="btn" data-gw="write">글쓰기</button></div>
+  const q=((qs&&qs.get("q"))||"").trim();
+  const rows=BOARD.filter(b=>!q||(b[2]+b[6]).includes(q));
+  return `<h2 class="ph">공지사항 <span>게시판</span> · 전 직원</h2>${boardTabs("notice")}
+  <form class="search" data-bq><label for="bq" class="sr">공지 검색</label><input id="bq" name="q" type="search" placeholder="제목·내용 검색" value="${esc(q)}" autocomplete="off"><button class="btn" type="submit">검색</button></form>
+  <div class="bbar"><span class="dim2">${q?`검색 결과 ${rows.length}건`:`전체 ${BOARD.length+1239}건 · 1 / 104 페이지`}</span><span class="sp"></span><button type="button" class="btn" data-gw="write">글쓰기</button></div>
   <table class="board"><tr><th class="c">번호</th><th>제목</th><th>작성자</th><th class="c">등록일</th><th class="c">조회</th></tr>
-  ${BOARD.map(([n,tag,t,who,ago,att,,cm])=>`<tr class="row" data-href="#board?no=${n}"><td class="c dim2">${tag==="필독"?`<span class="red">공지</span>`:n}</td>
+  ${rows.map(([n,tag,t,who,ago,att,,cm])=>`<tr class="row" data-href="#board?no=${n}"><td class="c dim2">${tag==="필독"?`<span class="red">공지</span>`:n}</td>
     <td>${tag?`<span class="tag ${BOARD_TAG[tag]}">[${tag}]</span> `:""}${rowLink("#board?no="+n,esc(t),"")}${cm.length?` <span class="amber cmn">[${cm.length}]</span>`:""}${att?` <span class="att" title="첨부파일">📎</span>`:""}${ago<2?` <span class="new">N</span>`:""}</td>
     <td class="dim">${esc(who)}</td><td class="c dim">${daysAgo(ago).slice(5)}</td><td class="c dim2">${boardViews(n)}</td></tr>`).join("")}
   <tr class="del"><td class="c dim2">1240</td><td class="dim2">삭제된 게시물입니다.</td><td class="dim2">—</td><td class="c dim2">${daysAgo(15).slice(5)}</td><td class="c dim2">—</td></tr>
@@ -217,10 +221,11 @@ document.addEventListener("click",e=>{
   const k=b.dataset.gw;
   if(k==="att") toast("보안 정책에 따라 첨부파일은 지정된 보안 USB에서만 열람할 수 있습니다.");
   if(k==="page") toast("이전 게시물은 보존 기한이 지나 보관함으로 이관되었습니다. <span class='dim2'>(Level 3)</span>");
-  if(k==="write") toast("게시판 쓰기 권한이 없습니다. 소속 부서장에게 승인을 요청하십시오.");
+  if(k==="write") toast("공지사항은 부서장 이상만 등록할 수 있습니다. <a class='xref' href='#board?tab=free&write=1'>자유게시판에 쓰기 →</a>");
   if(k==="ext") revealExt(b);
 });
 document.addEventListener("submit",e=>{
+  const bq=e.target.closest("form[data-bq]"); if(bq){ e.preventDefault(); const q=bq.q.value.trim(); go("#board"+(q?"?q="+encodeURIComponent(q):"")); return }
   const f=e.target.closest("[data-gw=cmt]"); if(!f) return; e.preventDefault();
   const v=f.querySelector("input").value.trim(); if(!v) return;
   f.querySelector("input").value="";

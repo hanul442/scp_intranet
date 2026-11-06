@@ -2,6 +2,7 @@
 const HELP=`사용 가능한 명령:
   open <번호>      문서 열람 (예: open 173)
   search <검색어>  데이터베이스 검색 (본문 포함)
+  find <검색어>    통합 검색 (문서·게시판·자료실·직원·메일)
   list             색인된 항목 목록
   history          최근 열람 기록
   whoami           현재 세션 정보
@@ -10,7 +11,7 @@ const HELP=`사용 가능한 명령:
   logout           세션 종료
   override <코드>  권한 상향 (관리자 전용)
 
-  ↑/↓ 이전 명령 · / 커맨드라인 · Esc 뒤로`;
+  ↑/↓ 이전 명령 · / 커맨드라인 · Esc 뒤로 · ? 단축키`;
 const CMD_HIST=[]; let cmdPos=0;
 $("#cmdline").addEventListener("keydown",e=>{
   if(e.key==="ArrowUp"||e.key==="ArrowDown"){
@@ -26,6 +27,7 @@ $("#cmdline").addEventListener("keydown",e=>{
   switch(c.toLowerCase()){
     case "help": out(HELP); break;
     case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 001-ko)"); break } openDoc(normId(m[1],m[2])); break }
+    case "find": go("#search"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
     case "history": out(S.recent.length?S.recent.map((id,i)=>`${String(i+1).padStart(2)}. ${id}`).join("\n"):"열람 기록 없음."); break;
@@ -51,7 +53,7 @@ document.addEventListener("keydown",e=>{
   if(e.key==="Escape"){
     if(typing){ document.activeElement.blur(); return }
     const m=(location.hash||"").match(/^#(scp-\d+)\/\d+$/);
-    if(m) go("#"+m[1]); else if(/^#(board|approval)\?/.test(location.hash)) go("#"+location.hash.slice(1).split("?")[0]); else if(S.doc) go(S.doc==="cmd"?"#"+S.view:"#database");
+    if(m) go("#"+m[1]); else if(/^#(board|approval|messages|org|archive|search)\?/.test(location.hash)) go("#"+location.hash.slice(1).split("?")[0]); else if(S.doc) go(S.doc==="cmd"?"#"+S.view:"#database");
   }
 });
 
