@@ -254,6 +254,7 @@ function gwWidgets(){
   const MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
   const vote=store.get("vote_"+day,null);
   return `<div class="widgets">
+    ${attWidget()}
     <div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(day+"menu",MENU).map(x=>`<div>${x}</div>`).join("")}</div>
     <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
       ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
