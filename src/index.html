@@ -45,14 +45,26 @@
     <button type="button" class="audio-btn" id="fxbtn" title="깜빡임·글리치·흔들림 효과 켜기/끄기" aria-pressed="true">FX ON</button>
     <button type="button" class="audio-btn" id="audiobtn" title="음향 켜기/끄기" aria-pressed="false">♪ 음향 OFF</button>
   </div>
+  <nav class="gnb" aria-label="그룹웨어 메뉴">
+    <a href="#dashboard" data-v="dashboard">홈</a>
+    <a href="#messages" data-v="messages">메일 <span id="unread" class="amber"></span></a>
+    <a href="#board" data-v="board">게시판</a>
+    <a href="#approval" data-v="approval">전자결재</a>
+    <a href="#calendar" data-v="calendar">일정</a>
+    <a href="#personnel" data-v="personnel">조직도</a>
+    <a href="#archive" data-v="archive">자료실</a>
+    <span class="sp"></span>
+    <span class="dim2 gnbnote">SCP 재단 그룹웨어 · 사내 전용</span>
+  </nav>
   <div class="layout">
-    <nav class="nav" aria-label="단말 메뉴">
-      <div class="sect">단말</div>
-      <a href="#dashboard" data-v="dashboard">대시보드</a>
+    <nav class="nav" aria-label="격리 업무 메뉴">
+      <div class="sect">격리 업무</div>
+      <a href="#dashboard" data-v="dashboard">운영 현황</a>
       <a href="#database" data-v="database">격리 데이터베이스</a>
       <a href="#incidents" data-v="incidents">사건 기록</a>
       <a href="#personnel" data-v="personnel">인사 파일</a>
-      <a href="#messages" data-v="messages">내부 통신 <span id="unread" class="amber"></span></a>
+      <a href="#board" data-v="board" class="mob">공지사항</a>
+      <a href="#messages" data-v="messages" class="mob">내부 통신</a>
       <div class="sect">제한</div>
       <a href="#o5" data-v="o5" class="dim2">O5 평의회 기록</a>
       <div class="foot">SCiPNET v4.17.2<br>RAISA 감사 활성<br><span id="sess"></span></div>
@@ -71,6 +83,9 @@
   </div>
 </section>
 
+<div id="wm" aria-hidden="true"></div>
+<div id="printhdr" aria-hidden="true"></div>
+<div id="toasts" aria-live="polite"></div>
 <div id="glitch"></div>
 <div class="eyes" id="eyes"></div>
 

@@ -34,6 +34,7 @@ function dashboard(){
     <div class="card"><div class="k">현재 근무 인원</div><div class="v">${srnd(day+"staff",410,470)}<small>D계급 ${srnd(day+"dclass",60,90)}</small></div></div>
     <div class="card"><div class="k">기억소거제 재고 (B등급)</div><div class="v">${srnd(day+"amn",60,97)}%</div></div>
   </div>
+  ${gwWidgets()}
   <div class="notice danger">
     <b class="red">RAISA 공지 · ${day}</b><br>
     구역 7 격리실(SCP-106) 하부 센서 어레이에서 지난 72시간 동안 ${srnd(day+"106",3,9)}건의 비정상 판독이 보고되었습니다. 해당 구역 접근은 Level 3 이상으로 제한되며, 바닥 재질 변화를 목격한 인원은 즉시 보고하십시오. <span class="redact">해당 보고를 한 인원 2명은 현재 의무실에 있습니다.</span>

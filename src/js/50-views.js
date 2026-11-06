@@ -46,9 +46,9 @@ const STAFF=[
 ];
 function personnel(){
   return `<h2 class="ph">인사 <span>파일</span> · 격리동 B</h2>
-  <table><tr><th>식별번호</th><th>성명</th><th>직책</th><th>담당</th><th>상태</th></tr>
-  ${STAFF.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===0?"hi":i===1?"":"dim"}">${i===3?linkRefs(c,""):c}</td>`).join("")}</tr>`).join("")}
-  <tr><td class="hi">${esc(S.user)}</td><td class="dim">(귀하)</td><td class="dim">${LVL_NAME[S.level]}</td><td class="dim">${S.recent.slice(0,2).map(id=>linkRefs(id,"")).join(" · ")||"—"}</td><td>${S.denied>=3?"<span class='red'>기억소거 검토</span>":S.denied?"<span class='amber'>위반 "+S.denied+"회</span>":"근무 중"}</td></tr>
+  <table><tr><th>식별번호</th><th>성명</th><th>직책</th><th>담당</th><th>내선</th><th>상태</th></tr>
+  ${STAFF.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===0?"hi":i===1?"":"dim"}">${i===3?linkRefs(c,""):c}</td>${i===3?`<td>${/^D-/.test(r[0])?"<span class='dim2'>—</span>":maskedExt(r[0])}</td>`:""}`).join("")}</tr>`).join("")}
+  <tr><td class="hi">${esc(S.user)}</td><td class="dim">(귀하)</td><td class="dim">${LVL_NAME[S.level]}</td><td class="dim">${S.recent.slice(0,2).map(id=>linkRefs(id,"")).join(" · ")||"—"}</td><td class="dim2">미배정</td><td>${S.denied>=3?"<span class='red'>기억소거 검토</span>":S.denied?"<span class='amber'>위반 "+S.denied+"회</span>":"근무 중"}</td></tr>
   </table>
   <div class="notice" style="margin-top:22px">귀하의 인사 파일에 기재된 입사일은 <span class="redact">2019-03-04</span>입니다. 귀하가 기억하는 입사일과 다를 경우 보고하지 마십시오.</div>`;
 }
