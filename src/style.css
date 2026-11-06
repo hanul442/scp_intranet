@@ -563,6 +563,31 @@ body[data-theme=light] .svq,body[data-theme=light] .svscale label{border-radius:
 .certh{display:flex;align-items:center;gap:10px;margin-bottom:12px;font-size:16px}.certh svg{width:36px;height:36px}
 body[data-theme=light] .educard,body[data-theme=light] .edusteps{border-radius:6px}
 @media(max-width:720px){.eduwrap{grid-template-columns:1fr}}
+/* 위젯 설정 · 메모 · 할 일 */
+.wbar{display:flex;justify-content:space-between;align-items:center;margin-top:18px;font-size:11px}
+.wbar+.widgets{margin-top:6px}
+.wlist{list-style:none;padding:0;margin:0}
+.wlist li{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:2px 0}
+.wlist .btn.sm,.btn.sm{padding:2px 9px;margin-left:4px;letter-spacing:0}
+.btn[disabled]{opacity:.35;cursor:default}
+.todos{list-style:none;padding:0;margin:0 0 8px}
+.todo{display:flex;align-items:flex-start;gap:6px;border-bottom:1px dashed var(--line);padding:3px 0}
+.todo label{flex:1;display:flex;gap:6px;cursor:pointer;min-width:0;overflow-wrap:anywhere}
+.todo input{accent-color:var(--amber);margin-top:5px}
+.todo.done span{text-decoration:line-through;color:var(--fg3)}
+.tdel{background:none;border:0;color:var(--fg3);cursor:pointer;font-size:15px;line-height:1;padding:2px 4px}.tdel:hover{color:var(--red)}
+.todos.big .todo{padding:7px 0;font-size:13px}.tat{font-size:11px;white-space:nowrap}
+.todoadd{display:flex;gap:6px}
+.todoadd input{flex:1;min-width:0;background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:4px 8px;font:inherit}
+.memo{width:100%;background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:6px 8px;font:inherit;line-height:1.7;resize:vertical}
+.memost{font-size:10.5px;margin-top:2px}
+.notesgrid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px;margin-top:12px;align-items:start}
+.notesgrid .tabs{display:flex;gap:4px;margin-bottom:10px}
+.notesgrid .tabs a{padding:3px 10px;border:1px solid var(--line);color:var(--fg2);text-decoration:none;font-size:12px}
+.notesgrid .tabs a.on{border-color:var(--amber);color:var(--amber)}
+.notesgrid .todoadd{margin-bottom:8px}
+body[data-theme=light] .todoadd input,body[data-theme=light] .memo,body[data-theme=light] .notesgrid .tabs a{border-radius:4px;background:#fff}
+@media(max-width:720px){.notesgrid{grid-template-columns:1fr}}
 
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}

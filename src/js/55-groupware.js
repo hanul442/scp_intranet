@@ -248,19 +248,14 @@ function revealExt(btn){
     }}]});
 }
 
-/* ─── 대시보드 사내 위젯: 식단 · 일정 · 생일 · 설문 ─── */
-function gwWidgets(){
-  const day=today();
-  const MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
-  const vote=store.get("vote_"+day,null);
-  return `<div class="widgets">
-    ${attWidget()}
-    <div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(day+"menu",MENU).map(x=>`<div>${x}</div>`).join("")}</div>
-    <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
-      ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
-    <div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>
-    <div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
+/* ─── 대시보드 사내 위젯: 식단 · 일정 · 생일 · 설문 (배치·표시는 5e-widgets.js) ─── */
+const GW_MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
+const GWW={
+  menu:()=>`<div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(today()+"menu",GW_MENU).map(x=>`<div>${x}</div>`).join("")}</div>`,
+  cal:()=>`<div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
+      ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>`,
+  bday:()=>{const day=today();return `<div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>`},
+  poll:()=>{const vote=store.get("vote_"+today(),null);return `<div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
       ${vote?`<div class="dim" style="margin-top:6px">찬성 100% · 반대 0%<br><span class="dim2" style="font-size:11px">귀하는 찬성하셨습니다.${vote==="no"?" (반대 의견은 집계되지 않았습니다)":""}</span></div>`
-        :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>
-  </div>`;
-}
+        :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>`},
+};

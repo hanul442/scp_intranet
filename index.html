@@ -571,6 +571,31 @@ body[data-theme=light] .svq,body[data-theme=light] .svscale label{border-radius:
 .certh{display:flex;align-items:center;gap:10px;margin-bottom:12px;font-size:16px}.certh svg{width:36px;height:36px}
 body[data-theme=light] .educard,body[data-theme=light] .edusteps{border-radius:6px}
 @media(max-width:720px){.eduwrap{grid-template-columns:1fr}}
+/* 위젯 설정 · 메모 · 할 일 */
+.wbar{display:flex;justify-content:space-between;align-items:center;margin-top:18px;font-size:11px}
+.wbar+.widgets{margin-top:6px}
+.wlist{list-style:none;padding:0;margin:0}
+.wlist li{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:2px 0}
+.wlist .btn.sm,.btn.sm{padding:2px 9px;margin-left:4px;letter-spacing:0}
+.btn[disabled]{opacity:.35;cursor:default}
+.todos{list-style:none;padding:0;margin:0 0 8px}
+.todo{display:flex;align-items:flex-start;gap:6px;border-bottom:1px dashed var(--line);padding:3px 0}
+.todo label{flex:1;display:flex;gap:6px;cursor:pointer;min-width:0;overflow-wrap:anywhere}
+.todo input{accent-color:var(--amber);margin-top:5px}
+.todo.done span{text-decoration:line-through;color:var(--fg3)}
+.tdel{background:none;border:0;color:var(--fg3);cursor:pointer;font-size:15px;line-height:1;padding:2px 4px}.tdel:hover{color:var(--red)}
+.todos.big .todo{padding:7px 0;font-size:13px}.tat{font-size:11px;white-space:nowrap}
+.todoadd{display:flex;gap:6px}
+.todoadd input{flex:1;min-width:0;background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:4px 8px;font:inherit}
+.memo{width:100%;background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:6px 8px;font:inherit;line-height:1.7;resize:vertical}
+.memost{font-size:10.5px;margin-top:2px}
+.notesgrid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px;margin-top:12px;align-items:start}
+.notesgrid .tabs{display:flex;gap:4px;margin-bottom:10px}
+.notesgrid .tabs a{padding:3px 10px;border:1px solid var(--line);color:var(--fg2);text-decoration:none;font-size:12px}
+.notesgrid .tabs a.on{border-color:var(--amber);color:var(--amber)}
+.notesgrid .todoadd{margin-bottom:8px}
+body[data-theme=light] .todoadd input,body[data-theme=light] .memo,body[data-theme=light] .notesgrid .tabs a{border-radius:4px;background:#fff}
+@media(max-width:720px){.notesgrid{grid-template-columns:1fr}}
 
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
@@ -785,6 +810,8 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
       <a href="#org" data-v="org" class="mob">조직도</a>
       <a href="#search" data-v="search" class="mob">통합 검색</a>
       <a href="#settings" data-v="settings" class="mob">설정</a>
+      <div class="sect">개인</div>
+      <a href="#notes" data-v="notes">메모 · 할 일</a>
       <div class="sect">제한</div>
       <a href="#o5" data-v="o5" class="dim2">O5 평의회 기록</a>
       <div class="foot">SCiPNET v4.17.2<br>RAISA 감사 활성<br><span id="sess"></span></div>
@@ -1005,7 +1032,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk, survey, edu};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk, survey, edu, notes};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -1038,7 +1065,7 @@ function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
 /* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
 const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
   messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
-  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"],survey:["커뮤니케이션","사내 설문"],edu:["업무","온라인 교육"]};
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"],survey:["커뮤니케이션","사내 설문"],edu:["업무","온라인 교육"],notes:["개인","메모 · 할 일"]};
 function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
 const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
 function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
@@ -1824,22 +1851,17 @@ function revealExt(btn){
     }}]});
 }
 
-/* ─── 대시보드 사내 위젯: 식단 · 일정 · 생일 · 설문 ─── */
-function gwWidgets(){
-  const day=today();
-  const MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
-  const vote=store.get("vote_"+day,null);
-  return `<div class="widgets">
-    ${attWidget()}
-    <div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(day+"menu",MENU).map(x=>`<div>${x}</div>`).join("")}</div>
-    <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
-      ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
-    <div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>
-    <div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
+/* ─── 대시보드 사내 위젯: 식단 · 일정 · 생일 · 설문 (배치·표시는 5e-widgets.js) ─── */
+const GW_MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
+const GWW={
+  menu:()=>`<div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(today()+"menu",GW_MENU).map(x=>`<div>${x}</div>`).join("")}</div>`,
+  cal:()=>`<div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
+      ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>`,
+  bday:()=>{const day=today();return `<div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>`},
+  poll:()=>{const vote=store.get("vote_"+today(),null);return `<div class="card w"><div class="k"><a href="#survey" class="rowlink">사내 설문 ›</a></div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
       ${vote?`<div class="dim" style="margin-top:6px">찬성 100% · 반대 0%<br><span class="dim2" style="font-size:11px">귀하는 찬성하셨습니다.${vote==="no"?" (반대 의견은 집계되지 않았습니다)":""}</span></div>`
-        :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>
-  </div>`;
-}
+        :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>`},
+};
 
 /* ════════════════════════════════════════════
    업무 메뉴 — 전자결재 · 일정 · 자료실
@@ -2413,7 +2435,7 @@ document.addEventListener("click",e=>{
 });
 
 /* ════ 단축키 ════ ? 도움말 · g 다음 글자로 이동 */
-const GOKEYS={e:["#edu","온라인 교육"],v:["#survey","사내 설문"],q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
+const GOKEYS={n:["#notes","메모 · 할 일"],e:["#edu","온라인 교육"],v:["#survey","사내 설문"],q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
 function showKeys(){
   modal({title:"단축키",cls:"wide",html:`<table class="keys">
     <tr><td><kbd>/</kbd></td><td>커맨드라인으로 이동</td></tr>
@@ -2884,6 +2906,99 @@ function showCert(id){
     buttons:[{label:"인쇄",act:()=>window.print()},{label:"닫기",primary:true,act:x=>x()}]});
 }
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-cert]"); if(b) showCert(b.dataset.cert) });
+
+/* ════════════════════════════════════════════
+   개인 업무 공간 — 할 일 · 메모 + 대시보드 위젯 설정(표시·순서)
+   기록: store "todo_<user>" = [{id,t,done,at}] · "memo_<user>" = {t,at} · "widgets_<user>" = {order,hide}
+   ════════════════════════════════════════════ */
+const WIDGET_LIST=[["att","근태"],["todo","할 일"],["memo","메모"],["cal","다가오는 일정"],["menu","오늘의 식단"],["bday","오늘의 생일"],["poll","사내 설문"]];
+const wKey=()=>"widgets_"+S.user;
+function wSet(){
+  const s=store.get(wKey(),null)||{}, ids=WIDGET_LIST.map(w=>w[0]);
+  const order=(s.order||[]).filter(id=>ids.includes(id)); ids.forEach(id=>{ if(!order.includes(id)) order.push(id) });
+  return {order, hide:(s.hide||[]).filter(id=>ids.includes(id))};
+}
+const todoKey=()=>"todo_"+S.user, todos=()=>store.get(todoKey(),[]), todoSave=a=>store.set(todoKey(),a);
+const memoKey=()=>"memo_"+S.user, memo=()=>store.get(memoKey(),{t:"",at:0});
+
+function todoItem(t){
+  return `<li class="todo ${t.done?"done":""}"><label><input type="checkbox" data-todo="${t.id}" ${t.done?"checked":""}> <span>${esc(t.t)}</span></label>
+    <button type="button" class="tdel" data-tododel="${t.id}" aria-label="삭제" title="삭제">×</button></li>`;
+}
+const todoForm=()=>`<form class="todoadd" data-todoadd><label class="sr" for="todoin">할 일 추가</label><input id="todoin" maxlength="80" placeholder="할 일 입력 후 Enter" autocomplete="off"><button class="btn" type="submit">추가</button></form>`;
+const memoBox=rows=>{const m=memo();return `<label class="sr" for="memoin">메모</label><textarea id="memoin" class="memo" rows="${rows}" maxlength="4000" placeholder="자유롭게 적어 두세요. 자동 저장됩니다.">${esc(m.t)}</textarea>
+  <div class="dim2 memost" id="memost">${m.at?`저장됨 ${hm(m.at)}`:"이 기기에만 저장됩니다."}</div>`};
+
+GWW.att=()=>attWidget();
+GWW.todo=()=>{ const a=todos(), open=a.filter(t=>!t.done);
+  return `<div class="card w"><div class="k"><a href="#notes" class="rowlink">할 일 ${open.length?`<span class="amber">${open.length}</span>`:""} ›</a></div>
+    <ul class="todos">${open.slice(0,5).map(todoItem).join("")||`<li class="dim2">남은 할 일이 없습니다.</li>`}</ul>
+    ${open.length>5?`<div class="dim2" style="font-size:11px">외 ${open.length-5}건</div>`:""}${todoForm()}</div>` };
+GWW.memo=()=>`<div class="card w"><div class="k"><a href="#notes" class="rowlink">메모 ›</a></div>${memoBox(4)}</div>`;
+
+function gwWidgets(){
+  const {order,hide}=wSet(), show=order.filter(id=>!hide.includes(id)&&GWW[id]);
+  return `<div class="wbar"><span class="dim2">내 위젯</span><button type="button" class="xref" data-wset>위젯 설정</button></div>
+  ${show.length?`<div class="widgets">${show.map(id=>GWW[id]()).join("")}</div>`:`<div class="empty">표시할 위젯이 없습니다. <button type="button" class="xref" data-wset>위젯 설정</button>에서 켜십시오.</div>`}`;
+}
+
+/* 위젯 설정: 표시 여부 + 위·아래 이동 */
+function wsetModal(){
+  let {order,hide}=wSet();
+  const list=()=>order.map((id,i)=>`<li><label class="chk"><input type="checkbox" data-wid="${id}" ${hide.includes(id)?"":"checked"}> ${WIDGET_LIST.find(w=>w[0]===id)[1]}</label>
+    <span><button type="button" class="btn sm" data-wmv="${i},-1" ${i?"":"disabled"} aria-label="위로">↑</button><button type="button" class="btn sm" data-wmv="${i},1" ${i<order.length-1?"":"disabled"} aria-label="아래로">↓</button></span></li>`).join("");
+  modal({title:"위젯 설정",html:`<p class="dim" style="margin-bottom:8px">대시보드에 표시할 위젯과 순서를 고르십시오.</p><ul class="wlist" id="wlist">${list()}</ul>`,
+    onOpen:back=>{
+      const ul=back.querySelector("#wlist");
+      ul.addEventListener("change",e=>{const id=e.target.dataset.wid; if(!id) return; hide=e.target.checked?hide.filter(x=>x!==id):[...hide,id]});
+      ul.addEventListener("click",e=>{const b=e.target.closest("[data-wmv]"); if(!b) return; const [i,d]=b.dataset.wmv.split(",").map(Number);
+        [order[i],order[i+d]]=[order[i+d],order[i]]; ul.innerHTML=list(); const nb=ul.querySelector(`[data-wmv="${i+d},${d}"]`)||ul.querySelector(`[data-wmv="${i+d},${-d}"]`); if(nb) nb.focus()});
+    },
+    buttons:[{label:"기본값으로",act:c=>{store.set(wKey(),null);c();route();toast("위젯 배치를 기본값으로 되돌렸습니다.")}},
+             {label:"취소",act:c=>c()},
+             {label:"저장",primary:true,act:c=>{store.set(wKey(),{order,hide});c();route();toast("위젯 설정을 저장했습니다.")}}]});
+}
+
+/* ─── 뷰: 메모·할 일 (#notes?f=all|open|done) ─── */
+function notes(qs){
+  const f=(qs&&qs.get("f"))||"open", a=todos();
+  const list=a.filter(t=>f==="all"||(f==="done"?t.done:!t.done)).sort((x,y)=>x.done-y.done||y.at-x.at);
+  const n={open:a.filter(t=>!t.done).length,done:a.filter(t=>t.done).length,all:a.length};
+  return `<h2 class="ph">메모 · <span>할 일</span></h2>
+  <div class="notesgrid">
+    <section class="card"><div class="k">할 일</div>
+      <div class="tabs">${[["open","남은 일"],["done","완료"],["all","전체"]].map(([k,l])=>`<a href="#notes?f=${k}" class="${f===k?"on":""}">${l} ${n[k]}</a>`).join("")}</div>
+      ${todoForm()}
+      <ul class="todos big">${list.map(t=>todoItem(t).replace("</label>",`</label><span class="dim2 tat">${fmtDate(t.at).slice(5,16)}</span>`)).join("")||`<li class="empty">${f==="done"?"완료한 일이 없습니다.":f==="open"?"남은 할 일이 없습니다. 위 입력란에 추가하십시오.":"할 일이 없습니다."}</li>`}</ul>
+      ${n.done?`<button type="button" class="xref" data-todoclear>완료한 일 ${n.done}건 지우기</button>`:""}
+    </section>
+    <section class="card"><div class="k">메모</div>${memoBox(14)}</section>
+  </div>`;
+}
+
+let todoRefocus=false, memoTimer=0;
+document.addEventListener("submit",e=>{
+  const f=e.target.closest("form[data-todoadd]"); if(!f) return; e.preventDefault();
+  const v=f.querySelector("input").value.trim(); if(!v) return;
+  todoSave([{id:Date.now().toString(36),t:v,done:false,at:Date.now()},...todos()]); todoRefocus=true; route();
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="memoin"){ clearTimeout(memoTimer); store.set(memoKey(),{t:e.target.value,at:Date.now()}); return }
+  const id=e.target.dataset&&e.target.dataset.todo; if(!id) return;
+  todoSave(todos().map(t=>t.id===id?{...t,done:e.target.checked}:t)); if(e.target.checked) toast("할 일을 완료했습니다."); route();
+});
+document.addEventListener("click",e=>{
+  if(e.target.closest("[data-wset]")) return wsetModal();
+  const d=e.target.closest("[data-tododel]"); if(d){ todoSave(todos().filter(t=>t.id!==d.dataset.tododel)); route(); return }
+  if(e.target.closest("[data-todoclear]")){ todoSave(todos().filter(t=>!t.done)); toast("완료한 일을 지웠습니다."); route() }
+});
+document.addEventListener("input",e=>{
+  if(e.target.id!=="memoin") return; clearTimeout(memoTimer);
+  const v=e.target.value; memoTimer=setTimeout(()=>{ const at=Date.now(); store.set(memoKey(),{t:v,at}); const s=$("#memost"); if(s) s.textContent="저장됨 "+hm(at) },500);
+});
+/* 다시 그린 뒤 할 일 입력란에 포커스 복귀 */
+window.addEventListener("hashchange",()=>{todoRefocus=false});
+new MutationObserver(()=>{ if(todoRefocus){ todoRefocus=false; const i=$("#todoin"); if(i) i.focus() } }).observe(document.getElementById("content")||document.body,{childList:true});
 
 /* ════ 피드 ════ */
 const FEED_T=[
