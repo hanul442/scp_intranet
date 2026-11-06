@@ -5,11 +5,11 @@ SCP 재단 인트라넷 느낌의 정적 팬 사이트. 콘텐츠는 SCP 재단 
 **사이트 주소:** https://hanul442.github.io/scp_intranet/
 
 ## 구조
-- `crawler.py` — scpko 위키에서 SCP 문서를 긁어 `data/scp.json` 생성 (`python3 crawler.py 173 049 ...`, 인자 없으면 기본 20개)
+- `crawler.py` — scpko 위키에서 SCP 문서를 긁어 `data/scp.json` 생성 (`python3 crawler.py 173 049 ...`, `--series 1-3 --skip-existing` 으로 시리즈 목록 전체)
 - `normalize.py` — 등급 표기 정리(취소선 소실, `유클리드/잠재적 케테르` 등)와 위키 잔여물 제거. 빌드할 때 자동 적용
 - `src/index.html` · `src/style.css` · `src/js/*.js` — UI/로직 (파일 이름 순서대로 합쳐짐)
-- `build.py` — src + data → `index.html` (CSS·JS·데이터 인라인). `--check` 는 결과물이 최신인지 확인만 함
-- `index.html` — 배포용 결과물 (GitHub Pages에 이 파일만 올려도 동작). 직접 수정하지 말고 `src/` 를 고친 뒤 빌드
+- `build.py` — src + data → `index.html` + `db/*.js`. `index.html` 에는 CSS·JS와 문서 색인(번호·제목·등급·태그·평가)만 인라인하고, 본문은 번호 50개 단위로 `db/` 에 나눠 문서를 열 때 불러옴. `--check` 는 결과물이 최신인지 확인만 함
+- `index.html` · `db/` — 배포용 결과물 (둘을 같은 폴더에 두면 동작, `file://` 로 열어도 됨). 직접 수정하지 말고 `src/` 를 고친 뒤 빌드
 - `tests/` — `python3 -m unittest discover -s tests`
 - `.github/workflows/build.yml` — 테스트, `index.html` 최신 여부, 스크립트 문법 확인
 
@@ -18,6 +18,9 @@ SCP 재단 인트라넷 느낌의 정적 팬 사이트. 콘텐츠는 SCP 재단 
 python3 crawler.py 3001 1471 2000
 python3 build.py
 ```
+
+## 검색
+데이터베이스 검색은 번호·제목·별명·태그를 바로 찾고, 본문은 이미 연 문서만 찾습니다. 결과 위의 '본문까지 검색' 버튼을 누르면 나머지 본문을 모두 불러와 다시 찾습니다.
 
 ## 주소
 문서마다 주소가 있어 새로고침·뒤로가기·공유가 됩니다. `#scp-173`, `#scp-049/2`(부록), `#database?q=기억소거&c=keter`. 로그인 전에 열면 로그인 후 그 문서로 이동합니다.

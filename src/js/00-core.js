@@ -4,6 +4,29 @@
    ════════════════════════════════════════════ */
 const SCP = /*__SCP_DATA__*/;
 
+/* 본문(격리 절차·설명·전문)은 db/<묶음>.js 에 나뉘어 있고, 문서를 열 때 불러옴 (build.py 참고).
+   <script> 로 불러오므로 file:// 로 열어도 동작 */
+const BODY_WAIT = {};
+function scpBodies(map){ for(const k in map){ if(SCP[k]) Object.assign(SCP[k], map[k], {loaded:true}) } }
+function hasBody(id){ const d=SCP[id]; return !d || !d.chunk || !!d.loaded }
+function loadChunk(key){
+  if(!BODY_WAIT[key]) BODY_WAIT[key]=new Promise((ok,fail)=>{
+    const s=document.createElement("script"); s.src="db/"+key+".js"; s.async=true;
+    s.onload=ok; s.onerror=()=>{ delete BODY_WAIT[key]; s.remove(); fail(new Error(key)) };
+    document.head.appendChild(s);
+  });
+  return BODY_WAIT[key];
+}
+function loadBody(id){ return hasBody(id) ? Promise.resolve() : loadChunk(SCP[id].chunk) }
+/* 아직 안 불러온 본문을 전부 (전문 검색용). onProgress(완료, 전체) */
+async function loadAllBodies(onProgress){
+  const keys=[...new Set(Object.values(SCP).filter(d=>d.chunk&&!d.loaded).map(d=>d.chunk))];
+  let done=0;
+  for(let i=0;i<keys.length;i+=4){
+    await Promise.all(keys.slice(i,i+4).map(k=>loadChunk(k).catch(()=>{}).then(()=>onProgress&&onProgress(++done,keys.length))));
+  }
+}
+
 /* 등급 → 배지 색 / 요구 보안 등급 (등급 문자열은 normalize.py 가 표준화) */
 function classKey(c){
   switch(c){

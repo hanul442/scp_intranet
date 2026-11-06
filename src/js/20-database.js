@@ -90,9 +90,12 @@ function dbRows(q,c){
     if(i>=0) hits.push({d, at:i});
   }
   hits.sort((a,b)=>byId(a.d.id,b.d.id));
-  if(!hits.length) return c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">"${esc(q)}"에 해당하는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 등급 필터를 '전체'로 바꿔 보십시오.</span></div>`;
-  return `<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm">관련 문서</th><th>요구 권한</th><th class="hm">상태</th></tr>
-  ${hits.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:splitDoc(d).subs.length; const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
+  // 본문은 연 적 있는 문서만 메모리에 있음 → 나머지 본문까지 찾으려면 불러오기
+  const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
+  const more=unloaded?`<div class="empty"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  if(!hits.length) return (c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">"${esc(q)}"에 해당하는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 등급 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
+  return more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm">관련 문서</th><th>요구 권한</th><th class="hm">상태</th></tr>
+  ${hits.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:(d.subs??splitDoc(d).subs.length); const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
     const href="#"+d.id.toLowerCase();
     const tags=`<td class="dim hm">${(d.tags||[]).slice(0,4).map(esc).join(" · ")||"—"}</td>`;
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}<td class="dim2 hm">—</td><td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
@@ -112,11 +115,17 @@ function snippet(text,at,len){
 function bindDatabase(){
   const inp=$("#dbq"); let c=new URLSearchParams(location.hash.split("?")[1]||"").get("c")||"all";
   const upd=()=>{
+    if(!$("#dbrows")) return;
     $("#dbrows").innerHTML=dbRows(inp.value,c);
     const p=new URLSearchParams(); if(inp.value) p.set("q",inp.value); if(c!=="all") p.set("c",c);
     const qs=p.toString(); history.replaceState(null,"","#database"+(qs?"?"+qs:""));
   };
   inp.addEventListener("input",upd);
+  $("#dbrows").addEventListener("click",e=>{
+    const b=e.target.closest("#ftbtn"); if(!b) return;
+    b.disabled=true;
+    loadAllBodies((n,t)=>{ b.textContent=`본문 불러오는 중… ${Math.round(n/t*100)}%` }).then(upd);
+  });
   document.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
     c=b.dataset.c; document.querySelectorAll(".chip").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",x===b)}); upd();
   }));

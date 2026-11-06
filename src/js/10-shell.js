@@ -96,6 +96,13 @@ function route(){
     const id=normId(m[1],m[2]);
     setNav("database");
     if(!SCP[id]) return deadRef(id);
+    if(!hasBody(id)){
+      const at=location.hash;
+      render(`<div class="doc"><div class="hdr"><h1>${id}</h1></div><div class="sec"><div class="body dim">문서 기록을 불러오는 중…</div></div></div>`);
+      loadBody(id).then(()=>{ if(location.hash===at) route() },
+        ()=>{ if(location.hash===at) render(`<a class="back" href="#database">← 데이터베이스</a><div class="doc"><div class="hdr"><h1>${id}</h1></div><div class="denied"><b>전송 실패</b>문서 기록 서버에 연결할 수 없습니다. 잠시 후 다시 시도하십시오.</div></div>`) });
+      return;
+    }
     if(m[3]!=null) return showSub(id, +m[3]);
     return showDoc(id);
   }
