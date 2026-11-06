@@ -17,7 +17,8 @@ from pathlib import Path
 
 SITE = "https://scpko.wikidot.com"
 BASE = SITE + "/scp-{}"
-SERIES_PAGES = {"1": "scp-series-1", "ko": "scp-series-ko",
+# 한국 지부 목록은 두 페이지(001~999, 1000~)로 나뉨
+SERIES_PAGES = {"1": "scp-series-1", "ko": ["scp-series-ko-1", "scp-series-ko-2"],
                 **{str(n): f"scp-series-{n}" for n in range(2, 10)}}
 UA = "SCiPNET-fan-intranet/0.1 (personal non-commercial project)"
 OUT = Path(__file__).parent / "data" / "scp.json"
@@ -104,12 +105,19 @@ POPULAR = [
 
 def fetch_series(key):
     """시리즈 목록 페이지에서 (번호, 별명) 목록. 번역 안 된 문서(newpage 링크)는 제외."""
-    page = fetch(f"{SITE}/{SERIES_PAGES[key]}")
+    pages = SERIES_PAGES[key]
+    out = []
+    for i, name in enumerate([pages] if isinstance(pages, str) else pages):
+        if i: time.sleep(1)
+        out += _series_entries(fetch(f"{SITE}/{name}"))
+    return out
+
+def _series_entries(page):
     content = re.search(r'<div id="page-content">(.*)', page, re.S)
     out = []
     for li in re.findall(r"<li>(.*?)</li>", content.group(1) if content else page, re.S):
         a = re.match(r'\s*<a( class="newpage")? href="/scp-(\d{3,4}(?:-ko)?)"[^>]*>[^<]*</a>\s*(.*)', li, re.S)
-        if not a or a.group(1) or a.group(2) == "001":  # 001은 제안서 모음 허브라 제외
+        if not a or a.group(1) or a.group(2) in ("001", "001-ko"):  # 001은 제안서 모음 허브라 제외
             continue
         nick = strip_tags(a.group(3)).lstrip("-–— ").strip()
         out.append((a.group(2).upper() if a.group(2).endswith("-ko") else a.group(2), nick))

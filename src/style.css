@@ -786,3 +786,11 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .docpn{flex-direction:column}
   .docpn span:last-child{text-align:right}
 }
+
+/* 규정집 — 문서 안의 제목 단계 (h2 큰 장 / h3 항목 / h4 세부) */
+.doc.regs .sec{margin:16px 0}
+.doc.regs .regh{color:var(--amber);font-weight:500;letter-spacing:.08em;border-bottom:1px solid var(--line);padding-bottom:5px;margin-bottom:8px}
+.doc.regs h2.regh{font-size:16px;color:var(--hi);margin-top:30px}
+.doc.regs h3.regh{font-size:14px}
+.doc.regs h4.regh{font-size:12px}
+.doc.regs .regh small{font-size:11px;letter-spacing:.04em;margin-left:6px;font-weight:400}
