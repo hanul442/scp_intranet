@@ -86,7 +86,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk, survey, edu, notes};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk, survey, edu, notes, stats};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -94,24 +94,27 @@ function route(){
   const m=h.match(/^scp-(\d{1,4})(-[a-z]+)?(?:\/(\d+))?$/i);
   if(m){
     const id=normId(m[1],m[2]);
-    setNav("database");
+    setNav("database"); setTitle(id);
     if(!SCP[id]) return deadRef(id);
     if(!hasBody(id)){
       const at=location.hash;
       render(`<div class="doc"><div class="hdr"><h1>${id}</h1></div><div class="sec"><div class="body dim">문서 기록을 불러오는 중…</div></div></div>`);
       loadBody(id).then(()=>{ if(location.hash===at) route() },
-        ()=>{ if(location.hash===at) render(`<a class="back" href="#database">← 데이터베이스</a><div class="doc"><div class="hdr"><h1>${id}</h1></div><div class="denied"><b>전송 실패</b>문서 기록 서버에 연결할 수 없습니다. 잠시 후 다시 시도하십시오.</div></div>`) });
+        ()=>{ if(location.hash===at) render(`<a class="back" href="#database">← 데이터베이스</a><div class="doc"><div class="hdr"><h1>${id}</h1></div><div class="denied"><b>전송 실패</b>문서 기록 서버에 연결할 수 없습니다. 네트워크 상태를 확인한 뒤 다시 시도하십시오.<br><button type="button" class="btn" style="margin-top:10px" onclick="route()">다시 시도</button></div></div>`) });
       return;
     }
     if(m[3]!=null) return showSub(id, +m[3]);
     return showDoc(id);
   }
   let [v,qs]=h.split("?");
-  if(!VIEWS[v]) v="dashboard";
-  S.view=v; S.doc=null; setNav(v);
+  if(!v) v="dashboard";
+  if(!VIEWS[v]){ S.view=null; S.doc=null; setNav(""); setTitle("페이지 없음"); return render(notFound(h)) }
+  S.view=v; S.doc=null; setNav(v); setTitle(v==="dashboard"?"":(VIEW_META[v]||[])[1]);
   render(viewCrumb(v)+VIEWS[v](new URLSearchParams(qs||"")));
   if(v==="database") bindDatabase();
 }
+/* 브라우저 탭 제목: 화면 이름 — SCiPNET (탭 구분 · 화면 낭독기용) */
+function setTitle(t){ document.title=(t?t+" — ":"")+"SCiPNET // SITE-19" }
 function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
@@ -119,7 +122,7 @@ function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
 /* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
 const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
   messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
-  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"],survey:["커뮤니케이션","사내 설문"],edu:["업무","온라인 교육"],notes:["개인","메모 · 할 일"]};
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"],survey:["커뮤니케이션","사내 설문"],edu:["업무","온라인 교육"],notes:["개인","메모 · 할 일"],stats:["격리 업무","문서 통계"]};
 function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
 const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
 function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
