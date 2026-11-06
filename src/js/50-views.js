@@ -58,7 +58,7 @@ function personnel(){
 function msgList(){
   const day=today(), seen=id=>S.recent.includes(id);
   const keterRead=S.recent.filter(id=>SCP[id]&&classKey(SCP[id].object_class)==="keter").length;
-  const L=[];
+  const L=mailReplies().map(r=>({...r}));
   if(S.level>=4) L.push({id:"o5",from:"O5 명령국",at:`${day} ${hms().slice(0,5)}`,cls:"corrupt",body:"귀하의 권한 상향이 확인되었습니다. 상향에 사용된 코드는 이미 폐기되었습니다. 귀하가 그 코드를 어디서 알게 되었는지 기억나지 않는다면, 그것은 정상입니다."});
   if(S.denied>=3) L.push({id:"amn"+Math.floor(S.denied/3),from:"RAISA 기억소거 담당",at:`${day} ${hms().slice(0,5)}`,cls:"corrupt",body:`누적 위반 ${S.denied}회. 귀하는 B등급 기억소거 대상자로 지정되었습니다. 이 메시지를 읽은 뒤 의무실 C-2로 이동하십시오. 이동한 기억이 없더라도 걱정하지 마십시오.`});
   if(keterRead>=3) L.push({id:"keter3",from:"격리동 B 감독관",at:`${day} ${pad(srnd(day+"k",9,17))}:${pad(srnd(day+"km",0,59))}`,body:`케테르 등급 문서 ${keterRead}건 열람이 기록되었습니다. Level ${S.level} 인원의 업무 범위를 벗어난 열람으로 보입니다. 관심은 감사하지만, 관심은 기록됩니다.`});
@@ -77,14 +77,6 @@ function updateUnread(){
   const n=msgList().filter(m=>!m.draft && !S.readMsgs.includes(m.id)).length;
   $("#unread").textContent=n?`(${n})`:"";
 }
-function messages(){
-  const L=msgList();
-  const html=`<h2 class="ph">내부 <span>통신</span></h2>
-  <div class="msglist">${L.map(m=>`<div class="m ${!m.draft&&!S.readMsgs.includes(m.id)?"unread":""} ${m.cls||""}"><div class="f"><span>${esc(m.from)}</span><span class="${m.draft?"red":""}">${esc(m.at)}</span></div>${m.html||linkRefs(esc(m.body),"")}</div>`).join("")}</div>`;
-  S.readMsgs=[...new Set([...S.readMsgs,...L.map(m=>m.id)])]; saveSession(); updateUnread();
-  return html;
-}
-
 /* ════ 뷰: O5 ════ */
 function o5(){
   S.denied++; saveSession(); updateUnread(); glitch(2); feedPush(`O5 기록 접근 시도 — ${S.user}`, "red");

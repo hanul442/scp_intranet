@@ -86,7 +86,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;

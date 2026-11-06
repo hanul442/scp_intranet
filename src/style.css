@@ -86,7 +86,7 @@ kbd{border:1px solid var(--line2);padding:0 5px;font-size:11px;color:var(--fg2)}
 .side{border-left:1px solid var(--line);background:var(--bg2);display:flex;flex-direction:column;min-height:0}
 .side h3{font-size:10px;letter-spacing:.22em;color:var(--fg3);padding:14px 16px 8px;border-bottom:1px solid var(--line)}
 .feed{flex:1;overflow:auto;padding:8px 0;font-size:11.5px}
-.feed div{padding:4px 16px;border-bottom:1px dashed #141a1e;color:var(--fg2);line-height:1.5}
+.feed div{padding:4px 16px;border-bottom:1px dashed var(--line);color:var(--fg2);line-height:1.5}
 .feed div b{color:var(--fg3);font-weight:400;margin-right:8px}
 .feed div.red{color:var(--red2)} .feed div.amber{color:var(--amber)} .feed div.hi{color:var(--fg)}
 .stats{padding:12px 16px;border-top:1px solid var(--line);font-size:11px;color:var(--fg2);line-height:1.9}
@@ -339,6 +339,67 @@ a.cd:hover{background:rgba(255,255,255,.025)}
 .search .btn{padding:6px 12px}
 .arcbody{white-space:pre-wrap;font-family:var(--mono);font-size:12.5px;line-height:1.8;color:#c4cccf;max-height:55vh;overflow:auto}
 
+/* ─── 상단 검색 · 알림 ─── */
+.gsearch input{width:190px;border:1px solid var(--line2);padding:2px 10px;background:var(--panel);color:var(--hi);font-size:11.5px;caret-color:var(--amber)}
+.gsearch input::placeholder{color:var(--fg3)}
+.gsearch input:focus{border-color:var(--amber)}
+.bell #belln:not(:empty){display:inline-block;min-width:16px;padding:0 4px;background:var(--red);color:#fff;font-size:10px;line-height:16px;text-align:center}
+#who{color:var(--fg2);text-decoration:none}#who:hover{color:var(--amber)}
+.notipanel{position:fixed;top:40px;right:12px;width:min(360px,calc(100vw - 24px));max-height:60vh;overflow:auto;z-index:975;background:#0d1012;border:1px solid var(--line2);box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.notipanel .nh{display:flex;justify-content:space-between;align-items:center;padding:9px 14px;border-bottom:1px solid var(--line);font-size:12px}
+.notipanel .nh b{font-weight:500;color:var(--hi);letter-spacing:.1em}
+.notipanel .nh button{font-size:11px}
+.notipanel .ni{padding:9px 14px;border-bottom:1px solid var(--line);font-size:12px;line-height:1.6;border-left:2px solid transparent}
+.notipanel .ni.unr{border-left-color:var(--amber);background:rgba(200,155,60,.04)}
+.notipanel .ni.danger{border-left-color:var(--red2)}
+.notipanel .ni small{display:block;color:var(--fg3);font-size:10.5px;margin-top:2px}
+
+/* ─── 조직도 ─── */
+.orgwrap{display:grid;grid-template-columns:200px minmax(0,1fr);gap:18px;align-items:start}
+table.org td:nth-child(n+4){white-space:nowrap}
+.otree{border:1px solid var(--line);background:var(--panel);padding:6px 0}
+.otree a{display:flex;justify-content:space-between;padding:6px 14px;color:var(--fg);text-decoration:none;font-size:12px;border-left:2px solid transparent}
+.otree a.sub{padding-left:26px;color:var(--fg2)}
+.otree a:hover{color:var(--hi)}
+.otree a.on{border-left-color:var(--amber);color:var(--hi);background:rgba(200,155,60,.05)}
+
+/* ─── 메일 ─── */
+.msglist .m .subj{color:var(--hi);margin-bottom:4px}
+.msglist .m .mact{margin-top:8px;font-size:11.5px}
+
+/* ─── 통합 검색 ─── */
+.sgroup{margin-bottom:22px;max-width:820px}
+.sgroup h4{font-size:11px;letter-spacing:.2em;color:var(--amber);font-weight:500;padding-bottom:6px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.si{display:block;padding:7px 4px;border-bottom:1px dashed var(--line);color:var(--fg);text-decoration:none;font-size:12.5px}
+a.si:hover{background:rgba(255,255,255,.025);color:var(--hi)}
+.si b{font-weight:500}
+
+/* ─── 환경 설정 ─── */
+.setgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;max-width:1000px}
+.setgrid .card{font-size:12.5px}
+.setgrid .card .k{margin-bottom:10px}
+table.kv td{padding:4px 0;border:0}
+table.kv td:first-child{width:90px}
+.srow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0}
+.srow select{background:var(--bg);color:var(--hi);border:1px solid var(--line2);padding:3px 6px;font:inherit}
+.opts .chk{padding:4px 0}
+table.keys td{padding:6px 8px}
+table.keys td:first-child{width:130px;white-space:nowrap}
+
+/* ─── 테마 ─── */
+body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
+body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
+body[data-theme=light]{--bg:#eef0f1;--bg2:#e3e6e8;--panel:#f8f9fa;--line:#d2d7da;--line2:#b8c0c5;--fg:#2a3236;--fg2:#56636a;--fg3:#8a959b;--hi:#0f1518;--amber:#9a6a10;--red:#b3372f;--red2:#c0392b;--green:#2f7a45;--cyan:#1f6f80}
+body[data-theme=light].crt::before,body[data-theme=light].crt::after{display:none}
+body[data-theme=light] .doc .body,body[data-theme=light] .pbody,body[data-theme=light] .arcbody{color:#1e2629}
+body[data-theme=light] .modal,body[data-theme=light] .notipanel,body[data-theme=light] .toast,body[data-theme=light] .loginbox,body[data-theme=light] #boot{background:var(--panel);color:var(--fg)}
+body[data-theme=light] #login{background:var(--bg)}
+body[data-theme=light] .gnb{background:var(--bg2)}
+body[data-theme=light] .modal.popup .mh{background:#f6dcd9;color:#6b1d16}
+body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;box-shadow:none}
+body[data-theme=light] #wm{opacity:.06;filter:invert(1)}
+body[data-theme=light] ::selection{color:#fff}
+
 @media print{
   html,body{overflow:visible;height:auto;background:#fff;color:#000}
   .crt::before,.crt::after,#wm,#toasts,.topbar,.gnb,.nav,.side,.cmd,#glitch,.eyes,#boot,#login,.mback{display:none!important}
@@ -365,8 +426,9 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .decay{transition:none}
 }
 
+@media (max-width:1200px){ .gsearch input{width:130px} .topbar .site{display:none} }
 @media (max-width:900px){
-  .layout{grid-template-columns:1fr}
+  .layout{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}
   .nav{flex-direction:row;overflow-x:auto;padding:0;border-right:0;border-bottom:1px solid var(--line)}
   .nav .sect,.nav .foot{display:none}
   .nav a{white-space:nowrap;border-left:0;border-bottom:2px solid transparent}
@@ -381,10 +443,14 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .content{padding:20px 16px 80px}
   .stamp{display:none}
   .calwrap{grid-template-columns:1fr}
+  .orgwrap{grid-template-columns:1fr}
+  .otree{display:flex;overflow-x:auto;padding:0}
+  .otree a,.otree a.sub{white-space:nowrap;padding:6px 12px;border-left:0;border-bottom:2px solid transparent;gap:6px}
+  .otree a.on{border-bottom-color:var(--amber)}
 }
 @media (max-width:600px){
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
-  .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who{display:none}
+  .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
   .hm,table.ppl th:nth-child(3),table.ppl td:nth-child(3),table.ppl th:nth-child(4),table.ppl td:nth-child(4){display:none}
   td,th{padding:8px 6px}
   .doc h1{font-size:22px}
