@@ -17,7 +17,7 @@ from pathlib import Path
 
 SITE = "https://scpko.wikidot.com"
 BASE = SITE + "/scp-{}"
-SERIES_PAGES = {"1": "scp-series", "ko": "scp-series-ko",
+SERIES_PAGES = {"1": "scp-series-1", "ko": "scp-series-ko",
                 **{str(n): f"scp-series-{n}" for n in range(2, 10)}}
 UA = "SCiPNET-fan-intranet/0.1 (personal non-commercial project)"
 OUT = Path(__file__).parent / "data" / "scp.json"

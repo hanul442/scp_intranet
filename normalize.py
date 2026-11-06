@@ -56,4 +56,9 @@ def normalize_doc(d):
     d["class_note"] = d.get("class_note") or note
     for k in ("containment", "description", "full_text"):
         d[k] = clean_text(d.get(k, ""))
+    # 크롤러는 평가를 문자열로 저장함 ('206', '+12')
+    r = d.get("rating")
+    if isinstance(r, str):
+        r = r.strip().lstrip("+")
+        d["rating"] = int(r) if re.fullmatch(r"-?\d+", r) else None
     return d
