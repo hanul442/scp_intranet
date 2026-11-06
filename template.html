@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCiPNET // SITE-19 TERMINAL</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#070809; --bg2:#0c0e10; --panel:#101316; --line:#1f252a; --line2:#2c343b;
+  --fg:#b9c2c6; --fg2:#7b868c; --fg3:#4a545a; --hi:#e4ebee;
+  --amber:#c89b3c; --red:#b3372f; --red2:#e0493d; --green:#5f9e6e; --cyan:#5a9aa8;
+  --mono:"IBM Plex Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:13px;line-height:1.6}
+body{overflow:hidden}
+::selection{background:var(--amber);color:#000}
+button,input{font:inherit;color:inherit;background:none;border:none;outline:none}
+a{color:var(--cyan)}
+
+/* ─── CRT 레이어 ─── */
+.crt::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:900;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);mix-blend-mode:multiply}
+.crt::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:901;
+  background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55) 100%)}
+.flicker{animation:flick 6s infinite}
+@keyframes flick{0%,100%{opacity:1}92%{opacity:1}93%{opacity:.86}94%{opacity:1}97%{opacity:.93}98%{opacity:1}}
+
+/* ─── 글리치 ─── */
+#glitch{position:fixed;inset:0;z-index:950;pointer-events:none;display:none}
+#glitch.on{display:block;animation:gl .32s steps(2) 1}
+#glitch .slice{position:absolute;left:0;right:0;background:var(--bg);color:var(--hi);overflow:hidden;white-space:nowrap;font-size:13px;padding:0 24px;opacity:.95}
+@keyframes gl{0%{filter:none}25%{filter:hue-rotate(40deg) contrast(1.4)}50%{transform:translateX(3px)}75%{transform:translateX(-4px) skewX(.6deg)}100%{filter:none}}
+body.shake{animation:shk .12s linear 2}
+@keyframes shk{0%,100%{transform:none}50%{transform:translate(2px,-1px)}}
+
+/* ─── 공통 ─── */
+.screen{position:fixed;inset:0;display:none;flex-direction:column}
+.screen.active{display:flex}
+.badge{display:inline-block;padding:0 6px;border:1px solid var(--line2);font-size:11px;letter-spacing:.08em;color:var(--fg2);text-transform:uppercase}
+.badge.safe{border-color:var(--green);color:var(--green)}
+.badge.euclid{border-color:var(--amber);color:var(--amber)}
+.badge.keter{border-color:var(--red2);color:var(--red2)}
+.badge.apollyon,.badge.unknown{border-color:#8a5cc8;color:#a985e0}
+.redact{background:#000;color:transparent;border-radius:1px;box-shadow:0 0 0 1px #20262b;user-select:none;padding:0 2px}
+.redact::selection{color:transparent;background:#000}
+.blk{display:inline-block;background:#000;color:#000;box-shadow:0 0 0 1px #20262b;margin:2px 6px 2px 0;height:14px;vertical-align:middle;user-select:none}
+.cursor::after{content:"█";animation:blink 1s steps(1) infinite;color:var(--amber)}
+@keyframes blink{50%{opacity:0}}
+.dim{color:var(--fg2)} .dim2{color:var(--fg3)} .hi{color:var(--hi)} .amber{color:var(--amber)} .red{color:var(--red2)} .green{color:var(--green)}
+hr{border:0;border-top:1px solid var(--line);margin:14px 0}
+kbd{border:1px solid var(--line2);padding:0 5px;font-size:11px;color:var(--fg2)}
+
+/* ─── 부트 ─── */
+#boot{background:#030405;padding:48px 56px;font-size:13px;color:#8a979c}
+#boot pre{white-space:pre-wrap;line-height:1.55}
+
+/* ─── 로그인 ─── */
+#login{align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 40%,#0c1013 0%,#050607 70%)}
+.loginbox{width:min(560px,92vw);border:1px solid var(--line2);background:rgba(9,11,13,.92);padding:30px 34px;box-shadow:0 0 0 1px #000,0 30px 80px rgba(0,0,0,.6)}
+.loginbox h1{font-size:14px;letter-spacing:.3em;font-weight:500;color:var(--hi);display:flex;justify-content:space-between}
+.loginbox h1 small{letter-spacing:.1em;color:var(--fg3);font-weight:400}
+.loginbox .warn{margin:16px 0 22px;padding:10px 12px;border-left:2px solid var(--red);color:var(--fg2);font-size:12px;line-height:1.7}
+.field{display:flex;align-items:center;border-bottom:1px solid var(--line2);padding:8px 0;margin-bottom:10px}
+.field label{width:120px;color:var(--fg3);letter-spacing:.1em;font-size:11px}
+.field input{flex:1;color:var(--hi);caret-color:var(--amber)}
+.field input::placeholder{color:#2b3236}
+.loginbox .actions{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.btn{border:1px solid var(--line2);padding:6px 14px;cursor:pointer;letter-spacing:.12em;font-size:12px;color:var(--fg)}
+.btn:hover{border-color:var(--amber);color:var(--amber)}
+.btn.primary{border-color:var(--amber);color:var(--amber)}
+.btn.primary:hover{background:var(--amber);color:#000}
+#loginmsg{min-height:20px;color:var(--red2);font-size:12px;margin-top:8px}
+
+/* ─── 메인 ─── */
+#main{background:var(--bg)}
+.topbar{height:38px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:22px;padding:0 18px;font-size:12px;letter-spacing:.08em;background:var(--bg2)}
+.topbar .brand{color:var(--hi);font-weight:600;letter-spacing:.25em}
+.topbar .sp{flex:1}
+.topbar .lvl{color:var(--amber)}
+.topbar .alert{color:var(--red2);display:none}
+.topbar .alert.on{display:inline;animation:blink 1.2s steps(1) infinite}
+.layout{flex:1;display:grid;grid-template-columns:200px 1fr 290px;min-height:0}
+.nav{border-right:1px solid var(--line);padding:16px 0;background:var(--bg2);display:flex;flex-direction:column}
+.nav a{display:block;padding:7px 18px;color:var(--fg2);text-decoration:none;letter-spacing:.06em;border-left:2px solid transparent}
+.nav a:hover{color:var(--fg)}
+.nav a.on{color:var(--hi);border-left-color:var(--amber);background:rgba(200,155,60,.05)}
+.nav .sect{padding:14px 18px 4px;font-size:10px;letter-spacing:.2em;color:var(--fg3)}
+.nav .foot{margin-top:auto;padding:14px 18px;font-size:10px;color:var(--fg3);line-height:1.7}
+.content{overflow:auto;padding:26px 36px 90px;position:relative}
+.content::-webkit-scrollbar{width:8px}.content::-webkit-scrollbar-thumb{background:var(--line2)}
+.side{border-left:1px solid var(--line);background:var(--bg2);display:flex;flex-direction:column;min-height:0}
+.side h3{font-size:10px;letter-spacing:.22em;color:var(--fg3);padding:14px 16px 8px;border-bottom:1px solid var(--line)}
+.feed{flex:1;overflow:auto;padding:8px 0;font-size:11.5px}
+.feed div{padding:4px 16px;border-bottom:1px dashed #141a1e;color:var(--fg2);line-height:1.5}
+.feed div b{color:var(--fg3);font-weight:400;margin-right:8px}
+.feed div.red{color:var(--red2)} .feed div.amber{color:var(--amber)} .feed div.hi{color:var(--fg)}
+.stats{padding:12px 16px;border-top:1px solid var(--line);font-size:11px;color:var(--fg2);line-height:1.9}
+.stats b{color:var(--fg);font-weight:500;float:right}
+
+/* 콘텐츠 블록 */
+h2.ph{font-size:13px;letter-spacing:.25em;color:var(--fg2);font-weight:500;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+h2.ph span{color:var(--hi)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.card{border:1px solid var(--line);padding:14px 16px;background:var(--panel)}
+.card .k{font-size:10px;letter-spacing:.2em;color:var(--fg3);margin-bottom:6px}
+.card .v{font-size:22px;color:var(--hi);font-weight:500;line-height:1.2}
+.card .v small{font-size:11px;color:var(--fg2);margin-left:6px;font-weight:400}
+.notice{border:1px solid var(--line);border-left:2px solid var(--amber);padding:12px 16px;margin:18px 0;background:var(--panel);font-size:12px;line-height:1.75}
+.notice.danger{border-left-color:var(--red2)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{font-size:10px;letter-spacing:.2em;color:var(--fg3);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line2);font-weight:400}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.row{cursor:pointer}
+tr.row:hover td{background:rgba(255,255,255,.025);color:var(--hi)}
+tr.row.locked td{color:var(--fg3)}
+tr.row.locked:hover td{color:var(--fg2)}
+.search{display:flex;gap:10px;margin-bottom:14px;align-items:center}
+.search input{flex:1;border:1px solid var(--line2);padding:7px 12px;color:var(--hi);background:var(--panel);caret-color:var(--amber)}
+.search input::placeholder{color:#333b40}
+
+/* 문서 */
+.doc{max-width:860px}
+.doc .hdr{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:6px}
+.doc h1{font-size:26px;letter-spacing:.12em;color:var(--hi);font-weight:600;line-height:1.1}
+.doc .meta{font-size:11px;color:var(--fg3);letter-spacing:.08em;margin-bottom:22px;display:flex;gap:18px;flex-wrap:wrap}
+.doc .sec{margin:22px 0}
+.doc .sec h4{font-size:11px;letter-spacing:.25em;color:var(--amber);font-weight:500;margin-bottom:8px}
+.doc .body{white-space:pre-wrap;line-height:1.85;font-size:13.5px;color:#c4cccf}
+.doc .body .dm{color:var(--red2);font-weight:500}
+.denied{border:1px solid var(--red);padding:18px 22px;background:rgba(179,55,47,.06);color:var(--fg);margin:18px 0;line-height:1.8}
+.denied b{color:var(--red2);letter-spacing:.2em;font-weight:500;display:block;margin-bottom:6px}
+.attrib{margin-top:40px;padding-top:14px;border-top:1px dashed var(--line2);font-size:11px;color:var(--fg3);line-height:1.8}
+.attrib a{color:var(--fg2)}
+.back{display:inline-block;margin-bottom:16px;color:var(--fg2);cursor:pointer;letter-spacing:.1em;font-size:12px}
+.back:hover{color:var(--amber)}
+.stamp{position:absolute;right:48px;top:30px;border:2px solid var(--red);color:var(--red);padding:4px 12px;font-size:12px;letter-spacing:.3em;transform:rotate(-7deg);opacity:.55;pointer-events:none}
+
+/* 커맨드 라인 */
+.cmd{position:absolute;left:200px;right:290px;bottom:0;height:40px;border-top:1px solid var(--line);background:var(--bg2);display:flex;align-items:center;padding:0 24px;gap:10px;font-size:12.5px}
+.cmd .p{color:var(--amber)}
+.cmd input{flex:1;color:var(--hi);caret-color:var(--amber)}
+.cmd .hint{color:var(--fg3);font-size:11px}
+.msglist .m{border:1px solid var(--line);padding:12px 16px;margin-bottom:10px;background:var(--panel)}
+.msglist .m .f{display:flex;justify-content:space-between;font-size:11px;color:var(--fg3);margin-bottom:6px;letter-spacing:.06em}
+.msglist .m .f span:first-child{color:var(--fg2)}
+.msglist .m.unread{border-left:2px solid var(--amber)}
+.msglist .m.corrupt{border-color:var(--red)} .msglist .m.corrupt .f span:first-child{color:var(--red2)}
+
+
+/* 하위 문서 */
+.crumb{font-size:11px;letter-spacing:.12em;color:var(--fg3);margin-bottom:14px}
+.crumb a{color:var(--fg2);text-decoration:none;cursor:pointer}.crumb a:hover{color:var(--amber)}
+.crumb span{margin:0 8px;color:var(--line2)}
+.xref{color:var(--cyan);text-decoration:none;border-bottom:1px dotted var(--cyan);cursor:pointer}
+.xref:hover{color:var(--hi);border-bottom-style:solid}
+.xref.dead{color:var(--fg3);border-bottom:1px dotted var(--fg3)}
+.xref.dead:hover{color:var(--red2)}
+.subs{border:1px solid var(--line);background:var(--panel);margin:26px 0}
+.subs h4{font-size:10px;letter-spacing:.25em;color:var(--fg3);padding:10px 16px;border-bottom:1px solid var(--line);font-weight:400}
+.subs a{display:flex;justify-content:space-between;gap:14px;padding:9px 16px;border-bottom:1px solid var(--line);color:var(--fg);text-decoration:none;cursor:pointer;font-size:12.5px}
+.subs a:last-child{border-bottom:0}
+.subs a:hover{background:rgba(255,255,255,.03);color:var(--hi)}
+.subs a.lock{color:var(--fg3)}
+.subs a .r{font-size:11px;color:var(--fg3);white-space:nowrap}
+.subs a.lock .r{color:var(--red2)}
+.pn{display:flex;justify-content:space-between;margin-top:30px;padding-top:14px;border-top:1px solid var(--line);font-size:12px}
+.pn a{color:var(--fg2);cursor:pointer;text-decoration:none}.pn a:hover{color:var(--amber)}
+/* 효과 */
+.audio-btn{cursor:pointer;color:var(--fg3);letter-spacing:.1em}
+.audio-btn.on{color:var(--amber)}
+.decay{transition:opacity 1.2s}
+.fade-out{opacity:0}
+.body .rot{color:#3d2a26}
+.pict{font-size:64px;letter-spacing:.1em;color:var(--hi);text-align:center;padding:60px 0 30px;font-family:var(--mono)}
+.pict small{display:block;font-size:11px;color:var(--fg3);letter-spacing:.3em;margin-top:18px}
+.eyes{position:fixed;inset:0;z-index:960;background:#000;display:none;align-items:center;justify-content:center;color:var(--red2);letter-spacing:.4em;font-size:14px;text-align:center;line-height:2.4}
+.eyes.on{display:flex;animation:eyesin .8s steps(4)}
+@keyframes eyesin{0%{opacity:0}100%{opacity:1}}
+.doc .body.shift{transform:translateX(6px)}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .nav{flex-direction:row;overflow-x:auto;padding:0;border-right:0;border-bottom:1px solid var(--line)}
+  .nav .sect,.nav .foot{display:none}
+  .nav a{white-space:nowrap;border-left:0;border-bottom:2px solid transparent}
+  .nav a.on{border-bottom-color:var(--amber)}
+  .side{display:none}
+  .cmd{left:0;right:0}
+  .content{padding:20px 18px 80px}
+  .stamp{display:none}
+}
+</style>
+</head>
+<body class="crt flicker">
+
+<!-- ░ 부트 ░ -->
+<section id="boot" class="screen active"><pre id="bootlog"></pre></section>
+
+<!-- ░ 로그인 ░ -->
+<section id="login" class="screen">
+  <form class="loginbox" id="loginform" autocomplete="off">
+    <h1>SCiPNET <small>SITE-19 // NODE 0x3F1A</small></h1>
+    <div class="warn">
+      경고. 본 시스템은 SCP 재단 내부 전용 네트워크입니다. 인가되지 않은 접근은 기억 소거 조치의 대상이 됩니다.<br>
+      모든 세션은 RAISA(기록 및 정보 보안 관리국)에 의해 기록됩니다.
+    </div>
+    <div class="field"><label>인원 식별번호</label><input id="u" placeholder="예: R-19-0412" spellcheck="false"></div>
+    <div class="field"><label>인증 코드</label><input id="p" type="password" placeholder="••••••••"></div>
+    <div id="loginmsg"></div>
+    <div class="actions">
+      <span class="dim2" style="font-size:11px">아무 식별번호·코드나 입력 가능 · 등급은 식별번호 접두어로 결정</span>
+      <button class="btn primary" type="submit">인증</button>
+    </div>
+  </form>
+</section>
+
+<!-- ░ 메인 ░ -->
+<section id="main" class="screen">
+  <div class="topbar">
+    <span class="brand">SCiPNET</span>
+    <span class="dim">SITE-19 · 격리동 B</span>
+    <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
+    <span class="sp"></span>
+    <span id="who" class="dim"></span>
+    <span class="lvl" id="lvl"></span>
+    <span id="clock" class="dim"></span>
+    <span class="audio-btn" id="audiobtn" title="음향 켜기/끄기">♪ 음향 OFF</span>
+  </div>
+  <div class="layout">
+    <nav class="nav">
+      <div class="sect">단말</div>
+      <a href="#dashboard" data-v="dashboard">대시보드</a>
+      <a href="#database" data-v="database">격리 데이터베이스</a>
+      <a href="#incidents" data-v="incidents">사건 기록</a>
+      <a href="#personnel" data-v="personnel">인사 파일</a>
+      <a href="#messages" data-v="messages">내부 통신 <span id="unread" class="amber"></span></a>
+      <div class="sect">제한</div>
+      <a href="#o5" data-v="o5" class="dim2">O5 평의회 기록</a>
+      <div class="foot">SCiPNET v4.17.2<br>RAISA 감사 활성<br><span id="sess"></span></div>
+    </nav>
+    <main class="content" id="content"></main>
+    <aside class="side">
+      <h3>실시간 격리 상태 피드</h3>
+      <div class="feed" id="feed"></div>
+      <div class="stats" id="stats"></div>
+    </aside>
+  </div>
+  <div class="cmd">
+    <span class="p">&gt;</span>
+    <input id="cmdline" placeholder="명령 입력 — help" spellcheck="false" autocomplete="off">
+    <span class="hint">open 173 · search · logout</span>
+  </div>
+</section>
+
+<div id="glitch"></div>
+<div class="eyes" id="eyes"></div>
+
+<script>
+/* ════════════════════════════════════════════
+   데이터 — scpko.wikidot.com, CC BY-SA 3.0
+   ════════════════════════════════════════════ */
+const SCP = /*__SCP_DATA__*/;
+
+/* 등급 → 요구 보안 등급 */
+const CLASS_LVL = { "안전":1, "유클리드":2, "케테르":3, "아폴리온":4, "타우미엘":5 };
+function classKey(c){
+  c = c||"";
+  if(c.includes("케테르")) return "keter";
+  if(c.includes("유클리드")) return "euclid";
+  if(c.includes("안전")) return "safe";
+  if(c.includes("아폴리온")) return "apollyon";
+  return "unknown";
+}
+function reqLevel(c){
+  c=c||"";
+  if(c.includes("아폴리온")||c.includes("타우미엘")) return 4;
+  if(c.includes("케테르")) return 3;
+  if(c.includes("유클리드")) return 2;
+  if(c.includes("안전")) return 1;
+  return 4; // [데이터 말소] 등 — 가장 높게
+}
+
+/* ════ 상태 ════ */
+const S = { user:"", level:2, view:"dashboard", doc:null, denied:0, unread:3, booted:false };
+const LVL_NAME = {1:"Level 1 — 비밀",2:"Level 2 — 제한",3:"Level 3 — 기밀",4:"Level 4 — 극비",5:"Level 5 — 타우미엘"};
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const rnd = (a,b)=>a+Math.floor(Math.random()*(b-a+1));
+const pick = a=>a[rnd(0,a.length-1)];
+const pad=n=>String(n).padStart(2,"0");
+function now(){const d=new Date();return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`}
+function hms(){const d=new Date();return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`}
+function hash(s){let h=2166136261;for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0}
+
+/* ════ 부트 ════ */
+const BOOT = [
+"SCiPNET SECURE TERMINAL  //  BIOS 2.3.9  //  SITE-19 NODE 0x3F1A",
+"메모리 점검 ........................ 65536K OK",
+"격리 네트워크 핸드셰이크 ........... OK",
+"RAISA 감사 모듈 로드 ............... OK",
+"기억소거제 디스펜서 연결 ........... 대기",
+"스크랜턴 현실 고정 장치 상태 ....... 정상 (휴즈 지수 1.00)",
+"",
+"경고: 구역 7 격리실 센서 응답 지연 (412ms)",
+"경고: 마지막 세션이 정상 종료되지 않았습니다",
+"",
+"사용자 인증 모듈 시작 중 ..."
+];
+async function boot(){
+  const el=$("#bootlog"); let out="";
+  for(const line of BOOT){
+    if(line===""){out+="\n";el.textContent=out;await sleep(160);continue}
+    for(const ch of line){out+=ch;el.textContent=out+"█";await sleep(line.startsWith("경고")?9:5)}
+    out+="\n";el.textContent=out;await sleep(line.startsWith("경고")?420:110);
+  }
+  await sleep(500); glitch(1); await sleep(400);
+  show("login"); $("#u").focus();
+}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function show(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));$("#"+id).classList.add("active")}
+
+/* ════ 로그인 ════ */
+$("#loginform").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const u=$("#u").value.trim(), p=$("#p").value, msg=$("#loginmsg");
+  if(!u||!p){msg.textContent="식별번호와 인증 코드를 모두 입력하십시오.";return}
+  msg.style.color="var(--fg2)"; msg.textContent="RAISA 인증 서버 조회 중";
+  for(let i=0;i<3;i++){await sleep(380);msg.textContent+=" ."}
+  const lu=u.toLowerCase();
+  if(/^o5/.test(lu)){ await sleep(500); glitch(2); msg.style.color="var(--red2)"; msg.textContent="O5 자격 증명은 이 단말에서 사용할 수 없습니다. 이 시도는 기록되었습니다."; $("#p").value=""; S.denied++; return }
+  S.user=u.toUpperCase();
+  S.level = /^d-?\d/.test(lu)?1 : /^(dr|md|r4|l4)/.test(lu)?3 : 2;
+  try{localStorage.setItem("scipnet_user",S.user)}catch(_){}
+  msg.style.color="var(--green)"; msg.textContent="인증 완료. 세션을 여는 중";
+  await sleep(600); enter();
+});
+
+function enter(){
+  show("main"); S.booted=true;
+  $("#who").textContent=S.user;
+  $("#lvl").textContent=LVL_NAME[S.level];
+  $("#sess").textContent="세션 "+hash(S.user+Date.now()).toString(16).toUpperCase().slice(0,8);
+  route(); startFeed(); startClock(); scheduleGlitch(); scheduleAlert();
+  $("#unread").textContent=S.unread?`(${S.unread})`:"";
+}
+
+/* ════ 라우팅 ════ */
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5};
+window.addEventListener("hashchange",route);
+function route(){
+  if(!S.booted) return;
+  let v=(location.hash||"#dashboard").slice(1);
+  if(!VIEWS[v]) v="dashboard";
+  S.view=v; S.doc=null;
+  document.querySelectorAll(".nav a").forEach(a=>a.classList.toggle("on",a.dataset.v===v));
+  render(VIEWS[v]());
+}
+function render(html){clearEffects();const c=$("#content");c.innerHTML=html;c.scrollTop=0}
+S.timers=[]; S.listeners=[];
+function later(fn,ms){const t=setTimeout(fn,ms);S.timers.push(t);return t}
+function every(fn,ms){const t=setInterval(fn,ms);S.timers.push(t);return t}
+function clearEffects(){S.timers.forEach(t=>{clearTimeout(t);clearInterval(t)});S.timers=[];S.listeners.forEach(([e,f])=>document.removeEventListener(e,f));S.listeners=[];$("#eyes").classList.remove("on")}
+
+/* ════ 검열 유틸 ════ */
+function redactWords(text, docId, ratio){
+  // 문서별로 결정적(deterministic)으로 일부 단어를 검열
+  const seed=hash(docId); let i=0;
+  return esc(text).replace(/[가-힣A-Za-z0-9]{2,}/g,w=>{
+    i++; if(w==="SCP"||/^\d+$/.test(w)) return w; const r=((seed*31+i*7919)%1000)/1000;
+    return r<ratio ? `<span class="redact">${w}</span>` : w;
+  });
+}
+function blackBars(n){let s="";for(let i=0;i<n;i++){s+=`<span class="blk" style="width:${rnd(18,84)}px"></span>`}return s}
+function markDM(html){ return html.replace(/\[(데이터 말소|편집됨|검열됨|삭제됨)\]/g,'<span class="dm">[$1]</span>').replace(/█+/g,m=>`<span class="dm">${m}</span>`) }
+
+/* ════ 뷰: 대시보드 ════ */
+function dashboard(){
+  const docs=Object.values(SCP);
+  const n=k=>docs.filter(d=>classKey(d.object_class)===k).length;
+  return `
+  <h2 class="ph">SITE-19 <span>운영 현황</span> · ${now()}</h2>
+  <div class="grid">
+    <div class="card"><div class="k">격리 중 개체</div><div class="v">${docs.length}<small>+ ${rnd(1800,1900)} (타 기지)</small></div></div>
+    <div class="card"><div class="k">케테르 등급</div><div class="v red">${n("keter")}</div></div>
+    <div class="card"><div class="k">유클리드 등급</div><div class="v amber">${n("euclid")}</div></div>
+    <div class="card"><div class="k">안전 등급</div><div class="v green">${n("safe")}</div></div>
+    <div class="card"><div class="k">현재 근무 인원</div><div class="v">${rnd(410,470)}<small>D계급 ${rnd(60,90)}</small></div></div>
+    <div class="card"><div class="k">기억소거제 재고 (B등급)</div><div class="v">${rnd(60,97)}%</div></div>
+  </div>
+  <div class="notice danger">
+    <b class="red">RAISA 공지 · ${now().slice(0,10)}</b><br>
+    구역 7 격리실(SCP-106) 하부 센서 어레이에서 지난 72시간 동안 ${rnd(3,9)}건의 비정상 판독이 보고되었습니다. 해당 구역 접근은 Level 3 이상으로 제한되며, 바닥 재질 변화를 목격한 인원은 즉시 보고하십시오. <span class="redact">해당 보고를 한 인원 2명은 현재 의무실에 있습니다.</span>
+  </div>
+  <div class="notice">
+    <b class="amber">기지 공지</b><br>
+    · 11월 정기 기억소거 검진 일정이 변경되었습니다. 변경 전 일정으로 안내받은 인원은 <span class="redact">변경 전 일정이 존재하지 않았음을</span> 유념하십시오.<br>
+    · 카페테리아 C 구역은 SCP-999 노출 이후 정리 중입니다. 기분이 좋아진 것은 정상입니다.<br>
+    · 복도 B-4의 계단은 사용하지 마십시오. 해당 위치에 계단은 없습니다.
+  </div>
+  <h2 class="ph" style="margin-top:28px">최근 열람 <span>문서</span></h2>
+  <table><tr><th>항목</th><th>등급</th><th>최종 열람</th><th>열람자</th></tr>
+  ${["SCP-173","SCP-106","SCP-682","SCP-049","SCP-3008"].filter(k=>SCP[k]).map(k=>{const d=SCP[k];return `<tr class="row" onclick="openDoc('${k}')"><td class="hi">${k}</td><td><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"—")}</span></td><td class="dim">${rnd(1,23)}시간 전</td><td class="dim">${pick(["R-19-"+rnd(1000,9999),"DR-"+pick(["GEARS","CLEF","BRIGHT","KONDRAKI","LIGHT"]),"<span class='redact'>D-9341</span>","(기록 없음)"])}</td></tr>`}).join("")}
+  </table>`;
+}
+
+/* ════ 뷰: 데이터베이스 ════ */
+function database(q=""){
+  const list=Object.values(SCP).filter(d=>!q||(d.id+d.title+(d.tags||[]).join(" ")+d.object_class).toLowerCase().includes(q.toLowerCase()))
+    .sort((a,b)=>parseInt(a.id.slice(4))-parseInt(b.id.slice(4)));
+  return `
+  <h2 class="ph">격리 <span>데이터베이스</span> · ${Object.keys(SCP).length}건 색인됨</h2>
+  <div class="search"><input id="dbq" placeholder="항목 번호, 태그, 등급으로 검색" value="${esc(q)}" oninput="dbSearch(this.value)"><span class="dim2" style="font-size:11px">열람 권한: ${LVL_NAME[S.level]}</span></div>
+  <table><tr><th>항목</th><th>등급</th><th>태그</th><th>관련 문서</th><th>요구 권한</th><th>상태</th></tr>
+  ${list.map(d=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:splitDoc(d).subs.length; const need=sp?0:reqLevel(d.object_class), ok=S.level>=need;
+    if(sp) return `<tr class="row" onclick="openDoc('${d.id}')"><td class="hi">${d.id}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td><td class="dim">${(d.tags||[]).slice(0,4).map(esc).join(" · ")}</td><td class="dim2">—</td><td class="dim2">—</td><td class="amber">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
+    return `<tr class="row ${ok?"":"locked"}" onclick="openDoc('${d.id}')">
+      <td class="${ok?"hi":""}">${d.id}</td>
+      <td><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span></td>
+      <td class="dim">${(d.tags||[]).slice(0,4).map(esc).join(" · ")||"—"}</td>
+      <td class="dim2">${ns?ns+"건":"—"}</td>
+      <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
+      <td class="dim">${ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
+  </table>
+  <p class="dim2" style="margin-top:14px;font-size:11px">목록에 없는 항목은 존재하지 않거나, 귀하가 그 존재를 알 권한이 없습니다.</p>`;
+}
+function dbSearch(v){const pos=$("#dbq").selectionStart;render(database(v));const i=$("#dbq");i.focus();i.setSelectionRange(pos,pos)}
+
+/* ════ 하위 문서(부록) 분해 ════ */
+const HEAD_RE=/^(부록|문서 번호|실험 기록|탐사 기록|사건 기록|사건 보고서|면담 기록|회수된 기록|비망록)[^\n]{0,70}$/;
+const SUBCACHE={};
+function splitDoc(d){
+  if(SUBCACHE[d.id]) return SUBCACHE[d.id];
+  const clean=s=>(s||"").replace(/\[\[footnoteblock\]\]/g,"").replace(/\n\s*댓글 보기\s*$/,"").trim();
+  const isHead=t=>HEAD_RE.test(t) && !/^(면담자|탐사조|면담 대상)/.test(t);
+  // 설명이 부록까지 삼킨 경우 잘라냄
+  let desc=clean(d.description), descTail="";
+  { const ls=desc.split("\n"); const k=ls.findIndex(l=>isHead(l.trim())); if(k>=0){ descTail=ls.slice(k).join("\n"); desc=ls.slice(0,k).join("\n").trim() } }
+  let rest=clean(d.full_text);
+  if(d.description){const i=rest.indexOf(clean(d.description).slice(0,200)); if(i>=0) rest=rest.slice(i+clean(d.description).length)}
+  rest=(descTail+"\n"+rest).replace(/^\s*(일련번호|등급)\s*[:：].*$/gm,"");
+  const lines=rest.split("\n"); const subs=[]; let cur=null; const pre=[];
+  for(const ln of lines){
+    const t=ln.trim();
+    if(isHead(t)){ if(cur) subs.push(cur); cur={title:t.replace(/[:：]\s*$/,""),lines:[]}; continue }
+    (cur?cur.lines:pre).push(ln);
+  }
+  if(cur) subs.push(cur);
+  const base=reqLevel(d.object_class);
+  const out=subs.map((s,i)=>({idx:i,title:s.title,text:s.lines.join("\n").trim(),
+     level: Math.min(4, base + ((hash(d.id+s.title)%3===0 && i>0)?1:0)) })).filter(s=>s.text.length>30);
+  SUBCACHE[d.id]={pre:pre.join("\n").trim(), subs:out, description:desc, containment:clean(d.containment)};
+  return SUBCACHE[d.id];
+}
+/* 본문 안의 SCP-XXXX 를 링크로 */
+function linkRefs(html, selfId){
+  return html.replace(/SCP-(\d{3,4})(?![\d])/g,(m,n)=>{
+    const id="SCP-"+n.padStart(3,"0");
+    if(id===selfId) return m;
+    if(SCP[id]) return `<a class="xref" onclick="openDoc('${id}')" title="${id} 열람">${m}</a>`;
+    return `<a class="xref dead" onclick="deadRef('${id}')" title="색인되지 않음">${m}</a>`;
+  });
+}
+function deadRef(id){
+  S.denied+=0; glitch(1); feedPush(`${S.user} 조회 — ${id} (색인 없음)`,"amber");
+  render(`<span class="back" onclick="history.back()">← 돌아가기</span>
+  <div class="doc"><div class="hdr"><h1>${id}</h1><span class="badge unknown">미색인</span></div>
+  <div class="denied"><b>항목 없음</b>${id} 는 이 노드에 색인되어 있지 않습니다. 해당 항목은 타 기지에 격리 중이거나, 재분류되었거나, 존재한 적이 없습니다.<br><span class="dim">이 조회는 기록되었습니다.</span></div>
+  <div class="sec"><h4>격리 절차</h4><div class="body">${blackBars(rnd(12,24))}</div></div></div>`);
+}
+function crumb(parts){ return `<div class="crumb">${parts.map((p,i)=>p.fn?`<a onclick="${p.fn}">${esc(p.t)}</a>`:`<b class="hi" style="font-weight:500">${esc(p.t)}</b>`).join('<span>›</span>')}</div>` }
+function subsBox(d, cur=-1){
+  const {subs}=splitDoc(d); if(!subs.length) return "";
+  return `<div class="subs"><h4>관련 문서 · ${subs.length}건</h4>${subs.map(s=>{const ok=S.level>=s.level;
+    return `<a class="${ok?"":"lock"} ${s.idx===cur?"hi":""}" onclick="openSub('${d.id}',${s.idx})"><span>${s.idx===cur?"▸ ":""}${esc(s.title)}</span><span class="r">${ok?`Level ${s.level}`:`🔒 Level ${s.level} 필요`}</span></a>`}).join("")}</div>`;
+}
+function openSub(id, idx){
+  const d=SCP[id]; const {subs}=splitDoc(d); const s=subs[idx]; if(!s) return;
+  S.doc=id+"/"+idx;
+  const ok=S.level>=s.level;
+  const nav=`<div class="pn"><span>${idx>0?`<a onclick="openSub('${id}',${idx-1})">← ${esc(subs[idx-1].title)}</a>`:""}</span><span>${idx<subs.length-1?`<a onclick="openSub('${id}',${idx+1})">${esc(subs[idx+1].title)} →</a>`:""}</span></div>`;
+  if(!ok){ S.denied++; glitch(1); feedPush(`접근 거부 기록 — ${S.user} → ${id} / ${s.title}`,"red");
+    render(`${crumb([{t:"격리 데이터베이스",fn:"location.hash='#database'"},{t:id,fn:`openDoc('${id}')`},{t:s.title}])}
+    <div class="doc"><div class="hdr"><h1 style="font-size:20px">${esc(s.title)}</h1><span class="badge ${classKey(d.object_class)}">${id}</span></div>
+    <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
+    <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span></div>
+    <div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
+  feedPush(`${S.user} 열람 — ${id} / ${s.title}`,"");
+  const ratio = S.level>s.level?0 : (s.level>=3?0.06:0.025);
+  render(`${crumb([{t:"격리 데이터베이스",fn:"location.hash='#database'"},{t:id,fn:`openDoc('${id}')`},{t:s.title}])}
+  ${s.level>=3?`<div class="stamp">LEVEL ${s.level} // EYES ONLY</div>`:""}
+  <div class="doc"><div class="hdr"><h1 style="font-size:20px">${esc(s.title)}</h1><span class="badge ${classKey(d.object_class)}">${id}</span></div>
+  <div class="meta"><span>상위 문서 ${id}</span><span>요구 권한 Level ${s.level}</span><span>문서 ${idx+1} / ${subs.length}</span></div>
+  <div class="sec"><div class="body">${linkRefs(markDM(redactWords(s.text,id+s.title,ratio)),id)}</div></div>
+  ${subsBox(d,idx)}${nav}${attrib(d)}</div>`);
+}
+
+/* ════ 문서 열람 ════ */
+function openDoc(id){
+  const d=SCP[id]; if(!d) return;
+  if(SPECIAL[id]){ S.doc=id; feedPush(`${S.user} 열람 — ${id}`,""); render(SPECIAL[id](d)); docEffects(id); return }
+  const need=reqLevel(d.object_class);
+  S.doc=id;
+  if(S.level<need){ S.denied++; glitch(1); document.body.classList.add("shake"); setTimeout(()=>document.body.classList.remove("shake"),300);
+    feedPush(`접근 거부 기록 — ${S.user} → ${id}`, "red");
+    render(`<span class="back" onclick="route()">← 데이터베이스</span>
+    <div class="doc">
+      <div class="hdr"><h1>${id}</h1><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span></div>
+      <div class="meta"><span>요구 권한 Level ${need}</span><span>현재 권한 Level ${S.level}</span><span>${now()}</span></div>
+      <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span></div>
+      <div class="sec"><h4>특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
+      <div class="sec"><h4>설명</h4><div class="body">${blackBars(rnd(30,60))}</div></div>
+      ${S.denied>=3?`<div class="notice danger">귀하의 단말에 기억소거 담당 인원이 배정되었습니다. 자리에서 이동하지 마십시오.</div>`:""}
+    </div>`);
+    return;
+  }
+  // 열람 가능 — 등급 차이가 작을수록 일부 단어 검열
+  const ratio = S.level>need?0 : (need>=3?0.07:0.03);
+  const sections=[];
+  const sd=splitDoc(d);
+  if(sd.containment) sections.push(["특수 격리 절차", sd.containment]);
+  if(sd.description) sections.push(["설명", sd.description]);
+  if(!sd.containment && !sd.description) sections.push(["문서", d.full_text]);
+  else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
+  feedPush(`${S.user} 열람 — ${id}`, "");
+  render(`${crumb([{t:"격리 데이터베이스",fn:"location.hash='#database'"},{t:id}])}
+  ${need>=3?`<div class="stamp">LEVEL ${need} // EYES ONLY</div>`:""}
+  <div class="doc">
+    <div class="hdr"><h1>${id}</h1><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span></div>
+    <div class="meta"><span>등급 ${esc(d.object_class||"—")}</span><span>요구 권한 Level ${need}</span><span>${(d.tags||[]).slice(0,5).map(esc).join(" · ")}</span><span>최종 수정 ${rnd(2008,2024)}-${pad(rnd(1,12))}-${pad(rnd(1,28))}</span></div>
+    ${sections.map(([h,t])=>`<div class="sec"><h4>${h}</h4><div class="body">${linkRefs(markDM(redactWords(t,id+h,ratio)),id)}</div></div>`).join("")}
+    ${subsBox(d)}
+    <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
+    ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
+  </div>`);
+  docEffects(id);
+}
+function attrib(d){return `<div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · CC BY-SA 3.0</div>`}
+
+/* ════ 특수 문서 ════ */
+const SPECIAL={
+  "SCP-2521": d=>`<span class="back" onclick="route()">← 데이터베이스</span>
+   <div class="doc">
+    <div class="hdr"><h1>SCP-2521</h1><span class="badge keter">●●|●●●●●|●●|●</span></div>
+    <div class="meta"><span>요구 권한 —</span><span>본 항목에 대한 문자 기반 정보는 보관할 수 없음</span></div>
+    <div class="pict">●●|●●●●●|●●|●<small>PICTOGRAPHIC RECORD ONLY</small></div>
+    <div class="notice danger" id="p2521">본 항목에 관한 <b>문자·음성 형태의 정보</b>는 항목에 의해 회수됩니다. 이 안내문은 문자로 작성되어 있습니다.</div>
+    <div class="sec"><h4>격리 절차</h4><div class="body" id="t2521">이 문서의 원문은 전부 그림문자로 작성되어 있으며 SCiPNET 단말은 이를 렌더링하지 못합니다. 원문은 출처 링크에서 열람하십시오. 다음 문장을 작성한 연구원은 현재 </div></div>
+    ${attrib(d)}</div>`,
+  "SCP-3125": d=>`<span class="back" onclick="route()">← 데이터베이스</span>
+   <div class="doc">
+    <div class="hdr"><h1>SCP-3125</h1><span class="badge unknown">[반밈]</span></div>
+    <div class="meta"><span>요구 권한 Level 4</span><span>반밈과 (Antimemetics Division)</span></div>
+    <div class="sec"><h4>특수 격리 절차</h4><div class="body" id="t3125">이 페이지는 비어 있습니다.\n\n이 페이지는 처음부터 비어 있었습니다.\n\n귀하는 이 페이지에서 아무것도 읽지 않았고, 열람 기록에도 남지 않을 것입니다.\n\n</div></div>
+    <div class="sec"><h4>설명</h4><div class="body dim2">— 기술 가능한 내용 없음 —</div></div>
+    ${attrib(d)}</div>`,
+};
+
+/* ════ 문서별 실시간 연출 ════ */
+function docEffects(id){
+  const body=()=>Array.from(document.querySelectorAll("#content .doc .body"));
+  switch(id){
+    case "SCP-096": { // 너무 오래 보고 있으면
+      later(()=>{ feedPush("SCP-096 격리실 카메라 — 단말 0x3F1A 로 피드 전환","amber"); $("#content").insertAdjacentHTML("afterbegin",`<div class="notice danger">경고: 본 문서 열람 시간 초과. 격리실 영상 피드가 귀하의 단말로 전환됩니다. 화면을 보지 마십시오.</div>`) },22000);
+      later(()=>{ glitch(2); SFX.burst() },29000);
+      later(()=>{ const e=$("#eyes"); e.innerHTML="귀하는 SCP-096의 얼굴을 보지 않았습니다.<br><span class='dim2'>귀하는 SCP-096의 얼굴을 보지 않았습니다.</span>"; e.classList.add("on"); SFX.burst(); feedPush("SCP-096 격리 실패 — 대상 이동 중 — 목표 좌표: NODE 0x3F1A","red"); $("#topalert").classList.add("on"); later(()=>{e.classList.remove("on");glitch(1);$("#topalert").classList.remove("on");feedPush("SCP-096 격리 복구 — 사상자 집계 중","amber")},2600) },31000);
+      break }
+    case "SCP-173": { // 입력이 8초간 없으면 = 눈을 깜빡임
+      let last=Date.now(); const bump=()=>last=Date.now();
+      ["mousemove","keydown","scroll","click"].forEach(e=>{document.addEventListener(e,bump,true);S.listeners.push([e,bump])});
+      every(()=>{ if(Date.now()-last>8000){ last=Date.now(); SFX.scrape(); feedPush("SCP-173 격리실 — 위치 변경 감지 (관측 공백 8초)","red"); body().forEach(b=>{b.classList.add("shift");setTimeout(()=>b.classList.remove("shift"),140)}); $("#content").insertAdjacentHTML("afterbegin",`<div class="notice danger">경고: 단말 활동 없음 8초. 관측이 끊어진 동안 SCP-173의 위치가 변경되었습니다. 거리: <span class="hi">${rnd(1,6)}m</span> → 이전 ${rnd(7,14)}m</div>`) } },1000);
+      break }
+    case "SCP-055": { // 읽은 것부터 잊어버림
+      later(()=>{ const bs=body(); bs.forEach((b,i)=>later(()=>{ b.classList.add("decay","fade-out"); later(()=>{ b.innerHTML=`<span class="dim2">[이 구역의 내용은 귀하가 방금 읽었습니다. 무엇이었는지 적어보십시오.]</span>`; b.classList.remove("fade-out") },1300) }, i*4000)) },12000);
+      later(()=>{ const h=$("#content .doc h1"); if(h) h.textContent="SCP-███"; feedPush(`${S.user} 열람 기록 — (항목 없음)`,"") },28000);
+      break }
+    case "SCP-106": { // 글자가 부식됨
+      later(()=>{ feedPush("SCP-106 격리실 — 단말 캐비닛 하부 부식 감지","amber");
+        every(()=>{ const bs=body(); if(!bs.length) return; const b=pick(bs); const nodes=[]; const w=document.createTreeWalker(b,NodeFilter.SHOW_TEXT); let n; while(n=w.nextNode()) if(n.nodeValue.trim().length>3) nodes.push(n);
+          if(!nodes.length) return; const t=pick(nodes); const i=rnd(0,t.nodeValue.length-2); const ch=pick(["▒","░","▓","·"," "]); t.nodeValue=t.nodeValue.slice(0,i)+ch+t.nodeValue.slice(i+1) },120) },9000);
+      later(()=>$("#content").insertAdjacentHTML("afterbegin",`<div class="notice danger">문서 무결성 저하 — 원인: 격리실 7 에서 발생한 부식성 물질이 단말 저장 매체에 도달함. 문서를 닫으십시오.</div>`),20000);
+      break }
+    case "SCP-2521": { // 문자가 회수됨
+      later(()=>{ every(()=>{ const t=$("#t2521"); if(!t) return; const words=t.textContent.trim().split(/\s+/); if(words.length<=1){ t.innerHTML=`<span class="dim2">●●|●●●●●|●●|●</span>`; return } const k=rnd(0,words.length-1); words.splice(k,1); t.textContent=words.join(" "); SFX.tick() },350) },4000);
+      later(()=>{ const n=$("#p2521"); if(n) n.innerHTML=`<span class="dim2">●● ●●●|●● ●|●●●● ●●|●</span>`; feedPush("SCP-2521 — 단말 0x3F1A 문자 데이터 회수 진행 중","red") },9000);
+      break }
+    case "SCP-3125": {
+      later(()=>{ feedPush(`${S.user} 열람 기록 삭제 — SCP-3125`,""); const t=$("#t3125"); if(t) t.textContent="" },6000);
+      later(()=>{ const t=$("#t3125"); if(t) t.innerHTML=`<span class="red">여기에 무언가가 있습니다. 귀하는 그것을 볼 수 없습니다. 그것은 귀하를 볼 수 있습니다.</span>` },12000);
+      later(()=>{ const t=$("#t3125"); if(t) t.textContent=""; glitch(1) },15000);
+      break }
+  }
+}
+
+/* ════ 오디오 (WebAudio 합성, 외부 파일 없음) ════ */
+const SFX=(()=>{
+  let ctx=null, master=null, hum=null, on=false;
+  function init(){ if(ctx) return; ctx=new (window.AudioContext||window.webkitAudioContext)(); master=ctx.createGain(); master.gain.value=0.6; master.connect(ctx.destination) }
+  function noise(dur,vol,hp=800,lp=6000){ if(!on) return; const b=ctx.createBuffer(1,ctx.sampleRate*dur,ctx.sampleRate); const d=b.getChannelData(0); for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,2);
+    const s=ctx.createBufferSource(); s.buffer=b; const f1=ctx.createBiquadFilter(); f1.type="highpass"; f1.frequency.value=hp; const f2=ctx.createBiquadFilter(); f2.type="lowpass"; f2.frequency.value=lp; const g=ctx.createGain(); g.gain.value=vol; s.connect(f1).connect(f2).connect(g).connect(master); s.start() }
+  function startHum(){ const o=ctx.createOscillator(); o.type="sawtooth"; o.frequency.value=50; const o2=ctx.createOscillator(); o2.type="sine"; o2.frequency.value=100.3;
+    const f=ctx.createBiquadFilter(); f.type="lowpass"; f.frequency.value=140; const g=ctx.createGain(); g.gain.value=0.0; o.connect(f); o2.connect(f); f.connect(g).connect(master); o.start(); o2.start(); g.gain.linearRampToValueAtTime(0.07,ctx.currentTime+2);
+    // 바람/환풍기 노이즈
+    const b=ctx.createBuffer(1,ctx.sampleRate*4,ctx.sampleRate); const d=b.getChannelData(0); for(let i=0;i<d.length;i++) d[i]=Math.random()*2-1; const s=ctx.createBufferSource(); s.buffer=b; s.loop=true; const nf=ctx.createBiquadFilter(); nf.type="lowpass"; nf.frequency.value=300; const ng=ctx.createGain(); ng.gain.value=0.025; s.connect(nf).connect(ng).connect(master); s.start();
+    hum={g,ng} }
+  return {
+    toggle(){ init(); on=!on; if(on){ ctx.resume(); if(!hum) startHum(); else{hum.g.gain.value=0.07;hum.ng.gain.value=0.025} } else if(hum){ hum.g.gain.value=0; hum.ng.gain.value=0 } $("#audiobtn").textContent=on?"♪ 음향 ON":"♪ 음향 OFF"; $("#audiobtn").classList.toggle("on",on); return on },
+    key(){ noise(0.03,0.25,1500,7000) },
+    tick(){ noise(0.02,0.15,2500,9000) },
+    burst(){ noise(0.45,0.5,200,4000); if(on){ const o=ctx.createOscillator(); o.type="square"; o.frequency.value=rnd(60,90); const g=ctx.createGain(); g.gain.value=0.12; o.connect(g).connect(master); o.start(); g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.5); o.stop(ctx.currentTime+0.5) } },
+    scrape(){ noise(0.9,0.3,300,1500) },
+    get on(){return on}
+  };
+})();
+$("#audiobtn").addEventListener("click",()=>SFX.toggle());
+document.addEventListener("keydown",e=>{ if(SFX.on && e.key.length===1) SFX.key() });
+
+/* ════ 뷰: 사건 기록 ════ */
+const INCIDENTS=[
+ ["2026-11-0"+rnd(1,5),"SCP-106","격리 위반 (경미)","구역 7 격리실 바닥 2.3㎡에서 부식성 물질 발생. 대상은 격리실 내에 있었으나 센서는 3분 12초간 대상의 위치를 확인하지 못함.","종결"],
+ ["2026-10-29","SCP-173","절차 위반","교대 인원 1명이 깜빡임 경고 없이 눈을 비빔. 사망자 없음. 해당 인원은 재교육 후 복귀.","종결"],
+ ["2026-10-2"+rnd(1,8),"SCP-682","격리 위반 (중대)","산성 용액 교체 중 대상이 격리실 벽을 ██㎝ 관통. MTF 니-7 대응. 사상자 <span class='redact'>4명</span>.","조사 중"],
+ ["2026-10-19","SCP-096","무결성 점검","격리실 카메라 1대 렌즈에 미세 균열 발견. 해당 카메라는 즉시 파기됨. 영상 기록은 확인하지 않음.","종결"],
+ ["2026-10-1"+rnd(1,7),"SCP-049","면담","대상이 격리실 담당 연구원에게 '역병'이 기지 내에 있다고 반복 주장. 연구원 ████ 박사는 다음 날 결근.","보류"],
+ ["2026-10-0"+rnd(2,9),"SCP-3008","인원 실종","제19기지 외부 조달 담당 인원 1명, 정규 근무 외 시간에 ██████ 매장 방문 후 연락 두절. 수색 중단.","미결"],
+ ["2026-09-30","—","시스템","SCiPNET 노드 0x3F1A에 출처 불명의 로그인 시도 11건. 사용된 식별번호는 모두 사망 처리된 인원의 것.","<span class='red'>미결</span>"],
+];
+function incidents(){
+  return `<h2 class="ph">사건 <span>기록</span> · SITE-19</h2>
+  <table><tr><th>일시</th><th>관련 항목</th><th>분류</th><th>요약</th><th>상태</th></tr>
+  ${INCIDENTS.map(([d,s,t,sum,st])=>`<tr><td class="dim">${d}</td><td class="${SCP[s]?"hi":"dim"}" ${SCP[s]?`style="cursor:pointer" onclick="openDoc('${s}')"`:""}>${s}</td><td>${t}</td><td class="dim">${linkRefs(sum,"")}</td><td>${st}</td></tr>`).join("")}
+  </table>
+  <p class="dim2" style="margin-top:14px;font-size:11px">Level 3 미만 인원에게는 지난 60일 기록만 표시됩니다. 그 이전에는 아무 일도 없었습니다.</p>`;
+}
+
+/* ════ 뷰: 인사 파일 ════ */
+const STAFF=[
+ ["R-19-0412","서하윤","연구원 (Level 2)","SCP-173 · SCP-999","근무 중"],
+ ["R-19-1177","정우진","선임 연구원 (Level 3)","SCP-049 · SCP-035","근무 중"],
+ ["R-19-0893","한지호","격리 전문가 (Level 3)","SCP-106 · SCP-682","<span class='amber'>의무실</span>"],
+ ["A-19-0051","문세아","보안 요원 (Level 2)","격리동 B 순찰","근무 중"],
+ ["R-19-2204","<span class='redact'>이성민</span>","연구원 (Level 2)","SCP-3008","<span class='red'>실종</span>"],
+ ["R-19-0666","—","—","—","<span class='red'>[기록 삭제됨]</span>"],
+ ["D-9341","(D계급)","D계급 인원","SCP-173 격리실 청소","<span class='dim'>사망 처리 (3회)</span>"],
+ ["D-1120","(D계급)","D계급 인원","실험 배정 대기","근무 중"],
+];
+function personnel(){
+  return `<h2 class="ph">인사 <span>파일</span> · 격리동 B</h2>
+  <table><tr><th>식별번호</th><th>성명</th><th>직책</th><th>담당</th><th>상태</th></tr>
+  ${STAFF.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===0?"hi":i===1?"":"dim"}">${c}</td>`).join("")}</tr>`).join("")}
+  <tr><td class="hi">${S.user}</td><td class="dim">(귀하)</td><td class="dim">${LVL_NAME[S.level]}</td><td class="dim">—</td><td>${S.denied>=3?"<span class='red'>기억소거 검토</span>":S.denied?"<span class='amber'>위반 "+S.denied+"회</span>":"근무 중"}</td></tr>
+  </table>
+  <div class="notice" style="margin-top:22px">귀하의 인사 파일에 기재된 입사일은 <span class="redact">2019-03-04</span>입니다. 귀하가 기억하는 입사일과 다를 경우 보고하지 마십시오.</div>`;
+}
+
+/* ════ 뷰: 메시지 ════ */
+function messages(){
+  S.unread=0; $("#unread").textContent="";
+  return `<h2 class="ph">내부 <span>통신</span></h2>
+  <div class="msglist">
+    <div class="m unread"><div class="f"><span>RAISA 자동 통보</span><span>${now().slice(0,10)} 08:00</span></div>지난 세션에서 접근 권한을 초과하는 문서 열람 시도가 감지되었습니다. 이는 자동 통보이며 조치는 필요하지 않습니다. 조치는 이미 이루어졌습니다.</div>
+    <div class="m unread"><div class="f"><span>정우진 (R-19-1177)</span><span>${now().slice(0,10)} 07:41</span></div>049 면담 기록 정리 끝났어요. 그런데 어제 격리실 밖에서 ██ 박사님 봤다는 사람이 둘인데, 박사님 지난주에 전출 가셨잖아요. 혹시 명단 확인 가능해요?</div>
+    <div class="m unread corrupt"><div class="f"><span>발신자 불명</span><span>????-??-?? ??:??</span></div>${blackBars(6)}<br>복도 B-4 계단<br>${blackBars(3)} 내려오지 마<br>${blackBars(9)}</div>
+    <div class="m"><div class="f"><span>기지 관리과</span><span>2026-10-30 17:12</span></div>11월 식단표가 게시되었습니다. 목요일 메뉴의 '정체불명 단백질'은 표기 오류이며, 정체는 명확합니다.</div>
+    <div class="m"><div class="f"><span>한지호 (R-19-0893)</span><span>2026-10-2${rnd(1,8)} 02:3${rnd(0,9)}</span></div>106 격리실 하부 점검 들어갑니다. 30분 안에 연락 없으면 절차대로.</div>
+    <div class="m"><div class="f"><span>한지호 (R-19-0893)</span><span class="red">(미발신 — 초안)</span></div>바닥이</div>
+  </div>`;
+}
+
+/* ════ 뷰: O5 ════ */
+function o5(){
+  S.denied++; glitch(2); feedPush(`O5 기록 접근 시도 — ${S.user}`, "red");
+  return `<h2 class="ph red">O5 <span>평의회 기록</span></h2>
+  <div class="denied"><b>LEVEL 5 — 접근 거부</b>이 페이지는 존재하지 않습니다. 귀하는 이 페이지를 열지 않았습니다.<br><br>
+  <span class="dim">세션 식별자 ${$("#sess").textContent.slice(3)} 가 O5 명령국에 전달되었습니다. 단말에서 떠나지 마십시오.</span></div>
+  ${S.denied>=3?`<div class="notice danger">단말 앞에 서 있는 사람이 보이면 그가 귀하의 기억소거 담당자입니다.</div>`:""}`;
+}
+
+/* ════ 피드 ════ */
+const FEED_T=[
+ ()=>[`${pick(Object.keys(SCP))} 격리 상태 정상`,""],
+ ()=>[`구역 ${rnd(1,12)} 온도 ${rnd(17,22)}.${rnd(0,9)}°C`,""],
+ ()=>[`구역 7 센서 응답 지연 ${rnd(300,900)}ms`,"amber"],
+ ()=>[`D-${rnd(1000,9999)} 격리실 ${pick(["173","682","106","049"])} 진입`,""],
+ ()=>[`D-${rnd(1000,9999)} 격리실 ${pick(["173","682","106"])} 퇴장 — 인원 수 불일치`,"red"],
+ ()=>[`기억소거제 B등급 ${rnd(1,4)}회분 불출`,""],
+ ()=>[`스크랜턴 고정 장치 휴즈 ${(0.96+Math.random()*0.08).toFixed(2)}`,""],
+ ()=>[`SCP-096 격리실 카메라 자동 차단 (${rnd(1,4)}초)`,"amber"],
+ ()=>[`SCP-682 산성 용액 농도 ${rnd(88,99)}%`,""],
+ ()=>[`SCP-173 격리실 — 긁는 소리 감지 (정상)`,""],
+ ()=>[`복도 B-4 동작 감지 — 배정 인원 없음`,"red"],
+ ()=>[`SCP-106 격리실 바닥 재질 변화 ${rnd(1,9)}%`,"amber"],
+ ()=>[`SCP-999 격리실 — 웃음소리 (정상)`,""],
+ ()=>[`${S.user||"UNKNOWN"} 로그인 — 중복 세션 감지`,"red"],
+ ()=>[`SCP-049 격리실 — 대상 발화: "역병"`,"amber"],
+ ()=>[`SCP-3008 입구 — 출입 기록 없음, 퇴장 기록 1건`,"red"],
+ ()=>[`내부 전력 ${rnd(97,100)}% · 예비 발전기 대기`,""],
+];
+function feedPush(text,cls,ago=0){
+  const f=$("#feed"); const el=document.createElement("div"); el.className=cls||""; const d=new Date(Date.now()-ago*1000); el.innerHTML=`<b>${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}</b>${esc(text)}`;
+  f.prepend(el); while(f.children.length>60) f.lastChild.remove();
+}
+function startFeed(){
+  for(let i=8;i>0;i--){const [t,c]=pick(FEED_T)();feedPush(t,c,i*rnd(20,90))}
+  (function tick(){ const [t,c]=pick(FEED_T)(); feedPush(t,c); setTimeout(tick,rnd(2500,7000)) })();
+  (function st(){ $("#stats").innerHTML=`격리 무결성 <b>${(99.2+Math.random()*.7).toFixed(2)}%</b><br>활성 세션 <b>${rnd(38,61)}</b><br>미처리 경보 <b class="${rnd(0,1)?"amber":""}">${rnd(0,4)}</b><br>구역 7 센서 <b class="red">지연</b>`; setTimeout(st,4000) })();
+}
+function startClock(){ (function t(){ $("#clock").textContent=now(); setTimeout(t,1000) })() }
+
+/* ════ 글리치 ════ */
+function glitch(intensity=1){
+  const g=$("#glitch"); g.innerHTML="";
+  const docs=Object.values(SCP); const src=pick(docs);
+  const lines=(src.full_text||"").split("\n").filter(l=>l.length>20);
+  const n=rnd(3,6)*intensity;
+  for(let i=0;i<n;i++){
+    const s=document.createElement("div"); s.className="slice";
+    const top=rnd(0,95), h=rnd(6,28);
+    s.style.top=top+"vh"; s.style.height=h+"px"; s.style.transform=`translateX(${rnd(-30,30)}px)`;
+    s.style.color=pick(["var(--hi)","var(--red2)","var(--amber)","var(--fg3)"]);
+    // 다른 문서의 한 줄이 섞여 들어옴
+    s.textContent = Math.random()<0.6 && lines.length ? `${src.id} » ${pick(lines)}` : "█▓▒░ ".repeat(rnd(10,40));
+    g.appendChild(s);
+  }
+  if(SFX.on && Math.random()<0.7) SFX.burst();
+  g.classList.add("on"); document.body.classList.add("shake");
+  setTimeout(()=>{g.classList.remove("on");g.innerHTML="";document.body.classList.remove("shake")},intensity>1?520:300);
+}
+function scheduleGlitch(){ setTimeout(()=>{ glitch(1); scheduleGlitch() }, rnd(25000,70000)) }
+function scheduleAlert(){ setTimeout(()=>{ $("#topalert").classList.add("on"); feedPush("▲ 구역 7 격리 실패 경보 — 확인 중","red"); setTimeout(()=>{$("#topalert").classList.remove("on");feedPush("구역 7 경보 해제 — 오탐으로 분류됨","amber")},rnd(5000,9000)); scheduleAlert() }, rnd(60000,150000)) }
+
+/* ════ 커맨드 라인 ════ */
+const HELP=`사용 가능한 명령:
+  open <번호>      문서 열람 (예: open 173)
+  search <검색어>  데이터베이스 검색
+  list             색인된 항목 목록
+  whoami           현재 세션 정보
+  clear            화면 정리
+  logout           세션 종료
+  override <코드>  권한 상향 (관리자 전용)`;
+$("#cmdline").addEventListener("keydown",e=>{
+  if(e.key!=="Enter") return;
+  const raw=e.target.value.trim(); e.target.value=""; if(!raw) return;
+  const [c,...rest]=raw.split(/\s+/); const arg=rest.join(" ");
+  const out=t=>render(`<span class="back" onclick="route()">← 돌아가기</span><div class="doc"><div class="body"><span class="amber">&gt; ${esc(raw)}</span>\n${esc(t)}</div></div>`);
+  switch(c.toLowerCase()){
+    case "help": out(HELP); break;
+    case "open": { const id="SCP-"+String(arg.replace(/\D/g,"")).padStart(3,"0"); if(SCP[id]) openDoc(id); else { glitch(1); out(`${id}: 해당 항목은 색인되지 않았습니다. 존재하지 않거나, 귀하가 그 존재를 알 권한이 없습니다.`);} break }
+    case "search": location.hash="#database"; setTimeout(()=>render(database(arg)),0); break;
+    case "list": out(Object.values(SCP).map(d=>`${d.id.padEnd(10)} ${d.object_class||"[데이터 말소]"}`).join("\n")); break;
+    case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]}\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${rnd(2,7)}건의 불일치를 포함합니다.`); break;
+    case "clear": route(); break;
+    case "logout": location.hash=""; show("login"); S.booted=false; $("#p").value=""; $("#loginmsg").textContent="세션이 종료되었습니다. 기억소거 절차는 생략되었습니다."; $("#loginmsg").style.color="var(--fg2)"; break;
+    case "override": {
+      const ok=["05-13","alpha-9","raisa","omega-7"].includes(arg.toLowerCase());
+      if(ok && S.level<4){ S.level=4; $("#lvl").textContent=LVL_NAME[4]; glitch(2); feedPush(`권한 상향 — ${S.user} → Level 4 (코드 ${arg})`,"red"); out(`권한 상향 승인.\n현재 권한: ${LVL_NAME[4]}\n\n이 조치는 O5 명령국에 즉시 통보됩니다. 귀하가 왜 이 코드를 알고 있는지 설명할 준비를 하십시오.`) }
+      else if(ok) out("이미 최대 권한입니다.");
+      else { S.denied++; glitch(1); out(`인증 실패. 유효하지 않은 재정의 코드.\n누적 위반 ${S.denied}회`) }
+      break }
+    default: glitch(1); out(`알 수 없는 명령: ${c}\n'help'를 입력하십시오.`);
+  }
+});
+
+/* 단축키: / 로 커맨드라인 포커스, Esc로 돌아가기 */
+document.addEventListener("keydown",e=>{
+  if(!S.booted) return;
+  if(e.key==="/" && document.activeElement.tagName!=="INPUT"){e.preventDefault();$("#cmdline").focus()}
+  if(e.key==="Escape"){ if(S.doc) route(); else $("#cmdline").blur() }
+});
+
+/* 시작 */
+try{ const u=localStorage.getItem("scipnet_user"); if(u) $("#u").value=u }catch(_){}
+boot();
+</script>
+</body>
+</html>
