@@ -86,7 +86,7 @@ function showSub(id, idx){
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
-  <div class="sec"><div class="body">${linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id)}</div></div>
+  <div class="sec"><h4 class="subt">${esc(s.title)}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}</div></div>
   ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
@@ -125,7 +125,7 @@ function showDoc(id){
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
     <div class="meta"><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span>${d.subs||splitDoc(d).subs.length?`<span>부록 ${splitDoc(d).subs.length}건</span>`:""}<span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
-    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
+    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
