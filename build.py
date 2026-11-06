@@ -1,4 +1,4 @@
-"""src/ + data/scp.json → index.html + db/*.js
+"""src/ + data/scp.json + data/lore.json → index.html + db/*.js
 
 문서가 수천 건이라 본문까지 한 파일에 넣으면 수십 MB가 된다. 그래서
 - index.html 에는 목록용 색인(번호·제목·별명·등급·태그·평가·출처)만 인라인
@@ -86,9 +86,14 @@ def build():
     if "</script" in js.lower():
         sys.exit("src/js 안에 '</script' 문자열이 있으면 인라인할 수 없습니다.")
     js = js.replace("/*__SCP_DATA__*/", js_data(index))
+    lore = json.loads((root / "data/lore.json").read_text(encoding="utf-8"))["pages"]
+    rules = next(p for p in lore if p["slug"] == "security-clearance-levels")
+    js = js.replace("/*__LORE_RULES__*/", js_data(rules))
+    js = js.replace("/*__LORE_TOC__*/", js_data([[p["slug"], p.get("short") or p["title"]] for p in lore]))
     html = (src / "index.html").read_text(encoding="utf-8")
     html = html.replace("/*__CSS__*/", css).replace("/*__JS__*/", js)
     files = {f"{key}.js": f"scpBodies({js_data(body)});\n" for key, body in chunks.items()}
+    files["lore.js"] = f"scpLore({js_data({'pages': [p for p in lore if p is not rules]})});\n"
     return html, files, len(index)
 
 

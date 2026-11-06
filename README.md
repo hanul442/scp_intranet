@@ -6,6 +6,7 @@ SCP 재단 인트라넷 느낌의 정적 팬 사이트. 콘텐츠는 SCP 재단 
 
 ## 구조
 - `crawler.py` — scpko 위키에서 SCP 문서를 긁어 `data/scp.json` 생성 (`python3 crawler.py 173 049 ...`, `--series 1-3 --skip-existing` 으로 시리즈 목록 전체)
+- `lore.py` — 재단 설정 문서(보안 인가 등급·인원 계급·직함, 객체 등급, 기동특무부대, 기지, 요주의 단체)를 `data/lore.json` 으로 저장. 사이트의 '재단 규정집'(`#regs`)에 쓰이고, 인가·계급 설명은 JS에서 `RULES` · `clearanceInfo(n)` · `personnelClassInfo('D')` 로 바로 쓸 수 있음
 - `normalize.py` — 등급 표기 정리(취소선 소실, `유클리드/잠재적 케테르` 등)와 위키 잔여물 제거. 빌드할 때 자동 적용
 - `src/index.html` · `src/style.css` · `src/js/*.js` — UI/로직 (파일 이름 순서대로 합쳐짐)
 - `build.py` — src + data → `index.html` + `db/*.js`. `index.html` 에는 CSS·JS와 문서 색인(번호·제목·등급·태그·평가)만 인라인하고, 본문은 번호 50개 단위로 `db/` 에 나눠 문서를 열 때 불러옴. `--check` 는 결과물이 최신인지 확인만 함
