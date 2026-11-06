@@ -52,6 +52,11 @@ function idNum(id){ const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); return m?[+m[1
 function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.localeCompare(ys) }
 /* 표시용 이름: 시리즈 목록의 별칭 → 없으면 제목에서 번호를 뗀 것 */
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
+/* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */
+const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"○",unknown:"?"};
+const LVL_TAG={1:["비밀","l1"],2:["제한","l2"],3:["기밀","l3"],4:["극비","l4"],5:["O5 전용","l5"]};
+const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
+function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
 const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"]];
 
 /* ════ 상태 ════ */

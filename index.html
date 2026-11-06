@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SCiPNET // SITE-19 TERMINAL</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#070809; --bg2:#0c0e10; --panel:#101316; --line:#1f252a; --line2:#2c343b;
@@ -394,20 +394,6 @@ table.kv td:first-child{width:90px}
 table.keys td{padding:6px 8px}
 table.keys td:first-child{width:130px;white-space:nowrap}
 
-/* ─── 테마 ─── */
-body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
-body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
-body[data-theme=light]{--bg:#eef0f1;--bg2:#e3e6e8;--panel:#f8f9fa;--line:#d2d7da;--line2:#b8c0c5;--fg:#2a3236;--fg2:#56636a;--fg3:#8a959b;--hi:#0f1518;--amber:#9a6a10;--red:#b3372f;--red2:#c0392b;--green:#2f7a45;--cyan:#1f6f80}
-body[data-theme=light].crt::before,body[data-theme=light].crt::after{display:none}
-body[data-theme=light] .doc .body,body[data-theme=light] .pbody,body[data-theme=light] .arcbody{color:#1e2629}
-body[data-theme=light] .modal,body[data-theme=light] .notipanel,body[data-theme=light] .toast,body[data-theme=light] .loginbox,body[data-theme=light] #boot{background:var(--panel);color:var(--fg)}
-body[data-theme=light] #login{background:var(--bg)}
-body[data-theme=light] .gnb{background:var(--bg2)}
-body[data-theme=light] .modal.popup .mh{background:#f6dcd9;color:#6b1d16}
-body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;box-shadow:none}
-body[data-theme=light] #wm{opacity:.06;filter:invert(1)}
-body[data-theme=light] ::selection{color:#fff}
-
 /* ─── 데이터베이스: 시리즈 · 정렬 · 태그 · 페이지 ─── */
 .dbopts{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start;margin:-6px 0 14px}
 .dbopts select,.selx{background:var(--panel);color:var(--fg);border:1px solid var(--line2);padding:3px 8px;font:inherit;font-size:12px}
@@ -428,6 +414,96 @@ nav.pager a{min-width:28px;padding:2px 8px;border:1px solid var(--line);color:va
 nav.pager a:hover{color:var(--hi);border-color:var(--fg3)}
 nav.pager span{padding:2px 4px}
 td.c,th.c{text-align:center}
+
+/* ─── 등급 색 · 보안 등급 띠 · 문서 표지 ─── */
+:root{--k-safe:var(--green);--k-euclid:var(--amber);--k-keter:var(--red2);--k-apollyon:#a985e0;--k-neutral:var(--fg3);--k-unknown:#a985e0;
+  --l1:#3f8f57;--l2:#2f7d9a;--l3:#c27a1a;--l4:#c0392b;--l5:#7d4bc2}
+.badge i{font-style:normal;margin-right:1px}
+.badge.safe{border-color:var(--k-safe);color:var(--k-safe)}.badge.euclid{border-color:var(--k-euclid);color:var(--k-euclid)}.badge.keter{border-color:var(--k-keter);color:var(--k-keter)}
+.badge.apollyon,.badge.unknown{border-color:var(--k-apollyon);color:var(--k-apollyon)}
+.clsbar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;justify-content:center;padding:4px 10px;margin:0 0 14px;font-size:11px;letter-spacing:.12em;color:#fff;text-align:center}
+.clsbar b{font-weight:600;letter-spacing:.2em}
+.clsbar span{opacity:.9}
+.clsbar.l1{background:var(--l1)}.clsbar.l2{background:var(--l2)}.clsbar.l3{background:var(--l3)}.clsbar.l4{background:var(--l4)}.clsbar.l5{background:var(--l5)}
+.doc .clsbar:not(:first-child){margin:26px 0 0}
+.lvtag{font-weight:500}
+.lvtag.l1{color:var(--l1)}.lvtag.l2{color:var(--l2)}.lvtag.l3{color:var(--l3)}.lvtag.l4{color:var(--l4)}
+.cover{border:1px solid var(--line2);border-top:4px solid var(--kc,var(--line2));background:var(--panel);margin-bottom:12px}
+.k-safe{--kc:var(--k-safe)}.k-euclid{--kc:var(--k-euclid)}.k-keter{--kc:var(--k-keter)}.k-apollyon{--kc:var(--k-apollyon)}.k-neutral{--kc:var(--k-neutral)}.k-unknown{--kc:var(--k-unknown)}
+.cover .ctop{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:11px;color:var(--fg2)}
+.cover .ctop b{display:block;color:var(--hi);font-size:12px;letter-spacing:.15em}
+.cover .ctop .emblem{width:30px;height:30px;color:var(--hi);flex:none}
+.cover .cicon{margin-left:auto;font-size:28px;line-height:1;color:var(--kc)}
+.cover .ctitle{font-size:26px;letter-spacing:.1em;color:var(--hi);font-weight:600;padding:14px 16px 10px;line-height:1.2}
+.cover .ctitle small{display:block;font-size:13px;letter-spacing:.06em;color:var(--fg2);font-weight:400;margin-top:6px}
+table.cinfo{border-top:1px solid var(--line);font-size:12px}
+.cinfo th{width:92px;background:var(--bg2);color:var(--fg3);letter-spacing:.06em;font-size:11px;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+.cinfo td{padding:6px 10px;vertical-align:middle}
+.cinfo .tagl{text-decoration:none;color:var(--fg2);margin-right:6px}
+.doc .sec h4 i{font-style:normal;color:var(--fg3);margin-right:4px}
+.doc .sec h4{border-bottom:1px solid var(--line);padding-bottom:5px}
+tr.row td:first-child{border-left:3px solid transparent}
+tr.row[class*=" k-"] td:first-child{border-left-color:var(--kc)}
+.emblem{width:18px;height:18px;vertical-align:middle}
+
+/* ─── 상단 로고 · 위치 · 하단 정보 ─── */
+.topbar .brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--hi)}
+.topbar .brand .bsub{font-weight:400;letter-spacing:.08em;color:var(--fg3);font-size:11px}
+.pcrumb{margin-bottom:8px}
+.pfoot{margin-top:48px;padding-top:12px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px 16px;font-size:10.5px;color:var(--fg3);letter-spacing:.04em}
+.pfoot a{color:var(--fg3)}
+
+/* ─── 테마 ─── */
+body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
+body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
+/* 밝은 그룹웨어 (사내 표준) — 실제 사내 인트라넷처럼: 흰 바탕 · 남색 머리글 · 일반 글꼴 */
+body[data-theme=light]{--bg:#f3f5f8;--bg2:#ffffff;--panel:#ffffff;--line:#e1e5ea;--line2:#c9d0d8;--fg:#2b3138;--fg2:#5b6570;--fg3:#8b95a0;--hi:#111820;
+  --amber:#1d5fbf;--red:#c0392b;--red2:#c8372d;--green:#23824a;--cyan:#1d5fbf;--k-euclid:#c27a1a;--k-apollyon:#7d4bc2;--k-unknown:#7d4bc2;
+  --mono:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;font-size:13.5px}
+body[data-theme=light] *{letter-spacing:normal!important}
+body[data-theme=light].crt::before,body[data-theme=light].crt::after,body[data-theme=light] #glitch{display:none}
+body[data-theme=light] .topbar{background:#17325c;border-bottom:0;color:#dfe7f2;height:44px}
+body[data-theme=light] .topbar .brand,body[data-theme=light] .topbar #who{color:#fff}
+body[data-theme=light] .topbar .brand .bsub,body[data-theme=light] .topbar .dim,body[data-theme=light] .topbar .audio-btn,body[data-theme=light] #clock{color:#a9b8cf}
+body[data-theme=light] .topbar .lvl{color:#ffd27a}
+body[data-theme=light] .gsearch input{background:#24426f;border-color:#38588a;color:#fff}
+body[data-theme=light] .gsearch input::placeholder{color:#a9b8cf}
+body[data-theme=light] .gnb{background:#fff;border-bottom:1px solid var(--line);height:42px;font-size:13.5px;box-shadow:0 1px 3px rgba(20,40,70,.06)}
+body[data-theme=light] .gnb a{color:#3a4450;font-weight:500}
+body[data-theme=light] .gnb a.on{color:#1d5fbf;border-bottom-color:#1d5fbf}
+body[data-theme=light] .nav{background:#fff}
+body[data-theme=light] .nav a.on{background:#eef4fd;color:#1d5fbf;border-left-color:#1d5fbf;font-weight:500}
+body[data-theme=light] .side{background:#fff}
+body[data-theme=light] .card,body[data-theme=light] .cover,body[data-theme=light] .notice,body[data-theme=light] .subs,body[data-theme=light] .cday,body[data-theme=light] .otree,body[data-theme=light] .msglist .m,body[data-theme=light] .maint{border-radius:6px;box-shadow:0 1px 2px rgba(20,40,70,.06)}
+body[data-theme=light] .cover{border-top-width:4px}
+body[data-theme=light] h2.ph{font-size:19px;font-weight:700;color:var(--hi);border-bottom:2px solid #17325c}
+body[data-theme=light] h2.ph span{color:inherit}
+body[data-theme=light] th{background:#f6f8fa;color:#5b6570;font-weight:500;font-size:12px}
+body[data-theme=light] .btn{border-radius:4px;background:#fff}
+body[data-theme=light] .btn.primary{background:#1d5fbf;border-color:#1d5fbf;color:#fff}
+body[data-theme=light] .btn.primary:hover{background:#174d9c;color:#fff}
+body[data-theme=light] .chip,body[data-theme=light] .tagc,body[data-theme=light] .tb{border-radius:999px;background:#fff}
+body[data-theme=light] .chip.on,body[data-theme=light] .tb.on{background:#eef4fd}
+body[data-theme=light] .search input,body[data-theme=light] .ftab input,body[data-theme=light] .ftab select,body[data-theme=light] .ftab textarea,body[data-theme=light] .cform input,body[data-theme=light] .cadd input,body[data-theme=light] .dbopts select{background:#fff;border-radius:4px}
+body[data-theme=light] .cmd{background:#fff}
+body[data-theme=light] .doc .body,body[data-theme=light] .pbody,body[data-theme=light] .arcbody{color:#1f262c;line-height:1.9}
+body[data-theme=light] .doc .sec h4{color:#17325c;font-size:14px;font-weight:700}
+body[data-theme=light] .cover .ctitle{font-size:24px}
+body[data-theme=light] .modal,body[data-theme=light] .notipanel,body[data-theme=light] .toast,body[data-theme=light] .loginbox{background:#fff;color:var(--fg);border-radius:8px}
+body[data-theme=light] .modal .mh{background:#f6f8fa}
+body[data-theme=light] #boot{background:#0f1f38;color:#c9d5e6}
+body[data-theme=light] #login{background:linear-gradient(160deg,#17325c 0%,#24467a 45%,#eef2f7 45.1%)}
+body[data-theme=light] .loginbox{box-shadow:0 20px 50px rgba(15,31,56,.25);border:0}
+body[data-theme=light] .loginbox h1{color:#17325c}
+body[data-theme=light] .field input::placeholder{color:#b4bcc6}
+body[data-theme=light] .modal.popup .mh{background:#fbe9e7;color:#7a1f16}
+body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;box-shadow:none}
+body[data-theme=light] #wm{opacity:.04;filter:invert(1)}
+body[data-theme=light] ::selection{color:#fff;background:#1d5fbf}
+body[data-theme=light] .cd.today .dn{color:#fff}
+body[data-theme=light] tr.row:hover td{background:#f5f8fc}
+body[data-theme=light] .denied{background:#fdf1ef}
+body[data-theme=light] .feed div{color:#5b6570}
 
 @media print{
   html,body{overflow:visible;height:auto;background:#fff;color:#000}
@@ -457,6 +533,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 
 @media (max-width:1200px){ .gsearch input{width:130px} .topbar .site{display:none} }
 @media (max-width:900px){
+  .topbar .brand .bsub{display:none}
   .layout{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}
   .nav{flex-direction:row;overflow-x:auto;padding:0;border-right:0;border-bottom:1px solid var(--line)}
   .nav .sect,.nav .foot{display:none}
@@ -480,6 +557,10 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 @media (max-width:600px){
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
+  table.cinfo tr{display:grid;grid-template-columns:78px 1fr}
+  .cinfo th,.cinfo td{display:block;border-bottom:1px solid var(--line)}
+  .cinfo td[colspan]{grid-column:2}
+  .cover .ctitle{font-size:22px}
   .hm,table.ppl th:nth-child(3),table.ppl td:nth-child(3),table.ppl th:nth-child(4),table.ppl td:nth-child(4){display:none}
   td,th{padding:8px 6px}
   .doc h1{font-size:22px}
@@ -530,7 +611,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 <!-- ░ 메인 ░ -->
 <section id="main" class="screen">
   <div class="topbar">
-    <span class="brand">SCiPNET</span>
+    <a class="brand" href="#dashboard" aria-label="SCiPNET 홈"><span id="emb"></span><span class="bname">SCiPNET</span><span class="bsub">SCP 재단 통합 그룹웨어</span></a>
     <span class="dim site">SITE-19 · 격리동 B</span>
     <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
     <span class="sp"></span>
@@ -648,6 +729,11 @@ function idNum(id){ const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); return m?[+m[1
 function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.localeCompare(ys) }
 /* 표시용 이름: 시리즈 목록의 별칭 → 없으면 제목에서 번호를 뗀 것 */
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
+/* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */
+const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"○",unknown:"?"};
+const LVL_TAG={1:["비밀","l1"],2:["제한","l2"],3:["기밀","l3"],4:["극비","l4"],5:["O5 전용","l5"]};
+const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
+function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
 const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"]];
 
 /* ════ 상태 ════ */
@@ -753,7 +839,7 @@ $("#loginform").addEventListener("submit",async e=>{
 });
 
 function enter(returning){
-  show("main"); S.booted=true; S.sid++;
+  show("main"); $("#emb").innerHTML=EMBLEM; S.booted=true; S.sid++;
   $("#who").textContent=S.user;
   $("#lvl").textContent=LVL_NAME[S.level];
   $("#sess").textContent="세션 "+hash(S.user+Date.now()).toString(16).toUpperCase().slice(0,8);
@@ -805,14 +891,20 @@ function route(){
   let [v,qs]=h.split("?");
   if(!VIEWS[v]) v="dashboard";
   S.view=v; S.doc=null; setNav(v);
-  render(VIEWS[v](new URLSearchParams(qs||"")));
+  render(viewCrumb(v)+VIEWS[v](new URLSearchParams(qs||"")));
   if(v==="database") bindDatabase();
 }
 function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
-function render(html){clearEffects();const c=$("#content");c.innerHTML=html;c.scrollTop=0}
+/* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
+const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
+  messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"]};
+function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
+const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
+function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
 function later(fn,ms){const t=setTimeout(fn,ms);S.timers.push(t);return t}
 function every(fn,ms){const t=setInterval(fn,ms);S.timers.push(t);return t}
 function listen(ev,fn,capture=false){document.addEventListener(ev,fn,capture);S.listeners.push([ev,fn,capture])}
@@ -833,7 +925,7 @@ function markDM(html){ return html.replace(/\[(데이터 말소|편집됨|검열
 function markQuotes(html){ return html.replace(/^&gt; ?(.*)$/gm,'<span class="quote">$1</span>')
   .replace(/^\[이미지: ?(.*)\]$/gm,'<span class="img">▣ 이미지 — $1</span>')
   .replace(/\[(\d{1,3})\](?!\()/g,'<sup class="fn">[$1]</sup>') }
-function badge(d){ return `<span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span>` }
+function badge(d){ const k=classKey(d.object_class); return `<span class="badge ${k}"><i aria-hidden="true">${CLASS_ICON[k]}</i> ${esc(d.object_class||"[데이터 말소]")}</span>` }
 /* 표의 한 행 전체를 클릭 가능하게: 첫 칸의 링크로 키보드 접근, 행 클릭은 위임 처리 */
 function rowLink(href, label, cls="hi"){ return `<a href="${href}" class="rowlink ${cls}">${label}</a>` }
 
@@ -963,7 +1055,7 @@ function dbRows(st){
     const rate=`<td class="hm c dim">${typeof d.rating==="number"?(d.rating>0?"+":"")+d.rating:"—"}</td>`;
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
-    return `<tr class="row ${ok?"":"locked"}" data-href="${href}">
+    return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
       <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
@@ -1044,6 +1136,30 @@ function deadRef(id){
   <div class="denied"><b>항목 없음</b>${id} 는 이 노드에 색인되어 있지 않습니다. 해당 항목은 타 기지에 격리 중이거나, 재분류되었거나, 존재한 적이 없습니다.<br><span class="dim">이 조회는 기록되었습니다.</span></div>
   <div class="sec"><h4>격리 절차</h4><div class="body">${blackBars(rnd(12,24))}</div></div></div>`);
 }
+/* ─── 공문서 틀: 보안 등급 띠 · 표지 ─── */
+function clsBanner(level, extra=""){
+  const [t,c]=LVL_TAG[Math.min(5,level)]||LVL_TAG[4];
+  return `<div class="clsbar ${c}" role="note"><b>LEVEL ${level} · ${t}</b><span>SCP 재단 내부 문서${extra?" · "+extra:""} · 무단 열람·복제·반출 금지</span></div>`;
+}
+const DEPT_OF=id=>spick(id+"dept",["연구부 · 격리동 B","연구부 · 격리동 A","생물학 연구과","변칙 물품 연구과","인간형 개체 연구과","외부 현상 조사과"]);
+function docNo(d){ return `S19-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
+function revDate(id){ return `${srnd(id+"y",2008,2024)}-${pad(srnd(id+"m",1,12))}-${pad(srnd(id+"d",1,28))}` }
+function docCover(d, need, {masked=false, sub=null}={}){
+  const k=classKey(d.object_class);
+  const cell=(h,v)=>`<th>${h}</th><td>${v}</td>`;
+  const lv=`Level ${need} · ${(LVL_TAG[need]||LVL_TAG[4])[0]}`;
+  const rows=[
+    [cell("항목 번호",`<b class="hi">${d.id}</b>`),cell("격리 등급",badge(d)+(d.class_note?` <span class="dim2">${esc(d.class_note)}</span>`:""))],
+    [cell("보안 등급",`<span class="lvtag ${(LVL_TAG[need]||LVL_TAG[4])[1]}">${lv}</span>`),cell("분류",esc(seriesOf(d.id)))],
+    [cell("문서 번호",masked?'<span class="redact">S19-0000-R0</span>':docNo(d)),cell("최종 개정",masked?'<span class="redact">0000-00-00</span>':`${revDate(d.id)} <span class="dim2">(제${srnd(d.id+"rev",2,14)}판)</span>`)],
+    [cell("관리 부서",masked?'<span class="redact">████████</span>':DEPT_OF(d.id)),cell("평가",typeof d.rating==="number"?`${d.rating>0?"+":""}${d.rating}`:"—")],
+  ];
+  return `<div class="cover k-${k}">
+    <div class="ctop">${EMBLEM}<div><b>SCP 재단</b><span>${sub?"부록 문서 · "+esc(sub):"특수 격리 절차 문서"}</span></div><div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
+    <h1 class="ctitle">${sub?esc(sub):d.id}${!sub&&docName(d)?`<small>${esc(docName(d))}</small>`:sub?`<small>${d.id}${docName(d)?" · "+esc(docName(d)):""}</small>`:""}</h1>
+    <table class="cinfo">${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}${(d.tags||[]).length&&!masked?`<tr><th>태그</th><td colspan="3" class="dim">${d.tags.filter(t=>t!==d.object_class).slice(0,8).map(t=>`<a class="tagl" href="#database?t=${encodeURIComponent(t)}">#${esc(t)}</a>`).join(" ")}</td></tr>`:""}</table>
+  </div>`;
+}
 function crumb(parts){ return `<nav class="crumb" aria-label="경로">${parts.map((p,i)=>p.href?`<a href="${p.href}">${esc(p.t)}</a>`:`<b class="hi" style="font-weight:500">${esc(p.t)}</b>`).join('<span aria-hidden="true">›</span>')}</nav>` }
 function subsBox(d, cur=-1){
   const {subs}=splitDoc(d); if(!subs.length) return ""; const lv=lvlFor(d.id);
@@ -1057,18 +1173,17 @@ function showSub(id, idx){
   const nav=`<div class="pn"><span>${idx>0?`<a href="#${id.toLowerCase()}/${idx-1}">← ${esc(subs[idx-1].title)}</a>`:""}</span><span>${idx<subs.length-1?`<a href="#${id.toLowerCase()}/${idx+1}">${esc(subs[idx+1].title)} →</a>`:""}</span></div>`;
   if(!ok){ S.denied++; saveSession(); glitch(1); feedPush(`접근 거부 기록 — ${S.user} → ${id} / ${s.title}`,"red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-    <div class="doc"><div class="hdr"><h1 style="font-size:20px">${esc(s.title)}</h1><span class="badge ${classKey(d.object_class)}">${id}</span></div>
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
     <div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-  ${s.level>=3?`<div class="stamp">LEVEL ${s.level} // EYES ONLY</div>`:""}
-  <div class="doc"><div class="hdr"><h1 style="font-size:20px">${esc(s.title)}</h1><span class="badge ${classKey(d.object_class)}">${id}</span></div>
-  <div class="meta"><span>상위 문서 ${id}</span><span>요구 권한 Level ${s.level}</span><span>문서 ${idx+1} / ${subs.length}</span></div>
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
+  <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
   <div class="sec"><div class="body">${linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id)}</div></div>
-  ${subsBox(d,idx)}${nav}${attrib(d)}</div>`);
+  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`);
 }
 
 /* ════ 문서 열람 ════ */
@@ -1079,13 +1194,12 @@ function showDoc(id){
   S.doc=id;
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
     feedPush(`접근 거부 기록 — ${S.user} → ${id}`, "red");
-    render(`<a class="back" href="#database">← 데이터베이스</a>
-    <div class="doc">
-      <div class="hdr"><h1>${id}</h1><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span></div>
+    render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}${docCover(d,need,{masked:true})}
       <div class="meta"><span>요구 권한 Level ${need}</span><span>현재 권한 Level ${S.level}</span><span>${now()}</span></div>
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
-      <div class="sec"><h4>특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
-      <div class="sec"><h4>설명</h4><div class="body">${blackBars(rnd(30,60))}</div></div>
+      <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
+      <div class="sec"><h4><i>2.</i> 설명</h4><div class="body">${blackBars(rnd(30,60))}</div></div>
       ${S.denied>=3?`<div class="notice danger">귀하의 단말에 기억소거 담당 인원이 배정되었습니다. 자리에서 이동하지 마십시오.</div>`:""}
     </div>`);
     return;
@@ -1100,14 +1214,14 @@ function showDoc(id){
   else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
   feedPush(`${S.user} 열람 — ${id}`, ""); noteRecent(id);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-  ${need>=3?`<div class="stamp">LEVEL ${need} // EYES ONLY</div>`:""}
-  <div class="doc">
-    <div class="hdr"><h1>${id}${docName(d)?`<small class="nick">${esc(docName(d))}</small>`:""}</h1><span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span></div>
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
+    ${docCover(d,need)}
     ${docTools(id)}
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
-    <div class="meta">${typeof d.rating==="number"?`<span>평가 ${d.rating>0?"+":""}${d.rating}</span>`:""}<span>등급 ${esc(d.object_class||"—")}${d.class_note?` (${esc(d.class_note)})`:""}</span><span>요구 권한 Level ${need}</span><span>${(d.tags||[]).slice(0,5).map(esc).join(" · ")}</span><span>최종 수정 ${srnd(id+"y",2008,2024)}-${pad(srnd(id+"m",1,12))}-${pad(srnd(id+"d",1,28))}</span><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span></div>
-    ${sections.map(([h,t])=>`<div class="sec"><h4>${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
+    <div class="meta"><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span>${d.subs||splitDoc(d).subs.length?`<span>부록 ${splitDoc(d).subs.length}건</span>`:""}<span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
+    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
     ${subsBox(d)}
+    ${clsBanner(need)}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
     ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
@@ -2069,7 +2183,7 @@ document.addEventListener("submit",e=>{
 });
 
 /* ════ 환경 설정 ════ 테마 · 글자 크기 · 효과 · 자동 로그아웃 · 데이터 */
-const THEMES=[["default","기본 (회색)"],["green","녹색 단말"],["amber","호박색 단말"],["light","밝은 화면"]];
+const THEMES=[["default","기본 (회색)"],["green","녹색 단말"],["amber","호박색 단말"],["light","밝은 그룹웨어 (사내 표준)"]];
 function applyTheme(){ const t=store.get("theme","default"); document.body.dataset.theme=t==="default"?"":t }
 function applyIdle(){ GW.idleMs=store.get("idle",5)*60000 }
 applyTheme(); applyIdle();

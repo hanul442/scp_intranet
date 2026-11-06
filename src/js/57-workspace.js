@@ -186,7 +186,7 @@ document.addEventListener("submit",e=>{
 });
 
 /* ════ 환경 설정 ════ 테마 · 글자 크기 · 효과 · 자동 로그아웃 · 데이터 */
-const THEMES=[["default","기본 (회색)"],["green","녹색 단말"],["amber","호박색 단말"],["light","밝은 화면"]];
+const THEMES=[["default","기본 (회색)"],["green","녹색 단말"],["amber","호박색 단말"],["light","밝은 그룹웨어 (사내 표준)"]];
 function applyTheme(){ const t=store.get("theme","default"); document.body.dataset.theme=t==="default"?"":t }
 function applyIdle(){ GW.idleMs=store.get("idle",5)*60000 }
 applyTheme(); applyIdle();

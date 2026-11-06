@@ -386,20 +386,6 @@ table.kv td:first-child{width:90px}
 table.keys td{padding:6px 8px}
 table.keys td:first-child{width:130px;white-space:nowrap}
 
-/* ─── 테마 ─── */
-body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
-body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
-body[data-theme=light]{--bg:#eef0f1;--bg2:#e3e6e8;--panel:#f8f9fa;--line:#d2d7da;--line2:#b8c0c5;--fg:#2a3236;--fg2:#56636a;--fg3:#8a959b;--hi:#0f1518;--amber:#9a6a10;--red:#b3372f;--red2:#c0392b;--green:#2f7a45;--cyan:#1f6f80}
-body[data-theme=light].crt::before,body[data-theme=light].crt::after{display:none}
-body[data-theme=light] .doc .body,body[data-theme=light] .pbody,body[data-theme=light] .arcbody{color:#1e2629}
-body[data-theme=light] .modal,body[data-theme=light] .notipanel,body[data-theme=light] .toast,body[data-theme=light] .loginbox,body[data-theme=light] #boot{background:var(--panel);color:var(--fg)}
-body[data-theme=light] #login{background:var(--bg)}
-body[data-theme=light] .gnb{background:var(--bg2)}
-body[data-theme=light] .modal.popup .mh{background:#f6dcd9;color:#6b1d16}
-body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;box-shadow:none}
-body[data-theme=light] #wm{opacity:.06;filter:invert(1)}
-body[data-theme=light] ::selection{color:#fff}
-
 /* ─── 데이터베이스: 시리즈 · 정렬 · 태그 · 페이지 ─── */
 .dbopts{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start;margin:-6px 0 14px}
 .dbopts select,.selx{background:var(--panel);color:var(--fg);border:1px solid var(--line2);padding:3px 8px;font:inherit;font-size:12px}
@@ -420,6 +406,96 @@ nav.pager a{min-width:28px;padding:2px 8px;border:1px solid var(--line);color:va
 nav.pager a:hover{color:var(--hi);border-color:var(--fg3)}
 nav.pager span{padding:2px 4px}
 td.c,th.c{text-align:center}
+
+/* ─── 등급 색 · 보안 등급 띠 · 문서 표지 ─── */
+:root{--k-safe:var(--green);--k-euclid:var(--amber);--k-keter:var(--red2);--k-apollyon:#a985e0;--k-neutral:var(--fg3);--k-unknown:#a985e0;
+  --l1:#3f8f57;--l2:#2f7d9a;--l3:#c27a1a;--l4:#c0392b;--l5:#7d4bc2}
+.badge i{font-style:normal;margin-right:1px}
+.badge.safe{border-color:var(--k-safe);color:var(--k-safe)}.badge.euclid{border-color:var(--k-euclid);color:var(--k-euclid)}.badge.keter{border-color:var(--k-keter);color:var(--k-keter)}
+.badge.apollyon,.badge.unknown{border-color:var(--k-apollyon);color:var(--k-apollyon)}
+.clsbar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;justify-content:center;padding:4px 10px;margin:0 0 14px;font-size:11px;letter-spacing:.12em;color:#fff;text-align:center}
+.clsbar b{font-weight:600;letter-spacing:.2em}
+.clsbar span{opacity:.9}
+.clsbar.l1{background:var(--l1)}.clsbar.l2{background:var(--l2)}.clsbar.l3{background:var(--l3)}.clsbar.l4{background:var(--l4)}.clsbar.l5{background:var(--l5)}
+.doc .clsbar:not(:first-child){margin:26px 0 0}
+.lvtag{font-weight:500}
+.lvtag.l1{color:var(--l1)}.lvtag.l2{color:var(--l2)}.lvtag.l3{color:var(--l3)}.lvtag.l4{color:var(--l4)}
+.cover{border:1px solid var(--line2);border-top:4px solid var(--kc,var(--line2));background:var(--panel);margin-bottom:12px}
+.k-safe{--kc:var(--k-safe)}.k-euclid{--kc:var(--k-euclid)}.k-keter{--kc:var(--k-keter)}.k-apollyon{--kc:var(--k-apollyon)}.k-neutral{--kc:var(--k-neutral)}.k-unknown{--kc:var(--k-unknown)}
+.cover .ctop{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:11px;color:var(--fg2)}
+.cover .ctop b{display:block;color:var(--hi);font-size:12px;letter-spacing:.15em}
+.cover .ctop .emblem{width:30px;height:30px;color:var(--hi);flex:none}
+.cover .cicon{margin-left:auto;font-size:28px;line-height:1;color:var(--kc)}
+.cover .ctitle{font-size:26px;letter-spacing:.1em;color:var(--hi);font-weight:600;padding:14px 16px 10px;line-height:1.2}
+.cover .ctitle small{display:block;font-size:13px;letter-spacing:.06em;color:var(--fg2);font-weight:400;margin-top:6px}
+table.cinfo{border-top:1px solid var(--line);font-size:12px}
+.cinfo th{width:92px;background:var(--bg2);color:var(--fg3);letter-spacing:.06em;font-size:11px;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+.cinfo td{padding:6px 10px;vertical-align:middle}
+.cinfo .tagl{text-decoration:none;color:var(--fg2);margin-right:6px}
+.doc .sec h4 i{font-style:normal;color:var(--fg3);margin-right:4px}
+.doc .sec h4{border-bottom:1px solid var(--line);padding-bottom:5px}
+tr.row td:first-child{border-left:3px solid transparent}
+tr.row[class*=" k-"] td:first-child{border-left-color:var(--kc)}
+.emblem{width:18px;height:18px;vertical-align:middle}
+
+/* ─── 상단 로고 · 위치 · 하단 정보 ─── */
+.topbar .brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--hi)}
+.topbar .brand .bsub{font-weight:400;letter-spacing:.08em;color:var(--fg3);font-size:11px}
+.pcrumb{margin-bottom:8px}
+.pfoot{margin-top:48px;padding-top:12px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px 16px;font-size:10.5px;color:var(--fg3);letter-spacing:.04em}
+.pfoot a{color:var(--fg3)}
+
+/* ─── 테마 ─── */
+body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
+body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
+/* 밝은 그룹웨어 (사내 표준) — 실제 사내 인트라넷처럼: 흰 바탕 · 남색 머리글 · 일반 글꼴 */
+body[data-theme=light]{--bg:#f3f5f8;--bg2:#ffffff;--panel:#ffffff;--line:#e1e5ea;--line2:#c9d0d8;--fg:#2b3138;--fg2:#5b6570;--fg3:#8b95a0;--hi:#111820;
+  --amber:#1d5fbf;--red:#c0392b;--red2:#c8372d;--green:#23824a;--cyan:#1d5fbf;--k-euclid:#c27a1a;--k-apollyon:#7d4bc2;--k-unknown:#7d4bc2;
+  --mono:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;font-size:13.5px}
+body[data-theme=light] *{letter-spacing:normal!important}
+body[data-theme=light].crt::before,body[data-theme=light].crt::after,body[data-theme=light] #glitch{display:none}
+body[data-theme=light] .topbar{background:#17325c;border-bottom:0;color:#dfe7f2;height:44px}
+body[data-theme=light] .topbar .brand,body[data-theme=light] .topbar #who{color:#fff}
+body[data-theme=light] .topbar .brand .bsub,body[data-theme=light] .topbar .dim,body[data-theme=light] .topbar .audio-btn,body[data-theme=light] #clock{color:#a9b8cf}
+body[data-theme=light] .topbar .lvl{color:#ffd27a}
+body[data-theme=light] .gsearch input{background:#24426f;border-color:#38588a;color:#fff}
+body[data-theme=light] .gsearch input::placeholder{color:#a9b8cf}
+body[data-theme=light] .gnb{background:#fff;border-bottom:1px solid var(--line);height:42px;font-size:13.5px;box-shadow:0 1px 3px rgba(20,40,70,.06)}
+body[data-theme=light] .gnb a{color:#3a4450;font-weight:500}
+body[data-theme=light] .gnb a.on{color:#1d5fbf;border-bottom-color:#1d5fbf}
+body[data-theme=light] .nav{background:#fff}
+body[data-theme=light] .nav a.on{background:#eef4fd;color:#1d5fbf;border-left-color:#1d5fbf;font-weight:500}
+body[data-theme=light] .side{background:#fff}
+body[data-theme=light] .card,body[data-theme=light] .cover,body[data-theme=light] .notice,body[data-theme=light] .subs,body[data-theme=light] .cday,body[data-theme=light] .otree,body[data-theme=light] .msglist .m,body[data-theme=light] .maint{border-radius:6px;box-shadow:0 1px 2px rgba(20,40,70,.06)}
+body[data-theme=light] .cover{border-top-width:4px}
+body[data-theme=light] h2.ph{font-size:19px;font-weight:700;color:var(--hi);border-bottom:2px solid #17325c}
+body[data-theme=light] h2.ph span{color:inherit}
+body[data-theme=light] th{background:#f6f8fa;color:#5b6570;font-weight:500;font-size:12px}
+body[data-theme=light] .btn{border-radius:4px;background:#fff}
+body[data-theme=light] .btn.primary{background:#1d5fbf;border-color:#1d5fbf;color:#fff}
+body[data-theme=light] .btn.primary:hover{background:#174d9c;color:#fff}
+body[data-theme=light] .chip,body[data-theme=light] .tagc,body[data-theme=light] .tb{border-radius:999px;background:#fff}
+body[data-theme=light] .chip.on,body[data-theme=light] .tb.on{background:#eef4fd}
+body[data-theme=light] .search input,body[data-theme=light] .ftab input,body[data-theme=light] .ftab select,body[data-theme=light] .ftab textarea,body[data-theme=light] .cform input,body[data-theme=light] .cadd input,body[data-theme=light] .dbopts select{background:#fff;border-radius:4px}
+body[data-theme=light] .cmd{background:#fff}
+body[data-theme=light] .doc .body,body[data-theme=light] .pbody,body[data-theme=light] .arcbody{color:#1f262c;line-height:1.9}
+body[data-theme=light] .doc .sec h4{color:#17325c;font-size:14px;font-weight:700}
+body[data-theme=light] .cover .ctitle{font-size:24px}
+body[data-theme=light] .modal,body[data-theme=light] .notipanel,body[data-theme=light] .toast,body[data-theme=light] .loginbox{background:#fff;color:var(--fg);border-radius:8px}
+body[data-theme=light] .modal .mh{background:#f6f8fa}
+body[data-theme=light] #boot{background:#0f1f38;color:#c9d5e6}
+body[data-theme=light] #login{background:linear-gradient(160deg,#17325c 0%,#24467a 45%,#eef2f7 45.1%)}
+body[data-theme=light] .loginbox{box-shadow:0 20px 50px rgba(15,31,56,.25);border:0}
+body[data-theme=light] .loginbox h1{color:#17325c}
+body[data-theme=light] .field input::placeholder{color:#b4bcc6}
+body[data-theme=light] .modal.popup .mh{background:#fbe9e7;color:#7a1f16}
+body[data-theme=light] .redact,body[data-theme=light] .blk{background:#1a1f22;box-shadow:none}
+body[data-theme=light] #wm{opacity:.04;filter:invert(1)}
+body[data-theme=light] ::selection{color:#fff;background:#1d5fbf}
+body[data-theme=light] .cd.today .dn{color:#fff}
+body[data-theme=light] tr.row:hover td{background:#f5f8fc}
+body[data-theme=light] .denied{background:#fdf1ef}
+body[data-theme=light] .feed div{color:#5b6570}
 
 @media print{
   html,body{overflow:visible;height:auto;background:#fff;color:#000}
@@ -449,6 +525,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 
 @media (max-width:1200px){ .gsearch input{width:130px} .topbar .site{display:none} }
 @media (max-width:900px){
+  .topbar .brand .bsub{display:none}
   .layout{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}
   .nav{flex-direction:row;overflow-x:auto;padding:0;border-right:0;border-bottom:1px solid var(--line)}
   .nav .sect,.nav .foot{display:none}
@@ -472,6 +549,10 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 @media (max-width:600px){
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
+  table.cinfo tr{display:grid;grid-template-columns:78px 1fr}
+  .cinfo th,.cinfo td{display:block;border-bottom:1px solid var(--line)}
+  .cinfo td[colspan]{grid-column:2}
+  .cover .ctitle{font-size:22px}
   .hm,table.ppl th:nth-child(3),table.ppl td:nth-child(3),table.ppl th:nth-child(4),table.ppl td:nth-child(4){display:none}
   td,th{padding:8px 6px}
   .doc h1{font-size:22px}

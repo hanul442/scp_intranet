@@ -13,7 +13,7 @@ function markDM(html){ return html.replace(/\[(데이터 말소|편집됨|검열
 function markQuotes(html){ return html.replace(/^&gt; ?(.*)$/gm,'<span class="quote">$1</span>')
   .replace(/^\[이미지: ?(.*)\]$/gm,'<span class="img">▣ 이미지 — $1</span>')
   .replace(/\[(\d{1,3})\](?!\()/g,'<sup class="fn">[$1]</sup>') }
-function badge(d){ return `<span class="badge ${classKey(d.object_class)}">${esc(d.object_class||"[데이터 말소]")}</span>` }
+function badge(d){ const k=classKey(d.object_class); return `<span class="badge ${k}"><i aria-hidden="true">${CLASS_ICON[k]}</i> ${esc(d.object_class||"[데이터 말소]")}</span>` }
 /* 표의 한 행 전체를 클릭 가능하게: 첫 칸의 링크로 키보드 접근, 행 클릭은 위임 처리 */
 function rowLink(href, label, cls="hi"){ return `<a href="${href}" class="rowlink ${cls}">${label}</a>` }
 
@@ -143,7 +143,7 @@ function dbRows(st){
     const rate=`<td class="hm c dim">${typeof d.rating==="number"?(d.rating>0?"+":"")+d.rating:"—"}</td>`;
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
-    return `<tr class="row ${ok?"":"locked"}" data-href="${href}">
+    return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
       <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
