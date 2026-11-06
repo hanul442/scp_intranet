@@ -1,6 +1,6 @@
 """
 SCP 재단 한국어 위키(scpko.wikidot.com) 크롤러
-- 지정한 SCP 번호의 본문을 가져와 data/scp.json 으로 저장
+- 지정한 SCP 번호의 본문을 가져와 data/scp/<묶음>.json 으로 저장 (store.py)
 - 콘텐츠 라이선스: CC BY-SA 3.0 (원작자/번역자 표기 필수)
 사용법:
   python3 crawler.py 173 049 096 ...        번호 지정
@@ -21,7 +21,8 @@ BASE = SITE + "/scp-{}"
 SERIES_PAGES = {"1": "scp-series-1", "ko": ["scp-series-ko-1", "scp-series-ko-2"],
                 **{str(n): f"scp-series-{n}" for n in range(2, 10)}}
 UA = "SCiPNET-fan-intranet/0.1 (personal non-commercial project)"
-OUT = Path(__file__).parent / "data" / "scp.json"
+import store
+OUT = store.DIR
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -144,11 +145,10 @@ def doc_id(n):
     return n.zfill(3)
 
 def save(data):
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1))
+    store.save(data)
 
 def main():
-    ap = argparse.ArgumentParser(description="scpko 위키 → data/scp.json")
+    ap = argparse.ArgumentParser(description="scpko 위키 → data/scp/")
     ap.add_argument("nums", nargs="*", help="SCP 번호 (예: 173 049 001-KO)")
     ap.add_argument("--series", help="시리즈 목록에서 가져오기: 1, 2-4, ko, 1,ko ...")
     ap.add_argument("--range", help="번호 범위, 예: 100-199")
@@ -158,7 +158,7 @@ def main():
     ap.add_argument("--delay", type=float, default=1.2, help="요청 간격(초). 위키닷 부담을 줄이려면 1초 이상")
     args = ap.parse_args()
 
-    data = json.loads(OUT.read_text()) if OUT.exists() else {}
+    data = store.load()
     nicks = {}
     targets = [doc_id(n) for n in args.nums]
     if args.range:

@@ -3,6 +3,7 @@
    (build.py 가 normalize.py 로 등급·잔여물을 정리한 뒤 인라인)
    ════════════════════════════════════════════ */
 const SCP = /*__SCP_DATA__*/;
+for(const k in SCP) if(!SCP[k].source) SCP[k].source="https://scpko.wikidot.com/"+k.toLowerCase(); // build.py 가 뺀 출처 주소
 
 /* 본문(격리 절차·설명·전문)은 db/<묶음>.js 에 나뉘어 있고, 문서를 열 때 불러옴 (build.py 참고).
    <script> 로 불러오므로 file:// 로 열어도 동작 */
