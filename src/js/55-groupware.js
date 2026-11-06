@@ -133,7 +133,7 @@ function expiryWarning(){
 
 /* ─── 로그인 직후 그룹웨어 시작 ─── */
 function groupwareStart(returning){
-  GW.copyTries=0; workspaceStart(); drawWatermark(); startIdleWatch(); apprWatch(); apprBadge();
+  GW.copyTries=0; workspaceStart(); drawWatermark(); startIdleWatch(); apprWatch(); tkWatch(); apprBadge();
   sessionLoop(drawWatermark, 60000);
   sessionLater(popupNotice, 700);
   if(returning){
