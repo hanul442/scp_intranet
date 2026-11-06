@@ -1,0 +1,213 @@
+:root{
+  --bg:#070809; --bg2:#0c0e10; --panel:#101316; --line:#1f252a; --line2:#2c343b;
+  --fg:#b9c2c6; --fg2:#7b868c; --fg3:#4a545a; --hi:#e4ebee;
+  --amber:#c89b3c; --red:#b3372f; --red2:#e0493d; --green:#5f9e6e; --cyan:#5a9aa8;
+  --mono:"IBM Plex Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:13px;line-height:1.6}
+body{overflow:hidden}
+::selection{background:var(--amber);color:#000}
+button,input{font:inherit;color:inherit;background:none;border:none;outline:none}
+a{color:var(--cyan)}
+
+/* ─── CRT 레이어 ─── */
+.crt::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:900;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);mix-blend-mode:multiply}
+.crt::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:901;
+  background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55) 100%)}
+.flicker{animation:flick 6s infinite}
+@keyframes flick{0%,100%{opacity:1}92%{opacity:1}93%{opacity:.86}94%{opacity:1}97%{opacity:.93}98%{opacity:1}}
+
+/* ─── 글리치 ─── */
+#glitch{position:fixed;inset:0;z-index:950;pointer-events:none;display:none}
+#glitch.on{display:block;animation:gl .32s steps(2) 1}
+#glitch .slice{position:absolute;left:0;right:0;background:var(--bg);color:var(--hi);overflow:hidden;white-space:nowrap;font-size:13px;padding:0 24px;opacity:.95}
+@keyframes gl{0%{filter:none}25%{filter:hue-rotate(40deg) contrast(1.4)}50%{transform:translateX(3px)}75%{transform:translateX(-4px) skewX(.6deg)}100%{filter:none}}
+body.shake{animation:shk .12s linear 2}
+@keyframes shk{0%,100%{transform:none}50%{transform:translate(2px,-1px)}}
+
+/* ─── 공통 ─── */
+.screen{position:fixed;inset:0;display:none;flex-direction:column}
+.screen.active{display:flex}
+.badge{display:inline-block;padding:0 6px;border:1px solid var(--line2);font-size:11px;letter-spacing:.08em;color:var(--fg2);text-transform:uppercase}
+.badge.safe{border-color:var(--green);color:var(--green)}
+.badge.euclid{border-color:var(--amber);color:var(--amber)}
+.badge.keter{border-color:var(--red2);color:var(--red2)}
+.badge.apollyon,.badge.unknown{border-color:#8a5cc8;color:#a985e0}
+.badge.neutral{border-color:var(--fg3);color:var(--fg2)}
+.redact{background:#000;color:transparent;border-radius:1px;box-shadow:0 0 0 1px #20262b;user-select:none;padding:0 2px}
+.redact::selection{color:transparent;background:#000}
+.blk{display:inline-block;background:#000;color:#000;box-shadow:0 0 0 1px #20262b;margin:2px 6px 2px 0;height:14px;vertical-align:middle;user-select:none}
+.cursor::after{content:"█";animation:blink 1s steps(1) infinite;color:var(--amber)}
+@keyframes blink{50%{opacity:0}}
+.dim{color:var(--fg2)} .dim2{color:var(--fg3)} .hi{color:var(--hi)} .amber{color:var(--amber)} .red{color:var(--red2)} .green{color:var(--green)}
+hr{border:0;border-top:1px solid var(--line);margin:14px 0}
+kbd{border:1px solid var(--line2);padding:0 5px;font-size:11px;color:var(--fg2)}
+
+/* ─── 부트 ─── */
+#boot{background:#030405;padding:48px 56px;font-size:13px;color:#8a979c}
+#boot pre{white-space:pre-wrap;line-height:1.55}
+
+/* ─── 로그인 ─── */
+#login{align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 40%,#0c1013 0%,#050607 70%)}
+.loginbox{width:min(560px,92vw);border:1px solid var(--line2);background:rgba(9,11,13,.92);padding:30px 34px;box-shadow:0 0 0 1px #000,0 30px 80px rgba(0,0,0,.6)}
+.loginbox h1{font-size:14px;letter-spacing:.3em;font-weight:500;color:var(--hi);display:flex;justify-content:space-between}
+.loginbox h1 small{letter-spacing:.1em;color:var(--fg3);font-weight:400}
+.loginbox .warn{margin:16px 0 22px;padding:10px 12px;border-left:2px solid var(--red);color:var(--fg2);font-size:12px;line-height:1.7}
+.field{display:flex;align-items:center;border-bottom:1px solid var(--line2);padding:8px 0;margin-bottom:10px}
+.field label{width:120px;color:var(--fg3);letter-spacing:.1em;font-size:11px}
+.field input{flex:1;color:var(--hi);caret-color:var(--amber)}
+.field input::placeholder{color:#2b3236}
+.loginbox .actions{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.btn{border:1px solid var(--line2);padding:6px 14px;cursor:pointer;letter-spacing:.12em;font-size:12px;color:var(--fg)}
+.btn:hover{border-color:var(--amber);color:var(--amber)}
+.btn.primary{border-color:var(--amber);color:var(--amber)}
+.btn.primary:hover{background:var(--amber);color:#000}
+#loginmsg{min-height:20px;color:var(--red2);font-size:12px;margin-top:8px}
+
+/* ─── 메인 ─── */
+#main{background:var(--bg)}
+.topbar{height:38px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:22px;padding:0 18px;font-size:12px;letter-spacing:.08em;background:var(--bg2)}
+.topbar .brand{color:var(--hi);font-weight:600;letter-spacing:.25em}
+.topbar .sp{flex:1}
+.topbar .lvl{color:var(--amber)}
+.topbar .alert{color:var(--red2);display:none}
+.topbar .alert.on{display:inline;animation:blink 1.2s steps(1) infinite}
+.layout{flex:1;display:grid;grid-template-columns:200px 1fr 290px;min-height:0}
+.nav{border-right:1px solid var(--line);padding:16px 0;background:var(--bg2);display:flex;flex-direction:column}
+.nav a{display:block;padding:7px 18px;color:var(--fg2);text-decoration:none;letter-spacing:.06em;border-left:2px solid transparent}
+.nav a:hover{color:var(--fg)}
+.nav a.on{color:var(--hi);border-left-color:var(--amber);background:rgba(200,155,60,.05)}
+.nav .sect{padding:14px 18px 4px;font-size:10px;letter-spacing:.2em;color:var(--fg3)}
+.nav .foot{margin-top:auto;padding:14px 18px;font-size:10px;color:var(--fg3);line-height:1.7}
+.content{overflow:auto;padding:26px 36px 90px;position:relative}
+.content::-webkit-scrollbar{width:8px}.content::-webkit-scrollbar-thumb{background:var(--line2)}
+.side{border-left:1px solid var(--line);background:var(--bg2);display:flex;flex-direction:column;min-height:0}
+.side h3{font-size:10px;letter-spacing:.22em;color:var(--fg3);padding:14px 16px 8px;border-bottom:1px solid var(--line)}
+.feed{flex:1;overflow:auto;padding:8px 0;font-size:11.5px}
+.feed div{padding:4px 16px;border-bottom:1px dashed #141a1e;color:var(--fg2);line-height:1.5}
+.feed div b{color:var(--fg3);font-weight:400;margin-right:8px}
+.feed div.red{color:var(--red2)} .feed div.amber{color:var(--amber)} .feed div.hi{color:var(--fg)}
+.stats{padding:12px 16px;border-top:1px solid var(--line);font-size:11px;color:var(--fg2);line-height:1.9}
+.stats b{color:var(--fg);font-weight:500;float:right}
+
+/* 콘텐츠 블록 */
+h2.ph{font-size:13px;letter-spacing:.25em;color:var(--fg2);font-weight:500;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+h2.ph span{color:var(--hi)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.card{border:1px solid var(--line);padding:14px 16px;background:var(--panel)}
+.card .k{font-size:10px;letter-spacing:.2em;color:var(--fg3);margin-bottom:6px}
+.card .v{font-size:22px;color:var(--hi);font-weight:500;line-height:1.2}
+.card .v small{font-size:11px;color:var(--fg2);margin-left:6px;font-weight:400}
+.notice{border:1px solid var(--line);border-left:2px solid var(--amber);padding:12px 16px;margin:18px 0;background:var(--panel);font-size:12px;line-height:1.75}
+.notice.danger{border-left-color:var(--red2)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{font-size:10px;letter-spacing:.2em;color:var(--fg3);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line2);font-weight:400}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.row{cursor:pointer}
+tr.row:hover td{background:rgba(255,255,255,.025);color:var(--hi)}
+tr.row.locked td{color:var(--fg3)}
+tr.row.locked:hover td{color:var(--fg2)}
+.search{display:flex;gap:10px;margin-bottom:14px;align-items:center}
+.search input{flex:1;border:1px solid var(--line2);padding:7px 12px;color:var(--hi);background:var(--panel);caret-color:var(--amber)}
+.search input::placeholder{color:#333b40}
+
+/* 문서 */
+.doc{max-width:860px}
+.doc .hdr{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:6px}
+.doc h1{font-size:26px;letter-spacing:.12em;color:var(--hi);font-weight:600;line-height:1.1}
+.doc .meta{font-size:11px;color:var(--fg3);letter-spacing:.08em;margin-bottom:22px;display:flex;gap:18px;flex-wrap:wrap}
+.doc .sec{margin:22px 0}
+.doc .sec h4{font-size:11px;letter-spacing:.25em;color:var(--amber);font-weight:500;margin-bottom:8px}
+.doc .body{white-space:pre-wrap;line-height:1.85;font-size:13.5px;color:#c4cccf}
+.doc .body .dm{color:var(--red2);font-weight:500}
+.denied{border:1px solid var(--red);padding:18px 22px;background:rgba(179,55,47,.06);color:var(--fg);margin:18px 0;line-height:1.8}
+.denied b{color:var(--red2);letter-spacing:.2em;font-weight:500;display:block;margin-bottom:6px}
+.attrib{margin-top:40px;padding-top:14px;border-top:1px dashed var(--line2);font-size:11px;color:var(--fg3);line-height:1.8}
+.attrib a{color:var(--fg2)}
+.back{display:inline-block;margin-bottom:16px;color:var(--fg2);cursor:pointer;letter-spacing:.1em;font-size:12px}
+.back:hover{color:var(--amber)}
+.stamp{position:absolute;right:48px;top:30px;border:2px solid var(--red);color:var(--red);padding:4px 12px;font-size:12px;letter-spacing:.3em;transform:rotate(-7deg);opacity:.55;pointer-events:none}
+
+/* 커맨드 라인 */
+.cmd{position:absolute;left:200px;right:290px;bottom:0;height:40px;border-top:1px solid var(--line);background:var(--bg2);display:flex;align-items:center;padding:0 24px;gap:10px;font-size:12.5px}
+.cmd .p{color:var(--amber)}
+.cmd input{flex:1;color:var(--hi);caret-color:var(--amber)}
+.cmd .hint{color:var(--fg3);font-size:11px}
+.msglist .m{border:1px solid var(--line);padding:12px 16px;margin-bottom:10px;background:var(--panel)}
+.msglist .m .f{display:flex;justify-content:space-between;font-size:11px;color:var(--fg3);margin-bottom:6px;letter-spacing:.06em}
+.msglist .m .f span:first-child{color:var(--fg2)}
+.msglist .m.unread{border-left:2px solid var(--amber)}
+.msglist .m.corrupt{border-color:var(--red)} .msglist .m.corrupt .f span:first-child{color:var(--red2)}
+
+
+/* 하위 문서 */
+.crumb{font-size:11px;letter-spacing:.12em;color:var(--fg3);margin-bottom:14px}
+.crumb a{color:var(--fg2);text-decoration:none;cursor:pointer}.crumb a:hover{color:var(--amber)}
+.crumb span{margin:0 8px;color:var(--line2)}
+.xref{color:var(--cyan);text-decoration:none;border-bottom:1px dotted var(--cyan);cursor:pointer}
+.xref:hover{color:var(--hi);border-bottom-style:solid}
+.xref.dead{color:var(--fg3);border-bottom:1px dotted var(--fg3)}
+.xref.dead:hover{color:var(--red2)}
+.subs{border:1px solid var(--line);background:var(--panel);margin:26px 0}
+.subs h4{font-size:10px;letter-spacing:.25em;color:var(--fg3);padding:10px 16px;border-bottom:1px solid var(--line);font-weight:400}
+.subs a{display:flex;justify-content:space-between;gap:14px;padding:9px 16px;border-bottom:1px solid var(--line);color:var(--fg);text-decoration:none;cursor:pointer;font-size:12.5px}
+.subs a:last-child{border-bottom:0}
+.subs a:hover{background:rgba(255,255,255,.03);color:var(--hi)}
+.subs a.lock{color:var(--fg3)}
+.subs a .r{font-size:11px;color:var(--fg3);white-space:nowrap}
+.subs a.lock .r{color:var(--red2)}
+.pn{display:flex;justify-content:space-between;margin-top:30px;padding-top:14px;border-top:1px solid var(--line);font-size:12px}
+.pn a{color:var(--fg2);cursor:pointer;text-decoration:none}.pn a:hover{color:var(--amber)}
+/* 효과 */
+.audio-btn{cursor:pointer;color:var(--fg3);letter-spacing:.1em;font-size:12px}
+.audio-btn.on{color:var(--amber)}
+.decay{transition:opacity 1.2s}
+.fade-out{opacity:0}
+.body .rot{color:#3d2a26}
+.pict{font-size:64px;letter-spacing:.1em;color:var(--hi);text-align:center;padding:60px 0 30px;font-family:var(--mono)}
+.pict small{display:block;font-size:11px;color:var(--fg3);letter-spacing:.3em;margin-top:18px}
+.eyes{position:fixed;inset:0;z-index:960;background:#000;display:none;align-items:center;justify-content:center;color:var(--red2);letter-spacing:.4em;font-size:14px;text-align:center;line-height:2.4}
+.eyes.on{display:flex;animation:eyesin .8s steps(4)}
+@keyframes eyesin{0%{opacity:0}100%{opacity:1}}
+.doc .body.shift{transform:translateX(6px)}
+/* ─── 검색·필터 ─── */
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:-4px 0 16px}
+.chip{border:1px solid var(--line2);padding:2px 10px;font-size:11px;letter-spacing:.08em;color:var(--fg2);cursor:pointer}
+.chip:hover{color:var(--hi);border-color:var(--fg3)}
+.chip.on{border-color:var(--amber);color:var(--amber)}
+.snip{font-size:11.5px;color:var(--fg2);margin-top:4px;line-height:1.6;max-width:420px}
+.ttl{font-size:11px;margin-top:2px}
+mark{background:rgba(200,155,60,.25);color:var(--hi)}
+.empty{border:1px dashed var(--line2);padding:28px;text-align:center;color:var(--fg2);line-height:1.9}
+.rowlink{text-decoration:none;color:inherit}
+.rowlink.hi{color:var(--hi)}
+.doc h1 .nick{display:block;font-size:12px;letter-spacing:.2em;color:var(--fg2);font-weight:400;margin-top:8px}
+.doc .body .img{display:block;color:var(--fg3);font-size:12px;border:1px dashed var(--line2);padding:4px 10px;margin:4px 0}
+.doc .body .fn{font-size:10px;color:var(--fg3)}
+.doc .body .quote{display:block;border-left:2px solid var(--line2);padding-left:12px;color:var(--fg2)}
+#boot .skip{position:fixed;right:24px;bottom:18px;font-size:11px;letter-spacing:.1em}
+
+/* ─── 접근성 ─── */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible,.content:focus-visible{outline:1px solid var(--amber);outline-offset:2px}
+tr.row:focus-within td{background:rgba(200,155,60,.05)}
+body.nofx.crt::before{opacity:.5}
+body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animation:none}
+@media (prefers-reduced-motion: reduce){
+  .flicker,body.shake,#glitch.on,.cursor::after,.topbar .alert.on,.eyes.on{animation:none!important}
+  .decay{transition:none}
+}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .nav{flex-direction:row;overflow-x:auto;padding:0;border-right:0;border-bottom:1px solid var(--line)}
+  .nav .sect,.nav .foot{display:none}
+  .nav a{white-space:nowrap;border-left:0;border-bottom:2px solid transparent}
+  .nav a.on{border-bottom-color:var(--amber)}
+  .side{display:none}
+  .cmd{left:0;right:0}
+  .content{padding:20px 18px 80px}
+  .stamp{display:none}
+}

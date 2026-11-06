@@ -4,15 +4,24 @@ SCP 재단 인트라넷 느낌의 정적 팬 사이트. 콘텐츠는 SCP 재단 
 
 ## 구조
 - `crawler.py` — scpko 위키에서 SCP 문서를 긁어 `data/scp.json` 생성 (`python3 crawler.py 173 049 ...`, 인자 없으면 기본 20개)
-- `template.html` — UI/로직 (단일 파일)
-- `build.py` — template + data → `index.html` (데이터 인라인)
-- `index.html` — 배포용 결과물 (GitHub Pages에 이 파일만 올려도 동작)
+- `normalize.py` — 등급 표기 정리(취소선 소실, `유클리드/잠재적 케테르` 등)와 위키 잔여물 제거. 빌드할 때 자동 적용
+- `src/index.html` · `src/style.css` · `src/js/*.js` — UI/로직 (파일 이름 순서대로 합쳐짐)
+- `build.py` — src + data → `index.html` (CSS·JS·데이터 인라인). `--check` 는 결과물이 최신인지 확인만 함
+- `index.html` — 배포용 결과물 (GitHub Pages에 이 파일만 올려도 동작). 직접 수정하지 말고 `src/` 를 고친 뒤 빌드
+- `tests/` — `python3 -m unittest discover -s tests`
+- `.github/workflows/build.yml` — 테스트, `index.html` 최신 여부, 스크립트 문법 확인
 
 ## 문서 추가
 ```
 python3 crawler.py 3001 1471 2000
 python3 build.py
 ```
+
+## 주소
+문서마다 주소가 있어 새로고침·뒤로가기·공유가 됩니다. `#scp-173`, `#scp-049/2`(부록), `#database?q=기억소거&c=keter`. 로그인 전에 열면 로그인 후 그 문서로 이동합니다.
+
+## 세션 저장
+같은 식별번호로 다시 로그인하면 권한 상향, 위반 횟수, 최근 열람, 읽은 메시지가 복원됩니다 (브라우저 localStorage).
 
 ## 보안 등급 규칙
 - 식별번호가 `D-`로 시작 → Level 1, `DR-`/`MD-`/`R4-`/`L4-` → Level 3, 그 외 → Level 2, `O5...` → 거부
@@ -21,4 +30,7 @@ python3 build.py
 - 접근 거부 3회 누적 시 기억소거 경고
 
 ## 명령어
-`help` `open 173` `search 케테르` `list` `whoami` `clear` `logout` `override <코드>` · `/` 키로 커맨드라인 포커스, `Esc`로 뒤로
+`help` `open 173` `search 케테르` `list` `history` `whoami` `fx` `clear` `logout` `override <코드>` · `/` 키로 커맨드라인 포커스, `Esc`로 한 단계 위로, `↑`/`↓` 이전 명령
+
+## 효과
+상단 `FX` 버튼(또는 `fx` 명령)으로 깜빡임·글리치·흔들림을 끌 수 있습니다. 운영체제의 '동작 줄이기' 설정이 켜져 있으면 기본으로 꺼집니다.
