@@ -487,6 +487,26 @@ table.atttab{max-width:820px}
 .atttab tr.wkend td{color:var(--fg3)}
 .cyan{color:var(--cyan)}
 
+/* ─── 회의실 ─── */
+.rwrap{overflow-x:auto;border:1px solid var(--line);background:var(--panel)}
+.rgrid{display:grid;grid-template-columns:140px minmax(620px,1fr)}
+.rname{padding:8px 10px;border-bottom:1px solid var(--line);border-right:1px solid var(--line2);font-size:12px;position:sticky;left:0;background:var(--panel);z-index:1}
+.rname b{display:block;font-weight:500;color:var(--hi)}
+.rname small{color:var(--fg3);font-size:10.5px;line-height:1.4;display:block}
+.rrow{display:grid;grid-template-columns:repeat(18,1fr);border-bottom:1px solid var(--line);min-height:52px}
+.rrow.head{min-height:0}.rrow.head span{font-size:10.5px;color:var(--fg3);padding:4px;border-left:1px solid var(--line)}
+.rname.head{min-height:0}
+.rs{border-left:1px dashed var(--line);cursor:pointer;min-height:52px}
+.rs:nth-child(odd){border-left-style:solid}
+.rs:hover:not([disabled]){background:rgba(90,154,168,.12)}
+.rs[disabled]{cursor:not-allowed;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.06) 6px 8px)}
+.rb{margin:4px 2px;padding:4px 8px;background:rgba(90,154,168,.14);border-left:3px solid var(--cyan);font-size:11px;overflow:hidden;line-height:1.4}
+.rb b{display:block;font-weight:500;color:var(--hi);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb small{color:var(--fg3);white-space:nowrap}
+.rb.mine{background:rgba(200,155,60,.16);border-left-color:var(--amber)}
+.modal select.selx{flex:1}
+.modal .field input[type=number]{width:80px;flex:none}
+
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
 body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
@@ -592,6 +612,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
   .grid{grid-template-columns:1fr 1fr;gap:8px}
+  .rgrid{grid-template-columns:96px minmax(640px,1fr)}
   .grid .card{padding:10px 12px}
   .card .v{font-size:19px}
   .card .v small{display:block;margin:2px 0 0}
@@ -668,6 +689,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
     <a href="#approval" data-v="approval">전자결재 <span id="apprn" class="amber"></span></a>
     <a href="#calendar" data-v="calendar">일정</a>
     <a href="#attendance" data-v="attendance">근태</a>
+    <a href="#rooms" data-v="rooms">회의실</a>
     <a href="#org" data-v="org">조직도</a>
     <a href="#archive" data-v="archive">자료실</a>
     <span class="sp"></span>
@@ -686,6 +708,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
       <a href="#approval" data-v="approval" class="mob">전자결재</a>
       <a href="#calendar" data-v="calendar" class="mob">일정</a>
       <a href="#attendance" data-v="attendance" class="mob">근태</a>
+      <a href="#rooms" data-v="rooms" class="mob">회의실</a>
       <a href="#archive" data-v="archive" class="mob">자료실</a>
       <a href="#org" data-v="org" class="mob">조직도</a>
       <a href="#search" data-v="search" class="mob">통합 검색</a>
@@ -910,7 +933,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -943,7 +966,7 @@ function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
 /* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
 const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
   messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
-  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"]};
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"]};
 function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
 const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
 function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
@@ -2318,7 +2341,7 @@ document.addEventListener("click",e=>{
 });
 
 /* ════ 단축키 ════ ? 도움말 · g 다음 글자로 이동 */
-const GOKEYS={t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
+const GOKEYS={g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
 function showKeys(){
   modal({title:"단축키",cls:"wide",html:`<table class="keys">
     <tr><td><kbd>/</kbd></td><td>커맨드라인으로 이동</td></tr>
@@ -2504,6 +2527,71 @@ function attendance(qs){
   <table class="atttab"><tr><th>날짜</th><th>출근</th><th>퇴근</th><th>근무시간</th><th class="hm">점심 1시간 제외</th><th>상태</th></tr>${rows}</table>
   <p class="dim2" style="font-size:11px;margin-top:10px">· 표시가 있는 날은 출입 게이트·단말 로그로 자동 집계된 기록입니다. 기록 정정은 인사관리과(4-1100)에 요청하십시오.</p>`;
 }
+
+/* ════════════════════════════════════════════
+   회의실 예약 — 날짜별 시간표 (09:00–18:00, 30분 단위)
+   예약: store "rooms" = [{id, room, date, s, e, title, user, n}]  (s·e 는 30분 칸 번호, 0 = 09:00)
+   이미 잡혀 있는 기지 회의는 날짜 기준으로 고정 생성 (저장 안 함)
+   ════════════════════════════════════════════ */
+const ROOMS=[["r1","대회의실","B동 3층 · 20인 · 빔프로젝터",1],["r2","소회의실 A","B동 2층 · 6인",1],["r3","소회의실 B","B동 2층 · 6인",1],["r4","화상회의실","A동 1층 · 8인 · 타 기지 연결",1],["r5","보안 브리핑룸","지하 1층 · 12인 · Level 3 이상",3]];
+const SLOTS=18, slotT=i=>`${pad(9+Math.floor(i/2))}:${i%2?"30":"00"}`;
+const BASE_MEET=["격리동 B 주간 회의","신규 인원 면접","MTF 연락 회의","격리 절차 개정 검토","D계급 배치 회의","예산 검토","보안 교육","외부 기관 화상 회의","시설 점검 회의","연구 결과 공유"];
+function baseBookings(date){
+  const d=new Date(date+"T00:00"), wd=d.getDay(); if(wd===0||wd===6) return [];
+  const out=[];
+  ROOMS.forEach(([id],ri)=>{
+    const n=srnd(date+id+"n",0,ri===0?3:2); let at=srnd(date+id+"a",0,3);
+    for(let k=0;k<n && at<SLOTS-1;k++){
+      const len=srnd(date+id+k+"l",2,4), e=Math.min(SLOTS,at+len);
+      out.push({id:"b"+id+k, room:id, date, s:at, e, title:id==="r5"?"비공개 회의":spick(date+id+k,BASE_MEET), user:spick(date+id+k+"u",DIR.filter(r=>r[4]==="근무 중"&&!r[1].includes("<")))[1], base:true});
+      at=e+srnd(date+id+k+"g",1,5);
+    }
+  });
+  return out;
+}
+const myRooms=()=>store.get("rooms",[]);
+function bookingsOn(date){ return [...baseBookings(date), ...myRooms().filter(b=>b.date===date)] }
+function rooms(qs){
+  const date=(qs&&qs.get("d"))||today();
+  const prev=ymd(new Date(new Date(date+"T00:00").getTime()-86400000)), next=ymd(new Date(new Date(date+"T00:00").getTime()+86400000));
+  const B=bookingsOn(date), wd=new Date(date+"T00:00").getDay();
+  const nowSlot=date===today()?Math.floor(((new Date().getHours()-9)*60+new Date().getMinutes())/30):-1;
+  const mine=myRooms().filter(b=>b.user===S.user && b.date>=today()).sort((a,b)=>(a.date+pad(a.s)).localeCompare(b.date+pad(b.s)));
+  const grid=ROOMS.map(([id,name,info,lv])=>{
+    const cells=[]; for(let i=0;i<SLOTS;){
+      const b=B.find(x=>x.room===id&&x.s===i);
+      if(b){ cells.push(`<div class="rb ${b.user===S.user?"me":""} ${b.base?"":"mine"}" style="grid-column:span ${b.e-b.s}" title="${esc(slotT(b.s))}–${esc(slotT(b.e))} ${esc(b.title)}"><b>${esc(b.title)}</b><small>${slotT(b.s)}–${slotT(b.e)} · ${esc(b.user)}</small></div>`); i=b.e; continue }
+      const busy=B.some(x=>x.room===id&&i>x.s&&i<x.e);
+      if(!busy) cells.push(`<button type="button" class="rs ${i<=nowSlot?"past":""}" data-room="${id}" data-slot="${i}" aria-label="${name} ${slotT(i)} 예약" ${i<nowSlot||date<today()||wd===0||wd===6||S.level<lv?"disabled":""}></button>`);
+      i++;
+    }
+    return `<div class="rname"><b>${name}</b><small>${info}</small></div><div class="rrow">${cells.join("")}</div>`;
+  }).join("");
+  return `<h2 class="ph">회의실 <span>예약</span></h2>
+  <div class="calbar"><a class="btn" href="#rooms?d=${prev}" aria-label="전날">‹</a><b>${date} (${["일","월","화","수","목","금","토"][wd]})</b><a class="btn" href="#rooms?d=${next}" aria-label="다음날">›</a><a class="btn" href="#rooms">오늘</a>
+    <span class="sp"></span><span class="dim2" style="font-size:11px">빈 칸을 눌러 예약 · 주말은 예약할 수 없습니다</span></div>
+  <div class="rwrap"><div class="rgrid"><div class="rname head"></div><div class="rrow head">${[...Array(SLOTS/2)].map((_,h)=>`<span style="grid-column:span 2">${pad(9+h)}:00</span>`).join("")}</div>${grid}</div></div>
+  <h2 class="ph" style="margin-top:26px">내 <span>예약</span></h2>
+  ${mine.length?`<table><tr><th>날짜</th><th>시간</th><th>회의실</th><th>회의명</th><th class="hm">인원</th><th></th></tr>${mine.map(b=>`<tr><td>${b.date.slice(5)}</td><td>${slotT(b.s)}–${slotT(b.e)}</td><td class="dim">${ROOMS.find(r=>r[0]===b.room)[1]}</td><td class="hi">${esc(b.title)}</td><td class="dim hm">${b.n||"—"}명</td><td><button type="button" class="xref" data-rcancel="${b.id}">취소</button></td></tr>`).join("")}</table>`
+  :`<div class="empty">예정된 예약이 없습니다.</div>`}`;
+}
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-rcancel]");
+  if(c){ const b=myRooms().find(x=>x.id===c.dataset.rcancel);
+    modal({title:"예약 취소",html:`<p>${b.date} ${slotT(b.s)}–${slotT(b.e)} <b>${esc(b.title)}</b> 예약을 취소합니다.</p>`,buttons:[{label:"닫기",act:x=>x()},{label:"예약 취소",primary:true,act:x=>{ store.set("rooms",myRooms().filter(y=>y.id!==b.id)); x(); toast("예약을 취소했습니다."); route() }}]}); return }
+  const s=e.target.closest("button.rs[data-room]"); if(!s) return;
+  const room=ROOMS.find(r=>r[0]===s.dataset.room), st=+s.dataset.slot, date=new URLSearchParams(location.hash.split("?")[1]||"").get("d")||today();
+  const B=bookingsOn(date).filter(b=>b.room===room[0]);
+  let maxE=SLOTS; for(const b of B) if(b.s>st) maxE=Math.min(maxE,b.s);
+  modal({title:`${room[1]} 예약 <span class="dim2">· ${date}</span>`, html:`<div class="field"><label for="rt">회의명</label><input id="rt" maxlength="30" placeholder="예: 격리 절차 검토" autocomplete="off"></div>
+    <div class="field"><label>시작</label><span class="hi">${slotT(st)}</span></div>
+    <div class="field"><label for="re">종료</label><select id="re" class="selx">${[...Array(maxE-st)].map((_,k)=>`<option value="${st+k+1}" ${k===1?"selected":""}>${slotT(st+k+1)}</option>`).join("")}</select></div>
+    <div class="field"><label for="rn">인원</label><input id="rn" type="number" min="1" max="20" value="4"></div><p class="dim2" style="font-size:11px">${room[2]}</p>`,
+    buttons:[{label:"취소",act:x=>x()},{label:"예약하기",primary:true,act:x=>{
+      const t=$("#rt").value.trim(); if(!t){ $("#rt").focus(); return }
+      store.set("rooms",[...myRooms(),{id:Date.now().toString(36),room:room[0],date,s:st,e:+$("#re").value,title:t,user:S.user,n:+$("#rn").value||1}]);
+      x(); feedPush(`회의실 예약 — ${S.user} · ${room[1]} ${slotT(st)}`,""); toast(`${room[1]} ${slotT(st)} 예약되었습니다.`); route() }}]});
+});
 
 /* ════ 피드 ════ */
 const FEED_T=[
