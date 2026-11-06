@@ -64,7 +64,7 @@ function notes(qs){
       ${n.done?`<button type="button" class="xref" data-todoclear>완료한 일 ${n.done}건 지우기</button>`:""}
     </section>
     <section class="card"><div class="k">메모</div>${memoBox(14)}</section>
-  </div>`;
+  </div>${docNoteList()}`;
 }
 
 let todoRefocus=false, memoTimer=0;

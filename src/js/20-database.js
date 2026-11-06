@@ -95,6 +95,7 @@ function database(params){
 function matchClass(d,c){
   if(c==="all") return true;
   if(c==="fav") return isFav(d.id);
+  if(c==="note") return !!dnAll()[d.id];
   const k=classKey(d.object_class);
   if(c==="other") return !["safe","euclid","keter","apollyon"].includes(k);
   return k===c;
