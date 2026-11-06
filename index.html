@@ -507,6 +507,30 @@ table.atttab{max-width:820px}
 .modal select.selx{flex:1}
 .modal .field input[type=number]{width:80px;flex:none}
 
+/* ─── 업무 요청 ─── */
+.tkcats{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.tkcat{text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:2px}
+.tkcat:hover{border-color:var(--fg3)}
+.tkcat b{font-size:15px;color:var(--hi);font-weight:500}
+.tkcat small{font-size:11px;color:var(--fg2)}
+.tkst{font-size:11px;padding:1px 8px;border:1px solid var(--line2);color:var(--fg2);white-space:nowrap}
+.tkst.s0{color:var(--fg2)}.tkst.s1{color:var(--cyan);border-color:var(--cyan)}.tkst.s2{color:var(--amber);border-color:var(--amber)}.tkst.s3{color:var(--green);border-color:var(--green)}
+.tkst.big{font-size:13px;padding:3px 12px}
+.tksteps{display:flex;list-style:none;margin:6px 0 16px;counter-reset:s}
+.tksteps li{flex:1;text-align:center;position:relative;padding-top:16px;font-size:12px;color:var(--fg3)}
+.tksteps li::before{content:"";position:absolute;top:4px;left:0;right:0;height:3px;background:var(--line)}
+.tksteps li::after{content:"";position:absolute;top:0;left:50%;width:11px;height:11px;margin-left:-5px;border-radius:50%;background:var(--bg);border:2px solid var(--line2)}
+.tksteps li.on::before{background:var(--cyan)}.tksteps li.on::after{background:var(--cyan);border-color:var(--cyan)}
+.tksteps li.cur b{color:var(--hi)}
+.tksteps b{display:block;font-weight:500;margin-top:4px}
+.tksteps small{font-size:10.5px}
+.tklog{margin-top:18px}.tklog h4{font-size:11px;letter-spacing:.2em;color:var(--fg3);font-weight:400;margin-bottom:4px}
+.stars{display:inline-flex;gap:2px;margin:6px 10px 0 0}
+.stars button{font-size:20px;color:var(--line2);cursor:pointer;line-height:1}
+.stars button.on,.stars button:hover{color:var(--amber)}
+.gnb{overflow-x:auto;scrollbar-width:none}
+.gnb a{white-space:nowrap;flex:none}
+
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
 body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
@@ -611,7 +635,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 @media (max-width:600px){
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
-  .grid{grid-template-columns:1fr 1fr;gap:8px}
+  .grid,.tkcats{grid-template-columns:1fr 1fr;gap:8px}
   .rgrid{grid-template-columns:96px minmax(640px,1fr)}
   .grid .card{padding:10px 12px}
   .card .v{font-size:19px}
@@ -690,6 +714,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
     <a href="#calendar" data-v="calendar">일정</a>
     <a href="#attendance" data-v="attendance">근태</a>
     <a href="#rooms" data-v="rooms">회의실</a>
+    <a href="#helpdesk" data-v="helpdesk">업무요청</a>
     <a href="#org" data-v="org">조직도</a>
     <a href="#archive" data-v="archive">자료실</a>
     <span class="sp"></span>
@@ -709,6 +734,7 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
       <a href="#calendar" data-v="calendar" class="mob">일정</a>
       <a href="#attendance" data-v="attendance" class="mob">근태</a>
       <a href="#rooms" data-v="rooms" class="mob">회의실</a>
+      <a href="#helpdesk" data-v="helpdesk" class="mob">업무요청</a>
       <a href="#archive" data-v="archive" class="mob">자료실</a>
       <a href="#org" data-v="org" class="mob">조직도</a>
       <a href="#search" data-v="search" class="mob">통합 검색</a>
@@ -933,7 +959,7 @@ function sessionLater(fn, ms){ const sid=S.sid; setTimeout(()=>{ if(sid===S.sid)
 
 /* ════ 라우팅 ════
    #dashboard · #database · #scp-173 · #scp-173/2 (부록) · #incidents ... */
-const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms};
+const VIEWS = {dashboard, database, incidents, personnel, messages, o5, board, approval, calendar, archive, org, search, settings, history:histView, attendance, rooms, helpdesk};
 window.addEventListener("hashchange",route);
 function route(){
   if(!S.booted) return;
@@ -966,7 +992,7 @@ function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
 /* 페이지 위치 표시 (홈 › 메뉴 › 화면) */
 const VIEW_META={dashboard:["홈","운영 현황"],database:["격리 업무","격리 데이터베이스"],incidents:["격리 업무","사건 기록"],personnel:["격리 업무","인사 파일"],
   messages:["커뮤니케이션","메일"],board:["커뮤니케이션","게시판"],approval:["업무","전자결재"],calendar:["업무","일정 관리"],archive:["업무","자료실"],
-  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"]};
+  org:["커뮤니케이션","조직도"],search:["홈","통합 검색"],settings:["개인","환경 설정"],o5:["제한","O5 평의회 기록"],history:["격리 업무","열람 이력"],attendance:["업무","근태 관리"],rooms:["업무","회의실 예약"],helpdesk:["업무","업무 요청"]};
 function viewCrumb(v){ const m=VIEW_META[v]; if(!m||v==="dashboard") return ""; return `<nav class="crumb pcrumb" aria-label="경로"><a href="#dashboard">홈</a><span aria-hidden="true">›</span>${m[0]}<span aria-hidden="true">›</span><b class="hi" style="font-weight:500">${m[1]}</b></nav>` }
 const PFOOT=`<footer class="pfoot"><span>© SCP 재단 · 제19기지 정보통신팀</span><span>헬프데스크 4-1500</span><span>보안 상황실 4-0119</span><a href="#archive">이용 안내</a><span class="dim2">본 시스템은 인가된 인원만 사용할 수 있으며 모든 접속은 기록됩니다.</span></footer>`;
 function render(html){clearEffects();const c=$("#content");c.innerHTML=html+PFOOT;c.scrollTop=0}
@@ -1637,7 +1663,7 @@ function expiryWarning(){
 
 /* ─── 로그인 직후 그룹웨어 시작 ─── */
 function groupwareStart(returning){
-  GW.copyTries=0; workspaceStart(); drawWatermark(); startIdleWatch(); apprWatch(); apprBadge();
+  GW.copyTries=0; workspaceStart(); drawWatermark(); startIdleWatch(); apprWatch(); tkWatch(); apprBadge();
   sessionLoop(drawWatermark, 60000);
   sessionLater(popupNotice, 700);
   if(returning){
@@ -2341,7 +2367,7 @@ document.addEventListener("click",e=>{
 });
 
 /* ════ 단축키 ════ ? 도움말 · g 다음 글자로 이동 */
-const GOKEYS={g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
+const GOKEYS={q:["#helpdesk","업무 요청"],g:["#rooms","회의실 예약"],t:["#attendance","근태 관리"],h:["#dashboard","홈"],d:["#database","격리 데이터베이스"],m:["#messages","메일"],b:["#board","게시판"],a:["#approval","전자결재"],c:["#calendar","일정"],o:["#org","조직도"],r:["#archive","자료실"],i:["#incidents","사건 기록"],s:["#settings","환경 설정"]};
 function showKeys(){
   modal({title:"단축키",cls:"wide",html:`<table class="keys">
     <tr><td><kbd>/</kbd></td><td>커맨드라인으로 이동</td></tr>
@@ -2591,6 +2617,79 @@ document.addEventListener("click",e=>{
       const t=$("#rt").value.trim(); if(!t){ $("#rt").focus(); return }
       store.set("rooms",[...myRooms(),{id:Date.now().toString(36),room:room[0],date,s:st,e:+$("#re").value,title:t,user:S.user,n:+$("#rn").value||1}]);
       x(); feedPush(`회의실 예약 — ${S.user} · ${room[1]} ${slotT(st)}`,""); toast(`${room[1]} ${slotT(st)} 예약되었습니다.`); route() }}]});
+});
+
+/* ════════════════════════════════════════════
+   업무 요청 (헬프데스크) — 전산 · 시설 · 보안 · 총무
+   티켓: store "tk_<user>" = [{no, cat, sub, loc, title, body, pri, at, rate}]
+   진행 단계는 접수 시각으로부터 계산 (접수 → 배정 → 처리 중 → 완료)
+   ════════════════════════════════════════════ */
+const TK_CAT={
+  it:["전산","전산팀",["단말 고장","계정·권한","프린터","네트워크","소프트웨어 설치"],"A-19-0517"],
+  fac:["시설","시설관리과",["전기·조명","냉난방","누수","출입문","청소"],"A-19-0402"],
+  sec:["보안","보안부",["출입카드 재발급","CCTV 확인 요청","보안 USB","방문객 등록"],"A-19-0051"],
+  ga:["총무","복리후생팀",["사무용품","가구","명함","택배·우편"],"A-19-0620"],
+};
+const TK_PRI={low:["낮음",1],mid:["보통",0.7],high:["긴급",0.4]};
+const TK_STEPS=[["접수",0],["담당자 배정",20],["처리 중",45],["완료",90]];
+const tkKey=()=>"tk_"+S.user, tkList=()=>store.get(tkKey(),[]);
+const TK_DONE={it:["원격으로 점검 후 조치했습니다. 같은 문제가 반복되면 이 요청에 다시 남겨 주세요.","재부팅 후 정상 동작을 확인했습니다."],fac:["현장 확인 후 수리 완료했습니다.","부품 교체 완료했습니다. 불편을 드려 죄송합니다."],sec:["처리 완료했습니다. 보안팀에서 수령하시면 됩니다.","요청하신 내용 확인 후 처리했습니다."],ga:["요청 물품을 부서로 전달했습니다.","처리 완료했습니다."]};
+function tkState(t){
+  const k=TK_PRI[t.pri][1]; let i=0;
+  TK_STEPS.forEach(([,sec],j)=>{ if(Date.now()>=t.at+sec*k*1000) i=j });
+  return {i, name:TK_STEPS[i][0], when:j=>t.at+TK_STEPS[j][1]*k*1000, who:dirById(TK_CAT[t.cat][3])};
+}
+const tkNo=t=>`REQ-${new Date(t.at).getFullYear()}-${String(t.no).padStart(5,"0")}`;
+function tkWatch(){
+  let last=Object.fromEntries(tkList().map(t=>[t.no,tkState(t).i]));
+  sessionLoop(()=>{ for(const t of tkList()){ const i=tkState(t).i; if(last[t.no]==null) last[t.no]=0; if(i>last[t.no]){
+      toast(`업무 요청 <b>${tkNo(t)}</b> — ${TK_STEPS[i][0]}<br><a class="xref" href="#helpdesk?no=${t.no}">${esc(t.title)}</a>`);
+      if(S.view==="helpdesk" && !/new=/.test(location.hash)) route() } last[t.no]=i } }, 2500);
+}
+function helpdesk(qs){
+  const no=+(qs&&qs.get("no")); if(no) return tkDoc(no);
+  if(qs&&qs.get("new")) return tkForm(qs.get("new"));
+  const f=(qs&&qs.get("f"))||"open", L=tkList().slice().reverse();
+  const rows=L.filter(t=>f==="all"||(f==="open"?tkState(t).i<3:tkState(t).i===3));
+  return `<h2 class="ph">업무 <span>요청</span> · 헬프데스크</h2>
+  <div class="tkcats">${Object.entries(TK_CAT).map(([k,[n,dept,subs]])=>`<a class="card tkcat" href="#helpdesk?new=${k}"><b>${n}</b><span class="dim2">${dept}</span><small>${subs.slice(0,3).join(" · ")}</small></a>`).join("")}</div>
+  <div class="filters" style="margin-top:18px">${[["open","진행 중"],["done","완료"],["all","전체"]].map(([k,l])=>`<a class="chip ${k===f?"on":""}" href="#helpdesk?f=${k}">${l}</a>`).join("")}</div>
+  ${rows.length?`<table><tr><th>요청 번호</th><th>분류</th><th>제목</th><th class="hm">요청일</th><th>상태</th></tr>${rows.map(t=>{const s=tkState(t);return `<tr class="row" data-href="#helpdesk?no=${t.no}"><td class="dim">${rowLink("#helpdesk?no="+t.no,tkNo(t),"")}</td><td class="dim">${TK_CAT[t.cat][0]} · ${esc(t.sub)}</td><td class="hi">${t.pri==="high"?'<span class="red">[긴급]</span> ':""}${esc(t.title)}</td><td class="dim hm">${fmtDate(t.at).slice(5)}</td><td><span class="tkst s${s.i}">${s.name}</span></td></tr>`}).join("")}</table>`
+  :`<div class="empty">${f==="open"?"진행 중인 요청이 없습니다.":"요청 내역이 없습니다."}<br><span class="dim2">위에서 분류를 골라 요청을 접수하십시오.</span></div>`}`;
+}
+function tkForm(cat){
+  const C=TK_CAT[cat]; if(!C) return helpdesk(new URLSearchParams());
+  return `<a class="back" href="#helpdesk">← 업무 요청</a><h2 class="ph">${C[0]} <span>요청 접수</span> · ${C[1]}</h2>
+  <form class="aform" data-tk="${cat}"><table class="ftab">
+    <tr><th><label for="tk-sub">세부 분류</label></th><td><select id="tk-sub" name="sub">${C[2].map(x=>`<option>${x}</option>`).join("")}</select></td></tr>
+    <tr><th><label for="tk-loc">위치</label></th><td><input id="tk-loc" name="loc" placeholder="예: B동 2층 연구실 3, 단말 NODE 0x3F1A" autocomplete="off"></td></tr>
+    <tr><th><label for="tk-t">제목</label></th><td><input id="tk-t" name="title" maxlength="60" required autocomplete="off"></td></tr>
+    <tr><th><label for="tk-b">내용</label></th><td><textarea id="tk-b" name="body" rows="6" placeholder="증상, 발생 시각, 연락 가능한 시간을 적어 주세요."></textarea></td></tr>
+    <tr><th>긴급도</th><td>${Object.entries(TK_PRI).map(([k,[l]])=>`<label class="chk" style="display:inline-flex;margin-right:14px"><input type="radio" name="pri" value="${k}" ${k==="mid"?"checked":""}> ${l}</label>`).join("")}</td></tr>
+  </table><div class="factions"><a class="btn" href="#helpdesk">취소</a><button class="btn primary" type="submit">접수</button></div></form>`;
+}
+document.addEventListener("submit",e=>{
+  const f=e.target.closest("form[data-tk]"); if(!f) return; e.preventDefault();
+  const v=Object.fromEntries(new FormData(f)); if(!v.title.trim()){ f.title.focus(); return }
+  const L=tkList(), t={no:(L.reduce((m,x)=>Math.max(m,x.no),0)||srnd(S.user+"tk",4000,9000))+1, cat:f.dataset.tk, sub:v.sub, loc:v.loc.trim(), title:v.title.trim(), body:v.body.trim(), pri:v.pri||"mid", at:Date.now()};
+  store.set(tkKey(),[...L,t]); feedPush(`업무 요청 접수 — ${S.user} · ${TK_CAT[t.cat][0]}`,""); toast(`접수되었습니다 · ${tkNo(t)}`); go("#helpdesk?no="+t.no);
+});
+function tkDoc(no){
+  const t=tkList().find(x=>x.no===no); if(!t) return `<a class="back" href="#helpdesk">← 업무 요청</a><div class="empty">존재하지 않는 요청입니다.</div>`;
+  const s=tkState(t), C=TK_CAT[t.cat], who=s.who?`${s.who[1]} (${s.who[0]})`:C[1];
+  const log=[[0,`${esc(S.user)} 님이 요청을 접수했습니다.`],[1,`${C[1]} ${who} 님이 담당자로 배정되었습니다.`],[2,"담당자가 처리를 시작했습니다."],[3,spick(t.no+"d",TK_DONE[t.cat])]];
+  return `<a class="back" href="#helpdesk">← 업무 요청</a>
+  <div class="adoc"><div class="ahead"><div><div class="dim2" style="font-size:11px">${tkNo(t)} · ${C[0]} · ${esc(t.sub)}</div><h3>${t.pri==="high"?'<span class="red">[긴급]</span> ':""}${esc(t.title)}</h3></div><span class="tkst s${s.i} big">${s.name}</span></div>
+  <ol class="tksteps">${TK_STEPS.map(([n],j)=>`<li class="${j<=s.i?"on":""} ${j===s.i?"cur":""}"><b>${n}</b><small>${j<=s.i?fmtDate(s.when(j)).slice(5):"—"}</small></li>`).join("")}</ol>
+  <table class="ftab"><tr><th>요청자</th><td>${esc(S.user)}</td><th>담당</th><td>${s.i>=1?esc(who):'<span class="dim2">배정 전</span>'}</td></tr>
+    <tr><th>위치</th><td colspan="3">${esc(t.loc)||'<span class="dim2">—</span>'}</td></tr><tr><th>내용</th><td colspan="3" style="white-space:pre-wrap">${esc(t.body)||'<span class="dim2">(없음)</span>'}</td></tr></table>
+  <div class="tklog"><h4>처리 기록</h4>${log.filter(([j])=>j<=s.i).map(([j,m])=>`<div class="cm"><b>${j===0?esc(S.user):j===3?esc(who):C[1]}</b><span class="dim2">${fmtDate(s.when(j)).slice(5)}</span><div>${m}</div></div>`).join("")}</div>
+  ${s.i===3?`<div class="notice"><b>처리 만족도</b><div class="stars" role="radiogroup" aria-label="만족도">${[1,2,3,4,5].map(n=>`<button type="button" class="${(t.rate||0)>=n?"on":""}" data-tkrate="${n}" data-no="${t.no}" aria-label="${n}점">★</button>`).join("")}</div>${t.rate?`<span class="dim2" style="font-size:11px">평가해 주셔서 감사합니다.</span>`:""}</div>`:""}
+  </div>`;
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-tkrate]"); if(!b) return;
+  store.set(tkKey(),tkList().map(t=>t.no===+b.dataset.no?{...t,rate:+b.dataset.tkrate}:t)); route();
 });
 
 /* ════ 피드 ════ */
