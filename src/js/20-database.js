@@ -46,11 +46,13 @@ function dashboard(){
     · 복도 B-4의 계단은 사용하지 마십시오. 해당 위치에 계단은 없습니다.
   </div>
   <h2 class="ph" style="margin-top:28px">${mine?"귀하의 최근 열람":"최근 열람"} <span>문서</span></h2>
-  <table><tr><th>항목</th><th>등급</th><th>최종 열람</th><th>열람자</th></tr>
+  <table><tr><th>항목</th><th>등급</th><th>최종 열람</th><th class="hm">열람자</th></tr>
   ${recent.map((k,i)=>{const d=SCP[k];return `<tr class="row" data-href="#${k.toLowerCase()}"><td>${rowLink("#"+k.toLowerCase(),k)}</td><td>${badge(d)}</td>
     <td class="dim">${mine?(i===0?"방금 전":`${i}건 전`):srnd(day+k,1,23)+"시간 전"}</td>
-    <td class="dim">${mine?esc(S.user):spick(day+k+"who",["R-19-"+srnd(k,1000,9999),"DR-"+spick(k,["GEARS","CLEF","BRIGHT","KONDRAKI","LIGHT"]),"<span class='redact'>D-9341</span>","(기록 없음)"])}</td></tr>`}).join("")}
-  </table>`;
+    <td class="dim hm">${mine?esc(S.user):spick(day+k+"who",["R-19-"+srnd(k,1000,9999),"DR-"+spick(k,["GEARS","CLEF","BRIGHT","KONDRAKI","LIGHT"]),"<span class='redact'>D-9341</span>","(기록 없음)"])}</td></tr>`}).join("")}
+  </table>
+  ${favs().filter(k=>SCP[k]).length?`<h2 class="ph" style="margin-top:28px">★ <span>즐겨찾기</span></h2>
+  <div class="favs">${favs().filter(k=>SCP[k]).slice(0,12).map(k=>`<a href="#${k.toLowerCase()}" class="fav">${badge(SCP[k])} <b>${k}</b>${docName(SCP[k])?` <span class="dim">${esc(docName(SCP[k]))}</span>`:""}</a>`).join("")}</div>`:""}`;
 }
 
 /* ════ 뷰: 데이터베이스 ════
@@ -70,6 +72,7 @@ function database(params){
 }
 function matchClass(d,c){
   if(c==="all") return true;
+  if(c==="fav") return isFav(d.id);
   const k=classKey(d.object_class);
   if(c==="other") return !["safe","euclid","keter","apollyon"].includes(k);
   return k===c;
@@ -87,19 +90,19 @@ function dbRows(q,c){
     if(i>=0) hits.push({d, at:i});
   }
   hits.sort((a,b)=>byId(a.d.id,b.d.id));
-  if(!hits.length) return `<div class="empty">"${esc(q)}"에 해당하는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 등급 필터를 '전체'로 바꿔 보십시오.</span></div>`;
-  return `<table><tr><th>항목</th><th>등급</th><th>태그</th><th>관련 문서</th><th>요구 권한</th><th>상태</th></tr>
-  ${hits.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:splitDoc(d).subs.length; const need=sp?0:reqLevel(d.object_class), ok=S.level>=need;
+  if(!hits.length) return c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">"${esc(q)}"에 해당하는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 등급 필터를 '전체'로 바꿔 보십시오.</span></div>`;
+  return `<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm">관련 문서</th><th>요구 권한</th><th class="hm">상태</th></tr>
+  ${hits.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const ns=sp?0:splitDoc(d).subs.length; const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
     const href="#"+d.id.toLowerCase();
-    const tags=`<td class="dim">${(d.tags||[]).slice(0,4).map(esc).join(" · ")||"—"}</td>`;
-    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}<td class="dim2">—</td><td class="dim2">—</td><td class="amber">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
+    const tags=`<td class="dim hm">${(d.tags||[]).slice(0,4).map(esc).join(" · ")||"—"}</td>`;
+    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}<td class="dim2 hm">—</td><td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,q.trim().length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row ${ok?"":"locked"}" data-href="${href}">
       <td>${rowLink(href,d.id,ok?"hi":"")}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}
-      <td class="dim2">${ns?ns+"건":"—"}</td>
+      <td class="dim2 hm">${ns?ns+"건":"—"}</td>
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
-      <td class="dim">${ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
+      <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
   </table>`;
 }
 function snippet(text,at,len){
