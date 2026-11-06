@@ -688,6 +688,43 @@ body[data-theme=light] .feed div{color:#5b6570}
   .content{padding-top:48px}
 }
 
+/* ─── 문서 본문 서식 (31-docfmt.js) ─── */
+.doc .body.fmt{white-space:normal}
+.body.fmt p{margin:0 0 1em}
+.body.fmt p:last-child{margin-bottom:0}
+.body.fmt h5.bh{font-size:13px;font-weight:600;color:var(--hi);margin:1.6em 0 .6em;padding-bottom:4px;border-bottom:1px dashed var(--line2);letter-spacing:.04em}
+.body.fmt ol.fl,.body.fmt ul.fl{margin:0 0 1em;padding:0;list-style:none}
+.body.fmt ol.fl li{display:grid;grid-template-columns:2.4em minmax(0,1fr);gap:4px;padding:3px 0;border-bottom:1px dotted var(--line)}
+.body.fmt ol.fl .ln{color:var(--amber);font-variant-numeric:tabular-nums;text-align:right;padding-right:6px}
+.body.fmt ul.fl li{position:relative;padding:2px 0 2px 1.3em}
+.body.fmt ul.fl li::before{content:"";position:absolute;left:.35em;top:.85em;width:5px;height:5px;background:var(--fg3)}
+.body.fmt .callout{border:1px solid var(--line2);border-left:3px solid var(--cyan);background:var(--bg2);padding:8px 12px;margin:0 0 1em}
+.body.fmt .callout.warn{border-left-color:var(--red2)}
+.body.fmt .callout>b{display:block;font-size:11px;letter-spacing:.15em;color:var(--fg2);margin-bottom:2px}
+.body.fmt .callout.warn>b{color:var(--red2)}
+.body.fmt blockquote.bq{margin:0 0 1em;border-left:3px solid var(--line2);padding:4px 0 4px 14px;color:var(--fg2)}
+.body.fmt figure.fig{margin:0 0 1em}
+.body.fmt dl.kvb{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:0;margin:0 0 1em;border:1px solid var(--line);font-size:.95em}
+.body.fmt dl.kvb dt{padding:5px 12px;background:var(--bg2);color:var(--fg2);border-bottom:1px solid var(--line);white-space:nowrap}
+.body.fmt dl.kvb dd{margin:0;padding:5px 12px;border-bottom:1px solid var(--line)}
+.body.fmt dl.kvb dt:last-of-type,.body.fmt dl.kvb dd:last-of-type{border-bottom:0}
+.body.fmt .logbox{border:1px solid var(--line2);background:var(--bg2);margin:0 0 1.2em}
+.body.fmt .loghd{font-size:11px;letter-spacing:.18em;color:var(--fg3);padding:5px 12px;border-bottom:1px solid var(--line);text-align:center}
+.body.fmt .loghd.end{border-bottom:0;border-top:1px solid var(--line)}
+.body.fmt .logbd{display:grid;grid-template-columns:minmax(4.5em,max-content) minmax(0,1fr);column-gap:16px;padding:6px 0}
+.body.fmt .lr{display:contents}
+.body.fmt .lr .who{padding:4px 0 4px 12px;font-weight:600;color:var(--hi);white-space:nowrap;max-width:14em;overflow:hidden;text-overflow:ellipsis}
+.body.fmt .lr .say{padding:4px 12px 4px 0}
+.body.fmt .lr.dir{display:block;grid-column:1/-1;padding:4px 12px;color:var(--fg2);font-style:italic;text-align:center;font-size:.95em}
+.body.fmt .stage{color:var(--fg3);font-style:italic}
+.body.fmt .divbar{display:flex;align-items:center;gap:12px;margin:1.6em 0 1em;font-size:11.5px;letter-spacing:.15em;color:var(--amber)}
+.body.fmt .divbar::before,.body.fmt .divbar::after{content:"";flex:1;border-top:1px solid var(--amber);opacity:.5}
+.doc h4.subt{font-size:15px;color:var(--hi);letter-spacing:.02em}
+body[data-theme=light] .body.fmt .logbox,body[data-theme=light] .body.fmt dl.kvb,body[data-theme=light] .body.fmt .callout{border-radius:6px;background:#f7f9fb}
+body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
+@media(max-width:600px){.body.fmt .logbd{grid-template-columns:1fr}.body.fmt .lr .who{max-width:none;padding-bottom:0}.body.fmt .lr .say{padding-left:12px}.body.fmt dl.kvb{grid-template-columns:1fr}.body.fmt dl.kvb dt{border-bottom:0;padding-bottom:0}}
+@media print{.body.fmt .logbox,.body.fmt dl.kvb,.body.fmt .callout{border-color:#999!important;break-inside:avoid}}
+
 /* ─── 접근성 ─── */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 a:focus-visible,button:focus-visible,input:focus-visible,.content:focus-visible{outline:1px solid var(--amber);outline-offset:2px}
@@ -1377,7 +1414,7 @@ function showSub(id, idx){
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
-  <div class="sec"><div class="body">${linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id)}</div></div>
+  <div class="sec"><h4 class="subt">${esc(s.title)}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}</div></div>
   ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
@@ -1416,7 +1453,7 @@ function showDoc(id){
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
     <div class="meta"><span>분량 약 ${Math.max(1,Math.round((d.full_text||"").length/900))}분</span>${d.subs||splitDoc(d).subs.length?`<span>부록 ${splitDoc(d).subs.length}건</span>`:""}<span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
-    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body">${linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id)}</div></div>`).join("")}
+    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
@@ -1483,6 +1520,102 @@ const SPECIAL={
     ${attrib(d)}</div>`,
 };
 
+
+/* ════════════════════════════════════════════
+   문서 본문 서식 — 평문 본문을 구조화된 블록으로
+   문단 · 기록(녹취록) 상자 · 화자 줄 · 목록 · 소제목 · 비고 상자 · 항목:값 표
+   입력은 이미 이스케이프·검열·링크 처리된 HTML (줄 단위 구조 유지)
+   ════════════════════════════════════════════ */
+const FMT_TXT=h=>h.replace(/<[^>]+>/g,"").replace(/&[a-z]+;|&#\d+;/g,"x");
+const LOG_OPEN=/^&lt;\s*([^&]{0,40}?)(기록|녹음|녹취|영상|로그|면담|실험|통신|전송|재생)?\s*([^&]{0,20}?)(시작|개시)\s*([^&]{0,40})&gt;$/;
+const LOG_CLOSE=/^&lt;\s*([^&]{0,40}?)(종료|끝|중단|두절|중지)\s*([^&]{0,30})&gt;$/;
+const NOTE_RE=/^(비고|참고|주의|경고|노트|주석|추신|메모|알림|공지)\s*[:：]\s*/;
+const SUBHEAD_RE=/^(부록|첨부|문서|실험|사건|면담|탐사|회수|보고서?|기록|로그|추가|개요|요약|결론|결과|분석|배경|이력|목록|녹취록|녹음 기록|영상 기록|면담 기록)\b/;
+/* "이름: 내용" — 이름은 짧고 문장 부호가 없어야 함 */
+function fmtSpeaker(line){
+  const m=line.match(/^((?:<span[^>]*>[^<]*<\/span>|<a[^>]*>[^<]*<\/a>|[^:：<.!?。]){1,60}?)\s*[:：]\s+(.+)$/);
+  if(!m) return null;
+  const lab=FMT_TXT(m[1]).trim();
+  if(!lab || lab.length>22 || /[.!?,]$/.test(lab) || /^\d+$/.test(lab) || /^(https?|일련번호|등급)$/.test(lab)) return null;
+  return [m[1].trim(), m[2]];
+}
+const fmtStage=s=>s.replace(/(^|[^\w>])\(([^()<>]{1,120})\)/g,'$1<span class="stage">($2)</span>')
+  .replace(/\[(?!데이터 말소|편집됨|검열됨|삭제됨)([^\[\]<>]{1,120})\]/g,'<span class="stage">[$1]</span>');
+
+function fmtBody(html){
+  const lines=html.replace(/\r/g,"").split("\n");
+  const items=[]; let i=0;
+  while(i<lines.length){
+    const t=lines[i].trim();
+    if(isBlankTxt(t)){ i++; continue }
+    /* 기록 상자: <기록 시작> … <기록 종료> */
+    if(LOG_OPEN.test(t)){
+      const body=[]; let j=i+1, closed="";
+      while(j<lines.length){ const u=lines[j].trim(); if(LOG_CLOSE.test(u)){ closed=u; break } if(LOG_OPEN.test(u)) { j--; break } body.push(u); j++ }
+      items.push({html:`<div class="logbox"><div class="loghd">${t}</div>${fmtLogLines(body)}${closed?`<div class="loghd end">${closed}</div>`:""}</div>`});
+      i=j+1; continue;
+    }
+    const para=[]; while(i<lines.length && !isBlankTxt(lines[i]) && !(para.length&&LOG_OPEN.test(lines[i].trim()))){ para.push(lines[i].trim()); i++ }
+    items.push({para, sp:para.length===1?fmtSpeaker(para[0]):null});
+  }
+  /* 한 줄짜리 "이름: 내용" 문단이 이어지면 묶음: 같은 이름이 반복되면 대화, 아니면 항목표 */
+  const out=[], NUM=/^(\d{1,3})\s*[.:)]\s+/;
+  for(let k=0;k<items.length;){
+    /* 한 줄짜리 번호 문단이 이어지면 번호 목록 */
+    if(items[k].para&&items[k].para.length===1&&NUM.test(FMT_TXT(items[k].para[0]))){
+      let e=k; while(e<items.length&&items[e].para&&items[e].para.length===1&&NUM.test(FMT_TXT(items[e].para[0]))) e++;
+      if(e-k>=2){ out.push(`<ol class="fl">${items.slice(k,e).map(r=>{const l=r.para[0],m=l.match(/^(\d{1,3})\s*[.:)]\s+/);return `<li><span class="ln">${m?m[1]:""}</span><span>${l.replace(/^\d{1,3}\s*[.:)]\s+/,"")}</span></li>`}).join("")}</ol>`); k=e; continue }
+    }
+    if(!items[k].sp){ out.push(items[k].html||fmtPara(items[k].para)); k++; continue }
+    let e=k; while(e<items.length && items[e].sp) e++;
+    const run=items.slice(k,e), labs=run.map(r=>FMT_TXT(r.sp[0]).trim());
+    const repeats=labs.length!==new Set(labs).size;
+    if((run.length>=3 && repeats) || (run.length>=2 && looksSaid(run.map(r=>r.sp[1])))) out.push(dlg(run.map(r=>r.sp)));
+    else if(run.every(r=>FMT_TXT(r.sp[1]).length<=60) && !looksSaid(run.map(r=>r.sp[1]))) out.push(`<dl class="kvb">${run.map(r=>`<dt>${r.sp[0]}</dt><dd>${r.sp[1]}</dd>`).join("")}</dl>`);
+    else run.forEach(r=>out.push(fmtPara(r.para)));
+    k=e;
+  }
+  return out.join("");
+}
+/* 기록 안의 줄: 화자 줄은 2열, 나머지는 지문 */
+function fmtLogLines(ls){
+  const rows=ls.filter(l=>!isBlankTxt(l)).map(l=>{
+    const sp=fmtSpeaker(l);
+    if(sp) return `<div class="lr"><b class="who">${sp[0]}</b><span class="say">${fmtStage(sp[1])}</span></div>`;
+    return `<div class="lr dir">${fmtStage(l)}</div>`;
+  });
+  return `<div class="logbd">${rows.join("")}</div>`;
+}
+const isBlankTxt=l=>!FMT_TXT(l).trim();
+/* 값이 대부분 문장(마침표·물음표 등으로 끝남)이면 대화, 아니면 항목표 */
+const looksSaid=vs=>vs.filter(v=>/[.?!…~"'」』)\]]\s*$/.test(FMT_TXT(v).trim())).length*2>vs.length;
+const dlg=rows=>`<div class="logbox bare"><div class="logbd">${rows.map(([w,v])=>`<div class="lr"><b class="who">${w}</b><span class="say">${fmtStage(v)}</span></div>`).join("")}</div></div>`;
+function fmtPara(p){
+  const txt=p.map(FMT_TXT), one=p.length===1, L=txt[0].trim();
+  /* == 3등급 인가 필요 == 같은 구획 표시 */
+  if(one && /^={2,}\s*.+?\s*={2,}$/.test(L)) return `<div class="divbar"><span>${p[0].replace(/^={2,}\s*|\s*={2,}$/g,"")}</span></div>`;
+  /* 인용 블록 */
+  if(p.every(l=>/^<span class="quote">/.test(l))) return `<blockquote class="bq">${p.map(l=>l.replace(/^<span class="quote">|<\/span>$/g,"")).join("<br>")}</blockquote>`;
+  /* 이미지 자리 */
+  if(one && /^<span class="img">/.test(p[0])) return `<figure class="fig">${p[0]}</figure>`;
+  /* 비고 상자 */
+  if(NOTE_RE.test(L) && FMT_TXT(p.join(" ")).replace(NOTE_RE,"").trim()){ const k=L.match(NOTE_RE)[1]; return `<div class="callout ${/주의|경고/.test(k)?"warn":""}"><b>${k}</b>${p.join("<br>").replace(/^[^:：]*[:：]\s*/,"")}</div>` }
+  /* 목록 */
+  const num=/^(\d{1,3}|[a-zA-Z]|[가-하])\s*[.:)]\s+/, dot=/^([·•\-*–]|•)\s+/;
+  if(p.length>=2 && txt.every(l=>num.test(l))) return `<ol class="fl">${p.map(l=>{const m=l.match(/^(\S{1,4}?)\s*[.:)]\s+/);return `<li><span class="ln">${m?m[1]:""}</span><span>${l.replace(/^\S{1,4}?\s*[.:)]\s+/,"")}</span></li>`}).join("")}</ol>`;
+  if(txt.every(l=>dot.test(l))) return `<ul class="fl">${p.map(l=>`<li>${l.replace(dot,"")}</li>`).join("")}</ul>`;
+  /* 소제목: 짧은 한 줄, 문장으로 끝나지 않음 */
+  if(one && L.length<=48 && !/(다|요|음|함|됨)[.]?$/.test(L.replace(/[:：]$/,"")) && (/[:：]$/.test(L) || SUBHEAD_RE.test(L)) && !fmtSpeaker(p[0])?.[1]?.length)
+    return `<h5 class="bh">${p[0].replace(/\s*[:：]\s*$/,"")}</h5>`;
+  /* 항목:값 묶음 (면담자: …, 피면담자: …) — 줄마다 짧은 값 */
+  const sps=p.map(fmtSpeaker);
+  if(sps.every(s=>s && FMT_TXT(s[1]).length<=90) && !looksSaid(sps.map(s=>s[1])) && (p.length>=2 || FMT_TXT(sps[0][1]).length<=60))
+    return `<dl class="kvb">${sps.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;
+  /* 대화가 섞인 문단 (기록 표시 없이 화자 줄이 이어지는 경우) */
+  if(p.length>=2 && sps.filter(Boolean).length>=Math.ceil(p.length*0.6))
+    return `<div class="logbox bare"><div class="logbd">${p.map((l,k)=>sps[k]?`<div class="lr"><b class="who">${sps[k][0]}</b><span class="say">${fmtStage(sps[k][1])}</span></div>`:`<div class="lr dir">${fmtStage(l)}</div>`).join("")}</div></div>`;
+  return `<p>${p.join("<br>")}</p>`;
+}
 
 /* ════ 문서별 실시간 연출 ════ */
 function docEffects(id){
