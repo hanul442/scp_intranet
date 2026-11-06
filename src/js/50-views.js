@@ -26,9 +26,9 @@ function genIncidents(){
 function incidents(){
   const rows=[...INCIDENTS,...genIncidents()].sort((a,b)=>a[0]-b[0]);
   return `<h2 class="ph">사건 <span>기록</span> · SITE-19</h2>
-  <table><tr><th>일시</th><th>관련 항목</th><th>분류</th><th>요약</th><th>상태</th></tr>
+  <table><tr><th>일시</th><th>관련 항목</th><th class="hm">분류</th><th>요약</th><th class="hm">상태</th></tr>
   ${rows.map(([n,s,t,sum,st])=>{ const href=SCP[s]?"#"+s.toLowerCase():"";
-    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim">${daysAgo(n)}</td><td>${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td>${t}</td><td class="dim">${linkRefs(sum,s)}</td><td>${st}</td></tr>`}).join("")}
+    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim">${daysAgo(n)}</td><td>${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
   </table>
   <p class="dim2" style="margin-top:14px;font-size:11px">Level 3 미만 인원에게는 지난 60일 기록만 표시됩니다. 그 이전에는 아무 일도 없었습니다.</p>`;
 }
@@ -46,7 +46,7 @@ const STAFF=[
 ];
 function personnel(){
   return `<h2 class="ph">인사 <span>파일</span> · 격리동 B</h2>
-  <table><tr><th>식별번호</th><th>성명</th><th>직책</th><th>담당</th><th>내선</th><th>상태</th></tr>
+  <table class="ppl"><tr><th>식별번호</th><th>성명</th><th>직책</th><th>담당</th><th>내선</th><th>상태</th></tr>
   ${STAFF.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===0?"hi":i===1?"":"dim"}">${i===3?linkRefs(c,""):c}</td>${i===3?`<td>${/^D-/.test(r[0])?"<span class='dim2'>—</span>":maskedExt(r[0])}</td>`:""}`).join("")}</tr>`).join("")}
   <tr><td class="hi">${esc(S.user)}</td><td class="dim">(귀하)</td><td class="dim">${LVL_NAME[S.level]}</td><td class="dim">${S.recent.slice(0,2).map(id=>linkRefs(id,"")).join(" · ")||"—"}</td><td class="dim2">미배정</td><td>${S.denied>=3?"<span class='red'>기억소거 검토</span>":S.denied?"<span class='amber'>위반 "+S.denied+"회</span>":"근무 중"}</td></tr>
   </table>

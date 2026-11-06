@@ -133,7 +133,7 @@ function expiryWarning(){
 
 /* ─── 로그인 직후 그룹웨어 시작 ─── */
 function groupwareStart(returning){
-  GW.copyTries=0; drawWatermark(); startIdleWatch();
+  GW.copyTries=0; drawWatermark(); startIdleWatch(); apprWatch(); apprBadge();
   sessionLoop(drawWatermark, 60000);
   sessionLater(popupNotice, 700);
   if(returning){
@@ -245,35 +245,16 @@ function revealExt(btn){
 
 /* ─── 대시보드 사내 위젯: 식단 · 일정 · 생일 · 설문 ─── */
 function gwWidgets(){
-  const day=today(), wd=new Date().getDay();
+  const day=today();
   const MENU=[["백미밥","미역국","제육볶음","정체불명 단백질 (정체 명확)"],["잡곡밥","된장찌개","고등어구이","SCP-999 젤리 (무해)"],["카레라이스","단무지","샐러드","D계급 배식 동일"],["비빔밥","콩나물국","김치","오늘의 디저트 [편집됨]"]];
   const vote=store.get("vote_"+day,null);
   return `<div class="widgets">
     <div class="card w"><div class="k">오늘의 식단 · 카페테리아 A</div>${spick(day+"menu",MENU).map(x=>`<div>${x}</div>`).join("")}</div>
-    <div class="card w"><div class="k">이번 주 일정</div>
-      <div><span class="dim2">${["일","월","화","수","목","금","토"][(wd+1)%7]}</span> 소방·대피 훈련 (예고 없음)</div>
-      <div><span class="dim2">${["일","월","화","수","목","금","토"][(wd+2)%7]}</span> SCP-682 산성 용액 교체</div>
-      <div><span class="dim2">${["일","월","화","수","목","금","토"][(wd+3)%7]}</span> 기억소거 검진 <span class="redact">Level 2</span></div>
-      <div><span class="dim2">${["일","월","화","수","목","금","토"][(wd+4)%7]}</span> 격리실 밖 산책회 12:30</div></div>
+    <div class="card w"><div class="k"><a href="#calendar" class="rowlink">다가오는 일정 ›</a></div>
+      ${upcoming(4).map(e=>{const d=new Date(e.date+"T00:00");return `<div><span class="dim2">${e.date===today()?"오늘":["일","월","화","수","목","금","토"][d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()}</span> ${esc(e.t)}</div>`}).join("")}</div>
     <div class="card w"><div class="k">오늘의 생일</div><div>D-9341 <span class="dim2">— ${srnd(day+"bd",3,5)}번째 생일 (올해)</span></div><div>${spick(day+"bd2",["서하윤 (R-19-0412)","문세아 (A-19-0051)","정우진 (R-19-1177)"])}</div><div class="dim2" style="margin-top:6px;font-size:11px">축하 메시지는 검열 후 전달됩니다.</div></div>
     <div class="card w"><div class="k">사내 설문</div><div>SCP-999 면회 시간 연장에 찬성하십니까?</div>
       ${vote?`<div class="dim" style="margin-top:6px">찬성 100% · 반대 0%<br><span class="dim2" style="font-size:11px">귀하는 찬성하셨습니다.${vote==="no"?" (반대 의견은 집계되지 않았습니다)":""}</span></div>`
         :`<div style="margin-top:8px;display:flex;gap:8px"><button type="button" class="btn" onclick="store.set('vote_'+today(),'yes');route()">찬성</button><button type="button" class="btn" onclick="store.set('vote_'+today(),'no');route()">반대</button></div>`}</div>
   </div>`;
 }
-
-/* ════ 뷰: 점검 중 (전자결재 · 일정 · 자료실) ════ */
-function maint(name){
-  return `<h2 class="ph">${name}</h2>
-  <div class="maint">
-    <b>시스템 정기 점검 안내</b>
-    <p>보다 안정적인 서비스 제공을 위해 ${name} 시스템 점검을 진행하고 있습니다.</p>
-    <table><tr><td class="dim2">점검 일시</td><td>${daysAgo(srnd(name,40,90))} 02:00 ~ 미정</td></tr>
-      <tr><td class="dim2">점검 내용</td><td>서버 이전 및 <span class="redact">격리 절차 갱신</span></td></tr>
-      <tr><td class="dim2">담당자</td><td>전산팀 R-19-0666 <span class="red">(연락 두절)</span></td></tr></table>
-    <p class="dim">점검 중 불편을 드려 죄송합니다. 점검 종료 시각은 담당자 복귀 후 공지됩니다.</p>
-  </div>`;
-}
-function approval(){ return maint("전자결재") }
-function calendar(){ return maint("일정 관리") }
-function archive(){ return maint("자료실") }

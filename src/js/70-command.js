@@ -51,7 +51,7 @@ document.addEventListener("keydown",e=>{
   if(e.key==="Escape"){
     if(typing){ document.activeElement.blur(); return }
     const m=(location.hash||"").match(/^#(scp-\d+)\/\d+$/);
-    if(m) go("#"+m[1]); else if(/^#board\?/.test(location.hash)) go("#board"); else if(S.doc) go(S.doc==="cmd"?"#"+S.view:"#database");
+    if(m) go("#"+m[1]); else if(/^#(board|approval)\?/.test(location.hash)) go("#"+location.hash.slice(1).split("?")[0]); else if(S.doc) go(S.doc==="cmd"?"#"+S.view:"#database");
   }
 });
 
