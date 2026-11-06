@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCiPNET // SITE-19 TERMINAL</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body class="crt">
+
+<!-- ░ 부트 ░ -->
+<section id="boot" class="screen active"><pre id="bootlog" aria-live="polite"></pre><span class="skip dim2">아무 키나 눌러 건너뛰기</span></section>
+
+<!-- ░ 로그인 ░ -->
+<section id="login" class="screen">
+  <form class="loginbox" id="loginform" autocomplete="off">
+    <h1>SCiPNET <small>SITE-19 // NODE 0x3F1A</small></h1>
+    <div class="warn">
+      경고. 본 시스템은 SCP 재단 내부 전용 네트워크입니다. 인가되지 않은 접근은 기억 소거 조치의 대상이 됩니다.<br>
+      모든 세션은 RAISA(기록 및 정보 보안 관리국)에 의해 기록됩니다.
+    </div>
+    <div class="field"><label>인원 식별번호</label><input id="u" placeholder="예: R-19-0412" spellcheck="false"></div>
+    <div class="field"><label>인증 코드</label><input id="p" type="password" placeholder="••••••••"></div>
+    <div id="loginmsg"></div>
+    <div class="actions">
+      <span class="dim2" style="font-size:11px">아무 식별번호·코드나 입력 가능 · 등급은 식별번호 접두어로 결정</span>
+      <button class="btn primary" type="submit">인증</button>
+    </div>
+  </form>
+</section>
+
+<!-- ░ 메인 ░ -->
+<section id="main" class="screen">
+  <div class="topbar">
+    <span class="brand">SCiPNET</span>
+    <span class="dim">SITE-19 · 격리동 B</span>
+    <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
+    <span class="sp"></span>
+    <span id="who" class="dim"></span>
+    <span class="lvl" id="lvl"></span>
+    <span id="clock" class="dim"></span>
+    <button type="button" class="audio-btn" id="fxbtn" title="깜빡임·글리치·흔들림 효과 켜기/끄기" aria-pressed="true">FX ON</button>
+    <button type="button" class="audio-btn" id="audiobtn" title="음향 켜기/끄기" aria-pressed="false">♪ 음향 OFF</button>
+  </div>
+  <div class="layout">
+    <nav class="nav" aria-label="단말 메뉴">
+      <div class="sect">단말</div>
+      <a href="#dashboard" data-v="dashboard">대시보드</a>
+      <a href="#database" data-v="database">격리 데이터베이스</a>
+      <a href="#incidents" data-v="incidents">사건 기록</a>
+      <a href="#personnel" data-v="personnel">인사 파일</a>
+      <a href="#messages" data-v="messages">내부 통신 <span id="unread" class="amber"></span></a>
+      <div class="sect">제한</div>
+      <a href="#o5" data-v="o5" class="dim2">O5 평의회 기록</a>
+      <div class="foot">SCiPNET v4.17.2<br>RAISA 감사 활성<br><span id="sess"></span></div>
+    </nav>
+    <main class="content" id="content" tabindex="-1"></main>
+    <aside class="side">
+      <h3>실시간 격리 상태 피드</h3>
+      <div class="feed" id="feed"></div>
+      <div class="stats" id="stats"></div>
+    </aside>
+  </div>
+  <div class="cmd">
+    <span class="p">&gt;</span>
+    <label for="cmdline" class="sr">명령 입력</label><input id="cmdline" placeholder="명령 입력 — help" spellcheck="false" autocomplete="off">
+    <span class="hint"><kbd>/</kbd> 포커스 · help</span>
+  </div>
+</section>
+
+<div id="glitch"></div>
+<div class="eyes" id="eyes"></div>
+
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>
