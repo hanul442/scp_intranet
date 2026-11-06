@@ -717,6 +717,44 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 @media(max-width:600px){.body.fmt .logbd{grid-template-columns:1fr}.body.fmt .lr .who{max-width:none;padding-bottom:0}.body.fmt .lr .say{padding-left:12px}.body.fmt dl.kvb{grid-template-columns:1fr}.body.fmt dl.kvb dt{border-bottom:0;padding-bottom:0}}
 @media print{.body.fmt .logbox,.body.fmt dl.kvb,.body.fmt .callout{border-color:#999!important;break-inside:avoid}}
 
+/* ─── 조직도 ─── */
+.otree .ohqn{font-size:10px;letter-spacing:.2em;color:var(--fg3);padding:10px 14px 2px}
+.ochart{border:1px solid var(--line);background:var(--panel);padding:18px 14px;margin:14px 0 18px}
+.oroot{display:flex;justify-content:center;position:relative;padding-bottom:18px}
+.oroot::after{content:"";position:absolute;bottom:0;left:50%;height:18px;border-left:1px solid var(--line2)}
+.obox{display:flex;flex-direction:column;gap:1px;border:1px solid var(--line2);background:var(--bg2);padding:7px 12px;text-decoration:none;color:var(--fg);font-size:11.5px;min-width:0}
+.obox b{font-size:12.5px;color:var(--hi);font-weight:600}
+.obox:hover,.obox.on{border-color:var(--amber)}
+.obox.root{border-color:var(--amber);min-width:200px;text-align:center;align-items:center}
+.ohqs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;position:relative;padding-top:18px}
+.ohqs::before{content:"";position:absolute;top:0;left:16.6%;right:16.6%;border-top:1px solid var(--line2)}
+.ohq{position:relative}
+.ohq::before{content:"";position:absolute;top:-18px;left:50%;height:18px;border-left:1px solid var(--line2)}
+.ohqt{text-align:center;font-size:11px;letter-spacing:.2em;color:var(--amber);border:1px solid var(--line2);padding:5px;margin-bottom:10px;background:var(--bg)}
+.odepts{display:flex;flex-direction:column;gap:8px;padding-left:14px;border-left:1px dashed var(--line2);margin-left:10px}
+.odepts .obox{position:relative}
+.odepts .obox::before{content:"";position:absolute;left:-15px;top:50%;width:14px;border-top:1px dashed var(--line2)}
+.osub{font-size:12px;letter-spacing:.15em;color:var(--fg2);margin:18px 0 8px;font-weight:400}
+.dhead{margin-top:14px}
+.dtitle h3{font-size:18px;color:var(--hi);margin:2px 0 10px;font-weight:600}
+.dkv{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 16px;margin:0;font-size:12.5px}
+.dkv dt{color:var(--fg3)}.dkv dd{margin:0}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.pcard{display:flex;gap:12px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--panel);padding:10px 12px;color:var(--fg);font:inherit;cursor:pointer}
+.pcard:hover{border-color:var(--amber)}
+.pav{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--bg2);border:1px solid var(--line2);color:var(--hi);font-size:13px;letter-spacing:0}
+.pav.lg{width:56px;height:56px;font-size:17px}
+.pcm{display:flex;flex-direction:column;gap:1px;min-width:0;font-size:12px}
+.pcm b{font-size:13.5px;color:var(--hi);font-weight:600}
+.pst{font-size:11.5px}
+.sdot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--fg3);margin-right:6px;vertical-align:1px}
+.sdot.green{background:var(--green)}.sdot.amber{background:var(--amber)}
+.plink{background:none;border:0;padding:0;font:inherit;color:var(--hi);cursor:pointer;text-align:left}.plink:hover{color:var(--amber);text-decoration:underline}
+.pfull{display:flex;gap:14px;align-items:center}.pn2{font-size:16px;color:var(--hi)}
+body[data-theme=light] .ochart,body[data-theme=light] .obox,body[data-theme=light] .pcard,body[data-theme=light] .ohqt{border-radius:6px}
+body[data-theme=light] .obox,body[data-theme=light] .ohqt{background:#fff}
+@media(max-width:720px){.otree .ohqn{display:none}.ohqs{grid-template-columns:1fr}.ohqs::before,.ohq::before{display:none}.oroot::after{display:none}.oroot{padding-bottom:10px}.ohqs{padding-top:0}}
+
 /* ─── 접근성 ─── */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 a:focus-visible,button:focus-visible,input:focus-visible,.content:focus-visible{outline:1px solid var(--amber);outline-offset:2px}

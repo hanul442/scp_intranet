@@ -28,27 +28,82 @@ const dirById=id=>DIR.find(r=>r[0]===id);
 const dirLabel=r=>`${r[1].replace(/<[^>]+>/g,"")} (${r[0]})`;
 const STAT_CLS={"근무 중":"green","휴가":"amber","출장":"amber","병가":"amber","휴무":"dim2"};
 
-/* ════ 조직도 ════ */
+/* ════ 조직도 ════
+   #org            : 조직 체계도(관리자 → 본부 → 부서) + 전체 직원 표
+   #org?d=부서      : 부서 소개(소속 본부·위치·대표 내선·업무) + 구성원 카드
+   #org?q=검색어    : 직원 검색 · 이름을 누르면 인사 카드 */
+const DEPT_INFO={
+ "기지 관리부":     {hq:"관리 본부",loc:"관리동 3층",ext:"4-8000",job:"기지 운영 총괄, O5 평의회 보고, 부서 간 조정"},
+ "인사관리과":     {hq:"관리 본부",loc:"관리동 2층",ext:"4-3100",job:"인사 기록, 채용·전보, 보안 등급 심사 지원, 근태"},
+ "시설관리과":     {hq:"관리 본부",loc:"관리동 지하 1층",ext:"4-4100",job:"격리실 설비, 전력·공조, 회의실·시설 관리"},
+ "전산팀":         {hq:"관리 본부",loc:"관리동 지하 2층 전산실",ext:"4-1500",job:"SCiPNET 운영, 단말·계정 관리, 헬프데스크"},
+ "복리후생팀":     {hq:"관리 본부",loc:"생활동 1층",ext:"4-6200",job:"카페테리아, 숙소, 동호회, 사내 행사"},
+ "연구부 · 격리동 B":{hq:"연구 본부",loc:"격리동 B 2층",ext:"4-1100",job:"격리동 B 개체 연구, 격리 절차 개정, 실험 기록"},
+ "의무실":         {hq:"연구 본부",loc:"생활동 지하 1층",ext:"4-0200",job:"직원 진료, 기억소거제 투여, 밈적 노출 대응"},
+ "보안부":         {hq:"보안 본부",loc:"보안동 1층 상황실",ext:"4-0119",job:"출입 통제, 격리 파기 대응, 기동특무부대 연락"},
+ "RAISA 분소":     {hq:"보안 본부",loc:"관리동 3층",ext:"4-0700",job:"정보보안 심사, 열람 기록 감사, 문서 등급 관리",dot:"RAISA 본부 파견"},
+};
+const HQS=["관리 본부","연구 본부","보안 본부"];
+const RANK=t=>/관리자$/.test(t)?0:/(팀장|과장|실장|장\)|의무관)/.test(t)?1:/(선임|주임|전문가|심사)/.test(t)?2:3;
+const deptHead=d=>DIR.filter(r=>r[2]===d).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
+const pName=r=>r[1].replace(/<[^>]+>/g,"")||"[편집됨]";
+const initials=r=>{const n=pName(r).replace(/[^가-힣A-Za-z]/g,"");return n?(/[가-힣]/.test(n)?n.slice(-2):n.slice(0,2).toUpperCase()):"?"};
+const statDot=s=>`<span class="sdot ${STAT_CLS[s]||""}" aria-hidden="true"></span>${s}`;
+function orgBox(d,cur){
+  const h=deptHead(d), n=DIR.filter(r=>r[2]===d).length, I=DEPT_INFO[d]||{};
+  return `<a class="obox ${d===cur?"on":""}" href="#org?d=${encodeURIComponent(d)}"><b>${d}</b><span class="dim2">${h?`${h[3].replace(/\s*\(.*\)/,"")} ${pName(h)}`:""}</span><span class="dim2">${n}명${I.dot?` · ${I.dot}`:""}</span></a>`;
+}
+function orgChart(){
+  const top=DIR.find(r=>r[0]==="A-19-0001");
+  return `<div class="ochart" role="tree" aria-label="SITE-19 조직 체계">
+    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 관리자</b><span>${top?top[1]:""}</span><span class="dim2">기지 관리부 · 비서실</span></a></div>
+    <div class="ohqs">${HQS.map(hq=>`<div class="ohq"><div class="ohqt">${hq}</div>
+      <div class="odepts">${DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(d=>orgBox(d)).join("")}</div></div>`).join("")}</div></div>`;
+}
+function personCard(r){
+  return `<button type="button" class="pcard" data-person="${r[0]}"><span class="pav" aria-hidden="true">${initials(r)}</span>
+    <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
+}
 function org(qs){
   const dept=(qs&&qs.get("d"))||"", q=((qs&&qs.get("q"))||"").trim();
-  const rows=DIR.filter(r=>(!dept||r[2]===dept)&&(!q||(r.join(" ")).toLowerCase().includes(q.toLowerCase())));
   const count=d=>DIR.filter(r=>r[2]===d).length;
+  const side=`<nav class="otree" aria-label="부서">
+      <a href="#org" class="${!dept&&!q?"on":""}">SITE-19 전체 <span class="dim2">${DIR.length}</span></a>
+      ${HQS.map(hq=>`<div class="ohqn">${hq}</div>${DEPTS.filter(d=>(DEPT_INFO[d]||{}).hq===hq).map(d=>`<a href="#org?d=${encodeURIComponent(d)}" class="sub ${d===dept?"on":""}">${d} <span class="dim2">${count(d)}</span></a>`).join("")}`).join("")}
+    </nav>`;
+  const form=`<form class="search" data-orgq><label for="oq" class="sr">직원 검색</label><input id="oq" name="q" type="search" placeholder="이름 · 식별번호 · 직책 검색" value="${esc(q)}" autocomplete="off"><button class="btn" type="submit">검색</button></form>`;
+  let main;
+  if(dept){
+    const I=DEPT_INFO[dept]||{}, ppl=DIR.filter(r=>r[2]===dept).sort((a,b)=>RANK(a[3])-RANK(b[3])), h=ppl[0];
+    const on=ppl.filter(r=>r[4]==="근무 중").length;
+    main=`<div class="dhead card"><div class="dtitle"><span class="dim2">${I.hq||""}${I.dot?` · ${I.dot}`:""}</span><h3>${dept}</h3></div>
+      <dl class="dkv"><dt>부서장</dt><dd>${h?`${h[1]} <span class="dim2">${h[3]}</span>`:"—"}</dd><dt>위치</dt><dd>${I.loc||"—"}</dd>
+      <dt>대표 내선</dt><dd>${I.ext||"—"}</dd><dt>인원</dt><dd>${ppl.length}명 <span class="dim2">(근무 중 ${on})</span></dd><dt>주요 업무</dt><dd>${I.job||"—"}</dd></dl></div>
+      <h4 class="osub">구성원</h4><div class="pgrid">${ppl.map(personCard).join("")}</div>`;
+  } else if(q){
+    const rows=DIR.filter(r=>r.join(" ").toLowerCase().includes(q.toLowerCase()));
+    main=rows.length?`<div class="dim2" style="margin:4px 0 8px">"${esc(q)}" 검색 결과 ${rows.length}명</div><div class="pgrid">${rows.map(r=>personCard(r).replace('<span class="pst">',`<span class="dim2">${r[2]}</span><span class="pst">`)).join("")}</div>`
+      :`<div class="empty">"${esc(q)}"에 해당하는 직원이 없습니다. 이름, 식별번호, 직책으로 검색할 수 있습니다.</div>`;
+  } else {
+    const rows=[...DIR].sort((a,b)=>DEPTS.indexOf(a[2])-DEPTS.indexOf(b[2])||RANK(a[3])-RANK(b[3]));
+    main=`${orgChart()}<h4 class="osub">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
+      <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>내선</th><th>상태</th></tr>
+      ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
+  }
   return `<h2 class="ph">조직<span>도</span> · SITE-19</h2>
-  <div class="orgwrap">
-    <nav class="otree" aria-label="부서">
-      <a href="#org" class="${!dept?"on":""}">SITE-19 전체 <span class="dim2">${DIR.length}</span></a>
-      ${DEPTS.map(d=>`<a href="#org?d=${encodeURIComponent(d)}" class="sub ${d===dept?"on":""}">${d} <span class="dim2">${count(d)}</span></a>`).join("")}
-    </nav>
-    <div>
-      <form class="search" data-orgq><label for="oq" class="sr">직원 검색</label><input id="oq" name="q" type="search" placeholder="이름 · 식별번호 · 직책 검색" value="${esc(q)}" autocomplete="off"><button class="btn" type="submit">검색</button></form>
-      ${rows.length?`<table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>내선</th><th>상태</th><th></th></tr>
-      ${rows.map(r=>`<tr><td class="hi">${r[1]}</td><td class="dim hm">${r[0]}</td><td class="dim">${dept?"":`${r[2]}<br>`}<span class="${dept?"":"dim2"}">${r[3]}</span></td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${r[4]}</td>
-        <td><a class="xref" href="#messages?new=1&to=${encodeURIComponent(r[0])}">메일</a></td></tr>`).join("")}</table>`
-      :`<div class="empty">"${esc(q)}"에 해당하는 직원이 없습니다.</div>`}
-      <p class="dim2" style="font-size:11px;margin-top:12px">내선 번호는 개인정보 보호를 위해 열람 사유를 입력해야 표시됩니다. 인사 기록 상세는 <a class="xref" href="#personnel">인사 파일</a>에서 확인하십시오.</p>
-    </div>
-  </div>`;
+  <div class="orgwrap">${side}<div>${form}${main}
+    <p class="dim2" style="font-size:11px;margin-top:14px">내선 번호는 개인정보 보호를 위해 열람 사유를 입력해야 표시됩니다. 인사 기록 상세는 <a class="xref" href="#personnel">인사 파일</a>에서 확인하십시오.</p></div></div>`;
 }
+/* 인사 카드 */
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-person]"); if(!b) return;
+  const r=dirById(b.dataset.person); if(!r) return; const I=DEPT_INFO[r[2]]||{};
+  modal({title:"인사 카드",html:`<div class="pfull"><span class="pav lg" aria-hidden="true">${initials(r)}</span><div><b class="pn2">${r[1]}</b><div class="dim">${r[3]}</div></div></div>
+    <table class="kv" style="margin-top:12px"><tr><td class="dim2">식별번호</td><td>${r[0]}</td></tr><tr><td class="dim2">소속</td><td>${I.hq?I.hq+" › ":""}${r[2]}</td></tr>
+    <tr><td class="dim2">근무지</td><td>${I.loc||"—"}</td></tr><tr><td class="dim2">상태</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>
+    <tr><td class="dim2">내선</td><td>4-${srnd(r[0]+"e",1,9)}** <span class="dim2">(조직도 표에서 사유 입력 후 열람)</span></td></tr></table>`,
+    buttons:[{label:"부서 보기",act:c=>{c();go("#org?d="+encodeURIComponent(r[2]))}},{label:"메일 쓰기",primary:true,act:c=>{c();go("#messages?new=1&to="+encodeURIComponent(r[0]))}}]});
+});
 document.addEventListener("submit",e=>{
   const f=e.target.closest("form[data-orgq]"); if(!f) return; e.preventDefault();
   const p=new URLSearchParams(location.hash.split("?")[1]||""); const q=f.q.value.trim();
