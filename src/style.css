@@ -466,6 +466,19 @@ tr.row[class*=" k-"] td:first-child{border-left-color:var(--kc)}
 .hday h4{font-size:12px;color:var(--amber);font-weight:500;margin-bottom:4px}
 body[data-theme=light] .toc,body[data-theme=light] .sim,body[data-theme=light] .resume{border-radius:6px}
 
+/* ─── 근태 ─── */
+.attrow{display:flex;gap:10px;align-items:baseline}
+.attrow span:first-child{color:var(--fg3);width:34px;font-size:11px}
+.attrow b{font-weight:500;color:var(--hi)}
+.bar{display:inline-block;width:120px;height:6px;background:var(--line);vertical-align:middle}
+.bar i{display:block;height:100%;background:var(--cyan)}
+.bar i.ot{background:var(--amber)}
+.bar.big{display:block;width:100%;margin-top:10px}
+table.atttab{max-width:820px}
+.atttab tr.tday td{background:rgba(200,155,60,.06)}
+.atttab tr.wkend td{color:var(--fg3)}
+.cyan{color:var(--cyan)}
+
 /* ─── 테마 ─── */
 body[data-theme=green]{--fg:#9fd9a8;--fg2:#5f9e6e;--fg3:#3a6445;--hi:#c9f5d0;--amber:#7fe08f;--cyan:#6fd0a0;--line:#16261a;--line2:#21382a;--panel:#0b120d;--bg2:#08100a;--bg:#050a06}
 body[data-theme=amber]{--fg:#d9b77a;--fg2:#a0824e;--fg3:#66522f;--hi:#ffdca0;--amber:#ffb84a;--cyan:#e8a860;--line:#2a2010;--line2:#3a2c16;--panel:#120d06;--bg2:#0e0a05;--bg:#090603}
@@ -570,6 +583,10 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 @media (max-width:600px){
   .topbar{gap:10px;padding:0 12px;overflow:hidden;white-space:nowrap}
   .topbar .site,#clock,.cmd .hint,#audiobtn,.topbar #who,.gsearch{display:none}
+  .grid{grid-template-columns:1fr 1fr;gap:8px}
+  .grid .card{padding:10px 12px}
+  .card .v{font-size:19px}
+  .card .v small{display:block;margin:2px 0 0}
   table.cinfo tr{display:grid;grid-template-columns:78px 1fr}
   .cinfo th,.cinfo td{display:block;border-bottom:1px solid var(--line)}
   .cinfo td[colspan]{grid-column:2}
