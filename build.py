@@ -1,4 +1,4 @@
-"""src/ + data/scp.json + data/lore.json → index.html + db/*.js
+"""src/ + data/scp/ + data/lore.json → index.html + db/*.js
 
 문서가 수천 건이라 본문까지 한 파일에 넣으면 수십 MB가 된다. 그래서
 - index.html 에는 목록용 색인(번호·제목·별명·등급·태그·평가·출처)만 인라인
@@ -14,13 +14,14 @@ import re
 import sys
 from pathlib import Path
 
+import store
 from normalize import normalize_doc
+from store import chunk_key  # noqa: F401  (db/ 묶음도 같은 규칙)
 
 root = Path(__file__).parent
 src = root / "src"
 DB = root / "db"
 BODY_KEYS = ("containment", "description", "full_text")
-CHUNK = 50
 
 # src/js/30-document.js 의 splitDoc 과 같은 규칙 — 목록에 '관련 문서 n건'을 미리 보여주기 위함
 HEAD_RE = re.compile(r"^(부록|문서 번호|실험 기록|탐사 기록|사건 기록|사건 보고서|면담 기록|회수된 기록|비망록)[^\n]{0,70}$")
@@ -56,13 +57,6 @@ def count_subs(d):
     return n
 
 
-def chunk_key(doc_id):
-    """SCP-1234 → 'n1200', SCP-012-KO → 'ko0000'"""
-    m = re.match(r"^SCP-(\d+)(?:-([A-Z]+))?", doc_id)
-    if not m:
-        return "misc"
-    num = int(m.group(1)) // CHUNK * CHUNK
-    return f"{(m.group(2) or 'n').lower()}{num:04d}"
 
 
 def js_data(obj):
@@ -70,7 +64,7 @@ def js_data(obj):
 
 
 def build():
-    raw = json.loads((root / "data/scp.json").read_text(encoding="utf-8"))
+    raw = store.load()
     index, chunks = {}, {}
     for k, v in sorted(raw.items()):
         d = normalize_doc(v)
@@ -80,6 +74,12 @@ def build():
         chunks.setdefault(key, {})[k] = {b: d.pop(b) for b in BODY_KEYS}
         for unused in ("object_class_raw", "license"):  # 화면에서 쓰지 않음
             d.pop(unused, None)
+        # 색인 크기 줄이기: 빈 값과, 번호로 다시 만들 수 있는 출처 주소는 빼고 JS(00-core)에서 채움
+        for k2 in ("nickname", "author", "translator", "class_note"):
+            if not d.get(k2):
+                d.pop(k2, None)
+        if (d.get("source") or "").lower() == f"https://scpko.wikidot.com/{k.lower()}":
+            d.pop("source")
         index[k] = d
     css = (src / "style.css").read_text(encoding="utf-8")
     js = "\n".join(p.read_text(encoding="utf-8") for p in sorted((src / "js").glob("*.js")))
