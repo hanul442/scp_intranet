@@ -63,7 +63,7 @@ function attendance(qs){
     let st=r?(r.out||k!==today()?"정상":"근무 중"):lv.has(k)?"연차":(wd===0||wd===6)?"휴일":k>today()?"":k===today()?"미출근":"—";
     if(isLate(r)) st="지각"; if(r&&w>DAY_MIN+60) st+=" · 연장";
     return `<tr class="${k===today()?"tday":""} ${wd===0||wd===6?"wkend":""}"><td>${k.slice(5)} (${["일","월","화","수","목","금","토"][wd]})</td><td>${r?hm(r.in):"—"}</td><td>${r&&r.out?hm(r.out):"—"}</td><td>${dur(w)}</td>
-      <td><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
+      <td class="hm"><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
   }).join("");
   const year=today().slice(0,4), used=[...lv].filter(k=>k.startsWith(year)).length;
   const r=store.get(attKey(),{})[today()]||{};

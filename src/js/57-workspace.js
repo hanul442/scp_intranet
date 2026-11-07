@@ -218,7 +218,7 @@ function search(qs){
   if(!q) return head+`<div class="empty">검색어를 입력하십시오.<br><span class="dim2">상단 검색창이나 커맨드라인 <kbd>find 검색어</kbd> 로도 검색할 수 있습니다.</span></div>`;
   const has=s=>String(s||"").toLowerCase().includes(ql);
   const strip=s=>String(s).replace(/<[^>]+>/g,"");
-  const docs=Object.values(SCP).filter(d=>has(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" "))||(lvlFor(d.id)>=reqLevel(d.object_class)&&has(d.full_text))).sort((a,b)=>byId(a.id,b.id));
+  const docs=sortedIds().map(k=>SCP[k]).filter(d=>metaText(d).includes(ql)||(d.full_text&&textAt(d,ql)>=0&&lvlFor(d.id)>=reqLevel(d.object_class)));
   const posts=[...BOARD.map(b=>({href:`#board?no=${b[0]}`,t:b[2],s:b[6],m:`공지 · ${b[3]}`})),...freePosts().map(p=>({href:`#board?tab=free&no=${p.no}`,t:p.title,s:p.body,m:`자유게시판 · ${p.user}`}))].filter(p=>has(p.t)||has(p.s));
   const arcs=ARCHIVE.map((r,i)=>({i,r})).filter(({r})=>has(r[1])||has(r[4]));
   const ppl=DIR.filter(r=>has(strip(r.join(" "))));

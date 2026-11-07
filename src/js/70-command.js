@@ -29,7 +29,7 @@ $("#cmdline").addEventListener("keydown",e=>{
     case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 001-ko)"); break } openDoc(normId(m[1],m[2])); break }
     case "find": go("#search"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
-    case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
+    case "list": out(sortedIds().map(k=>SCP[k]).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
     case "history": go("#history"); break;
     case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]} (${LVL_EN[S.level]})\n계급    ${userClass(S.user)}계급\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n열람    ${S.recent.length}건\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${srnd(S.user,2,7)}건의 불일치를 포함합니다.`); break;
     case "fx": toggleFx(); out(`화면 효과 ${FX.on?"활성화":"비활성화"}. (깜빡임·글리치·흔들림)`); break;

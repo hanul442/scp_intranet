@@ -108,20 +108,31 @@ function inSeries(d,s){
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
-  for(const d of Object.values(SCP)){
+  const qn=/^\d+$/.test(ql)?"scp-"+ql.padStart(3,"0"):""; // "173" → "scp-173"
+  for(const id of sortedIds()){ const d=SCP[id];
     if(!matchClass(d,st.c) || !inSeries(d,st.s) || (st.t && !(d.tags||[]).includes(st.t))) continue;
     if(!ql){ hits.push({d}); continue }
-    const meta=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+d.object_class).toLowerCase();
-    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,m=>"scp-"+m.padStart(3,"0")))){ hits.push({d}); continue }
+    const meta=metaText(d);
+    if(meta.includes(ql) || (qn && meta.includes(qn))){ hits.push({d}); continue }
     // 본문 검색: 본문을 불러온 문서만
-    const i=(d.full_text||"").toLowerCase().indexOf(ql);
+    const i=textAt(d,ql);
     if(i>=0) hits.push({d, at:i});
   }
-  const name=d=>docName(d)||"\uffff";
   const rec=id=>{const i=S.recent.indexOf(id);return i<0?1e9:i};
-  const cmp={num:(a,b)=>byId(a.d.id,b.d.id), rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
-    name:(a,b)=>name(a.d).localeCompare(name(b.d),"ko")||byId(a.d.id,b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
+  if(st.o==="num"||!SORTS.some(x=>x[0]===st.o)) return hits; // 이미 번호순
+  const cmp={rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
+    name:(a,b)=>nameRank(a.d.id)-nameRank(b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
   return hits.sort(cmp);
+}
+/* 이름순 순위: 처음 한 번만 정렬해 두고 재사용 (이름 없는 문서는 뒤로, 같은 이름은 번호순) */
+let NAME_RANK=null;
+function nameRank(id){
+  if(!NAME_RANK){
+    const L=sortedIds().map(k=>[k,docName(SCP[k])]);
+    const named=L.filter(x=>x[1]).sort((a,b)=>KO_COLL.compare(a[1],b[1])||byId(a[0],b[0]));
+    NAME_RANK=new Map([...named,...L.filter(x=>!x[1])].map((x,i)=>[x[0],i]));
+  }
+  return NAME_RANK.get(id)??1e9;
 }
 function pager(cur,total,hrefFor){
   if(total<=1) return "";
@@ -133,8 +144,8 @@ function pager(cur,total,hrefFor){
 function dbRows(st){
   const ql=st.q.trim();
   const hits=dbHits(st), pages=Math.max(1,Math.ceil(hits.length/DB_PAGE)), cur=Math.min(st.p,pages);
-  const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
-  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  const unloaded=ql?unloadedCount():0;
+  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button><div class="dim2 mobnote">본문 전체는 용량이 큽니다. 휴대폰에서는 Wi-Fi 연결을 권장합니다.</div></div>`:"";
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
