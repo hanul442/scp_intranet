@@ -934,6 +934,17 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 }
 body[data-theme=light] .igc,body[data-theme=light] .lbox,body[data-theme=light] .lbc,body[data-theme=light] .cldc{border-radius:6px}
 body[data-theme=light] .pyb span{border-radius:3px}
+/* 지부 문서: 한국 지부 표지 */
+:root{--ko:#5b86c4}
+body[data-theme=light]{--ko:#1d4f9a}
+.cover.br-ko .ctop{background:linear-gradient(90deg,color-mix(in srgb,var(--ko) 16%,transparent),transparent 70%);border-bottom-color:color-mix(in srgb,var(--ko) 45%,var(--line))}
+.cover.br-ko .ctop .emblem{color:var(--ko)}
+.brseal{margin-left:auto;display:flex;align-items:center;gap:6px;border:1px solid var(--ko);color:var(--ko);padding:3px 8px 3px 3px;font-size:11px;letter-spacing:.08em;white-space:nowrap}
+.brseal b{background:var(--ko);color:#fff;font-size:11px;letter-spacing:.12em;padding:1px 5px;display:inline-block}
+.brseal+.cicon{margin-left:12px}
+.brname{color:var(--ko);font-weight:600}
+.brtag{display:inline-block;font-size:10px;letter-spacing:.1em;line-height:1;padding:2px 4px;border:1px solid var(--ko);color:var(--ko);vertical-align:1px}
+@media (max-width:600px){.brseal span{display:none}.brseal{padding:3px}}
 
 </style>
 </head>
@@ -1104,7 +1115,7 @@ const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"�
 const LVL_TAG={0:["공무 한정 사용","l1"],1:["신임","l1"],2:["제한","l2"],3:["비밀","l3"],4:["극비","l4"],5:["타우미엘","l5"]};
 const LVL_EN={0:"For Official Use Only",1:"Confidential",2:"Restricted",3:"Secret",4:"Top Secret",5:"Thaumiel"};
 const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
-function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
+function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx==="KO") return `한국 지부 시리즈 ${n<1000?1:2}`; if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
 const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"],["note","✎ 내 메모"]];
 
 /* ════ 상태 ════ */
@@ -1349,7 +1360,7 @@ function dashboard(){
    검색(번호·제목·별명·태그·본문) + 등급 · 시리즈 · 태그 필터 + 정렬 + 50건씩 페이지
    상태는 주소(#database?q=&c=&s=&t=&o=&p=)에 그대로 남아 새로고침·공유가 됨 */
 const DB_PAGE=50;
-const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["x","그 외"]];
+const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["4","시리즈 4 이상 (3000–)"],["ko","한국 지부 (-KO)"],["x","그 외"]];
 const SORTS=[["num","번호순"],["rate","평가 높은순"],["name","이름순"],["recent","최근 열람순"]];
 const TOP_TAGS=(()=>{const c={};for(const d of Object.values(SCP))for(const t of d.tags||[])if(!["안전","유클리드","케테르","아폴리온","타우미엘"].includes(t))c[t]=(c[t]||0)+1;return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,24)})();
 function dbState(params){
@@ -1392,9 +1403,9 @@ function matchClass(d,c){
 }
 function inSeries(d,s){
   if(s==="all") return true;
-  const [n,sfx]=idNum(d.id); if(sfx) return s==="x";
+  const [n,sfx]=idNum(d.id); if(s==="ko") return sfx==="KO"; if(sfx) return s==="x";
   if(s==="1") return n<1000; if(s==="2") return n>=1000&&n<2000; if(s==="3") return n>=2000&&n<3000;
-  return n>=3000;
+  if(s==="4") return n>=3000; return false;
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
@@ -1435,7 +1446,7 @@ function dbRows(st){
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
-      <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
+      <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
       <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
@@ -1521,7 +1532,7 @@ function clsBanner(level, extra=""){
   return `<div class="clsbar ${c}" role="note"><b>LEVEL ${level} · ${t}</b><span>SCP 재단 내부 문서${extra?" · "+extra:""} · 무단 열람·복제·반출 금지</span></div>`;
 }
 const DEPT_OF=id=>spick(id+"dept",["연구부 · 격리동 B","연구부 · 격리동 A","생물학 연구과","변칙 물품 연구과","인간형 개체 연구과","외부 현상 조사과"]);
-function docNo(d){ return `S19-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
+function docNo(d){ const b=branchOf(d.id), s=b&&siteOf(d), sn=s&&!s.none&&!s.redacted?s.name.match(/\d+/)?.[0]:""; return `${b?"K"+(sn||"00").padStart(2,"0"):"S19"}-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
 function revDate(id){ return `${srnd(id+"y",2008,2024)}-${pad(srnd(id+"m",1,12))}-${pad(srnd(id+"d",1,28))}` }
 function docCover(d, need, {masked=false, sub=null}={}){
   const k=classKey(d.object_class);
@@ -1533,8 +1544,10 @@ function docCover(d, need, {masked=false, sub=null}={}){
     [cell("문서 번호",masked?'<span class="redact">S19-0000-R0</span>':docNo(d)),cell("최종 개정",masked?'<span class="redact">0000-00-00</span>':`${revDate(d.id)} <span class="dim2">(제${srnd(d.id+"rev",2,14)}판)</span>`)],
     [cell("관리 부서",masked?'<span class="redact">████████</span>':DEPT_OF(d.id)),cell("평가",typeof d.rating==="number"?`${d.rating>0?"+":""}${d.rating}`:"—")],
   ];
-  return `<div class="cover k-${k}">
-    <div class="ctop">${EMBLEM}<div><b>SCP 재단</b><span>${sub?"부록 문서 · "+esc(sub):"특수 격리 절차 문서"}</span></div><div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
+  const br=branchOf(d.id);
+  if(br) rows.splice(1,0,[cell("소속 지부",`<b class="brname">${br.name}</b> <span class="dim2">(${br.code})</span>`),cell("담당 기지",siteCell(d,masked))]);
+  return `<div class="cover k-${k}${br?" br-"+br.code.toLowerCase():""}">
+    <div class="ctop">${EMBLEM}<div><b>SCP 재단${br?" "+br.name:""}</b><span>${sub?"부록 문서 · "+esc(sub):"특수 격리 절차 문서"}${br?" · "+br.en:""}</span></div>${br?branchSeal(br):""}<div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
     <h1 class="ctitle">${sub?esc(sub):d.id}${!sub&&docName(d)?`<small>${esc(docName(d))}</small>`:sub?`<small>${d.id}${docName(d)?" · "+esc(docName(d)):""}</small>`:""}</h1>
     <table class="cinfo">${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}${(d.tags||[]).length&&!masked?`<tr><th>태그</th><td colspan="3" class="dim">${d.tags.filter(t=>t!==d.object_class).slice(0,8).map(t=>`<a class="tagl" href="#database?t=${encodeURIComponent(t)}">#${esc(t)}</a>`).join(" ")}</td></tr>`:""}</table>
   </div>`;
@@ -1552,18 +1565,18 @@ function showSub(id, idx){
   const nav=`<div class="pn"><span>${idx>0?`<a href="#${id.toLowerCase()}/${idx-1}">← ${esc(subs[idx-1].title)}</a>`:""}</span><span>${idx<subs.length-1?`<a href="#${id.toLowerCase()}/${idx+1}">${esc(subs[idx+1].title)} →</a>`:""}</span></div>`;
   if(!ok){ S.denied++; saveSession(); glitch(1); feedPush(`접근 거부 기록 — ${S.user} → ${id} / ${s.title}`,"red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
     ${clrNeedNote(s.level)}<div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
   <div class="sec"><h4 class="subt">${esc(s.title)}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}</div></div>
-  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
+  ${subsBox(d,idx)}${nav}${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
 /* ════ 문서 열람 ════ */
@@ -1575,7 +1588,7 @@ function showDoc(id){
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
     feedPush(`접근 거부 기록 — ${S.user} → ${id}`, "red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}${docCover(d,need,{masked:true})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}${docCover(d,need,{masked:true})}
       <div class="meta"><span>요구 권한 Level ${need}</span><span>현재 권한 Level ${S.level}</span><span>${now()}</span></div>
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
       <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
@@ -1595,7 +1608,7 @@ function showDoc(id){
   else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
   feedPush(`${S.user} 열람 — ${id}`, ""); noteRecent(id);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}
     ${docCover(d,need)}
     ${docInfo(d,need,sd)}
     ${docTools(id)}
@@ -1607,7 +1620,7 @@ function showDoc(id){
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
-    ${clsBanner(need)}
+    ${clsBanner(need,branchOf(id)?.name||"")}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
     ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
@@ -1766,6 +1779,36 @@ function fmtPara(p){
     return `<div class="logbox bare"><div class="logbd">${p.map((l,k)=>sps[k]?`<div class="lr"><b class="who">${sps[k][0]}</b><span class="say">${fmtStage(sps[k][1])}</span></div>`:`<div class="lr dir">${fmtStage(l)}</div>`).join("")}</div></div>`;
   return `<p>${p.join("<br>")}</p>`;
 }
+
+/* ════ 지부 문서 구분: -KO 문서에 한국 지부 표지와 담당 기지 표시 ════ */
+const BRANCH={KO:{name:"한국 지부",en:"SCP Foundation · Korean Branch",code:"KO"}};
+const branchOf=id=>BRANCH[idNum(id||"")[1]]||null;
+
+/* 담당 기지: 본문에 가장 많이 나오는 기지·구역 (제19기지, Site-21 → 제21기지). 없으면 지부 본부 직할 */
+const SITE_CACHE={};
+function siteOf(d){
+  if(!d.full_text) return null;
+  if(SITE_CACHE[d.id]) return SITE_CACHE[d.id];
+  const cnt=new Map(), add=n=>cnt.set(n,(cnt.get(n)||0)+1);
+  const t=d.full_text;
+  for(const m of t.matchAll(/제\s?([0-9█]{1,4}|[θ⌘])\s?(?:[가-힣]{0,10}?)(기지|구역)/g)) add(`제${m[1]}${m[2]}`);
+  for(const m of t.matchAll(/\b(Site|Area)[-–\s]([0-9█]{1,4})\b/gi)) add(`제${m[2]}${/^a/i.test(m[1])?"구역":"기지"}`);
+  let best=null, bn=0;
+  for(const [n,c] of cnt){ const known=!/█/.test(n)?1:0, b=best&&!/█/.test(best)?1:0;
+    if(c>bn || (c===bn && known>b)){ best=n; bn=c } }
+  return SITE_CACHE[d.id]=best?{name:best, redacted:/█/.test(best), n:bn}:{name:"한국 지부 본부 직할", none:true};
+}
+function siteCell(d, masked){
+  if(masked) return '<span class="redact">제██기지</span>';
+  const s=siteOf(d); if(!s) return '<span class="dim2">본문 불러오는 중</span>';
+  if(s.none) return `${s.name} <span class="dim2">(본문에 기지 언급 없음)</span>`;
+  if(s.redacted) return `<span class="dm">${esc(s.name)}</span> <span class="dim2">(위치 검열)</span>`;
+  return `<a class="xref" href="#regs?p=secure-facilities-locations&q=${encodeURIComponent(s.name)}" title="보안시설 위치에서 찾기">${esc(s.name)}</a>${s.n>1?` <span class="dim2">본문 ${s.n}회 언급</span>`:""}`;
+}
+/* 표지 머리의 지부 인장 */
+function branchSeal(b){ return `<div class="brseal" aria-label="${b.name}"><b>${b.code}</b><span>${b.name}</span></div>` }
+/* 목록용 작은 지부 표시 */
+function branchTag(id){ const b=branchOf(id); return b?` <span class="brtag" title="${b.name} 문서">${b.code}</span>`:"" }
 
 /* ════ 문서별 실시간 연출 ════ */
 function docEffects(id){
@@ -3387,7 +3430,7 @@ function stats(){
   const classRows=CL.map(([k,l])=>({label:`<i aria-hidden="true">${CLASS_ICON[k]}</i> ${l}`,n:cc[k]||0,pct:pct(cc[k]||0,N),color:`var(--k-${k})`,
     href:["keter","euclid","safe","apollyon"].includes(k)?`#database?c=${k}`:k==="unknown"||k==="neutral"?"#database?c=other":""})).filter(r=>r.n);
   const SR=[["1","시리즈 1",d=>!idNum(d.id)[1]&&idNum(d.id)[0]<1000],["2","시리즈 2",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=1000&&idNum(d.id)[0]<2000],
-            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","국제 지부",d=>!!idNum(d.id)[1]]];
+            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","한국 지부",d=>!!idNum(d.id)[1]]];
   const serRows=SR.map(([s,l,f])=>{const n=docs.filter(f).length;return {label:l,n,pct:pct(n,N),href:`#database?s=${s}`}}).filter(r=>r.n);
   const tagRows=TOP_TAGS.slice(0,12).map(([t,n])=>({label:esc(t),n,href:`#database?t=${encodeURIComponent(t)}`}));
   const rated=docs.filter(d=>d.rating!=null&&!isNaN(+d.rating)), avg=rated.length?Math.round(rated.reduce((s,d)=>s+ +d.rating,0)/rated.length):0;
