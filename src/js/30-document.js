@@ -88,7 +88,7 @@ function showSub(id, idx){
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
-  ${subForm(d,s,linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}
+  ${subForm(d,s,xlink(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}
   ${subsBox(d,idx)}${nav}${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
@@ -120,6 +120,7 @@ function showDoc(id){
   if(!sd.containment && !sd.description) sections.push(["문서", d.full_text]);
   else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
   feedPush(`${S.user} 열람 — ${id}`, ""); noteRecent(id);
+  const seen=new Set();  // 같은 용어는 문서에서 처음 나올 때만 링크
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}
     ${docCover(d,need)}
@@ -130,11 +131,11 @@ function showDoc(id){
     ${until&&S.level<need?`<div class="notice grant">임시 열람 권한으로 열람 중 · ${fmtDate(until)}까지 <span class="dim2">(전자결재 승인)</span></div>`:""}
     <div class="meta"><span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
-    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
+    ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(xlink(markQuotes(markDM(redactWords(t,id+h,ratio))),id,seen))}</div></div>`).join("")}
     ${formEnd("cp")}
     ${subsBox(d)}
     ${docNoteBox(id)}
-    ${similarBox(d)}
+    ${relBox(d)}
     ${clsBanner(need,branchOf(id)?.name||"")}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
