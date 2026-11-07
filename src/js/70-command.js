@@ -26,7 +26,7 @@ $("#cmdline").addEventListener("keydown",e=>{
   const out=t=>{ S.doc="cmd"; render(`<a class="back" href="#${S.view}">← 돌아가기</a><div class="doc"><div class="body"><span class="amber">&gt; ${esc(raw)}</span>\n${esc(t)}</div></div>`) };
   switch(c.toLowerCase()){
     case "help": out(HELP); break;
-    case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 001-ko)"); break } openDoc(normId(m[1],m[2])); break }
+    case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 012-ko)"); break } openDoc(normId(m[1],m[2])); break }
     case "find": go("#search"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;

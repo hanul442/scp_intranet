@@ -71,7 +71,7 @@
   "object_class": "",
   "containment": "",
   "description": "",
-  "full_text": "항목 생성 마법사\n\n기술 지원은 데이비드 로젠에게 연락할 것. 연락하지 않았으면 좋겠다만.\n\n비고: 안드로이드 또는 당신이 사용하는 브라우저에서 마법사가 작동하지 않는다고 징징대는 전화 좀 걸지 마시오. 애초에 철저히 깨끗한 체제에서 표준 브라우저를 사용하지 않으면 데이터베이스에 접근해서는 안 되는 것임.\n\n 댓글 보기",
+  "full_text": "항목 생성 마법사\n\n기술 지원은 데이비드 로젠에게 연락할 것. 연락하지 않았으면 좋겠다만.\n\n비고: 안드로이드 또는 당신이 사용하는 브라우저에서 마법사가 작동하지 않는다고 징징대는 전화 좀 걸지 마시오. 애초에 철저히 깨끗한 체제에서 표준 브라우저를 사용하지 않으면 데이터베이스에 접근해서는 안 되는 것임.\n\n[이 부분은 원문 페이지의 별도 화면(HTML 블록)이라 가져오지 못했습니다. 원문에서 보세요.]\n\n 댓글 보기",
   "tags": [
    "구체",
    "난해한-등급",
@@ -214,7 +214,7 @@
   "object_class": "",
   "containment": "",
   "description": "",
-  "full_text": "-#: ●●|●●●●●|●●|●\n\n‡ Licensing / Citation\n\n‡ Hide Licensing / Citation",
+  "full_text": "[이미지: ]\n\n-#: ●●|●●●●●|●●|●",
   "tags": [
    "2015-단편경연-en",
    "ten-dots",
@@ -226,11 +226,12 @@
    "케테르",
    "특집"
   ],
+  "nickname": "●●|●●●●●|●●|●",
+  "rating": 121,
   "author": "LurkD",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2521",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "●●|●●●●●|●●|●"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
  },
  "SCP-2524": {
   "id": "SCP-2524",

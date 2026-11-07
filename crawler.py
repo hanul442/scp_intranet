@@ -39,9 +39,22 @@ def strip_tags(s):
     s = re.sub(r"\n\s*\n\s*\n+", "\n\n", s)
     return s.strip()
 
+HTML_BLOCK_NOTE = "[이 부분은 원문 페이지의 별도 화면(HTML 블록)이라 가져오지 못했습니다. 원문에서 보세요.]"
+
+
+def html_block(src):
+    """본문이 [[html]] 블록(iframe)에 있는 문서용. 블록 주소는 wdfiles.com 으로 넘어가며, 막혀 있으면 안내 문구"""
+    try:
+        return "\n" + strip_tags(fetch(src if src.startswith("http") else SITE + src)) + "\n"
+    except Exception:
+        return "\n" + HTML_BLOCK_NOTE + "\n"
+
+
 def parse(num, page, nickname=""):
     m = re.search(r'<div id="page-content">(.*?)<div class="page-tags">', page, re.S)
     body_html = m.group(1) if m else ""
+    body_html = re.sub(r'<iframe src="(/scp-[^"]+/html/[^"]+)"[^>]*class="html-block-iframe"[^>]*>\s*</iframe>',
+                       lambda b: html_block(b.group(1)), body_html)
     body_html = re.sub(r'<div class="page-rate-widget-box">.*?</div>\s*</div>', "", body_html, flags=re.S)
     body_html = re.sub(r'<div class="rate-box-with-credit-button">.*?</div>\s*</div>', "", body_html, flags=re.S)
     body_html = re.sub(r'<div class="footer-wikiwalk-nav">.*', "", body_html, flags=re.S)

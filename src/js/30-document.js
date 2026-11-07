@@ -33,7 +33,15 @@ function linkRefs(html, selfId){
   });
 }
 function deadRef(id){
-  S.doc=id; glitch(1); feedPush(`${S.user} 조회 — ${id} (색인 없음)`,"amber");
+  S.doc=id;
+  if(/^SCP-001(-KO)?$/.test(id)){ // 001 은 여러 제안서를 모은 허브라 개별 문서로 받지 않음
+    const src=`https://scpko.wikidot.com/${id.toLowerCase()}`;
+    render(`<a class="back" href="#database">← 데이터베이스</a>
+    <div class="doc"><div class="hdr"><h1>${id}</h1><span class="badge unknown">제안서 모음</span></div>
+    <div class="notice">${id} 는 O5 평의회 기밀 제안서 여러 건을 묶은 항목이라, 이 노드에는 개별 문서로 색인하지 않습니다. 제안서 목록은 <a href="${src}" target="_blank" rel="noopener">원문 허브</a>에서 볼 수 있습니다.</div></div>`);
+    return;
+  }
+  glitch(1); feedPush(`${S.user} 조회 — ${id} (색인 없음)`,"amber");
   render(`<a class="back" href="#database">← 데이터베이스</a>
   <div class="doc"><div class="hdr"><h1>${id}</h1><span class="badge unknown">미색인</span></div>
   <div class="denied"><b>항목 없음</b>${id} 는 이 노드에 색인되어 있지 않습니다. 해당 항목은 타 기지에 격리 중이거나, 재분류되었거나, 존재한 적이 없습니다.<br><span class="dim">이 조회는 기록되었습니다.</span></div>
