@@ -98,7 +98,7 @@ def term_docs(raw, terms):
         for key in keys:
             hits.setdefault(key, []).append(k)
     out = {}
-    for key, ids in hits.items():
+    for key, ids in sorted(hits.items()):
         ids.sort(key=lambda x: (-(raw[x].get("rating") or 0), x))
         out[key] = [len(ids)] + ids[:XTERM_TOP]
     return out
