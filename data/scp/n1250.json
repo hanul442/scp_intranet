@@ -16,7 +16,9 @@
   "author": "sandrewswann",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1257",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1260": {
   "id": "SCP-1260",
@@ -40,7 +42,9 @@
   "author": "Jacob Conwell",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1260",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1262": {
   "id": "SCP-1262",
@@ -63,7 +67,9 @@
   "author": "LurkD",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-1262",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1264": {
   "id": "SCP-1264",
@@ -88,7 +94,37 @@
   "author": "LurkD",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1264",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1264/scp-1264.jpg",
+    "cap": "크로스로드 작전 중 베이커 실험의 사진, 1946년경"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1264/SCP-1264-a.jpg",
+    "cap": "부분적으로 복원된 SCP-1264-A-1의 하지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1264-a.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1264"
+    ],
+    [
+     "제작자",
+     "LurkD"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1265": {
   "id": "SCP-1265",
@@ -110,7 +146,9 @@
   "author": "Ihp",
   "translator": "dt644",
   "source": "https://scpko.wikidot.com/scp-1265",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1266": {
   "id": "SCP-1266",
@@ -133,7 +171,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1266",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1270": {
   "id": "SCP-1270",
@@ -156,7 +196,9 @@
   "author": "Sophia Light",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1270",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1272": {
   "id": "SCP-1272",
@@ -179,7 +221,9 @@
   "author": "ophite",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1272",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1277": {
   "id": "SCP-1277",
@@ -202,7 +246,9 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1277",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1281": {
   "id": "SCP-1281",
@@ -222,7 +268,9 @@
   "author": "DrEverettMann",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1281",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1286": {
   "id": "SCP-1286",
@@ -243,7 +291,14 @@
   "author": "faminepulse",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-1286",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1286/1286-new.png",
+    "cap": "SCP-1286"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1289": {
   "id": "SCP-1289",
@@ -263,7 +318,33 @@
   "author": "NightCoffee365 : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1289",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1289/ObolAlone.jpg",
+    "cap": "격리 이전의 SCP-1289"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ObolAlone.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Marie-Lan Nguyen"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.5"
+    ]
+   ]
+  ]
  },
  "SCP-1290": {
   "id": "SCP-1290",
@@ -284,7 +365,9 @@
   "author": "Aelanna",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1290",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1291": {
   "id": "SCP-1291",
@@ -311,7 +394,9 @@
   "author": "Anaxagoras",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1291",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1293": {
   "id": "SCP-1293",
@@ -334,7 +419,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1293",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1295": {
   "id": "SCP-1295",
@@ -358,7 +445,9 @@
   "author": "Dmatix",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1295",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1296": {
   "id": "SCP-1296",
@@ -380,7 +469,9 @@
   "author": "Djoric",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1296",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1297": {
   "id": "SCP-1297",
@@ -406,6 +497,32 @@
   "author": "HammerMaiden",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1297",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1297/SCP-1297-1.jpg",
+    "cap": "격리 파기 간 촬영되었다고 알려진 SCP-1297-1의 유일한 사진. 기록된 속도는 40 km/h를 초과함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1297-1.jpg"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/26406919@N00/2043684979"
+    ],
+    [
+     "제작자",
+     "Nic McPhee"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  }
 }

@@ -18,7 +18,9 @@
   "author": "SSRI",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1100-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1101-KO": {
   "id": "SCP-1101-KO",
@@ -41,7 +43,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1101-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1102-KO": {
   "id": "SCP-1102-KO",
@@ -66,7 +70,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1102-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1102-ko/Site-11K.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1102-ko/11K-map.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fmaf-hub/MTW-k-11.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1102-ko/11K-structure.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1104-KO": {
   "id": "SCP-1104-KO",
@@ -96,7 +119,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1104-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1104-ko/hyoja-map.png",
+    "cap": "현행 SCP-1104-KO-L-β의 지도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1104-ko/scp-1104-ko-c-g-2.jpg",
+    "cap": "SCP-1104-KO-C-G-α2-5."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1104-ko/scp-1104-ko-c-g.jpg",
+    "cap": "SCP-1104-KO-C-G-α3-2."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1105-KO": {
   "id": "SCP-1105-KO",
@@ -121,7 +159,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1105-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1105-ko/SCP-1105-KO.jpg",
+    "cap": "SCP-1105-KO 서안에 접근하여 찍은 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1106-KO": {
   "id": "SCP-1106-KO",
@@ -145,7 +190,14 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1106-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1106-ko/%EA%B3%B0.jpg",
+    "cap": "SCP-1106-KO에 영향받은 곰."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1110-KO": {
   "id": "SCP-1110-KO",
@@ -180,7 +232,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1110-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1110-ko/clock-598124_1280.png",
+    "cap": "SCP-1110-KO-A의 외형 재현도"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1111-KO": {
   "id": "SCP-1111-KO",
@@ -202,7 +261,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1111-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1112-KO": {
   "id": "SCP-1112-KO",
@@ -230,7 +291,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1112-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1113-KO": {
   "id": "SCP-1113-KO",
@@ -254,7 +317,37 @@
   "author": "Adam Jenkins",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1113-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1113-ko/pc.png",
+    "cap": "SCP-1113-KO의 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pc.png"
+    ],
+    [
+     "원본",
+     "IBM JX"
+    ],
+    [
+     "저자",
+     "Adam Jenkins"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-1116-KO": {
   "id": "SCP-1116-KO",
@@ -273,7 +366,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1116-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1117-KO": {
   "id": "SCP-1117-KO",
@@ -294,7 +389,33 @@
   "author": "David Dixon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1117-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/antho/Jogari",
+    "cap": "단체 사진에 찍힌 이 훈 일가. 오른쪽 아래 여아는 포함되지 않는다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Sewage_and_Water_Treatment_Plant,_Dukinfield_-_geograph.org.uk_-_3493531.jpg"
+    ],
+    [
+     "저자",
+     "David Dixon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1119-KO": {
   "id": "SCP-1119-KO",
@@ -314,7 +435,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1119-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1119-ko/manman.png",
+    "cap": "SCP-1119-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1120-KO": {
   "id": "SCP-1120-KO",
@@ -340,7 +468,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1120-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1121-KO": {
   "id": "SCP-1121-KO",
@@ -360,7 +495,9 @@
   "author": "IM_NOT_FOR_ME",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1121-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1124-KO": {
   "id": "SCP-1124-KO",
@@ -382,7 +519,14 @@
   "author": "Plone",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1124-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1124-ko/robot.jpg",
+    "cap": "정면에서 촬영한 SCP-1124-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1129-KO": {
   "id": "SCP-1129-KO",
@@ -403,7 +547,30 @@
   "author": "nightshift0130",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1129-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1129-ko/1.%20SCP-1129-KO%20%EA%B3%B5%EB%AC%B8.jpg",
+    "cap": "SCP-1129-KO-1 협조 공문 (수신자: 서울특별시장)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1129-ko/2.%20SCP-1129-KO%20%EA%B2%A9%EB%A6%AC%EB%8F%84%EB%A9%B4.jpg",
+    "cap": "SCP-1129-KO-1 특수 격리 절차 도면. 서울도시보존재단 본관 내 대외비 문건 발췌"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1129-ko/3.%20SCP-1129-KO%2C%20%EC%82%AC%EC%A7%84.jpg",
+    "cap": "SCP-1129-KO-1이 매립된 부지 전경"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1129-ko/4.%20scp-1129-ko-39%20%EC%82%AC%EC%A7%84.jpg",
+    "cap": "SCP-1129-KO-39가 매립되어 있었던 부지 전경"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1129-ko/5.%20SCP-1129-KO%2C%20%EC%82%AC%EC%A7%84.jpg",
+    "cap": "SCP-1129-KO-40의 본체 : SCP-1129-KO-1 매립 당시 심어진 은행나무"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1135-KO": {
   "id": "SCP-1135-KO",
@@ -426,7 +593,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1135-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1139-KO": {
   "id": "SCP-1139-KO",
@@ -451,7 +620,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1139-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1140-KO": {
   "id": "SCP-1140-KO",
@@ -480,7 +651,14 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1140-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1140-ko-1/nakrangflag.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1142-KO": {
   "id": "SCP-1142-KO",
@@ -503,6 +681,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1142-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

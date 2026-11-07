@@ -21,7 +21,37 @@
   "author": "Derrick Tyson-Adams",
   "translator": "Alexandreo",
   "source": "https://scpko.wikidot.com/scp-7769",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7769/3523181182_2bf7cedccb_k.jpg",
+    "cap": "SCP-7769"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7769/106emergenceklay.jpg",
+    "cap": "출현 중인 SCP-106"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3523181182_2bf7cedccb_k.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "EnfieldNo4Mk2-303Brit.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "106emergenceklay.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7777": {
   "id": "SCP-7777",
@@ -51,7 +81,33 @@
   "author": "Yossipossi",
   "translator": "Langston77, globin",
   "source": "https://scpko.wikidot.com/scp-7777",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7777/7777.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "7777.png"
+    ],
+    [
+     "Author",
+     "Yossipossi"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-7783": {
   "id": "SCP-7783",
@@ -73,7 +129,64 @@
   "author": "PoufyPoufson",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7783",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "aqui"
+    ],
+    [
+     "Author",
+     "PoufyPoufson"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "cara"
+    ],
+    [
+     "Author",
+     "PoufyPoufson"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "nosotros"
+    ],
+    [
+     "Author",
+     "PoufyPoufson"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-7785": {
   "id": "SCP-7785",
@@ -95,7 +208,121 @@
   "author": "PeppersGhost",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7785",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7785/ScratchedAnomBar-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/Longboys1alt.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongboysFrame3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongboysFrameMobile.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/barrier.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongboysPT2small.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongboysPT3small.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LenthwiseUnderbed.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongwaysDoorwaysmall.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LongboysFrame4V2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LengthwiseLongwaysfull.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7785/LengthwiseLongwaysMobile.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "logo.png"
+    ],
+    [
+     "Author",
+     "far2"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "poorfish.css"
+    ],
+    [
+     "Name",
+     "PoorFish"
+    ],
+    [
+     "Author",
+     "Stewart C. Russell"
+    ],
+    [
+     "License",
+     "OFL (SIL Open Font License)"
+    ],
+    [
+     "Source Link",
+     "Fontlibrary"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "toscuchetcm.css"
+    ],
+    [
+     "Name",
+     "Toscuchet CM"
+    ],
+    [
+     "Author",
+     "Alisson Depizol"
+    ],
+    [
+     "License",
+     "OFL (SIL Open Font License)"
+    ],
+    [
+     "Source Link",
+     "Fontlibrary"
+    ]
+   ]
+  ]
  },
  "SCP-7793": {
   "id": "SCP-7793",
@@ -120,7 +347,37 @@
   "author": "PoufyPoufson",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7793",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7793/sphere",
+    "cap": "다만 철학적으로 감히 상담하는 그녀 구체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "sphere.jog"
+    ],
+    [
+     "원본",
+     "File:The Sphere Knockan cropped.jpg"
+    ],
+    [
+     "저작권자",
+     "photo by W. L. Tarbert"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-7794": {
   "id": "SCP-7794",
@@ -141,6 +398,8 @@
   "author": "cubeflix",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7794",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

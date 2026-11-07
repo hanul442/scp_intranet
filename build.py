@@ -21,7 +21,7 @@ from store import chunk_key  # noqa: F401  (db/ 묶음도 같은 규칙)
 root = Path(__file__).parent
 src = root / "src"
 DB = root / "db"
-BODY_KEYS = ("containment", "description", "full_text")
+BODY_KEYS = ("containment", "description", "full_text", "images", "img_credits")
 
 # src/js/30-document.js 의 splitDoc 과 같은 규칙 — 목록에 '관련 문서 n건'을 미리 보여주기 위함
 HEAD_RE = re.compile(r"^(부록|문서 번호|실험 기록|탐사 기록|사건 기록|사건 보고서|면담 기록|회수된 기록|비망록)[^\n]{0,70}$")
@@ -119,7 +119,9 @@ def build():
         key = chunk_key(k)
         d["subs"] = count_subs(d)
         d["chunk"] = key
-        chunks.setdefault(key, {})[k] = {b: d.pop(b) for b in BODY_KEYS}
+        chunks.setdefault(key, {})[k] = {b: d.pop(b) for b in BODY_KEYS if d.get(b) or b in ("containment", "description", "full_text")}
+        for b in BODY_KEYS:
+            d.pop(b, None)
         for unused in ("object_class_raw", "license"):  # 화면에서 쓰지 않음
             d.pop(unused, None)
         # 색인 크기 줄이기: 빈 값과, 번호로 다시 만들 수 있는 출처 주소는 빼고 JS(00-core)에서 채움

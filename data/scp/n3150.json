@@ -19,7 +19,9 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3154",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3158": {
   "id": "SCP-3158",
@@ -44,7 +46,33 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3158",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3158/tropical.png",
+    "cap": "SCP-3158"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tropical.png"
+    ],
+    [
+     "저자",
+     "Communism will win"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3160": {
   "id": "SCP-3160",
@@ -66,7 +94,33 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3160",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3160/scpwasp.jpg",
+    "cap": "울짱에 갇힌 SCP-3160 한 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpwasp.jpg"
+    ],
+    [
+     "저자",
+     "TRAPHITHO"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "SCP 원문 토론란 출처(삭제됨), 픽사베이"
+    ]
+   ]
+  ]
  },
  "SCP-3166": {
   "id": "SCP-3166",
@@ -90,7 +144,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3166",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3171": {
   "id": "SCP-3171",
@@ -112,7 +168,55 @@
   "author": "Kauderwelsch",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-3171",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3171/Cephalocereus.jpg",
+    "cap": "SCP-3171의 줄기들."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3171/HydnoraAfricana.jpg",
+    "cap": "SCP-3171 기부 열매혹의 근접사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Cephalocereus.jpg"
+    ],
+    [
+     "저자",
+     "Kauderwelsch"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0, 3.0, 2.5, 2.0, 1.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Cephalocereus_columna-trajani_1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "HydnoraAfricana.jpg"
+    ],
+    [
+     "저자",
+     "Lytton John Musselman"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:HydnoraAfricanaKarasburgDistrictNamibia2002Musselman.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3176": {
   "id": "SCP-3176",
@@ -136,7 +240,55 @@
   "author": "MaliceAforethought",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3176",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3176/timetech.jpg",
+    "cap": "프로토타입 시간 왜곡 엔진 3176-에코."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "temporal_dept_logo.png"
+    ],
+    [
+     "Author",
+     "HammerMaiden, MaliceAforethought"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "timetech.jpg"
+    ],
+    [
+     "Name",
+     "English - Gun Shield - Walters 511414.jpg"
+    ],
+    [
+     "Author",
+     "Walters Art Museum"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3177": {
   "id": "SCP-3177",
@@ -159,7 +311,9 @@
   "author": "OthellotheCat",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3177",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3179": {
   "id": "SCP-3179",
@@ -184,7 +338,33 @@
   "author": "Tanhony",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-3179",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3179/scpseed.jpg",
+    "cap": "SCP-3179의 운송 시도 중 발생한 부분적인 격리 파기를 촬영한 사진. 톱니장치 정교회 자료에서 촬영된 것을 가져왔다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpseed.jpg"
+    ],
+    [
+     "저자",
+     "-"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://wiible.tumblr.com/post/45530779029/boiler-explosion-december-19-1890-in-wallingford"
+    ]
+   ]
+  ]
  },
  "SCP-3181": {
   "id": "SCP-3181",
@@ -205,7 +385,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3181",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3181/kfc.png",
+    "cap": "격리 이전 SCP-3181."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3183": {
   "id": "SCP-3183",
@@ -223,7 +410,9 @@
   "author": "DolphinSlugchugger",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3183",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3186": {
   "id": "SCP-3186",
@@ -244,7 +433,9 @@
   "author": "Tanhony",
   "translator": "AirSho",
   "source": "https://scpko.wikidot.com/scp-3186",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3196": {
   "id": "SCP-3196",
@@ -265,7 +456,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3196",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3199": {
   "id": "SCP-3199",
@@ -288,6 +481,32 @@
   "author": "bittermixin",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3199",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3199/resized.jpg",
+    "cap": "최초로 명확하게 녹화된 SCP-3199 개체. 최초 회수 과정에서 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "resized.jpg"
+    ],
+    [
+     "저자",
+     "Ryan Van Dongen"
+    ],
+    [
+     "라이선스",
+     "Copyrighted (Used with permission)"
+    ],
+    [
+     "출처",
+     "ArtStation"
+    ]
+   ]
+  ]
  }
 }

@@ -15,7 +15,9 @@
   "author": "Varaxous",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-1654",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1659": {
   "id": "SCP-1659",
@@ -39,7 +41,33 @@
   "author": "Kalinin",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1659",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1659/orgchart.jpg",
+    "cap": "SCP-1659의 하위 단위 조직인 \"잡역부 심리전 부서(Division of Janitorial Psyops)\"를 도표로 나타내본 시도"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "orgchart.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1659"
+    ],
+    [
+     "제작자",
+     "Kalinin"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1661": {
   "id": "SCP-1661",
@@ -65,7 +93,61 @@
   "author": "Adam Henderson",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1661",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1661/clockwork.png",
+    "cap": "부분적으로 파괴된 SCP-1661 표본. 생명유지에 필수적일 것이라 추측되는 부품들이 제거되고도 눈알은 며칠 더 살아 움직였다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "clockwork.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1661"
+    ],
+    [
+     "제작자",
+     "Shaggydredlocks"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "아래 이미지 수정"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ],
+    [
+     "제작자",
+     "Yarramalong"
+    ],
+    [
+     "라이센스",
+     "Pixabay Content License"
+    ],
+    [
+     "출처",
+     "pxhere"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1663": {
   "id": "SCP-1663",
@@ -86,7 +168,9 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1663",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1665": {
   "id": "SCP-1665",
@@ -105,7 +189,33 @@
   "author": "ObserverSeptember",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1665",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1665/SCP-1665.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1665.png"
+    ],
+    [
+     "출처",
+     "https://scpko.wikidot.com/scp-1665"
+    ],
+    [
+     "제작자",
+     "Cubic72"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1666": {
   "id": "SCP-1666",
@@ -128,7 +238,9 @@
   "author": "sandrewswann",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-1666",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1669": {
   "id": "SCP-1669",
@@ -154,7 +266,9 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1669",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1670": {
   "id": "SCP-1670",
@@ -176,7 +290,9 @@
   "author": "Sorts",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1670",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1672": {
   "id": "SCP-1672",
@@ -201,7 +317,9 @@
   "author": "TwistedGears",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1672",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1673": {
   "id": "SCP-1673",
@@ -223,7 +341,14 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1673",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1673/1673-Active-new.png",
+    "cap": "활성 상태의 SCP-1673"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1678": {
   "id": "SCP-1678",
@@ -247,7 +372,55 @@
   "author": "AstronautJoe",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1678",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1678/volgunpolice.png",
+    "cap": "격리된 SCP-1678-A 개체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1678/1678-2.png",
+    "cap": "SCP-1678 버전의 ██████스트리트 교차로. 건물 외부에 튀어나온 배관 등의 설계 결함에 유의."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "volgunpolice.png"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Antony McCallum, VolgunStrife"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-1678-2"
+    ],
+    [
+     "제작자",
+     "Brett Sayles (edits by S D Locke"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "https://www.pexels.com/photo/gray-pipe-on-building-wall-1000748/"
+    ]
+   ]
+  ]
  },
  "SCP-1679": {
   "id": "SCP-1679",
@@ -270,7 +443,9 @@
   "author": "Dexanote",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1679",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1680": {
   "id": "SCP-1680",
@@ -293,7 +468,14 @@
   "author": "Eskobar",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1680",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1680/scp-1680.png",
+    "cap": "제33-B기지에서 SCP-1680-3882를 내려주는 SCP-1680-A."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1681": {
   "id": "SCP-1681",
@@ -317,7 +499,9 @@
   "author": "Crayne",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1681",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1682": {
   "id": "SCP-1682",
@@ -340,7 +524,77 @@
   "author": "faminepulse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1682",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1682/Prominence.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1682/Prominence2.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1682/pilgrim.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Prominence.jpg"
+    ],
+    [
+     "출처",
+     "https://www.nasa.gov/image-article/ring-of-fire/"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Prominence2.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "pilgrim.jpg"
+    ],
+    [
+     "출처",
+     "https://sdo.gsfc.nasa.gov/gallery/main/item/119"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1685": {
   "id": "SCP-1685",
@@ -361,7 +615,9 @@
   "author": "FlameShirt",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1685",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1689": {
   "id": "SCP-1689",
@@ -385,7 +641,9 @@
   "author": "llama66613",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1689",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1690": {
   "id": "SCP-1690",
@@ -409,7 +667,9 @@
   "author": "Zyn ＆ EdAWACSdenyY",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1690",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1692": {
   "id": "SCP-1692",
@@ -433,7 +693,9 @@
   "author": "AndarielHalo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1692",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1693": {
   "id": "SCP-1693",
@@ -454,7 +716,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1693",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1693/572px-PET_Alzheimer.jpg",
+    "cap": "초기 격리 절차 수립 이전 D-10302의 PET 스캔 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1695": {
   "id": "SCP-1695",
@@ -479,7 +748,37 @@
   "author": "PeppersGhost",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1695",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1695/SCP-Recovered.png",
+    "cap": "회수 현장의 화재로 인해, 식별 가능한 설계도는 단 한 장만이 남아있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1695/Charley.jpg",
+    "cap": "스스로를 SCP-1695-1의 제작자라고 주장하는 요주의 인물 1695-B."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-Recovered.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1695"
+    ],
+    [
+     "제작자",
+     "PeppersGhost"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1698": {
   "id": "SCP-1698",
@@ -499,7 +798,9 @@
   "author": "Drewbear",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1698",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1699": {
   "id": "SCP-1699",
@@ -520,6 +821,8 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1699",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

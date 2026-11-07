@@ -18,7 +18,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1200-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1201-KO": {
   "id": "SCP-1201-KO",
@@ -41,7 +43,109 @@
   "author": "Ich",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1201-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1201-ko/Mohawk.png",
+    "cap": "SCP-1201-KO의 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1201-ko/fossil.png",
+    "cap": "SCP-1201-KO-R의 사진"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1201-ko/dino.png",
+    "cap": "회전하는 SCP-1201-KO."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mohawk.png"
+    ],
+    [
+     "원본",
+     "User-Ich with Mohawk.jpg"
+    ],
+    [
+     "저자",
+     "Ich"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디아"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fossil.png"
+    ],
+    [
+     "원본",
+     "화성 고정리 공룡알 화석.jpg"
+    ],
+    [
+     "저자",
+     "국가유산청"
+    ],
+    [
+     "라이선스",
+     "공공누리 제1유형"
+    ],
+    [
+     "출처",
+     "국가유산이미지(#)"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dino.png"
+    ],
+    [
+     "원본",
+     "File:Telecom Center 3.jpg"
+    ],
+    [
+     "저자",
+     "Syced"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디아"
+    ],
+    [
+     "원본",
+     "File:Allosaurus in Bałtow white background.jpg"
+    ],
+    [
+     "저자",
+     "Jakub Hałun"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "출처",
+     "위키미디아"
+    ],
+    [
+     "비고",
+     "Alexandreo가 편집함"
+    ]
+   ]
+  ]
  },
  "SCP-1202-KO": {
   "id": "SCP-1202-KO",
@@ -63,7 +167,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1202-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1203-KO": {
   "id": "SCP-1203-KO",
@@ -84,7 +190,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1203-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1205-KO": {
   "id": "SCP-1205-KO",
@@ -102,7 +210,9 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1205-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1207-KO": {
   "id": "SCP-1207-KO",
@@ -127,7 +237,46 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1207-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/blog11.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/Spicy_stir-fry_tofu_-Mapa_Dubu-_%286229385375%29.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/Schlotten_%28Querschnitt%29.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/Frying_pan_pan.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/Mapo_doufu_by_dishhh_in_Tokyo.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/blog22.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/FS_CH.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1207-ko/Library_and_books_Korean.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/the-alleys-hub/golmok.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1208-KO": {
   "id": "SCP-1208-KO",
@@ -151,7 +300,9 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1208-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1209-KO": {
   "id": "SCP-1209-KO",
@@ -182,7 +333,47 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1209-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1209-ko/MOHAI_-_analog_computer_03.jpg",
+    "cap": "SCP-1209-KO-1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1209-ko/forest.png",
+    "cap": "SCP-1209-KO-2의 내부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1209-ko/Beaver-Szmurlo.jpg",
+    "cap": "SCP-1209-KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "forest.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ]
+  ]
  },
  "SCP-1210-KO": {
   "id": "SCP-1210-KO",
@@ -205,7 +396,14 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1210-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1210-ko/2001pic.png",
+    "cap": "아스카리 염사카메라Ascari Psychographic Camera로 SCP-1210-KO의 효과에 노출된 반월영 연구총괄의 심상을 염사한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1214-KO": {
   "id": "SCP-1214-KO",
@@ -225,7 +423,9 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1214-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1216-KO": {
   "id": "SCP-1216-KO",
@@ -248,7 +448,14 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1216-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1216-ko/GoodLuck.png",
+    "cap": "SCP-1216-KO 구조 간략화"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1221-KO": {
   "id": "SCP-1221-KO",
@@ -274,7 +481,22 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1221-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1221-ko/1200px-Blue_drink.png",
+    "cap": "광고에 등장한 SCP-1221-KO의 화상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1221-ko/%EB%B0%B1%EC%9E%90_%EB%8B%AC%ED%95%AD%EC%95%84%EB%A6%AC_%EC%A1%B0%EC%84%A0-%E7%99%BD%E7%A3%81%E5%A3%BA_%E6%9C%9D%E9%AE%AE-Moon_Jar_MET_DP231897.jpg",
+    "cap": "SK-BIO 006형 개체 표본. 한국식 전통 도기에 담겨 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1221-ko/1200px-Eye_Central_Heterochromia_crop.png",
+    "cap": "SCP-1221-KO-1."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1222-KO": {
   "id": "SCP-1222-KO",
@@ -299,7 +521,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1222-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1222-ko-0/nekodesu.png",
+    "cap": "밈적 인자가 제거된 게임 이미지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1222-ko-0/otamaton.png",
+    "cap": "SCP-1222-KO-B-1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1223-KO": {
   "id": "SCP-1223-KO",
@@ -326,7 +559,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1223-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1225-KO": {
   "id": "SCP-1225-KO",
@@ -349,7 +584,22 @@
   "author": "Pzkpfw_08_KOR",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1225-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/m-c/Christmas_Card.jpg",
+    "cap": "SCP-1225-KO의 한 예. 2012년 12월 20일 촬영."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/m-c/santa_shopping.jpg",
+    "cap": "물건을 수집하는 SCP-1225-KO-1. 2012년 12월 23일."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/m-c/SANTA.jpg",
+    "cap": "00:00:12초 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1227-KO": {
   "id": "SCP-1227-KO",
@@ -370,7 +620,9 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1227-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1230-KO": {
   "id": "SCP-1230-KO",
@@ -393,7 +645,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1230-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1230-ko/PNW-straits.jpg",
+    "cap": "세일리시해를 촬영한 위성사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1232-KO": {
   "id": "SCP-1232-KO",
@@ -425,7 +684,18 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1232-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/train-to-judeca/14",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/train-to-judeca/15",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1234-KO": {
   "id": "SCP-1234-KO",
@@ -451,7 +721,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1234-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1234-ko/SCP-1000-KO_1.jpg",
+    "cap": "신호가 처음 수신되었을 때 당시의 '청색유산' 천문대."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1238-KO": {
   "id": "SCP-1238-KO",
@@ -473,7 +750,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1238-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1238-ko/Hemibarbus_mylodon_2.jpg",
+    "cap": "비변칙적 어름치 개체의 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1238-ko/SCP-1238_KO_tower.png",
+    "cap": "물 밖으로 드러난 1238-KO-A의 기반 위에 인위적으로 올려진 돌. (붉은색 화살표) 작성자 직접 촬영"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1239-KO": {
   "id": "SCP-1239-KO",
@@ -496,7 +784,18 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1239-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1239-ko/Bt0.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1239-ko/Birthday%20party.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1240-KO": {
   "id": "SCP-1240-KO",
@@ -519,7 +818,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1240-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1241-KO": {
   "id": "SCP-1241-KO",
@@ -543,7 +844,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1241-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1242-KO": {
   "id": "SCP-1242-KO",
@@ -568,7 +871,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1242-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1246-KO": {
   "id": "SCP-1246-KO",
@@ -590,7 +895,14 @@
   "author": "blueroot",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1246-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1246-ko/College.jpg",
+    "cap": "SCP-1246-KO 학과가 위치한 ██대학교 인문대학"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1248-KO": {
   "id": "SCP-1248-KO",
@@ -612,6 +924,8 @@
   "author": "Itschoding",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1248-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

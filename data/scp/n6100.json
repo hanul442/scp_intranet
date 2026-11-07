@@ -22,7 +22,9 @@
   "author": "PeppersGhost",
   "translator": "hoyaa2367 : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-6101",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6102": {
   "id": "SCP-6102",
@@ -42,7 +44,63 @@
   "author": "J Dune",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6102",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6102/30327593886_ed1aec1e40_b.jpg",
+    "cap": "SCP-6,102,031이 발견된 장소. 제19222구역으로, 스칼렛 한계점에서 30킬로미터 떨어진 지점."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6102/dababu.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Dacitu.png"
+    ],
+    [
+     "Name",
+     "Inside the abandoned city of Pripyat / Creative commons panorama"
+    ],
+    [
+     "Author",
+     "Wendelin Jacober"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dababu.png"
+    ],
+    [
+     "Name",
+     "Ear Spring ejecta - pacifier with label and scale"
+    ],
+    [
+     "Author",
+     "YellowstoneNPS"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-6105": {
   "id": "SCP-6105",
@@ -65,7 +123,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6105",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6105/iceberg.jpg",
+    "cap": "SCP-6105을 묘사한 회화, 1855년 경."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6106": {
   "id": "SCP-6106",
@@ -90,7 +155,9 @@
   "author": "",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6106",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6128": {
   "id": "SCP-6128",
@@ -111,7 +178,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6128",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6130": {
   "id": "SCP-6130",
@@ -138,7 +207,14 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-6130",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6130/scp-6130.jpg",
+    "cap": "SCP-6130 데이터 해석용 개조 벡터스코프"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6132": {
   "id": "SCP-6132",
@@ -164,7 +240,37 @@
   "author": "Bread_Tyrant",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-6132",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/dr-tyrant/lake_baikal",
+    "cap": "러시아 바이칼호 — 기록된 최초의 SCP-6132 출현 장소."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "concrete-room.JPEG"
+    ],
+    [
+     "원본",
+     "Lake Baikal in winter.jpg"
+    ],
+    [
+     "저작권자",
+     "Sergey Pesterev"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-6135": {
   "id": "SCP-6135",
@@ -184,7 +290,9 @@
   "author": "Dr Leonerd",
   "translator": "Physique",
   "source": "https://scpko.wikidot.com/scp-6135",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6140": {
   "id": "SCP-6140",
@@ -214,6 +322,72 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment:scp-6140-0/map.png",
+    "cap": "출현 시 영토 범위 예상도."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "map.png"
+    ],
+    [
+     "Author",
+     "aismallard"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "daevastan.jpg"
+    ],
+    [
+     "Name",
+     "Altyn Arashan resort, Kyrgyzstan 3"
+    ],
+    [
+     "Author",
+     "Adam Harangozó"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-140-a.jpg"
+    ],
+    [
+     "Name",
+     "Earl S."
+    ],
+    [
+     "Author",
+     "Gerard M. Bauer"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

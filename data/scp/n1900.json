@@ -22,7 +22,55 @@
   "author": "Fantem",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1903",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1903/scp-1903.jpg",
+    "cap": "SCP-1903은 사건 1903-3이 벌어지기 전에 헤이워드 박사와 의사소통을 시도했다고 한다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1903/staff.jpg",
+    "cap": "면담 전의 헤이워드 박사."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1903.jpg"
+    ],
+    [
+     "저작권자",
+     "photoutopia"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "DeviantART"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "staff.jpg"
+    ],
+    [
+     "저작권자",
+     "Fantem"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1903"
+    ]
+   ]
+  ]
  },
  "SCP-1904": {
   "id": "SCP-1904",
@@ -48,7 +96,33 @@
   "author": "bogleech",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-1904",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1904/tubes2.jpg",
+    "cap": "SCP-1904-1 두 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tubes2.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Stanislav Kozlovskiy"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1906": {
   "id": "SCP-1906",
@@ -73,7 +147,9 @@
   "author": "Voct",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1906",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1913": {
   "id": "SCP-1913",
@@ -98,7 +174,63 @@
   "author": "Fantem",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1913",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1913/Aggie.png",
+    "cap": "SCP-1913-1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1913/Freddie.png",
+    "cap": "SCP-1913-3. 클릭하면 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Aggie.png"
+    ],
+    [
+     "출처",
+     "X"
+    ],
+    [
+     "제작자",
+     "BlooberryRei"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "작가 수정"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Freddie.png"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Brad.K"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ],
+    [
+     "비고",
+     "작가 수정"
+    ]
+   ]
+  ]
  },
  "SCP-1915": {
   "id": "SCP-1915",
@@ -121,7 +253,9 @@
   "author": "Dmatix",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1915",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1916": {
   "id": "SCP-1916",
@@ -142,7 +276,9 @@
   "author": "Smapti",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1916",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1918": {
   "id": "SCP-1918",
@@ -163,7 +299,73 @@
   "author": "faminepulse",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1918",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1918/1918-2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1918/maze.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "the-artifact.jfif"
+    ],
+    [
+     "Author",
+     "stephlynch"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-1918"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "1918-2.png"
+    ],
+    [
+     "Author",
+     "faminepulse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-1918"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "maze.png"
+    ],
+    [
+     "Author",
+     "stephlynch"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-1918"
+    ]
+   ]
+  ]
  },
  "SCP-1921": {
   "id": "SCP-1921",
@@ -191,7 +393,9 @@
   "author": "PeppersGhost",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1921",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1928": {
   "id": "SCP-1928",
@@ -213,7 +417,37 @@
   "author": "floridapologia",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1928",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1928/medium-1928.jpg",
+    "cap": "SCP-1890에 포함되어 있던 SCP-1928 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1928/bonifays",
+    "cap": "변형된 사진의 사본. 원래 사진에는 텅 빈 들판이 찍혀 있었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bonifays.jpg"
+    ],
+    [
+     "출처",
+     "https://www.floridamemory.com/items/show/63107"
+    ],
+    [
+     "제작자",
+     "Herrington, G. L."
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1931": {
   "id": "SCP-1931",
@@ -233,7 +467,33 @@
   "author": "PeppersGhost",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1931",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1931/TigerHead.jpg",
+    "cap": "████████씨가 온라인 경매에 업로드한 SCP-1931의 이미지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "TigerHead.jpg"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Thomas Quine"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1933": {
   "id": "SCP-1933",
@@ -257,7 +517,9 @@
   "author": "Doctor Flibble",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1933",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1935": {
   "id": "SCP-1935",
@@ -279,7 +541,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1935",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1936": {
   "id": "SCP-1936",
@@ -304,7 +568,9 @@
   "author": "Tanhony ＆ FlameShirt",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1936",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1938": {
   "id": "SCP-1938",
@@ -327,7 +593,33 @@
   "author": "RJB_R",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-1938",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1938/SCP-1938.jpg",
+    "cap": "활성화 상태의 SCP-1938, SCP-1938-2 개체 몇 개가 들어있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1938.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1938"
+    ],
+    [
+     "제작자",
+     "익명"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1941": {
   "id": "SCP-1941",
@@ -349,7 +641,63 @@
   "author": "Requitefahrenheit",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1941",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1941/m1.jpg",
+    "cap": "SCP-1941 현상(사진: 루나 리카니슨스 오비터 제공). 그물망 모양으로 생긴 검은 구역은 현재 진행 중인 건설의 결과이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1941/sponge-fractured.jpg",
+    "cap": "옹이 하나와 그 채굴 상태의 세부. 그물망이 자가유사 형태를 보이고 있다. 옹이 각각을 확대하면 그물망 전체의 모양을 닮았다. 본 사진은 앞의 사진의 옹이 하나에 상당한다. 이 사진은 루나 리카니슨스 오비터의 분해능 한계에 근접해 있다(크레이터의 너비는 약 50 미터이다)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mmm.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA/GSFC/Arizona State University"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "비고",
+     "작가 수정"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "sponge-fractured.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "비고",
+     "작가 수정"
+    ]
+   ]
+  ]
  },
  "SCP-1949": {
   "id": "SCP-1949",
@@ -371,6 +719,8 @@
   "author": "DrClef",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1949",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

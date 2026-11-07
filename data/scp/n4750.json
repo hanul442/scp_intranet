@@ -17,7 +17,9 @@
   "author": "OCuin",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4752",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4759": {
   "id": "SCP-4759",
@@ -39,7 +41,14 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4759",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4759/untoothers.jpg",
+    "cap": "SCP-4759-A에서 회수한 도넛"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4763": {
   "id": "SCP-4763",
@@ -63,7 +72,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4763",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4773": {
   "id": "SCP-4773",
@@ -90,7 +101,14 @@
   "author": "MaliceAforethought, Henzoid",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4773",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4773/Times.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4774": {
   "id": "SCP-4774",
@@ -114,7 +132,14 @@
   "author": "MaliceAforethought",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4774",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4774/maybethere.png",
+    "cap": "SCP-4774의 상상화"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4780": {
   "id": "SCP-4780",
@@ -135,7 +160,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4780",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4781": {
   "id": "SCP-4781",
@@ -157,7 +184,33 @@
   "author": "aismallard",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4781",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4781/slugs.jpeg",
+    "cap": "짝짓기하는 SCP-4781 두 마리."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "slugs.jpeg"
+    ],
+    [
+     "저자",
+     "aismallard"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Self"
+    ]
+   ]
+  ]
  },
  "SCP-4790": {
   "id": "SCP-4790",
@@ -180,7 +233,14 @@
   "author": "Lt Flops",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4790",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4790/Alpha-Centauri.jpg",
+    "cap": "유럽우주국 및 미항공우주국에서 허블우주망원경으로 촬영한 센타우루스자리 알파 A와 B."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4796": {
   "id": "SCP-4796",
@@ -205,6 +265,13 @@
   "author": "Weryllium",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4796",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4796/fruitofthegods.jpg",
+    "cap": "SCP-4796에 자라난 파인애플."
+   }
+  ],
+  "img_credits": []
  }
 }

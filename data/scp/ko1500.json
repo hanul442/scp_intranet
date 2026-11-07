@@ -26,7 +26,9 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1500-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1501-KO": {
   "id": "SCP-1501-KO",
@@ -47,7 +49,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1501-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1503-KO": {
   "id": "SCP-1503-KO",
@@ -67,7 +71,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1503-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-953-ko/editor-buttons.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1504-KO": {
   "id": "SCP-1504-KO",
@@ -93,7 +104,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1504-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1505-KO": {
   "id": "SCP-1505-KO",
@@ -117,7 +130,9 @@
   "author": "oratio, @Nyumm_bon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1505-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1509-KO": {
   "id": "SCP-1509-KO",
@@ -142,7 +157,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1509-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1512-KO": {
   "id": "SCP-1512-KO",
@@ -167,7 +184,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1512-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1512-ko/Postcard_for_the_assassination_of_Archduke_Franz_Ferdinand_in_Sarajevo.jpg",
+    "cap": "사라예보 암살 몇 분 전에 찍힌 마지막 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1516-KO": {
   "id": "SCP-1516-KO",
@@ -191,7 +215,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1516-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1521-KO": {
   "id": "SCP-1521-KO",
@@ -217,7 +243,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1521-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1521-ko/pexels-photo-3864115.jpg",
+    "cap": "SCP-1521-KO 사건 피해자의 생전 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1526-KO": {
   "id": "SCP-1526-KO",
@@ -240,7 +273,9 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1526-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1527-KO": {
   "id": "SCP-1527-KO",
@@ -260,7 +295,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1527-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1527-ko/29468797_s.png",
+    "cap": "SCP-1527-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1528-KO": {
   "id": "SCP-1528-KO",
@@ -282,7 +324,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1528-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1528-ko/bokjiii.png",
+    "cap": "제21K기지에서 회수한 문서 양식. 복리후생부 로고가 인쇄되어 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1529-KO": {
   "id": "SCP-1529-KO",
@@ -312,7 +361,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1529-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1529-ko/alman2-3.png",
+    "cap": "SCP-1529-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1529-ko/alman2-4.png",
+    "cap": "당시 전소한 건물을 촬영한 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-529-ko/SCP-529-KO.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1530-KO": {
   "id": "SCP-1530-KO",
@@ -333,7 +397,9 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1530-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1531-KO": {
   "id": "SCP-1531-KO",
@@ -361,7 +427,18 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1531-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1531-ko/dog_house.jpg",
+    "cap": "소형견용 개집, 표준형"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1531-ko/Jjajangmyeon.jpg",
+    "cap": "짜장면, 표준형"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1532-KO": {
   "id": "SCP-1532-KO",
@@ -382,7 +459,21 @@
   "author": "Health and Welfare",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1532-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1532-ko/Female_domestic_cat_black_and_white_05.jpg",
+    "cap": "SCP-1532-KO-1 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Female_domestic_cat_black_and_white_05.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1533-KO": {
   "id": "SCP-1533-KO",
@@ -401,7 +492,34 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1533-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/Dark.png",
+    "cap": "완전한 빛의 부재 상태"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/Tunnel.png",
+    "cap": "완전한 빛의 부재 상태"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/Dark3.png",
+    "cap": "맥락 불명의 화상"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/greendark",
+    "cap": "데이터 말소"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/Dark4.png",
+    "cap": "데이터 말소"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-40/dark2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1534-KO": {
   "id": "SCP-1534-KO",
@@ -423,7 +541,18 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1534-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-42/Shovel_2.jpg",
+    "cap": "SCP-1534-KO"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-42/Shovel_booe",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1535-KO": {
   "id": "SCP-1535-KO",
@@ -444,7 +573,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1535-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1547-KO": {
   "id": "SCP-1547-KO",
@@ -476,7 +607,26 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1547-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/nexus-dossier-50/nx50_west_gray.jpg",
+    "cap": "Nx-50 서부영역도. 2014/03/26"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/climate-prophecy-report/Fig5",
+    "cap": "기상예측모델의 데이터 유사도, 2040년 부근부터 급감하기 시작한다. (출처: 통계예언학을 이용한 기상예측모델 연구)"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-1547-ko/noise.png",
+    "cap": "정다혜 양에게 \"전라북도에서 본 2040년의 노이즈 양을 5라고 한다면, 이 지역은 10에서 1중에 얼마인가?\"를 질문하여 나온 값"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-1547-ko/%EC%82%BC%EB%9D%BC%EA%B2%BD.png",
+    "cap": "현재 유일하게 남은 삼라경 관측자료"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1548-KO": {
   "id": "SCP-1548-KO",
@@ -498,6 +648,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1548-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

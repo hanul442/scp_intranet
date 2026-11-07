@@ -19,7 +19,9 @@
   "author": "J Dune",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6452",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6455": {
   "id": "SCP-6455",
@@ -44,7 +46,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6455",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6455/eagle_rock.jpg",
+    "cap": "로스앤젤레스의 이글록 마을. SCP-6455 살인사건의 주된 발생지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "eagle_rock.jpg"
+    ],
+    [
+     "Name",
+     "Eagle Rock, 2016"
+    ],
+    [
+     "Author",
+     "Penguinbearlove"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-6463": {
   "id": "SCP-6463",
@@ -70,7 +102,33 @@
   "author": "EstrellaYoshte",
   "translator": "Denevola",
   "source": "https://scpko.wikidot.com/scp-6463",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6463/treelake.png",
+    "cap": "SCP-6463-A"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "treelake.png"
+    ],
+    [
+     "저작권자",
+     "EstrellaYoshte"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "This page"
+    ]
+   ]
+  ]
  },
  "SCP-6468": {
   "id": "SCP-6468",
@@ -93,7 +151,55 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6468",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6468/pvp_potion_by_dado_2.png",
+    "cap": "마인크래프트 인벤토리 내에 있는 SCP-6468."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6468/pvp_potion_by_dado.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pvp_potion_by_dado_2.png"
+    ],
+    [
+     "Author",
+     "tetsusquared"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pvp_potion_by_dado.png"
+    ],
+    [
+     "Author",
+     "tetsusquared"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6469": {
   "id": "SCP-6469",
@@ -121,7 +227,47 @@
   "author": "Calibold",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6469",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/dababy.jpg",
+    "cap": "SCP-6469의 현재 유일한 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/decom-dept-hub/Calvin%20Bold%20IRL.png",
+    "cap": "캘빈 볼드 이사관"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/dababy.jpg"
+    ],
+    [
+     "원본",
+     "Baby"
+    ],
+    [
+     "저작권자",
+     "M&R Glasgow"
+    ],
+    [
+     "라이선스",
+     "CC-by-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://wordpress.org/openverse/photos/2f394b8a-b8e8-4440-9bc0-789902ac8c19"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "https://scp-wiki.wdfiles.com/local--files/decom-dept-hub/Calvin%20Bold%20IRL.png"
+    ]
+   ]
+  ]
  },
  "SCP-6470": {
   "id": "SCP-6470",
@@ -152,7 +298,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6470",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6472": {
   "id": "SCP-6472",
@@ -176,7 +324,14 @@
   "author": "Fishish",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6472",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6472/memeticliveagent.png",
+    "cap": "당신 다도 믿어요"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6482": {
   "id": "SCP-6482",
@@ -197,7 +352,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6482",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6482/ghost.jpg",
+    "cap": "브룩데일 오션 쇼어스 감시 영상에 잡힌 SCP-6482 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ghost.jpg"
+    ],
+    [
+     "저작권자",
+     "Jolanta Dyr, modified by MirageTD"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 PL"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Hallway_of_W%C5%82adys%C5%82aw_Broniewski_Museum_in_Warsaw_-_01.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6488": {
   "id": "SCP-6488",
@@ -238,7 +419,131 @@
   "author": "Liryn, Jack Ike, Placeholder McD",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6488",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6488/infovore.jpg",
+    "cap": "훈계"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6488/node.jpg",
+    "cap": "SCP-6488. 정규 검사 중 섹션 A의 처리 노드 23."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/sigma:admonition-redesign-6488/admo-6488-diagram.png",
+    "cap": "RAIDFRAME VIII의 현 하드웨어 구성의 축적 도해."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "vjds.svg, jldo.svg, elng.svg"
+    ],
+    [
+     "Author",
+     "Placeholder McD, HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Local files"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "background.jpg"
+    ],
+    [
+     "Author",
+     "Jack Ike, PantheraLeo1359531"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Local file"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pixels.gif"
+    ],
+    [
+     "Author",
+     "LurkD, Liryn"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Local file"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "LOTUSLayout.png"
+    ],
+    [
+     "Author",
+     "Jack Ike, HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Local file"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "infovore.jpg"
+    ],
+    [
+     "Author",
+     "Kent Schimke, Liryn"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "Local file"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Lotus.svg"
+    ],
+    [
+     "Author",
+     "Meul"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6499": {
   "id": "SCP-6499",
@@ -261,6 +566,8 @@
   "author": "",
   "translator": "DreamCube",
   "source": "https://scpko.wikidot.com/scp-6499",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

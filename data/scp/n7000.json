@@ -32,7 +32,799 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7000",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/ETTRA.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Lightning.jpg",
+    "cap": "SCP-7000으로 말미암아 발생한, 대표적인 단세포뇌우."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleDeer.jpg",
+    "cap": "SCP-7000-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/OldFaithful.jpg",
+    "cap": "옐로스톤 국립공원 출입금지 구역, SCP-7000 발생 중."
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file:2375337-455-fkq9/Willie.jpg",
+    "cap": "윌리엄 웨틀 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Sokolsky.jpg",
+    "cap": "소콜스키 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Blank.jpg",
+    "cap": "블랭크 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Margherita.jpg",
+    "cap": "마르게리타 비야르."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Replication.jpg",
+    "cap": "오코너 연구원과 웨틀 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleSelfie.jpg",
+    "cap": "웨틀 박사와 르블랑 연구원"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/DrDan.jpg",
+    "cap": "댄 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Egg.jpg",
+    "cap": "댄 박사의 2022년 7월 16일 아침 식사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/MTF1.jpg",
+    "cap": "훈련 중인 MTF 세타-7000. 사진 앞쪽의 두 발은 웨틀 박사다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/BottomedPit.jpg",
+    "cap": "Nx-18의 바닥 없는 구덩이. 바닥에서 촬영."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Chinook.jpg",
+    "cap": "세타-7000 공수 및 지원용 헬리콥터."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Corridor.jpg",
+    "cap": "오라일리의 숄더캠."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Wettlefall.jpg",
+    "cap": "치코의 숄더캠."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Insurgent.jpg",
+    "cap": "치코의 숄더캠."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleCollapse.jpg",
+    "cap": "오라일리 숄더캠."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleBomb.jpg",
+    "cap": "폭탄 원격 해체 작업. 웨틀 박사 참관 (사진 중앙)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7000/Kangaroo.jpg",
+    "cap": "웨틀 박사의 행동에서 기인한 민간인 측 오정보."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/BlueMoon.jpg",
+    "cap": "SCP-7000 발생 중에 달이 항상 푸른색을 띠는 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Engineer1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Engineer2.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/KISMET.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Wettles.jpg",
+    "cap": "민디 웨틀, 사이먼 웨틀."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleSad.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Sauelsuesor_Redux.jpg",
+    "cap": "태양 코로나 상의 SCP-179. 인식재해 검열됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Sauelsuesor2.jpg",
+    "cap": "태양 코로나 상의 SCP-179. 인식재해 검열됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Clover.jpg",
+    "cap": "SCP-7000 발생 중에 출현한 Trifolium 속 (클로버속) 여섯잎클로버의 대표적 사례."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Array.jpg",
+    "cap": "강화 이동식 어레이 사고 현장."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Beddle.jpg",
+    "cap": "침대에 누운 웨틀 박사. 보안 카메라 정지화면."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Spit.jpg",
+    "cap": "SCP-4040, 다시 바닥이 없어진 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/WettleBar.jpg",
+    "cap": "샘스 캐나디언 펍에 있는 웨틀 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/KISMET2.jpg",
+    "cap": "SCP-7000-D-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7000/Replication2.jpg",
+    "cap": "SCP-7000(왼쪽)과 직원들, 2022년 사진. 대상의 타이머 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "7000.png, ADtransparent.png, ETTRA.png, inimical-icon.svg, memet-icon.svg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Array.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Blank.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "BlueMoon.jpg"
+    ],
+    [
+     "원본",
+     "Harvest Moon at NASA Goddard"
+    ],
+    [
+     "저작권자",
+     "NASA Goddard Photo and Video"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "BottomedPit.jpg"
+    ],
+    [
+     "원본",
+     "Glacial outwash (Upper Pleistocene, 15-18 ka; St. Louisville gravel pits, Licking County, Ohio, USA) 28"
+    ],
+    [
+     "저작권자",
+     "James St. John"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Chinook.jpg"
+    ],
+    [
+     "원본",
+     "An RAF Chinook helicopter in silhouette, flying over Afghanistan."
+    ],
+    [
+     "저작권자",
+     "Defence Images"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Clover.jpg"
+    ],
+    [
+     "원본",
+     "peders.clover"
+    ],
+    [
+     "저작권자",
+     "kjerstinschroeder"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Corridor.jpg"
+    ],
+    [
+     "원본",
+     "Corridor"
+    ],
+    [
+     "저작권자",
+     "kevin dooley"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "DrDan.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "원본",
+     "army_mil-90783-2010-11-04-061149"
+    ],
+    [
+     "저작권자",
+     "Army Medicine"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ],
+    [
+     "원본",
+     "So if a double yolker is lucky what does two double yolks count as?"
+    ],
+    [
+     "저작권자",
+     "mat_walker"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Eggs.jpg"
+    ],
+    [
+     "원본",
+     "So if a double yolker is lucky what does two double yolks count as?"
+    ],
+    [
+     "저작권자",
+     "mat_walker"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Engineer.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Engineer2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Insurgent.jpg"
+    ],
+    [
+     "원본",
+     "990913-N-1350W-004"
+    ],
+    [
+     "저작권자",
+     "Marion Doss"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Kangaroo.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "KISMET.jpg"
+    ],
+    [
+     "원본",
+     "muon endcap"
+    ],
+    [
+     "저작권자",
+     "µµ"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "KISMET2.jpg"
+    ],
+    [
+     "원본",
+     "Beam pipe installation (-side)"
+    ],
+    [
+     "저작권자",
+     "µµ"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Lightning.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Margherita.jpg"
+    ],
+    [
+     "원본",
+     "Girl Brazilian portrait"
+    ],
+    [
+     "저작권자",
+     "pedrosimoes7"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "MTF.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "OldFaithful.jpg"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Replication.jpg"
+    ],
+    [
+     "원본",
+     "Army scientists energize battery research"
+    ],
+    [
+     "저작권자",
+     "U.S. Army DEVCOM"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Replication2.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sauelsuesor_Redux_1.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Sun Emits a Mid-Level Flare"
+    ],
+    [
+     "저작권자",
+     "NASA Goddard Photo and Video"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sauelsuesor_Redux_2.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Sun Emits a Mid-Level Flare"
+    ],
+    [
+     "저작권자",
+     "NASA Goddard Photo and Video"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sokolsky.jpg"
+    ],
+    [
+     "원본",
+     "Brett 05-04-10"
+    ],
+    [
+     "저작권자",
+     "Brett Jordan"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Spit.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Wettles.jpg"
+    ],
+    [
+     "원본",
+     "guzman23foundation serves seniors at retirement home"
+    ],
+    [
+     "저작권자",
+     "Ralph Zuranski"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleBar.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleBed.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "I really needed Spring Break!"
+    ],
+    [
+     "저작권자",
+     "Nic McPhee"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ],
+    [
+     "원본",
+     "Pillow"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleBomb.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleCollapse.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleDeer.jpg"
+    ],
+    [
+     "원본",
+     "2008-07-16 (GECCO Best Paper) - 03"
+    ],
+    [
+     "저작권자",
+     "Nic McPhee"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleFall.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleSad.jpg"
+    ],
+    [
+     "원본",
+     "Life mask (1 of 4)"
+    ],
+    [
+     "저작권자",
+     "Nic McPhee"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "WettleSelfie.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Willie.jpg"
+    ],
+    [
+     "원본",
+     "Scruffy self-portrait"
+    ],
+    [
+     "저작권자",
+     "Nic McPhee"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-7008": {
   "id": "SCP-7008",
@@ -52,7 +844,63 @@
   "author": "TheCommunity",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-7008",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7008/rosetall.png",
+    "cap": "SCP-7008 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7008/square.jpg",
+    "cap": "00:00"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rosetall.png"
+    ],
+    [
+     "원본",
+     "Pink Rose"
+    ],
+    [
+     "저작권자",
+     "Brian Richardson"
+    ],
+    [
+     "라이선스",
+     "CC-BY-2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "square.jpg"
+    ],
+    [
+     "원본",
+     "Washington, Iowa's Town Square, at Night, in a Snowstorm"
+    ],
+    [
+     "저작권자",
+     "Pete Markham"
+    ],
+    [
+     "라이선스",
+     "CC-BY-2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-7009": {
   "id": "SCP-7009",
@@ -76,7 +924,14 @@
   "author": "MontagueETC",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-7009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7009/Mars%20Theater.png",
+    "cap": "화성탐사로버 큐리오시티가 발견한 SCP-7009-018."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7015": {
   "id": "SCP-7015",
@@ -98,7 +953,102 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7015",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/philogo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/animebanner.png",
+    "cap": "필리핀지부 요원인 키츠쿠미 호시미가 그린 삽화. 사멸한 일본 문예 양식을 상기시키는 스타일로 그려졌다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/poster.jpg",
+    "cap": "'저축 보국의 비결'을 호소하는 SCP-7015의 선전물. 2020년의 제국대불황을 기하여 SCP-7015는 이러한 포스터의 아종을 여럿 사용했다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/nuclearbomb.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/dreaming.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/haetae.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/manga.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/manchuria.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/dragonball.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/dragon.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/peachblossom.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/utopia.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/esprit.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/entrance.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/wenchanganime.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/wenchang.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/meeting.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/preparations.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/japanesefoundation.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/celebration.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/painting.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/explosion.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7015/ph.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7025": {
   "id": "SCP-7025",
@@ -118,7 +1068,9 @@
   "author": "GreenWolf",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-7025",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7027": {
   "id": "SCP-7027",
@@ -146,7 +1098,55 @@
   "author": "Metaphysician",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7027",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7027/KV77hvE.jpeg",
+    "cap": "SCP-7027-1(44). 감염 후 16년 경과."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7027/Y4CxigY.jpeg",
+    "cap": "교신 두절 전 촬영된 마지막 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "KV77hvE.jpe"
+    ],
+    [
+     "Name",
+     "Bundesarchiv Bild 135-S-17-13-03, Tibetexpedition, Mönch mit Augenbinde.jpg"
+    ],
+    [
+     "Author",
+     "Ernst Schäfer"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0 DE"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Y4CxigY.jpe"
+    ],
+    [
+     "Name",
+     "Somnath Temple, Somnath.jpg"
+    ],
+    [
+     "Author",
+     "Kuldeep S"
+    ]
+   ]
+  ]
  },
  "SCP-7029": {
   "id": "SCP-7029",
@@ -165,7 +1165,37 @@
   "author": "Nickthebrick1",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-7029",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/here-comes-the-airplane-nickthebrick1/AABoeing777.jpg",
+    "cap": "SCP-7029-A"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "AABoeing777.jpg"
+    ],
+    [
+     "Name",
+     "American Airlines Boeing 777-200 N775AN Photo 251 (13836950534).jpg"
+    ],
+    [
+     "Author",
+     "Grant Wickes"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7034": {
   "id": "SCP-7034",
@@ -186,6 +1216,13 @@
   "author": "J Dune",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-7034",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7034/warning.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

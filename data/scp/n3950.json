@@ -20,7 +20,9 @@
   "author": "Kate McTiriss",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3972",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3975": {
   "id": "SCP-3975",
@@ -42,7 +44,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3975",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3975/scp3975fix.png",
+    "cap": "SCP-3975 매체에서 발견되는 표지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp3975fix.png"
+    ],
+    [
+     "Author",
+     "ObserverSeptember, George Stanley"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3980": {
   "id": "SCP-3980",
@@ -68,7 +96,9 @@
   "author": "",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3980",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3984": {
   "id": "SCP-3984",
@@ -94,7 +124,9 @@
   "author": "",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3984",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3993": {
   "id": "SCP-3993",
@@ -116,7 +148,21 @@
   "author": "adrianhon",
   "translator": "Hume_David",
   "source": "https://scpko.wikidot.com/scp-3993",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3993/3d_Av_16_St_LinkNYC_station_jeh.JPG",
+    "cap": "LinkNYC 키오스크"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3d_Av_16_St_LinkNYC_station_jeh.JPG"
+    ]
+   ]
+  ]
  },
  "SCP-3998": {
   "id": "SCP-3998",
@@ -139,7 +185,65 @@
   "author": "Fantem",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3998/3998.jpg",
+    "cap": "회수 당시의 SCP-3998."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3998/scp3998.PNG",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3998/witch.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3998/letter.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3998/investigation.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3998.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scp3998.PNG"
+    ],
+    [
+     "저자",
+     "SunnyClockwork"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3998.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3998.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3998.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3999": {
   "id": "SCP-3999",
@@ -163,6 +267,32 @@
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3999",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "내게 일어나는 모든 일의 중심에 내가 있다"
+  "nickname": "내게 일어나는 모든 일의 중심에 내가 있다",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3999/seurat.jpg",
+    "cap": "https://youtu.be/mE0YUsQr5Xk"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "first.jpg, seurat.jpg, woods.jpg"
+    ],
+    [
+     "저자",
+     "LordStonefish"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

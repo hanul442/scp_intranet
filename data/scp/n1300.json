@@ -17,7 +17,14 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1305",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1305/1305.jpg",
+    "cap": "최초 격리 당시의 SCP-1305."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1307": {
   "id": "SCP-1307",
@@ -38,7 +45,9 @@
   "author": "Paul Henderson",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1307",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1312": {
   "id": "SCP-1312",
@@ -59,7 +68,9 @@
   "author": "Tanhony",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1312",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1313": {
   "id": "SCP-1313",
@@ -81,7 +92,14 @@
   "author": "MaliceAforethought",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-1313",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1313/roamin_numeral.jpg",
+    "cap": "갓 출현한 개체 1313-00824"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1314": {
   "id": "SCP-1314",
@@ -102,7 +120,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1314",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1314/scp1314.png",
+    "cap": "SCP-1314-A 발췌본 (밈 재해는 검열로 제거함)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1315": {
   "id": "SCP-1315",
@@ -123,7 +148,9 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-1315",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1316": {
   "id": "SCP-1316",
@@ -145,7 +172,14 @@
   "author": "Gaffsey",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1316",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1316/1316-1.jpg",
+    "cap": "게란메흐(Geranmehr) 박사에게 심문받는 와중의 SCP-1316."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1317": {
   "id": "SCP-1317",
@@ -165,7 +199,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1317",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1317/1317-new.jpg",
+    "cap": "SCP-1317 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1317-new.jpg"
+    ],
+    [
+     "출처",
+     "https://www.pxfuel.com/en/free-photo-ejeug"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1319": {
   "id": "SCP-1319",
@@ -186,7 +246,9 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1319",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1321": {
   "id": "SCP-1321",
@@ -211,7 +273,9 @@
   "author": "Dmatix",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1321",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1322": {
   "id": "SCP-1322",
@@ -233,7 +297,9 @@
   "author": "spikebrennan",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1322",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1329": {
   "id": "SCP-1329",
@@ -256,7 +322,9 @@
   "author": "Djoric",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1329",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1331": {
   "id": "SCP-1331",
@@ -278,7 +346,9 @@
   "author": "Aelanna",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1331",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1334": {
   "id": "SCP-1334",
@@ -300,7 +370,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1334",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1336": {
   "id": "SCP-1336",
@@ -322,7 +394,41 @@
   "author": "genesplicer",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1336",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1336/dots01.jpg",
+    "cap": "반(半)무작위 패턴의 SCP-1336"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1336/dots02.jpg",
+    "cap": "비(非)무작위 패턴의 SCP-1336"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "dots01.jpg, dots02.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1336"
+    ],
+    [
+     "제작자",
+     "genesplicer"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "작가 제작 이미지"
+    ]
+   ]
+  ]
  },
  "SCP-1337": {
   "id": "SCP-1337",
@@ -345,7 +451,9 @@
   "author": "AdminBright",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1337",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1342": {
   "id": "SCP-1342",
@@ -372,7 +480,51 @@
   "author": "FlameShirt",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1342",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1342/SCP-1342_th.jpg",
+    "cap": "최초로 격리되었을 당시의 SCP-1342. 센서 장치들은 제거되었음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Voyager Spacecraft During Vibration Testing - GPN-2003-000008.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gliscians"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1342"
+    ],
+    [
+     "제작자",
+     "Flaminglog"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1348": {
   "id": "SCP-1348",
@@ -399,6 +551,32 @@
   "author": "ophite",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1348",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1348/1348-2.jpg",
+    "cap": "상세 촬영: SCP-1348-03 방 내부의 얕은 부조."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1348-2.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Capillon"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  }
 }

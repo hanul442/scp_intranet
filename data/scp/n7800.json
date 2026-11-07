@@ -20,7 +20,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7823",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7823/astronaut.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "astronaut.png"
+    ],
+    [
+     "Name",
+     "Apollo_11_first_step.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Apollo_11_first_step.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7825": {
   "id": "SCP-7825",
@@ -40,7 +70,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7825",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7832": {
   "id": "SCP-7832",
@@ -61,6 +93,32 @@
   "author": "Mister_Toasty",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7832",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7832/-_complexity_%281%29_-_Flickr_-_nerovivo.jpg",
+    "cap": "건설. 예시. 최근."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "-_complexity_(1)_-_Flickr_-_nerovivo"
+    ],
+    [
+     "Author",
+     "nerovivo"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:-_complexity_%281%29_-_Flickr_-_nerovivo.jpg"
+    ]
+   ]
+  ]
  }
 }

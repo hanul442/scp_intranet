@@ -19,7 +19,9 @@
   "author": "Iszth",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7894",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7898": {
   "id": "SCP-7898",
@@ -44,6 +46,93 @@
   "author": "Raddagher",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7898",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "WisforWallsA"
+    ],
+    [
+     "Name",
+     "Dirty Room"
+    ],
+    [
+     "Author",
+     "Nitram242"
+    ],
+    [
+     "License",
+     "CC 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/25165196@N08/7725273678"
+    ],
+    [
+     "Name",
+     "Roommate"
+    ],
+    [
+     "Author",
+     "Raddagher"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "WisforWallsB"
+    ],
+    [
+     "Name",
+     "dsc00123.jpg"
+    ],
+    [
+     "Author",
+     "Mike Linksvayer"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/mlinksva/515402228/"
+    ],
+    [
+     "Name",
+     "Tarantula"
+    ],
+    [
+     "Author",
+     "White Sands National Park"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/whitesandsnps/29492725824/"
+    ],
+    [
+     "Name",
+     "Another Roommate"
+    ],
+    [
+     "Author",
+     "Raddagher"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

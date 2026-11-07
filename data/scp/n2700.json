@@ -21,7 +21,9 @@
   "author": "Anborough",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2700",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2701": {
   "id": "SCP-2701",
@@ -44,7 +46,9 @@
   "author": "Mortte",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2701",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2702": {
   "id": "SCP-2702",
@@ -64,7 +68,9 @@
   "author": "Guilliman",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2702",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2707": {
   "id": "SCP-2707",
@@ -86,7 +92,14 @@
   "author": "SoullessSingularity",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2707",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2707/provovo.jpg",
+    "cap": "격리 중인 SCP-2707의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2710": {
   "id": "SCP-2710",
@@ -108,7 +121,9 @@
   "author": "Dmatix",
   "translator": "izenkel",
   "source": "https://scpko.wikidot.com/scp-2710",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2711": {
   "id": "SCP-2711",
@@ -131,7 +146,9 @@
   "author": "SunnyClockwork",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2711",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2714": {
   "id": "SCP-2714",
@@ -156,7 +173,9 @@
   "author": "LordStonefish",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2714",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2716": {
   "id": "SCP-2716",
@@ -177,7 +196,14 @@
   "author": "Tagliafierro",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2716",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2716/windsock2.jpg",
+    "cap": "실험 중인 SCP-2716-1."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2718": {
   "id": "SCP-2718",
@@ -200,7 +226,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2718",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2718/numerals.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2718/killsprite.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2719": {
   "id": "SCP-2719",
@@ -220,7 +257,9 @@
   "author": "Randomini",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2719",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2727": {
   "id": "SCP-2727",
@@ -244,7 +283,9 @@
   "author": "Flower on the Wall",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2727",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2730": {
   "id": "SCP-2730",
@@ -265,7 +306,9 @@
   "author": "A Random Day",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2730",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2732": {
   "id": "SCP-2732",
@@ -287,7 +330,14 @@
   "author": "SunnyClockwork",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-2732",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2732/AlagaddaArtwork.jpg",
+    "cap": "SCP-2732와 함께 발견된 회화. 제작 시점 불명."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2733": {
   "id": "SCP-2733",
@@ -308,7 +358,32 @@
   "author": "ahbonjour",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "morgue2"
+    ],
+    [
+     "Name",
+     "Morgue"
+    ],
+    [
+     "Author",
+     "Pavel Tcholakov"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2736": {
   "id": "SCP-2736",
@@ -332,7 +407,22 @@
   "author": "Hercules Rockefeller",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2736",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2736/twonixons8.jpg",
+    "cap": "왼쪽: 재단 구류 하의 SCP-2736-1, 1973. 오른쪽: 두 번째 대통령 임기 중의 SCP-2736-2, 1973."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2736/bohemian.jpg",
+    "cap": "<25:16> 지점에서 카메라-1의 정지 프레임."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2736/fourkingsflipped.png",
+    "cap": "왼쪽부터 오른쪽으로: SCP-2736-2, 39대 미국 대통령 지미 카터 (PoI-62679), 38대 미국 대통령 제럴드 포드 (PoI-56121), 40대 미국 대통령 로널드 레이건 (PoI-86761), 1981/10/12."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2740": {
   "id": "SCP-2740",
@@ -355,7 +445,18 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2740",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2740/attic.png",
+    "cap": "가정용 캠코더에서 회수된 사진, 리 가족 주택의 다락방 내부로 추정됨. 촬영 일자를 알아내는 것은 불가능했다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2740/location.png",
+    "cap": "█████, IN, US."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2741": {
   "id": "SCP-2741",
@@ -376,7 +477,9 @@
   "author": "Freudian",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-2741",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2746": {
   "id": "SCP-2746",
@@ -401,7 +504,54 @@
   "author": "Fantem",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2746",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/Exit.jpg",
+    "cap": "SCP-2746-1에서 촬영한 SCP-2746의 사진. SR 111-2가 보인다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/Church.jpg",
+    "cap": "'████의 분노' 교회, SCP-2746-1에 위치해 있다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/scp2746.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/banner.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/bannertrans.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/Sketch_Fredrick.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://www.scp-wiki.net/local--files/scp-2746/Sketch_Fredrick.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/Sketch_Agatha.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://www.scp-wiki.net/local--files/scp-2746/Sketch_Agatha.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2746/Sketch_Clovis.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://www.scp-wiki.net/local--files/scp-2746/Sketch_Clovis.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2747": {
   "id": "SCP-2747",
@@ -425,7 +575,37 @@
   "author": "minmin",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2747",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2747/coverart.jpg",
+    "cap": "라디오헤드의 I/O 커버, SCP-2747 개체이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "coverart.jpg"
+    ],
+    [
+     "원본 제목",
+     "Black Fractal"
+    ],
+    [
+     "저작권자",
+     "Piotr Siedlecki"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "PublicDomainPictures.net"
+    ]
+   ]
+  ]
  },
  "SCP-2749": {
   "id": "SCP-2749",
@@ -446,6 +626,13 @@
   "author": "Fingo7",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-2749",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2749/tiey.jpg",
+    "cap": "SCP-2749"
+   }
+  ],
+  "img_credits": []
  }
 }

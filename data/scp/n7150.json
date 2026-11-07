@@ -17,7 +17,9 @@
   "author": "TroutMaskReplica",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7155",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7165": {
   "id": "SCP-7165",
@@ -41,7 +43,14 @@
   "author": "HarryBlank",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-7165",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7165/TLK.png",
+    "cap": "SCP-7165의 도상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7169": {
   "id": "SCP-7169",
@@ -63,7 +72,28 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7169",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-xxxx"
+    ],
+    [
+     "Name",
+     "plant"
+    ],
+    [
+     "Author",
+     "Marceline_Raynes"
+    ],
+    [
+     "License",
+     "CC0 BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7179": {
   "id": "SCP-7179",
@@ -88,7 +118,37 @@
   "author": "Calibold",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7179",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7179/hell.jpg",
+    "cap": "SCP-7179."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "hell.jpg"
+    ],
+    [
+     "Name",
+     "Seaside Tropical Island"
+    ],
+    [
+     "Author",
+     "Pixabay"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "https://snappygoat.com/s/?q=tropical+island#aac58012973f4727a0932083e7ac42e329c2642c,0,120."
+    ]
+   ]
+  ]
  },
  "SCP-7195": {
   "id": "SCP-7195",
@@ -111,6 +171,36 @@
   "author": "Prismal",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7195",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7195/AgentKitty2%28Wiley%29",
+    "cap": "SCP-7195"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "AgentKitty2(Wiley).jpg"
+    ],
+    [
+     "Name",
+     "AgentKitty2(Wiley)"
+    ],
+    [
+     "Author",
+     "Prismal"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/local--files/scp-7195/AgentKitty2%28Wiley%29"
+    ]
+   ]
+  ]
  }
 }

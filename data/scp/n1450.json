@@ -19,7 +19,9 @@
   "author": "Arlecchino",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1450",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1451": {
   "id": "SCP-1451",
@@ -43,7 +45,37 @@
   "author": "Rejekyll",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1451",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1451/circle.png",
+    "cap": "SCP-1451"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1451/face1.png",
+    "cap": "근접 촬영한 SCP-1451-7. 곧바로 3단계 시나리오에 돌입했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "circle.png, face1.png"
+    ],
+    [
+     "출처",
+     "https://underwatersculpture.com/"
+    ],
+    [
+     "제작자",
+     "Jason deCaires Taylor"
+    ],
+    [
+     "라이센스",
+     "허가 하 사용"
+    ]
+   ]
+  ]
  },
  "SCP-1452": {
   "id": "SCP-1452",
@@ -64,7 +96,33 @@
   "author": "RJB_R",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-1452",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1452/1452-new.jpg",
+    "cap": "주거용 주택에 통합되려 하는 어린 SCP-1452 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1452-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Kgbo"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1453": {
   "id": "SCP-1453",
@@ -85,7 +143,9 @@
   "author": "Hornby",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1453",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1454": {
   "id": "SCP-1454",
@@ -106,7 +166,9 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1454",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1455": {
   "id": "SCP-1455",
@@ -126,7 +188,9 @@
   "author": "Voct",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1455",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1456": {
   "id": "SCP-1456",
@@ -147,7 +211,9 @@
   "author": "Dr Sketch",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1456",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1459": {
   "id": "SCP-1459",
@@ -170,7 +236,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1459",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1459/PuppyCC.jpg",
+    "cap": "SCP-1459-1 한 마리."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "PuppyCC.jpg"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ],
+    [
+     "제작자",
+     "Poodles2Doodles"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1460": {
   "id": "SCP-1460",
@@ -194,7 +286,9 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1460",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1463": {
   "id": "SCP-1463",
@@ -217,7 +311,9 @@
   "author": "NatVoltaic",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1463",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1465": {
   "id": "SCP-1465",
@@ -239,7 +335,9 @@
   "author": "Djoric does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1465",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1467": {
   "id": "SCP-1467",
@@ -260,7 +358,9 @@
   "author": "fooloftime",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1467",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1470": {
   "id": "SCP-1470",
@@ -281,7 +381,33 @@
   "author": "Sorts",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1470",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1470/220px-Portia.fimbriata.male.-.tanikawa.jpg",
+    "cap": "격리 구역 안 SCP-1470"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "220px-Portia.fimbriata.male.-.tanikawa.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Akio Tanikawa"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.5"
+    ]
+   ]
+  ]
  },
  "SCP-1471": {
   "id": "SCP-1471",
@@ -302,7 +428,33 @@
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1471",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "MalO ver1.0.0"
+  "nickname": "MalO ver1.0.0",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1471/scp-1471.jpg",
+    "cap": "작동을 멈추기 전 SCP-1471-9405가 수신한 마지막 이미지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP1471.jpg"
+    ],
+    [
+     "저작권자",
+     "Tanagryph"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ],
+    [
+     "출처",
+     "http://tarangryph.deviantart.com/art/Don-t-open-the-door-266339027"
+    ]
+   ]
+  ]
  },
  "SCP-1472": {
   "id": "SCP-1472",
@@ -322,7 +474,9 @@
   "author": "LurkD",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1472",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1474": {
   "id": "SCP-1474",
@@ -344,7 +498,9 @@
   "author": "Gaffsey",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1474",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1479": {
   "id": "SCP-1479",
@@ -364,7 +520,9 @@
   "author": "Dexanote",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1479",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1480": {
   "id": "SCP-1480",
@@ -385,7 +543,9 @@
   "author": "Eskobar",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1480",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1481": {
   "id": "SCP-1481",
@@ -408,7 +568,9 @@
   "author": "UglyFlower",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-1481",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1483": {
   "id": "SCP-1483",
@@ -428,7 +590,9 @@
   "author": "Djoric",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1483",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1485": {
   "id": "SCP-1485",
@@ -450,7 +614,9 @@
   "author": "ObserverSeptember",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1486": {
   "id": "SCP-1486",
@@ -471,7 +637,9 @@
   "author": "Salman Corbette",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-1486",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1487": {
   "id": "SCP-1487",
@@ -493,7 +661,9 @@
   "author": "azzleflux : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1487",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1489": {
   "id": "SCP-1489",
@@ -516,7 +686,9 @@
   "author": "Seibai",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1489",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1492": {
   "id": "SCP-1492",
@@ -536,7 +708,33 @@
   "author": "Vezaz",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-1492",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1492/20221222_144351.jpg",
+    "cap": "회수 당시 SCP-1492"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "20221222_144351.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1492"
+    ],
+    [
+     "제작자",
+     "Vezaz"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1499": {
   "id": "SCP-1499",
@@ -556,6 +754,32 @@
   "author": "Trasknari",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1499",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1499/small.png",
+    "cap": "최초 회수 당시의 SCP-1499."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "small.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1499"
+    ],
+    [
+     "제작자",
+     "Trasknari"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

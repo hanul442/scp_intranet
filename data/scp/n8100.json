@@ -19,7 +19,89 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/7.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/8.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/9.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/10.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/11.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/12.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8100/13.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8100/ezgif-6-4e3e9c5c29.jpg",
+    "cap": "자켈 윌리엄스가 제작한 SCP-8100 모형"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8100/24b36c20-506e-4a89-8890-9c7441af78a6_1.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "the_hindoo_earth"
+    ],
+    [
+     "저작권자",
+     "Unknown Author"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:PSM_V10_D562_The_hindoo_earth.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8106": {
   "id": "SCP-8106",
@@ -39,7 +121,9 @@
   "author": "ubergoober",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-8106",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8109": {
   "id": "SCP-8109",
@@ -65,7 +149,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8109",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8109/editpage.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8140": {
   "id": "SCP-8140",
@@ -94,7 +185,353 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Alr0725-2180-afbf/8140-1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20Ruins",
+    "cap": "괴베클리 테페에서 이전 발굴한 구역."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20arrowheads",
+    "cap": "SCP-8140-5 & -6."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20shield",
+    "cap": "SCP-8140-8."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Daeva%20Hub%20-%20140%28blue%29",
+    "cap": "SCP-140 개체."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20caves",
+    "cap": "SCP-8140-A. 유일하게 기록 가능한 상형문자를 표시하였다."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20Breastplate",
+    "cap": "SCP-8140-11."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20Tunnel",
+    "cap": "SCP-8140-A로 이어지는 석조 터널."
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/grigori-karpin-i/SCP-8000%20knife%20hilt",
+    "cap": "SCP-8140-16."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Sword"
+    ],
+    [
+     "Author",
+     "The Swedish History Museum"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Mark 379a"
+    ],
+    [
+     "Author",
+     "mark byzewski"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Petrified wood"
+    ],
+    [
+     "Author",
+     "kate ure"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sandpaper board"
+    ],
+    [
+     "Author",
+     "BeckyF"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SCP-8140 Sword"
+    ],
+    [
+     "Author",
+     "Grigori Karpin"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Göbekli Tepe, Urfa.jpg"
+    ],
+    [
+     "Author",
+     "Teomancimit"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Glyph3PetrogradFixed.png"
+    ],
+    [
+     "Author",
+     "Petrograd"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Caynton Caves"
+    ],
+    [
+     "Author",
+     "Michael Scott/Schantelle"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Coimbra"
+    ],
+    [
+     "Author",
+     "Michael Kogan"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Paleolithic Stone Tools"
+    ],
+    [
+     "Author",
+     "Gary Todd"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Shield"
+    ],
+    [
+     "Author",
+     "Los Angelese County Museum of Art"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Breastplate"
+    ],
+    [
+     "Author",
+     "Walters Art Museum"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Free Texture #118"
+    ],
+    [
+     "Author",
+     "Brenda Clarke"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Asta de ciervo tallada"
+    ],
+    [
+     "Author",
+     "Ángel M. Felicísimo"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Texture 87"
+    ],
+    [
+     "Author",
+     "Ellen van Deelen"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SCP-140(blue)"
+    ],
+    [
+     "Author",
+     "Grigori Karpin"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Book Cover of The Language of Flowers"
+    ],
+    [
+     "Author",
+     "Rawpixel Ltd"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "LINK"
+    ]
+   ]
+  ]
  },
  "SCP-8145": {
   "id": "SCP-8145",
@@ -114,7 +551,123 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8145",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8145/fistula4.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "fistula1.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fistula2.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fistula3.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fistula4.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fistula5.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fistula6.svg"
+    ],
+    [
+     "Author",
+     "Monkeysky"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-8147": {
   "id": "SCP-8147",
@@ -135,6 +688,8 @@
   "author": "radian628",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8147",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

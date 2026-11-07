@@ -19,7 +19,14 @@
   "author": "Lamentte",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-4157",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4157/dooog.jpg",
+    "cap": "SCP-4157-1의 복제본. 기재된 번호는 추가 피해를 방지하기 위해 말소하였다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4161": {
   "id": "SCP-4161",
@@ -43,7 +50,47 @@
   "author": "Rounderhouse",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4161",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4161/monk2.png",
+    "cap": "재단에 입수되기 이전의 SCP-4161."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4161/error2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "monk2.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "error.png"
+    ],
+    [
+     "저자",
+     "Rounderhouse"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-4161"
+    ],
+    [
+     "비고",
+     "created at http://atom.smasher.org/error"
+    ]
+   ]
+  ]
  },
  "SCP-4162": {
   "id": "SCP-4162",
@@ -64,7 +111,9 @@
   "author": "Tanhony",
   "translator": "imtherealwow",
   "source": "https://scpko.wikidot.com/scp-4162",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4176": {
   "id": "SCP-4176",
@@ -85,7 +134,21 @@
   "author": "Uncle Nicolini & djkaktus",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4176",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4176/treasure.png",
+    "cap": "SCP-4176 사건에서 회수된 물품들."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "treasure.png"
+    ]
+   ]
+  ]
  },
  "SCP-4182": {
   "id": "SCP-4182",
@@ -110,7 +173,14 @@
   "author": "The Great Hippo",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4182",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment:scp-4182-1/blank.png",
+    "cap": "Invalid file/directory ('CAM-5.ogg')"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4192": {
   "id": "SCP-4192",
@@ -132,7 +202,21 @@
   "author": "Connor MacWarren",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4192",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4192/planet.jpg",
+    "cap": "SCP-4192."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "planet.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4194": {
   "id": "SCP-4194",
@@ -154,6 +238,8 @@
   "author": "Gua1ngHa3i",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-4194",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -21,7 +21,25 @@
   "author": "T Rutherford and UraniumEmpire",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6355",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6355/mazzikin.png",
+    "cap": "SCP-6355 (중앙 우측 하단.)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "mazzikin.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-6363": {
   "id": "SCP-6363",
@@ -43,7 +61,9 @@
   "author": "Mooagain",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-6363",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6367": {
   "id": "SCP-6367",
@@ -63,7 +83,37 @@
   "author": "JakdragonX",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6367",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/desert/chair",
+    "cap": "와티슨 요원이 상호작용하기 몇 분 전 시점의 SCP-6367."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "chair"
+    ],
+    [
+     "Name",
+     "Abandoned furniture, southwest desert LCCN2011630968.tif"
+    ],
+    [
+     "Author",
+     "Carol M. Highsmith"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6369": {
   "id": "SCP-6369",
@@ -87,7 +137,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6369",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6369/Iroh%20Hat.png",
+    "cap": "SCP-6369-B"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Iroh Hat.png"
+    ],
+    [
+     "Author",
+     "Bamibal"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6371": {
   "id": "SCP-6371",
@@ -111,7 +187,85 @@
   "author": "Liryn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6371",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6371/doyouremember.png",
+    "cap": "우리는 음지에서 죽어가도다"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6371/story.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6371/unlocked.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6371/unlocked_scp.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6371/chamber.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "story.jpg"
+    ],
+    [
+     "Name",
+     "Abandoned military facilities on Adak Island. Aleutian Islands.jpg"
+    ],
+    [
+     "Author",
+     "Paxson Woelber"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "unlocked.png, unlocked_scp.png"
+    ],
+    [
+     "Author",
+     "Liryn"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dXfhKGp.png"
+    ],
+    [
+     "Author",
+     "stephlynch, pumpkinmook"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-6376": {
   "id": "SCP-6376",
@@ -137,7 +291,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6376",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6376/RedTree",
+    "cap": "SCP-6376, 2013/04/03 발견 당시"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6377": {
   "id": "SCP-6377",
@@ -162,7 +323,9 @@
   "author": "Bread_Tyrant",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6377",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6381": {
   "id": "SCP-6381",
@@ -181,7 +344,9 @@
   "author": "Bread_Tyrant",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6381",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6383": {
   "id": "SCP-6383",
@@ -199,7 +364,28 @@
   "author": "Penton",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6383",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "STOP sign.jpg"
+    ],
+    [
+     "Author",
+     "Bidgee"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6387": {
   "id": "SCP-6387",
@@ -220,6 +406,36 @@
   "author": "Dr Leonerd",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-6387",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6387/SCP-6387.jpeg",
+    "cap": "SCP-6387이 발견된 장소."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-6387.jpeg"
+    ],
+    [
+     "Name",
+     "St Peter's Catholic cemetery, Suquamish (CURTIS 974).jpeg"
+    ],
+    [
+     "Author",
+     "Asahel Curtis"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

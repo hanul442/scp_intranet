@@ -17,7 +17,9 @@
   "author": "Claire Walker : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Practical Goo",
   "source": "https://scpko.wikidot.com/scp-6601",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6612": {
   "id": "SCP-6612",
@@ -38,7 +40,28 @@
   "author": "Penton",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6612",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Red roan horse trotting.jpg"
+    ],
+    [
+     "Author",
+     "Betty Wills (Atsme)"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6613": {
   "id": "SCP-6613",
@@ -57,7 +80,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6613",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6613/titlecard.jpg",
+    "cap": "에피소드 타이틀 화면의 전형적인 예시."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6618": {
   "id": "SCP-6618",
@@ -77,7 +107,82 @@
   "author": "Ecronak",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6618",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ESP Dancers.jpg"
+    ],
+    [
+     "Author",
+     "CraigShipp.com Photos - Events / People / Places"
+    ],
+    [
+     "License",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/d6308dad-2e0d-4ea8-87b1-07c071afe83f"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Le Jour ni l’Heure 3856 : Aube, fille des larmes, rétablis / La chambre dans sa paix de chose grise (Yves Bonnefoy) — Plieux, salle des Nuits, samedi 16 juin 2012, 05:17:48.jpg"
+    ],
+    [
+     "Author",
+     "Renaud Camus"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/d47374ec-5f90-4115-bd3c-1c3c1e9984aa"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Firland Tuberculosis Hospital beds, 1927.jpg"
+    ],
+    [
+     "Author",
+     "Seattle Municipal Archives"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/7132bbb9-5684-41d2-9284-70ca0d3ad2ab"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Dark_Basement.jpg"
+    ],
+    [
+     "Author",
+     "cogdogblog"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/c20cb693-bc2d-4b22-9b2b-5e806757713d"
+    ]
+   ]
+  ]
  },
  "SCP-6622": {
   "id": "SCP-6622",
@@ -103,7 +208,55 @@
   "author": "bigslothonmyface",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6622",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6622/6622-lodge.jpeg",
+    "cap": "SCP-6622-B-4, 현재 브리티시컬럼비아주 벤쿠버 시의 도심지에 96%의 전력을 공급하고 있음."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6622/6622-beaver.jpeg",
+    "cap": "SCP-6622-A-41. 예정된 먹이 제공 직후."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "6622-lodge"
+    ],
+    [
+     "Author",
+     "paulyang"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://nl.wikipedia.org/wiki/Bevers_(geslacht)#/media/Bestand:Beaver_dam_in_super_national_forest.JPG"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "6622-beaver"
+    ],
+    [
+     "Author",
+     "steve from washington, dc, usa"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://en.wikipedia.org/wiki/Beaver#/media/File:American_Beaver.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6624": {
   "id": "SCP-6624",
@@ -134,7 +287,51 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6624",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6624/XM7DOn2.jpg",
+    "cap": "카를로 제수알도의 초상화, 작자 미상. (16세기)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6624/vdIPKRa.jpg",
+    "cap": "정체불명의 독립체, 현재 SCP-6624-3으로 지정됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "vdIPKRa.jpg"
+    ],
+    [
+     "Author",
+     "Metaphysician"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "XM7DOn2.jpg"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6630": {
   "id": "SCP-6630",
@@ -156,7 +353,49 @@
   "author": "T Rutherford",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-6630",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-6630-1/6688v3.png",
+    "cap": "최초 격리 당시의 SCP-6630. MTF-ε9-02(사망)에게 \"달라붙으려\" 하는 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-6630-1/firesuppressiondepartmentw.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "6688v3.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "firesuppressiondepartmentw.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fsd2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "firesuppressiondepartmentwr.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fsd2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6636": {
   "id": "SCP-6636",
@@ -180,7 +419,9 @@
   "author": "NecroKitten",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6636",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6643": {
   "id": "SCP-6643",
@@ -200,6 +441,336 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6643",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/Tentrampage.jpg",
+    "cap": "제43기지 격리 파기 도중 SCP-6643."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/oldesttent.jpg",
+    "cap": "제21구역에서 처음으로 나타난 SCP-6643."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/Microtent.jpg",
+    "cap": "현미경 슬라이드에서 나타난 SCP-6643."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/colourtent.jpg",
+    "cap": "제43기지 격리 파기 도중 SCP-6643."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/91tent.jpg",
+    "cap": "제91기지에 나타난 SCP-6643."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6643/AAFDtent.jpg",
+    "cap": "제43기지 격리 파기 도중 SCP-6643."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "21Head.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "91tent.jpg"
+    ],
+    [
+     "Name",
+     "01. Water Line Connected to Pump Room at Cranberry Tube"
+    ],
+    [
+     "Author",
+     "MTAPhotos"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "coloured smoke"
+    ],
+    [
+     "Author",
+     "aubergene"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "6643.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "AAFDtent.jpg"
+    ],
+    [
+     "Name",
+     "Ascaris Larva (hatched on Slide)"
+    ],
+    [
+     "Author",
+     "Sustainable sanitation"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Bydgoszcz recycling factory - interior"
+    ],
+    [
+     "Author",
+     "maybukarkhyp"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Salt Waste Processing Facility - Construction"
+    ],
+    [
+     "Author",
+     "Savannah River Site"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Salt Waste Processing Facility - Construction"
+    ],
+    [
+     "Author",
+     "Savannah River Site"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "colourtent.jpg"
+    ],
+    [
+     "Name",
+     "Cowper"
+    ],
+    [
+     "Author",
+     "beeveephoto"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Smoke in Color"
+    ],
+    [
+     "Author",
+     "Jordan McCullough"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "gleipnir-icon.svg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Microtent.jpg"
+    ],
+    [
+     "Name",
+     "Ascaris Larva (Hatched on Microscope Slide)"
+    ],
+    [
+     "Author",
+     "Sustainable sanitation"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Old microscope slide."
+    ],
+    [
+     "Author",
+     "Robbie1"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "oldesttent.jpg"
+    ],
+    [
+     "Name",
+     "Smoke 2"
+    ],
+    [
+     "Author",
+     "AMagill"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "1927 HIEP HOA SUGAR REFINERY"
+    ],
+    [
+     "Author",
+     "manhhai"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Tentrampage.jpg"
+    ],
+    [
+     "Name",
+     "Ascaris Larva (hatched on Slide)"
+    ],
+    [
+     "Author",
+     "Sustainable sanitation"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Factory floor, Carrie Furnaces, Rankin PA"
+    ],
+    [
+     "Author",
+     "roy.luck"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ]
+  ]
  }
 }

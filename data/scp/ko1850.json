@@ -19,7 +19,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1850-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1855-KO": {
   "id": "SCP-1855-KO",
@@ -39,7 +41,9 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1855-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1863-KO": {
   "id": "SCP-1863-KO",
@@ -60,7 +64,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1863-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1863-ko/chanco_tartary.png",
+    "cap": "Proceedings of the general meetings for scientific business of the Zoological Society of London p. 94"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1863-ko/Canis_lupus_subspecies_range_Eurasia.png",
+    "cap": "Canis lupus subspecies range Eurasia.png"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1863-ko/SCP-1863-KO_01.png",
+    "cap": "대전 오월드 내 늑대 설명 팻말"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1863-ko/SCP-1863-KO_02.png",
+    "cap": "대전 오월드 내 사육 늑대 개체 (여름털)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1863-ko/SCP-1863-KO_03.png",
+    "cap": "청주동물원 내 늑대 설명 팻말"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1865-KO": {
   "id": "SCP-1865-KO",
@@ -88,7 +115,14 @@
   "author": "Kepner, Muramad, LR0725",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1865-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1865-ko/Dionysos.jpg",
+    "cap": "SCP-1865-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1867-KO": {
   "id": "SCP-1867-KO",
@@ -113,7 +147,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1867-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1871-KO": {
   "id": "SCP-1871-KO",
@@ -135,7 +171,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1871-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1876-KO": {
   "id": "SCP-1876-KO",
@@ -158,7 +196,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1876-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1880-KO": {
   "id": "SCP-1880-KO",
@@ -181,7 +226,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1880-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1884-KO": {
   "id": "SCP-1884-KO",
@@ -215,7 +262,30 @@
   "author": "LR0725 / wa",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1884-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1884-ko/fire.jpg",
+    "cap": "SCP-1884-KO-1의 최대 화력 시험 중 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1884-ko/fairy.png",
+    "cap": "PoI-1884-KO가 SCP-1884-KO-3을 개발하며 직접 제작한 시안."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1884-ko/crazyflame.jpg",
+    "cap": "PoI-1884-KO 확보 작전이 펼쳐진 파주시의 저수지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1884-ko/lake.jpg",
+    "cap": "PoI-1884-KO 확보 작전이 펼쳐진 파주시의 저수지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1884-ko/explosion.jpg",
+    "cap": "람다-B의 바디캠에 촬영된 폭발 순간의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1885-KO": {
   "id": "SCP-1885-KO",
@@ -246,7 +316,22 @@
   "author": "romrom, Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1885-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/collab%3Apayromroy/SCP-1885-KO-A.png",
+    "cap": "드론으로 원격 촬영된 SCP-1885-KO-A."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/collab:payromroy/chainsawman_1.jpg",
+    "cap": "출력된 사진."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/collab%3Apayromroy/map.png",
+    "cap": "SCP-1885-KO 군체 첫 발생 중심지."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1887-KO": {
   "id": "SCP-1887-KO",
@@ -269,7 +354,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1887-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1888-KO": {
   "id": "SCP-1888-KO",
@@ -290,7 +377,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1888-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1889-KO": {
   "id": "SCP-1889-KO",
@@ -310,7 +399,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1889-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/damgin-artwork/ISang%20toomyeong",
+    "cap": "변칙문학과"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/bluestar/1769693530387.jpg",
+    "cap": "임정규 푸른별 : Arartic38(캔버스에 기적학 처리된 수채/1640×1440/2003년)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1890-KO": {
   "id": "SCP-1890-KO",
@@ -334,7 +434,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1890-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1890-ko/sky.png",
+    "cap": "하늘."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1890-ko/black.png",
+    "cap": "하늘."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1890-ko/blue.png",
+    "cap": "하늘을 지켜줘."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1894-KO": {
   "id": "SCP-1894-KO",
@@ -357,7 +472,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1894-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1894-ko/%EC%82%B0%EC%96%91.jpg",
+    "cap": "표준적인 비변칙적 산양 개체의 사진"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1894-ko/Amur_Goral.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1898-KO": {
   "id": "SCP-1898-KO",
@@ -380,7 +506,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1898-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1898-ko/%EA%B5%AD%ED%8F%90%EC%86%8C%EC%82%AC%20%EA%B2%BD%EC%84%B1%EC%8B%A0%EC%82%AC%20%EB%B0%B0%EC%A0%84.jpg",
+    "cap": "국폐소사 경성신사 배전"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1898-ko/%EB%8B%A8%EA%B5%B0%EC%B2%9C%ED%99%A9.png",
+    "cap": "「신궁건축지」 단군천황"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1898-ko/%EC%A1%B0%EC%84%A0%EC%8B%A0%EA%B6%81%20%EC%A0%84%EA%B2%BD%28%ED%95%AD%EA%B3%B5%EC%82%AC%EC%A7%84%29.jpg",
+    "cap": "조선신궁 전경"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1898-ko/2026-08-20%20212601.png",
+    "cap": "발굴 중인 조선신궁 지하시설"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1899-KO": {
   "id": "SCP-1899-KO",
@@ -400,6 +545,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1899-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1899-ko/fire.jpg",
+    "cap": "제04K기지. 2025년 9월 8일 촬영됨."
+   }
+  ],
+  "img_credits": []
  }
 }

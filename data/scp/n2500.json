@@ -20,7 +20,37 @@
   "author": "Dmatix",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2500/article-0-12FB8D8A000005DC-113_634x488.jpg",
+    "cap": "SCP-2500-A 독립체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "article-0-12FB8D8A000005DC-113_634x488.jpg"
+    ],
+    [
+     "Name",
+     "A Star's Spiral"
+    ],
+    [
+     "Author",
+     "Francis Reddy"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://svs.gsfc.nasa.gov/10986"
+    ]
+   ]
+  ]
  },
  "SCP-2501": {
   "id": "SCP-2501",
@@ -42,7 +72,14 @@
   "author": "LurkD",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2501",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2501/LEAC1.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2502": {
   "id": "SCP-2502",
@@ -63,7 +100,9 @@
   "author": "Albert Richard",
   "translator": "Spawn Lenic",
   "source": "https://scpko.wikidot.com/scp-2502",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2505": {
   "id": "SCP-2505",
@@ -84,7 +123,9 @@
   "author": "Randomini",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2505",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2508": {
   "id": "SCP-2508",
@@ -107,7 +148,89 @@
   "author": "Eekium",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2508",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2508/house1.jpg",
+    "cap": "SCP-2508."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2508/dash1.jpg",
+    "cap": "SCP-2508-1."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2508/dash2.png",
+    "cap": "SCP-2508-2. (해치는 촬영되지 않음)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Old Cottage"
+    ],
+    [
+     "Name",
+     "house1"
+    ],
+    [
+     "Author",
+     "Jana Illnerová"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.publicdomainpictures.net/en/view-image.php?image=87368&picture=old-cottage"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "427122"
+    ],
+    [
+     "Name",
+     "dash1"
+    ],
+    [
+     "Author",
+     "Unsplash"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pxhere.com/en/photo/427122"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dash2"
+    ],
+    [
+     "Name",
+     "Abandoned Cellar"
+    ],
+    [
+     "Author",
+     "Lode Van de Velde"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.publicdomainpictures.net/en/view-image.php?image=129372&picture=abandoned-cellar"
+    ]
+   ]
+  ]
  },
  "SCP-2511": {
   "id": "SCP-2511",
@@ -131,7 +254,63 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2511",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2511/Panoramic_view_of_Lake_Kho%CC%88vsgo%CC%88l.jpg",
+    "cap": "후브스굴 호수 서식 구역 (Lake Khövsgöl Settlement Area, LKSA)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2511/Kappa.jpg",
+    "cap": "서기 1836년 목격된 SCP-2511-A 개체로 추정되는 대상을 묘사한 예술가의 그림. 여타 SCP-2511-A의 역사적 묘사보다 비교적 정확하다고 여겨진다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Panoramic_view_of_Lake_Khövsgöl.jpg"
+    ],
+    [
+     "Name",
+     "Panoramic view of Lake Khövsgöl.jpg"
+    ],
+    [
+     "Author",
+     "Zoharby"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Lake_Kh%C3%B6vsg%C3%B6l.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Kappa.jpg"
+    ],
+    [
+     "Name",
+     "File:Kappa water imp 1836.jpg"
+    ],
+    [
+     "Author",
+     "Reika"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Kappa_water_imp_1836.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2513": {
   "id": "SCP-2513",
@@ -153,7 +332,14 @@
   "author": "Doctor Cimmerian ＆ Blarghalt",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2513",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2513/794px-Ilid%C5%BEa_-_Roman_bridge.jpg",
+    "cap": "격리 이후의 SCP-2513."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2515": {
   "id": "SCP-2515",
@@ -179,7 +365,9 @@
   "author": "Univine",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2515",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2517": {
   "id": "SCP-2517",
@@ -206,7 +394,9 @@
   "author": "ch00bakka",
   "translator": "tul-uffle",
   "source": "https://scpko.wikidot.com/scp-2517",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2521": {
   "id": "SCP-2521",
@@ -231,7 +421,363 @@
   "author": "LurkD",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2521",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/scp_number.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/camera_icon.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/scp.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/keter.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/lock2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/documents4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/clearance5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/info.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/physical6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/intangible3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/thought4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/test_logs.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/a.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/test_a2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/b.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2521/test_b2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp_number.jpg"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "a.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "b.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "camera_icon.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "clearance6.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "documents4.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "info.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "intangible3.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "keter.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "lock2.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "physical6.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "test_a3.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "test_b2.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "test_logs.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "thought5.png"
+    ],
+    [
+     "Author",
+     "LurkD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2524": {
   "id": "SCP-2524",
@@ -251,7 +797,37 @@
   "author": "TyGently",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2524",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2524/nostrings2.jpg",
+    "cap": "SCP-2524."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "nostrings2.jpg"
+    ],
+    [
+     "Name",
+     "Candle Wax Red Free Photo"
+    ],
+    [
+     "Author",
+     "Lynn Greyling"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2527": {
   "id": "SCP-2527",
@@ -273,7 +849,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2527",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2536": {
   "id": "SCP-2536",
@@ -295,7 +873,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2536",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2536/BIGXMAS-new.jpg",
+    "cap": "제09기지 휴게실에 출현한 SCP-2536"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2537": {
   "id": "SCP-2537",
@@ -318,7 +903,59 @@
   "author": "TwistedGears",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2537",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2537/800px-5.22.10DonatoSquareByLuigiNovi5.jpg",
+    "cap": "SCP-2537 개체들을 모으고 있는 인원들 (노비 요원 촬영)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2537/werebricks",
+    "cap": "발견 당시 촬영된 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "800px-5.22.10DonatoSquareByLuigiNovi5.jpg"
+    ],
+    [
+     "Name",
+     "5.22.10DonatoSquareByLuigiNovi5.jpg"
+    ],
+    [
+     "Author",
+     "Nightscream"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "werebricks"
+    ],
+    [
+     "Author",
+     "PickYerPoison"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2539": {
   "id": "SCP-2539",
@@ -339,7 +976,37 @@
   "author": "Taffeta",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2539",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2539/highway.jpg",
+    "cap": "SCP-2539"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "highway.jpg"
+    ],
+    [
+     "Name",
+     "File:- ever south into the red desert (13113309315).jpg"
+    ],
+    [
+     "Author",
+     "Murray Foubister"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:-_ever_south_into_the_red_desert_(13113309315).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2540": {
   "id": "SCP-2540",
@@ -358,7 +1025,33 @@
   "author": "djkaktus",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2540",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2540/lime.jpg",
+    "cap": "SCP-2540의 변칙성이 존재하는 데 필수적인 4차원 공간 요건을 묘사한 도해."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "lime.jpg"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2547": {
   "id": "SCP-2547",
@@ -379,7 +1072,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2547",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2548": {
   "id": "SCP-2548",
@@ -402,6 +1097,8 @@
   "author": "TyGently",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-2548",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

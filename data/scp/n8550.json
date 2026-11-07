@@ -21,7 +21,14 @@
   "author": "local lesbian commie",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8557",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8557/a%20new%20friend.jpg",
+    "cap": "탄생한 SCP-8557 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8558": {
   "id": "SCP-8558",
@@ -48,7 +55,29 @@
   "author": "OriTiefling",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-8558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-8558/%ED%8E%B8%EC%A7%91%EB%90%A8.png",
+    "cap": "폴루스의 격리실에서 촬영한 기록의 한 장면. 윤리위원회의 명령에 따라 편집됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Redacted.png"
+    ],
+    [
+     "Author",
+     "oritiefling"
+    ],
+    [
+     "License",
+     "Creative Commons by Share-Alike 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-8566": {
   "id": "SCP-8566",
@@ -71,7 +100,57 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8566",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8566/existencethumb.png",
+    "cap": "Existence is Mandatory"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Texture.png"
+    ],
+    [
+     "Source",
+     "Wikicommon"
+    ],
+    [
+     "Author",
+     "Clara.Hoke"
+    ],
+    [
+     "License",
+     "CC0 1.0 Universal"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Urgencelogo.png"
+    ],
+    [
+     "Source",
+     "SCP Wiki"
+    ],
+    [
+     "Author",
+     "GreenGolem"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "existencethumb.png"
+    ]
+   ]
+  ]
  },
  "SCP-8590": {
   "id": "SCP-8590",
@@ -93,7 +172,49 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8590",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-four/dale.png",
+    "cap": "SCP-8590."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8590/dale5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8590/dale3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8590/dingus.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "dale.png"
+    ],
+    [
+     "원본",
+     "Me at the grassy knoll"
+    ],
+    [
+     "저작권자",
+     "Qfamily"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0."
+    ],
+    [
+     "출처",
+     "출처"
+    ]
+   ]
+  ]
  },
  "SCP-8591": {
   "id": "SCP-8591",
@@ -114,7 +235,25 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8591",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8591/ellingfant.png",
+    "cap": "SCP-8591."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ellingfant.png"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-8594": {
   "id": "SCP-8594",
@@ -136,7 +275,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8594",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8595": {
   "id": "SCP-8595",
@@ -156,7 +297,37 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8595",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-one/cock.png",
+    "cap": "사과를 섭취하는 SCP-8595"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cock.png"
+    ],
+    [
+     "Name",
+     "Cockroach on an apple"
+    ],
+    [
+     "Author",
+     "Neil Turner"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-8596": {
   "id": "SCP-8596",
@@ -181,7 +352,115 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8596",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-six/church2.png",
+    "cap": "SCP-8596-1 격리 공간."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-six/ramsey.png",
+    "cap": "SCP-8596-1."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-six/ambrose.png",
+    "cap": "조지 앰브로즈 연구원."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-six/wilkins.png",
+    "cap": "케네스 윌킨스 연구원"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "church1.png, church2.png"
+    ],
+    [
+     "Name",
+     "Mount Ida - Abandoned Church"
+    ],
+    [
+     "Author",
+     "Roger W"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "ramsey.png"
+    ],
+    [
+     "Name",
+     "DSC_0088.JPG"
+    ],
+    [
+     "Author",
+     "Andrew Feinberg"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "ambrose.png"
+    ],
+    [
+     "Name",
+     "Matt Hawes"
+    ],
+    [
+     "Author",
+     "Gage Skidmore"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "wilkins.png"
+    ],
+    [
+     "Name",
+     "Launch Conference"
+    ],
+    [
+     "Author",
+     "LAUNCH Partnership, Photography by Ken Yeung"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "flicker"
+    ]
+   ]
+  ]
  },
  "SCP-8599": {
   "id": "SCP-8599",
@@ -201,6 +480,62 @@
   "author": "PlaguePJP",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8599",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-two/seal.png",
+    "cap": "코끼리물범."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-two/seal2.png",
+    "cap": "코끼리물범."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "seal.png"
+    ],
+    [
+     "Name",
+     "Elephant Seals at Sunrise January 10, 2009"
+    ],
+    [
+     "Author",
+     "Elizabeth Haslam"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "seal2.png"
+    ],
+    [
+     "Name",
+     "Northern Elephant Seal, San Simeon2.jpg"
+    ],
+    [
+     "Author",
+     "Mike Baird"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

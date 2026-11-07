@@ -18,7 +18,9 @@
   "author": "Guaire",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6861",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6863": {
   "id": "SCP-6863",
@@ -40,7 +42,33 @@
   "author": "Agent Jackrabbit",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-6863",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6863/scp-6863.jpg",
+    "cap": "테일러 박사, 당신 사진보다 이게 진짜 진짜 더 괜찮아 보이는데!"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-6863.jpg"
+    ],
+    [
+     "저작권자",
+     "Agent Jackrabbit"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6868": {
   "id": "SCP-6868",
@@ -62,7 +90,77 @@
   "author": "Cremo",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6868",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6868/scp_bobby.jpg",
+    "cap": "SCP-6868."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6868/box_bobby.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6868/run_bobby.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp_bobby"
+    ],
+    [
+     "저작권자",
+     "Tstaffor"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-6868/scp_bobby.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "box_bobby"
+    ],
+    [
+     "저작권자",
+     "Tstaffor"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-6868/box_bobby.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "run_bobby"
+    ],
+    [
+     "저작권자",
+     "Tstaffor"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-6868/run_bobby.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6869": {
   "id": "SCP-6869",
@@ -88,7 +186,55 @@
   "author": "ratking666",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6869",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6869/itsokaytocry.jpg",
+    "cap": "그것이 발견된 곳."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6869/thenoteattheendthatexplainseverything.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "itsokaytocry.jpg"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "thenoteattheendthatexplainseverything.gif"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6870": {
   "id": "SCP-6870",
@@ -116,7 +262,33 @@
   "author": "ratking666 & ValidClay",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6870",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6870/emergency.jpg",
+    "cap": "SCP-6870-1의 부품"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "emergency.jpg"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-6870"
+    ]
+   ]
+  ]
  },
  "SCP-6871": {
   "id": "SCP-6871",
@@ -145,7 +317,9 @@
   "author": "Ralliston",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-6871",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6892": {
   "id": "SCP-6892",
@@ -168,6 +342,8 @@
   "author": "Harriet Farrar does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6892",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

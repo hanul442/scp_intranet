@@ -20,7 +20,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8616",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/damnation-pelican/Baby_2.jpg",
+    "cap": "SCP-8616-B 개체. 사생활 보호를 위해 편집함."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8618": {
   "id": "SCP-8618",
@@ -39,7 +46,14 @@
   "author": "syuzhet",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-8618",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8618/I%20AM%20EATING%20BUGS.jpeg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8624": {
   "id": "SCP-8624",
@@ -63,7 +77,33 @@
   "author": "Communism will win",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8624",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8624/piranha.jpg",
+    "cap": "제145기지 수조 내의 SCP-8624 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "piranha.jpg"
+    ],
+    [
+     "Author",
+     "Jim, the Photographer"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-8626": {
   "id": "SCP-8626",
@@ -85,7 +125,37 @@
   "author": "IndustryStandard",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8626",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8626/TennisEdit2.jpg",
+    "cap": "SCP-8626. 몽중 촬영을 통해 확보."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "TennisEdit2.png"
+    ],
+    [
+     "원본",
+     "Wimbledon 2019 Nadal v Sousa.jpg"
+    ],
+    [
+     "저작권자",
+     "I went to Wimbledon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-8637": {
   "id": "SCP-8637",
@@ -109,7 +179,9 @@
   "author": "zoempaws",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8637",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8645": {
   "id": "SCP-8645",
@@ -131,6 +203,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8645",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8645/cookienumnum.jpg",
+    "cap": "SCP-8645-23, 비어있음."
+   }
+  ],
+  "img_credits": []
  }
 }

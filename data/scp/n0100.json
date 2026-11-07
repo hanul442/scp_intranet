@@ -19,7 +19,33 @@
   "author": "Wilt",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-100/1YBBZ.png",
+    "cap": "외부에서 본 SCP-100의 점포"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "1YBBZ.png"
+    ],
+    [
+     "Author",
+     "faminepulse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-101": {
   "id": "SCP-101",
@@ -42,7 +68,37 @@
   "author": "Jo Black",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-101",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-101/SCP-101.jpg",
+    "cap": "첫 발견 당시의 SCP-101의 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-101.jpg"
+    ],
+    [
+     "원본",
+     "Satchel (AM 605142-1).jpg"
+    ],
+    [
+     "저작권자",
+     "Auckland Museum"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-102": {
   "id": "SCP-102",
@@ -65,7 +121,33 @@
   "author": "tunedtoadeadchannel",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-102",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-102/scp-102.JPG",
+    "cap": "SCP-102-1과 102-2의 모습. 임차 여부는 미확인."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-102"
+    ],
+    [
+     "원본",
+     "Red Roost, Red Rest, La Jolla.JPG"
+    ],
+    [
+     "저작권자",
+     "Invertzoo"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-103": {
   "id": "SCP-103",
@@ -89,7 +171,9 @@
   "author": "AstersQuill, BitOddInnit, fairydoctor, Spade103, tunedtoadeadchannel",
   "translator": "hailmary",
   "source": "https://scpko.wikidot.com/scp-103",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-104": {
   "id": "SCP-104",
@@ -110,7 +194,9 @@
   "author": "Dr Gears",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-104",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-105": {
   "id": "SCP-105",
@@ -135,7 +221,37 @@
   "author": "Dantensen",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-105",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-105/2014-07-18%2022.41.47-new.jpg",
+    "cap": "SCP-105-B"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "2014-07-18 22.41.47-new.jpg"
+    ],
+    [
+     "원본 제목",
+     "Polaroid OneStep Express.jpg"
+    ],
+    [
+     "저작권자",
+     "Retro00064"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-106": {
   "id": "SCP-106",
@@ -156,7 +272,77 @@
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-106",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "늙은이"
+  "nickname": "늙은이",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-106/106emergenceklay.jpg",
+    "cap": "출현 중인 SCP-106"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-106/106door.png",
+    "cap": "일차적 격리실의 부식 손상. 격리 절차는 개정되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-106/106victimresize.png",
+    "cap": "SCP-106이 “풀어 준” █████ 요원. 이 요원은 이틀동안 실종 상태였다. 풀려난 뒤 불과 한 시간 동안 목숨이 붙어 있었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "106emergenceklay.jpg"
+    ],
+    [
+     "원본",
+     "Emergence"
+    ],
+    [
+     "저작권자",
+     "Klay Abele/MrKlay"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "106door.png"
+    ],
+    [
+     "원본",
+     "106 Door"
+    ],
+    [
+     "저작권자",
+     "Cinemamind"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "106victimresize.png"
+    ],
+    [
+     "원본",
+     "106 Victim"
+    ],
+    [
+     "저작권자",
+     "Cinemamind"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-107": {
   "id": "SCP-107",
@@ -177,7 +363,9 @@
   "author": "RichardJ28",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-107",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-108": {
   "id": "SCP-108",
@@ -199,7 +387,37 @@
   "author": "thekit",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-108",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-108/SCP108interior.jpg",
+    "cap": "SCP-108의 내부 전경"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP108interior"
+    ],
+    [
+     "Name",
+     "U10 Innsbrucker Platz.jpg"
+    ],
+    [
+     "Author",
+     "Jcornelius"
+    ],
+    [
+     "License",
+     "CC BY-SA 1.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-109": {
   "id": "SCP-109",
@@ -219,7 +437,14 @@
   "author": "Proxtown",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-109",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-109/SCP-109-new.jpg",
+    "cap": "SCP-109"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-110": {
   "id": "SCP-110",
@@ -242,7 +467,9 @@
   "author": "작자 불명",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-110",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-111": {
   "id": "SCP-111",
@@ -266,7 +493,29 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-111",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-111/GardenpestSCP-new-new.png",
+    "cap": "격리실에 있는 SCP-111 개체 두 마리. '질질룡이'(왼쪽), '배끈적이'(오른쪽)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "GardenpestSCP-new-new.png"
+    ],
+    [
+     "저작권자",
+     "stephlynch, Ian Hubert"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-112": {
   "id": "SCP-112",
@@ -286,7 +535,63 @@
   "author": "MisterBibs",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-112",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-112/coasters-new.jpg",
+    "cap": "SCP-112 객차"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-112/vanishpoint-new.jpg",
+    "cap": "SCP-112 알파 지점"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "coasters-new.jpg"
+    ],
+    [
+     "원본",
+     "Montana Suiza Roller Coaster.jpg"
+    ],
+    [
+     "저작권자",
+     "Innovacionweb.com"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "vanishpoint-new.jpg"
+    ],
+    [
+     "원본",
+     "Lightning Racer Tracks, Hersheypark roller coaster, 2013-08-10.jpg"
+    ],
+    [
+     "저작권자",
+     "Paulo Ordoveza"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-113": {
   "id": "SCP-113",
@@ -306,7 +611,33 @@
   "author": "Robin Sure",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-113",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-113/SCP-113-new.jpg",
+    "cap": "SCP-113"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-113-new.jpg"
+    ],
+    [
+     "원본",
+     "2010 - red jasper.jpg"
+    ],
+    [
+     "저작권자",
+     "Doronenko"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-114": {
   "id": "SCP-114",
@@ -327,7 +658,9 @@
   "author": "미상",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-114",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-115": {
   "id": "SCP-115",
@@ -347,7 +680,33 @@
   "author": "SpoonOfEvil",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-115",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-115/tonka.jpg",
+    "cap": "제██기지로 이송되는 SCP-115"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tonka.jpg"
+    ],
+    [
+     "원본",
+     "Little Tonka Truck on a Trailer - Flickr - dave 7.jpg"
+    ],
+    [
+     "저작권자",
+     "dave_7 from Canada"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-116": {
   "id": "SCP-116",
@@ -369,7 +728,9 @@
   "author": "작자 미상",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-116",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-117": {
   "id": "SCP-117",
@@ -390,7 +751,9 @@
   "author": "작자 미상",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-117",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-118": {
   "id": "SCP-118",
@@ -412,7 +775,33 @@
   "author": "Oksbad",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-118",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-118/SCP118Pic.jpg",
+    "cap": "19██년 레드 구역 █에서의 격리 실패 당시 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP118Pic.jpg"
+    ],
+    [
+     "원본",
+     "Nuclear depth charge explodes near USS Agerholm (DD-826), 11 May 1962.jpg"
+    ],
+    [
+     "저작권자",
+     "US Naval Historical Center"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-119": {
   "id": "SCP-119",
@@ -433,7 +822,14 @@
   "author": "elrosth",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-119",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-119/scp119-new.jpg",
+    "cap": "유사한 모델."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-120": {
   "id": "SCP-120",
@@ -455,7 +851,9 @@
   "author": "미상",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-120",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-121": {
   "id": "SCP-121",
@@ -477,7 +875,9 @@
   "author": "Wilt",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-121",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-122": {
   "id": "SCP-122",
@@ -505,7 +905,73 @@
   "author": "Dr Kondraki",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-122",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/Night_light.jpg",
+    "cap": "SCP-122."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/the_girl_who_wanted_me_to_take_her_picture_and_put_it_on_the_Internetbw.jpg",
+    "cap": "SCP-122-1, 안나 탈린"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/blank.jpg",
+    "cap": "2017년 3월 1일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/Ecronak122pics1v3.jpg",
+    "cap": "2018년 4월 28일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/Ecronak122pics2v3.jpg",
+    "cap": "2020년 6월 26일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/Ecronak122pics3v3.jpg",
+    "cap": "2022년 9월 15일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-122/122writtentext.jpg",
+    "cap": "\"그가 저보고 기도하라고 해요.\""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "the_girl_who_wanted_me_to_take_her_picture_and_put_it_on_the_Internet"
+    ],
+    [
+     "Author",
+     "jesse.millan"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://wordpress.org/openverse/image/0c18f842-2bb1-4266-a63b-f678048d7aa3"
+    ],
+    [
+     "Name",
+     "Wing"
+    ],
+    [
+     "Author",
+     "Chris Cook"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://flickr.com/photos/chriscook4472/5514713814"
+    ]
+   ]
+  ]
  },
  "SCP-123": {
   "id": "SCP-123",
@@ -525,7 +991,9 @@
   "author": "sloppyjoes7",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-123",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-124": {
   "id": "SCP-124",
@@ -544,7 +1012,9 @@
   "author": "미상",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-124",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-126": {
   "id": "SCP-126",
@@ -567,7 +1037,9 @@
   "author": "익명 (71.246.65.x)",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-126",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-127": {
   "id": "SCP-127",
@@ -588,7 +1060,33 @@
   "author": "Arcibi",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-127/scp-127_1.png",
+    "cap": "SCP-127."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-127_1.png"
+    ],
+    [
+     "원본",
+     "SCP-127"
+    ],
+    [
+     "저작권자",
+     "JackalRelated"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-129": {
   "id": "SCP-129",
@@ -610,7 +1108,9 @@
   "author": "far2",
   "translator": "TreWa",
   "source": "https://scpko.wikidot.com/scp-129",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-130": {
   "id": "SCP-130",
@@ -630,7 +1130,14 @@
   "author": "MisterFlames",
   "translator": "lave",
   "source": "https://scpko.wikidot.com/scp-130",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-130/SCP-130-new.jpg",
+    "cap": "SCP-130"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-131": {
   "id": "SCP-131",
@@ -649,7 +1156,29 @@
   "author": "미상",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-131",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-131/131volgun.png",
+    "cap": "SCP-131-A와 SCP-131-B"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "131volgun.png"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-132": {
   "id": "SCP-132",
@@ -668,7 +1197,9 @@
   "author": "Robert Sandler does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-132",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-133": {
   "id": "SCP-133",
@@ -688,7 +1219,9 @@
   "author": "미상",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-133",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-134": {
   "id": "SCP-134",
@@ -711,7 +1244,37 @@
   "author": "미상",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-134",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-134/SCP-134.jpg",
+    "cap": "일반 조명 아래에서 촬영한 SCP-134"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-134/scp-134-2.jpg",
+    "cap": "저광량 촬영한 SCP-134의 왼쪽 눈"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-134.jpg"
+    ],
+    [
+     "원본",
+     "Shy Chinese girl.jpg"
+    ],
+    [
+     "저작권자",
+     "Romain Guy"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-135": {
   "id": "SCP-135",
@@ -735,7 +1298,9 @@
   "author": "Pig_catapult",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-135",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-136": {
   "id": "SCP-136",
@@ -757,7 +1322,9 @@
   "author": "kabu",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-136",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-137": {
   "id": "SCP-137",
@@ -778,7 +1345,14 @@
   "author": "DrEverettMann & Arlecchino",
   "translator": "memes",
   "source": "https://scpko.wikidot.com/scp-137",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-137/princess1.png",
+    "cap": "SCP-137의 현재 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-138": {
   "id": "SCP-138",
@@ -799,7 +1373,9 @@
   "author": "미상",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-138",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-139": {
   "id": "SCP-139",
@@ -823,7 +1399,33 @@
   "author": "Nagiros",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-139",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-139/last-encounter.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "last-encounter"
+    ],
+    [
+     "원본",
+     "cctv me"
+    ],
+    [
+     "저작권자",
+     "matthewvenn"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-140": {
   "id": "SCP-140",
@@ -846,7 +1448,29 @@
   "author": "AssertiveRoland",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-140/daevas.jpg",
+    "cap": "SCP-140의 복제품."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "daevas.jpg"
+    ],
+    [
+     "저작권자",
+     "Michal Příhoda"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-141": {
   "id": "SCP-141",
@@ -867,7 +1491,29 @@
   "author": "AssertiveRoland",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-141",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-141/SCP-0141.jpg",
+    "cap": "SCP-141"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-0141.jpg"
+    ],
+    [
+     "원본",
+     "Escape from Site 19"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-142": {
   "id": "SCP-142",
@@ -889,7 +1535,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-142",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-143": {
   "id": "SCP-143",
@@ -912,7 +1560,9 @@
   "author": "Kain Pathos Crow",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-143",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-144": {
   "id": "SCP-144",
@@ -932,7 +1582,24 @@
   "author": "FritzWillie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-144",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-144.webp"
+    ],
+    [
+     "Author",
+     "S D Locke"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-145": {
   "id": "SCP-145",
@@ -952,7 +1619,33 @@
   "author": "cinder",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-145",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-145/SCP-145-new.jpg",
+    "cap": "기지 내에서 촬영된 SCP-145의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-145-new.jpg"
+    ],
+    [
+     "원본",
+     "Alcatel one touch easy.jpg"
+    ],
+    [
+     "저작권자",
+     "Sandtechno4"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-147": {
   "id": "SCP-147",
@@ -975,7 +1668,9 @@
   "author": "Eberstrom",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-147",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-148": {
   "id": "SCP-148",
@@ -995,7 +1690,9 @@
   "author": "Lt Masipag",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-148",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-149": {
   "id": "SCP-149",
@@ -1017,6 +1714,13 @@
   "author": "Arlecchino",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-149",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-149/mosquito.jpg",
+    "cap": "D계급 피험자를 감염시키는 SCP-149."
+   }
+  ],
+  "img_credits": []
  }
 }

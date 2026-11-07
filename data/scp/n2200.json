@@ -22,7 +22,9 @@
   "author": "PeppersGhost",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-2200",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2201": {
   "id": "SCP-2201",
@@ -48,7 +50,37 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2201",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2201/Barbershop-new.jpg",
+    "cap": "딜레이 타이머를 이용해 찍은 SCP-2201-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Barbershop-new.jpg"
+    ],
+    [
+     "Name",
+     "Just before the battle. Washington D.C., July 12. Senator Joseph C. O'Mahoney, […]ing, gets a haircut and shave today in the barbershop before going on the Senate floor […] the Administration Court Bi"
+    ],
+    [
+     "Author",
+     "Harris & Ewing"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2204": {
   "id": "SCP-2204",
@@ -73,7 +105,9 @@
   "author": "Communism will win",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-2204",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2205": {
   "id": "SCP-2205",
@@ -94,7 +128,109 @@
   "author": "Logan Armstrong",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2205",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2205/old-us-soldiers-smoking.jpg",
+    "cap": "초기 전황 보고 동안의 모습: 오른쪽부터, 데렉 ██████ 병장, ███████ 라미레즈 이병, 드와이트 패터슨 씨"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2205/dat-shit.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2205/othershit.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "old-us-soldiers-smoking.jpg"
+    ],
+    [
+     "Name",
+     "The Doughboys of World War I"
+    ],
+    [
+     "Author",
+     "Library of Congress"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dat-shit.png"
+    ],
+    [
+     "Author",
+     "Logan Armstrong"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "com-o-cara.png"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sem-o-cara.png"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "othershit.png"
+    ],
+    [
+     "Author",
+     "Logan Armstrong"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2206": {
   "id": "SCP-2206",
@@ -116,7 +252,9 @@
   "author": "GreenWolf",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2206",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2207": {
   "id": "SCP-2207",
@@ -135,7 +273,9 @@
   "author": "dankaar",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2207",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2208": {
   "id": "SCP-2208",
@@ -155,7 +295,37 @@
   "author": "TL333s",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2208",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2208/scp-2208.jpg",
+    "cap": "실험용 선을 꽂고 뚜껑을 닫은 SCP-2208."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-2208.jpg"
+    ],
+    [
+     "Name",
+     "A Thermo-Electric Saucepan?"
+    ],
+    [
+     "Author",
+     "Paul Gardner-Stephen"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2214": {
   "id": "SCP-2214",
@@ -176,7 +346,9 @@
   "author": "Gaffsey",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2214",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2217": {
   "id": "SCP-2217",
@@ -203,7 +375,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2217",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2217/beach-913560_960_720.jpg",
+    "cap": "SCP-2217. 배경에 ██████섬이 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "beach-913560_960_720.jpg"
+    ],
+    [
+     "Name",
+     "beach-913560_1920.jpg"
+    ],
+    [
+     "Author",
+     "cosmix"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2219": {
   "id": "SCP-2219",
@@ -225,7 +427,18 @@
   "author": "daveyoufool",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2219",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2219/porridge.jpg",
+    "cap": "SCP-2219의 앞표지"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2219/screenshot.jpg",
+    "cap": "레벨 4 보스 곰노래기BÄRMILIPEDE의 인게임 스크린샷."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2221": {
   "id": "SCP-2221",
@@ -247,7 +460,37 @@
   "author": "lukebn",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2221",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2221/jesus%20noose.jpg",
+    "cap": "POP-192-2221-A의 구성원에 의해 생성된 그림. 2221-A 개체에 의해 생성된 종교 미술작품은 대체로 올가미를 포함하며, 이 경우에는 예수의 십자가형을 교수형으로 대체하고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "jesus noose.jpg"
+    ],
+    [
+     "Name",
+     "Pereda-varon de dolores.jpg"
+    ],
+    [
+     "Author",
+     "Antonio de Pereda"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2222": {
   "id": "SCP-2222",
@@ -271,7 +514,18 @@
   "author": "acc1177",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2222",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2222/Airlock4.jpg",
+    "cap": "외부 영상의 한 장면. 무허가 상호작용을 하다가 사고로 SCP-2222에 갇히기 직전의 ████ ██████████가 보인다. 사고 이후 우주복이 어디로 갔는지는 현재로서는 알 수 없다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2222/SCP20002.png",
+    "cap": "그림_07"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2223": {
   "id": "SCP-2223",
@@ -294,7 +548,33 @@
   "author": "PandoraNuker",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2223",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2223/SCP-2223-Fullsize.png",
+    "cap": "SCP-2223의 변칙 효과에 안전한 스크린샷. SCP-2223-1이 \"포도\" 이미지 검색창에서 다섯번째로 등록되어 있다. 클릭하면 확대된다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-2223-small.png"
+    ],
+    [
+     "Author",
+     "PandoraNuker"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2225": {
   "id": "SCP-2225",
@@ -317,7 +597,9 @@
   "author": "Zyn",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2225",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2232": {
   "id": "SCP-2232",
@@ -336,7 +618,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2232",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2232/BIRDPHONE.jpg",
+    "cap": "전화를 걸 때 SCP-2232-01."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "BIRDPHONE.jpg"
+    ],
+    [
+     "Name",
+     "Hill Myna (Gracula religiosa intermedia), Thrigby Hall.jpg"
+    ],
+    [
+     "Author",
+     "Spencer Wright"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2236": {
   "id": "SCP-2236",
@@ -358,7 +670,37 @@
   "author": "spikebrennan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2236",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2236/SCP-2236.jpg",
+    "cap": "SCP-2236"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-2236.jpg"
+    ],
+    [
+     "Name",
+     "Pocket microscope.jpg"
+    ],
+    [
+     "Author",
+     "Roger McLassus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2237": {
   "id": "SCP-2237",
@@ -381,7 +723,9 @@
   "author": "Agent MacLeod",
   "translator": "Fearing",
   "source": "https://scpko.wikidot.com/scp-2237",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2238": {
   "id": "SCP-2238",
@@ -402,7 +746,33 @@
   "author": "Zer0Ne0phyte",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-2238",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2238/levi.png",
+    "cap": "SCP-2238-A-14의 스크린샷"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "levi.png"
+    ],
+    [
+     "Author",
+     "Cyantreuse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2241": {
   "id": "SCP-2241",
@@ -426,6 +796,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2241",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

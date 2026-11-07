@@ -20,7 +20,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8852",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8866": {
   "id": "SCP-8866",
@@ -40,7 +42,32 @@
   "author": "Penton",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8866",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Couteau-econome.jpg"
+    ],
+    [
+     "원본",
+     "File:Couteau-econome.jpg"
+    ],
+    [
+     "저작권자",
+     "Fred.klein"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0, 3.0 Unported, 2.5 일반, 2.0 일반, 1.0 일반 라이선스"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-8876": {
   "id": "SCP-8876",
@@ -65,6 +92,28 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8876",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://smlt.wdfiles.com/local--files/j-dune:killing-floor/Lisobuda_Processing_Plant.jpg",
+    "cap": "실버스톤 돈육 가공Silverstone Pork Processing"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

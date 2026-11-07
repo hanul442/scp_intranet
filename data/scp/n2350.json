@@ -19,7 +19,9 @@
   "author": "Highroller",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2351",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2353": {
   "id": "SCP-2353",
@@ -40,7 +42,33 @@
   "author": "SoullessSingularity",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2353",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2353/fashionbaby.png",
+    "cap": "회수 당시의 SCP-2353."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "fashionbaby.png"
+    ],
+    [
+     "Author",
+     "SoullessSingularity"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2356": {
   "id": "SCP-2356",
@@ -61,7 +89,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2356",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2357": {
   "id": "SCP-2357",
@@ -82,7 +112,9 @@
   "author": "Communism will win",
   "translator": "jso9923",
   "source": "https://scpko.wikidot.com/scp-2357",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2358": {
   "id": "SCP-2358",
@@ -106,7 +138,9 @@
   "author": "HotCocoaNerd",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2358",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2361": {
   "id": "SCP-2361",
@@ -127,7 +161,55 @@
   "author": "NomadMonad",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2361",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2361/go_image.jpg",
+    "cap": "SCP-2361이 재현될 때까지 4수 직전의 바둑돌 배치. 변칙적 효과가 발생할 위험이 있어 SCP-2361이 완벽히 재현되지는 않았다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2361/go_message.JPG",
+    "cap": "SCP-2361에 의해 생성된 암호문."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "go_image.jpg"
+    ],
+    [
+     "Author",
+     "NomadMonad"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "go_message.JPG"
+    ],
+    [
+     "Author",
+     "NomadMonad"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2362": {
   "id": "SCP-2362",
@@ -147,7 +229,59 @@
   "author": "Lesh",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2362",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2362/pluto.jpg",
+    "cap": "오르페우스 발사 이전에 촬영된 SCP-2362 및 그 위성들"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2362/_84264807_84264806.jpg",
+    "cap": "NASA의 근접비행 임무 \"뉴허라이즌스\"가 보내왔다고 발표된 조작된 SCP-2362 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pluto.jpg"
+    ],
+    [
+     "Author",
+     "Lesh"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "_84264807_84264806.jpg"
+    ],
+    [
+     "Name",
+     "Pluto-new-horizons-2015-07-14-01.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2365": {
   "id": "SCP-2365",
@@ -166,7 +300,9 @@
   "author": "psul",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2365",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2367": {
   "id": "SCP-2367",
@@ -188,7 +324,9 @@
   "author": "Agent MacLeod",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2367",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2369": {
   "id": "SCP-2369",
@@ -209,7 +347,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2369",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2373": {
   "id": "SCP-2373",
@@ -230,7 +370,33 @@
   "author": "acc1177",
   "translator": "P_Per",
   "source": "https://scpko.wikidot.com/scp-2373",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2373/SCP-;(updated2.jpg",
+    "cap": "비활성화 상태의 SCP-2373."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-;(updated2.jpg"
+    ],
+    [
+     "Author",
+     "acc1177"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2376": {
   "id": "SCP-2376",
@@ -254,7 +420,9 @@
   "author": "AbsentmindedNihilist",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2376",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2380": {
   "id": "SCP-2380",
@@ -275,7 +443,9 @@
   "author": "BIDZ180",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2383": {
   "id": "SCP-2383",
@@ -295,7 +465,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2383",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2384": {
   "id": "SCP-2384",
@@ -316,7 +488,21 @@
   "author": "Tanhony",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-2384",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2384/scpduck-new.jpg",
+    "cap": "SCP-2384의 지상 부분."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpduck-new.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2396": {
   "id": "SCP-2396",
@@ -341,7 +527,33 @@
   "author": "kinchtheknifeblade",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2396",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2396/sweetie.png",
+    "cap": "야생에서 발견된 SCP-2396-A 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "sweetie.png"
+    ],
+    [
+     "Author",
+     "Bones"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2398": {
   "id": "SCP-2398",
@@ -361,7 +573,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2398",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2398/baseball.jpg",
+    "cap": "SCP-2398."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "baseball.jpg"
+    ],
+    [
+     "Name",
+     "VERNON WELLS.jpg"
+    ],
+    [
+     "Author",
+     "Keith Allison"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2399": {
   "id": "SCP-2399",
@@ -387,6 +629,98 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2399",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2399/header.png",
+    "cap": "목성의 대적반."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2399/location.png",
+    "cap": "대적반, 목성."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2399/redspot.gif",
+    "cap": "████년 ██월 ██일~████년 ██월 ██일까지 SCP-2399가 이동한 경로를 저속도로 촬영한 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2399/redspot2.png",
+    "cap": "21번 장벽 유닛에서 보이는 SCP-2399 (적색 동그라미 부분)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "header.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "location.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "redspot.gif"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "redspot2.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  }
 }

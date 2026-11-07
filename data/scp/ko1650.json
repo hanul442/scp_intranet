@@ -22,7 +22,9 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1650-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1652-KO": {
   "id": "SCP-1652-KO",
@@ -51,7 +53,18 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1652-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1652-ko/Seashell_unknown_3.jpg",
+    "cap": "SCP-1652-KO 내부 지면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1652-ko/Conchero_al_sur_de_Puerto_Deseado.jpg",
+    "cap": "SCP-1652-KO 내부 지형."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1653-KO": {
   "id": "SCP-1653-KO",
@@ -81,7 +94,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1653-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1655-KO": {
   "id": "SCP-1655-KO",
@@ -115,7 +130,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1655-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1661-KO": {
   "id": "SCP-1661-KO",
@@ -138,7 +155,58 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1661-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/user%3Akindofblue/-1-1.jpg",
+    "cap": "SCP-1661-KO-1의 예시."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/user%3Akindofblue/proposition.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/user%3Akindofblue/Ggoraji-1.png",
+    "cap": "가계도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/GGGoraji.png",
+    "cap": "해답."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/%EC%8B%9C%EC%9E%91%EA%B0%80%EA%B3%84%EB%8F%84.png",
+    "cap": "가계도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/past-friend.png",
+    "cap": "해답."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/siutae.png",
+    "cap": "가계도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/chenyeo.png",
+    "cap": "해답."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/alabama.png",
+    "cap": "가계도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/Alabamaaa.png",
+    "cap": "해답.."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/FREAKOUT.png",
+    "cap": "해답으로 제출한 가계도 중 일부. 붉은 원이 SCP-1661-KO-1이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1662-KO": {
   "id": "SCP-1662-KO",
@@ -161,7 +229,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1662-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1666-KO": {
   "id": "SCP-1666-KO",
@@ -193,7 +263,95 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1666-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1666-ko/mogi2.png",
+    "cap": "SCP-1666-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1666-ko/Pulse_jet_%28PSF%29.png",
+    "cap": "펄스제트 엔진의 구조."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1666-ko/Man_spraying_mosquito_breeding_places.jpg",
+    "cap": "축성 등유 연무 분사를 시도하는 곤충학부 요원."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1666-ko/Nepenthes_x_Ventrata_pitcher.jpg",
+    "cap": "동일 품종의 벌레잡이통풀 사진. 곤충학부 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mogi2.png"
+    ],
+    [
+     "저자",
+     "romrom, POI_Damgi"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Pulse_jet_(PSF).png"
+    ],
+    [
+     "저자",
+     "Pearson Scott Foresman"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Man_spraying_mosquito_breeding_places.jpg"
+    ],
+    [
+     "저자",
+     "Cecil Dzwowa"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Nepenthes_x_Ventrata_pitcher.jpg"
+    ],
+    [
+     "저자",
+     "Gaspard513"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1668-KO": {
   "id": "SCP-1668-KO",
@@ -219,7 +377,34 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1668-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1668-ko/Daegu_Jungbu_Police_Station_Dongin_Police_Box2.jpg",
+    "cap": "대구중부경찰서 인근에 나타난 V급 소환관문. 인지재해적 타르타로스 독립체 검열됨. 현장은 기동특무부대 베타-2 (\"모든 기기에다 포팅\") 에 의해 즉시 진압되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-668-ko/48a5921d3e9d63b4.png",
+    "cap": "마귀비빔밥의 로고."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1668-ko/%EC%95%85%EB%A7%88%ED%95%99%EA%B3%BC2.png",
+    "cap": "확보된 차원관문 중 하나. 여러 공통된 기호학적 상징들이 관찰되었다. 또한, 내부에서 반복된 추성기호가 발성되고 있었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1668-ko/%EC%95%85%EB%A7%88%ED%95%99%EA%B3%BC%204.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1668-ko/Shax.jpg",
+    "cap": "AO-2381666의 삽화 (Collin de Plancy, \"Dictionaire Infernnale\", 1863)."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1672-KO": {
   "id": "SCP-1672-KO",
@@ -245,7 +430,74 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1672-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/gasgas.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/dream.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/myship.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/smile.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/me.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Mannequins.png",
+    "cap": "오늘은 멋진 저녁 식사가 될 것이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/room",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/imbug.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Dead.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1672-ko/Hardship_6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/51/killme.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1677-KO": {
   "id": "SCP-1677-KO",
@@ -272,7 +524,26 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1677-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/airport-vtuber/popo_broadcast",
+    "cap": "스트리밍 중인 SCP-1677-KO(2025/07/19 당시 방송분)"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/airport-vtuber/popo_thumbnail",
+    "cap": "문제가 된 SCP-1677-KO의 1주년 기념 영상 썸네일."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/airport-vtuber/mascot",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/department-of-ontology/dologo.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1682-KO": {
   "id": "SCP-1682-KO",
@@ -299,7 +570,14 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1682-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1682-ko/dog.jpg",
+    "cap": "격리실 내부의 SCP-1682-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1684-KO": {
   "id": "SCP-1684-KO",
@@ -318,7 +596,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1684-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1690-KO": {
   "id": "SCP-1690-KO",
@@ -345,7 +625,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1690-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1691-KO": {
   "id": "SCP-1691-KO",
@@ -369,7 +651,9 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1691-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1692-KO": {
   "id": "SCP-1692-KO",
@@ -395,7 +679,59 @@
   "author": "USN",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1692-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1692-ko/USS_Macon_F9C.jpg",
+    "cap": "SCP-1692-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1692-ko/USS_Akron_(ZRS-4)_in_flight_over_Manhattan%2C_circa_1931-1933.jpg",
+    "cap": "[편집됨] 위를 비행하는 SCP-1692-KO."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "USS_Macon_F9C.jpg"
+    ],
+    [
+     "저자",
+     "USN"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ],
+    [
+     "비고",
+     "일부 변형됨."
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "USS_Akron_(ZRS-4)_in_flight_over_Manhattan%2C_circa_1931-1933.jpg"
+    ],
+    [
+     "저자",
+     "U.S. Navy"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-1693-KO": {
   "id": "SCP-1693-KO",
@@ -419,7 +755,9 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1693-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1696-KO": {
   "id": "SCP-1696-KO",
@@ -442,7 +780,31 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1696-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1696-ko/vatican.png",
+    "cap": "바티칸 상공에 출현한 SCP-1696-KO의 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1696-ko/angels.png",
+    "cap": "SCP-1696-KO와 그의 뒤편에 나타난 또 다른 신성독립체. 해당 독립체의 외형은 에제키엘서에 묘사된 2품 천사 케루브와 일치한다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "vatican.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "angels.png"
+    ]
+   ]
+  ]
  },
  "SCP-1698-KO": {
   "id": "SCP-1698-KO",
@@ -465,7 +827,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1698-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1699-KO": {
   "id": "SCP-1699-KO",
@@ -497,6 +861,13 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1699-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1699-ko/Hooded_man_on_bench_%28Unsplash%29.jpg",
+    "cap": "기동특무부대 무호-81이 SCP-1699-KO를 원격으로 촬영한 사진."
+   }
+  ],
+  "img_credits": []
  }
 }

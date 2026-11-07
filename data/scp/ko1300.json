@@ -24,7 +24,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1300-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1300-ko/1280px-Vintage_American_Watch_Company_Pocket_Watch%2C_Hunting_Case%2C_Key_Wound%2C_Coin_Silver_%288670151668%29.jpg",
+    "cap": "뚜껑이 덮인 상태의 SCP-1300-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1301-KO": {
   "id": "SCP-1301-KO",
@@ -45,7 +52,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1301-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1301-ko/Itxassou.jpg",
+    "cap": "파 드 롤랑3, 2003년 6월 촬영"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1307-KO": {
   "id": "SCP-1307-KO",
@@ -68,7 +82,33 @@
   "author": "Sycop",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1307-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1307-ko/Tree.png",
+    "cap": "형이상학적-격리실-1307KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Tree.png"
+    ],
+    [
+     "저자",
+     "Sycop"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "자체제작"
+    ]
+   ]
+  ]
  },
  "SCP-1308-KO": {
   "id": "SCP-1308-KO",
@@ -87,7 +127,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1308-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1309-KO": {
   "id": "SCP-1309-KO",
@@ -105,7 +147,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1309-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1311-KO": {
   "id": "SCP-1311-KO",
@@ -126,7 +170,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1311-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1314-KO": {
   "id": "SCP-1314-KO",
@@ -147,7 +193,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1314-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1316-KO": {
   "id": "SCP-1316-KO",
@@ -172,7 +220,18 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1316-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1316-ko/Graph.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1316-ko/Tower.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1317-KO": {
   "id": "SCP-1317-KO",
@@ -194,7 +253,9 @@
   "author": "Pil01",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1317-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1319-KO": {
   "id": "SCP-1319-KO",
@@ -214,7 +275,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1319-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1320-KO": {
   "id": "SCP-1320-KO",
@@ -236,7 +299,14 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1320-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1320-ko/scp-1320-ko.png",
+    "cap": "SCP-1320-KO-1과 -2의 대략적 위치도."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1323-KO": {
   "id": "SCP-1323-KO",
@@ -262,7 +332,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1323-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1323-ko/Eleonora%27s_falcon_%28Falco_eleonorae%29_in_flight_composite.jpg",
+    "cap": "선형적 시간대를 비행하는 SCP-1323-KO 무리."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1323-ko/Eleonara%27s_Falcon~Migration_routes.png",
+    "cap": "SCP-1323-KO로 인한 역사적 사건의 주 발생지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1323-ko/A_synopsis_of_the_Accipitres_%28diurnal_birds_of_prey%29_-_comprising_species_and_subspecies_described_up_to_1920%2C_with_their_characters_and_distribution_%281921%29_%2814562449377%29.jpg",
+    "cap": "1921년, 재단 시간변칙부에 의해 제거된 SCP-1323-KO 유정란."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1324-KO": {
   "id": "SCP-1324-KO",
@@ -283,7 +368,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1324-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1325-KO": {
   "id": "SCP-1325-KO",
@@ -304,7 +391,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1325-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1325-ko/Wooden_box_with_sliding_lid_-_Museo_Egizio,_Turin_S_14396_c_p01-1.jpg",
+    "cap": "SCP-1325-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1326-KO": {
   "id": "SCP-1326-KO",
@@ -328,7 +422,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1326-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1329-KO": {
   "id": "SCP-1329-KO",
@@ -358,7 +454,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1329-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1331-KO": {
   "id": "SCP-1331-KO",
@@ -382,7 +480,90 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1331-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_003.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_004.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_005.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_006.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_007.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_008.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_009.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_010.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_011.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_012.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_013.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_014.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_015.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_016.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_017.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_018.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_019.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_020n.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EC%BD%94%EB%AF%B92.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1331-ko-0/%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%90_021.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1333-KO": {
   "id": "SCP-1333-KO",
@@ -404,7 +585,9 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1333-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1339-KO": {
   "id": "SCP-1339-KO",
@@ -427,7 +610,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1339-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1339-ko/640px-Callorhinus_ursinus_and_harem.jpg",
+    "cap": "수컷 개체를 중심으로 촬영된 북방물개 무리"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1339-ko/105337063_dd0df2ea13_o.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1341-KO": {
   "id": "SCP-1341-KO",
@@ -448,7 +642,75 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1341-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": "복리후생부 로고. SCP-1341-KO의 목격 사진에서 추출함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1341-ko/1431arm.png",
+    "cap": "화면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1341-ko/August_2007%2C_walking_in_Seoul_105.jpg",
+    "cap": "제75K기지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1341-ko/The_Dark_Experiment_VII_-_Walk_With_Me_%2850646770551%29.jpg",
+    "cap": "궁지에 몰린 곳."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1341-ko/106victimresize.png",
+    "cap": "당신의 아내."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1341-ko/bokjismile.jpg",
+    "cap": "SCP-1341-KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bokjiii.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1431arm.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "August_2007%2C_walking_in_Seoul_105.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "The Dark Experiment VII - Walk With Me (50646770551).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "106victimresize.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bokjismile.jpg"
+    ],
+    [
+     "원본 제목",
+     "Alex Neman (11 July 2025).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1343-KO": {
   "id": "SCP-1343-KO",
@@ -475,7 +737,14 @@
   "author": "oratio, Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1343-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1343-ko/A_Japanese_lady_wearing_a_Kimono_is_sitting_on_the_Engawa.jpg",
+    "cap": "SCP-1343-KO. 체험 여행을 다룬 기사에서 발견됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1344-KO": {
   "id": "SCP-1344-KO",
@@ -495,6 +764,13 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1344-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1344-ko/apartmentcctv.png",
+    "cap": "흰색 상의를 입은 남성의 모습을 의태한 SCP-1344-KO가 촬영된 CCTV 자료 2015년 7월 13일 사건 보고서 발췌"
+   }
+  ],
+  "img_credits": []
  }
 }

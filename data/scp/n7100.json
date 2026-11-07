@@ -29,7 +29,50 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3323224931_b21f33308a_b.jpg"
+    ],
+    [
+     "원본",
+     "Rainbow"
+    ],
+    [
+     "저작권자",
+     "Stephen Hynds"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/25293698@N02/3323224931"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Rainbow1.svg"
+    ],
+    [
+     "저작권자",
+     "KES47"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Rainbow1.svg"
+    ]
+   ]
+  ]
  },
  "SCP-7103": {
   "id": "SCP-7103",
@@ -54,7 +97,33 @@
   "author": "Karathh, AnAnomalousWriter",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-7103",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7103/statued%20temp%20logo.png",
+    "cap": "이미지 A."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "statued%20temp%20logo"
+    ],
+    [
+     "저작권자",
+     "Karathh and AnAnomalousWriter"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://scpdsandbox.wdfiles.com/local--files/ananomalouswriter-1/statued%20temp%20logo"
+    ]
+   ]
+  ]
  },
  "SCP-7112": {
   "id": "SCP-7112",
@@ -77,7 +146,14 @@
   "author": "Uncle Nicolini",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-7112",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7112/sweater.jpg",
+    "cap": "SCP-7112."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7113": {
   "id": "SCP-7113",
@@ -101,7 +177,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7113",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7113/SCP-7113-1.jpg",
+    "cap": "SCP-7113의 예전 집. 현 거주자는 이전에 집에 있었던 변칙성을 모르는 것으로 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Henry Webber House"
+    ],
+    [
+     "Author",
+     "Daniel Case"
+    ],
+    [
+     "License",
+     "CC SA-BY 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-7127": {
   "id": "SCP-7127",
@@ -121,6 +223,8 @@
   "author": "ParallelPotatoes",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

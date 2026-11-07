@@ -18,7 +18,33 @@
   "author": "Akumeoy",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8251",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8251/attic.jpg",
+    "cap": "위 이미지를 바라볼 시 언제라도 관련 사건이 발생할 수 있음을 유의할 것."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "attic.jpg"
+    ],
+    [
+     "Author",
+     "Ayame89"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-8256": {
   "id": "SCP-8256",
@@ -41,7 +67,14 @@
   "author": "IAmTheOoga",
   "translator": "soypower2",
   "source": "https://scpko.wikidot.com/scp-8256",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8256/fedeaterresized.png",
+    "cap": "SCP-8256이 살던 굴."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8271": {
   "id": "SCP-8271",
@@ -63,7 +96,33 @@
   "author": "ParallelPotatoes",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8271",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8271/Paddlefish",
+    "cap": "미시시피 15번 갑문 및 댐에 있던 SCP-8271"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Paddlefish"
+    ],
+    [
+     "Author",
+     "USFWS"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "https://commons.wikimedia.org/wiki/File:Paddlefish_01.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8281": {
   "id": "SCP-8281",
@@ -82,6 +141,45 @@
   "author": "Maplestrip",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8281",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Embla.svg"
+    ],
+    [
+     "Author",
+     "ShineShadowD"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SMLT Container"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Ceramic, table lantern.jpg"
+    ],
+    [
+     "Author",
+     "Ingeborg Bernhard (Schnorch)"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "[https://commons.wikimedia.org/wiki/File:Ceramic,_table_lantern.jpg]"
+    ]
+   ]
+  ]
  }
 }

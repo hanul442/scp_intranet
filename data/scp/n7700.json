@@ -24,7 +24,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7700",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7700/SCP-7700-Incident.JPG",
+    "cap": "SCP-7700-A 사건 당시 안전가옥이 피해를 입은 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-7700-Incident.JPG"
+    ],
+    [
+     "원본",
+     "SCP-7700 Incident"
+    ],
+    [
+     "저작권자",
+     "Doctor Cimmerian"
+    ],
+    [
+     "라이선스",
+     "CC SA-BY 3.0"
+    ],
+    [
+     "출처",
+     "말 그대로 제 집입니다."
+    ]
+   ]
+  ]
  },
  "SCP-7703": {
   "id": "SCP-7703",
@@ -45,7 +75,33 @@
   "author": "DodoDevil & Rounderhouse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-7703",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7703/headhole.jpg",
+    "cap": "〈어리석음의 돌 꺼내기〉, 히에로니뮈스 보스, 1450년경 – 1516년."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "headhole.jpg"
+    ],
+    [
+     "Name",
+     "The Extraction of the Stone of Madness"
+    ],
+    [
+     "Author",
+     "Hieronymus Bosch"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ]
+   ]
+  ]
  },
  "SCP-7706": {
   "id": "SCP-7706",
@@ -68,7 +124,28 @@
   "author": "TheCommunity",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-7706",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Nrv99YJ?r.png"
+    ],
+    [
+     "저작권자",
+     "EstrellaYoshte"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Imgur, 출처는 Desk of Junior Designer S. Yvonne"
+    ]
+   ]
+  ]
  },
  "SCP-7724": {
   "id": "SCP-7724",
@@ -95,7 +172,37 @@
   "author": "Uncle Nicolini & Cassandra_Prime does not match any existing user name & Liryn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7724",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7724/marshall.jpg",
+    "cap": "하급 연구원 잭 왈처가 촬영한 마셜 연구원의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "marshall.jpg"
+    ],
+    [
+     "원본",
+     "marshall.jpg"
+    ],
+    [
+     "저작권자",
+     "Liryn"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "이하의 이미지들로 제작함: Link, Link"
+    ]
+   ]
+  ]
  },
  "SCP-7725": {
   "id": "SCP-7725",
@@ -120,7 +227,29 @@
   "author": "Uncle Nicolini",
   "translator": "Ginger butter",
   "source": "https://scpko.wikidot.com/scp-7725",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7725/ourhouse.JPG",
+    "cap": "2022년에 촬영된 SCP-7725."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ourhouse.JPG"
+    ],
+    [
+     "Source",
+     "https://commons.wikimedia.org/wiki/File:Abandoned_house,_US41,_Sycamore.JPG"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0."
+    ]
+   ]
+  ]
  },
  "SCP-7726": {
   "id": "SCP-7726",
@@ -141,7 +270,37 @@
   "author": "Uncle Nicolini",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-7726",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7726/gun.png",
+    "cap": "SCP-7726."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gun.png"
+    ],
+    [
+     "원본",
+     "Beretta 90TWO closed.JPG"
+    ],
+    [
+     "저작권자",
+     "Praiyachat"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-7727": {
   "id": "SCP-7727",
@@ -162,6 +321,36 @@
   "author": "Uncle Nicolini",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-7727",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7727/stinky.jpg",
+    "cap": "로버츠 박사."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "stinky.jpg"
+    ],
+    [
+     "Name",
+     "Dr. Batista"
+    ],
+    [
+     "Author",
+     "Assembleia Legislativa do Paraná"
+    ],
+    [
+     "License",
+     "CC BY SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/legislativopr/32085911838/in/photolist-QTjFJw-7bPevT-5CRHe5-2iKWNQZ-8Q3UZN-5PYNPh-8PZNPV-iN2uf-7XFdqt-2jsac8c-2iUujNB-2bV4pGf-QTjGt7-2bV4p6W-B2bxRj-2bCsiCP-9r3dmn-2bCshRi"
+    ]
+   ]
+  ]
  }
 }

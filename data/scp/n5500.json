@@ -18,7 +18,32 @@
   "author": "CRAt26 & Calibold",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-5500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/endoftheuniversepart2"
+    ],
+    [
+     "Name",
+     "endoftheuniversepart2"
+    ],
+    [
+     "Author",
+     "Crat, Calibold"
+    ],
+    [
+     "License",
+     "CC-by-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/endoftheuniversepart2"
+    ]
+   ]
+  ]
  },
  "SCP-5510": {
   "id": "SCP-5510",
@@ -39,7 +64,75 @@
   "author": "",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5510",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment:scp-4182-1/blank.png",
+    "cap": "[파일 선택되지 않음]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5510/cursor.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "blank.png"
+    ],
+    [
+     "원본",
+     "default.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "logo.png"
+    ],
+    [
+     "저작권자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cursor.png"
+    ],
+    [
+     "저작권자",
+     "aismallard"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-5522": {
   "id": "SCP-5522",
@@ -63,7 +156,9 @@
   "author": "Deadly Bread",
   "translator": "Canonkart",
   "source": "https://scpko.wikidot.com/scp-5522",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5523": {
   "id": "SCP-5523",
@@ -89,7 +184,37 @@
   "author": "Amelia Wright",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-5523",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5523/800px-Starr-100901-8979-Wikstroemia_monticola-habitat_and_goat_skeleton-Kanaio_Natural_Area_Reserve-Maui_(24755353650).jpg",
+    "cap": "SCP-5523과 관련된 백골사체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "800px-Starr-100901-8979-Wikstroemia_monticola-habitat_and_goat_skeleton-Kanaio_Natural_Area_Reserve-Maui_%2824755353650%29.jpg"
+    ],
+    [
+     "원본",
+     "Cow_Skeleton_-_geograph.org.uk_-_26234.jpg"
+    ],
+    [
+     "저작권자",
+     "Barnowl"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-5525": {
   "id": "SCP-5525",
@@ -113,7 +238,9 @@
   "author": "GreenWolf",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5525",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5527": {
   "id": "SCP-5527",
@@ -138,7 +265,63 @@
   "author": "J Dune",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5527",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5527/3554533781_99ab1d9900_b.jpg",
+    "cap": "인도네시아 빈탄섬 해변에 밀려온 SCP-5527"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "fish.jpg"
+    ],
+    [
+     "원본",
+     "Dead whale on Laguna Beach"
+    ],
+    [
+     "저작권자",
+     "Alan Light"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "locker.jpg"
+    ],
+    [
+     "원본",
+     "Utah Museum of Natural History Speciment Storage Lockers"
+    ],
+    [
+     "저작권자",
+     "Shaan Hurley"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5535": {
   "id": "SCP-5535",
@@ -161,7 +344,9 @@
   "author": "Sebarus",
   "translator": "oratio",
   "source": "https://scpko.wikidot.com/scp-5535",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5538": {
   "id": "SCP-5538",
@@ -184,7 +369,9 @@
   "author": "stormbreath",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5538",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5545": {
   "id": "SCP-5545",
@@ -211,7 +398,115 @@
   "author": "Yossipossi & Calibri Bold does not match any existing user name",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5545",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://topia.wdfiles.com/local--files/yossi-s-temporary-exquisite-corpse-thing/site344-1.jpg",
+    "cap": "제344-1 임시기지, 남극"
+   },
+   {
+    "src": "https://topia.wdfiles.com/local--files/yossi-s-temporary-exquisite-corpse-thing/hallway.JPG",
+    "cap": "SCP-5545-1-E2."
+   },
+   {
+    "src": "https://topia.wdfiles.com/local--files/yossi-s-temporary-exquisite-corpse-thing/intotheabyss.jpg",
+    "cap": "[가브리엘 리드 박사의 컴퓨터에서 찾은 이미지의 디지털 버전.]"
+   },
+   {
+    "src": "https://topia.wdfiles.com/local--files/yossi-s-temporary-exquisite-corpse-thing/sheiswatching.png",
+    "cap": "SCP-5545-1-P17."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "site344-1.jpg"
+    ],
+    [
+     "원본",
+     "Estação Antártica Comandante Ferraz"
+    ],
+    [
+     "저작권자",
+     "Rodrigo Padula"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons (via Flickr)"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "hallway.JPG"
+    ],
+    [
+     "원본",
+     "Underground facility of the Thomayer University Hospital (1)"
+    ],
+    [
+     "저작권자",
+     "Chmee2"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "intotheabyss.jpg"
+    ],
+    [
+     "원본",
+     "US Army training underground training West Fort Hood Night Vision"
+    ],
+    [
+     "저작권자",
+     "Sgt. Matthew Thompson"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons via army.mil"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "sheiswatching.png"
+    ],
+    [
+     "원본",
+     "Spooky Hallway (14564332356)"
+    ],
+    [
+     "저작권자",
+     "Sam Howzit"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons via flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5549": {
   "id": "SCP-5549",
@@ -238,6 +533,164 @@
   "author": "Rounderhouse",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5549",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5549/SECONDSINthumbnail.png",
+    "cap": "{$caption}"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5549/Shirley_Chisholm.jpg",
+    "cap": "런던 브리지 프로젝트 책임자 샤프 이사관"
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:crssk-7744-6a16/warn2ko.png",
+    "cap": "런던 브리지 프로젝트 책임자 샤프 이사관"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5549/800px-Vincent_Wigglesworth.jpg",
+    "cap": "런던 브리지 프로젝트 책임자 샤프 이사관"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5549/Signature_of_BTS%27_Jungkook.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Congresswoman Shirley Chisholm announcing her candidacy for presidential nomination"
+    ],
+    [
+     "저작권자",
+     "Thomas J. O'Halloran"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Library of Congress"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-Logo-2400.png"
+    ],
+    [
+     "저작권자",
+     "Aelanna"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "warn2.png"
+    ],
+    [
+     "원본",
+     "(if different from filename)"
+    ],
+    [
+     "저작권자",
+     "Rounderhouse"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sir Vincent Brian Wigglesworth. Photograph."
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "CC BY 4.0"
+    ],
+    [
+     "출처",
+     "Wellcome Collection"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "sd.png"
+    ],
+    [
+     "저작권자",
+     "Osobist"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "logo.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "File:Signature of BTS' Jungkook.png"
+    ],
+    [
+     "원본",
+     "(if different from filename)"
+    ],
+    [
+     "저작권자",
+     "BTS' Jungkook"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

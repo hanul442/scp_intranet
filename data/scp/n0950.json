@@ -18,7 +18,9 @@
   "author": "LastSatellite",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-950",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-952": {
   "id": "SCP-952",
@@ -44,7 +46,14 @@
   "author": "UraniumEmpire",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-952",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-952/HighwayAsh.png",
+    "cap": "SCP-952의 매개체인 하이웨이 애쉬의 대체 커버 아트. 본 이미지는 WOEDENAZ.aic를 통해 인식재해적 트리거가 없음이 확인되었다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-953": {
   "id": "SCP-953",
@@ -65,7 +74,9 @@
   "author": "DrClef",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-953",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-954": {
   "id": "SCP-954",
@@ -89,7 +100,37 @@
   "author": "DrMagnus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-954",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-954/Micrixalus_saxicola.jpg",
+    "cap": "현재 격리 중인 SCP-954"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Micrixalus_saxicola.jpg"
+    ],
+    [
+     "원본",
+     "File:Micrixalus saxicola.jpg"
+    ],
+    [
+     "저작권자",
+     "L. Shyamal"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.5"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-955": {
   "id": "SCP-955",
@@ -111,7 +152,28 @@
   "author": "spikebrennan",
   "translator": "aftergduo",
   "source": "https://scpko.wikidot.com/scp-955",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Mystic Seaport - Mystic CT"
+    ],
+    [
+     "저작권자",
+     "Rusty Clark"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-956": {
   "id": "SCP-956",
@@ -135,7 +197,33 @@
   "author": "Trasknari",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-956",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-956/SCP-956.jpg",
+    "cap": "격리되기 전의 SCP-956. 사진 촬영 전에 SCP-956-1 더미와 [데이터 편집됨]과 함께 있었음"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tumblr_lnkjqq3osj1qzzmx1o1_500.jpg"
+    ],
+    [
+     "저작권자",
+     "Ancientish"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (저작권자의 허가 하에 사용, Naepic이 원본 페이지 토론란에 남긴 2020. 04. 23. 코멘트 참고)"
+    ],
+    [
+     "출처",
+     "저작권자 홈페이지"
+    ]
+   ]
+  ]
  },
  "SCP-957": {
   "id": "SCP-957",
@@ -156,7 +244,9 @@
   "author": "azzleflux : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-957",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-958": {
   "id": "SCP-958",
@@ -180,7 +270,55 @@
   "author": "TwistedGears",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-958",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-958/VidBeep.png",
+    "cap": "SCP-958-A"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-958/Gun1.jpg",
+    "cap": "SCP-958-B 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "VidBeep.png"
+    ],
+    [
+     "원본",
+     "File:Metal House – Engine Robot (エンジンロボット) – In Action!!.jpg"
+    ],
+    [
+     "저작권자",
+     "D J Shin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gun1.jpg"
+    ],
+    [
+     "저작권자",
+     "TwistedGears"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-959": {
   "id": "SCP-959",
@@ -202,7 +340,9 @@
   "author": "Hivemind",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-961": {
   "id": "SCP-961",
@@ -224,7 +364,33 @@
   "author": "Eskobar",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-961",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-961/scp-961.jpg",
+    "cap": "직사광선에 노출된 SCP-961, 오전 11:42분."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-961.jpg"
+    ],
+    [
+     "저작권자",
+     "David Hollingworth"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (저작권자의 허가 하에 사용)"
+    ],
+    [
+     "출처",
+     "David Hollingworth Antiques"
+    ]
+   ]
+  ]
  },
  "SCP-962": {
   "id": "SCP-962",
@@ -247,7 +413,9 @@
   "author": "Anaxagoras",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-962",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-963": {
   "id": "SCP-963",
@@ -268,7 +436,47 @@
   "author": "AdminBright",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-963",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-963/963ccc_small.jpg",
+    "cap": "SCP-963-1, 숙주 없는 상태."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-963/SCP-963-2.jpg",
+    "cap": "SCP-963-2, [데이터 말소]에서 발견됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "963ccc_small.jpg"
+    ],
+    [
+     "저작권자",
+     "Danzazalord"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "2ni6vxu.jpg"
+    ],
+    [
+     "저작권자",
+     "AdminBright"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-965": {
   "id": "SCP-965",
@@ -288,7 +496,9 @@
   "author": "ChazzK",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-965",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-966": {
   "id": "SCP-966",
@@ -312,7 +522,29 @@
   "author": "Enma Ai",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-966",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-966/Darkskullteeth%20infrared%201-new.png",
+    "cap": "SCP-966-2 (적외선 필터를 통해 관찰됨)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Darkskullteeth infrared 1-new.png"
+    ],
+    [
+     "저작권자",
+     "stephlynch"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-970": {
   "id": "SCP-970",
@@ -333,7 +565,9 @@
   "author": "Freudian",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-970",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-971": {
   "id": "SCP-971",
@@ -355,7 +589,9 @@
   "author": "DJ Suptic",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-971",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-973": {
   "id": "SCP-973",
@@ -378,7 +614,9 @@
   "author": "Djoric",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-973",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-975": {
   "id": "SCP-975",
@@ -401,7 +639,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-975",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-976": {
   "id": "SCP-976",
@@ -422,7 +662,9 @@
   "author": "Aelanna",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-976",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-978": {
   "id": "SCP-978",
@@ -444,7 +686,37 @@
   "author": "agatharights",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-978",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-978/978%20camera%20new.jpg",
+    "cap": "초기 분석 도중의 SCP-978"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "978 camera new.jpg"
+    ],
+    [
+     "원본",
+     "Vintage Polaroid SX-70 retro camera with supple brown cow hide and chrome metal details sits atop a wooden table, next to a potted green plant."
+    ],
+    [
+     "저작권자",
+     "Jen Theodore"
+    ],
+    [
+     "라이선스",
+     "Unsplash license (CC0)"
+    ],
+    [
+     "출처",
+     "Unsplash"
+    ]
+   ]
+  ]
  },
  "SCP-979": {
   "id": "SCP-979",
@@ -468,7 +740,37 @@
   "author": "SoullessSingularity",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-979",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-979/bunny.JPG",
+    "cap": "촬영에 반응하는 SCP-979."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bunny.JPG"
+    ],
+    [
+     "원본",
+     "I am no one"
+    ],
+    [
+     "저작권자",
+     "Beth Cavener"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보호 (저작권자의 허락 하에 사용)"
+    ],
+    [
+     "출처",
+     "Smithsonian American Art Museum"
+    ]
+   ]
+  ]
  },
  "SCP-980": {
   "id": "SCP-980",
@@ -489,7 +791,9 @@
   "author": "ARobot",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-980",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-982": {
   "id": "SCP-982",
@@ -511,7 +815,9 @@
   "author": "Voct",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-982",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-983": {
   "id": "SCP-983",
@@ -535,7 +841,9 @@
   "author": "NekoChris",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-983",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-984": {
   "id": "SCP-984",
@@ -556,7 +864,37 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-984",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-984/bearstormstheshitter.jpg",
+    "cap": "SCP-984"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bearstormstheshitter.jpg"
+    ],
+    [
+     "원본",
+     "Pacific Place GF Restroom"
+    ],
+    [
+     "저작권자",
+     "lamhkczbb"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-988": {
   "id": "SCP-988",
@@ -576,7 +914,37 @@
   "author": "Seibai",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-988",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-988/WoodenChest.jpg",
+    "cap": "SCP-988"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "WoodenChest.jpg"
+    ],
+    [
+     "원본",
+     "Box 1 -Wooden Chest."
+    ],
+    [
+     "저작권자",
+     "Brenda Clarke"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-989": {
   "id": "SCP-989",
@@ -597,7 +965,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-989",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-989/Sugar_caster_MET_145033.jpg",
+    "cap": "현재 격리 중인 SCP-989"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Sugar_caster_MET_145033.jpg"
+    ],
+    [
+     "Author",
+     "Metropolitan Museum of Art"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-990": {
   "id": "SCP-990",
@@ -620,7 +1014,37 @@
   "author": "Dave Rapp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-990",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-990/scp990-new.jpg",
+    "cap": "화가가 SCP-990을 묘사한 그림."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp990-new.jpg"
+    ],
+    [
+     "원본",
+     "SCP-990"
+    ],
+    [
+     "저작권자",
+     "Skiu photography"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "DeviantArt"
+    ]
+   ]
+  ]
  },
  "SCP-991": {
   "id": "SCP-991",
@@ -641,7 +1065,9 @@
   "author": "DrSevere",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-991",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-992": {
   "id": "SCP-992",
@@ -666,7 +1092,14 @@
   "author": "작자 미상",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-992",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-992/SCP-992.png",
+    "cap": "SCP-992가 확보된 장소를 촬영한 보존 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-993": {
   "id": "SCP-993",
@@ -692,7 +1125,29 @@
   "author": "Tanhony",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-993",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-993/993.png",
+    "cap": "SCP-993의 '보블의 깜짝 주방' 에피소드의 정지 화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "993.png"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-994": {
   "id": "SCP-994",
@@ -713,7 +1168,9 @@
   "author": "Djoric",
   "translator": "Practical Goo",
   "source": "https://scpko.wikidot.com/scp-994",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-995": {
   "id": "SCP-995",
@@ -734,7 +1191,9 @@
   "author": "Tadeusz",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-995",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-996": {
   "id": "SCP-996",
@@ -754,7 +1213,9 @@
   "author": "Kazyan",
   "translator": "Yitrium",
   "source": "https://scpko.wikidot.com/scp-996",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-997": {
   "id": "SCP-997",
@@ -775,7 +1236,9 @@
   "author": "Anaxagoras",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-997",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-998": {
   "id": "SCP-998",
@@ -796,7 +1259,37 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-998/SCP-998.jpg",
+    "cap": "SCP-998과 동일 기종인 록히드 MC-130E \"컴뱃 탤런\" 한 대"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp998.jpg"
+    ],
+    [
+     "원본",
+     "AN air-to-air left side view of an MC-130E Hercules aircraft flying low-level maneuvers over the Arizona desert. The aircraft is assigned to the 8th Special Operations Squadron at Hurlburt Field, Fla"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "National Archives Catalog"
+    ]
+   ]
+  ]
  },
  "SCP-999": {
   "id": "SCP-999",
@@ -818,6 +1311,8 @@
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-999",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "간지럼 괴물"
+  "nickname": "간지럼 괴물",
+  "images": [],
+  "img_credits": []
  }
 }

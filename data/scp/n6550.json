@@ -17,7 +17,21 @@
   "author": "Tstaffor",
   "translator": "Sycop",
   "source": "https://scpko.wikidot.com/scp-6552",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6552/tidalwav.png",
+    "cap": "SCP-6552."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tidalwav.png"
+    ]
+   ]
+  ]
  },
  "SCP-6555": {
   "id": "SCP-6555",
@@ -40,7 +54,18 @@
   "author": "JakdragonX & Ralliston",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-6555",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6555/galaxy.jpg",
+    "cap": "XEO 8537-A이 내부에 위치한 은하의 사진. 타키온 스캐너로 촬영"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6555/moon.png",
+    "cap": "XEO 8537-A의 표면 상공에서 촬영된 이미지."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6556": {
   "id": "SCP-6556",
@@ -64,7 +89,21 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6556",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6556/dinovlog.jpg",
+    "cap": "SCP-6556 영상의 인트로 애니메이션을 캡처한 스크린샷."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "dinovlog.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6558": {
   "id": "SCP-6558",
@@ -88,7 +127,55 @@
   "author": "Tstaffor",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6558/1437.jpg",
+    "cap": "이거 제대로 찾아 CROM!!!"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6558/professor_funtastic.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "1473.jpg"
+    ],
+    [
+     "Name",
+     "Black Hole in the universe.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Black_Hole_in_the_universe.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "professor_funtastic.png"
+    ],
+    [
+     "Author",
+     "Tstaffor"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-6572": {
   "id": "SCP-6572",
@@ -108,7 +195,33 @@
   "author": "LORDXVNV",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-6572",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6572/dustboom.jpg",
+    "cap": "SCP-6572의 등장 사건"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "dustboom.jpg"
+    ],
+    [
+     "Author",
+     "Sgt Armondo Monroig, USA"
+    ],
+    [
+     "License",
+     "C0 (released to public no copyright restriction)"
+    ],
+    [
+     "Source Link",
+     "https://nara.getarchive.net/media/dirt-and-debris-flies-into-the-air-as-an-artillery-shell-explodes-upon-impact-3bf7da"
+    ]
+   ]
+  ]
  },
  "SCP-6578": {
   "id": "SCP-6578",
@@ -132,7 +245,9 @@
   "author": "Dr Leonerd",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6578",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6585": {
   "id": "SCP-6585",
@@ -155,7 +270,14 @@
   "author": "ObserverSeptember",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6585",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6585/communitydog.png",
+    "cap": "SCP-6585 개체. 민간인 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6593": {
   "id": "SCP-6593",
@@ -179,7 +301,37 @@
   "author": "PlaguePJP",
   "translator": "POI_Damgi",
   "source": "https://scpko.wikidot.com/scp-6593",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6593/vendingmachine.jpg",
+    "cap": "발견 당시 위치에 있는 SCP-6593."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "vendingmachine.jpg"
+    ],
+    [
+     "원본",
+     "Vending Machine - ND0_4569"
+    ],
+    [
+     "저작권자",
+     "N i c o l a"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0."
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-6594": {
   "id": "SCP-6594",
@@ -202,7 +354,37 @@
   "author": "PlaguePJP",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-6594",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6594/party.png",
+    "cap": "생일 파티."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6594/chamber.png",
+    "cap": "방으로 통하는 창문"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "chamber.png"
+    ],
+    [
+     "저작권자",
+     "Eddi 07- Free Stock"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "[https://www.flickr.com/photos/47231550@N07/4388755069]"
+    ]
+   ]
+  ]
  },
  "SCP-6598": {
   "id": "SCP-6598",
@@ -224,7 +406,33 @@
   "author": "Cremo",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6598",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6598/coin.png",
+    "cap": "SCP-6598."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "coin.png"
+    ],
+    [
+     "저작권자",
+     "Arun Kumar Singh"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어"
+    ]
+   ]
+  ]
  },
  "SCP-6599": {
   "id": "SCP-6599",
@@ -252,6 +460,124 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6599",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/SLICE.png",
+    "cap": "일기예보 생방송 도중 진행자를 공격하는 SCP-6599-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/4386553053_c654e4e85d_b.jpg",
+    "cap": "미주리 블로젯에서 발생한 ALT-F4 사태의 잔해"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/bugheader3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/28449361185_b26ef58b36_b.jpg",
+    "cap": "SCP-5175를 이용한 장기를 선보이는 우드콕 요원"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/break.jpg",
+    "cap": "SCP-5175를 이용한 장기를 선보이는 우드콕 요원"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6599/2685868547_108d2399ef_b.jpg",
+    "cap": "SCP-5175를 이용한 장기를 선보이는 우드콕 요원"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SLICE.png"
+    ],
+    [
+     "Author",
+     "MikeKalasnik"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "[https://wordpress.org/openverse/photos/bfe9145a-8911-4c39-bf31-964603c007e3?referrer=creativecommons.org]"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "2685868547_108d2399ef_b.jpg"
+    ],
+    [
+     "Author",
+     "dbzer0"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "[https://wordpress.org/openverse/photos/32bd0e3e-1e35-4b3d-8875-bf4499343a1f?referrer=creativecommons.org]"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "28449361185_b26ef58b36_b.jpg"
+    ],
+    [
+     "Author",
+     "Ken_Mayer"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "[https://wordpress.org/openverse/photos/7df85357-4240-400e-b41b-ad527d80f7b6?referrer=creativecommons.org]"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "break.jpg"
+    ],
+    [
+     "Author",
+     "S B"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "[https://www.flickr.com/photos/57373363@N00/280931618]"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "4386553053_c654e4e85d_b.jpg"
+    ],
+    [
+     "Author",
+     "IDVMedia"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "[https://wordpress.org/openverse/photos/1df9aa53-03f1-4508-a38c-ec1b05f88227?referrer=creativecommons.org]"
+    ]
+   ]
+  ]
  }
 }

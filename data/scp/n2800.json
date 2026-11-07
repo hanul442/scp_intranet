@@ -20,7 +20,9 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2800",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2803": {
   "id": "SCP-2803",
@@ -43,7 +45,9 @@
   "author": "daveyoufool",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2803",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2805": {
   "id": "SCP-2805",
@@ -68,7 +72,14 @@
   "author": "RJB_R",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2805",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2805/2805-new.png",
+    "cap": "SCP-2805"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2810": {
   "id": "SCP-2810",
@@ -89,7 +100,9 @@
   "author": "A Random Day",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2810",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2812": {
   "id": "SCP-2812",
@@ -116,7 +129,77 @@
   "author": "djkaktus",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-2812",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2812/IMAG0835.jpg",
+    "cap": "SCP-2812의 현 위치인 라임스톤 비즈니스 센터의 옥외 광고판"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2812/IMAG0843.jpg",
+    "cap": "인디애나주의 ███████ 마을로 향하는 ██번 주로."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2812/IMG_20140513_042723.jpg",
+    "cap": "사라지고 있는 SCP-2812-2 개체의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "IMAG0835.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "IMAG0843.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "IMG_20140513_042723.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2820": {
   "id": "SCP-2820",
@@ -140,7 +223,9 @@
   "author": "A Random Day",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2820",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2821": {
   "id": "SCP-2821",
@@ -165,7 +250,14 @@
   "author": "NatVoltaic",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2821",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2821/354px-Meta-stability-2.png",
+    "cap": "일반준안정성을 나타낸 도해. 1은 가짜진공 내부의 힉스장, 2는 전이경계선상의 힉스장, 3은 새로 형성된 진짜진공 내부의 힉스장을 나타낸다. 이 지점에서 장의 잠재에너지가 가장 작아진다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2822": {
   "id": "SCP-2822",
@@ -186,7 +278,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2822",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2822/MontBlancdeCheilon01.jpg",
+    "cap": "SCP-2822가 처음 발견된 위치."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2828": {
   "id": "SCP-2828",
@@ -209,7 +308,9 @@
   "author": "ooblex",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2828",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2829": {
   "id": "SCP-2829",
@@ -232,7 +333,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2829",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2829/themistake.jpg",
+    "cap": "회수된 SCP-2829."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2833": {
   "id": "SCP-2833",
@@ -258,7 +366,14 @@
   "author": "MrWrong",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-2833",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2833/Aghori%20B%20%281%29.jpg",
+    "cap": "격리되기 전에 촬영된 SCP-2833-52"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2835": {
   "id": "SCP-2835",
@@ -279,7 +394,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2835/pelican.jpg",
+    "cap": "SCP-2835"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2838": {
   "id": "SCP-2838",
@@ -302,7 +424,14 @@
   "author": "minmin",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2838",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2838/2838-new.jpg",
+    "cap": "제292기지 바깥 경계에서 바라본 SCP-2838."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2842": {
   "id": "SCP-2842",
@@ -326,7 +455,14 @@
   "author": "Communism will win",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2842",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2842/meme.png",
+    "cap": "확보 당시의 SCP-2842."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2845": {
   "id": "SCP-2845",
@@ -355,7 +491,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2845",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2847": {
   "id": "SCP-2847",
@@ -386,6 +524,8 @@
   "author": "SunnyClockwork",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2847",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

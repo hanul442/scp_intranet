@@ -31,7 +31,81 @@
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5000",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "왜?"
+  "nickname": "왜?",
+  "images": [
+   {
+    "src": "https://kaktuskontainer.wdfiles.com/local--files/tanhony-sandbox-hub/skiplogosmall",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5000/dawoods.jpg",
+    "cap": "아 망할, 이거에 사진 넣을 수 있었어?"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5000/lookcloser.png",
+    "cap": "SCP-579"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "skiplogosmall.png"
+    ],
+    [
+     "저작권자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dawoods.jpg"
+    ],
+    [
+     "원본",
+     "redwood-forest"
+    ],
+    [
+     "저작권자",
+     "Jon Evans"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "lookcloser.png"
+    ],
+    [
+     "저작권자",
+     "Tanhony"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-5002": {
   "id": "SCP-5002",
@@ -55,7 +129,9 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-5002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5004": {
   "id": "SCP-5004",
@@ -96,7 +172,327 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/header.png",
+    "cap": "SCP-5004-B."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/hughes.jpg",
+    "cap": "미국 대법관 찰스 에반스 휴즈."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/holmes.jpg",
+    "cap": "미국 대법관이자 영향력 있는 요술사 올리버 웬델 홈즈 주니어"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/gorman.jpg",
+    "cap": "미술가가 묘사한 SCP-5004-A."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/RBG-new.png",
+    "cap": "면담 중의 루스 베이더 긴즈버그, 겉보기에도 변칙적인 '마법사 모자'를 쓰고 있다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/donald.jpg",
+    "cap": "2016년 대통령 선거 운동 중인 SCP-5004-B"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/RBG2.png",
+    "cap": "루스 베이더 긴즈버그 대법관이 SCP-5004-B의 취임식 중 강력한 마법을 시전하고 있다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/mueller.jpg",
+    "cap": "로버트 스완 뮬러 3세."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5004/ginsburg2.jpg",
+    "cap": "강력한 마법사 루스 베이더 긴즈버그"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "header.png"
+    ],
+    [
+     "원본",
+     "Donald Trump at Hershey PA on 12 15 2016 Victory Tour x 02.jpg"
+    ],
+    [
+     "저작권자",
+     "Michael Vadon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "hughes.jpg"
+    ],
+    [
+     "원본",
+     "Gov. Charles E. Hughes"
+    ],
+    [
+     "저작권자",
+     "George Prince"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Library of Congress"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "holmes.jpg"
+    ],
+    [
+     "원본",
+     "Oliver Wendell Holmes, 1902.jpg"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "gorman.jpg"
+    ],
+    [
+     "원본",
+     "Forcas (demon).jpg"
+    ],
+    [
+     "저작권자",
+     "Louis Le Breton"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "RBG-new.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus, The White House, Piotrus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "President Donald J. Trump Presents Medal of Freedom"
+    ],
+    [
+     "저작권자",
+     "Andrea Hanks"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gen Con Indy 2007 - costumes 23 (wizard).JPG"
+    ],
+    [
+     "저작권자",
+     "Piotrus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "donald.jpg"
+    ],
+    [
+     "원본",
+     "Donald Trump"
+    ],
+    [
+     "저작권자",
+     "Gage Skidmore"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "RBG2.png"
+    ],
+    [
+     "원본",
+     "58th Presidential Inaugural Ceremony"
+    ],
+    [
+     "저작권자",
+     "Lance Cpl. Cristian Ricardo"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Defense Visual Information Distribution Service"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "mueller.jpg"
+    ],
+    [
+     "원본",
+     "Robert Mueller and Eric Holder"
+    ],
+    [
+     "저작권자",
+     "Ryan J. Reilly"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ginsburg2.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus, Connie Hempel, John Mathew Smith & www.celebrity-photos.com, USCapitol"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Missoula Children's Theatre presents King Arthur's Quest"
+    ],
+    [
+     "저작권자",
+     "Connie Hempel"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Goodfellow Air Force Base"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "A Beautiful Ruth Bader Ginsburg"
+    ],
+    [
+     "저작권자",
+     "John Mathew Smith & www.celebrity-photos.com"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "National Statuary Hall"
+    ],
+    [
+     "저작권자",
+     "USCapitol"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5005": {
   "id": "SCP-5005",
@@ -123,7 +519,14 @@
   "author": "Tufto",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5005",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5005/lamplight1.jpg",
+    "cap": "에테리움 구역에 위치한 SCP-5005의 \"타오르는\" 등 중 하나. 나트륨등과 비슷한 효과를 보이나 주류 기술이 아닌 기적술에 의해 작동한다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5007": {
   "id": "SCP-5007",
@@ -150,7 +553,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5009": {
   "id": "SCP-5009",
@@ -177,7 +582,89 @@
   "author": "tupacofficial",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-5009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5009/5000.jpg",
+    "cap": "SCP-5009, 1897년"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5009/scp.jpg",
+    "cap": "catch_22.jpg"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5009/amnestic.png",
+    "cap": "어느 날 는 꿈 속에서 나비가 되었다. 나비는 훨훨 꽃 사이를 즐겁게 날아다녔다. 유유자적하면서 재미있게 지냈는데, 자기가 누구인지 알지 못했다. 그러다 문득 잠에서 깨어났다. 깨어보니 다시 가 되었다. 가 나비 되는 꿈을 꾸었는지, 나비가 되는 꿈을 꾸었는지 알 수 없었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "5000"
+    ],
+    [
+     "원본",
+     "The Dominion Match Company factory in Deseronto, Ontario. c.1890. (3310089270).jpg"
+    ],
+    [
+     "저작권자",
+     "Deseronto Archives"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "amnestic"
+    ],
+    [
+     "원본",
+     "Burning Ship Fractal.jpg"
+    ],
+    [
+     "저작권자",
+     "Michael Michelitsch & Otto E. Rössler"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scp"
+    ],
+    [
+     "원본",
+     "logo.png"
+    ],
+    [
+     "저작권자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-5022": {
   "id": "SCP-5022",
@@ -200,7 +687,9 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5031": {
   "id": "SCP-5031",
@@ -224,7 +713,9 @@
   "author": "PeppersGhost",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5034": {
   "id": "SCP-5034",
@@ -250,7 +741,9 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5034",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5040": {
   "id": "SCP-5040",
@@ -272,7 +765,9 @@
   "author": "PeppersGhost",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5040",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5045": {
   "id": "SCP-5045",
@@ -296,7 +791,181 @@
   "author": "ratking666 & ValidClay & Westrin",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5045",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goatvricon.png",
+    "cap": "SCP-5045의 프로그램 아이콘."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/farmer.png",
+    "cap": "웹사이트 \"www.goatvr.███\"에서 확보한 SCP-5045-1의 그래픽."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log1title.jpg",
+    "cap": "SCP-5045의 타이틀 화면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log1goats.png",
+    "cap": "SCP-5045의 울타리 구역. 클릭 시 확대됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log1farmer.png",
+    "cap": "SCP-5045-1을 발견할 당시 D-1711의 시점."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2farmhouse.png",
+    "cap": "SCP-5045-1의 농가 내부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2door.png",
+    "cap": "열린 문을 바라보는 D-6770의 시점. 클릭 시 확대됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2yellowman.jpg",
+    "cap": "SCP-5045-2."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2victims.png",
+    "cap": "D-6770의 시점에서 바라본 몇몇 염소들."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2caught.jpg",
+    "cap": "D-6770과 SCP-5045-2를 발견한 SCP-5045-1."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2goated.jpg",
+    "cap": "뒤틀리는 SCP-5045-2와 그 옆의 SCP-5045-1. 명확성을 위해 확대함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/log2helpers.jpg",
+    "cap": "D-6770 주위를 둘러싼 보라색 염소들 중 일부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat1info.jpg",
+    "cap": "goat1info.jpg3"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat23info.jpg",
+    "cap": "goat23info.jpg4"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat44info.jpg",
+    "cap": "goat44info.jpg5"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat102info.jpg",
+    "cap": "goat102info.jpg6"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat342info.jpg",
+    "cap": "goat342info.jpg7"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat852info.jpg",
+    "cap": "goat852info.jpg8"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/goat853info.jpg",
+    "cap": "goat853info.jpg9"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/helpers.jpg",
+    "cap": "helpers.jpg10"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/listen.jpg",
+    "cap": "listen.jpg11"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5045/farmdation.jpg",
+    "cap": "맥락 불명. 클릭 시 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "corruptedicon.png"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "logo.png"
+    ],
+    [
+     "저작권자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "farmdation.jpg"
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Hotel hallway.jpg"
+    ],
+    [
+     "저작권자",
+     "TriangularPizza"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "farmerleft.png, farmer.png, goat102info.jpg, goat23info.jpg, goat342info.jpg, goat44info.jpg, goat852info.jpg, goat853info.jpg, goatvricon.png, helpers.jpg, light_bg2.png, listen.jpg, log1farmer.png, "
+    ],
+    [
+     "저작권자",
+     "ratking666"
+    ]
+   ]
+  ]
  },
  "SCP-5047": {
   "id": "SCP-5047",
@@ -318,6 +987,8 @@
   "author": "Uncle Nicolini",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5047",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

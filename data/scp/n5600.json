@@ -19,7 +19,34 @@
   "author": "Dysadron",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5604",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pills"
+    ],
+    [
+     "Author",
+     "Dominique Godbout"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/dominiquegodbout/5180502739"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dquayle"
+    ]
+   ]
+  ]
  },
  "SCP-5606": {
   "id": "SCP-5606",
@@ -40,7 +67,9 @@
   "author": "DrAkimoto",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-5606",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5611": {
   "id": "SCP-5611",
@@ -67,7 +96,9 @@
   "author": "AsukaOnna",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-5611",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5618": {
   "id": "SCP-5618",
@@ -87,7 +118,29 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5618",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5618/DTA.png",
+    "cap": "시간변칙부"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "DOTA.png"
+    ],
+    [
+     "저작권자",
+     "HammerMaiden and HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5648": {
   "id": "SCP-5648",
@@ -113,6 +166,66 @@
   "author": "J Dune",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5648",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5648/Screenshot_2021-03-23%20CC%20Search.png",
+    "cap": "2013년 연례 재단 지도부 회의에서 SCP-5648에 의해 대체된 방"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5648/53250235_767c56f97c_b.jpg",
+    "cap": "SCP-5648"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "53250235_767c56f97c_b.jpg"
+    ],
+    [
+     "원본",
+     "Crazy old man"
+    ],
+    [
+     "저작권자",
+     "Carl Johan"
+    ],
+    [
+     "라이선스",
+     "CC-BY-2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Screenshot_2021-03-23 CC Search.png"
+    ],
+    [
+     "원본",
+     "Dentist sign"
+    ],
+    [
+     "저작권자",
+     "LHOON"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  }
 }

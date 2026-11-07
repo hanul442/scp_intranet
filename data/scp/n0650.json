@@ -18,7 +18,9 @@
   "author": "Dr Talson",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-650",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-655": {
   "id": "SCP-655",
@@ -40,7 +42,99 @@
   "author": "ubergoober",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-655",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-655/paper.jpg",
+    "cap": "임시 격리 울타리 안의 SCP-655."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-655/rip.jpg",
+    "cap": "SCP-655가 만든 특징적인 차원 구멍."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-655/dead.jpg",
+    "cap": "톰프슨 요원의 유해."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-655/box.jpg",
+    "cap": "초고도 최고 보안 격리실."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "paper.jpg"
+    ],
+    [
+     "Author",
+     "ubergoober"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "rip.jpg"
+    ],
+    [
+     "Author",
+     "ubergoober"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dead.jpg"
+    ],
+    [
+     "Author",
+     "ubergoober"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "box.jpg"
+    ],
+    [
+     "Author",
+     "ubergoober"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-657": {
   "id": "SCP-657",
@@ -63,7 +157,9 @@
   "author": "Luxtizer",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-657",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-659": {
   "id": "SCP-659",
@@ -86,7 +182,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-659",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-661": {
   "id": "SCP-661",
@@ -108,7 +206,9 @@
   "author": "Le Blue Dude",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-661",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-662": {
   "id": "SCP-662",
@@ -128,7 +228,9 @@
   "author": "Rick Revelry",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-662",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-664": {
   "id": "SCP-664",
@@ -150,7 +252,9 @@
   "author": "Dr Cooper",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-664",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-666": {
   "id": "SCP-666",
@@ -174,7 +278,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-666",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-668": {
   "id": "SCP-668",
@@ -195,7 +301,9 @@
   "author": "DrClef",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-668",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-670": {
   "id": "SCP-670",
@@ -215,7 +323,9 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-670",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-672": {
   "id": "SCP-672",
@@ -235,7 +345,9 @@
   "author": "Robert Sandler does not match any existing user name",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-672",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-674": {
   "id": "SCP-674",
@@ -255,7 +367,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-674",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-674/Nes_zapper.jpg",
+    "cap": "SCP-674"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-676": {
   "id": "SCP-676",
@@ -275,7 +394,9 @@
   "author": "SimpleCadence",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-676",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-677": {
   "id": "SCP-677",
@@ -295,7 +416,9 @@
   "author": "Dr Mentha",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-677",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-679": {
   "id": "SCP-679",
@@ -317,7 +440,14 @@
   "author": "DrEverettMann",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-679",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-679/scpeyes.png",
+    "cap": "감염 후기 단계의 감염자"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-682": {
   "id": "SCP-682",
@@ -343,7 +473,33 @@
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-682",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "죽일 수 없는 파충류"
+  "nickname": "죽일 수 없는 파충류",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-682/monster8editub9-new.jpg",
+    "cap": "격리에서 탈출한 직후의 SCP-682, 산에 담가진 피해를 회복하고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "monster8editub9-new.jpg"
+    ],
+    [
+     "원본",
+     "Beached humpback whale at Kincaid Park. Anchorage, Alaska"
+    ],
+    [
+     "저작권자",
+     "Paxson Woelber (OccultistMave에 의해 수정됨)"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0 (원본) / CC BY-SA 3.0 (수정본)"
+    ]
+   ]
+  ]
  },
  "SCP-683": {
   "id": "SCP-683",
@@ -367,7 +523,14 @@
   "author": "Mulciber",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-683",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-683/683art",
+    "cap": "SCP-683-2"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-686": {
   "id": "SCP-686",
@@ -389,7 +552,51 @@
   "author": "BeeDee",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-686",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-686/Milk-bottle.jpg",
+    "cap": "SCP-686 샘플"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Biohazard symbol.svg"
+    ],
+    [
+     "저작권자",
+     "Silsor"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "File:Milk-bottle.jpg"
+    ],
+    [
+     "저작권자",
+     "FiveRings"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-687": {
   "id": "SCP-687",
@@ -409,7 +616,9 @@
   "author": "sandrewswann",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-687",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-689": {
   "id": "SCP-689",
@@ -431,7 +640,9 @@
   "author": "미상",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-689",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-692": {
   "id": "SCP-692",
@@ -451,7 +662,9 @@
   "author": "VAElynx",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-692",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-697": {
   "id": "SCP-697",
@@ -476,7 +689,9 @@
   "author": "Gargus",
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-697",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-698": {
   "id": "SCP-698",
@@ -496,7 +711,9 @@
   "author": "DrHawkwind",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-698",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-699": {
   "id": "SCP-699",
@@ -518,6 +735,8 @@
   "author": "eric_h",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-699",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

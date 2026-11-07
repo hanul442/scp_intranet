@@ -18,7 +18,14 @@
   "author": "DrClef",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-450",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-450/SCP-450.jpg",
+    "cap": "SCP-450"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-451": {
   "id": "SCP-451",
@@ -39,7 +46,9 @@
   "author": "Flah",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-451",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-452": {
   "id": "SCP-452",
@@ -62,7 +71,33 @@
   "author": "Aelanna",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-452",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-452/scp452.jpg",
+    "cap": "SCP-452"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp452.jpg"
+    ],
+    [
+     "원본",
+     "File:Black Widow 11-06.jpg"
+    ],
+    [
+     "저작권자",
+     "Trachemys"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-453": {
   "id": "SCP-453",
@@ -84,7 +119,9 @@
   "author": "Erku",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-453",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-454": {
   "id": "SCP-454",
@@ -107,7 +144,9 @@
   "author": "Tom90deg",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-454",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-455": {
   "id": "SCP-455",
@@ -129,7 +168,29 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-455",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-455/SCP-455.jpg",
+    "cap": "물 속의 SCP-455"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Wrecktophg4.jpg"
+    ],
+    [
+     "저작권자",
+     "Donna S. Schaffer"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (허가 하에 사용)"
+    ]
+   ]
+  ]
  },
  "SCP-456": {
   "id": "SCP-456",
@@ -150,7 +211,29 @@
   "author": "eric_h",
   "translator": "wiserain",
   "source": "https://scpko.wikidot.com/scp-456",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-456/bug.jpg",
+    "cap": "SCP-456"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Datoteka:Bed bug, Cimex lectularius.jpg"
+    ],
+    [
+     "저작권자",
+     "Piotr Naskrecki"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-457": {
   "id": "SCP-457",
@@ -171,7 +254,35 @@
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-457",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "불타는 남자"
+  "nickname": "불타는 남자",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-457/scp-457-new.png",
+    "cap": "2체로 분열된 SCP-457이 실험 중 카메라를 관찰하고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-457-new.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fire.jpg"
+    ],
+    [
+     "저작권자",
+     "DSC_7139"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-458": {
   "id": "SCP-458",
@@ -196,7 +307,33 @@
   "author": "Palhinuk",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-458",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-458/scp-458.jpg",
+    "cap": "격리 중인 SCP-458"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-458"
+    ],
+    [
+     "원본",
+     "St Louis Missouri pizza in cardboard box.jpg"
+    ],
+    [
+     "저작권자",
+     "Dale Cruse"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-461": {
   "id": "SCP-461",
@@ -215,7 +352,9 @@
   "author": "crappypasta",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-461",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-462": {
   "id": "SCP-462",
@@ -236,7 +375,9 @@
   "author": "Hidenozuke",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-462",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-463": {
   "id": "SCP-463",
@@ -254,7 +395,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-463",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-467": {
   "id": "SCP-467",
@@ -274,7 +417,9 @@
   "author": "agatharights",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-467",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-468": {
   "id": "SCP-468",
@@ -298,7 +443,29 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-468",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-468/Chinese-abacus.jpg",
+    "cap": "SCP-468-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Chinese-abacus.jpg"
+    ],
+    [
+     "저작권자",
+     "Dave Fischer"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-469": {
   "id": "SCP-469",
@@ -319,7 +486,37 @@
   "author": "ProfSnider",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-469",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-469/scp%20469.jpg",
+    "cap": "SCP-469의 깃털 중 하나"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp%20469.jpg"
+    ],
+    [
+     "Name",
+     "File: A single white feather closeup.jpg"
+    ],
+    [
+     "Author",
+     "Joao Estevao Andrade de Freitas"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://lt.wikiquote.org/wiki/Vaizdas:A_single_white_feather_closeup.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-470": {
   "id": "SCP-470",
@@ -340,7 +537,29 @@
   "author": "Dr Gears",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-470",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-470/IMG_3784.jpg",
+    "cap": "[데이터 말소]가 기록된 마지막 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "IMG_3784.jpg"
+    ],
+    [
+     "저작권자",
+     "Angelidakis"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (허가 하에 사용)"
+    ]
+   ]
+  ]
  },
  "SCP-477": {
   "id": "SCP-477",
@@ -360,7 +579,14 @@
   "author": "SimpleCadence",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-477",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-477/SCP-477.png",
+    "cap": "먹을 것을 찾아 움직이는 SCP-477 화석들."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-478": {
   "id": "SCP-478",
@@ -384,7 +610,9 @@
   "author": "Dexanote",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-478",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-479": {
   "id": "SCP-479",
@@ -404,7 +632,29 @@
   "author": "thekit",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-479",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-479/Schiffbau_tunnel_small.jpg",
+    "cap": "SCP-479는 D계급 세탁실과 화력발전실을 연결한다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Schiffbau tunnel.jpg"
+    ],
+    [
+     "저작권자",
+     "Audriusa"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-485": {
   "id": "SCP-485",
@@ -426,7 +676,9 @@
   "author": "NerfJihad",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-486": {
   "id": "SCP-486",
@@ -446,7 +698,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-486",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-494": {
   "id": "SCP-494",
@@ -465,7 +719,9 @@
   "author": "Chungy McBungy",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-494",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-499": {
   "id": "SCP-499",
@@ -484,6 +740,8 @@
   "author": "Djoric",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-499",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

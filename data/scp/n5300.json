@@ -21,7 +21,9 @@
   "author": "Greyve",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-5309",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5310": {
   "id": "SCP-5310",
@@ -44,7 +46,9 @@
   "author": "Tanhony",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-5310",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5311": {
   "id": "SCP-5311",
@@ -67,7 +71,37 @@
   "author": "S D Locke",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-5311",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5311/snow.jpg",
+    "cap": "조우례 #41. 지평선에 감염자들의 탐조등이 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "snow.jpg"
+    ],
+    [
+     "원본",
+     "Snowing-Night-Snow-Winter-Snowflakes-Snowfall-232603.jpg"
+    ],
+    [
+     "저작권자",
+     "jingoba"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-5315": {
   "id": "SCP-5315",
@@ -89,7 +123,63 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5315",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/collab:troutesther/mountain.jpg",
+    "cap": "SCP-5315. 촬영자 불명."
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/collab%3Atroutesther/comparison.png",
+    "cap": "좌측: 실종된 사람들. 우측: 동굴계."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "mountain.jpg"
+    ],
+    [
+     "Name",
+     "Standpunkt Cima di Ceremana, Blick auf Feldwache und Colbricon sowie Palagruppe"
+    ],
+    [
+     "Author",
+     "K.u.k. Kriegspressequartier"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Standpunkt_Cima_di_Ceremana,_Blick_auf_Feldwache_und_Colbricon_sowie_Palagruppe._(BildID_15424232).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "comparison.png"
+    ],
+    [
+     "Name",
+     "Map of USA DC"
+    ],
+    [
+     "Author",
+     "wiki"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Map_of_USA_DC.svg"
+    ]
+   ]
+  ]
  },
  "SCP-5320": {
   "id": "SCP-5320",
@@ -112,7 +202,9 @@
   "author": "Raddagher",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5320",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5321": {
   "id": "SCP-5321",
@@ -133,7 +225,37 @@
   "author": "GrimmCreeper",
   "translator": "Microscoop",
   "source": "https://scpko.wikidot.com/scp-5321",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5321/SCP-5321%20%EB%B0%88%EC%A0%81%20%EC%9E%85%EC%9E%90.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "memetic_agent.png"
+    ],
+    [
+     "원본",
+     "File:Deep Water Life Apophysis Fractal Flame.jpg"
+    ],
+    [
+     "저작권자",
+     "Jon Zander"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "wikipedia commons"
+    ]
+   ]
+  ]
  },
  "SCP-5339": {
   "id": "SCP-5339",
@@ -153,6 +275,32 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5339",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5339/thebaby",
+    "cap": "SCP-5339의 사진, 격리 이전에 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "thebaby"
+    ],
+    [
+     "저작권자",
+     "Supposedly Spooky"
+    ],
+    [
+     "라이선스",
+     "CC BY SA 3.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  }
 }

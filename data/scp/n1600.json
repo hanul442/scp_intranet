@@ -18,7 +18,9 @@
   "author": "anqxyr",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1600",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1601": {
   "id": "SCP-1601",
@@ -41,7 +43,9 @@
   "author": "Dr Blank",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1601",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1603": {
   "id": "SCP-1603",
@@ -60,7 +64,9 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1603",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1604": {
   "id": "SCP-1604",
@@ -79,7 +85,9 @@
   "author": "Dr Sketch",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1604",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1605": {
   "id": "SCP-1605",
@@ -101,7 +109,9 @@
   "author": "Gaffsey",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1605",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1607": {
   "id": "SCP-1607",
@@ -121,7 +131,9 @@
   "author": "Tanhony",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1607",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1608": {
   "id": "SCP-1608",
@@ -144,7 +156,33 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1608",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1608/whale-new.jpg",
+    "cap": "제78구역 상공의 하층대기에 출현한 SCP-1608."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "whale-new.jpg"
+    ],
+    [
+     "출처",
+     "PickPik"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1609": {
   "id": "SCP-1609",
@@ -166,7 +204,9 @@
   "author": "Rioghail",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1609",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1610": {
   "id": "SCP-1610",
@@ -189,7 +229,9 @@
   "author": "marslifeform",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-1610",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1611": {
   "id": "SCP-1611",
@@ -209,7 +251,9 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1611",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1612": {
   "id": "SCP-1612",
@@ -232,7 +276,14 @@
   "author": "FlameShirt",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1612",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1612/SCP-1612.jpg",
+    "cap": "재단의 격리 밭에 심어진 SCP-1612 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1616": {
   "id": "SCP-1616",
@@ -252,7 +303,33 @@
   "author": "faminepulse",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1616",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1616/1616-new.jpg",
+    "cap": "진정시켜 격리에 성공한 후의 SCP-1616."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1616-new.jpg"
+    ],
+    [
+     "출처",
+     "pxfuel"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1617": {
   "id": "SCP-1617",
@@ -275,7 +352,9 @@
   "author": "Randomini",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1617",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1619": {
   "id": "SCP-1619",
@@ -304,7 +383,18 @@
   "author": "Fantem",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1619",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1619/Catlamp2.jpg",
+    "cap": "(좌에서 우로) SCP-1619-2-C-12, -23, -11, -44."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1619/Catlamp.jpg",
+    "cap": "SCP-1619-2-C-46 (왼쪽)과 한 SCP-1619-2 개체 (오른쪽). SCP-1619-2 개체는 이후 처분됐다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1624": {
   "id": "SCP-1624",
@@ -325,7 +415,55 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1624",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624/Spirometra-tapeworm-image-new.jpg",
+    "cap": "SCP-1624의 사용자 프로필 중 하나에서 발췌한 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1624/tapeworm-new.jpg",
+    "cap": "같이 농구하며 놀자고 친구들"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Spirometra-tapeworm-image-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "علاء"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "tapeworm-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Magdalena ZZ"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1626": {
   "id": "SCP-1626",
@@ -347,7 +485,9 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "Agent_Wanderer",
   "source": "https://scpko.wikidot.com/scp-1626",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1633": {
   "id": "SCP-1633",
@@ -368,7 +508,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1633",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1637": {
   "id": "SCP-1637",
@@ -395,7 +537,14 @@
   "author": "HammerMaiden",
   "translator": "prussianblue",
   "source": "https://scpko.wikidot.com/scp-1637",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1637/320px-Guido_mine_026.JPG",
+    "cap": "SCP-1637로 향하는 주 출입구"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1638": {
   "id": "SCP-1638",
@@ -418,7 +567,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1638",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1638/Monarch-butterflies1.jpeg",
+    "cap": "하포 사건 중의 SCP-1638-1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1639": {
   "id": "SCP-1639",
@@ -440,7 +596,9 @@
   "author": "feathersnake",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1639",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1640": {
   "id": "SCP-1640",
@@ -466,7 +624,9 @@
   "author": "Accelerando",
   "translator": "jso9923",
   "source": "https://scpko.wikidot.com/scp-1640",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1642": {
   "id": "SCP-1642",
@@ -488,7 +648,9 @@
   "author": "Salman Corbette",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1642",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1645": {
   "id": "SCP-1645",
@@ -510,7 +672,9 @@
   "author": "Ihp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1645",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1646": {
   "id": "SCP-1646",
@@ -530,6 +694,8 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1646",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

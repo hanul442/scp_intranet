@@ -17,7 +17,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1950-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1951-KO": {
   "id": "SCP-1951-KO",
@@ -41,7 +43,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1951-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1951-ko/Carl.png",
+    "cap": "SCP-1951-KO-C를 재현한 모형."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1952-KO": {
   "id": "SCP-1952-KO",
@@ -64,7 +73,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1952-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1952-ko/Foxes_of_Island_Beach_State_Park_New_Jersey_%2816324545492%29.jpg",
+    "cap": "포획 당시 SCP-1952-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1953-KO": {
   "id": "SCP-1953-KO",
@@ -94,7 +110,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1953-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1957-KO": {
   "id": "SCP-1957-KO",
@@ -116,7 +134,22 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1957-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1957-ko/room.jpg",
+    "cap": "904호실부터 909호실, 촬영 시기 불명."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1957-ko/map.jpg",
+    "cap": "세부 내용은 누락되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-231/scp-blank.png",
+    "cap": "101호실에서 촬영된 스물한 구의 화물들."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1959-KO": {
   "id": "SCP-1959-KO",
@@ -142,7 +175,51 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1959-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/french-film",
+    "cap": "자동 영사 장치에 고정된 SCP-1959-KO. 전염 범위 측정을 위한 제어 영사 시험 중 촬영됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/poi-2743-research-nikaho-clan-dojojiryu/IMG_6828.jpg",
+    "cap": "SCP-1959-KO가 처음으로 발견된 독립영화관."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/moreau",
+    "cap": "에티엔 모로. 1968년 촬영."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-598-ko/little-guest.jpg",
+    "cap": "전통적 질병술사 집단이 숭배하던 신격의 초상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "french-film"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "IMG_6828.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "moreau"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "little-guest.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1960-KO": {
   "id": "SCP-1960-KO",
@@ -165,7 +242,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1960-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1960-ko/redbird.jpg",
+    "cap": "실험 과정에서 생성된 SCP-1960-KO-B 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1961-KO": {
   "id": "SCP-1961-KO",
@@ -188,7 +272,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1961-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1961-ko/disaster.jpg",
+    "cap": "PU-1961K의 전경"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1961-ko/Intersection.jpg",
+    "cap": "첫 번째 사진. 변칙 효과 검열 됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1961-ko/data.jpg",
+    "cap": "12312K 기지의 WA-5425 구역"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1962-KO": {
   "id": "SCP-1962-KO",
@@ -212,7 +311,9 @@
   "author": "Lostplaced",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1962-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1963-KO": {
   "id": "SCP-1963-KO",
@@ -240,7 +341,9 @@
   "author": "oratio & Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1963-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1965-KO": {
   "id": "SCP-1965-KO",
@@ -264,7 +367,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1965-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1966-KO": {
   "id": "SCP-1966-KO",
@@ -283,7 +388,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1966-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1968-KO": {
   "id": "SCP-1968-KO",
@@ -305,7 +412,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1968-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1969-KO": {
   "id": "SCP-1969-KO",
@@ -326,7 +435,14 @@
   "author": "Clasik",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1969-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-4028-2/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1970-KO": {
   "id": "SCP-1970-KO",
@@ -349,7 +465,53 @@
   "author": "Far2",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1970-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Enclosure_Front.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Encosure_Side.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Enclosure_Back.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Bokdong_Kosoon.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Left_Foot.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970-ko/Right_Foot.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Logo_of_the_SCP_Foundation.png"
+    ],
+    [
+     "저자",
+     "Far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://en.wikipedia.org/wiki/File:Logo_of_the_SCP_Foundation.png"
+    ]
+   ]
+  ]
  },
  "SCP-1971-KO": {
   "id": "SCP-1971-KO",
@@ -368,7 +530,9 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1971-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1972-KO": {
   "id": "SCP-1972-KO",
@@ -389,7 +553,9 @@
   "author": "IM_NOT_FOR_ME",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1972-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1974-KO": {
   "id": "SCP-1974-KO",
@@ -412,7 +578,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1974-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1975-KO": {
   "id": "SCP-1975-KO",
@@ -435,7 +603,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1975-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkrsandbox.wdfiles.com/local--files/npes-hub/AEB.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1975-ko/%E3%80%8A%EB%AC%B4%EB%9D%BC%EC%B9%98%E3%80%8B.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1975-ko/Neophocaena.jpg",
+    "cap": "숭어를 사냥하는 상괭이"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1975-ko/Yangtze_finless_porpoise.jpg",
+    "cap": "중국과학원의 양쯔강상괭이"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1980-KO": {
   "id": "SCP-1980-KO",
@@ -457,7 +644,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1980-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1980-ko/Dabao.jpg",
+    "cap": "베이징동물원에서 촬영된 느시"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1981-KO": {
   "id": "SCP-1981-KO",
@@ -480,7 +674,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1981-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1981-ko/%EC%B0%BD%EA%B2%BD%EC%9B%90_%EA%B3%B0.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1981-ko/SCP_1981_KO_%EC%95%88%EB%82%B4.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1982-KO": {
   "id": "SCP-1982-KO",
@@ -503,7 +708,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1982-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1983-KO": {
   "id": "SCP-1983-KO",
@@ -532,7 +739,89 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1983-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1983-ko/File1",
+    "cap": "공격적 변칙 개체의 출현을 대비하는 제17251타격조."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1983-ko/File2",
+    "cap": "특수격리시설 테티스."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1983-ko/File3",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "File1.jpg"
+    ],
+    [
+     "Name",
+     "File:US Navy 050505-N-3093M-005 A member of SEAL Delivery Vehicle Team Two (SDVT-2) prepares to launch one of the team's SEAL Delivery Vehicles (SDV) from the back of the Los Angeles-class attack subm"
+    ],
+    [
+     "Author",
+     "U.S. Navy photo by Chief Photographer's Mate Andrew McKaskle"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "File2.jpg"
+    ],
+    [
+     "Name",
+     "File:Jeonnam Offshore Wind Power Shinan Blue Jaeun 20241217 (02).jpg"
+    ],
+    [
+     "Author",
+     "전라남도청 해상풍력산업과"
+    ],
+    [
+     "License",
+     "Korea Open Government License Type 1"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "File3.jpg"
+    ],
+    [
+     "Name",
+     "File:Fine Dining (9688155623).jpg"
+    ],
+    [
+     "Author",
+     "LeonardKong"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 2.0 Generic"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-1985-KO": {
   "id": "SCP-1985-KO",
@@ -556,7 +845,14 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1985-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/marineifrs/hellbunsik.jpg",
+    "cap": "SCP-1985-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1987-KO": {
   "id": "SCP-1987-KO",
@@ -576,7 +872,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1987-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1988-KO": {
   "id": "SCP-1988-KO",
@@ -597,7 +895,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1988-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1989-KO": {
   "id": "SCP-1989-KO",
@@ -630,7 +930,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1989-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1989-ko/Ulleung_Jukdo_OCT2020.jpg",
+    "cap": "탐사 요원이 촬영한 SCP-1989-KO 내부 섬 중 하나."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1990-KO": {
   "id": "SCP-1990-KO",
@@ -654,7 +961,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1990-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1990-ko/20250603_100742.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1990-ko/A_sky_full_of_stars_NGC_4833.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1991-KO": {
   "id": "SCP-1991-KO",
@@ -673,7 +991,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1991-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1992-KO": {
   "id": "SCP-1992-KO",
@@ -698,7 +1018,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1992-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1993-KO": {
   "id": "SCP-1993-KO",
@@ -725,7 +1047,22 @@
   "author": "Easysayg, romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1993-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1993-ko/1993busut",
+    "cap": "SCP-1993-KO의 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1993-ko/1993shot2.jpg",
+    "cap": "종교 단체 소유인 지하공동 내부의 사진. 맥락 불명."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1993-ko/1993shot.png",
+    "cap": "폐쇄 구역 지하실에서 촬영된 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1994-KO": {
   "id": "SCP-1994-KO",
@@ -747,7 +1084,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1994-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1995-KO": {
   "id": "SCP-1995-KO",
@@ -768,7 +1107,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1995-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/eowjs/1280px-1993_Daejeon_Expo_Mascot.jpg",
+    "cap": "대전 세계박람회(Daejeon Expo '93)의 공식 마스코트 '꿈돌이'의 동상"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/eowjs/Kids_room.jpg",
+    "cap": "제93K기지의 SCP-1995-KO-A 임시 격리실. SCP-1995-KO-A의 특성을 고려하여, 내부는 놀이방과 유사하게 꾸며져 있다."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/eowjs/%EA%BF%88%EB%8F%8C%EC%9D%B4",
+    "cap": "대전광역시의 공식 마스코트 한꿈이."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/eowjs/%EB%8C%80%EC%A0%84",
+    "cap": "한때 꿈과 희망을 주던 그 곳"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/eowjs/%EB%8B%A4%EC%8B%9C%EB%8F%8C%EC%95%84%EC%98%A8%EA%BF%88%EB%8F%8C%EC%9D%B4",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1996-KO": {
   "id": "SCP-1996-KO",
@@ -789,7 +1151,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1996-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ],
+    [
+     "Author",
+     "Original work: Cmglee. Simplified version: Manlleus."
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Phase_diagram_of_water_simplified.svg"
+    ]
+   ]
+  ]
  },
  "SCP-1997-KO": {
   "id": "SCP-1997-KO",
@@ -812,7 +1200,37 @@
   "author": "Cristiano Cani",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1997-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1997-ko/1997ko.png",
+    "cap": "SCP-1997-KO의 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1997ko.png"
+    ],
+    [
+     "원본",
+     "The Night Man"
+    ],
+    [
+     "저자",
+     "Cristiano Cani"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-1998-KO": {
   "id": "SCP-1998-KO",
@@ -835,7 +1253,14 @@
   "author": "vocadomato",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1998-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1998-ko/cube2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1999-KO": {
   "id": "SCP-1999-KO",
@@ -861,6 +1286,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1999-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

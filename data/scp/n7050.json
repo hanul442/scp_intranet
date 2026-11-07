@@ -18,7 +18,55 @@
   "author": "Jejenum46",
   "translator": "quilt ###",
   "source": "https://scpko.wikidot.com/scp-7052",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7052/SPOILER_insert.jpg",
+    "cap": "SCP-7052"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7052/SPOILER_danger.jpg",
+    "cap": "SCP-7052에 대한 역정보를 담은 가장 일반적인 인포그래픽."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SPOILER_danger.jpg"
+    ],
+    [
+     "Name",
+     "Spoon (454673126).jpg"
+    ],
+    [
+     "Author",
+     "Spoon by bongo vongo, remainder by TroutMaskReplica"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SPOILER_insert.jpg"
+    ],
+    [
+     "Author",
+     "TroutMaskReplica"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7055": {
   "id": "SCP-7055",
@@ -39,7 +87,32 @@
   "author": "MrIverson does not match any existing user name",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-7055",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "fire"
+    ],
+    [
+     "원본",
+     "Waldbrand-Bodenfeuer"
+    ],
+    [
+     "저작권자",
+     "Tilo"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7062": {
   "id": "SCP-7062",
@@ -58,7 +131,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7062",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7079": {
   "id": "SCP-7079",
@@ -83,6 +158,74 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7079",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7079/none.png",
+    "cap": "교 차"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7079/narrativistics.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "extra.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "narrativistics.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "synec.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "none.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

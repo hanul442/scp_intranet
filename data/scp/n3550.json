@@ -18,7 +18,33 @@
   "author": "atomicthumbs",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3555",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3555/3555.jpg",
+    "cap": "SCP-3555의 일부. 클릭하면 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3555.jpg"
+    ],
+    [
+     "저자",
+     "atomicthumbs"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3555"
+    ]
+   ]
+  ]
  },
  "SCP-3556": {
   "id": "SCP-3556",
@@ -39,7 +65,33 @@
   "author": "JanitorCakeworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3556",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3556/durbal.JPG",
+    "cap": "격리 이전의 SCP-3556"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "durbal.JPG"
+    ],
+    [
+     "저자",
+     "JanitorCakeworth"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-3556"
+    ]
+   ]
+  ]
  },
  "SCP-3558": {
   "id": "SCP-3558",
@@ -62,7 +114,21 @@
   "author": "minmin",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3558/knife.jpg",
+    "cap": "SCP-3558, 세척 및 멸균된 상태."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "knife.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3593": {
   "id": "SCP-3593",
@@ -87,7 +153,33 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3593",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3593/EuropeanShag.jpg",
+    "cap": "SCP-3593"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "EuropeanShag.jpg"
+    ],
+    [
+     "Author",
+     "Andrew Easton"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3595": {
   "id": "SCP-3595",
@@ -110,6 +202,30 @@
   "author": "ObserverSeptember",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-3595",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpsandbox2.wdfiles.com/local--files/observerseptember-s-draft-emporium/Modlaureth.jpg",
+    "cap": "1989년, 대상이 변칙 활동을 멈추기 직전 SCP-3595의 주 출현 지역."
+   },
+   {
+    "src": "https://scpsandbox2.wdfiles.com/local--files/observerseptember-s-draft-emporium/scp3595.jpg",
+    "cap": "크리스티안 슈미트, 1948-1949년 경, 일자불명."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Modlaureth.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scp3595.jpg"
+    ]
+   ]
+  ]
  }
 }

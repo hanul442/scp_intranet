@@ -21,7 +21,30 @@
   "author": "Bangja",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1800-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/SCP-1800-KO/09k",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/SCP-1800-KO/00k",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/SCP-1800-KO/01k",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/SCP-1800-KO/145k",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/SCP-1800-KO/64k",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1804-KO": {
   "id": "SCP-1804-KO",
@@ -49,7 +72,9 @@
   "author": "Ginger butter",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1804-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1806-KO": {
   "id": "SCP-1806-KO",
@@ -70,7 +95,9 @@
   "author": "Langston77",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1806-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1807-KO": {
   "id": "SCP-1807-KO",
@@ -98,7 +125,33 @@
   "author": "Langston77",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1807-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1807-ko/jangseung.jpg",
+    "cap": "SCP-1807-KO. 2015년 5월 2일에 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "jangseung.jpg"
+    ],
+    [
+     "저자",
+     "Langston77"
+    ],
+    [
+     "라이선스",
+     "CC BY SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.m.wikimedia.org/wiki/File:Stone_Jangseung_at_Bulheosa_temple_in_Naju,_Korea_05.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1808-KO": {
   "id": "SCP-1808-KO",
@@ -122,7 +175,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1808-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1808-ko/Zwiebel_2008-3-3-.JPG",
+    "cap": "격리 직후 촬영한 SCP-1808-KO의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1813-KO": {
   "id": "SCP-1813-KO",
@@ -147,7 +207,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1813-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1818-KO": {
   "id": "SCP-1818-KO",
@@ -171,7 +233,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1818-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1820-KO": {
   "id": "SCP-1820-KO",
@@ -197,7 +261,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1820-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1822-KO": {
   "id": "SCP-1822-KO",
@@ -219,7 +285,18 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1822-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1822-ko/muk",
+    "cap": "X선으로 촬영한 벽 속의 SCP-1822-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1822-ko/knot",
+    "cap": "태평양먹장어의 매듭."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1823-KO": {
   "id": "SCP-1823-KO",
@@ -242,7 +319,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1823-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1828-KO": {
   "id": "SCP-1828-KO",
@@ -264,7 +343,103 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1828-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1828-ko/Obake_no_Sumika_-_Kainade.jpg",
+    "cap": "SCP-1828-KO를 촬영한 사진. 컬러로 복원하였다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1828-ko/english",
+    "cap": "SCP-1828-KO가 바꾸어 넣은 영어 문제."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/groups-of-interest-ko/celest.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1828-ko/math",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1828-ko/physics",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ],
+    [
+     "Author",
+     "Fred Cherrygarden"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Obake_no_Sumika_-_Kainade.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "english"
+    ],
+    [
+     "Author",
+     "Ginger butter, Zaeyde"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-087에서 내용 일부 가져옴."
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "math"
+    ],
+    [
+     "Author",
+     "Ginger butter"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "-"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "physics"
+    ],
+    [
+     "Author",
+     "Aronora, Ginger butter"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Lipu_tenpo_nanpa_soweli_-_utala_pi_ilo_tawa.png"
+    ]
+   ]
+  ]
  },
  "SCP-1830-KO": {
   "id": "SCP-1830-KO",
@@ -283,7 +458,18 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1830-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1830-ko/%ED%91%9C%EC%A7%80.png",
+    "cap": "SCP-1830-KO의 표지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1830-ko/%EB%A7%89%EC%9E%A5.png",
+    "cap": "SCP-1830-KO의 마지막 장(클릭하여 확대)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1831-KO": {
   "id": "SCP-1831-KO",
@@ -302,7 +488,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1831-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1832-KO": {
   "id": "SCP-1832-KO",
@@ -322,7 +510,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1832-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1832-ko/no-more-eifel-tower.webp",
+    "cap": "격리 조치 직전의 마르스 광장 전경."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1837-KO": {
   "id": "SCP-1837-KO",
@@ -350,7 +545,58 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1837-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-1",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-2",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-3",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-4",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-6",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-5",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-7",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-8",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-9",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-10-1",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-10-2",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1837-ko/Locust-11",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1840-KO": {
   "id": "SCP-1840-KO",
@@ -371,7 +617,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1840-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1844-KO": {
   "id": "SCP-1844-KO",
@@ -394,7 +642,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1844-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1846-KO": {
   "id": "SCP-1846-KO",
@@ -418,6 +668,13 @@
   "author": "Chris nix #",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1846-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1846-ko/SCP-1846-KO",
+    "cap": "SCP-1846-KO"
+   }
+  ],
+  "img_credits": []
  }
 }

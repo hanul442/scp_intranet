@@ -18,7 +18,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1357-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1357-ko/sky0ar1e050o.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1361-KO": {
   "id": "SCP-1361-KO",
@@ -38,7 +45,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1361-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1362-KO": {
   "id": "SCP-1362-KO",
@@ -60,7 +69,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1362-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1367-KO": {
   "id": "SCP-1367-KO",
@@ -84,7 +95,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1367-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1367-ko/Jeollanam-do_in_South_Korea_2023.svg.png",
+    "cap": "전라남도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-935-ko/mujincatastrophe.png",
+    "cap": "무진시."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-935-ko/jeonnam.png",
+    "cap": "전라남도."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1368-KO": {
   "id": "SCP-1368-KO",
@@ -102,7 +128,9 @@
   "author": "Micsirgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1368-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1370-KO": {
   "id": "SCP-1370-KO",
@@ -126,7 +154,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1370-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1380-KO": {
   "id": "SCP-1380-KO",
@@ -145,7 +175,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1380-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1381-KO": {
   "id": "SCP-1381-KO",
@@ -173,7 +205,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1381-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1381-ko/FrAH6UkaUAAn39k.png",
+    "cap": "SCP-1381-KO 내부로 이어지는 외부차원 통로 중 하나. 객체는 4일 후 외부차원 통로로서의 변칙성을 잃고 정상적인 벽으로 돌아갔다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1390-KO": {
   "id": "SCP-1390-KO",
@@ -196,7 +239,9 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1390-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1392-KO": {
   "id": "SCP-1392-KO",
@@ -219,7 +264,125 @@
   "author": "Matt and Nayoung Wilson from Atlanta and surrounding, US",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1392-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/Korean_Folk_Village-Wondumak-01.jpg",
+    "cap": "SCP-1392-KO 발생 장소인 한국민속촌의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/Puddle_1.jpg",
+    "cap": "SCP-1392-KO 발생 위치"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/2022-06-05_Wash_basin_in_public_toilet_on_ferry.jpg",
+    "cap": "SCP-1392-KO 발생 위치"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/Feeder_stream_for_Tickerage_Stream_-_geograph.org.uk_-_1879664.jpg",
+    "cap": "SCP-1392-KO 발생 위치"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/Stone_pile_-_geograph.org.uk_-_3925739.jpg",
+    "cap": "SCP-1392-KO 발생 위치(우측 상단)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1392-ko/Reflections_in_puddles._img_007.jpg",
+    "cap": "SCP-1392-KO 발생 위치"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Korean_Folk_Village-Wondumak-01.jpg"
+    ],
+    [
+     "저자",
+     "Matt and Nayoung Wilson from Atlanta and surrounding, US"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "2022-06-05_Wash_basin_in_public_toilet_on_ferry.jpg"
+    ],
+    [
+     "저자",
+     "Maksym Kozlenko"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Feeder_stream_for_Tickerage_Stream_-_geograph.org.uk_-_1879664.jpg"
+    ],
+    [
+     "저자",
+     "Dave Spicer"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Stone_pile_-_geograph.org.uk_-_3925739.jpg"
+    ],
+    [
+     "저자",
+     "Stanley Howe"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Reflections_in_puddles._img_007.jpg"
+    ],
+    [
+     "저자",
+     "Dmitry Makeev"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1394-KO": {
   "id": "SCP-1394-KO",
@@ -237,7 +400,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1394-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1395-KO": {
   "id": "SCP-1395-KO",
@@ -257,7 +422,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1395-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1399-KO": {
   "id": "SCP-1399-KO",
@@ -281,6 +448,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1399-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

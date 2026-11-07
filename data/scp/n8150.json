@@ -21,7 +21,25 @@
   "author": "aismallard",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8178",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8178/look.jpg",
+    "cap": "화상 2066-F."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "look.jpg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ]
+   ]
+  ]
  },
  "SCP-8195": {
   "id": "SCP-8195",
@@ -42,6 +60,24 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8195",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8591/ellingfant.png",
+    "cap": "SCP-8195."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ellingfant.png"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  }
 }

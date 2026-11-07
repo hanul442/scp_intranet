@@ -18,7 +18,9 @@
   "author": "faminepulse",
   "translator": "TreWa",
   "source": "https://scpko.wikidot.com/scp-1202",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1203": {
   "id": "SCP-1203",
@@ -39,7 +41,9 @@
   "author": "faminepulse",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1203",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1207": {
   "id": "SCP-1207",
@@ -61,7 +65,9 @@
   "author": "tunedtoadeadchannel",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1207",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1208": {
   "id": "SCP-1208",
@@ -81,7 +87,9 @@
   "author": "murphy_slaw",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1208",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1212": {
   "id": "SCP-1212",
@@ -104,7 +112,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1212",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1216": {
   "id": "SCP-1216",
@@ -128,7 +138,33 @@
   "author": "DrBerggren",
   "translator": "albus1216",
   "source": "https://scpko.wikidot.com/scp-1216",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1216/scp1216.png",
+    "cap": "SCP-1216-1이 만들어졌을 때 부서진 콘크리트 조각에서 재현한 기호. SCP-1216의 개체를 나타내는 것으로 보임."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp1216.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1216"
+    ],
+    [
+     "제작자",
+     "DrBerggren"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1225": {
   "id": "SCP-1225",
@@ -149,7 +185,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1225",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1226": {
   "id": "SCP-1226",
@@ -170,7 +208,9 @@
   "author": "NineAndNinetyHours",
   "translator": "Yitrium",
   "source": "https://scpko.wikidot.com/scp-1226",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1228": {
   "id": "SCP-1228",
@@ -191,7 +231,9 @@
   "author": "Ryan Mahan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1228",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1230": {
   "id": "SCP-1230",
@@ -211,7 +253,33 @@
   "author": "MrPixel",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1230",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1230/new1230.png",
+    "cap": "SCP-1230"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "new1230.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1230"
+    ],
+    [
+     "제작자",
+     "MrPixel"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1233": {
   "id": "SCP-1233",
@@ -237,7 +305,33 @@
   "author": "CadaverCommander",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1233",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1233/moonchampion.jpg",
+    "cap": "1986년경 촬영된 SCP-1233."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "moonchampion.jpg"
+    ],
+    [
+     "출처",
+     "https://pxhere.com/en/photo/1366166"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1234": {
   "id": "SCP-1234",
@@ -257,7 +351,9 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1234",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1235": {
   "id": "SCP-1235",
@@ -278,7 +374,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1235",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1237": {
   "id": "SCP-1237",
@@ -301,7 +399,14 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1237",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1237/1237.jpg",
+    "cap": "뇌파 기록으로 나타낸 SCP-1237."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1238": {
   "id": "SCP-1238",
@@ -324,7 +429,18 @@
   "author": "Smapti",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1238",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1238/tunnelfish.jpg",
+    "cap": "야생의 SCP-1238 개체"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1238/flood.gif",
+    "cap": "638-뮤-34 사건으로 인한 홍수의 예상 범위가 표시된 미국 북서부와 서부 캐나다 지도. 홍수로 인한 전세계 해수면 변화는 반영되지 않았다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1241": {
   "id": "SCP-1241",
@@ -346,7 +462,18 @@
   "author": "Bunton",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1241",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1241/werewolf.jpg",
+    "cap": "SCP-1241 에피소드의 정지 화상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1241/Broadcasting.jpg",
+    "cap": "회수된 설비 중 일부."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1243": {
   "id": "SCP-1243",
@@ -368,7 +495,33 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-1243",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1243/1243.jpg",
+    "cap": "200█년 ██월 ██일 촬영한 SCP-1243의 스크린샷."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1243.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1243"
+    ],
+    [
+     "제작자",
+     "Eskobar?"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1246": {
   "id": "SCP-1246",
@@ -392,7 +545,33 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1246",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1246/stonespiral.jpg",
+    "cap": "발견되었을 당시 SCP-1246."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "stonespiral.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Stone_Labyrinth_on_Ballard_Down_-_geograph.org.uk_-_307603.jpg"
+    ],
+    [
+     "제작자",
+     "Thomas Wood"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1247": {
   "id": "SCP-1247",
@@ -412,6 +591,8 @@
   "author": "ksaid",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1247",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

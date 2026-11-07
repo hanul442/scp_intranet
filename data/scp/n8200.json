@@ -19,7 +19,22 @@
   "author": "MontagueETC",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8200",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8200/8K-Thumbnail.png",
+    "cap": "THUMBNAIL"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8200/ectowave.jpg",
+    "cap": "SCP-8200"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8200/blood-river.png",
+    "cap": "SCP-8200이 지구 생물권에 미치는 영향의 한 사례"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8221": {
   "id": "SCP-8221",
@@ -42,7 +57,37 @@
   "author": "TroutMaskReplica",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8221",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8221/hisimage.jpg",
+    "cap": "{$caption}"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "hisimage.jpg"
+    ],
+    [
+     "Name",
+     "God the Father MET EP1444"
+    ],
+    [
+     "Author",
+     "Giovanni Ambrogio Bevilacqua"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-8242": {
   "id": "SCP-8242",
@@ -64,6 +109,8 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8242",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -18,7 +18,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8654",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8654/fallin",
+    "cap": "사건-8654 당시 촬영된 디지털 사진. 촬영자 불명."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "fallin"
+    ],
+    [
+     "원본",
+     "Cloudy Sky Background"
+    ],
+    [
+     "저작권자",
+     "Free Nature Stock"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Cloudy_Sky_Background.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8695": {
   "id": "SCP-8695",
@@ -41,6 +71,13 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8695",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8695/%EA%B5%AC%EB%A9%8D.jpg",
+    "cap": "구멍.jpg"
+   }
+  ],
+  "img_credits": []
  }
 }

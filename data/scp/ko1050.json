@@ -19,7 +19,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1050-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1052-KO": {
   "id": "SCP-1052-KO",
@@ -42,7 +44,28 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1052-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Libido.png"
+    ],
+    [
+     "Author",
+     "Navla"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scpko.wikidot.com/department-of-psycho-analysis(링크에 업로드된 파일)"
+    ]
+   ]
+  ]
  },
  "SCP-1053-KO": {
   "id": "SCP-1053-KO",
@@ -65,7 +88,22 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1053-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": "복리후생부 로고. SCP-1053-KO 목격 사진에서 추출함."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/bokjiassassssin/bokjistop.jpg",
+    "cap": "SCP-1053-KO 목격 사진에서 추출한 변형된 밈적 인자."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/bokjiassassssin/bokjininjaja.jpg",
+    "cap": "재단 기지 내 장기 출현 사건 (부록 2 참고) 중 촬영된 SCP-1053-KO-1 개체. 자신을 복리후생부 제2암살팀 소속 정신자 살해 닌자 \"마이클 리\"라고 소개했다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1055-KO": {
   "id": "SCP-1055-KO",
@@ -84,7 +122,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1055-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1060-KO": {
   "id": "SCP-1060-KO",
@@ -106,7 +146,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1060-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1061-KO": {
   "id": "SCP-1061-KO",
@@ -130,7 +172,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1061-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/bulgggg/%EC%98%A4%EC%9D%BC%EB%9F%AC%EB%8C%80.jpg",
+    "cap": "SCP-1061-KO의 홍보 매체 중 하나."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/bulgggg/%EC%98%A4%EC%9D%BC%EB%9F%AC%EB%8C%802.jpg",
+    "cap": "연속복리의 이해를 돕기 위한 다이어그램. 이자 갱신 횟수를 1년, 반년, 분기, 매달에서 매일까지, 점점 늘리다 무한하게 늘리면 어느 시점에서 수렴하게 된다. 이렇게 무한하게 이자를 갱신하는 것이 연속복리이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1062-KO": {
   "id": "SCP-1062-KO",
@@ -151,7 +204,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1062-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1063-KO": {
   "id": "SCP-1063-KO",
@@ -175,7 +230,9 @@
   "author": "Agent_Wanderer",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1063-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1064-KO": {
   "id": "SCP-1064-KO",
@@ -197,7 +254,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1064-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1064-ko/Baby%2C_cute_little_baby.jpg",
+    "cap": "관련 화상. SCP-1064-KO의 영향으로 변한 O5-01."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1066-KO": {
   "id": "SCP-1066-KO",
@@ -222,7 +286,14 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1066-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1066-ko/how",
+    "cap": "SCP-1066-KO의 빨판."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1067-KO": {
   "id": "SCP-1067-KO",
@@ -241,7 +312,9 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1067-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1068-KO": {
   "id": "SCP-1068-KO",
@@ -266,7 +339,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1068-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1070-KO": {
   "id": "SCP-1070-KO",
@@ -292,7 +367,33 @@
   "author": "David Dixon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1070-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1070-ko/Sewage_and_Water_Treatment_Plant%2C_Dukinfield_-_geograph.org.uk_-_3493531.jpg",
+    "cap": "정화조."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Sewage_and_Water_Treatment_Plant,_Dukinfield_-_geograph.org.uk_-_3493531.jpg"
+    ],
+    [
+     "저자",
+     "David Dixon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1071-KO": {
   "id": "SCP-1071-KO",
@@ -317,7 +418,9 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1071-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1072-KO": {
   "id": "SCP-1072-KO",
@@ -338,7 +441,14 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1072-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/marineminecraft/minecraftd.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1074-KO": {
   "id": "SCP-1074-KO",
@@ -363,7 +473,9 @@
   "author": "DreamCube, Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1074-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1075-KO": {
   "id": "SCP-1075-KO",
@@ -391,7 +503,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1075-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1077-KO": {
   "id": "SCP-1077-KO",
@@ -412,7 +526,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1077-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1079-KO": {
   "id": "SCP-1079-KO",
@@ -434,7 +550,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1079-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1080-KO": {
   "id": "SCP-1080-KO",
@@ -451,7 +569,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1080-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1085-KO": {
   "id": "SCP-1085-KO",
@@ -474,7 +594,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1085-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1085-ko/IMG_0089.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1086-KO": {
   "id": "SCP-1086-KO",
@@ -494,7 +621,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1086-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1086-ko/Television_IN_A_CORNER_%21.jpg",
+    "cap": "SCP-1086-KO가 출현한 가정용 TV."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1087-KO": {
   "id": "SCP-1087-KO",
@@ -513,7 +647,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1087-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1089-KO": {
   "id": "SCP-1089-KO",
@@ -535,7 +671,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1089-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1090-KO": {
   "id": "SCP-1090-KO",
@@ -562,7 +700,18 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1090-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Onyx",
+    "cap": "성균관대 대동제에서 공연 중인 아이돌 \"Onyx\"."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Escaping-ghost",
+    "cap": "제21K기지 지하 3층 폐쇄회로 카메라에 찍힌 1등급 격리 인원. SCP-1090-KO’로 재지정."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1091-KO": {
   "id": "SCP-1091-KO",
@@ -585,7 +734,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1091-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1095-KO": {
   "id": "SCP-1095-KO",
@@ -608,7 +759,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1095-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1095-ko/Fountainpen.jpg",
+    "cap": "SCP-1095-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1098-KO": {
   "id": "SCP-1098-KO",
@@ -630,7 +788,49 @@
   "author": "Boxwolf",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1098-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1098-ko/cave.jpg",
+    "cap": "동굴의 구조. 최하단부는 암석들로 인해 접근이 불가능하나 추후 연구 예정임."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1098-ko/D.jpg",
+    "cap": "SCP-1098-KO-C 암컷 성체의 두상. Sonar 데이터에 False-Colour_AceS-CG 1.3 AMPAS를 적용하여 대략적인 형태를 보여주고 있습니다. SCP-1098-KO 세 종들은 색이 없으며 이 이미지는 형태 데이터를 임의의 색으로 변환한 것임을 유의해 주세요. -Gianna 박사-"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "A.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "B.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "C.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Cave.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "D.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1099-KO": {
   "id": "SCP-1099-KO",
@@ -657,6 +857,17 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1099-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1099-ko/man-449404_1280.jpg",
+    "cap": "인터넷 뉴스 인터뷰에 나온 SCP-1099-KO"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -20,7 +20,37 @@
   "author": "Tstaffor",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-7500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7500/smile.jpg",
+    "cap": "SCP-7500이 웃고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "smile.png"
+    ],
+    [
+     "원본",
+     "Happy people live longer"
+    ],
+    [
+     "저작권자",
+     "Marg"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/gebala/1085754525/"
+    ]
+   ]
+  ]
  },
  "SCP-7508": {
   "id": "SCP-7508",
@@ -41,7 +71,63 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7508",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7508/thumb.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7508/chart.png",
+    "cap": "그림의 짝을 맞추었을 때 수령 가능한 금액."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7508/IMG_7119.png",
+    "cap": "발견 현장."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "chart.png"
+    ],
+    [
+     "Author",
+     "choccoMan"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-7508"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "IMG_7119.png"
+    ],
+    [
+     "Name",
+     "Modern Living Room.jpg"
+    ],
+    [
+     "Author",
+     "Fatma005"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Modern_Living_Room.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7510": {
   "id": "SCP-7510",
@@ -66,7 +152,29 @@
   "author": "GwenWinterheart",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7510",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/gwenwinterheart/concrete%20wall.jpg",
+    "cap": "벽 안쪽에는 아무것도 없다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "concrete wall.jpg"
+    ],
+    [
+     "License",
+     "CC by 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:White_Concrete_(217280287).jpeg"
+    ]
+   ]
+  ]
  },
  "SCP-7529": {
   "id": "SCP-7529",
@@ -93,7 +201,31 @@
   "author": "DodoDevil",
   "translator": "Solhan",
   "source": "https://scpko.wikidot.com/scp-7529",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7529/BackCat.jpg",
+    "cap": "SCP-7529, 좌측."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7529/two-half-cats2.png",
+    "cap": "결합 전의 SCP-(7)529."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "BackCat.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-529-new.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7533": {
   "id": "SCP-7533",
@@ -118,7 +250,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7533",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/sr-researcher-james-a-harkness-personnel-file/bmp.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/sr-researcher-james-a-harkness-personnel-file/thing.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/sr-researcher-james-a-harkness-personnel-file/fireflies.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7545": {
   "id": "SCP-7545",
@@ -141,6 +288,36 @@
   "author": "Ralliston과 Rounderhouse 공저.",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-7545",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/rallistonrounder/bunker.png",
+    "cap": "SCP-7545의 지상부."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "bunker.png"
+    ],
+    [
+     "Name",
+     "Bunker Fuchsegg"
+    ],
+    [
+     "Author",
+     "Kecko"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  }
 }

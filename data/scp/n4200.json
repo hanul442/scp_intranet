@@ -26,7 +26,9 @@
   "author": "Woedenaz",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4205",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4211": {
   "id": "SCP-4211",
@@ -52,7 +54,51 @@
   "author": "Blue Mountains Library, Local Studies",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4211",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4211/notebook.jpg",
+    "cap": "SCP-4211. (밈 제독 처리한 이미지)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cipher1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cipher2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cipher3.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cipher4.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cipher5.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "notebook.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4212": {
   "id": "SCP-4212",
@@ -74,7 +120,9 @@
   "author": "excited_occhiolism",
   "translator": "tasteisgone",
   "source": "https://scpko.wikidot.com/scp-4212",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4213": {
   "id": "SCP-4213",
@@ -97,7 +145,21 @@
   "author": "Adam Jones",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4213",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4213/SCP-4213.jpg",
+    "cap": "획득 사건 직후의 SCP-4213."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-4213.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4217": {
   "id": "SCP-4217",
@@ -124,7 +186,21 @@
   "author": "Gentleman Thief",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4217",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4217/bismarck.jpg",
+    "cap": "SCP-4217 (1940년 경)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bismarck.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4225": {
   "id": "SCP-4225",
@@ -148,7 +224,9 @@
   "author": "Kothardarastrix",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-4225",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4228": {
   "id": "SCP-4228",
@@ -177,7 +255,25 @@
   "author": "T Rutherford",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4228",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4228/SCP-4778-1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4228/SCP-4778-2.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "O5-4-BRDN.SCP"
+    ]
+   ]
+  ]
  },
  "SCP-4240": {
   "id": "SCP-4240",
@@ -202,7 +298,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4240",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4242": {
   "id": "SCP-4242",
@@ -226,7 +324,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4242",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4242/temple.jpg",
+    "cap": "SCP-4242"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4242/Labyrinth.jpg",
+    "cap": "SCP-4242-Roma로 이어지는 미궁"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4242/kasuga.jpg",
+    "cap": "SCP-4242-Iga의 입구. 유파에 속한 세 사람이 항상 경비하고 있다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4242/tuareg.jpg",
+    "cap": "POI-4242-𐤀"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4247": {
   "id": "SCP-4247",
@@ -249,6 +366,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4247",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

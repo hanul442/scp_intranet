@@ -17,7 +17,37 @@
   "author": "PlaguePJP",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5364",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-seven/bedroom.png",
+    "cap": "발견 당시 SCP-5364의 위치."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bedroom.png"
+    ],
+    [
+     "원본",
+     "IMG_3186"
+    ],
+    [
+     "저작권자",
+     "Robert"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-5370": {
   "id": "SCP-5370",
@@ -41,7 +71,59 @@
   "author": "Taffeta",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5370",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5370/board.png",
+    "cap": "SCP-5370의 1983년 7월 17일 상황을 담은 8x8 배치도. 뒤집힌 비숍은 대각선으로 두 칸 이동 가능한 기물인 알필alfil을 의미한다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5370/mainframe.jpg",
+    "cap": "SCP-5370을 호스팅하는 중앙 컴퓨터인 퍼펙트 블루."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "board.png"
+    ],
+    [
+     "Author",
+     "Taffeta"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "mainframe.jpg"
+    ],
+    [
+     "Name",
+     "Mainframe Computer"
+    ],
+    [
+     "Author",
+     "Pargon"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5371": {
   "id": "SCP-5371",
@@ -65,7 +147,37 @@
   "author": "Lamentte",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5371",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5371/ms.jpg",
+    "cap": "SCP-5371."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bedroom.png"
+    ],
+    [
+     "원본",
+     "La mort Saint-Innocent Louvre R.F.2625.jpg"
+    ],
+    [
+     "저작권자",
+     "Jebulon"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-5376": {
   "id": "SCP-5376",
@@ -88,7 +200,67 @@
   "author": "Rounderhouse",
   "translator": "LSJ",
   "source": "https://scpko.wikidot.com/scp-5376",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5376/turbo.png",
+    "cap": "SCP-5376."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5376/splode1.png",
+    "cap": "SCP-5376이 폭발함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5376/splode2.png",
+    "cap": "SCP-5376이 폭발함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5376/spode3.jpg",
+    "cap": "SCP-5376이 폭발함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "splode1.png"
+    ],
+    [
+     "이름",
+     "Robbie Knievel - Airborn Texas Motor Speedway"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "splode2"
+    ],
+    [
+     "이름",
+     "(파일명과 동일)"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "spode3.jpg"
+    ],
+    [
+     "이름",
+     "(파일명과 동일)"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "turbo.png"
+    ],
+    [
+     "이름",
+     "Explosive ordnance Marines heat up for air show"
+    ]
+   ]
+  ]
  },
  "SCP-5377": {
   "id": "SCP-5377",
@@ -109,7 +281,9 @@
   "author": "Rounderhouse",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-5377",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5378": {
   "id": "SCP-5378",
@@ -130,7 +304,32 @@
   "author": "FluffyDog00",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5378",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Ladybugs.jpeg"
+    ],
+    [
+     "원본",
+     "Forget_Me_Not_(210911317).jpeg"
+    ],
+    [
+     "저작권자",
+     "Elena Andreeva"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-5380": {
   "id": "SCP-5380",
@@ -149,7 +348,29 @@
   "author": "chiifu",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5380/victor.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "victor.jpg"
+    ],
+    [
+     "작가",
+     "osseous"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-5383": {
   "id": "SCP-5383",
@@ -172,7 +393,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-5383",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5391": {
   "id": "SCP-5391",
@@ -206,7 +429,115 @@
   "author": "J Dune",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-5391",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5391/5333104910_a22d3748da_b.jpg",
+    "cap": "LSA-Brasil-001이 부활한 이후의 프로메테우스 연구소 실험 시설 ENSW-1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5391/map.png",
+    "cap": "웨이크 아일랜드 연안에 위치한 재단 보안 시설 제40기지의 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5391/3060D784-C3CA-4259-AC83-AEC52E37C9A9.jpg",
+    "cap": "SCP-5391 연구 책임자 미카사 카오리 박사"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5391/Alexandr_Yatchikov.jpg",
+    "cap": "PoI-2889 외"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "factory.jpg"
+    ],
+    [
+     "이름",
+     "Remains of a destroyed by flooding, near Jacobabad"
+    ],
+    [
+     "저작권자",
+     "DFID"
+    ],
+    [
+     "라이선스",
+     "CC-BY-2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "map.jpg"
+    ],
+    [
+     "이름",
+     "Site-40"
+    ],
+    [
+     "저작권자",
+     "Steph Lynch"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-3.0"
+    ],
+    [
+     "출처",
+     "Own Work"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "kaori.jpg"
+    ],
+    [
+     "이름",
+     "Noriko ishigaki1"
+    ],
+    [
+     "저작권자",
+     "Hard Mas"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "science.jpg"
+    ],
+    [
+     "원본",
+     "Alexandr Yatchikov"
+    ],
+    [
+     "저작권자",
+     "ALDOR46"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5397": {
   "id": "SCP-5397",
@@ -229,6 +560,166 @@
   "author": "Ecronak",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5397",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/ElectricWorks.jpg",
+    "cap": "SCP-5397에 의해 완전히 액화된 인간의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/RecumbentLove.jpg",
+    "cap": "SCP-5397-B-1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/FlamingGiraffe.jpg",
+    "cap": "SCP-5397-B-2"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/Thehungrymouthofcapitalism.jpg",
+    "cap": "SCP-5397-B-6"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/ArtworkbyOdilonRedon.jpg",
+    "cap": "SCP-5397-B-7 중 일부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5397/ArtworkbyOdilonRedon3.jpg",
+    "cap": "SCP-5397-B-8"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "RecumbentLove"
+    ],
+    [
+     "원본",
+     "Recumbent Love (1941) - António Dacosta (1914 - 1990)"
+    ],
+    [
+     "저작권자",
+     "pedrosimoes7"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/7688caa0-771f-4282-9b4d-59eb78b4c59b"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "FlamingGiraffe"
+    ],
+    [
+     "원본",
+     "Flaming Giraffe"
+    ],
+    [
+     "저작권자",
+     "terren in virginia"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/5279ba8d-415e-4360-ae87-3dee27731668"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ElectricWorks"
+    ],
+    [
+     "원본",
+     "Electric Works"
+    ],
+    [
+     "저작권자",
+     "D.C.Atty"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/6efa1d5e-043e-497e-942c-2a08d55c313e"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Thehungrymouthofcapitalism"
+    ],
+    [
+     "원본",
+     "The hungry mouth of capitalism"
+    ],
+    [
+     "저작권자",
+     "cvclne"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/16c25abc-a306-45f9-90d5-fef62c0dd529"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ArtworkbyOdilonRedon"
+    ],
+    [
+     "원본",
+     "Artwork by Odilon Redon"
+    ],
+    [
+     "저작권자",
+     "Free Public Domain Illustrations by rawpixel"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/8262a648-be25-4cce-987c-e1d52f17efc4"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ArtworkbyOdilonRedon3"
+    ],
+    [
+     "원본",
+     "Artwork by Odilon Redon"
+    ],
+    [
+     "저작권자",
+     "Free Public Domain Illustrations by rawpixel"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/f65e08d1-1491-48a8-b5e3-281b12bb643b"
+    ]
+   ]
+  ]
  }
 }

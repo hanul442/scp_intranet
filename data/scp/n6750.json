@@ -18,7 +18,37 @@
   "author": "J Dune",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6764",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6764/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6764/6764.jpg",
+    "cap": "SCP-6764와의 대화 중 제공받은 참조 이미지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "maddie2.png"
+    ],
+    [
+     "저작권자",
+     "J Dune and HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-6768": {
   "id": "SCP-6768",
@@ -43,7 +73,93 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6768",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6768/farm.png",
+    "cap": "SCP-6768-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7549/recurrent_triangle.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6768/display.gif",
+    "cap": "SCP-6768의 영향 받은 영역의 투영도. 제6768기지는 중앙에서 본 시간선과 만난다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "dept.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "deletion.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "display.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "farm.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "inner.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-6770": {
   "id": "SCP-6770",
@@ -64,7 +180,14 @@
   "author": "Ecronak",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6770",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6770/Smiley.jpg",
+    "cap": "SCP-6770 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6771": {
   "id": "SCP-6771",
@@ -85,7 +208,89 @@
   "author": "syuzhet",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6771",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6771/Russell_Vought.png",
+    "cap": "야간의 SCP-6771."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6771/unknown.png",
+    "cap": "맥아더 섬"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6771/17134291469_46e93a80ef_b.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Russell_Vought.jpg"
+    ],
+    [
+     "Name",
+     "Russ Vought, Office of Management and Budget's Deputy Director"
+    ],
+    [
+     "Author",
+     "Dcwonkywonk"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://upload.wikimedia.org/wikipedia/commons/6/64/Russell_Vought.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "unknown.png"
+    ],
+    [
+     "Name",
+     "Unknown Dot Png"
+    ],
+    [
+     "Author",
+     "OpenAerialMap"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://openaerialmap.org"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "17134291469_46e93a80ef_b.jpg"
+    ],
+    [
+     "Name",
+     "Milk"
+    ],
+    [
+     "Author",
+     "Mike Mozart"
+    ],
+    [
+     "License",
+     "Attribution 2.0 Generic (CC BY 2.0)"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/jeepersmedia/17134291469"
+    ]
+   ]
+  ]
  },
  "SCP-6777": {
   "id": "SCP-6777",
@@ -110,7 +315,65 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6777",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-3-qhsx/IchifujiBakuuChannel",
+    "cap": "SCP-6777의 유튜브 채널"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-5-fvyk/IchifujiBakuuStreaming_R",
+    "cap": "스트리밍 중의 SCP-6777(██/██/20██ 당시 송출된 \"ベト九5周やりきったぞーーー！！!3\" 제목의 스트리밍에서)"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-9-37yh/IchifujiBakuusNightmare",
+    "cap": "스트리밍 종료 당시 스크린샷"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "IchifujiBakuuChannel"
+    ],
+    [
+     "저작권자",
+     "Karathh"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "IchifujiBakuuStreaming_R"
+    ],
+    [
+     "저작권자",
+     "Karathh"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "IchifujiBakuusNightmare"
+    ],
+    [
+     "저작권자",
+     "Karathh , pastarasta1"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-6788": {
   "id": "SCP-6788",
@@ -131,7 +394,9 @@
   "author": "Jekeled",
   "translator": "Sycop",
   "source": "https://scpko.wikidot.com/scp-6788",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6794": {
   "id": "SCP-6794",
@@ -152,6 +417,36 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6794",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6794/boxes.jpg",
+    "cap": "창고 (부록 6794.2 참조)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "boxes.jpg"
+    ],
+    [
+     "Name",
+     "Historic AySA Archives"
+    ],
+    [
+     "Author",
+     "Ivan Rolero"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

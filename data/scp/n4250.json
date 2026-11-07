@@ -20,7 +20,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4252",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4252/NeutralBeans.png",
+    "cap": "무효화된 SCP-4252-A1 (사건-01 참조)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4270": {
   "id": "SCP-4270",
@@ -47,7 +54,37 @@
   "author": "Deadly Bread",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4270",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4270/benharris.png",
+    "cap": "SCP-4270"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "benharris.png"
+    ],
+    [
+     "Name",
+     "Benjamin Harrison, head and shoulders bw photo, 1896"
+    ],
+    [
+     "Author",
+     "Pach Brothers"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-4281": {
   "id": "SCP-4281",
@@ -68,7 +105,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4281",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4281/UPLnAxv.png",
+    "cap": "SCP-4281. SCP-4281-1의 위치를 하얀색 화살표로 표시했다"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4290": {
   "id": "SCP-4290",
@@ -94,7 +138,21 @@
   "author": "NatVoltaic",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4290",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4290/Qinghai_lake.jpg",
+    "cap": "중국 칭하이성 칭하이호."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Qinghai_lake.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4296": {
   "id": "SCP-4296",
@@ -116,6 +174,8 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4296",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

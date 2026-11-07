@@ -18,7 +18,9 @@
   "author": "Dr Grangan",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-850",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-853": {
   "id": "SCP-853",
@@ -39,7 +41,37 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-853",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-853/redjar.jpg",
+    "cap": "SCP-853-207. \"맑고 푸른 하늘, 1923년\" 라벨이 붙어 있음"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "redjar.jpg"
+    ],
+    [
+     "원본",
+     "File:Kerr mason jar.jpg"
+    ],
+    [
+     "저작권자",
+     "User:Themightyquill"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-854": {
   "id": "SCP-854",
@@ -60,7 +92,9 @@
   "author": "SimpleCadence",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-854",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-855": {
   "id": "SCP-855",
@@ -83,7 +117,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-855",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-855/scp855-new.png",
+    "cap": "변칙적 특성이 나타나기 이전의 SCP-855"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-858": {
   "id": "SCP-858",
@@ -103,7 +144,37 @@
   "author": "Lowell",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-858",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-858/Irid_clouds1.jpg",
+    "cap": "SCP-858의 영향을 받고 하강하는 구름"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Irid_clouds1.jpg"
+    ],
+    [
+     "원본",
+     "File:Irid_clouds1.jpg"
+    ],
+    [
+     "저작권자",
+     "Brocken Inaglory"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-860": {
   "id": "SCP-860",
@@ -125,7 +196,18 @@
   "author": "Enma Ai",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-860",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-860/bluekey2.png",
+    "cap": "SCP-860"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-860/woods_night.png",
+    "cap": "SCP-860-1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-862": {
   "id": "SCP-862",
@@ -146,7 +228,28 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-862",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scprat-new.jpg"
+    ],
+    [
+     "원본",
+     "Water Dropper (Suiteki) in the Form of a Rat"
+    ],
+    [
+     "저작권자",
+     "Los Angeles County Museum of Art"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-863": {
   "id": "SCP-863",
@@ -168,7 +271,37 @@
   "author": "Tanhony",
   "translator": "Agent_Wanderer",
   "source": "https://scpko.wikidot.com/scp-863",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-863/crabscp-new.png?width=400&height=300",
+    "cap": "격리된 SCP-863-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "crabscp-new.jpg"
+    ],
+    [
+     "원본",
+     "Fiddler Crab"
+    ],
+    [
+     "저작권자",
+     "Denise Chan"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-865": {
   "id": "SCP-865",
@@ -191,7 +324,9 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-865",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-866": {
   "id": "SCP-866",
@@ -211,7 +346,9 @@
   "author": "Dr Scorilo",
   "translator": "omega123",
   "source": "https://scpko.wikidot.com/scp-866",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-867": {
   "id": "SCP-867",
@@ -234,7 +371,32 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-867",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp867.webp"
+    ],
+    [
+     "원본",
+     "Pine tree under a green sky."
+    ],
+    [
+     "저작권자",
+     "Will Manuel, S D Locke에 의해 편집됨."
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인 (원본) / CC BY-SA 4.0 (편집본)"
+    ],
+    [
+     "출처",
+     "rawpixel"
+    ]
+   ]
+  ]
  },
  "SCP-868": {
   "id": "SCP-868",
@@ -255,7 +417,9 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-868",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-869": {
   "id": "SCP-869",
@@ -275,7 +439,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-869",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-869/scp-869.png",
+    "cap": "SCP-869의 소속시설 자료사진 (격리 이전)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-869.png"
+    ],
+    [
+     "원본",
+     "File:Galveston Island Pleasure Pier.jpg"
+    ],
+    [
+     "저작권자",
+     "Sankenbruk"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-870": {
   "id": "SCP-870",
@@ -298,7 +492,14 @@
   "author": "Tanhony",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-870",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpsandboxwiki.wdfiles.com/local--files/tanhony/scpinvisible.jpg",
+    "cap": "██████ ████씨의 학술지에 실린 SCP-870의 스케치."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-871": {
   "id": "SCP-871",
@@ -318,7 +519,37 @@
   "author": "Seibai",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-871",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-871/SCP-871.jpg",
+    "cap": "SCP-871의 한 요소"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Cake.jpg"
+    ],
+    [
+     "원본",
+     "Chocolate dessert cake.jpg"
+    ],
+    [
+     "저작권자",
+     "Jon Sullivan"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-872": {
   "id": "SCP-872",
@@ -340,7 +571,63 @@
   "author": "Tanhony",
   "translator": "Dawninaday",
   "source": "https://scpko.wikidot.com/scp-872",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-872/scpscarecrow-new.png",
+    "cap": "발견 위치에서 촬영된 SCP-872."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-872/scpsheep-new.jpg",
+    "cap": "SCP-872에게 영향받은 양떼."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpscarecrow-new.jpg"
+    ],
+    [
+     "원본",
+     "Silent Scarecrow, Deadly Scarecrow"
+    ],
+    [
+     "저작권자",
+     "Darin Barry"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scpsheep-new.jpg"
+    ],
+    [
+     "원본",
+     "Flock Of Sheep Sheep Flock"
+    ],
+    [
+     "저작권자",
+     "Hans"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "needpix"
+    ]
+   ]
+  ]
  },
  "SCP-874": {
   "id": "SCP-874",
@@ -360,7 +647,37 @@
   "author": "Azeltir",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-874",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-874/874.jpg",
+    "cap": "비활성 상태의 SCP-874 웅덩이의 부감도"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "874.jpg"
+    ],
+    [
+     "원본",
+     "Black Puddle"
+    ],
+    [
+     "저작권자",
+     "JoshuaDavisPhotography"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr 아카이브"
+    ]
+   ]
+  ]
  },
  "SCP-880": {
   "id": "SCP-880",
@@ -379,7 +696,9 @@
   "author": "GrandEnder",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-880",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-882": {
   "id": "SCP-882",
@@ -402,7 +721,37 @@
   "author": "Dr Gears",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-882",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-882/Gears2.jpg",
+    "cap": "SCP-882"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Gears2.jpg"
+    ],
+    [
+     "원본",
+     "gears"
+    ],
+    [
+     "저작권자",
+     "psyberartist"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-883": {
   "id": "SCP-883",
@@ -424,7 +773,9 @@
   "author": "Agent Peters",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-883",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-884": {
   "id": "SCP-884",
@@ -449,7 +800,9 @@
   "author": "TroyL",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-884",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-890": {
   "id": "SCP-890",
@@ -472,7 +825,9 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-890",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-894": {
   "id": "SCP-894",
@@ -495,7 +850,9 @@
   "author": "작자 미상",
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-894",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-895": {
   "id": "SCP-895",
@@ -517,7 +874,24 @@
   "author": "Aelanna",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-895",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "silo-new.png, silo-fuzz-new.png, silo-b1-new.png, silo-b2-new.png, silo-b3-new.png, silo-b4-new.png, silo-b5-new.png, silo-b6-new.png"
+    ],
+    [
+     "저작권자",
+     "stephlynch"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-899": {
   "id": "SCP-899",
@@ -542,6 +916,8 @@
   "author": "Sorts",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-899",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

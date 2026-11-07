@@ -26,7 +26,127 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5056",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5056/DougCard.png",
+    "cap": "화가가 그린 SCP-5056-A의 모습. 현재는 SCP-5056-B가 소유 중이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5056/Phil.jpg",
+    "cap": "비전저감시설 AAF-D에 있는 JM64. SCP-5056-B로 재분류되기 23일 전의 사진이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5056/DougMop.jpg",
+    "cap": "비전저감시설 AAF-B에 출현한 SCP-5056-A."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "5056R.png, DougCard.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "AR.png, JM.png, PP.png, PS.png, RE.png, SS.png"
+    ],
+    [
+     "Author",
+     "HarryBlank and Osobist"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source",
+     "SCP-RU"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DougMop.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DougReal.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Phil.jpg"
+    ],
+    [
+     "Name",
+     "Hazmat Tech"
+    ],
+    [
+     "Author",
+     "depetit"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Philmelia.jpg"
+    ],
+    [
+     "Name",
+     "couple on bench"
+    ],
+    [
+     "Author",
+     "Davmi Pics"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5059": {
   "id": "SCP-5059",
@@ -48,7 +168,14 @@
   "author": "HammerMaiden",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5059",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5059/Transformers.jpg",
+    "cap": "발견 당시 SCP-5059."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5060": {
   "id": "SCP-5060",
@@ -71,7 +198,37 @@
   "author": "Jacob Conwell",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5060",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5060/SCP5000.jpg",
+    "cap": "SCP 재단 탐사선에서 바라본 SCP-5060. SCP-5060의 수많은 위성은 디지털 방식으로 지워져 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP5000.jpg"
+    ],
+    [
+     "원본",
+     "Venus - May 17 2016"
+    ],
+    [
+     "저작권자",
+     "Kevin Gill"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5062": {
   "id": "SCP-5062",
@@ -93,7 +250,9 @@
   "author": "Tanhony",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5062",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5079": {
   "id": "SCP-5079",
@@ -119,7 +278,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5079",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5079/Fungus",
+    "cap": "SCP-5079-1 개체에서 절제한 균질 물질."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Fungus"
+    ],
+    [
+     "저작권자",
+     "Bernard Spragg"
+    ],
+    [
+     "라이선스",
+     "Released into Public Domain"
+    ],
+    [
+     "출처",
+     "Fungus"
+    ]
+   ]
+  ]
  },
  "SCP-5083": {
   "id": "SCP-5083",
@@ -143,7 +328,81 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5083",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/felixouartpage/gold.jpg",
+    "cap": "."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5083/Gold2",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5083/run",
+    "cap": "뉴욕에서 여러 사람들에게 쫓기는 SCP-5083-1 개체 (2006년)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Gold2"
+    ],
+    [
+     "Name",
+     "황금 텍스처"
+    ],
+    [
+     "Author",
+     "árticotropical"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/643a8a36-54cf-480a-be4f-1dc38b714bbe"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "run"
+    ],
+    [
+     "Name",
+     "2007년 5월 1일 무정부주의자 시위, 전통적 마무리 달리기 중"
+    ],
+    [
+     "Author",
+     "Liftarn"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/Category:Running_crowds#/media/File:1maj2007.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "love"
+    ],
+    [
+     "Author",
+     "WizzBlizz"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5088": {
   "id": "SCP-5088",
@@ -163,7 +422,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5088",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5088/scppool.jpg",
+    "cap": "SCP-5088"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scppool.jpg"
+    ],
+    [
+     "원본",
+     "Jimmy, put the water back!!!"
+    ],
+    [
+     "저작권자",
+     "Jean-Etienne Minh-Duy Poirrier"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5094": {
   "id": "SCP-5094",
@@ -189,7 +478,14 @@
   "author": "etoisle",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5094",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5094/missj1.gif",
+    "cap": "SCP-5094 시험 도중 촬영한 영상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5097": {
   "id": "SCP-5097",
@@ -214,6 +510,8 @@
   "author": "VoidLady",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5097",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

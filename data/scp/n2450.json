@@ -19,7 +19,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2453",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2453/scp-pregnancy-test.jpg",
+    "cap": "활성화된 SCP-2453 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-pregnancy-test.jpg"
+    ],
+    [
+     "Name",
+     "Pregnancy test result.jpg"
+    ],
+    [
+     "Author",
+     "Klaus Hoffmeier"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2458": {
   "id": "SCP-2458",
@@ -44,7 +74,37 @@
   "author": "WrongJohnSilver",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2458",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2458/oldcello.jpg",
+    "cap": "SCP-2458 (상세)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "oldcello.jpg"
+    ],
+    [
+     "Name",
+     "Old Wooden Cello"
+    ],
+    [
+     "Author",
+     "Dejan Krsmanovic"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2460": {
   "id": "SCP-2460",
@@ -68,7 +128,14 @@
   "author": "WrongJohnSilver",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2460",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2460/blackknight.jpg",
+    "cap": "SCP-2460"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2461": {
   "id": "SCP-2461",
@@ -91,7 +158,14 @@
   "author": "DrClef",
   "translator": "propain : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-2461",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2461/dcaf(1).png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2462": {
   "id": "SCP-2462",
@@ -111,7 +185,37 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2462",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2462/the.jpg",
+    "cap": "SCP-2462"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "the.jpg"
+    ],
+    [
+     "Name",
+     "Rafflesia"
+    ],
+    [
+     "Author",
+     "NeilsPhotography"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2464": {
   "id": "SCP-2464",
@@ -136,7 +240,33 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2464",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2464/stone.jpg",
+    "cap": "구역 2464-5로 연장되는 주 터널."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "stone.jpg"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2466": {
   "id": "SCP-2466",
@@ -158,7 +288,9 @@
   "author": "Communism Will Win",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2466",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2472": {
   "id": "SCP-2472",
@@ -179,7 +311,37 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2472",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2472/coupler.jpg",
+    "cap": "SCP-2472, 회수 직후에 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "coupler.jpg"
+    ],
+    [
+     "Name",
+     "Micro coupler MC-06PC 日東工器 マイクロカプラ"
+    ],
+    [
+     "Author",
+     "Laineema"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2474": {
   "id": "SCP-2474",
@@ -204,7 +366,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2474",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2474/irnini.jpg",
+    "cap": "이르니니산의 합성 개구 레이더 이미지. A3형 인식재해 프로토콜에 따라 SCP-2474 가림"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2475": {
   "id": "SCP-2475",
@@ -226,7 +395,14 @@
   "author": "ObserverSeptember",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2475",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2475/Conan%20Doyle.jpg",
+    "cap": "SCP-2475의 위치"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2478": {
   "id": "SCP-2478",
@@ -250,7 +426,9 @@
   "author": "MrWrong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2478",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2480": {
   "id": "SCP-2480",
@@ -279,7 +457,18 @@
   "author": "Metaphysician",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2480",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2480/PseudoIon",
+    "cap": "현재까지 유일하게 남아있는 것으로 추정되는 KTE-0452의 사진 (정면).2"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2480/SCP-2480-3.jpg",
+    "cap": "기지 이사관 사이먼 오스월트의 현재까지 남아있는 유일한 증명사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2481": {
   "id": "SCP-2481",
@@ -310,7 +499,9 @@
   "author": "SunnyClockwork",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-2481",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2485": {
   "id": "SCP-2485",
@@ -334,7 +525,37 @@
   "author": "RandomGuy331 ＆ Zyn",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2485/LadyKatieBottleresized.jpg",
+    "cap": "재단 검사를 거친 뒤 태그가 제거된 SCP-2485."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "LadyKatieBottleresized.jpg"
+    ],
+    [
+     "Name",
+     "N/A"
+    ],
+    [
+     "Author",
+     "LadyKatie"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "The SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2490": {
   "id": "SCP-2490",
@@ -359,7 +580,14 @@
   "author": "A Random Day",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-2490",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2490/CI%20Document.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2491": {
   "id": "SCP-2491",
@@ -382,7 +610,9 @@
   "author": "DrBleep",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2491",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2496": {
   "id": "SCP-2496",
@@ -401,7 +631,9 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2496",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2499": {
   "id": "SCP-2499",
@@ -426,6 +658,8 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2499",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

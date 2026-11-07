@@ -17,7 +17,9 @@
   "author": "Silberescher",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1802",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1808": {
   "id": "SCP-1808",
@@ -39,7 +41,9 @@
   "author": "PeppersGhost",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1812": {
   "id": "SCP-1812",
@@ -60,7 +64,21 @@
   "author": "Ihp",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1812",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1812/1812replacement.png",
+    "cap": "\"루나 2\". 19██년 7월 2일 알렉산더 몬태그가 촬영한, 최초로 알려진 SCP-1812의 사진. 빨간색 원으로 SCP-1812가 강조되어 있음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1812replacement.png"
+    ]
+   ]
+  ]
  },
  "SCP-1814": {
   "id": "SCP-1814",
@@ -82,7 +100,9 @@
   "author": "DrBerggren",
   "translator": "albus1216",
   "source": "https://scpko.wikidot.com/scp-1814",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1816": {
   "id": "SCP-1816",
@@ -103,7 +123,9 @@
   "author": "Dr Cuddles",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1816",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1818": {
   "id": "SCP-1818",
@@ -129,7 +151,9 @@
   "author": "Bunton",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1818",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1820": {
   "id": "SCP-1820",
@@ -150,7 +174,9 @@
   "author": "Sarai_Seneschal",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1820",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1824": {
   "id": "SCP-1824",
@@ -174,7 +200,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1824",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1824/il_fullxfull.370939586_g0kj%281%29.jpg",
+    "cap": "[편집됨]에 있는 SCP-1824"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "il_fullxfull.370939586_g0kj%281%29.jpg"
+    ],
+    [
+     "Author",
+     "Lord Jim"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-1826": {
   "id": "SCP-1826",
@@ -196,7 +248,9 @@
   "author": "faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1826",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1831": {
   "id": "SCP-1831",
@@ -215,7 +269,33 @@
   "author": "",
   "translator": "Alexandreo",
   "source": "https://scpko.wikidot.com/scp-1831",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1831/scp1831.png",
+    "cap": "SCP-1831의 디지털 사본. 클릭하여 확대."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "20180819_163007.jpg"
+    ],
+    [
+     "제작자",
+     "Westrin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1831"
+    ]
+   ]
+  ]
  },
  "SCP-1833": {
   "id": "SCP-1833",
@@ -236,7 +316,33 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1833",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1833/1833-new.jpg",
+    "cap": "SCP-1833의 표표지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1833-new.jpg"
+    ],
+    [
+     "출처",
+     "아래 참조"
+    ],
+    [
+     "제작자",
+     "Elizabeth Murphy, Elenee FishTruck"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1834": {
   "id": "SCP-1834",
@@ -262,7 +368,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1834",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1835": {
   "id": "SCP-1835",
@@ -284,7 +392,37 @@
   "author": "ObserverSeptember",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1835/SCP-1835.png",
+    "cap": "SCP-1835 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-1835.png"
+    ],
+    [
+     "Name",
+     "airship"
+    ],
+    [
+     "Author",
+     "nan_says"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-1836": {
   "id": "SCP-1836",
@@ -313,7 +451,33 @@
   "author": "Vivax",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1836",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1836/sedna-new.jpg",
+    "cap": "격리되기 전의 SCP-1836"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "sedna-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Ted Cheeseman"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1837": {
   "id": "SCP-1837",
@@ -334,7 +498,33 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1837",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1837/SCP-1837-new.png",
+    "cap": "초기 시험 중인 SCP-1837."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1837-new.png"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Aqua Mechanical"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1838": {
   "id": "SCP-1838",
@@ -360,7 +550,9 @@
   "author": "Anborough",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1838",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1839": {
   "id": "SCP-1839",
@@ -384,7 +576,9 @@
   "author": "Salman Corbette",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1839",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1841": {
   "id": "SCP-1841",
@@ -410,7 +604,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1841",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1845": {
   "id": "SCP-1845",
@@ -437,7 +633,9 @@
   "author": "Smapti",
   "translator": "O-Road",
   "source": "https://scpko.wikidot.com/scp-1845",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1846": {
   "id": "SCP-1846",
@@ -460,6 +658,8 @@
   "author": "Akumeoy",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1846",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

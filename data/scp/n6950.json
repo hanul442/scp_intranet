@@ -17,7 +17,9 @@
   "author": "",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-6957",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6959": {
   "id": "SCP-6959",
@@ -38,7 +40,55 @@
   "author": "MrBonesWildRide",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6959/Fumofumofumofumofumo.jpg",
+    "cap": "SCP-6959와 동일한 형태의 평범한 동방프로젝트 봉제인형."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6959/RX.jpg",
+    "cap": "융합 사건 이전에 촬영된 RX J1856-3754."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Fumofumofumofumofumo.jpg"
+    ],
+    [
+     "Author",
+     "Renafox"
+    ],
+    [
+     "License",
+     "CC BY 4.0"
+    ],
+    [
+     "Source Link",
+     "https://sketchfab.com/3d-models/project-cirno-fumo-3d-scan-efd2a7f4dbf048c1a18438db7f86c4b9"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "RX J1856.5-3754.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://chandra.harvard.edu/photo/2002/0211/"
+    ]
+   ]
+  ]
  },
  "SCP-6966": {
   "id": "SCP-6966",
@@ -60,7 +110,37 @@
   "author": "Aftokrator",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6966",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/shelter/hallway.jpg",
+    "cap": "무편집 영상에서의 SCP-6966 내부 정지 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "hallway.jpg"
+    ],
+    [
+     "Name",
+     "corridor-495262_960_720.jpg"
+    ],
+    [
+     "Author",
+     "coombesy"
+    ],
+    [
+     "License",
+     "CC 0"
+    ],
+    [
+     "Source",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-6969": {
   "id": "SCP-6969",
@@ -88,7 +168,55 @@
   "author": "Yossipossi",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6969",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6969/6000bed.jpg",
+    "cap": "특수 실험실 ζ-28-41"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "6000bed.jpg"
+    ],
+    [
+     "Name",
+     "Bedroom big bed.jpg"
+    ],
+    [
+     "Author",
+     "IFERREIRO"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Dark Red Overwatch Logo.png"
+    ],
+    [
+     "Author",
+     "Aethris"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6980": {
   "id": "SCP-6980",
@@ -109,7 +237,28 @@
   "author": "Dr Leonerd",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-6980",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "IceAgeEarth.jpg"
+    ],
+    [
+     "저작권자",
+     "Ittiz"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6987": {
   "id": "SCP-6987",
@@ -136,7 +285,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6987",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6987/logo.png",
+    "cap": "."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/lordxvnv/egyptian.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/lordxvnv/firerome.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/lordxvnv/lloyds.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/goc-hub-page/GOC-Logo-v4.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6996": {
   "id": "SCP-6996",
@@ -167,7 +339,45 @@
   "author": "Dysadron",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-6996",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://firedawnfolder.wdfiles.com/local--files/dysadron-50/RED.jpg",
+    "cap": "SCP-6996."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/corridor2.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/strawberry.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/Cinema.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/Site.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/forest.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6996/ORB.jpg",
+    "cap": "감시 장비에서 촬영된 영상"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cinema"
+    ]
+   ]
+  ]
  },
  "SCP-6999": {
   "id": "SCP-6999",
@@ -198,6 +408,36 @@
   "author": "Elenee FishTruck",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6999/band-mk2.jpg",
+    "cap": "SCP-6999의 한 장면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "band.jpg"
+    ],
+    [
+     "원본",
+     "File:Koninklijke Harmonie van Thorn 20080501.JPG"
+    ],
+    [
+     "저작권자",
+     "Nlkalwien"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

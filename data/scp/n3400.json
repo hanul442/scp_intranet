@@ -22,7 +22,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3405",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3406": {
   "id": "SCP-3406",
@@ -45,7 +47,33 @@
   "author": "Communism will win",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3406",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3406/knightofthelivingknife.jpg",
+    "cap": "레더맨(Leatherman) 제품 스테인리스 스틸 포켓툴에서 비롯한 SCP-3406-1 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "knightofthelivingknife.jpg"
+    ],
+    [
+     "저자",
+     "Communism will win"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-3406"
+    ]
+   ]
+  ]
  },
  "SCP-3408": {
   "id": "SCP-3408",
@@ -64,7 +92,71 @@
   "author": "Liz The GM",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3408",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_01.jpg",
+    "cap": "제3408기지는 매우 활기 넘치는 밤 문화를 제공합니다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_02.jpg",
+    "cap": "당신의 고민을 염산으로 모두 태워버리세요."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_03.jpg",
+    "cap": "유명한 유기체 조각상 《죽어있는 것의 삶》이 저희의 우수한 보안요원 중 한 명을 말소시키기 직전의 모습입니다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_04.jpg",
+    "cap": "랙무루센의 힘을 강화하기 위한 피 뽑기의 마지막 준비 과정."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_05.jpg",
+    "cap": "채식주의자용 식단도 제공가능합니다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3408/site3408_06.jpg",
+    "cap": "그들은 당신이 사라졌는지조차 깨닫지 못할 거에요."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "site3408_01.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site3408_02.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site3408_03.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site3408_04.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site3408_05.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site3408_06.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3411": {
   "id": "SCP-3411",
@@ -86,7 +178,9 @@
   "author": "Tanhony",
   "translator": "MrHydrogenChloride",
   "source": "https://scpko.wikidot.com/scp-3411",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3417": {
   "id": "SCP-3417",
@@ -109,7 +203,31 @@
   "author": "NatVoltaic",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-3417",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3417/3417-xray.jpg",
+    "cap": "SCP-3417의 엑스선 방출, 1980년에 NASA 고에너지 천문대에서 기록됨. 각각의 오렌지색 점은 엑스선의 근원이고, SCP-3417이 가장 밝은 점이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3417/Te2-1290_v2.jpg",
+    "cap": "Te2-1290 성계의 적외선 이미지. 배경 이미지는 제11궤도영역에서 촬영되었고, 확대된 부분은 AES W-004가 촬영한 것이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3417-xray.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Te2-1290_v2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3431": {
   "id": "SCP-3431",
@@ -129,7 +247,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3431",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3434": {
   "id": "SCP-3434",
@@ -151,7 +271,21 @@
   "author": "MrWrong",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3434",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3434/Screen%20Shot%202017-03-25%20at%2001.07.18%20.png",
+    "cap": "E-3434-19 (좌측에서 두 번째). 기억 소거 절차 및 민간인으로서의 재사회화 이후."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Screen Shot 2017-03-25 at 01.07.18 .png"
+    ]
+   ]
+  ]
  },
  "SCP-3440": {
   "id": "SCP-3440",
@@ -176,7 +310,77 @@
   "author": "DrChandra ＆ PeppersGhost",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3440",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3440/Matinee.jpg",
+    "cap": "SCP-3440으로 통하는 입구, 과밈적 필터를 통해 촬영"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3440/Matinee1.jpg",
+    "cap": "SCP-3440-A27, '늙은 구르디'(Old Gourdi)라고 쓰인 명찰과 함께 발견됨"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3440/Matinee2.jpg",
+    "cap": "SCP-3440의 영안실에서 발견된 사체, 실패했거나 완성이 덜 된 SCP-3440-A 개체로 보임"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Matinee.jpg"
+    ],
+    [
+     "저자",
+     "lalesh aldarwish"
+    ],
+    [
+     "라이선스",
+     "Free to use"
+    ],
+    [
+     "출처",
+     "Pexels"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Matinee1.jpg"
+    ],
+    [
+     "저자",
+     "Tookapic"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pexels"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Matinee2.jpg"
+    ],
+    [
+     "저자",
+     "Tookapic"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pexels"
+    ]
+   ]
+  ]
  },
  "SCP-3448": {
   "id": "SCP-3448",
@@ -202,6 +406,74 @@
   "author": "Captain Kirby",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3448",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3448/dammerung-warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3448/MRIImage.png",
+    "cap": "SCP-3448-A가 들어가 있는 SCP-3448."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3448/ModifiedDaisiesGrainy.png",
+    "cap": "4일차 10:00-14:22의 정지화면. 이 순간에는 남자와 울타리 모두 보이지 않음."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3448/bonfire-burn-burning-776113-Grainy.png",
+    "cap": "9일차 17:31 - 17:54 화상의 정지화면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bonfire-burn-burning-776113-Grainy.png"
+    ],
+    [
+     "저자",
+     "Captain Kirby"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dammerung-warning.png"
+    ],
+    [
+     "저자",
+     "Croquembouche"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ModifiedDaisiesGrainy.png"
+    ],
+    [
+     "저자",
+     "Captain Kirby"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "MRIImage.png"
+    ]
+   ]
+  ]
  }
 }

@@ -21,7 +21,101 @@
   "author": "Hornby",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-1050",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image01.gif",
+    "cap": "SCP-1050-1에 최초로 조각된 문자를 찍은 사진. 원시 라틴어가 이전에 발견된 적 없던 문자로 조각되어 있다. 기원전 53,5██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image01_zoom.gif",
+    "cap": "SCP-1050-1의 최초로 조각된 문자를 확대해 찍은 사진. 원시 라틴어가 발견되지 않았던 문자로 쓰여있다. 기원전 53,5██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image10.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 24,███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image10_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 24,███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image12.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 13,███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image12_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 13,███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image07.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 9███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image07_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 알 수 없는 출처의 파악되지 않은 문자로 쓰여있다. 기원전 9███년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image05.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 아카트 쐐기문자로 쓰여있다. 기원전 2,5██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image05_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 아카드 쐐기문자로 쓰여있다. 기원전 2,5██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image04.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 선형문자 A로 쓰여있다. 기원전 8██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image04_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 선형문자 A로 쓰여있다. 기원전 8██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image02.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 고전 라틴 문자로 쓰여있다. 기원전 122 CE."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image08.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 알 수 없는 중부 아메리카 문자로 쓰여있다. 서기 3██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image08_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 알 수 없는 중부 아메리카 문자로 쓰여있다. 서기 3██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image06.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 알 수 없는 중부 아메리카 문자로 쓰여있다. 서기 10██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image06_zoom.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 확대해 찍은 사진. 알 수 없는 중부 아메리카 문자로 쓰여있다. 서기 10██년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1050/scp1050_1image03.gif",
+    "cap": "SCP-1050-1에 조각된 문자를 찍은 사진. 현대 영어로 쓰여있다. 서기 1891년."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp1050_1image01.gif 및 19개 파일"
+    ],
+    [
+     "출처",
+     "http://scp-wiki.wikidot.com/scp-1050"
+    ],
+    [
+     "제작자",
+     "Hornby"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1051": {
   "id": "SCP-1051",
@@ -45,7 +139,37 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-1051",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1051/scp-1051.png",
+    "cap": "산란되는 SCP-1051 알"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1051/fcjzf8.png",
+    "cap": "195█년 촬영한 SCP-1051의 항공사진. 참고로 SCP-1051의 몸체 대부분은 땅 밑에 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1051.png"
+    ],
+    [
+     "제작자",
+     "Matthew Paul Argall (edits by S D Locke)"
+    ],
+    [
+     "라이센스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/79157069@N03/44750924642"
+    ]
+   ]
+  ]
  },
  "SCP-1053": {
   "id": "SCP-1053",
@@ -67,7 +191,9 @@
   "author": "Rejekyll",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1053",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1055": {
   "id": "SCP-1055",
@@ -92,7 +218,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1055",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1057": {
   "id": "SCP-1057",
@@ -116,7 +244,9 @@
   "author": "SiriExMachina",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1057",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1059": {
   "id": "SCP-1059",
@@ -137,7 +267,9 @@
   "author": "DrEverettMann",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1059",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1060": {
   "id": "SCP-1060",
@@ -160,7 +292,9 @@
   "author": "Anonymous",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1060",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1061": {
   "id": "SCP-1061",
@@ -182,7 +316,9 @@
   "author": "Cameron Ennis",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-1061",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1062": {
   "id": "SCP-1062",
@@ -205,7 +341,9 @@
   "author": "T2581",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1062",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1063": {
   "id": "SCP-1063",
@@ -224,7 +362,9 @@
   "author": "Dr Stanton",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1063",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1070": {
   "id": "SCP-1070",
@@ -249,7 +389,55 @@
   "author": "VWXYZ",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-1070",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1070/SPC-1111.jpg",
+    "cap": "SCP-1070-B."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1070/1070",
+    "cap": "SCP-1070."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SPC-1111.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-1070/SPC-1111.jpg"
+    ],
+    [
+     "제작자",
+     "VWXYZ"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1070"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-1070/1070"
+    ],
+    [
+     "제작자",
+     "Anonymous"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1074": {
   "id": "SCP-1074",
@@ -271,7 +459,9 @@
   "author": "Smapti",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1074",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1076": {
   "id": "SCP-1076",
@@ -293,7 +483,9 @@
   "author": "murphy_slaw",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1076",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1079": {
   "id": "SCP-1079",
@@ -314,7 +506,9 @@
   "author": "Buns",
   "translator": "Dawninaday",
   "source": "https://scpko.wikidot.com/scp-1079",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1080": {
   "id": "SCP-1080",
@@ -339,7 +533,33 @@
   "author": "Eskobar",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1080",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1080/scp-1080.jpg",
+    "cap": "사라지기 전에 촬영된 SCP-1080이 들어있는 건물."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1080.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Building_in_the_woods_-_geograph.org.uk_-_458791.jpg"
+    ],
+    [
+     "제작자",
+     "Graham Horn"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1081": {
   "id": "SCP-1081",
@@ -360,7 +580,9 @@
   "author": "Eskobar",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1081",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1083": {
   "id": "SCP-1083",
@@ -382,7 +604,9 @@
   "author": "Eskobar",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1083",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1084": {
   "id": "SCP-1084",
@@ -405,7 +629,33 @@
   "author": "Eskobar",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1084",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1084/scp-1084.jpg",
+    "cap": "██/02/11에 촬영된 SCP-1084."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1084.jpg"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/93178668@N00/147575003"
+    ],
+    [
+     "제작자",
+     "NatalieMaynor"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1087": {
   "id": "SCP-1087",
@@ -429,7 +679,33 @@
   "author": "Eskobar",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1087",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1087/400px-Tarsier-GG.jpg",
+    "cap": "제38기지 수목원의 SCP-1087, 원격 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "400px-Tarsier-GG.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Tarsier-GG.jpg"
+    ],
+    [
+     "제작자",
+     "Jasper Greek Golangco"
+    ],
+    [
+     "라이선스",
+     "any form of use"
+    ]
+   ]
+  ]
  },
  "SCP-1088": {
   "id": "SCP-1088",
@@ -452,7 +728,9 @@
   "author": "Anaxagoras",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1088",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1091": {
   "id": "SCP-1091",
@@ -473,7 +751,32 @@
   "author": "Lucavex Ayanami",
   "translator": "LoveGold",
   "source": "https://scpko.wikidot.com/scp-1091",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1091"
+    ],
+    [
+     "제작자",
+     "Genusfotografen (Tomas Gunnarsson) / Wikimedia Sverige"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Extended_arm.jpg"
+    ],
+    [
+     "비고",
+     "이미지 수정 TSATPWTCOTTTADC, 번역 LoveGold"
+    ]
+   ]
+  ]
  },
  "SCP-1092": {
   "id": "SCP-1092",
@@ -495,7 +798,9 @@
   "author": "Candlebeam",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1092",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1093": {
   "id": "SCP-1093",
@@ -517,7 +822,9 @@
   "author": "SassyBritches",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1093",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1094": {
   "id": "SCP-1094",
@@ -538,7 +845,33 @@
   "author": "DrThorne",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1094",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1094/66139845.FLWA87iq.ScaryPlaygroundBW-new.jpg",
+    "cap": "19██년 격리되기 이전의 SCP-1094"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "66139845.FLWA87iq.ScaryPlaygroundBW-new.jpg"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/68732206@N03/6978044567/in/photolist"
+    ],
+    [
+     "제작자",
+     "Plaid&stripes"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1096": {
   "id": "SCP-1096",
@@ -559,7 +892,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1096",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1097": {
   "id": "SCP-1097",
@@ -584,6 +919,8 @@
   "author": "PlaguePJP",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1097",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

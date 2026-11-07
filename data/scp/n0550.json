@@ -20,7 +20,9 @@
   "author": "lukebn",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-552",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-553": {
   "id": "SCP-553",
@@ -41,7 +43,51 @@
   "author": "Paktu",
   "translator": "blackmagpie : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-553",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-553/butterfly(1).jpg",
+    "cap": "석순을 섭취하는 SCP-553"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-553/butterfly-2.jpg",
+    "cap": "성체 단계로 변태하는 SCP-553"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "butterfly(1).jpg"
+    ],
+    [
+     "저작권자",
+     "Caverns of Sonora"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (허가 하에 사용)"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "butterfly-2.jpg"
+    ],
+    [
+     "원본",
+     "File:FishtailHelictites.jpg"
+    ],
+    [
+     "저작권자",
+     "DanielCD"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-554": {
   "id": "SCP-554",
@@ -64,7 +110,9 @@
   "author": "SRegan",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-554",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-555": {
   "id": "SCP-555",
@@ -84,7 +132,33 @@
   "author": "atomicthumbs",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-555",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-555/1280px-CowMagnet.jpg",
+    "cap": "격리된 SCP-555."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1280px-CowMagnet.jpg"
+    ],
+    [
+     "원본",
+     "File:CowMagnet.jpg"
+    ],
+    [
+     "저작권자",
+     "Wormcast"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-556": {
   "id": "SCP-556",
@@ -105,7 +179,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-556",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-557": {
   "id": "SCP-557",
@@ -128,7 +204,33 @@
   "author": "Leicontis",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-557",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-557/SCP-557.jpg",
+    "cap": "SCP-557의 외관"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-557.jpg"
+    ],
+    [
+     "원본",
+     "File:Sh01c.JPG"
+    ],
+    [
+     "저작권자",
+     "Pyule"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-559": {
   "id": "SCP-559",
@@ -150,7 +252,9 @@
   "author": "Wheen",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-559",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-565": {
   "id": "SCP-565",
@@ -171,7 +275,9 @@
   "author": "tunedtoadeadchannel",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-565",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-568": {
   "id": "SCP-568",
@@ -191,7 +297,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-568",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-569": {
   "id": "SCP-569",
@@ -214,7 +322,9 @@
   "author": "Dexanote",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-569",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-572": {
   "id": "SCP-572",
@@ -236,7 +346,9 @@
   "author": "DrClef",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-572",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-573": {
   "id": "SCP-573",
@@ -257,7 +369,9 @@
   "author": "AdminBright",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-573",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-575": {
   "id": "SCP-575",
@@ -278,7 +392,33 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-575",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-575/PA002332.JPG",
+    "cap": "█████████의 SCP-575 \"둥지\"에서 회수된 뼈들"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "PA002332.JPG"
+    ],
+    [
+     "원본",
+     "Negative - Central Australia, 1935"
+    ],
+    [
+     "저작권자",
+     "ack P. Howly"
+    ],
+    [
+     "라이선스",
+     "CC BY 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-576": {
   "id": "SCP-576",
@@ -301,7 +441,14 @@
   "author": "Zyn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-576",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-576/576.jpg",
+    "cap": "격리 상태의 SCP-576."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-577": {
   "id": "SCP-577",
@@ -323,7 +470,14 @@
   "author": "MayD",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-577",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-577/577bullets.jpg",
+    "cap": "SCP-577에 의해 격리실에 발생한 피해."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-578": {
   "id": "SCP-578",
@@ -345,7 +499,37 @@
   "author": "PaladinFoster",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-578",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-578/crystal.jpg",
+    "cap": "SCP-578-1 표본."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "crystal.jpg"
+    ],
+    [
+     "원본",
+     "Corundum-215330.jpg"
+    ],
+    [
+     "저작권자",
+     "Rob Lavinsky, iRocks.com"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-579": {
   "id": "SCP-579",
@@ -363,7 +547,9 @@
   "author": "scroton",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-579",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-580": {
   "id": "SCP-580",
@@ -386,7 +572,9 @@
   "author": "Kamen",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-580",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-581": {
   "id": "SCP-581",
@@ -407,7 +595,9 @@
   "author": "Voct",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-581",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-582": {
   "id": "SCP-582",
@@ -428,7 +618,9 @@
   "author": "Djoric does not match any existing user name",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-582",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-583": {
   "id": "SCP-583",
@@ -449,7 +641,9 @@
   "author": "Captain A",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-583",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-584": {
   "id": "SCP-584",
@@ -470,7 +664,9 @@
   "author": "Peri McGovern",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-584",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-585": {
   "id": "SCP-585",
@@ -489,7 +685,9 @@
   "author": "GwenWinterheart",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-585",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-586": {
   "id": "SCP-586",
@@ -509,7 +707,37 @@
   "author": "Rolaran",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-586",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-586/greenpope",
+    "cap": "SCP-586의 사전 파일"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "greenpope"
+    ],
+    [
+     "원본",
+     "Pope Benedict XVI DSC00173-1"
+    ],
+    [
+     "저작권자",
+     "Beyond Forgetting, Dr Kondraki에 의해 수정됨"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-587": {
   "id": "SCP-587",
@@ -532,7 +760,9 @@
   "author": "SimpleCadence",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-587",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-588": {
   "id": "SCP-588",
@@ -553,7 +783,9 @@
   "author": "Dr Grangan",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-588",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-590": {
   "id": "SCP-590",
@@ -573,7 +805,9 @@
   "author": "AdminBright",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-590",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-591": {
   "id": "SCP-591",
@@ -596,7 +830,9 @@
   "author": "LurkD",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-591",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-598": {
   "id": "SCP-598",
@@ -617,7 +853,9 @@
   "author": "Sophia Light",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-598",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-599": {
   "id": "SCP-599",
@@ -635,6 +873,8 @@
   "author": "apocalemur",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-599",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

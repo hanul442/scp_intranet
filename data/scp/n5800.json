@@ -33,7 +33,35 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5800",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5800/old-fella.jpg",
+    "cap": "O5-5"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "5800-1.png, 5800-2.png, 5800-3.png, 5800-4.png"
+    ],
+    [
+     "Author",
+     "notgull"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "old-fella.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-5808": {
   "id": "SCP-5808",
@@ -58,7 +86,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5808/moon.jpg",
+    "cap": "SCP-5808-2."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "moon.jpg"
+    ],
+    [
+     "원본",
+     "Enceladus_moon_to_scale-PIA07724.jpg"
+    ],
+    [
+     "저작권자",
+     "National Aeronautics and Space Administration(NASA)"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-5818": {
   "id": "SCP-5818",
@@ -84,7 +142,63 @@
   "author": "J Dune",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5818",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5818/frankenstein.jpg",
+    "cap": "온타리오주 나이아가라폴스 소재 제5818임시기지"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5818/burger.jpg",
+    "cap": "SCP-5818-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "frankenstein.jpg"
+    ],
+    [
+     "Author",
+     "Diego Torres Silvestre"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "burger.jpg"
+    ],
+    [
+     "Name",
+     "Burger King Double Bacon Cheeseburger"
+    ],
+    [
+     "Author",
+     "Willis Lam"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5821": {
   "id": "SCP-5821",
@@ -105,7 +219,37 @@
   "author": "Gekkoguy",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5821",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5821/BEZOS%20LAUGH.jpg",
+    "cap": "SCP-5821-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "BEZOS LAUGH.jpg"
+    ],
+    [
+     "원본",
+     "Jeff Bezos' iconic laugh (cropped).jpg"
+    ],
+    [
+     "저작권자",
+     "NSteve Jurvetson"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-5832": {
   "id": "SCP-5832",
@@ -126,7 +270,9 @@
   "author": "AbsentmindedNihilist",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-5832",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5833": {
   "id": "SCP-5833",
@@ -149,7 +295,9 @@
   "author": "Cyvstvi",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-5833",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5842": {
   "id": "SCP-5842",
@@ -170,6 +318,27 @@
   "author": "Quadraginta",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5842",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "WORK DAMMIT"
+    ],
+    [
+     "Author",
+     "Quadraginta"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

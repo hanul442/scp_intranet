@@ -19,7 +19,98 @@
   "author": "Its a Bad Idea",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7470",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "farmoon.jpg"
+    ],
+    [
+     "Name",
+     "Back side of the Moon AS16-3021.jpg"
+    ],
+    [
+     "Author",
+     "Apollo 16 astronauts"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Luna3.jpg"
+    ],
+    [
+     "Name",
+     "Luna 3 moon.jpg"
+    ],
+    [
+     "Author",
+     "OKB-1"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fullmoon.jpg"
+    ],
+    [
+     "Name",
+     "FullMoon2010.jpg"
+    ],
+    [
+     "Author",
+     "Gregory H. Revera"
+    ],
+    [
+     "License",
+     "Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "supermoon2"
+    ],
+    [
+     "Name",
+     "Supermoon The Closest And The Biggest India (183091365).jpeg"
+    ],
+    [
+     "Author",
+     "Alok Kumar"
+    ],
+    [
+     "License",
+     "Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7477": {
   "id": "SCP-7477",
@@ -38,7 +129,9 @@
   "author": "stormbreath",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-7477",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7485": {
   "id": "SCP-7485",
@@ -60,6 +153,13 @@
   "author": "MrBonesWildRide",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7485/SCP-UFO.jpg",
+    "cap": "지구를 떠나기 직전 촬영된 SCP-7485 개체."
+   }
+  ],
+  "img_credits": []
  }
 }

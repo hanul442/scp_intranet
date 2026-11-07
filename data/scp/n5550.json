@@ -18,7 +18,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5553",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5553/jackemail.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5553/jacklogo.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5564": {
   "id": "SCP-5564",
@@ -39,7 +50,9 @@
   "author": "Alb123",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-5564",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5579": {
   "id": "SCP-5579",
@@ -65,7 +78,89 @@
   "author": "T Rutherford",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5579",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-5579-1/SCP-5579.jpg",
+    "cap": "2010년 4월 3일, 현 시점에서 가장 강한 전염성을 지닌 매개체에 담겨 있는 SCP-5579"
+   },
+   {
+    "src": "https://www.scpwiki.com/local--files/fragment:scp-5579-1/SCP-5579-1.jpg",
+    "cap": "2005년 3월 15일. SCP-5579 휴면 군집이 가득한 카사바 뿌리"
+   },
+   {
+    "src": "https://www.scpwiki.com/local--files/fragment:scp-5579-1/SCP-5579-2.jpg",
+    "cap": "2010년 7월 15일, 재배 중인 카사바, SCP-5579가 감지되지 않음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-5579.jpg"
+    ],
+    [
+     "원본",
+     "ObsidianBladeChiapaTuxtla"
+    ],
+    [
+     "저작권자",
+     "Nandaro"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-5579-1.jpg"
+    ],
+    [
+     "원본",
+     "Cassava_root_(4626690699).jpg"
+    ],
+    [
+     "저작권자",
+     "CIAT"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-5579-2.jpg"
+    ],
+    [
+     "원본",
+     "Kerala_Cassava_plant_2.jpg"
+    ],
+    [
+     "저작권자",
+     "CIAT"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-5590": {
   "id": "SCP-5590",
@@ -84,7 +179,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5590",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5590/thatlittlebastardrobot.png",
+    "cap": "SCP-5590 (입수 당시 촬영한 사진)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "thatlittlebastardrobot.png"
+    ],
+    [
+     "원본",
+     "RoboBuilder.jpg"
+    ],
+    [
+     "저작권자",
+     "Knoodrake"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5595": {
   "id": "SCP-5595",
@@ -109,7 +234,55 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5595",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5595/fittyfininnyni.png",
+    "cap": "SCP-5595"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5595/gumballs.png",
+    "cap": "SCP-5595"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gumball.png"
+    ],
+    [
+     "저작권자",
+     "Eric Schmuttenmaer"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Gumball_Machine_(2049568285).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site322.png"
+    ],
+    [
+     "저작권자",
+     "zoetnet"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/52d2b842-2d61-4229-8745-6e3f69ed16b1"
+    ]
+   ]
+  ]
  },
  "SCP-5596": {
   "id": "SCP-5596",
@@ -136,7 +309,22 @@
   "author": "PlaguePJP",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5596",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5596/machine.jpg",
+    "cap": "SCP-5596."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5596/cupid.jpg",
+    "cap": "SCP-5596-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5596/cupid2.png",
+    "cap": "활과 화살을 들고 있는 SCP-5596-1. 재단 구금 하에 있는 동안 촬영됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5597": {
   "id": "SCP-5597",
@@ -161,6 +349,88 @@
   "author": "DodoDevil",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-5597",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5597/Beached2.jpg",
+    "cap": "회수할 당시의 SCP-5597-2."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5597/NorthWhale1.jpg",
+    "cap": "SCP-5597-5가 참돌고래과의 돌고래 한 무리와 상호작용하는 모습의 항공 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5597/J%26J1.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Beached1.jpg"
+    ],
+    [
+     "원본",
+     "Beached whale.jpg"
+    ],
+    [
+     "저작권자",
+     "Aleria Jensen, NOAA/NMFS/AKFSC"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Beached_whale.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "NorthWhale1.jpg"
+    ],
+    [
+     "원본",
+     "North Atlantic right whale"
+    ],
+    [
+     "저작권자",
+     "NOAA Gray's Reef NMS"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:North_Atlantic_right_whale_-_Earth_Is_Blue.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "J&J1.jpg"
+    ],
+    [
+     "원본",
+     "J&H"
+    ],
+    [
+     "저작권자",
+     "The author: The_DodoDevil"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 - 이라고 들었음"
+    ],
+    [
+     "출처",
+     "N/A (이 페이지임)."
+    ]
+   ]
+  ]
  }
 }

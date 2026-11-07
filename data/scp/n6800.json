@@ -20,7 +20,37 @@
   "author": "J Dune",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-6811",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6811/flyslide.jpg",
+    "cap": "SCP-6811의 실험실 샘플"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "flyslide.jpg"
+    ],
+    [
+     "저자",
+     "Boothcurator2021"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Fly_microscope_slide.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6815": {
   "id": "SCP-6815",
@@ -47,7 +77,26 @@
   "author": "Sinagsikap",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-6815",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6815/lantern.png",
+    "cap": "2010년 11월 3일 일본반도 케이죠에 나타난 SCP-6815 개체들."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6815/festival.png",
+    "cap": "메자메 사태 당시 나타난 구조물들."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6815/lantern2.png",
+    "cap": "케이죠 풍등축제 당시 재단에서 준비해 띄운 풍등."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6815/koreamap.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6819": {
   "id": "SCP-6819",
@@ -73,7 +122,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6819",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6819/road.png",
+    "cap": "SCP-6819-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "road.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6820": {
   "id": "SCP-6820",
@@ -114,7 +189,22 @@
   "author": "Placeholder McD, stephlynch, Liryn",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-6820",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/admonition/admo-6820-ballnew.jpg",
+    "cap": "훈계"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6820/682meme.jpg",
+    "cap": "SCP-6820-A 밈복합체의 시각화. 인간이 이해할 수 있는 가장 큰 단면도."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6820/Erasure.jpg",
+    "cap": "격리에서 탈출한 직후의 ███-███, 산에 담가진 피해를 회복하고 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6832": {
   "id": "SCP-6832",
@@ -140,7 +230,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6832",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6832/ants1.jpg",
+    "cap": "SCP-6832-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ants1"
+    ],
+    [
+     "Author",
+     "April Nobile and www.AntWeb.org"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://en.wikipedia.org/wiki/File:Tapinoma_sessile_casent0104849_profile_1.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6835": {
   "id": "SCP-6835",
@@ -161,7 +277,54 @@
   "author": "Dr Leonerd",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-6835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1871UFO.png"
+    ],
+    [
+     "원본",
+     "File:1871UFO.png"
+    ],
+    [
+     "저작권자",
+     "Tempshil"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gustav_von_Alvensleben_2.jpg"
+    ],
+    [
+     "원본",
+     "File:Gustav von Alvensleben 2.jpg"
+    ],
+    [
+     "저작권자",
+     "Unknown author"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-6838": {
   "id": "SCP-6838",
@@ -184,6 +347,40 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6838",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6838/forest%201",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6838/forest%202",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6838/forest%203",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "forest 1, forest 2, forest 3"
+    ],
+    [
+     "저작권자",
+     "DukeCrusty"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-6838"
+    ]
+   ]
+  ]
  }
 }

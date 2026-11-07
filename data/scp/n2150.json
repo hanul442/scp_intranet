@@ -19,7 +19,85 @@
   "author": "djkaktus",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2151",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2151/ring.jpg",
+    "cap": "SCP-2151-A."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2151/girl.png",
+    "cap": "모니카 ████████, 17세."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2151/back.png",
+    "cap": "사진에 작성된 육필 메모, 기원은 알 수 없음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ring.jpg"
+    ],
+    [
+     "Name",
+     "Coil silver ring.jpg"
+    ],
+    [
+     "Author",
+     "Mauro Cateb"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "girl.png"
+    ],
+    [
+     "Name",
+     "Los Angeles girl 1973.jpg"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "back.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2154": {
   "id": "SCP-2154",
@@ -43,7 +121,55 @@
   "author": "Blackbird5154",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2154",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2154/teleskop.jpg",
+    "cap": "SCP-2154로 작업을 하고 있는 스펜서 박사"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2154/fotokosmosa.jpg",
+    "cap": "외뿔소자리에 있는 성단. 왼쪽은 ████ 망원경으로 촬영했고 오른쪽은 SCP-2154로 촬영했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "teleskop.jpg"
+    ],
+    [
+     "Author",
+     "Blackbird5154"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fotokosmosa.jpg"
+    ],
+    [
+     "Author",
+     "Blackbird5154"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2155": {
   "id": "SCP-2155",
@@ -66,7 +192,9 @@
   "author": "DrAbreu",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2155",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2158": {
   "id": "SCP-2158",
@@ -87,7 +215,9 @@
   "author": "DrEverettMann",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2158",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2161": {
   "id": "SCP-2161",
@@ -110,7 +240,9 @@
   "author": "psul",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2161",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2165": {
   "id": "SCP-2165",
@@ -131,7 +263,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2165",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2170": {
   "id": "SCP-2170",
@@ -157,7 +291,263 @@
   "author": "Sorts",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2170",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/clownscpsite-new.jpg",
+    "cap": "제2170기지의 입구 유해한 밈들은 사진에서 제거됨"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/clown-mask-new.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/clown_dance-new.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/Man_dances-new.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/clown9-new.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/bouncing_clown-new.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2170/blue_wizard-new.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "clownscpsite-new.jpg"
+    ],
+    [
+     "저작권자",
+     "Elogee FishTruck 그리고 Famartin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "2015-05-03 18 35 37 The Clown Motel on Main Street (U.S. Route 6 and > 95) in Tonopah, Nevada.jpg"
+    ],
+    [
+     "저작권자",
+     "Elogee FishTruck 그리고 Famartin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "clown-mask-new.png"
+    ],
+    [
+     "원본 제목",
+     "Clown face vector image"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "clown_dance-new.gif"
+    ],
+    [
+     "원본 제목",
+     "Clown Neon Animated Gif"
+    ],
+    [
+     "저작권자",
+     "Roger Norton"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Man_dances-new.gif"
+    ],
+    [
+     "저작권자",
+     "Elogee FishTruck 그리고 N/A"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Vector image of juggler clown"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "clown9-new.png"
+    ],
+    [
+     "원본 제목",
+     "Colorful jester"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bouncing_clown-new.gif"
+    ],
+    [
+     "저작권자",
+     "Elogee FishTruck 그리고 N/A"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Happy clown face vector image"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "6-new.png"
+    ],
+    [
+     "원본 제목",
+     "Clown vector illustration"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "blue_wizard-new.gif"
+    ],
+    [
+     "저작권자",
+     "Elogee FishTruck 그리고 N/A"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Wizard Merlin"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "https:publicdomainvectors-org-en-free-clipart-wizard-merlin"
+    ]
+   ]
+  ]
  },
  "SCP-2172": {
   "id": "SCP-2172",
@@ -179,7 +569,37 @@
   "author": "Kate McTiriss",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2172",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2172/unnamed-2.jpg",
+    "cap": "회수 당시의 SCP-2172-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "unnamed-2.jpg"
+    ],
+    [
+     "Name",
+     "N/A"
+    ],
+    [
+     "Author",
+     "Kate McTiriss"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "The SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2174": {
   "id": "SCP-2174",
@@ -200,7 +620,14 @@
   "author": "Athenodora",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2174",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2174/MarcaDeMorto.jpg",
+    "cap": "SCP-2174 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2175": {
   "id": "SCP-2175",
@@ -222,7 +649,33 @@
   "author": "Zyn",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2175",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2175/Windsortownbridge.jpg",
+    "cap": "윈저 대교, SCP-2175의 소재지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Windsortownbridge.jpg"
+    ],
+    [
+     "Author",
+     "Wyrdlight"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2176": {
   "id": "SCP-2176",
@@ -247,7 +700,9 @@
   "author": "GreenWolf",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2176",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2179": {
   "id": "SCP-2179",
@@ -268,7 +723,9 @@
   "author": "Freudian",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2179",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2182": {
   "id": "SCP-2182",
@@ -290,7 +747,14 @@
   "author": "faminepulse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2182",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2182/xyMhZDC.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2185": {
   "id": "SCP-2185",
@@ -314,7 +778,37 @@
   "author": "djoric does not match any existing user name ＆ Dmatix",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2185",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2185/Water.jpg",
+    "cap": "SCP-2185의 활동으로 인하여 PoI #5496의 부동산에 홍수가 발생했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Water.jpg"
+    ],
+    [
+     "Name",
+     "Flooded house, Reading Road, Winnersh - geograph.org.uk - 504307.jpg"
+    ],
+    [
+     "Author",
+     "Andrew Smith"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2186": {
   "id": "SCP-2186",
@@ -336,7 +830,21 @@
   "author": "basicmathgirl",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-2186",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2186/Laika_ac_Namaqua_Chameleon_(8446604360).jpg",
+    "cap": "실험 중인 SCP-2186. 실험 구역이 SCP-2186의 비늘과 비슷한 무늬와 질감을 띠기 시작한 점에 주목할 것."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Laika_ac_Namaqua_Chameleon_(8446604360).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2190": {
   "id": "SCP-2190",
@@ -357,7 +865,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2190",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2191": {
   "id": "SCP-2191",
@@ -381,7 +891,18 @@
   "author": "Metaphysician",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2191",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2191/800px-Nematodes_Morue_poissonerie_Codfish_fish_market.jpg",
+    "cap": "SCP-2191-2B."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2191/800px-Gruta_do_Natal%2C_ilha_Terceira%2C_A%C3%A7ores%2C_Portugal.JPG",
+    "cap": "SCP-2191의 하부 터널."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2193": {
   "id": "SCP-2193",
@@ -409,6 +930,8 @@
   "author": "",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-2193",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -25,7 +25,14 @@
   "author": "A Random Day, The Great Hippo",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-4310",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4310/clearing.jpg",
+    "cap": "그림 1.1: SCP-4310이 처음 발견된 장소."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4313": {
   "id": "SCP-4313",
@@ -53,7 +60,31 @@
   "author": "NatVoltaic",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4313",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4313/pioneer.jpg",
+    "cap": "태양계를 떠나는 파이오니어 11호의 상상화."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4313/spears.jpg",
+    "cap": "2040년 3월 14일 발사된 SCP-4313-Z의 경로의 고에너지 엑스선 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pioneer.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "spears.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4319": {
   "id": "SCP-4319",
@@ -77,7 +108,9 @@
   "author": "DianaBerry",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4319",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4323": {
   "id": "SCP-4323",
@@ -98,7 +131,9 @@
   "author": "Randomini",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4323",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4326": {
   "id": "SCP-4326",
@@ -122,7 +157,18 @@
   "author": "MontagueETC",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4326",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4326/4326-thumbnail.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4326/glass.jpg",
+    "cap": "SCP-4326-A"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4327": {
   "id": "SCP-4327",
@@ -144,7 +190,51 @@
   "author": "라성민",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4327",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4327/koreanbeach.jpg",
+    "cap": "SCP-4327이 무효화된 장소."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4327/boat.jpg",
+    "cap": "크냐즈 수보로프함"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4327/hillbattle.jpg",
+    "cap": "SCP-4327에게 사격하는 보병대."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4327/beachithink.jpg",
+    "cap": "SCP-4327에게 사격하는 보병대."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "koreanbeach.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "boat.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "hillbattle.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "beachithink.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4332": {
   "id": "SCP-4332",
@@ -166,7 +256,9 @@
   "author": "XilasCrowe",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4332",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4335": {
   "id": "SCP-4335",
@@ -193,7 +285,37 @@
   "author": "stephlynch",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4335",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4335/mine.png",
+    "cap": "제M1기지 입구"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4335/craft.png",
+    "cap": "SCP-4335 주 격리실"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4335/brownbricks.png",
+    "cap": "현재 SCP-4335의 가장 선명한 사진. 2016년 8월 24일 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "notminecraft.jpg, notminecraft2.jpg, notminecraft3.jpg"
+    ],
+    [
+     "저자",
+     "stephlynch"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-4338": {
   "id": "SCP-4338",
@@ -219,7 +341,18 @@
   "author": "T Rutherford",
   "translator": "Solhan",
   "source": "https://scpko.wikidot.com/scp-4338",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-4338-1/SCP-4338-FIX.jpg",
+    "cap": "SCP-4338. 1974년 4월 9일, DN-4338-33 사건 당시 촬영한 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-4338-1/SCP-4338-DN-1.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4342": {
   "id": "SCP-4342",
@@ -243,6 +376,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4342",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4342/scpcube.jpg",
+    "cap": "SCP-4342"
+   }
+  ],
+  "img_credits": []
  }
 }

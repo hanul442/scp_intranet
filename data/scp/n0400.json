@@ -22,7 +22,9 @@
   "author": "HammerMaiden",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-400",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-401": {
   "id": "SCP-401",
@@ -41,7 +43,9 @@
   "author": "Flah",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-401",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-402": {
   "id": "SCP-402",
@@ -62,7 +66,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-402",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-403": {
   "id": "SCP-403",
@@ -82,7 +88,9 @@
   "author": "LitigousReport",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-403",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-404": {
   "id": "SCP-404",
@@ -104,7 +112,9 @@
   "author": "NekoChris",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-404",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-406": {
   "id": "SCP-406",
@@ -126,7 +136,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-406",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-406/1066529_0ca423c3.jpg",
+    "cap": "SCP-406의 서측 입구."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-407": {
   "id": "SCP-407",
@@ -150,7 +167,9 @@
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-407",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "창세의 노래"
+  "nickname": "창세의 노래",
+  "images": [],
+  "img_credits": []
  },
  "SCP-408": {
   "id": "SCP-408",
@@ -174,7 +193,9 @@
   "author": "Dr Kondraki",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-408",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-409": {
   "id": "SCP-409",
@@ -193,7 +214,29 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-409",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-409/297px-Giant1standingmy8.jpg",
+    "cap": "SCP-409"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Gypsum (Naica, Chihuahua, Mexico) 1"
+    ],
+    [
+     "저작권자",
+     "James St. John"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-411": {
   "id": "SCP-411",
@@ -214,7 +257,33 @@
   "author": "Foweraker",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-411",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-411/dude-1-new.png",
+    "cap": "회복 중의 SCP-411."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Portrait-Person-Old-Man-Man-Head-1615262.jpg"
+    ],
+    [
+     "저작권자",
+     "rottonara"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-413": {
   "id": "SCP-413",
@@ -237,7 +306,9 @@
   "author": "SpoonOfEvil",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-413",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-414": {
   "id": "SCP-414",
@@ -262,7 +333,29 @@
   "author": "SoullessSingularity",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-414",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-414/SierraLeone016.jpg",
+    "cap": "SCP-414-1 집단. 1935년에 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:SierraLeone016.jpg"
+    ],
+    [
+     "저작권자",
+     "Sjoerd Hofstra"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-416": {
   "id": "SCP-416",
@@ -282,7 +375,9 @@
   "author": "Eberstrom",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-416",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-417": {
   "id": "SCP-417",
@@ -303,7 +398,9 @@
   "author": "agatharights",
   "translator": "hailmary",
   "source": "https://scpko.wikidot.com/scp-417",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-418": {
   "id": "SCP-418",
@@ -322,7 +419,9 @@
   "author": "Foweraker",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-418",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-419": {
   "id": "SCP-419",
@@ -343,7 +442,9 @@
   "author": "Kulzn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-419",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-423": {
   "id": "SCP-423",
@@ -364,7 +465,9 @@
   "author": "DrEverettMann",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-423",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-426": {
   "id": "SCP-426",
@@ -386,7 +489,9 @@
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-426",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "나는 토스터다"
+  "nickname": "나는 토스터다",
+  "images": [],
+  "img_credits": []
  },
  "SCP-427": {
   "id": "SCP-427",
@@ -407,7 +512,9 @@
   "author": "Dr Ouros",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-427",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-428": {
   "id": "SCP-428",
@@ -429,7 +536,9 @@
   "author": "DrScooter",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-428",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-431": {
   "id": "SCP-431",
@@ -450,7 +559,9 @@
   "author": "DStecks",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-431",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-432": {
   "id": "SCP-432",
@@ -470,7 +581,25 @@
   "author": "evilscary",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-432",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-432/SCP-432-video-frame.png",
+    "cap": "SCP-432 내부에서 촬영된 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-432-video-frame.png"
+    ],
+    [
+     "저작권자",
+     "tomaszpro, evilscary에 의해 수정됨"
+    ]
+   ]
+  ]
  },
  "SCP-433": {
   "id": "SCP-433",
@@ -491,7 +620,9 @@
   "author": "DrSevere",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-433",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-435": {
   "id": "SCP-435",
@@ -513,7 +644,37 @@
   "author": "sandrewswann",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-435",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-435/breach.jpg",
+    "cap": "[편집됨] 활성 상태의 SCP-435-2 [편집됨] 195█년 3월"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "breach.jpg"
+    ],
+    [
+     "Name",
+     "Castle Bravo 007.jpg"
+    ],
+    [
+     "Author",
+     "Federal government of the United States"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-437": {
   "id": "SCP-437",
@@ -537,7 +698,89 @@
   "author": "The Great Hippo",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-437",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-437/tree1A.jpg",
+    "cap": "SCP-437-A 개체 한 그루. (Quercus alba, 일명 백참나무)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-437/tree2A.jpg",
+    "cap": "Carya ovata, 일명 샤그바크 히코리."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-437/tree4.jpg",
+    "cap": "Quercus macrocarpa, 일명 가시 오크. 서맨서 블랜칫으로 확인됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tree2A.jpg"
+    ],
+    [
+     "Name",
+     "face-on-tree-bark-female-face-in-tree"
+    ],
+    [
+     "Author",
+     "johnrp"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/face-on-tree-bark-female-face-in-tree-1062706/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tree1A.jpg"
+    ],
+    [
+     "Name",
+     "face-facs-trees-greenery-green"
+    ],
+    [
+     "Author",
+     "Inactive account – ID 33837"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/face-facs-trees-greenery-green-109232/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tree4.jpg"
+    ],
+    [
+     "Name",
+     "tree-face-tree-face-background"
+    ],
+    [
+     "Author",
+     "Lars_Nissen"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/tree-face-tree-face-background-2127699/"
+    ]
+   ]
+  ]
  },
  "SCP-439": {
   "id": "SCP-439",
@@ -559,7 +802,33 @@
   "author": "Multimoog",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-439",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-439/bonehive.jpg",
+    "cap": "진행성 골화성 섬유이형성증(FOP) 말기"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bonehive.jpg"
+    ],
+    [
+     "원본",
+     "File:Fibrodysplasia ossificans progressiva.jpg"
+    ],
+    [
+     "저작권자",
+     "Joh-co"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-444": {
   "id": "SCP-444",
@@ -578,7 +847,9 @@
   "author": "Foweraker",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-444",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-445": {
   "id": "SCP-445",
@@ -599,7 +870,33 @@
   "author": "CryogenChaos",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-445",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-445/FWTgj28XwAAhU3s.jpg",
+    "cap": "SCP-445의 옆모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "FWTgj28XwAAhU3s.jpg"
+    ],
+    [
+     "Author",
+     "jacksondesorcy"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Twitter"
+    ]
+   ]
+  ]
  },
  "SCP-447": {
   "id": "SCP-447",
@@ -620,6 +917,13 @@
   "author": "DrClef",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-447",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-447/greenball.jpg",
+    "cap": "비활성 상태의 SCP-447."
+   }
+  ],
+  "img_credits": []
  }
 }

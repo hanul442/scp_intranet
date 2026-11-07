@@ -18,7 +18,37 @@
   "author": "Ellie3",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-8308",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8308/scp-8000-el.jpg",
+    "cap": "생방송을 시작한 시점의 SCP-8308"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-8308-el.jpg"
+    ],
+    [
+     "원본",
+     "Webcams suck"
+    ],
+    [
+     "저작권자",
+     "Stephen Douglas"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-8314": {
   "id": "SCP-8314",
@@ -40,7 +70,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8314",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8320": {
   "id": "SCP-8320",
@@ -75,7 +107,101 @@
   "author": "Raddagher",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8320",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8320/lostposter.jpg",
+    "cap": "손으로 그린 포스터. POI-8320의 거주지 근처에서 발견되었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "lostposter.png"
+    ],
+    [
+     "Author",
+     "Raddagher"
+    ],
+    [
+     "License",
+     "Creative Commons 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Wizard and his Wishing Well on Bourbon Street, New Orleans, Louisiana LCCN2011632742.tif"
+    ],
+    [
+     "Name",
+     "wizard.jpg"
+    ],
+    [
+     "Author",
+     "Carol M. Highsmith"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Wizard_and_his_Wishing_Well_on_Bourbon_Street,_New_Orleans,_Louisiana_LCCN2011632742.tif"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DART Transit Pass.png"
+    ],
+    [
+     "Author",
+     "Jack No1"
+    ],
+    [
+     "License",
+     "Creative Commons 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:DART_Transit_Pass.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "8320prime.png"
+    ],
+    [
+     "Author",
+     "*Raddagher"
+    ],
+    [
+     "License",
+     "Creative Commons 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Bold Eagle container ship.jpg"
+    ],
+    [
+     "Author",
+     "Murgatroyd49"
+    ],
+    [
+     "License",
+     "Creative Commons 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Bold_Eagle_container_ship.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8328": {
   "id": "SCP-8328",
@@ -94,7 +220,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8328",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8329": {
   "id": "SCP-8329",
@@ -115,7 +243,9 @@
   "author": "J Dune",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-8329",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8333": {
   "id": "SCP-8333",
@@ -140,7 +270,73 @@
   "author": "Zyn",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-8333",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8333/wish1.jpg",
+    "cap": "최초로 발견된 장소의 SCP-8333-1 개체. 현재는 제17기지 임시 저장고에 격리 중이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8333/wish2.jpg",
+    "cap": "R. 머서 박사가 만든 SCP-8333-1. 현재 뱀의 손 \"소원을 엮는 이\" 분파와의 지속되는 합의에 따라 제17기지에 배치되어 있으며, 추가적인 분석을 목표로 머서 박사의 대자에게 맡겨져 있다. 실증적인 관찰은 필요하다고 여겨지는 한 계속될 예정이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "wish1.jpg"
+    ],
+    [
+     "저작권자",
+     "Zyn"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/local--files/scp-8333/wish1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "wish2.jpg"
+    ],
+    [
+     "저작권자",
+     "Zyn"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/local--files/scp-8333/wish2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP8333patternsresize.png"
+    ],
+    [
+     "저작권자",
+     "Zyn"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/scp-8333/SCP8333patternsresize.png"
+    ]
+   ]
+  ]
  },
  "SCP-8339": {
   "id": "SCP-8339",
@@ -165,7 +361,249 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8339",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8339/Fire.jpg",
+    "cap": "⠘⠯⠮⠀⠑⠬⠇⠚⠒⠀⠸⠎⠪⠐⠥⠀⠰⠍⠨⠻⠊⠽⠉⠵⠀⠠⠟⠨⠎⠢⠨⠲"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "fire.jpg"
+    ],
+    [
+     "Author",
+     "Ecronak"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Fire.jpg"
+    ],
+    [
+     "Author",
+     "Minor Prophet"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://openverse.org/image/3064a1ef-555f-454f-97d7-e8d8550ba7c2?q=fire"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Moleman.jpg"
+    ],
+    [
+     "Author",
+     "AnAnomalousWriter"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Hairdresser training head (mannequin head) from company L'Image, No.6.jpg"
+    ],
+    [
+     "Author",
+     "Minor Prophet"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Hairdresser_training_head_(mannequin_head)_from_company_L%27Image,_No.6.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "A Face Only a Naked Mole Rat Queen Could Love….jpg"
+    ],
+    [
+     "Author",
+     "John Brighenti"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/alchemist_x/32757810517/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "naked mole rat.jpg"
+    ],
+    [
+     "Author",
+     "John Brighenti"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/jedimentat/7557258168/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Teeth Monkey NHM Rotterdam 3D.jpg"
+    ],
+    [
+     "Author",
+     "wim hoppenbrouwers"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/hoppenbrouwers/44467478370/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Rata Topo.jpg"
+    ],
+    [
+     "Author",
+     "TxanTxunai"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Rata_Topo.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Plucked chicken wing.jpg"
+    ],
+    [
+     "Author",
+     "ProjectManhattan, Kersti Nebelsiek"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Plucked_chicken_wing.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Chickens in market.jpg"
+    ],
+    [
+     "Author",
+     "Tomás Castelazo"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Chickens_in_market.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Eye wide open on me.jpg"
+    ],
+    [
+     "Author",
+     "wladston"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/70973156@N00/283455759/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Cranium, male (6876032647).jpg"
+    ],
+    [
+     "Author",
+     "The Swedish History Museum, Stockholm"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Cranium,_male_(6876032647).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Intraoral-photograph-showing-conical-mesiodens.jpg"
+    ],
+    [
+     "Author",
+     "Varun Pratap Singh, Amita Sharma, Sonam Sharma"
+    ],
+    [
+     "License",
+     "CC-BY 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Intraoral-photograph-showing-conical-mesiodens.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8345": {
   "id": "SCP-8345",
@@ -191,6 +629,13 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8345",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8345/cave.png",
+    "cap": "SCP-8345 발견 현장."
+   }
+  ],
+  "img_credits": []
  }
 }

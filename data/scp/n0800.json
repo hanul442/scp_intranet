@@ -17,7 +17,14 @@
   "author": "ModernMajorGeneral",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-800",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-800/eagle%20painting.jpg",
+    "cap": "1963년 당시 SCP-800-8의 모습을 한 SCP-800."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-804": {
   "id": "SCP-804",
@@ -38,7 +45,37 @@
   "author": "Sorts",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-804",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-804/ice-ball-new.JPG",
+    "cap": "비활성 상태의 SCP-804"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ice-ball-new.JPG"
+    ],
+    [
+     "원본",
+     "Heliograph-2337.JPG"
+    ],
+    [
+     "저작권자",
+     "Akulovz"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-805": {
   "id": "SCP-805",
@@ -58,7 +95,9 @@
   "author": "ZKZombiekitty",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-805",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-807": {
   "id": "SCP-807",
@@ -79,7 +118,9 @@
   "author": "DrClef",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-807",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-808": {
   "id": "SCP-808",
@@ -102,7 +143,18 @@
   "author": "Dexanote",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-808/808%20innards%20added",
+    "cap": "SCP-808의 일부"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-808/808-2.png",
+    "cap": "PVC 격리 시설을 보고 있는, SCP-808의 인간형 부분."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-809": {
   "id": "SCP-809",
@@ -122,7 +174,9 @@
   "author": "kabu",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-809",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-811": {
   "id": "SCP-811",
@@ -146,7 +200,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-811",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-812": {
   "id": "SCP-812",
@@ -167,7 +223,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-812",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-813": {
   "id": "SCP-813",
@@ -192,7 +250,9 @@
   "author": "Anborough",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-813",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-814": {
   "id": "SCP-814",
@@ -218,7 +278,37 @@
   "author": "Mr Carbon",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-814",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-814/phonograph-new.jpg",
+    "cap": "격리 이전 SCP-814"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "phonograph-new.jpg"
+    ],
+    [
+     "이름",
+     "SOLD: RCA Victrola 1950 phonograph cabinet w/original radio and turntables"
+    ],
+    [
+     "저작권자",
+     "The Living Room"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "원본",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-815": {
   "id": "SCP-815",
@@ -240,7 +330,9 @@
   "author": "kabu",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-815",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-817": {
   "id": "SCP-817",
@@ -262,7 +354,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-817",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-818": {
   "id": "SCP-818",
@@ -286,7 +380,9 @@
   "author": "TroyL",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-818",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-823": {
   "id": "SCP-823",
@@ -306,7 +402,37 @@
   "author": "DrClef",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-823",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-823/823-005.jpg",
+    "cap": "탐사 드론으로 촬영한 SCP-823의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "823-005.jpg"
+    ],
+    [
+     "원본",
+     "File:Chippewa Lake ferris wheel 2007.jpg"
+    ],
+    [
+     "저작권자",
+     "Andrew DeFratis"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-826": {
   "id": "SCP-826",
@@ -328,7 +454,9 @@
   "author": "Clopine",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-826",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-827": {
   "id": "SCP-827",
@@ -350,7 +478,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-827",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-834": {
   "id": "SCP-834",
@@ -370,7 +500,9 @@
   "author": "AdminBright",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-834",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-835": {
   "id": "SCP-835",
@@ -394,7 +526,37 @@
   "author": "Dr Gears, DrClef",
   "translator": "jso9923",
   "source": "https://scpko.wikidot.com/scp-835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-835/flbalanus-new.jpg",
+    "cap": "기록 81-██의 정지 화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "flbalanus-new.jpg"
+    ],
+    [
+     "원본",
+     "Barnacles"
+    ],
+    [
+     "저작권자",
+     "Ryan Somma"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-836": {
   "id": "SCP-836",
@@ -415,7 +577,9 @@
   "author": "VAElynx",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-836",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-837": {
   "id": "SCP-837",
@@ -433,7 +597,9 @@
   "author": "DrEverettMann",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-837",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-838": {
   "id": "SCP-838",
@@ -454,7 +620,9 @@
   "author": "Anaxagoras",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-838",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-839": {
   "id": "SCP-839",
@@ -476,7 +644,33 @@
   "author": "Salman Corbette",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-839",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-839/scp839.png",
+    "cap": "SCP-839-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp839.png"
+    ],
+    [
+     "저작권자",
+     "Brian Gratwicke, S D Locke에 의해 편집됨"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-843": {
   "id": "SCP-843",
@@ -498,7 +692,9 @@
   "author": "teaflower",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-843",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-845": {
   "id": "SCP-845",
@@ -519,7 +715,9 @@
   "author": "Smaugnolia",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-845",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-846": {
   "id": "SCP-846",
@@ -541,7 +739,37 @@
   "author": "Tanhony",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-846",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-846/scprobot-new.png",
+    "cap": "비활성 상태의 SCP-846."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scprobot-new.jpg"
+    ],
+    [
+     "원본",
+     "robot 5"
+    ],
+    [
+     "저작권자",
+     "Jonathan Pearson"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-848": {
   "id": "SCP-848",
@@ -563,6 +791,8 @@
   "author": "Aelanna",
   "translator": "POI_Damgi",
   "source": "https://scpko.wikidot.com/scp-848",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

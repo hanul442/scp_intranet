@@ -19,7 +19,33 @@
   "author": "IndustryStandard, PoufyPoufson",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-7951",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7951/telado.png",
+    "cap": "SCP-7951-1 와 SCP-7951-2"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "telado.png"
+    ],
+    [
+     "저작권자",
+     "JackalRelated"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-7959": {
   "id": "SCP-7959",
@@ -39,7 +65,65 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6768/deletion.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "web.png"
+    ],
+    [
+     "Name",
+     "Patterns in Desert Plants"
+    ],
+    [
+     "Author",
+     "Alex Grande"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dept.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "deletion.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7967": {
   "id": "SCP-7967",
@@ -59,7 +143,9 @@
   "author": "NielleiN",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7967",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7972": {
   "id": "SCP-7972",
@@ -83,7 +169,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7972",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7972/image.jpg",
+    "cap": "SCP-7972의 내부 사진. 일반적인 모듈식 주택과 다른 점이 없다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "image.jpg"
+    ],
+    [
+     "Name",
+     "Prefab Gabalfa - Esszimmer.jpg"
+    ],
+    [
+     "Author",
+     "Wolfgang Sauber"
+    ],
+    [
+     "License",
+     "GNU Free Documentation License"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7976": {
   "id": "SCP-7976",
@@ -106,7 +222,21 @@
   "author": "Rounderhouse",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-7976",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7976/ferrets.jpg",
+    "cap": "SCP-7976-1부터 –3. (직원들이 키신저, 럼즈펠드, 슐츠라는 별명을 지어줌)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ferrets.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7992": {
   "id": "SCP-7992",
@@ -133,7 +263,59 @@
   "author": "Dysadron, AnActualCrow",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7992",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7992/thegorilla.png",
+    "cap": "이것은 해리슨 연구원이 아니다. 이것은 SCP-7992다. 이것은 고릴라다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "thegorilla.png"
+    ],
+    [
+     "Name",
+     "CAC CC 001 18 32 0000 3164"
+    ],
+    [
+     "Author",
+     "Carl Albert Archives"
+    ],
+    [
+     "License",
+     "CC-SA 4.0 International"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tribunaldept.png"
+    ],
+    [
+     "Name",
+     "Internal Tribunal Department Logo"
+    ],
+    [
+     "Author",
+     "EstrellaYoshte"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Desk of Junior Designer S. Yvonne"
+    ]
+   ]
+  ]
  },
  "SCP-7999": {
   "id": "SCP-7999",
@@ -165,6 +347,144 @@
   "author": "",
   "translator": "TimothyYoung, Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-7999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/KeradidScience.png",
+    "cap": "베이즐 시어스Basil Sias 요원의 노트에서 발췌한 SCP-7999-3 종(種) 스케치"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/7kportalv2.png",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/640px-Parc_de_la_Ciutadella%2C_Julio_2020.png",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/LaSagradaFamilia.png",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/CarackanPainting.png",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/SiasPainting.png",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/NestPortal.jpg",
+    "cap": "시어스 요원의 바디캠에서 회수한 SCP-7999-2에서 바라본 지구의 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7999/WallPainting.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "7kportal.png"
+    ],
+    [
+     "Author",
+     "PlaguePJP, GremlinGroup"
+    ],
+    [
+     "License",
+     "Creative Commons Share-Alike 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "KeradidScience.png"
+    ],
+    [
+     "Author",
+     "@DrWhitney5"
+    ],
+    [
+     "License",
+     "Creative Commons Share-Alike 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "CarackanPainting.png"
+    ],
+    [
+     "Author",
+     "@Just_Randie"
+    ],
+    [
+     "License",
+     "Creative Commons Share-Alike 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "LaSagradaFamilia.png"
+    ],
+    [
+     "Author",
+     "Yeagov"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "ParcDeLaCiutadella.png"
+    ],
+    [
+     "Author",
+     "Robot8A"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Siaspainting.png, WallPainting.png"
+    ],
+    [
+     "Author",
+     "FabledTiefling"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fable_7k_image.jpeg"
+    ],
+    [
+     "Name",
+     "NestPortal.jpg"
+    ],
+    [
+     "Author",
+     "UncertaintyCrossing"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

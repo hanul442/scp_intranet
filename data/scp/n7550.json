@@ -24,7 +24,293 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7555",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Anomaly.png",
+    "cap": "큰개자리 α — 틈-Ω1 와 틈-Ω2의 극저노출된 이미지를 통해 보이는 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Diagram1.png",
+    "cap": "객체 5의 여파로 패여진 길"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/path.jpg",
+    "cap": "객체 5의 여파로 패여진 길"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Simplex1.png",
+    "cap": "콕서터 평면에서 WAY-Ψ0의 5차원 고른 다포체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Stomach.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Outside.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/CMB.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-area-12/literallyjustanscplogo.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Diagram2.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/simplex2.png",
+    "cap": "갱신된 A4 콕세터 평면에서 WAY-Ψ0의 5차원 다면다양체 틈을 직교 투영한 모습"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Observable.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7555/Absolution.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Anomaly.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Diagram1.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "path.jpg"
+    ],
+    [
+     "Author",
+     "Kyknoord"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "JAILERS.png"
+    ],
+    [
+     "Author",
+     "EstrellaYoshte"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Desk of Junior Designer S. Yvonne"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Simplex1.png"
+    ],
+    [
+     "Author",
+     "Tomruen"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stomach.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Outside.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "CMB.png"
+    ],
+    [
+     "Author",
+     "European Space Agency"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Diagram2.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Simplex2.png"
+    ],
+    [
+     "Author",
+     "Tomruen"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Observable.png"
+    ],
+    [
+     "Author",
+     "Andrew Z. Colvin"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Absolution.png"
+    ],
+    [
+     "Author",
+     "Trey Bishop"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "background.png"
+    ],
+    [
+     "Author",
+     "Shahfa84"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-7558": {
   "id": "SCP-7558",
@@ -45,7 +331,29 @@
   "author": "aismallard (작가 페이지)",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7558/cabinets.png",
+    "cap": "SCP-7558-A, 1960년경."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cabinets.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-7559": {
   "id": "SCP-7559",
@@ -66,7 +374,9 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7559",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7566": {
   "id": "SCP-7566",
@@ -85,7 +395,77 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7566",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7566/door.jpg",
+    "cap": "SCP-7566 기생의 비정상적인 징후가 나타나는 구조물."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7566/meat_map2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7566/meat_map.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "baddoors.jpg"
+    ],
+    [
+     "Name",
+     "Corridor"
+    ],
+    [
+     "Author",
+     "Taber Andrew Bain"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ],
+    [
+     "Name",
+     "Door.jpg"
+    ],
+    [
+     "Author",
+     "Kyle Fitzpatrick"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Local files"
+    ],
+    [
+     "Name",
+     "meat_maps"
+    ],
+    [
+     "Author",
+     "syuzhet"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Local files"
+    ]
+   ]
+  ]
  },
  "SCP-7575": {
   "id": "SCP-7575",
@@ -109,7 +489,9 @@
   "author": "PoufyPoufson",
   "translator": "Dr_RingoP",
   "source": "https://scpko.wikidot.com/scp-7575",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7582": {
   "id": "SCP-7582",
@@ -128,7 +510,51 @@
   "author": "local lesbian commie",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7582",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7582/lost%20data",
+    "cap": "재현"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Scribbles-1.png"
+    ],
+    [
+     "Author",
+     "Albaluau"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "not an image.jpg"
+    ],
+    [
+     "Author",
+     "local lesbian commie"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-7591": {
   "id": "SCP-7591",
@@ -152,7 +578,9 @@
   "author": "PlaguePJP",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7591",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7592": {
   "id": "SCP-7592",
@@ -172,7 +600,42 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7592",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/7.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7592/8.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7593": {
   "id": "SCP-7593",
@@ -193,7 +656,59 @@
   "author": "",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-7593",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7593/luxor.png",
+    "cap": "제666기지, 라스베가스, 네바다"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7593/charon.jpg",
+    "cap": "미켈란젤로가 그린 카론."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "main1.png"
+    ],
+    [
+     "Author",
+     "PlaguePJP"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "charon.png"
+    ],
+    [
+     "Name",
+     "CarontediMichelagelo.jpg"
+    ],
+    [
+     "Author",
+     "Michelangelo"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7594": {
   "id": "SCP-7594",
@@ -216,7 +731,61 @@
   "author": "PlaguePJP",
   "translator": "Yunsule",
   "source": "https://scpko.wikidot.com/scp-7594",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7594/reverb.png",
+    "cap": "SCP-7594 시작 페이지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7594/peanus.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "75944.png"
+    ],
+    [
+     "Author",
+     "Plague PJP"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Killagent"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "1732.png"
+    ],
+    [
+     "Author",
+     "Plague PJP"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCPtest Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-7597": {
   "id": "SCP-7597",
@@ -241,6 +810,114 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7597",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7597/moff.png",
+    "cap": "SCP-7597."
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-two/evergo.png",
+    "cap": "에버 고"
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-two/caesars.png",
+    "cap": "애틀랜틱시티 시저스"
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/jawn-two/heli.png",
+    "cap": "제322기지에 도착하는 UNGOC 대표단"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "moth2.png"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/34200064@N08/19730315523"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "원본",
+     "Mother of Pearl Moth (Explored 07.08.15)"
+    ],
+    [
+     "저작권자",
+     "RussellHarryLee"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "evergo.png"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:IMO_9811000_EVER_GIVEN_(09).JPG"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "원본",
+     "IMO 9811000 EVER GIVEN (09).JPG"
+    ],
+    [
+     "저작권자",
+     "S.J. de Waard"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "caesars.png"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/42391519@N02/6015754638"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "원본",
+     "Caesars at Atlantic City, New Jersey"
+    ],
+    [
+     "저작권자",
+     "momentcaptured1"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "heli.png"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ],
+    [
+     "라이선스",
+     "CC0 Public domain"
+    ],
+    [
+     "원본",
+     "N/A"
+    ],
+    [
+     "저작권자",
+     "Garak01"
+    ]
+   ]
+  ]
  }
 }

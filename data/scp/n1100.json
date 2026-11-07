@@ -17,7 +17,9 @@
   "author": "Aelanna",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1101": {
   "id": "SCP-1101",
@@ -38,7 +40,9 @@
   "author": "ModernMajorGeneral",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1101",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1102": {
   "id": "SCP-1102",
@@ -61,7 +65,9 @@
   "author": "Sophia Light",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1102",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1103": {
   "id": "SCP-1103",
@@ -82,7 +88,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1103",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1104": {
   "id": "SCP-1104",
@@ -103,7 +111,9 @@
   "author": "Rhoark",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1104",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1106": {
   "id": "SCP-1106",
@@ -125,7 +135,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1106",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1107": {
   "id": "SCP-1107",
@@ -145,7 +157,9 @@
   "author": "Dr_Madd",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1107",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1108": {
   "id": "SCP-1108",
@@ -166,7 +180,37 @@
   "author": "floridapologia",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1108",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1108/gator2.jpg",
+    "cap": "SCP-1108의 소멸 직전에 찍힌 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gator2.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Aerial_view_of_South_Tampa,_Florida_3.jpg"
+    ],
+    [
+     "제작자",
+     "Wknight94"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "작가 편집"
+    ]
+   ]
+  ]
  },
  "SCP-1110": {
   "id": "SCP-1110",
@@ -186,7 +230,9 @@
   "author": "tunedtoadeadchannel",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1110",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1111": {
   "id": "SCP-1111",
@@ -210,7 +256,9 @@
   "author": "DrSevere",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1111",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1117": {
   "id": "SCP-1117",
@@ -231,7 +279,9 @@
   "author": "Basilisk9466",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1117",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1118": {
   "id": "SCP-1118",
@@ -255,7 +305,33 @@
   "author": "Crayne",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1118",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1118/Os_Sumum_letter_SOE.png",
+    "cap": "SCP-1118로 작성된 SOE1 문서의 스캔본"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Os_Sumum_letter_SOE.png"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1118"
+    ],
+    [
+     "제작자",
+     "Crayne"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1119": {
   "id": "SCP-1119",
@@ -277,7 +353,9 @@
   "author": "Crayne",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1119",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1122": {
   "id": "SCP-1122",
@@ -300,7 +378,14 @@
   "author": "Ryan Mahan",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1122",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1122/1122.jpg",
+    "cap": "SCP-1122의 외부 전경"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1123": {
   "id": "SCP-1123",
@@ -319,7 +404,9 @@
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1123",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "잔혹한 해골"
+  "nickname": "잔혹한 해골",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1125": {
   "id": "SCP-1125",
@@ -341,7 +428,9 @@
   "author": "Crayne",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1125",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1126": {
   "id": "SCP-1126",
@@ -364,7 +453,9 @@
   "author": "DrBerggren",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1126",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1127": {
   "id": "SCP-1127",
@@ -387,7 +478,9 @@
   "author": "sandrewswann",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1128": {
   "id": "SCP-1128",
@@ -407,7 +500,9 @@
   "author": "MrCobalt",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-1128",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1132": {
   "id": "SCP-1132",
@@ -427,7 +522,9 @@
   "author": "TL333s",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1132",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1133": {
   "id": "SCP-1133",
@@ -448,7 +545,18 @@
   "author": "Falling Piano",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1133",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1133/1133-1.jpg",
+    "cap": "SCP-1133"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1133/1133-2.jpg",
+    "cap": "SCP-1133-1부터 SCP-1133-7"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1134": {
   "id": "SCP-1134",
@@ -468,7 +576,9 @@
   "author": "Dr Blank",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1134",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1135": {
   "id": "SCP-1135",
@@ -491,7 +601,9 @@
   "author": "Rioghail",
   "translator": "Dawninaday",
   "source": "https://scpko.wikidot.com/scp-1135",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1136": {
   "id": "SCP-1136",
@@ -513,7 +625,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1136",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1138": {
   "id": "SCP-1138",
@@ -534,7 +648,9 @@
   "author": "Fartun",
   "translator": "Gene R",
   "source": "https://scpko.wikidot.com/scp-1138",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1139": {
   "id": "SCP-1139",
@@ -555,7 +671,9 @@
   "author": "DrFred",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1139",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1142": {
   "id": "SCP-1142",
@@ -578,7 +696,14 @@
   "author": "Crayne",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1142",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1142/goliath.png",
+    "cap": "SCP-1142"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1147": {
   "id": "SCP-1147",
@@ -599,6 +724,8 @@
   "author": "Ink Asylum",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1147",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -21,6 +21,74 @@
   "author": "aismallard & smlt",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-7200",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7200/thumbnail.jpg",
+    "cap": "{$caption}"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "thumbnail.jpg"
+    ],
+    [
+     "Author",
+     "Морской атлас. Том I."
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "1950 Map 3 (Physical map of the Atlantic Ocean 06.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "boats_a.svg"
+    ],
+    [
+     "Author",
+     "smlt"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "boats_b.svg"
+    ],
+    [
+     "Author",
+     "smlt"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "boats_c.svg"
+    ],
+    [
+     "Author",
+     "smlt"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

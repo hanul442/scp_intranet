@@ -22,7 +22,125 @@
   "author": "Billith",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-8808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8808/view.png",
+    "cap": "동조된 상태가 아니라면 앞서 언급한 정보는 물론, 방어구 자체도 볼 수 없습니다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8808/sc1.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "balcaroni.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "banner.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "critical-icon.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "keneq-icon.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "keter-icon.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "view.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "samadhi.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sc1.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dms2.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-8818": {
   "id": "SCP-8818",
@@ -46,7 +164,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8818",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8834": {
   "id": "SCP-8834",
@@ -67,6 +187,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8834",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

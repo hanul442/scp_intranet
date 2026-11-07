@@ -21,7 +21,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-251-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-251-ko/Cocktail.jpg",
+    "cap": "SCP-251-KO-2 (빨대와 잔은 포함되지 않음)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-252-KO": {
   "id": "SCP-252-KO",
@@ -45,7 +52,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-252-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-253-KO": {
   "id": "SCP-253-KO",
@@ -72,7 +81,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-253-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-253-ko/dauphin.jpg",
+    "cap": "스미스 경위가 탑승했던 유로콥터 다우핀Ⅱ 헬리콥터."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-254-KO": {
   "id": "SCP-254-KO",
@@ -101,7 +117,18 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-254-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-254-ko/Grasshopper_with_the_pattern_like_camouflage_in_the_grass_-_1.jpg",
+    "cap": "SCP-254-KO를 구성하는 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-254-ko/spirit-2304469_1280.jpg",
+    "cap": "PoI-4543."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-255-KO": {
   "id": "SCP-255-KO",
@@ -123,7 +150,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-255-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-256-KO": {
   "id": "SCP-256-KO",
@@ -149,7 +178,31 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-256-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-256-ko/logo.png",
+    "cap": "SCP-256-KO의 로고."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-256-ko/ct.png",
+    "cap": "SCP-256-KO-A에서 런던 아이 (London Eye) 의 위치를 띄워놓은 사진. 현재 런던 아이를 마우스로 선택한 상태로, 위치를 옮길 수 있도록 화살표가 나오고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일 이름",
+     "~/project/███████_█████████████/npc_ai/tutorial.xml"
+    ]
+   ],
+   [
+    [
+     "파일 이름",
+     "release_note.txt"
+    ]
+   ]
+  ]
  },
  "SCP-257-KO": {
   "id": "SCP-257-KO",
@@ -172,7 +225,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-257-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-258-KO": {
   "id": "SCP-258-KO",
@@ -197,7 +252,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-258-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-259-KO": {
   "id": "SCP-259-KO",
@@ -221,7 +278,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-259-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-260-KO": {
   "id": "SCP-260-KO",
@@ -244,7 +303,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-260-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-261-KO": {
   "id": "SCP-261-KO",
@@ -267,7 +328,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-261-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-262-KO": {
   "id": "SCP-262-KO",
@@ -292,7 +355,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-262-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-263-KO": {
   "id": "SCP-263-KO",
@@ -319,7 +384,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-263-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-263-ko/bird.jpg",
+    "cap": "SCP-263-KO-2의 모습. 해당 개체의 변칙성은 잉크 및 스크린의 한계로 사진에 표현되지 못한다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-263-ko/Ismail.jpg",
+    "cap": "무레이 이스마일 이븐 샤리프(Moulay Ismail Ibn Sharif, 1672~1727)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-264-KO": {
   "id": "SCP-264-KO",
@@ -344,7 +420,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-264-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-265-KO": {
   "id": "SCP-265-KO",
@@ -368,7 +446,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-265-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-266-KO": {
   "id": "SCP-266-KO",
@@ -391,7 +471,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-266-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-267-KO": {
   "id": "SCP-267-KO",
@@ -413,7 +495,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-267-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-268-KO": {
   "id": "SCP-268-KO",
@@ -432,7 +516,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-268-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-269-KO": {
   "id": "SCP-269-KO",
@@ -455,7 +541,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-269-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-270-KO": {
   "id": "SCP-270-KO",
@@ -488,7 +576,18 @@
   "author": "Meat_Scholar",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-270-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-270-ko/%ED%95%BC%EB%A6%AC%ED%8C%A8%EB%93%9C.jpg",
+    "cap": "████ 작전 당시, 인천 ███산에 전개된 SCP-270-KO-H1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-270-ko/%EC%95%BD%EC%88%98.jpg",
+    "cap": "제주 서귀포시 ███읍에서 발견된 SCP-270-KO-3. 약수터로 위장한 모습이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-271-KO": {
   "id": "SCP-271-KO",
@@ -517,7 +616,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-271-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-271-ko/metal_bone.png",
+    "cap": "SCP-217이 검출된 뼈."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-271-ko/dogdae.jpg",
+    "cap": "SCP-217이 발견된 장소"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-271-ko/hiranuma.jpg",
+    "cap": "PoI-3271K 의 거처에서 발견된 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-272-KO": {
   "id": "SCP-272-KO",
@@ -542,7 +656,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-272-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-273-KO": {
   "id": "SCP-273-KO",
@@ -565,7 +681,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-273-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-273-ko/First(1).jpg",
+    "cap": "SCP-273-KO의 첫 대상이 된 교내 도서실"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-273-ko/lost-places-1647657_960_720.jpg",
+    "cap": "SCP-273-KO의 발생 흔적, 이후 재단이 복구함"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-274-KO": {
   "id": "SCP-274-KO",
@@ -588,7 +715,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-274-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-274-ko/altul.jpg",
+    "cap": "실험 274-KO-2 E 도중 SCP-274-KO-A의 영향을 받은 문의 모습"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-275-KO": {
   "id": "SCP-275-KO",
@@ -616,7 +750,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-275-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-275-ko/beta.png",
+    "cap": "SCP-275-KO가 위치한 독수리자리β"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-275-ko/star.png",
+    "cap": "SCP-275-KO-A"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-276-KO": {
   "id": "SCP-276-KO",
@@ -643,7 +788,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-276-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-276-ko/Shahajakakalls",
+    "cap": "통상적인 Rosa multiflora."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-277-KO": {
   "id": "SCP-277-KO",
@@ -668,7 +820,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-277-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-278-KO": {
   "id": "SCP-278-KO",
@@ -692,7 +846,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-278-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-279-KO": {
   "id": "SCP-279-KO",
@@ -722,7 +878,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-279-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-279-ko/20220930_205522.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-280-KO": {
   "id": "SCP-280-KO",
@@ -744,7 +907,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-280-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-281-KO": {
   "id": "SCP-281-KO",
@@ -768,7 +933,9 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-281-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-282-KO": {
   "id": "SCP-282-KO",
@@ -793,7 +960,14 @@
   "author": "vocadomato",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-282-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-282-ko/polarbear.jpg",
+    "cap": "제200K기지 공용 공원에서 산책 중인 SCP-282-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-283-KO": {
   "id": "SCP-283-KO",
@@ -827,7 +1001,18 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-283-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-283-ko/%EB%B3%B4%EB%A6%AC%EC%B0%90%EB%B9%B5.jpg",
+    "cap": "무속학부 소속 연구원이 만든 SCP-283-KO-1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-283-ko/Pond_at_Hanworth_-_geograph.org.uk_-_2329390.jpg",
+    "cap": "SCP-283-KO-2 내부의 못"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-284-KO": {
   "id": "SCP-284-KO",
@@ -851,7 +1036,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-284-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-284-ko/Earphone.JPG",
+    "cap": "변칙성이 발현되기 이전의 SCP-284-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-285-KO": {
   "id": "SCP-285-KO",
@@ -872,7 +1064,9 @@
   "author": "Gua1ngHa3i",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-285-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-286-KO": {
   "id": "SCP-286-KO",
@@ -892,7 +1086,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-286-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-287-KO": {
   "id": "SCP-287-KO",
@@ -917,7 +1113,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-287-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-288-KO": {
   "id": "SCP-288-KO",
@@ -942,7 +1140,9 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-288-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-289-KO": {
   "id": "SCP-289-KO",
@@ -966,7 +1166,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-289-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-289-ko/black-2597198_960_720.jpg",
+    "cap": "상기 이미지는 SCP-289-KO 및 특정 무기질의 정보를 포함합니다"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-290-KO": {
   "id": "SCP-290-KO",
@@ -990,7 +1197,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-290-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-291-KO": {
   "id": "SCP-291-KO",
@@ -1016,7 +1225,9 @@
   "author": "Plone",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-291-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-292-KO": {
   "id": "SCP-292-KO",
@@ -1039,7 +1250,9 @@
   "author": "Plone",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-292-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-293-KO": {
   "id": "SCP-293-KO",
@@ -1063,7 +1276,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-293-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-294-KO": {
   "id": "SCP-294-KO",
@@ -1090,7 +1305,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-294-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-295-KO": {
   "id": "SCP-295-KO",
@@ -1119,7 +1336,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-295-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-295-ko/scp-295-ko-blueprint.png",
+    "cap": "투폴레프 Tu-95 폭격기의 공개된 설계 자료를 기반으로 제1항공정비창에서 작성한 SCP-295-KO의 역설계 도면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-295-ko/scp-295-ko-bear.jpg",
+    "cap": "확보 당시 무사히 착륙한 후 촬영된 SCP-295-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-296-KO": {
   "id": "SCP-296-KO",
@@ -1146,7 +1374,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-296-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-297-KO": {
   "id": "SCP-297-KO",
@@ -1170,7 +1400,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-297-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-298-KO": {
   "id": "SCP-298-KO",
@@ -1201,7 +1433,18 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-298-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:migueludeom-32-d59b/stars-2179083_960_720.webp",
+    "cap": "SCP-298-KO-1 내부에서 촬영된 사진."
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:migueludeom-32-d59b/musician-3564169_960_720.jpg",
+    "cap": "SCP-298-KO-2의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-299-KO": {
   "id": "SCP-299-KO",
@@ -1226,6 +1469,13 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-299-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkrsandbox.wdfiles.com/local--files/payroy299/SCP-229-KO-A.jpg",
+    "cap": "SCP-299-KO-A가 ███ 박사와 대화를 나누는 모습."
+   }
+  ],
+  "img_credits": []
  }
 }

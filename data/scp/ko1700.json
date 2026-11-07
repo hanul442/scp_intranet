@@ -18,7 +18,28 @@
   "author": "three days",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1700-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1700-KO-2_RE"
+    ],
+    [
+     "저자",
+     "Toyslasher does not match any existing user name"
+    ],
+    [
+     "라이선스",
+     "CC BY SA 3.0"
+    ],
+    [
+     "출처",
+     "직접 촬영 및 편집함."
+    ]
+   ]
+  ]
  },
  "SCP-1701-KO": {
   "id": "SCP-1701-KO",
@@ -39,7 +60,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1701-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1705-KO": {
   "id": "SCP-1705-KO",
@@ -60,7 +83,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1705-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1709-KO": {
   "id": "SCP-1709-KO",
@@ -82,7 +107,43 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1709-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1709-ko/%EB%A1%9C%EA%B3%A01.jpg",
+    "cap": "SCP-1709-KO의 로고"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1709-ko/%EA%B3%B5%EC%9E%A51.jpg",
+    "cap": "광고에서 등장한 정상세계 내 SCP-1709-KO 맥주 공장. 위치를 확인 중이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "로고1.jpg"
+    ],
+    [
+     "저자",
+     "Yunsule"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-1709-KO"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "공장1.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1710-KO": {
   "id": "SCP-1710-KO",
@@ -102,7 +163,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1710-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1716-KO": {
   "id": "SCP-1716-KO",
@@ -124,7 +187,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1716-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1717-KO": {
   "id": "SCP-1717-KO",
@@ -146,7 +211,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1717-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1717-ko/%EC%97%B0%EB%AA%BB.jpg",
+    "cap": "SCP-1717-KO 전경."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1719-KO": {
   "id": "SCP-1719-KO",
@@ -168,7 +240,14 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1719-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1719-ko/Nightmare.jpg",
+    "cap": "SCP-1719-KO 발생 이후의 바다를 촬영한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1720-KO": {
   "id": "SCP-1720-KO",
@@ -194,7 +273,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1720-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/collab:ramiel/meta.jpg",
+    "cap": "영상 화면."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1721-KO": {
   "id": "SCP-1721-KO",
@@ -217,7 +303,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1721-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1725-KO": {
   "id": "SCP-1725-KO",
@@ -243,7 +336,50 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1725-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/btfly.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/raclette.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/concrete.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/speaker.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/trapunto.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/hole.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/first_ass.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/amne.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/brutalism.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1725-ko/auto.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1730-KO": {
   "id": "SCP-1730-KO",
@@ -267,7 +403,9 @@
   "author": "Itschoding",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1730-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1733-KO": {
   "id": "SCP-1733-KO",
@@ -288,7 +426,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1733-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1739-KO": {
   "id": "SCP-1739-KO",
@@ -309,7 +449,9 @@
   "author": "Lostplaced",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1739-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1743-KO": {
   "id": "SCP-1743-KO",
@@ -333,7 +475,28 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1743-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ],
+    [
+     "Author",
+     "Hoxmetal"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://upload.wikimedia.org/wikipedia/commons/a/a2/Horizontal_DS_.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1746-KO": {
   "id": "SCP-1746-KO",
@@ -360,7 +523,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1746-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1746-ko/hondon.png",
+    "cap": "변칙예술학부가 재현한 SCP-1746-KO의 외형"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1747-KO": {
   "id": "SCP-1747-KO",
@@ -383,7 +553,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1747-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1749-KO": {
   "id": "SCP-1749-KO",
@@ -403,6 +575,29 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1749-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1749-ko/46897333291_8961ce160d_b.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1749-ko/5622796708_e8e9cfd94c_b.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1749-ko/20260216_113124.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1749-ko/Moon_mountain.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1749-ko/Red_water_swimming_pool_%28Unsplash%29.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -19,7 +19,9 @@
   "author": "weizhong",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2950",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2951": {
   "id": "SCP-2951",
@@ -42,7 +44,30 @@
   "author": "djkaktus",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2951",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2951/entrance.jpg",
+    "cap": "SCP-2951의 붕괴된 출입구."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2951/house.jpg",
+    "cap": "SCP-2951의 부 출입로인 수직갱이 위치한 건물."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2951/blockage.jpg",
+    "cap": "주 접근 터널의 장애물. 케르비어 사건 기록에서 가져옴."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2951/access.jpg",
+    "cap": "유지 건물 밑의 부 출입로인 수직갱."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2951/shaft.jpg",
+    "cap": "기동특무부대 트로터-5에 의해 촬영된 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2952": {
   "id": "SCP-2952",
@@ -64,7 +89,14 @@
   "author": "AbsentmindedNihilist",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2952",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2952/grady.jpg",
+    "cap": "SCP-2952의 나머지 부분들은 땅에 묻혀 보이지 않는다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2953": {
   "id": "SCP-2953",
@@ -87,7 +119,9 @@
   "author": "MrWrong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2953",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2954": {
   "id": "SCP-2954",
@@ -113,7 +147,14 @@
   "author": "OZ Ouroboros",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2954",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2954/Masers.jpg",
+    "cap": "SCP-2954-1A."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2957": {
   "id": "SCP-2957",
@@ -135,7 +176,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2957",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2959": {
   "id": "SCP-2959",
@@ -162,7 +205,9 @@
   "author": "kinchtheknifeblade",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-2959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2960": {
   "id": "SCP-2960",
@@ -188,7 +233,14 @@
   "author": "Jacob Conwell",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2960",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2960/Urinetown.jpg",
+    "cap": "공연중인 SCP-2960의 몇 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2965": {
   "id": "SCP-2965",
@@ -209,7 +261,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2965",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2965/HORSESTATION.jpg",
+    "cap": "SCP-2965의 출구 지점."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "HORSESTATION.jpg"
+    ],
+    [
+     "Author",
+     "mailer_diablo"
+    ],
+    [
+     "License",
+     "Creative Commons BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:DhobyGhaut-CCLPlatform.JPG"
+    ]
+   ]
+  ]
  },
  "SCP-2970": {
   "id": "SCP-2970",
@@ -233,7 +311,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2970",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2972": {
   "id": "SCP-2972",
@@ -254,7 +334,9 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2972",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2973": {
   "id": "SCP-2973",
@@ -275,7 +357,9 @@
   "author": "faminepulse & SpookyBee",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2973",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2980": {
   "id": "SCP-2980",
@@ -299,7 +383,14 @@
   "author": "djkaktus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2980",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2980/IMAG0850.jpg",
+    "cap": "실험 와중의 SCP-2980."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2981": {
   "id": "SCP-2981",
@@ -322,7 +413,14 @@
   "author": "AndarielHalo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2981",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2981/2981.jpg",
+    "cap": "격리되기 전 한 학생이 촬영한 SCP-2981. 사진은 SCP-2981의 효과를 담지하지 않는다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2984": {
   "id": "SCP-2984",
@@ -344,7 +442,9 @@
   "author": "AndarielHalo",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2984",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2985": {
   "id": "SCP-2985",
@@ -365,7 +465,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2985",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2985/paintings.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2988": {
   "id": "SCP-2988",
@@ -389,7 +496,18 @@
   "author": "OZ Ouroboros",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2988",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2988/tree_hands.jpg",
+    "cap": "D-9562를 쫓다가 SCP-2988에서 떨어져 나온 한 무리의 아래팔들. D-9562는 묘사된 팔들에게 잡혔으며, SCP-2988이 통상 행하는 절차의 대상이 되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2988/Izaak.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2991": {
   "id": "SCP-2991",
@@ -412,7 +530,14 @@
   "author": "Dr Hysteria & Zyn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2991",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2991/scarf.JPG",
+    "cap": "비활성 상태의 SCP-2991."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2996": {
   "id": "SCP-2996",
@@ -435,7 +560,14 @@
   "author": "djkaktus",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2996",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2996/datamissing.png",
+    "cap": "ERROR"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2997": {
   "id": "SCP-2997",
@@ -458,7 +590,9 @@
   "author": "Devereaux",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2997",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2998": {
   "id": "SCP-2998",
@@ -484,7 +618,9 @@
   "author": "Eskobar",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2999": {
   "id": "SCP-2999",
@@ -513,6 +649,21 @@
   "author": "Fantem",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2999/Sarah.jpg",
+    "cap": "SCP-2999-A의 현 바탕화면 스크린샷. 변칙적/기밀 데이터는 편집되었다. 확대하려면 클릭하시오."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2999/Will.jpg",
+    "cap": "SCP-2999-B"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2999/scp2999.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

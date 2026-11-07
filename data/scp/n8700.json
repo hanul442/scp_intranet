@@ -20,6 +20,42 @@
   "author": "Uncle Nicolini",
   "translator": "soypower2",
   "source": "https://scpko.wikidot.com/scp-8728",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8728/lionvssun.png",
+    "cap": "인식재해성 변칙성이 제거된 SCP-8728의 복제 이미지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Lion Waiting in Namibia"
+    ],
+    [
+     "저자",
+     "Kevin Pluck"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "NASA The Sun Gallery"
+    ],
+    [
+     "저자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "Public Domain"
+    ]
+   ]
+  ]
  }
 }

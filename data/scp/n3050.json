@@ -17,7 +17,18 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3054",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3054/hospital_sunset.jpg",
+    "cap": "SCP-3054-A."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3054/hospital_ward.png",
+    "cap": "SCP-3054-A 내부."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3063": {
   "id": "SCP-3063",
@@ -40,7 +51,16 @@
   "author": "Dr Solo",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-3063",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "buzzing"
+    ]
+   ]
+  ]
  },
  "SCP-3074": {
   "id": "SCP-3074",
@@ -63,7 +83,18 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3074",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3074/kafka_interior.jpg",
+    "cap": "SCP-3074."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3074/phone.jpg",
+    "cap": "SCP-3074-B 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3078": {
   "id": "SCP-3078",
@@ -85,7 +116,53 @@
   "author": "UsernameAlias",
   "translator": "thd-glasses",
   "source": "https://scpko.wikidot.com/scp-3078",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno1new-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno2new-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno3new-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno4new-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno5new-ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3078/ohno6new-ko.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ohno1new.png, ohno2new.png, ohno3new.png, ohno4new.png, ohno5new.png, ohno6new.png"
+    ],
+    [
+     "저자",
+     "UsernameAlias"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "The SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3084": {
   "id": "SCP-3084",
@@ -119,7 +196,107 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3084",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3084/3084-Thumbnail.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3084/cursed.jpg",
+    "cap": "SCP-3084-A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3084/body.jpg",
+    "cap": "정지 상태의 SCP-3084-B 개체를 촬영한 컬러 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3084/street-interior.jpg",
+    "cap": "GoI-156 사무실 내부. SCP-3084-B 개체도 같은 프레임에 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cursed.jpg, 3084-Thumbnail.jpg"
+    ],
+    [
+     "Name",
+     "Gone"
+    ],
+    [
+     "Author",
+     "Alexandr Trubetskoy"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Hiemal.svg"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "body.jpg"
+    ],
+    [
+     "Name",
+     "Untitled"
+    ],
+    [
+     "Author",
+     "Derrick Tyson-Adams"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "street-interior.jpg"
+    ],
+    [
+     "Name",
+     "Shadow"
+    ],
+    [
+     "Author",
+     "mrhayata"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-3092": {
   "id": "SCP-3092",
@@ -142,7 +319,33 @@
   "author": "HunkyChunky",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3092",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3092/gorilla.jpg",
+    "cap": "격리 파기 사태 간에 \"마취시킨\" 이후의 SCP-3092-A."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gorilla.jpg"
+    ],
+    [
+     "저자",
+     "HunkyChunky"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3095": {
   "id": "SCP-3095",
@@ -165,7 +368,9 @@
   "author": "notgull",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3095",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3096": {
   "id": "SCP-3096",
@@ -188,7 +393,63 @@
   "author": "CannedBread",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3096",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3096/Bar_magnet-sm.jpg",
+    "cap": "SCP-3096"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3096/diagram1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3096/diagram2.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3096/diagram3.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Bar_magnet-sm.jpg"
+    ],
+    [
+     "저자",
+     "Aney"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Bar_magnet.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "diagram1.jpg, diagram2.jpg, diagram3.jpg"
+    ],
+    [
+     "저자",
+     "CannedBread"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3096"
+    ]
+   ]
+  ]
  },
  "SCP-3099": {
   "id": "SCP-3099",
@@ -212,6 +473,32 @@
   "author": "minmin",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3099",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3099/debbie.jpg",
+    "cap": "SCP-3099, 00:58:44 지점의 정지 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "debbie.jpg"
+    ],
+    [
+     "저자",
+     "minmin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3099"
+    ]
+   ]
+  ]
  }
 }

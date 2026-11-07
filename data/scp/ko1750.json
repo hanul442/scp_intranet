@@ -17,7 +17,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1750-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1750-ko/1757779092680.webp",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1751-KO": {
   "id": "SCP-1751-KO",
@@ -39,7 +46,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1751-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1751-ko/Vinca_major_117555001.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1752-KO": {
   "id": "SCP-1752-KO",
@@ -61,7 +75,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1752-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1752-ko/Lycoris_radiata_-_Kinchakuda_Plateau%2C_Hidaka%2C_Saitama.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1752-ko/Lieutenant_General_K%C5%8Dichi_%C5%8Cno.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1753-KO": {
   "id": "SCP-1753-KO",
@@ -82,7 +107,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1753-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1753-ko/medium.jpg",
+    "cap": "발뒤꿈치에서 적출한 SCP-1753-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1753-ko/1760536865976.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1754-KO": {
   "id": "SCP-1754-KO",
@@ -107,7 +143,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1754-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1755-KO": {
   "id": "SCP-1755-KO",
@@ -132,7 +170,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1755-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1755-ko/Camellia_japonica_%28flower_s4%29.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/damgin-artwork/ISang%20toomyeong",
+    "cap": "변칙문학과"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/department-of-ontology/dologo.png",
+    "cap": "존재학부"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/chaos-insurgency-hub/CI%20Main.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Camellia_japonica_(flower_s4).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1756-KO": {
   "id": "SCP-1756-KO",
@@ -156,7 +220,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1756-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1757-KO": {
   "id": "SCP-1757-KO",
@@ -174,7 +240,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1757-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1758-KO": {
   "id": "SCP-1758-KO",
@@ -198,7 +266,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1758-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/starofprince/BSIA.png",
+    "cap": "BSIA"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/secure-facility-dossier-site-57k/dptm-1.png",
+    "cap": "제57K기지 천문학부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/secure-facility-dossier-site-57k/dptm-3.png",
+    "cap": "제57K기지 외계종교학과"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/starofprince/Stars_Gather_in_%27Downtown%27_Milky_Way.jpg",
+    "cap": "아스트레오스-0004 \"우프라고노스\""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1759-KO": {
   "id": "SCP-1759-KO",
@@ -225,7 +312,9 @@
   "author": "Ginger butter",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1759-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1761-KO": {
   "id": "SCP-1761-KO",
@@ -249,7 +338,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1761-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1761-ko/IMG_1329.png",
+    "cap": "SCP-1761-KO가 작용한 조각의 모습. 왜소한 음경에 주목하라."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1762-KO": {
   "id": "SCP-1762-KO",
@@ -270,7 +366,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1762-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/we-die-in-dark/Bottle%2C_Crab_Demon_MET_vs64_228_60.jpg",
+    "cap": "SCP-1762-KO 의식 시전 장소에서 발견된 조각."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/we-die-in-dark/This_kid_drives_her_crazy_%281268726866%29.jpg",
+    "cap": "타르타로스 독립체."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/we-die-in-dark/003_Cheetah_hissing_after_a_meal_in_Kalahari_Desert_Photo_by_Giles_Laurent.jpg",
+    "cap": "타르타로스 독립체."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/we-die-in-dark/Demon_statue%2C_Greenwich_cable_car_terminal_06.jpg",
+    "cap": "타르타로스 독립체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1763-KO": {
   "id": "SCP-1763-KO",
@@ -298,7 +413,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1763-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1763-ko/1773735232577.jpg",
+    "cap": "SCP-1763-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1764-KO": {
   "id": "SCP-1764-KO",
@@ -319,7 +441,14 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1764-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/raihorizon/%ED%94%84%EC%9C%84%ED%82%A4%20%EA%B2%BD%EC%97%B0%EC%9E%91%20%ED%83%80%EC%9D%B4%ED%8B%80.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1765-KO": {
   "id": "SCP-1765-KO",
@@ -340,7 +469,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1765-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/hankang/Han_River_and_Han_River_Park_from_Jamsil_Bridge_%2814219133434%29.jpg",
+    "cap": "한강 작가."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/hankang/Han_Kang%2C_2024_Nobel_Prize_Laureate_in_Literature_%28cropped%29.jpg",
+    "cap": "서울, 한강."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1766-KO": {
   "id": "SCP-1766-KO",
@@ -362,7 +502,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1766-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1769-KO": {
   "id": "SCP-1769-KO",
@@ -383,7 +525,33 @@
   "author": "Garlic Corn-Potatoes",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1769-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1769-ko/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "cap": "재단이 직접 관리하고 있는 SCP-1769-KO."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07.jpg"
+    ],
+    [
+     "저자",
+     "Kim Hansen"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1770-KO": {
   "id": "SCP-1770-KO",
@@ -402,7 +570,14 @@
   "author": "Garlic Corn-Potatoes",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1770-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1770-ko/nightsky",
+    "cap": "2025.01.02 13:12 블랙박스 자동 전달"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1771-KO": {
   "id": "SCP-1771-KO",
@@ -419,7 +594,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1771-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/father.jpg",
+    "cap": "이사관 부임 이후 촬영, 2010년 경."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/self-portrait.jpg",
+    "cap": "2017년 경 자신이 그린 자화상. 실제 모습은 본인 의사를 반영해 공개하지 않는다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/kindofblue/RTM.jpg",
+    "cap": "실험 단계의 RTM형 기억소거제."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1777-KO": {
   "id": "SCP-1777-KO",
@@ -451,7 +645,14 @@
   "author": "Payroy, LR0725",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1777-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/department-of-ontology/dologo.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1786-KO": {
   "id": "SCP-1786-KO",
@@ -474,7 +675,127 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1786-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1786-ko/Wikimedia_Deutschland_Office_2024-03-15_3%20%EB%B3%B5%EC%82%AC.jpg",
+    "cap": "SCP-1786-KO-1-전지찬. 영상 매체에서의 모습과 다르게, 실제로는 전지찬 악마학과장과 차이가 존재하지 않는다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1786-ko/Xing_Xie_-_Computer_scientist_at_Microsoft_Research_Asia.jpg",
+    "cap": "전지찬 악마학과장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1786-ko/Chara05.png",
+    "cap": "카메라로 촬영한 전 전지찬 악마학과장, 현 SCP-1786-KO-1-전지찬."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1786-ko/Dark_Room_in_Yl%C3%A4maa.jpg",
+    "cap": "격리실."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1786-ko/ha.jpg",
+    "cap": "하연우 신부."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/mado/deathofjeon.jpg",
+    "cap": "화면 자료."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Wikimedia_Deutschland_Office_2024-03-15_3 복사.jpg"
+    ],
+    [
+     "저자",
+     "romrom"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Xing_Xie_-_Computer_scientist_at_Microsoft_Research_Asia.jpg"
+    ],
+    [
+     "저자",
+     "Rickinasia"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Chara05.png"
+    ],
+    [
+     "저자",
+     "Snow64"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Dark_Room_in_Ylämaa.jpg"
+    ],
+    [
+     "저자",
+     "Tatu Kosonen"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ha.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "deathofjeon.jpg"
+    ],
+    [
+     "저자",
+     "romrom"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1789-KO": {
   "id": "SCP-1789-KO",
@@ -493,7 +814,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1789-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/call-of-director/classic_00.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/call-of-director/adv_00.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/call-of-director/classic_40.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1799-KO": {
   "id": "SCP-1799-KO",
@@ -518,6 +854,45 @@
   "author": "three days",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1799-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP1799RE"
+    ],
+    [
+     "저자",
+     "three days"
+    ],
+    [
+     "라이선스",
+     "CC BY SA 3.0"
+    ],
+    [
+     "출처",
+     "직접 촬영함."
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Ilovebostonceltics"
+    ],
+    [
+     "저자",
+     "three days"
+    ],
+    [
+     "라이선스",
+     "CC BY SA 3.0"
+    ],
+    [
+     "출처",
+     "직접 촬영함."
+    ]
+   ]
+  ]
  }
 }

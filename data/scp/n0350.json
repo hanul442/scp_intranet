@@ -22,7 +22,39 @@
   "author": "Dr Gears",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-352",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-352/352.png",
+    "cap": "민간인 봉쇄 기간 동안에 촬영된 SCP-352의 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-352"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SCP-352"
+    ],
+    [
+     "Author",
+     "Escape from Site 19 (edits by Agent Shuffle)"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Escape from Site 19"
+    ]
+   ]
+  ]
  },
  "SCP-353": {
   "id": "SCP-353",
@@ -43,7 +75,9 @@
   "author": "Slate",
   "translator": "P_Per",
   "source": "https://scpko.wikidot.com/scp-353",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-354": {
   "id": "SCP-354",
@@ -66,7 +100,33 @@
   "translator": "Major Gordon",
   "source": "https://scpko.wikidot.com/scp-354",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "붉은 웅덩이"
+  "nickname": "붉은 웅덩이",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-354/redpool-new.jpg",
+    "cap": "원래 발견되었던 당시의 SCP-354."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "redpool-new.jpg"
+    ],
+    [
+     "원본",
+     "DSC_7396 copy"
+    ],
+    [
+     "저작권자",
+     "Jim Sorbie, stephlynch에 의해 수정됨"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0 (원본) / CC BY-SA 3.0 (수정본)"
+    ]
+   ]
+  ]
  },
  "SCP-361": {
   "id": "SCP-361",
@@ -90,7 +150,9 @@
   "author": "Dmatix",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-361",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-363": {
   "id": "SCP-363",
@@ -109,7 +171,9 @@
   "author": "Josef Kald",
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-363",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-364": {
   "id": "SCP-364",
@@ -131,7 +195,14 @@
   "author": "Quikngruvn",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-364",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-364/scp-364.jpg",
+    "cap": "항상 목성을 바라보는 면에 수르트 화산(가운데 위쪽, 파란 동그라미 안)이 있다. 이오의 직경은 3642 km이고 지구의 달보다 약간 더 크다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-365": {
   "id": "SCP-365",
@@ -153,7 +224,9 @@
   "author": "CondorTalon",
   "translator": "blackmagpie : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-365",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-367": {
   "id": "SCP-367",
@@ -173,7 +246,9 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-367",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-368": {
   "id": "SCP-368",
@@ -194,7 +269,9 @@
   "author": "Eberstrom",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-368",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-369": {
   "id": "SCP-369",
@@ -212,7 +289,9 @@
   "author": "ClockworkMage",
   "translator": "Practical Goo",
   "source": "https://scpko.wikidot.com/scp-369",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-370": {
   "id": "SCP-370",
@@ -236,7 +315,9 @@
   "author": "GwenWinterheart",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-370",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-371": {
   "id": "SCP-371",
@@ -257,7 +338,33 @@
   "author": "Sophia Light",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-371",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-371/phage.png",
+    "cap": "SCP-371의 생리 도해"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "phage.png"
+    ],
+    [
+     "원본",
+     "File:PhageExterior.svg"
+    ],
+    [
+     "저작권자",
+     "Adenosine"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-372": {
   "id": "SCP-372",
@@ -277,7 +384,29 @@
   "author": "Sylocat",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-372",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-372/SCP-372.jpg",
+    "cap": "SCP-372 (가장 선명한 사진)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "4672099774_43981e976c.jpg"
+    ],
+    [
+     "저작권자",
+     "Sylocat"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-374": {
   "id": "SCP-374",
@@ -300,7 +429,9 @@
   "author": "Voct",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-374",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-377": {
   "id": "SCP-377",
@@ -321,7 +452,9 @@
   "author": "Dave Rapp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-377",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-378": {
   "id": "SCP-378",
@@ -354,7 +487,9 @@
   "author": "UraniumEmpire",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-378",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-379": {
   "id": "SCP-379",
@@ -374,7 +509,9 @@
   "author": "ManualSearch",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-379",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-380": {
   "id": "SCP-380",
@@ -395,7 +532,9 @@
   "author": "ManualSearch",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-381": {
   "id": "SCP-381",
@@ -416,7 +555,14 @@
   "author": "MrVirgo",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-381",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-381/SCP-381.jpg",
+    "cap": "SCP-381의 첫 장"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-382": {
   "id": "SCP-382",
@@ -440,7 +586,9 @@
   "author": "comwilson",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-382",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-383": {
   "id": "SCP-383",
@@ -460,7 +608,9 @@
   "author": "agatharights",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-383",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-387": {
   "id": "SCP-387",
@@ -484,7 +634,33 @@
   "author": "EmancipatedEmptiness",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-387",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-387/legopile.jpg",
+    "cap": "퍼져있는 상태의 SCP-387"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "legopile.jpg"
+    ],
+    [
+     "원본",
+     "Lego Bricks"
+    ],
+    [
+     "저작권자",
+     "Benjamin Esham"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-388": {
   "id": "SCP-388",
@@ -504,7 +680,9 @@
   "author": "미상",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-388",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-389": {
   "id": "SCP-389",
@@ -526,7 +704,9 @@
   "author": "Partileman",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-389",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-390": {
   "id": "SCP-390",
@@ -548,7 +728,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-390",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-391": {
   "id": "SCP-391",
@@ -571,7 +753,9 @@
   "author": "Maddy L",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-391",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-392": {
   "id": "SCP-392",
@@ -595,7 +779,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-392",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-395": {
   "id": "SCP-395",
@@ -616,7 +802,14 @@
   "author": "Reaperwolf",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-395",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-395/SCP-395.jpg",
+    "cap": "SCP-395"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-396": {
   "id": "SCP-396",
@@ -636,7 +829,183 @@
   "author": "Dr Kondraki",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-396",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/thumbnail.jpg",
+    "cap": "And Suddenly, Chair"
+   },
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/felixou-work-too/classe.png",
+    "cap": "프랑스 팔레조(Palaiseau)의 에콜 폴리테크니크 시험 시작 전에 출현한 SCP-396 (빨강)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/dentist-chair.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/Bigchair.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/director-chair.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/throne.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396/archeologic.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "classe.jpg"
+    ],
+    [
+     "Source",
+     "Wikicommon"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 2.0 Generic"
+    ],
+    [
+     "Author",
+     "Exit2DOS2000"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Also SCP-396.jpg"
+    ],
+    [
+     "Source",
+     "Wikicommon"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Author",
+     "Alex Rio Brazil"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dentist-chair.jpg"
+    ],
+    [
+     "Source",
+     "Rawpixel"
+    ],
+    [
+     "License",
+     "public domain"
+    ],
+    [
+     "Author",
+     "Rawpixel"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Bigchair.jpg"
+    ],
+    [
+     "Source",
+     "Wikicommons"
+    ],
+    [
+     "License",
+     "public domain"
+    ],
+    [
+     "Author",
+     "Exit2DOS2000"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "director-chair.png"
+    ],
+    [
+     "Source",
+     "Wikicommons"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0 International"
+    ],
+    [
+     "Author",
+     "Stul-rezhissera"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "throne.jpg"
+    ],
+    [
+     "Source",
+     "Flickr"
+    ],
+    [
+     "License",
+     "CC BY 2.0 DEED"
+    ],
+    [
+     "Author",
+     "Richard Mortel"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "archeologic.jpg"
+    ],
+    [
+     "Source",
+     "Flickr"
+    ],
+    [
+     "License",
+     "CC0 1.0 DEED"
+    ],
+    [
+     "Author",
+     "Gary Todd"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Thumbnail.jpg"
+    ],
+    [
+     "Source",
+     "Made with this image."
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Author",
+     "Felixou"
+    ]
+   ]
+  ]
  },
  "SCP-397": {
   "id": "SCP-397",
@@ -657,7 +1026,14 @@
   "author": "diogenes",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-397",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-397/SCP-397(1).jpg",
+    "cap": "SCP-397"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-398": {
   "id": "SCP-398",
@@ -678,7 +1054,33 @@
   "author": "AshShields",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-398",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-398/long_hallway_JeffK.jpg",
+    "cap": "SCP 내부에서 촬영된 동영상 장면의 스냅샷."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "long_hallway_JeffK.jpg"
+    ],
+    [
+     "원본",
+     "LAX Hallway"
+    ],
+    [
+     "저작권자",
+     "Jennifer Kramer"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-399": {
   "id": "SCP-399",
@@ -698,6 +1100,8 @@
   "author": "ThrashDriveshaft",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-399",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

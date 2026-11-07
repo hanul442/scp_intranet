@@ -20,7 +20,41 @@
   "author": "notgull",
   "translator": "Kkachi",
   "source": "https://scpko.wikidot.com/scp-4800",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4800/destruction.jpg",
+    "cap": "SCP-4800-A로 지정된 E-9056a7로 드론을 보내려고 한 뒤 남은 제21기지 에버레즈 빌딩 잔해."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4800/water.jpg",
+    "cap": "Acentronura tentaculata. 해당 종은 2001년에 SCP-4800이 발생하기 전까지 존재하지 않았다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4800/meeting.jpg",
+    "cap": "SCP-4800을 정의하기 위해 시행된 다중우주 재단 연맹의 대표자 회의. 민감한 정보는 검열됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "destruction.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "water.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "meeting.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4807": {
   "id": "SCP-4807",
@@ -41,7 +75,9 @@
   "author": "",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-4807",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4808": {
   "id": "SCP-4808",
@@ -63,7 +99,14 @@
   "author": "notgull",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4808/shaggy-dog.jpg",
+    "cap": "[데이터 편집됨]의 집에서 발견된 SCP-4808-1 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4812": {
   "id": "SCP-4812",
@@ -95,7 +138,167 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4812",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2254/paragonlogokor.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4812/header.png",
+    "cap": "사진(왼쪽에서 오른쪽 순으로): SCP-4812-S의 격리 구역 (500미터 앞 지점) / 제80기지에 있는 SCP-4812-E 격리시설 / 소련 제트 전투기의 추격을 받고 있는 초기의 SCP-4812-K의 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4812/skeleton.jpg",
+    "cap": "SCP-4812-S의 희생자. 해당 독립체가 발견된 지하 동굴에서 회수되었음. 유골의 상태를 감안했을 때 희생자가 300년 전 사망한 것으로 추정됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4812/scrolls.jpg",
+    "cap": "베를린에서 열린 마셜, 카터 & 다크 전시회에 전시된 SCP-4812-1 두루마리."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4812/Lamenellant.png",
+    "cap": "세계 오컬트 연합 방어체계와 교전하는 SCP-4812-K"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4812/Vinuvinex.png",
+    "cap": "발견된 직후의 SCP-4812-E의 이동 경로"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "paragonlogokor.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "header.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "kaktus1.png"
+    ],
+    [
+     "저자",
+     "Aethris"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Lamenellant.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scpnewlogo.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scrolls.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "skeleton.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Vinuvinex.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4818": {
   "id": "SCP-4818",
@@ -116,7 +319,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4818",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4826": {
   "id": "SCP-4826",
@@ -136,7 +341,9 @@
   "author": "RockTeethMothEyes",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4826",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4829": {
   "id": "SCP-4829",
@@ -158,7 +365,21 @@
   "author": "Weryllium",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4829",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4829/protuberancesaboundregolith.jpg",
+    "cap": "2072/9/19 이전의 SCP-4829. 의색 적용 분광 사진 (좌측) 실제 색상 (우측)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "protuberancesaboundregolith.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4831": {
   "id": "SCP-4831",
@@ -180,7 +401,28 @@
   "author": "Westrin",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4831",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Downthelane.png, Greengreengrassofhome.png, Withmysweetmary.png"
+    ],
+    [
+     "Author",
+     "Westrin"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4832": {
   "id": "SCP-4832",
@@ -202,7 +444,53 @@
   "author": "H0dari",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4832",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX.png",
+    "cap": "전원이 꺼진 상태의 SCP-4832."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX-1.png",
+    "cap": "조정 범위: 88-923. SCP-4832의 색상이 반전됨. 하급 연구원 하퍼가 물체를 조작함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX-2.png",
+    "cap": "조정 범위: 92-96. SCP-4832는 가시광선 스펙트럼 밖의 색상을 띰."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX-3.png",
+    "cap": "조정 범위: 96-100. SCP-4832는 시작 보조 장비 없이는 눈에 재현되지 않을 정도로 세세한 광경을 보여줌."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX-4.png",
+    "cap": "조정 범위: 100-104. SCP-4832의 전반적 형태와 색상이 희미해짐."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4832/SCP-48XX-5.png",
+    "cap": "조정 범위: 104-108. 외양이 불가해하게 변함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-48XX.png, SCP-48XX-1.png, SCP-48XX-2.png, SCP-48XX-3.png, SCP-48XX-4.png, SCP-48XX-6.png"
+    ],
+    [
+     "저자",
+     "H0dari"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4835": {
   "id": "SCP-4835",
@@ -227,7 +515,33 @@
   "author": "gee0765",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4835/cow1",
+    "cap": "SCP-4835"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cow1"
+    ],
+    [
+     "저자",
+     "gee0765"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4840": {
   "id": "SCP-4840",
@@ -252,7 +566,57 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4840",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2254/paragonlogokor.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/header.png",
+    "cap": "SCP-4840."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/location-new.png",
+    "cap": "SCP-4840."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/sonofson.png",
+    "cap": "SCP-4840-A."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/lancelot.png",
+    "cap": "SCP-4840-B."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/apollyon.png",
+    "cap": "SCP-4840-B에서 볼 수 있는 인발."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/temple1.png",
+    "cap": "일출의 사원.(The Temple of Sunrise.)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/temple2.png",
+    "cap": "일몰의 사원."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/temple3.png",
+    "cap": "밤의 사원."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4840/stairs.jpg",
+    "cap": "봉인된 방으로 향하는 계단."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "paragonlogokor.png"
+    ]
+   ]
+  ]
  },
  "SCP-4844": {
   "id": "SCP-4844",
@@ -272,6 +636,36 @@
   "author": "TyGently",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4844",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4844/tim.jpg",
+    "cap": "SCP-4844, 강림한 지 7년이 경과한 2012년 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tim.jpg"
+    ],
+    [
+     "Name",
+     "Hector Elizondo, Tim Allen, Christoph Sanders, DSC_0051"
+    ],
+    [
+     "Author",
+     "Red Carpet Report on Mingle Media TV"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  }
 }

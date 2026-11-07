@@ -18,7 +18,9 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5101",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5104": {
   "id": "SCP-5104",
@@ -43,7 +45,97 @@
   "author": "J Dune",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5104",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5104/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5104/Kite.jpg",
+    "cap": "필라델피아 이스트타운군구에 도착한 SCP-5104-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5104/doc.jpg",
+    "cap": "환자에게 시술을 하고 있는 PoI-9224."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5104/yelpreviewko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5104/yelp2ko.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "kite.jpg"
+    ],
+    [
+     "원본",
+     "kite"
+    ],
+    [
+     "저작권자",
+     "M8_Ball"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "내가 만듬"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "doc.jpg"
+    ],
+    [
+     "원본",
+     "James Dubel"
+    ],
+    [
+     "저작권자",
+     "Michael Dorausch"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "yelp review.png, yelp2.png"
+    ],
+    [
+     "원본",
+     "yelp reviews"
+    ],
+    [
+     "저작권자",
+     "나"
+    ],
+    [
+     "라이선스",
+     "내가 만듬"
+    ],
+    [
+     "출처",
+     "내가 한일"
+    ]
+   ]
+  ]
  },
  "SCP-5105": {
   "id": "SCP-5105",
@@ -64,7 +156,9 @@
   "author": "Cerastes",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-5105",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5109": {
   "id": "SCP-5109",
@@ -100,7 +194,43 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5109",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5109/Mimisi.png",
+    "cap": "SCP-5109. 만일 도상학적 이상이 존재한다면 관련 밈적 효과가 원인일 수 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "5109.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Mimisi.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5113": {
   "id": "SCP-5113",
@@ -126,7 +256,37 @@
   "author": "Doctor Cimmerian",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5113",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5113/SCP-5113.jpg",
+    "cap": "사건 5113-13 이후의 SCP-5113-1과 SCP-5113-2."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-5113.jpg"
+    ],
+    [
+     "Name",
+     "Great dane and cat"
+    ],
+    [
+     "Author",
+     "Entershikarisim"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5131": {
   "id": "SCP-5131",
@@ -146,7 +306,9 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5131",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5133": {
   "id": "SCP-5133",
@@ -172,7 +334,127 @@
   "author": "WickedMiracle & Zyn",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-5133",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5133/FruityFroggo",
+    "cap": "좌우로 자른 SCP-5133-1 개체 하나"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5133/carvedfruit.jpg",
+    "cap": "SCP-5133-2가 조각한 SCP-5133-1 개체 하나"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "FruityFroggo"
+    ],
+    [
+     "작가",
+     "WickedMiracle"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Brown Tree Frog 2.jpg"
+    ],
+    [
+     "작가",
+     "Noodle snacks"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Demi kiwi.png"
+    ],
+    [
+     "작가",
+     "Benoît Stella"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Pond P9080622.jpg"
+    ],
+    [
+     "작가",
+     "Chris Light"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "carvedfruit.jpg"
+    ],
+    [
+     "작가",
+     "WickedMiracle"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Fruit & Vegetable carving 3.JPG"
+    ],
+    [
+     "작가",
+     "Ks.mini"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본 출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-5135": {
   "id": "SCP-5135",
@@ -195,7 +477,63 @@
   "author": "",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-5135",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5135/mappo12.png",
+    "cap": "SCP-5135-1의 대략적 위치."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5135/corrupted_photo.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mappo12.png"
+    ],
+    [
+     "원본",
+     "SCP-5135 Location"
+    ],
+    [
+     "저작권자",
+     "CityToast"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Self"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "corrupted_photo.png"
+    ],
+    [
+     "원본",
+     "Corrupted Photo"
+    ],
+    [
+     "저작권자",
+     "CityToast"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Self"
+    ]
+   ]
+  ]
  },
  "SCP-5140": {
   "id": "SCP-5140",
@@ -217,7 +555,63 @@
   "author": "Rounderhouse",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5140/mount.png",
+    "cap": "에베레스트산."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5140/everest.png",
+    "cap": "에베레스트산의 스캔 이미지. 밝은 구역일수록 증가한 SCP-5140의 밀도를 보여준다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mount.png"
+    ],
+    [
+     "원본",
+     "Everest North Face toward Base Camp Tibet Luca Galuzzi 2006.jpg"
+    ],
+    [
+     "저작권자",
+     "Luca Galuzzi"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "everest.png"
+    ],
+    [
+     "원본",
+     "Everest kalapatthar.jpg"
+    ],
+    [
+     "저작권자",
+     "Pavel Novak"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5145": {
   "id": "SCP-5145",
@@ -242,7 +636,9 @@
   "author": "Tanhony",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-5145",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5149": {
   "id": "SCP-5149",
@@ -263,6 +659,8 @@
   "author": "Rounderhouse",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-5149",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

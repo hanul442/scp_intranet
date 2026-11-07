@@ -21,7 +21,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1400-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1400-ko/1400ko.jpg",
+    "cap": "구(舊) 제██K기지 부지."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1401-KO": {
   "id": "SCP-1401-KO",
@@ -39,7 +46,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1401-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1403-KO": {
   "id": "SCP-1403-KO",
@@ -60,7 +69,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1403-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/room-for-no-use/studi.jpg",
+    "cap": "SCP-1403-KO가 있는 건물의 일반적인 방 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1404-KO": {
   "id": "SCP-1404-KO",
@@ -83,7 +99,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1404-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1407-KO": {
   "id": "SCP-1407-KO",
@@ -105,7 +123,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1407-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1408-KO": {
   "id": "SCP-1408-KO",
@@ -131,7 +151,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1408-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1408-ko/Wasp_May_2008-11.jpg",
+    "cap": "SCP-1408-KO 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1408-ko/Wasp_colony.jpg",
+    "cap": "SCP-1408-KO 공주벌의 군집 짓기."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1408-ko/European_poliestes_of_gallicus-group.jpg",
+    "cap": "SCP-1408-KO 구기와 발성기관."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1408-ko/Wasp_nest_formation_on_crystal_door.jpg",
+    "cap": "사육 하의 AB02와 군집C (하술, 누르면 관찰됨)"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1409-KO": {
   "id": "SCP-1409-KO",
@@ -155,7 +194,18 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1409-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1409-ko/Canopus.jpg",
+    "cap": "제57K기지 관할 관측소에서 관측한 SCP-1409-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1409-ko/spaceship.jpg",
+    "cap": "제32월면기지에서 전송된 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1410-KO": {
   "id": "SCP-1410-KO",
@@ -172,7 +222,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1410-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1411-KO": {
   "id": "SCP-1411-KO",
@@ -197,7 +249,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1411-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1412-KO": {
   "id": "SCP-1412-KO",
@@ -219,7 +273,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1412-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1413-KO": {
   "id": "SCP-1413-KO",
@@ -241,7 +297,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1413-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1414-KO": {
   "id": "SCP-1414-KO",
@@ -264,7 +322,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1414-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1415-KO": {
   "id": "SCP-1415-KO",
@@ -289,7 +349,14 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1415-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1415-ko/goldfish.jpg",
+    "cap": "SCP-1415-KO-A의 물리적 실체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1416-KO": {
   "id": "SCP-1416-KO",
@@ -315,7 +382,18 @@
   "author": "Agent_Wanderer",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1416-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1416-ko/Waifu-space.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1416-ko/Waifu-equation.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1417-KO": {
   "id": "SCP-1417-KO",
@@ -335,7 +413,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1417-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1418-KO": {
   "id": "SCP-1418-KO",
@@ -352,7 +432,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1418-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1419-KO": {
   "id": "SCP-1419-KO",
@@ -373,7 +455,14 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1419-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1419-ko/house.jpg",
+    "cap": "SCP-1419-KO의 입구에서 촬영한 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1420-KO": {
   "id": "SCP-1420-KO",
@@ -392,7 +481,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1420-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1421-KO": {
   "id": "SCP-1421-KO",
@@ -412,7 +503,9 @@
   "author": "Helmut Ashworth",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1421-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1422-KO": {
   "id": "SCP-1422-KO",
@@ -435,7 +528,14 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1422-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1422-ko/r",
+    "cap": "구북구Palearctic 통제 지역 R."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1423-KO": {
   "id": "SCP-1423-KO",
@@ -457,7 +557,9 @@
   "author": "Yunsule",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1423-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1425-KO": {
   "id": "SCP-1425-KO",
@@ -482,7 +584,30 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1425-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1425-ko/Geometric_Model_of_M.C._Escher%27s_stellated_dodecahedron.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1425-ko/Jirisan_campground_-_panoramio.jpg",
+    "cap": "32번째로 발견된 SCP-1425-KO 개체. 민간 캠프장에서 포착되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1425-ko/marineball.jpg",
+    "cap": "바디캠 화면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1425-ko/HRT_night_vision_device_view.jpg",
+    "cap": "."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1425-ko/Night_Sky_looking_towards_Orion.jpg",
+    "cap": "."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1426-KO": {
   "id": "SCP-1426-KO",
@@ -504,7 +629,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1426-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1427-KO": {
   "id": "SCP-1427-KO",
@@ -529,7 +656,99 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1427-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1427/SCP-1427.jpg",
+    "cap": "북한 평양에 위치한 SCP-1427-KO의 외형."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1427-ko/Paeksong_Revolutionary_Site_-_02_-_KIS_statue.jpg",
+    "cap": "SCP-1427-KO-C 중 하나."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1427-ko/North_Korea_-_Top_of_Ryugyong_Hotel_%285821761213%29.jpg",
+    "cap": "시범 가동 당시의 SCP-1427-KO. 영체가 과하게 응집되어 안개가 발생하였다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1427-ko/burner",
+    "cap": "표준형 향로."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-1427.jpg"
+    ],
+    [
+     "Author",
+     "Joseph Ferris III"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Ryugyong_Hotel_-_August_27,_2011_(Cropped).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "-"
+    ],
+    [
+     "Author",
+     "Jan Engelhardt"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://inai.de/images/2019_pyongsong/ (https://commons.wikimedia.org/wiki/File:Paeksong_Revolutionary_Site_-_02_-_KIS_statue.jpg)"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "-"
+    ],
+    [
+     "Author",
+     "Roman Harak"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:North_Korea_-_Top_of_Ryugyong_Hotel_(5821761213).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "burner"
+    ],
+    [
+     "Author",
+     "국립중앙박물관"
+    ],
+    [
+     "License",
+     "공공누리 제1유형"
+    ],
+    [
+     "Source Link",
+     "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&searchId=search&relicId=70199"
+    ]
+   ]
+  ]
  },
  "SCP-1428-KO": {
   "id": "SCP-1428-KO",
@@ -552,7 +771,9 @@
   "author": "Chris nix #",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1428-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1429-KO": {
   "id": "SCP-1429-KO",
@@ -571,7 +792,9 @@
   "author": "Moulinet",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1429-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1430-KO": {
   "id": "SCP-1430-KO",
@@ -599,7 +822,9 @@
   "author": "romrom, oratio, chayusen",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1430-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1431-KO": {
   "id": "SCP-1431-KO",
@@ -628,7 +853,14 @@
   "author": "romrom, oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1431-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": "복리후생부 로고. SCP-1431-KO의 목격 사진에서 추출함."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1432-KO": {
   "id": "SCP-1432-KO",
@@ -651,7 +883,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1432-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1432-ko/scp-terminal.jpg",
+    "cap": "SCP-1432-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1434-KO": {
   "id": "SCP-1434-KO",
@@ -674,7 +913,55 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1434-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1434-ko/%EC%A0%84%EC%9E%90%EC%A0%84%EC%9D%B4.png",
+    "cap": "수소 원자 속 전자의 전이"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1434-ko/%EC%8B%A0%EB%AC%BC%EC%9C%B5%ED%95%A9.png",
+    "cap": "신물융합 반응. 신물은 빨간색 입자로, 콩과 팥은 검은색 입자로 나타냈다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "전자전이.png"
+    ],
+    [
+     "Author",
+     "R. Bielski, Ginger butter"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Lyman_Series.svg의 이미지를 직접 수정했습니다."
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "신물융합.png"
+    ],
+    [
+     "Author",
+     "Wykis, Ginger butter"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Deuterium-tritium_fusion.svg의 이미지를 직접 수정했습니다."
+    ]
+   ]
+  ]
  },
  "SCP-1439-KO": {
   "id": "SCP-1439-KO",
@@ -699,7 +986,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1439-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1440-KO": {
   "id": "SCP-1440-KO",
@@ -732,7 +1021,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1440-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1441-KO": {
   "id": "SCP-1441-KO",
@@ -752,7 +1043,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1441-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1444-KO": {
   "id": "SCP-1444-KO",
@@ -773,7 +1066,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1444-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1446-KO": {
   "id": "SCP-1446-KO",
@@ -797,7 +1092,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1446-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1449-KO": {
   "id": "SCP-1449-KO",
@@ -818,6 +1115,8 @@
   "author": "Everain00",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1449-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

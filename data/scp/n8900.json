@@ -19,7 +19,9 @@
   "author": "Sound Chaser",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-8906",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8909": {
   "id": "SCP-8909",
@@ -40,7 +42,171 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8909",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7549/recurrent_triangle.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8909/DD.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "recurrent_triangle.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-8909"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dept.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-8909"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "antiabsentia.svg"
+    ],
+    [
+     "Name",
+     "absentia-icon.svg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-7243"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "ng.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-8909"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "ubique.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-8909"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scar.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/scp-8909"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Yggdrasil.svg"
+    ],
+    [
+     "Author",
+     "Calibold"
+    ],
+    [
+     "License",
+     "cc-by-sa 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Yggdrasil.svg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DD.png"
+    ],
+    [
+     "Name",
+     "Explosion"
+    ],
+    [
+     "Author",
+     "Niklas Freidwall"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://flic.kr/p/dbUN11"
+    ]
+   ]
+  ]
  },
  "SCP-8917": {
   "id": "SCP-8917",
@@ -62,7 +228,33 @@
   "author": "D-Barschina",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-8917",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8917/medium.jpg",
+    "cap": "8917-01 사건이 있기 2달 전 SCP-8917의 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Cat.jpg"
+    ],
+    [
+     "Author",
+     "Judgefloro"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-8927": {
   "id": "SCP-8927",
@@ -85,7 +277,33 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8927",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8927/flying%20skeleton%20hell.jpg",
+    "cap": "SCP-8927. SCP-8927이 쿨하지 않다고 생각한다면, 즉시 상관에게 보고하십시오."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "flying skeleton hell.jpg"
+    ],
+    [
+     "Author",
+     "Nevit Dilmen"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-8934": {
   "id": "SCP-8934",
@@ -110,6 +328,45 @@
   "author": "Karathh",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8934",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-71-wdcr/SCP-8934",
+    "cap": "유효하지 않은 파일/디렉토리 ('SCP-8934-Containment.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-62-ql8q/%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%81%93%E3%82%8D%E3%81%97%E3%81%9F%E3%81%AE",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Log-7.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-62-kz6g/%E3%81%93%E3%81%93%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6%E3%81%93%E3%82%89%E3%82%8C%E3%81%9F",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Otsura-1.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-62-ukbn/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Otsura-2.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-70-oezf/%E3%81%BF%E3%82%93%E3%81%AA%E3%82%84%E3%81%A3%E3%81%A8%E3%81%AF%E3%81%84%E3%81%A3%E3%81%9F.jpg",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Otsura-3.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-70-rv8t/%E3%81%98%E3%82%86%E3%81%86%E3%81%8C%E3%81%BB%E3%81%97%E3%81%84%E3%81%A0%E3%81%91.jpg",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Ritual.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-70-pv6f/%E3%81%BC%E3%81%8F%E3%82%89%E3%82%92%E3%81%A0%E3%81%97%E3%81%A6.jpg",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Kaigen.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-70-yh1z/%E3%81%AF%E3%82%84%E3%81%8F%E3%81%A0%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C.jpg",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Vacuum_ATT.jpg')"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5018858-70-r28f/%E3%81%A0%E3%81%9B.jpg",
+    "cap": "유효하지 않은 파일/디렉토리 ('8934-Otsura-Core.jpg')"
+   }
+  ],
+  "img_credits": []
  }
 }

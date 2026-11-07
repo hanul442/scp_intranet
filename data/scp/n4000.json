@@ -24,7 +24,59 @@
   "author": "PeppersGhost",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4000",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:eshu-1/TabooWarningKO.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:eshu-1/TabooWarningKOMobile.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/taboo/Up-in-the-Air_Gabriela-Pinto_CC2_edited2.jpg",
+    "cap": "사진 1.1. 공중에 나타난 토착 인간형 독립체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "TabooWarningfix.png"
+    ],
+    [
+     "저자",
+     "PeppersGhost"
+    ],
+    [
+     "라이선스",
+     "CC SA-BY 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Up-in-the-Air_Gabriela-Pinto_CC2_edited2.jpg"
+    ],
+    [
+     "저자",
+     "PeppersGhost"
+    ],
+    [
+     "라이선스",
+     "CC SA-BY 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4001": {
   "id": "SCP-4001",
@@ -53,7 +105,21 @@
   "author": "GentleGifts",
   "translator": "Practical Goo",
   "source": "https://scpko.wikidot.com/scp-4001",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4001/cognitohazard.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cognitohazard.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4002": {
   "id": "SCP-4002",
@@ -80,7 +146,21 @@
   "author": "Modern_Erasmus & MayD",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4002/sumer.jpg",
+    "cap": "수메르 왕의 계보의 회수된 일부분, 채색됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "sumer.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4003": {
   "id": "SCP-4003",
@@ -102,7 +182,34 @@
   "author": "",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4003",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/site1200.png",
+    "cap": "SCP-4003 발굴지 입구에서 바라본 제1200임시기지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/Temperance.jpg",
+    "cap": "템퍼런스의 중심가, 1866년경."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/trex.png",
+    "cap": "제11기지에 전시된 티라노사우루스(Tyrannosaurus rex)의 복구물. 표본은 SCP-4003에서 회수됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/temperance2.png",
+    "cap": "\"템퍼런스와 그 첫 거주민들\" - 서기 1859년 7월 5일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/boone.jpg",
+    "cap": "사진 속 인물이 누군지는 현재 알 수 없다. 뒷장에는 문구가 적혀있다. \"사진 한 방 찍는 데 돈 쓰라는 말은 한귀로 흘려버리길 명심하게나.\""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4003/brother.jpg",
+    "cap": "일지 속에서 접힌 채 발견된 다게레오타입 사진. 작성자를 찍은 것으로 추정된다. 사진 뒷면에는 1860년 3월 9일자로 찍혀있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4004": {
   "id": "SCP-4004",
@@ -131,7 +238,31 @@
   "author": "Communism will win & kinchtheknifeblade",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4004/arlington.jpg",
+    "cap": "알링턴 국립묘지"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4004/norton.jpg",
+    "cap": "생전의 SCP-4004-α."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "arlington.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "norton.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4006": {
   "id": "SCP-4006",
@@ -153,7 +284,16 @@
   "author": "DarkStuff",
   "translator": "massachusetts",
   "source": "https://scpko.wikidot.com/scp-4006",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "MS"
+    ]
+   ]
+  ]
  },
  "SCP-4007": {
   "id": "SCP-4007",
@@ -183,7 +323,129 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/Pingfang-6.jpg",
+    "cap": "제2차 세계대전 당시의 SCP-4007. 이 사진은 평방의 731부대 본부에서 첫 훈련을 하면서 촬영된 것으로 추측된다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/ensign.jpg",
+    "cap": "SCP-4007이 만들어지는 데 책임이 있는 주체 중 하나인 이자메아의 상징기."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/ishii.jpg",
+    "cap": "731부대 부대장 이시이 시로."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/4000-1.jpg",
+    "cap": "1941년 버마에 주둔한 SCP-4007-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/4000-3.jpg",
+    "cap": "변칙적 개조를 받기 전의 SCP-4007-2의 증명사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/4000-2.jpg",
+    "cap": "1940년경 국민혁명군 부대에 침투한 SCP-4007-3. 이 부대 병사들은 이후 모두 붙잡혀 처형되었다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/4000-4.jpg",
+    "cap": "1942년경의 SCP-4007-4."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/map.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4007/ship-sm.jpg",
+    "cap": "호위함 우미기리호의 잔해를 살펴보는 잠수반 5."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Pingfang-6.jpg"
+    ],
+    [
+     "저자",
+     "thardy1"
+    ],
+    [
+     "라이선스",
+     "불명"
+    ],
+    [
+     "출처",
+     "flickr collection"
+    ],
+    [
+     "비고",
+     "출처 링크는 현재 존재하지 않으며, 아카이브된 페이지에 이미지 없음. 토론란에는 라이선스를 CC compliant이라 표기함."
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ensign.jpg"
+    ],
+    [
+     "저자",
+     "Dr Solo"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "IJAMEA Hub"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ishii.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "4000-1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "4000-2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "4000-3.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "4000-4.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "map.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ship-sm.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4008": {
   "id": "SCP-4008",
@@ -212,7 +474,63 @@
   "author": "Mortos",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4008",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4008/header.jpg",
+    "cap": "제183기지가 있었던 곳으로 추정되는 지점"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4008/digsite_s.jpg",
+    "cap": "구출된 제183기지 직원이 작업 중이던 발굴 현장의 사진, 로버츠 박사의 음성 기록에서 언급된 감마 현장으로 추정됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "header.jpg"
+    ],
+    [
+     "Name",
+     "N/A"
+    ],
+    [
+     "Author",
+     "pxhere.com"
+    ],
+    [
+     "License",
+     "CC0 Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pxhere.com/en/photo/827766"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "digsite_s.jpg"
+    ],
+    [
+     "Name",
+     "File:Jerycho8.jpg"
+    ],
+    [
+     "Author",
+     "A. Sobkowski"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Jerycho8.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4009": {
   "id": "SCP-4009",
@@ -237,7 +555,31 @@
   "author": "mahsa_mz66",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4009/brozart.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4009/mozartstreet.jpg",
+    "cap": "SCP-4009 내 거리 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mozartstreet.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "brozart.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4010": {
   "id": "SCP-4010",
@@ -263,7 +605,9 @@
   "author": "Utylike",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4010",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4012": {
   "id": "SCP-4012",
@@ -290,7 +634,34 @@
   "author": "LordStonefish",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4012",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/Dock.jpg",
+    "cap": "SCP-4012 내부의 주요 지점."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/gate.jpg",
+    "cap": "SCP-4012 외부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/trail.jpg",
+    "cap": "100m 지점의 길"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/path.jpg",
+    "cap": "지형에 발생한 변화"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/garden.jpg",
+    "cap": "새롭게 변화한 주변 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4012/building.jpg",
+    "cap": "구조물"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4016": {
   "id": "SCP-4016",
@@ -313,7 +684,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4016",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4016/twine.JPG",
+    "cap": "격리 중에 채찍을 보여주는 SCP-4016."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4019": {
   "id": "SCP-4019",
@@ -332,7 +710,9 @@
   "author": "redredred",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4019",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4022": {
   "id": "SCP-4022",
@@ -359,7 +739,14 @@
   "author": "Bluedanoob",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4022/ordermaker.png",
+    "cap": "SCP-4022"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4024": {
   "id": "SCP-4024",
@@ -385,7 +772,47 @@
   "author": "keyii ＆ TSATPWTCOTTTADC",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4024",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4024/Demchig%20Monastery%2027%20plus%20fog.png",
+    "cap": "SCP-4024의 중심점을 격리하고 있는 사원."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4024/Gobi_desert_map_plus_zones.jpg",
+    "cap": "대략적인 SCP-4024 지역의 크기를 파랗게 칠해서 나타냄. 중심점은 빨갛게 칠함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Demchig Monastery 27 plus fog.png"
+    ],
+    [
+     "저자",
+     "Anonymous"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gobi_desert_map_plus_zones.jpg"
+    ],
+    [
+     "저자",
+     "Anonymous"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-4026": {
   "id": "SCP-4026",
@@ -406,7 +833,9 @@
   "author": "Uncle Nicolini",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4026",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4028": {
   "id": "SCP-4028",
@@ -433,7 +862,18 @@
   "author": "The Great Hippo",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4028",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-4028-1/padlock.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4028/quixote.png",
+    "cap": "사진 1.1: SCP-4028 묘사 (1827년 영국판 『돈 키호테』 표지에서)."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4031": {
   "id": "SCP-4031",
@@ -464,7 +904,55 @@
   "author": "Croquembouche",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-4031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "raisa-body_bg.png"
+    ],
+    [
+     "저자",
+     "Croquembouche"
+    ],
+    [
+     "라이선스",
+     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+    ],
+    [
+     "출처",
+     "Image"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "raisa-logo100.png"
+    ],
+    [
+     "저자",
+     "TSATPWTCOTTTADC"
+    ],
+    [
+     "라이선스",
+     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+    ],
+    [
+     "출처",
+     "Image"
+    ],
+    [
+     "비고",
+     "Created by TSATPWTCOTTTADC with resources from Open Game Art."
+    ]
+   ]
+  ]
  },
  "SCP-4032": {
   "id": "SCP-4032",
@@ -485,7 +973,14 @@
   "author": "MathBrush",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4032",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4032/Sorbus_torminalis_Weinsberg.jpg",
+    "cap": "SCP-4032-1의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4039": {
   "id": "SCP-4039",
@@ -506,7 +1001,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4039",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4039/883px-Temperature-entropy_chart_for_steam%252C_US_units.svg.png",
+    "cap": "SCP-4039의 효과를 받은 증기의 온도-엔트로피 다이어그램."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4040": {
   "id": "SCP-4040",
@@ -533,7 +1035,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-4040",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4041": {
   "id": "SCP-4041",
@@ -558,7 +1062,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4041",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4041/usurpers.jpg",
+    "cap": "발생 중인 SCP-4041 사태."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "usurpers.jpg"
+    ],
+    [
+     "Name",
+     "Starling Roost"
+    ],
+    [
+     "Author",
+     "Donald Macauley"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-4046": {
   "id": "SCP-4046",
@@ -584,6 +1118,8 @@
   "author": "Uncle Nicolini",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4046",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

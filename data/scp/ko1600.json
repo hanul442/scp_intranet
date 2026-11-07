@@ -18,7 +18,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1600-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1601-KO": {
   "id": "SCP-1601-KO",
@@ -40,7 +42,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1601-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1604-KO": {
   "id": "SCP-1604-KO",
@@ -65,7 +69,22 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1604-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1604-ko/Hotredoccurt",
+    "cap": "SCP-1604-KO 부산물."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1604-ko/Wowowowlwl",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1604-ko/The%20hand%20the%20world",
+    "cap": "EE-66778"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1605-KO": {
   "id": "SCP-1605-KO",
@@ -91,7 +110,14 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1605-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1605-ko/1605",
+    "cap": "비격리 상태의 SCP-1605-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1606-KO": {
   "id": "SCP-1606-KO",
@@ -120,7 +146,26 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1606-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/lovebugg/1606.png",
+    "cap": "그림 1. SCP-1606-KO 다중 침투 서사 내 로맨스 관계도. n번째 SCP-1606-KO가 서사에 침투할수록, 이전에 연애 중이던 SCP-1606-KO-(n-1) 과 이어진다. 번식 후 물질화되는 SCP-1606-KO는 지수함수를 따르며 y=2^x의 수치로 늘어난다."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/lovebugg/16062.png",
+    "cap": "SCP-1606-KO. 곤충의 사진이 그대로 나오기에 열람 전 주의를 요한다."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/lovebugg/16063.jpg",
+    "cap": "방."
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/lovebugg/16064.jpg",
+    "cap": "패배자."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1608-KO": {
   "id": "SCP-1608-KO",
@@ -144,7 +189,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1608-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1610-KO": {
   "id": "SCP-1610-KO",
@@ -171,7 +218,33 @@
   "author": "Langston77",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1610-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1610-ko/akita.jpg",
+    "cap": "SCP-1610-KO, 20██년 4월 4일 낮에 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "akita.jpg"
+    ],
+    [
+     "저자",
+     "Langston77"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "자체 제작"
+    ]
+   ]
+  ]
  },
  "SCP-1611-KO": {
   "id": "SCP-1611-KO",
@@ -197,7 +270,22 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1611-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1611-ko/swarm",
+    "cap": "채집된 SCP-1611-KO 개체들."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1611-ko/Animation_of_diel_migration.gif",
+    "cap": "일주 수직 이동을 시각화한 애니메이션."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1611-ko/hey",
+    "cap": "제50K기지의 해저협곡 모니터링 체계로 촬영된 해당 차원관문의 전체 모습. 빛기둥은 담지 못하였다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1612-KO": {
   "id": "SCP-1612-KO",
@@ -219,7 +307,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1612-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1613-KO": {
   "id": "SCP-1613-KO",
@@ -242,7 +332,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1613-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1616-KO": {
   "id": "SCP-1616-KO",
@@ -264,7 +356,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1616-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1616-ko/Mommy",
+    "cap": "어머니."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1617-KO": {
   "id": "SCP-1617-KO",
@@ -290,7 +389,55 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1617-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/damgin-artwork/Isang",
+    "cap": "변칙문학과 인장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1617-ko/Egg-Bregenzerwaldarchiv-Archive-06ASD.jpg",
+    "cap": "제12K기지 기록보관소."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1617-ko/Katsur%C5%8D_Yamada%2C_circa_1952.jpg",
+    "cap": "김호준 PoI-8070."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1617-ko/%EC%9C%A0%EC%B9%98%EC%A7%84_1957.jpg",
+    "cap": "유치진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/damgin-artwork/ISang%20toomyeong",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Isang.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Katsurō_Yamada%2C_circa_1952.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Egg-Bregenzerwaldarchiv-Archive-06ASD.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "유치진_1957.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1618-KO": {
   "id": "SCP-1618-KO",
@@ -315,7 +462,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1618-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1619-KO": {
   "id": "SCP-1619-KO",
@@ -338,7 +487,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1619-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1620-KO": {
   "id": "SCP-1620-KO",
@@ -363,7 +514,41 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1620-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/damgin-artwork/ISang%20toomyeong",
+    "cap": "변칙문학과."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/department-of-ontology/dologo.png",
+    "cap": "존재학부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1620-ko/Fujiko_Yamamoto_19500427.jpg",
+    "cap": "PoI-00209."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Fujiko_Yamamoto_19500427.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ISang toomyeong"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dologo.png"
+    ]
+   ]
+  ]
  },
  "SCP-1621-KO": {
   "id": "SCP-1621-KO",
@@ -385,7 +570,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1621-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1622-KO": {
   "id": "SCP-1622-KO",
@@ -410,7 +597,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1622-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1623-KO": {
   "id": "SCP-1623-KO",
@@ -434,7 +623,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1623-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1624-KO": {
   "id": "SCP-1624-KO",
@@ -459,7 +650,38 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1624-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-6777/05warning",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/Szt%C3%A1ray_mansion%2C_Michalovce_-_view_of_the_western_outer_facade_of_the_manor_house%27s_western_wing%2C_winter_%28January_2024%29.jpg",
+    "cap": "SCP-1624-KO-1 (외부)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/A._Perret_by_Anhelina_Livia_Starkova.jpg",
+    "cap": "저택 내부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/Ant%C3%B4nio_Parreiras_-_Busto_de_figura_masculina.jpg",
+    "cap": "그림 중 하나."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/Caecilian_wynaad1.jpg",
+    "cap": "SCP-1624-KO-2 개체의 머리."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/TakydromusSexlineatus.jpg",
+    "cap": "SCP-1624-KO-3과 흡사한 파충류."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1624-ko/Messenoire.jpg",
+    "cap": "라 부아쟁의 미사."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1625-KO": {
   "id": "SCP-1625-KO",
@@ -485,7 +707,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1625-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1626-KO": {
   "id": "SCP-1626-KO",
@@ -510,7 +734,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1626-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1626-ko/Noimnothuman",
+    "cap": "인간과 SCP-1626-KO의 외분비샘 조직 화석의 크기 비교 (삽화)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/welcome-to-delta-t/Delta-T.png",
+    "cap": "체외견고판구조돌기 (삽화)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1626-ko/Filamentous_Red_Algae_%2850669338046%29.jpg",
+    "cap": "멸종위기종 II."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1627-KO": {
   "id": "SCP-1627-KO",
@@ -532,7 +771,57 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1627-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1627-ko/Invisible_X-rays_ESA19304289.tiff.jpg",
+    "cap": "SCP-1627-KO 일대의 천장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1627-ko/Shadow_hands_%285098939600%29.jpg",
+    "cap": "SCP-1627-KO-1."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1627-ko/The_shadow_of_a_hand.jpg",
+    "cap": "제57K기지 옥상의 SCP-1627-KO-1."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1627-ko/Hand_curved_like_circle_light_%28Unsplash%29.jpg",
+    "cap": "손 독립체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Invisible_X-rays_ESA19304289.tiff.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Shadow_hands_(5098939600).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "The_shadow_of_a_hand.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Hand_curved_like_circle_light_(Unsplash).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Silhouette_hand.svg"
+    ]
+   ]
+  ]
  },
  "SCP-1628-KO": {
   "id": "SCP-1628-KO",
@@ -558,7 +847,18 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1628-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1628-ko/%E3%80%8C%E4%B8%89%E3%81%B2%E3%82%89%E3%81%AE%E5%86%85%E3%80%8D%E6%97%A5%E8%BC%AA%E3%81%AB%E7%83%8F-Three_Crows_against_the_Rising_Sun%2C_from_the_series_Three_Sheets_%28Mihira_no_uchi%29_MET_DP139051.jpg",
+    "cap": "회수된 SCP-1628-KO 개체. 일본식 회화이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1628-ko/Robert_Philip_Webb_in_1970%27s.jpg",
+    "cap": "PoI-9500."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1629-KO": {
   "id": "SCP-1629-KO",
@@ -583,7 +883,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1629-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1629-ko/Scolopendra_cingulata_%C3%A0_la_Beauch%C3%AAne_MHNT_CUT_2014_14_11.jpg",
+    "cap": "SCP-1629-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1630-KO": {
   "id": "SCP-1630-KO",
@@ -616,7 +923,45 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1630-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1630-ko/Naga-baori_(Long_Haori)_1920.jpg",
+    "cap": "SCP-1630-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1630-ko/Photographers_shooting_Cherry_blossoms%2C_Washington%2C_D.C._28362v.jpg",
+    "cap": "SCP-1630-KO에 연관된 변칙의식 시행."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1630-ko/Van_Gogh_-_la_courtisane.jpg",
+    "cap": "빈센트 반 고흐, 「La courtisane (after Keisai Eisen)」."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/departments-ko/DORATE.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Naga-baori_(Long_Haori)_1920.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Photographers_shooting_Cherry_blossoms,_Washington,_D.C._28362v.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Van_Gogh_-_la_courtisane.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1631-KO": {
   "id": "SCP-1631-KO",
@@ -640,7 +985,14 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1631-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1631-ko/Heterometrus_silenus_279322573.jpg",
+    "cap": "SCP-1631-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1632-KO": {
   "id": "SCP-1632-KO",
@@ -666,7 +1018,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1632-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/poi-damgi/SmartSelect_20240506_225511_Chrome.jpg",
+    "cap": "연관성이 있는 밀교의 손동작(手印)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/poi-damgi/Bobbit_wormmm.jpg",
+    "cap": "털갯지렁이 독립체의 머리."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1633-KO": {
   "id": "SCP-1633-KO",
@@ -690,7 +1053,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1633-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1633-ko/Eresus_kollari_Mt_Altissimo_01.jpg",
+    "cap": "인공지능으로 생성되지 아니한 Eresus Kollari 이미지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1633-ko/Kawaikumo",
+    "cap": "주홍거미의 수컷과 암컷. 위가 수컷이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1634-KO": {
   "id": "SCP-1634-KO",
@@ -716,7 +1090,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1634-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/task-forces/Eta10.png",
+    "cap": "기동특무부대 에타-10 인장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1634-ko/An_account_of_the_Crustacea_Stomatopoda_of_the_Indo-Pacific_region_based_on_the_collection_in_the_Indian_Museum_%286243837298%29.jpg",
+    "cap": "SCP-1634-KO-2의 무해한 삽화."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1634-ko/SCP_DNA_LIGHT.png",
+    "cap": "자산-1634KO0001."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1635-KO": {
   "id": "SCP-1635-KO",
@@ -741,7 +1130,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1635-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1635-ko/Library_shelves_iitd.jpg",
+    "cap": "SCP-1635-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1635-ko/Bookerotica",
+    "cap": "'교미' 행동. 맥락 제거됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1636-KO": {
   "id": "SCP-1636-KO",
@@ -761,7 +1161,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1636-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1637-KO": {
   "id": "SCP-1637-KO",
@@ -785,7 +1187,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1637-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1637-ko/Little_girl_in_kindergarten_uniform_of_Japan.jpg",
+    "cap": "SCP-1637-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1638-KO": {
   "id": "SCP-1638-KO",
@@ -806,7 +1215,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1638-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1638-ko/Noriko_glad.png",
+    "cap": "영화 장면 중 일부"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1639-KO": {
   "id": "SCP-1639-KO",
@@ -832,7 +1248,37 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1639-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1639-ko/Goniurosaurus_zhelongi_%2810.3897-zookeys.986.47989%29_Figure_5_%28cropped%29.jpg",
+    "cap": "Proaureosaurs rex."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1639-ko/My%20sister.png",
+    "cap": "밝혀진 사실을 통해 확인된 SCP-1639-KO 계통."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Goniurosaurus_zhelongi_(10.3897-zookeys.986.47989)_Figure_5_(cropped).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "My sister.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Pentagram Angles Notation.svg"
+    ]
+   ]
+  ]
  },
  "SCP-1640-KO": {
   "id": "SCP-1640-KO",
@@ -855,7 +1301,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1640-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1641-KO": {
   "id": "SCP-1641-KO",
@@ -877,7 +1325,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1641-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1641-ko/%EC%98%A4%EB%B2%A0%EB%A1%A0%EC%9D%98_%EC%83%9B%EB%B3%84.jpg",
+    "cap": "판데모니움 기지의 구조도. 판데모니움 기지가 소실된 관계로 SCP-████ 및 판데모니움 기지에서 회수된 파일에 백업되어 있던 '오베론의 샛별' 절차를 시행하는 핵심 시설들의 구조도로 대체한다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1642-KO": {
   "id": "SCP-1642-KO",
@@ -903,7 +1358,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1642-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1642-ko/La_vengeance_de_Hop-Frog%2C_James_Ensor%2C_Museum_Plantin-Moretus%2C_PK.MP.09515.jpg",
+    "cap": "미코토 (1895)."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1643-KO": {
   "id": "SCP-1643-KO",
@@ -925,7 +1387,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1643-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1646-KO": {
   "id": "SCP-1646-KO",
@@ -946,6 +1410,54 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1646-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4999/death.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "-"
+    ],
+    [
+     "Author",
+     "Geierunited"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Zwei_zigaretten.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "death.png (https://scp-wiki.wikidot.com/scp-4999에 업로드된 파일)"
+    ],
+    [
+     "Name",
+     "Man Actor Suit Adult Business People Portrait"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Max Pixel"
+    ]
+   ]
+  ]
  }
 }

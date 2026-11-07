@@ -25,7 +25,127 @@
   "author": "Grigori Karpin",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5904",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Tape3-corrected",
+    "cap": "SCP-5904-C"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/frametape3",
+    "cap": "SCP-5904-C 재생시간 약 5분쯤에 웨틀 연구원의 침실 옷장 앞에 있는 SCP-5904-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/vhsarchive",
+    "cap": "추가로 발견된 SCP-5904 테이프."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "VHS tape three"
+    ],
+    [
+     "저작권자",
+     "[[*Grigori Karpin]]"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "VHS"
+    ],
+    [
+     "저작권자",
+     "bart everson"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Astaroth’s seal"
+    ],
+    [
+     "저작권자",
+     "CabronDeOz"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "frame of tape 3"
+    ],
+    [
+     "저작권자",
+     "tim"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Videotape Archive"
+    ],
+    [
+     "저작권자",
+     "DRs Kulturavsprojekt"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA-2.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "5904 logo"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ]
+  ]
  },
  "SCP-5909": {
   "id": "SCP-5909",
@@ -48,7 +168,24 @@
   "author": "",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5909",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "shrimp.jpg"
+    ],
+    [
+     "저작권자",
+     "DrAkimoto"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5915": {
   "id": "SCP-5915",
@@ -70,7 +207,9 @@
   "author": "RockTeethMothEyes",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5915",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5917": {
   "id": "SCP-5917",
@@ -105,7 +244,89 @@
   "author": "chaucer345",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-5917",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5917/scroll",
+    "cap": "SCP-5917-2가 들어 있는 지통."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5917/claw",
+    "cap": "연구원 반스의 치유된 손을 검시관이 스케치한 것. SCP-5917-1의 손과 거의 똑같이 되었다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5917/wing",
+    "cap": "SCP-5917-2를 두 번째로 사용한 뒤 요원 브릭스의 팔."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scroll"
+    ],
+    [
+     "원본",
+     "Coffre et rouleau de Torah ayant appartenu à Abraham de Camondo chef de la communauté juive de Constantinople 1860 - Musée d'Art et d'Histoire du Judaïsme.jpg"
+    ],
+    [
+     "저작권자",
+     "Musée d'Art et d'Histoire du Judaïsme"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "wing"
+    ],
+    [
+     "원본",
+     "THE LIFE OF VULTURE.jpg"
+    ],
+    [
+     "저작권자",
+     "Ayush1025"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "claw"
+    ],
+    [
+     "원본",
+     "bird-2030019_1280.png"
+    ],
+    [
+     "저작권자",
+     "OpenClipart-Vectors"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-5919": {
   "id": "SCP-5919",
@@ -130,7 +351,89 @@
   "author": "ModernMajorGeneral",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-5919",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5919/apartment5919.jpg",
+    "cap": "아파트 5919."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5919/bedroom5919.jpg",
+    "cap": "내부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5919/andrej5919.jpg",
+    "cap": "안드레아 슈뢰더"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "apartment5919.jpg"
+    ],
+    [
+     "원본",
+     "Frankfurt Im Mainfeld 16.20130511.jpg"
+    ],
+    [
+     "저작권자",
+     "Epizentrum"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bedroom5919.jpg"
+    ],
+    [
+     "원본",
+     "And you say this is a graduate student housing studio?"
+    ],
+    [
+     "저작권자",
+     "Quinn Dombrowski"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "andrej5919.jpg"
+    ],
+    [
+     "원본",
+     "JOZEF BREZANY.JPG"
+    ],
+    [
+     "저작권자",
+     "Dušan Damián"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-5925": {
   "id": "SCP-5925",
@@ -158,7 +461,32 @@
   "author": "TheSlothSavant",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-5925",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Santa"
+    ],
+    [
+     "Name",
+     "Santa"
+    ],
+    [
+     "Author",
+     "pxhere"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "pxhere"
+    ]
+   ]
+  ]
  },
  "SCP-5929": {
   "id": "SCP-5929",
@@ -180,7 +508,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5929",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5935": {
   "id": "SCP-5935",
@@ -203,7 +533,38 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5935",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/header.png",
+    "cap": "SCP-5935."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/grave.png",
+    "cap": "우리가 제이콥을 묻은 곳."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/heart.gif",
+    "cap": "실험체 5935-H01의 박동하는 심장."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/BLOOD.png",
+    "cap": "실험체 5935-H01로부터 채취한 혈액 표본."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/BREAK.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5935/son.jpg",
+    "cap": "SCP-5935-1."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5940": {
   "id": "SCP-5940",
@@ -223,7 +584,37 @@
   "author": "A Random Day",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-5940",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5940/incisors.jpg",
+    "cap": "이 앞니 사진은 이 계획의 중요성을 상기하기 위함이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "incisors.jpg"
+    ],
+    [
+     "원본",
+     "File:06-10-06smile.jpg"
+    ],
+    [
+     "저작권자",
+     "dozenist"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5948": {
   "id": "SCP-5948",
@@ -243,6 +634,8 @@
   "author": "RockTeethMothEyes",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-5948",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }
