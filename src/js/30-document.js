@@ -157,7 +157,7 @@ function docTools(id){
     <button type="button" class="tb" data-dt="print" title="인쇄 (출력 기록이 남습니다)">인쇄</button></div>`;
 }
 function docPN(id){
-  const ids=Object.keys(SCP).sort(byId), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
+  const ids=sortedIds(), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
   const lab=k=>`${k}${docName(SCP[k])?" "+esc(docName(SCP[k])):""}`;
   return `<div class="pn docpn"><span>${p?`<a href="#${p.toLowerCase()}" title="이전 문서">‹ ${lab(p)}</a>`:""}</span><span>${n?`<a href="#${n.toLowerCase()}" title="다음 문서">${lab(n)} ›</a>`:""}</span></div>`;
 }
