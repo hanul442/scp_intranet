@@ -14,6 +14,11 @@ function loadLore(){
   });
   return LORE_WAIT;
 }
+/* 열람 제한 문서: 인가 등급 미달이면 규정 안내만 보여줌 */
+const LORE_GATE={"o5-command-dossier":4,"personnel-and-character-dossier":4};
+const loreOpen=slug=>S.level>=(LORE_GATE[slug]||0);
+/* 규정집 특정 항목으로 가는 주소 (#regs?p=문서&n=항목번호 — 문서 전체를 보여 주고 그 항목으로 이동) */
+function regHref(slug,i){ return "#regs"+(slug===RULES.slug&&i==null?"":"?p="+slug+(i!=null?"&n="+i:"")) }
 function lorePage(slug){ return slug===RULES.slug ? RULES : LORE && LORE.pages.find(p=>p.slug===slug) }
 /* 보안 인가 n등급 / 인원 n계급 설명 — 다른 화면에서 쓰기 좋게 */
 function clearanceInfo(n){ return RULES.sections.find(s=>s.title.startsWith(n+"등급")) }
@@ -21,8 +26,9 @@ function personnelClassInfo(c){ return RULES.sections.find(s=>s.title===c.toUppe
 
 function regs(qs){
   const slug=(qs&&qs.get("p"))||RULES.slug, q=((qs&&qs.get("q"))||"").trim();
-  const tabs=`<div class="filters" role="group" aria-label="규정 문서">${LORE_TOC.map(([s,t])=>`<a class="chip ${s===slug?"on":""}" href="#regs${s===RULES.slug?"":"?p="+s}">${esc(t)}</a>`).join("")}</div>`;
+  const tabs=`<div class="filters" role="group" aria-label="규정 문서">${LORE_TOC.map(([s,t])=>`<a class="chip ${s===slug?"on":""}" href="#regs${s===RULES.slug?"":"?p="+s}">${esc(t)}${LORE_GATE[s]?` <span class="dim2">L${LORE_GATE[s]}</span>`:""}</a>`).join("")}</div>`;
   const head=`<h2 class="ph">재단 <span>규정집</span> · 보안 인가 · 인원 계급 · 조직</h2>${tabs}`;
+  if(!loreOpen(slug)) return head+`<div class="doc regs"><div class="denied"><b>LEVEL ${LORE_GATE[slug]} 이상 열람 가능</b>이 기록서류는 보안 인가 ${LORE_GATE[slug]}등급 이상 인원에게만 공개됩니다.</div>${typeof clrNeedNote==="function"?clrNeedNote(LORE_GATE[slug]):""}</div>`;
   const page=lorePage(slug);
   if(!page){
     if(!LORE_TOC.some(([s])=>s===slug)) return head+`<div class="empty">해당 규정 문서가 없습니다.</div>`;
@@ -34,15 +40,19 @@ function regs(qs){
   const ql=q.toLowerCase();
   const sx=((qs&&qs.get("s"))||"").trim();  // 본문 링크에서 온 경우: 해당 구획만 (예: s=19 → 제19기지)
   const secs=page.sections.filter(s=>(!sx||regsSecMatch(s,sx))&&(!ql||(s.title+" "+s.en+" "+s.body).toLowerCase().includes(ql)));
-  const big=page.sections.length>20;
+  const big=page.sections.length>20, jump=qs&&qs.get("n");
+  const top=page.sections.map((s,i)=>({s,i})).filter(({s})=>s.level===1&&s.title);
+  const toc=!q&&!sx&&top.length>=4?`<nav class="regtoc" aria-label="목차"><span class="dim2">목차</span>${top.map(({s,i})=>`<a href="${regHref(page.slug,i)}">${esc(s.title)}</a>`).join("")}</nav>`:"";
+  if(jump) setTimeout(()=>{ const el=document.getElementById("rs-"+jump); if(el){ el.scrollIntoView({block:"start"}); el.classList.add("hit") } },0);
   return head+`
   ${big?`<form class="search" data-regq><label for="rgq" class="sr">규정 내 검색</label><input id="rgq" name="q" type="search" placeholder="이 문서에서 찾기 (예: 제19기지, 엡실론-11)" value="${esc(q)}" autocomplete="off"><button class="btn" type="submit">찾기</button></form>`:""}
   <div class="doc regs">
     <div class="hdr"><h1>${esc(page.title)}</h1><span class="badge unknown">RAISA 배포</span></div>
     ${sx?`<div class="notice">문서 본문에서 연결된 항목만 표시 중 · <a href="#regs?p=${page.slug}">전체 보기</a></div>`:""}
     ${!q&&!sx&&typeof REG_IG==="object"&&REG_IG[page.slug]?REG_IG[page.slug]():""}
+    ${toc}
     ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1);
-      return `<div class="sec">${s.title?`<h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}>`:""}
+      return `<div class="sec" id="rs-${page.sections.indexOf(s)}">${s.title?`<h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}>`:""}
       ${s.body?`<div class="body">${linkRefs(markDM(esc(s.body)),"")}</div>`:""}</div>`}).join("")
       :`<div class="empty">${q?`"${esc(q)}"에 해당하는 항목이 없습니다.`:"규정집에 실린 항목이 없습니다."}${sx?` <a href="#regs?p=${page.slug}">전체 보기</a>`:""}</div>`}
     <div class="attrib">출처: <a href="${page.source}" target="_blank" rel="noopener">${page.source}</a><br>${page.author?`저자 ${esc(page.author)} · `:""}SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
