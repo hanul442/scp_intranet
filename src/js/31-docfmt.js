@@ -47,6 +47,9 @@ function fmtBody(html){
     let e=k; while(e<items.length && items[e].sp) e++;
     const run=items.slice(k,e), labs=run.map(r=>FMT_TXT(r.sp[0]).trim());
     const repeats=labs.length!==new Set(labs).size;
+    /* 실험·면담 기록처럼 정해진 기재 항목(일자·피험자·절차·결과…)이 이어지면 서식 표로 */
+    const known=labs.filter(l=>trialLab(l)||fieldKey(l)).length;
+    if(!repeats && run.length>=2 && known>=2 && known*3>=run.length*2){ out.push(`<table class="ftab kvf">${run.map(r=>`<tr><th>${r.sp[0]}</th><td>${fmtStage(r.sp[1])}</td></tr>`).join("")}</table>`); k=e; continue }
     if((run.length>=3 && repeats) || (run.length>=2 && looksSaid(run.map(r=>r.sp[1])))) out.push(dlg(run.map(r=>r.sp)));
     else if(run.every(r=>FMT_TXT(r.sp[1]).length<=60) && !looksSaid(run.map(r=>r.sp[1]))) out.push(`<dl class="kvb">${run.map(r=>`<dt>${r.sp[0]}</dt><dd>${r.sp[1]}</dd>`).join("")}</dl>`);
     else run.forEach(r=>out.push(fmtPara(r.para)));

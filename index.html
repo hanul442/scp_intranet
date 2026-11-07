@@ -725,23 +725,113 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 @media(max-width:600px){.body.fmt .logbd{grid-template-columns:1fr}.body.fmt .lr .who{max-width:none;padding-bottom:0}.body.fmt .lr .say{padding-left:12px}.body.fmt dl.kvb{grid-template-columns:1fr}.body.fmt dl.kvb dt{border-bottom:0;padding-bottom:0}}
 @media print{.body.fmt .logbox,.body.fmt dl.kvb,.body.fmt .callout{border-color:#999!important;break-inside:avoid}}
 
+/* ─── 문서 종류별 공문서 양식 (32-forms.js) ─── */
+.fhead{border:1px solid var(--line2);background:var(--panel);margin:0 0 14px}
+.fh1{display:flex;align-items:stretch;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}
+.fhead .fname{display:flex;flex-direction:column;justify-content:center;gap:4px;padding:10px 16px;min-width:0}
+.fhead .fcode{font-size:10.5px;letter-spacing:.14em;color:var(--fg3)}
+.fhead .fname b{font-size:19px;letter-spacing:.3em;color:var(--hi);font-weight:600;line-height:1.2}
+.fhead .fno{font-size:11px;color:var(--fg2);letter-spacing:.06em}
+.fhead.f-cp{border-top:0}
+.fhead.f-cp .fh1{border-bottom:0}
+.signs{display:flex;border-left:1px solid var(--line);flex:none}
+.signs .sgh{display:flex;align-items:center;justify-content:center;width:22px;font-size:10.5px;line-height:1.5;color:var(--fg3);border-right:1px solid var(--line);background:var(--bg2);text-align:center}
+.signs .sg{display:flex;flex-direction:column;align-items:center;width:62px;border-right:1px solid var(--line)}
+.signs .sg:last-child{border-right:0}
+.signs .sgr{width:100%;text-align:center;font-size:10.5px;color:var(--fg3);background:var(--bg2);border-bottom:1px solid var(--line);padding:2px 0;letter-spacing:.2em}
+.signs .seal{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin:6px 0 2px;border:2px solid var(--red2);border-radius:50%;color:var(--red2);font-size:10.5px;font-weight:700;letter-spacing:0;line-height:1;opacity:.85;transform:rotate(-8deg);word-break:keep-all;text-align:center}
+.signs .seal.blank{border-style:dashed;opacity:.4}
+.signs .seal.ok{transform:rotate(6deg)}
+.signs .sgd{font-size:9.5px;color:var(--fg3);padding-bottom:4px}
+table.ftab{width:100%;border-collapse:collapse;font-size:12px}
+.ftab th{width:88px;background:var(--bg2);color:var(--fg3);font-weight:400;font-size:11px;letter-spacing:.06em;padding:6px 10px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);text-align:left;vertical-align:top;white-space:nowrap}
+.ftab td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ftab td+th{border-left:1px solid var(--line)}
+.ftab tr:last-child th,.ftab tr:last-child td{border-bottom:0}
+.ftab .fnil{color:var(--fg3);font-size:11px}
+.body.fmt table.ftab{border:1px solid var(--line);margin:0 0 1em;font-size:.95em}
+.body.fmt .ftab th{font-size:.9em}
+.body.fmt .trial{border:1px solid var(--line2);margin:0 0 1.2em;background:var(--panel)}
+.body.fmt .trial .trh{display:flex;align-items:center;gap:10px;padding:6px 12px;border-bottom:1px solid var(--line2);background:var(--bg2)}
+.body.fmt .trial .trn{font-size:11px;color:var(--fg3);letter-spacing:.1em;border:1px solid var(--line2);padding:0 6px}
+.body.fmt .trial .trh b{color:var(--hi);font-weight:600}
+.body.fmt .trial table.ftab{border:0;margin:0}
+.body.fmt .trial .trf{padding:10px 12px 0;border-top:1px solid var(--line)}
+.fend{text-align:center;margin:18px 0 22px;color:var(--fg3)}
+.fend span{display:block;font-size:12px;letter-spacing:.3em}
+.fend small{display:block;font-size:10.5px;margin-top:6px;letter-spacing:.02em}
+body[data-theme=light] .fhead,body[data-theme=light] .body.fmt .trial,body[data-theme=light] .body.fmt table.ftab{border-radius:6px;overflow:hidden}
+body[data-theme=light] .ftab th,body[data-theme=light] .signs .sgr,body[data-theme=light] .signs .sgh{background:#eef2f6}
+@media(max-width:600px){
+  .fh1{flex-direction:column;gap:0}
+  .signs{border-left:0;border-top:1px solid var(--line)}
+  .signs .sg{flex:1;width:auto}
+  .fhead .fname b{font-size:17px;letter-spacing:.35em}
+  table.ftab tr{display:grid;grid-template-columns:80px minmax(0,1fr)}
+  .ftab th,.ftab td{display:block;border-left:0!important;border-right:0}
+  .ftab th:empty,.ftab th:empty+td{display:none}
+  .ftab th{white-space:normal;border-right:1px solid var(--line)}
+}
+@media print{.fhead,.body.fmt .trial,.body.fmt table.ftab{border-color:#999!important;break-inside:avoid}.signs .seal{color:#c00;border-color:#c00}}
+
 /* ─── 조직도 ─── */
 .otree .ohqn{font-size:10px;letter-spacing:.2em;color:var(--fg3);padding:10px 14px 2px}
-.ochart{border:1px solid var(--line);background:var(--panel);padding:18px 14px;margin:14px 0 18px}
-.oroot{display:flex;justify-content:center;position:relative;padding-bottom:18px}
-.oroot::after{content:"";position:absolute;bottom:0;left:50%;height:18px;border-left:1px solid var(--line2)}
-.obox{display:flex;flex-direction:column;gap:1px;border:1px solid var(--line2);background:var(--bg2);padding:7px 12px;text-decoration:none;color:var(--fg);font-size:11.5px;min-width:0}
-.obox b{font-size:12.5px;color:var(--hi);font-weight:600}
-.obox:hover,.obox.on{border-color:var(--amber)}
-.obox.root{border-color:var(--amber);min-width:200px;text-align:center;align-items:center}
-.ohqs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;position:relative;padding-top:18px}
-.ohqs::before{content:"";position:absolute;top:0;left:16.6%;right:16.6%;border-top:1px solid var(--line2)}
-.ohq{position:relative}
-.ohq::before{content:"";position:absolute;top:-18px;left:50%;height:18px;border-left:1px solid var(--line2)}
-.ohqt{text-align:center;font-size:11px;letter-spacing:.2em;color:var(--amber);border:1px solid var(--line2);padding:5px;margin-bottom:10px;background:var(--bg)}
-.odepts{display:flex;flex-direction:column;gap:8px;padding-left:14px;border-left:1px dashed var(--line2);margin-left:10px}
-.odepts .obox{position:relative}
-.odepts .obox::before{content:"";position:absolute;left:-15px;top:50%;width:14px;border-top:1px dashed var(--line2)}
+.ochart{--ln:var(--line2);--hc:var(--fg3);border:1px solid var(--line);background:var(--panel);padding:12px 14px 18px;margin:4px 0 18px;overflow-x:auto}
+.hq-a{--hc:var(--cyan)}.hq-r{--hc:var(--green)}.hq-s{--hc:var(--red2)}
+.ochead{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:11px;padding-bottom:12px;margin-bottom:16px;border-bottom:1px dashed var(--line)}
+.ochead .btn{margin-left:auto}
+.oclegend{display:flex;gap:4px;align-items:center;color:var(--fg2)}
+.oclegend i{display:inline-block;width:10px;height:10px;background:var(--hc);margin:0 2px 0 6px}
+.oclegend i.dot{background:none;border:1px dashed var(--fg2)}
+/* 상단: 이사관 + 참모 조직(옆 가지) */
+.otop{position:relative;padding-bottom:22px}
+.otop::after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:1px solid var(--ln)}
+.oceo{display:flex;justify-content:center;position:relative;z-index:1}
+.ostaffrow{display:grid;grid-template-columns:1fr 1fr;padding-top:14px}
+.ostaff{grid-column:2;position:relative;margin-left:34px;max-width:240px}
+.ostaff::before{content:"";position:absolute;left:-34px;width:34px;top:16px;border-top:1px dashed var(--ln)}
+/* 부서 상자 */
+.ounit{display:block;border:1px solid var(--line2);border-top:3px solid var(--hc);background:var(--bg2);font:inherit;color:var(--fg);text-align:left;padding:0;min-width:0;width:100%}
+.ounit.on{outline:1px solid var(--amber)}
+.ounit.dotted{border-style:dashed;border-top-style:solid}
+.ounit.ceo{--hc:var(--amber);min-width:230px;width:auto;cursor:pointer;text-align:center}
+.ounit.ceo:hover{border-color:var(--amber)}
+.ouh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:6px 10px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--hi);font-size:11px}
+.ouh b{font-size:12.5px;font-weight:600}
+.ouh span{color:var(--fg3);white-space:nowrap}
+a.ouh:hover b{color:var(--amber)}
+.ounit.ceo .ouh{flex-direction:column;align-items:center;gap:0}
+.ouno{font-size:10.5px;color:var(--fg2);padding:3px 10px 0}
+.oub{display:block;padding:4px}
+.omem{display:flex;align-items:center;gap:8px;width:100%;padding:4px 6px;background:none;border:0;font:inherit;color:var(--fg);text-align:left;cursor:pointer;font-size:11.5px}
+button.omem:hover{background:rgba(255,255,255,.04)}
+.omem.head{padding:6px}
+.ounit.ceo .omem{justify-content:center}
+.omn{display:flex;flex-direction:column;min-width:0;flex:1;line-height:1.35}
+.omn b{color:var(--hi);font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.omem.head .omn b{font-weight:600;font-size:12.5px}
+.omn .dim2{font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.omem .sdot{margin:0;flex:none}
+.ohtag{flex:none;font-size:9.5px;letter-spacing:.05em;padding:1px 5px;border:1px solid var(--hc);color:var(--hc)}
+.omems{border-top:1px dashed var(--line);margin-top:2px;padding-top:2px}
+.omems:empty{display:none}
+.ochart.compact .omems{display:none}
+.pav.sm{width:26px;height:26px;font-size:10.5px}
+/* 본부 가로 가지 */
+.ohqs{display:flex;align-items:flex-start}
+.ohq{flex:1 1 0;min-width:190px;position:relative;padding:22px 8px 0}
+.ohq::before{content:"";position:absolute;top:0;left:0;right:0;border-top:1px solid var(--ln)}
+.ohq:first-child::before{left:50%}.ohq:last-child::before{right:50%}
+.ohq::after{content:"";position:absolute;top:0;left:50%;height:22px;border-left:1px solid var(--ln)}
+.ohqb{display:flex;flex-direction:column;align-items:center;gap:1px;text-align:center;background:var(--hc);color:#fff;padding:7px 10px;font-size:11px}
+.ohqb b{font-size:13px;letter-spacing:.15em;font-weight:600}
+.ohqb .dim2{color:rgba(255,255,255,.82)}
+/* 본부 아래 세로 가지 */
+.odepts{margin:0 0 0 16px;padding-top:12px}
+.od{position:relative;padding-left:18px;margin-bottom:12px}
+.od::before{content:"";position:absolute;left:0;top:-12px;height:31px;width:18px;border-left:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+.od:not(:last-child)::after{content:"";position:absolute;left:0;top:19px;bottom:-12px;border-left:1px solid var(--ln)}
+.od:last-child{margin-bottom:0}
 .osub{font-size:12px;letter-spacing:.15em;color:var(--fg2);margin:18px 0 8px;font-weight:400}
 .dhead{margin-top:14px}
 .dtitle h3{font-size:18px;color:var(--hi);margin:2px 0 10px;font-weight:600}
@@ -759,9 +849,11 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 .sdot.green{background:var(--green)}.sdot.amber{background:var(--amber)}
 .plink{background:none;border:0;padding:0;font:inherit;color:var(--hi);cursor:pointer;text-align:left}.plink:hover{color:var(--amber);text-decoration:underline}
 .pfull{display:flex;gap:14px;align-items:center}.pn2{font-size:16px;color:var(--hi)}
-body[data-theme=light] .ochart,body[data-theme=light] .obox,body[data-theme=light] .pcard,body[data-theme=light] .ohqt{border-radius:6px}
-body[data-theme=light] .obox,body[data-theme=light] .ohqt{background:#fff}
-@media(max-width:720px){.otree .ohqn{display:none}.ohqs{grid-template-columns:1fr}.ohqs::before,.ohq::before{display:none}.oroot::after{display:none}.oroot{padding-bottom:10px}.ohqs{padding-top:0}}
+body[data-theme=light] .ochart,body[data-theme=light] .ounit,body[data-theme=light] .pcard,body[data-theme=light] .ohqb{border-radius:6px}
+body[data-theme=light] .ounit{background:#fff;box-shadow:0 1px 2px rgba(16,24,32,.06)}
+body[data-theme=light] .ounit .ouh{border-radius:4px 4px 0 0}
+body[data-theme=light] button.omem:hover{background:#f1f4f8}
+@media(max-width:720px){.otree .ohqn{display:none}.ohqs{flex-direction:column;align-items:stretch}.ohq{min-width:0;padding:14px 0 0}.ohq::before,.ohq::after{display:none}.otop{padding-bottom:0}.ostaffrow{grid-template-columns:1fr;padding-top:10px}.otop::after,.ostaff::before{display:none}.ostaff{grid-column:1;margin:0;max-width:none}.oceo .ounit{width:100%}.ounit.ceo{min-width:0}}
 
 /* ─── 보안 인가 · 인원 계급 ─── */
 #lvl{cursor:pointer}#lvl:hover,#lvl:focus-visible{text-decoration:underline}
@@ -959,6 +1051,46 @@ body[data-theme=light] .pyb span{border-radius:3px}
 body[data-theme=light] .fdhq,body[data-theme=light] .fdd,body[data-theme=light] .o5seat,body[data-theme=light] .regtoc{border-radius:6px}
 body[data-theme=light] .fdd,body[data-theme=light] .o5seat{background:#fff}
 @media(max-width:600px){.fdadm{grid-template-columns:1fr}.fdadm::before{display:none}}
+/* 지부 문서: 한국 지부 표지 */
+:root{--ko:#5b86c4}
+body[data-theme=light]{--ko:#1d4f9a}
+.cover.br-ko .ctop{background:linear-gradient(90deg,color-mix(in srgb,var(--ko) 16%,transparent),transparent 70%);border-bottom-color:color-mix(in srgb,var(--ko) 45%,var(--line))}
+.cover.br-ko .ctop .emblem{color:var(--ko)}
+.brseal{margin-left:auto;display:flex;align-items:center;gap:6px;border:1px solid var(--ko);color:var(--ko);padding:3px 8px 3px 3px;font-size:11px;letter-spacing:.08em;white-space:nowrap}
+.brseal b{background:var(--ko);color:#fff;font-size:11px;letter-spacing:.12em;padding:1px 5px;display:inline-block}
+.brseal+.cicon{margin-left:12px}
+.brname{color:var(--ko);font-weight:600}
+.brtag{display:inline-block;font-size:10px;letter-spacing:.1em;line-height:1;padding:2px 4px;border:1px solid var(--ko);color:var(--ko);vertical-align:1px}
+@media (max-width:600px){.brseal span{display:none}.brseal{padding:3px}}
+
+/* ── 휴대폰 화면 다듬기 ── 줄바꿈 깨짐 · 넘침 · 손가락으로 누르기 쉬운 크기 */
+.badge,td.nw,.topbar .lvl{white-space:nowrap}
+.orgwrap>*{min-width:0}
+.tsearch{display:none}
+.mobnote{display:none;font-size:11px;margin-top:6px}
+@media (max-width:900px){
+  .nav{scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{padding-top:11px;padding-bottom:11px}
+}
+@media (max-width:600px){
+  .tsearch{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;color:var(--fg2);text-decoration:none;font-size:15px}
+  .loginbox{padding:22px 18px}
+  .loginbox .actions{flex-wrap:wrap;gap:10px}
+  .loginbox .actions .btn{white-space:nowrap;flex:1 0 100%;padding:10px 14px}
+  .btn{min-height:36px}
+  .chip,.tagc{min-height:32px;padding:4px 12px}
+  .tb{min-height:32px;padding:4px 10px}
+  .search input{min-width:0;font-size:16px} /* iOS: 16px 미만이면 입력할 때 화면이 확대됨 */
+  .search .btn{flex:0 0 auto}
+  td.nw{font-size:11.5px}
+  .rgrid{grid-template-columns:104px minmax(620px,1fr)}
+  .rname small{display:none}
+  .mobnote{display:block}
+  #fxbtn{display:none} /* 효과 켜기/끄기는 환경 설정에 있음 */
+  table.org th:nth-child(5),table.org td:nth-child(5){display:none}
+}
 
 </style>
 </head>
@@ -993,6 +1125,7 @@ body[data-theme=light] .fdd,body[data-theme=light] .o5seat{background:#fff}
     <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
     <span class="sp"></span>
     <form id="gsearch" class="gsearch" role="search"><label for="gq" class="sr">통합 검색</label><input id="gq" name="q" type="search" placeholder="통합 검색  Ctrl+K" autocomplete="off" spellcheck="false"></form>
+    <a class="tsearch" href="#search" aria-label="통합 검색" title="통합 검색">검색</a>
     <button type="button" class="audio-btn bell" id="bell" aria-label="알림" aria-expanded="false" aria-controls="notipanel">알림 <span id="belln" class="amber"></span></button>
     <a id="who" class="dim" href="#settings" title="환경 설정"></a>
     <span class="lvl" id="lvl"></span>
@@ -1089,6 +1222,7 @@ function loadChunk(key){
   return BODY_WAIT[key];
 }
 function loadBody(id){ return hasBody(id) ? Promise.resolve() : loadChunk(SCP[id].chunk) }
+function unloadedCount(){ let n=0; for(const k in SCP){ const d=SCP[k]; if(d.chunk&&!d.loaded) n++ } return n }
 /* 아직 안 불러온 본문을 전부 (전문 검색용). onProgress(완료, 전체) */
 async function loadAllBodies(onProgress){
   const keys=[...new Set(Object.values(SCP).filter(d=>d.chunk&&!d.loaded).map(d=>d.chunk))];
@@ -1119,8 +1253,35 @@ function reqLevel(c){
 }
 /* 문서 ID: SCP-173, SCP-001-KO 등 */
 function normId(num, suffix){ return "SCP-"+String(num).padStart(3,"0")+(suffix?"-"+suffix.replace(/^-/,"").toUpperCase():"") }
-function idNum(id){ const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); return m?[+m[1],m[2]||""]:[1e9,""] }
-function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.localeCompare(ys) }
+/* 번호 해석은 정렬·필터에서 문서 수천 건 × 여러 번 불리므로 결과를 기억해 둠 */
+const ID_NUM=new Map();
+function idNum(id){
+  let v=ID_NUM.get(id); if(v) return v;
+  const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); v=m?[+m[1],m[2]||""]:[1e9,""];
+  ID_NUM.set(id,v); return v;
+}
+function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || (xs===ys?0:xs<ys?-1:1) }
+/* 번호순 전체 목록 (문서 목록은 불러온 뒤 바뀌지 않음) */
+let SORTED_IDS=null;
+function sortedIds(){ return SORTED_IDS||(SORTED_IDS=Object.keys(SCP).sort(byId)) }
+/* 한글 이름 정렬용 (localeCompare 를 매번 부르면 느림) */
+const KO_COLL=new Intl.Collator("ko");
+/* 검색: 영문이 없는 검색어(한글·숫자)는 대소문자 변환 없이 바로 찾고,
+   영문이 있으면 소문자로 바꾼 본문을 문서마다 한 번만 만들어 둠 */
+const LC_TEXT=new WeakMap();
+function textAt(d, ql){
+  const t=d.full_text; if(!t) return -1;
+  if(ql===ql.toUpperCase()) return t.indexOf(ql); // 대소문자가 없는 글자뿐
+  let lc=LC_TEXT.get(d); if(lc==null){ lc=t.toLowerCase(); LC_TEXT.set(d,lc) }
+  return lc.indexOf(ql);
+}
+/* 번호 · 제목 · 별명 · 태그 · 등급을 합친 소문자 문자열 (목록 검색용) */
+const META_LC=new WeakMap();
+function metaText(d){
+  let m=META_LC.get(d);
+  if(m==null){ m=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+(d.object_class||"")).toLowerCase(); META_LC.set(d,m) }
+  return m;
+}
 /* 표시용 이름: 시리즈 목록의 별칭 → 없으면 제목에서 번호를 뗀 것 */
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
 /* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */
@@ -1129,7 +1290,7 @@ const CLASS_ICON={safe:"▣",euclid:"◐",keter:"✖",apollyon:"☢",neutral:"�
 const LVL_TAG={0:["공무 한정 사용","l1"],1:["신임","l1"],2:["제한","l2"],3:["비밀","l3"],4:["극비","l4"],5:["타우미엘","l5"]};
 const LVL_EN={0:"For Official Use Only",1:"Confidential",2:"Restricted",3:"Secret",4:"Top Secret",5:"Thaumiel"};
 const EMBLEM=`<svg class="emblem" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M32 2v14M6 47l12-7M58 47l-12-7" stroke="currentColor" stroke-width="6"/><path d="M32 19l-5-7h10zM20.7 38.5l-8.6.6 5-8.3zM43.3 38.5l3.6-7.7 5 8.3z" fill="currentColor"/></svg>`;
-function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
+function seriesOf(id){ const [n,sfx]=idNum(id); if(sfx==="KO") return `한국 지부 시리즈 ${n<1000?1:2}`; if(sfx) return "국제 지부"; return n<1000?"시리즈 1":n<2000?"시리즈 2":n<3000?"시리즈 3":n<4000?"시리즈 4":"시리즈 5" }
 const CLASS_FILTERS = [["all","전체"],["safe","안전"],["euclid","유클리드"],["keter","케테르"],["apollyon","아폴리온·타우미엘"],["other","기타"],["fav","★ 즐겨찾기"],["note","✎ 내 메모"]];
 
 /* ════ 상태 ════ */
@@ -1297,7 +1458,12 @@ function route(){
 }
 /* 브라우저 탭 제목: 화면 이름 — SCiPNET (탭 구분 · 화면 낭독기용) */
 function setTitle(t){ document.title=(t?t+" — ":"")+"SCiPNET // SITE-19" }
-function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
+function setNav(v){
+  document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") });
+  // 휴대폰: 메뉴가 가로 한 줄로 바뀌므로 지금 화면의 탭이 보이도록 메뉴만 옆으로 스크롤
+  const nav=document.querySelector(".nav"), on=nav&&nav.querySelector("a.on");
+  if(on && nav.scrollWidth>nav.clientWidth){ const l=on.offsetLeft-(nav.clientWidth-on.offsetWidth)/2; nav.scrollTo({left:Math.max(0,l)}) }
+}
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
@@ -1374,7 +1540,7 @@ function dashboard(){
    검색(번호·제목·별명·태그·본문) + 등급 · 시리즈 · 태그 필터 + 정렬 + 50건씩 페이지
    상태는 주소(#database?q=&c=&s=&t=&o=&p=)에 그대로 남아 새로고침·공유가 됨 */
 const DB_PAGE=50;
-const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["x","그 외"]];
+const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["4","시리즈 4 이상 (3000–)"],["ko","한국 지부 (-KO)"],["x","그 외"]];
 const SORTS=[["num","번호순"],["rate","평가 높은순"],["name","이름순"],["recent","최근 열람순"]];
 const TOP_TAGS=(()=>{const c={};for(const d of Object.values(SCP))for(const t of d.tags||[])if(!["안전","유클리드","케테르","아폴리온","타우미엘"].includes(t))c[t]=(c[t]||0)+1;return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,24)})();
 function dbState(params){
@@ -1417,26 +1583,37 @@ function matchClass(d,c){
 }
 function inSeries(d,s){
   if(s==="all") return true;
-  const [n,sfx]=idNum(d.id); if(sfx) return s==="x";
+  const [n,sfx]=idNum(d.id); if(s==="ko") return sfx==="KO"; if(sfx) return s==="x";
   if(s==="1") return n<1000; if(s==="2") return n>=1000&&n<2000; if(s==="3") return n>=2000&&n<3000;
-  return n>=3000;
+  if(s==="4") return n>=3000; return false;
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
-  for(const d of Object.values(SCP)){
+  const qn=/^\d+$/.test(ql)?"scp-"+ql.padStart(3,"0"):""; // "173" → "scp-173"
+  for(const id of sortedIds()){ const d=SCP[id];
     if(!matchClass(d,st.c) || !inSeries(d,st.s) || (st.t && !(d.tags||[]).includes(st.t))) continue;
     if(!ql){ hits.push({d}); continue }
-    const meta=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+d.object_class).toLowerCase();
-    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,m=>"scp-"+m.padStart(3,"0")))){ hits.push({d}); continue }
+    const meta=metaText(d);
+    if(meta.includes(ql) || (qn && meta.includes(qn))){ hits.push({d}); continue }
     // 본문 검색: 본문을 불러온 문서만
-    const i=(d.full_text||"").toLowerCase().indexOf(ql);
+    const i=textAt(d,ql);
     if(i>=0) hits.push({d, at:i});
   }
-  const name=d=>docName(d)||"\uffff";
   const rec=id=>{const i=S.recent.indexOf(id);return i<0?1e9:i};
-  const cmp={num:(a,b)=>byId(a.d.id,b.d.id), rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
-    name:(a,b)=>name(a.d).localeCompare(name(b.d),"ko")||byId(a.d.id,b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
+  if(st.o==="num"||!SORTS.some(x=>x[0]===st.o)) return hits; // 이미 번호순
+  const cmp={rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
+    name:(a,b)=>nameRank(a.d.id)-nameRank(b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
   return hits.sort(cmp);
+}
+/* 이름순 순위: 처음 한 번만 정렬해 두고 재사용 (이름 없는 문서는 뒤로, 같은 이름은 번호순) */
+let NAME_RANK=null;
+function nameRank(id){
+  if(!NAME_RANK){
+    const L=sortedIds().map(k=>[k,docName(SCP[k])]);
+    const named=L.filter(x=>x[1]).sort((a,b)=>KO_COLL.compare(a[1],b[1])||byId(a[0],b[0]));
+    NAME_RANK=new Map([...named,...L.filter(x=>!x[1])].map((x,i)=>[x[0],i]));
+  }
+  return NAME_RANK.get(id)??1e9;
 }
 function pager(cur,total,hrefFor){
   if(total<=1) return "";
@@ -1448,8 +1625,8 @@ function pager(cur,total,hrefFor){
 function dbRows(st){
   const ql=st.q.trim();
   const hits=dbHits(st), pages=Math.max(1,Math.ceil(hits.length/DB_PAGE)), cur=Math.min(st.p,pages);
-  const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
-  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  const unloaded=ql?unloadedCount():0;
+  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button><div class="dim2 mobnote">본문 전체는 용량이 큽니다. 휴대폰에서는 Wi-Fi 연결을 권장합니다.</div></div>`:"";
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
@@ -1460,7 +1637,7 @@ function dbRows(st){
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
-      <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
+      <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
       <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
@@ -1546,7 +1723,7 @@ function clsBanner(level, extra=""){
   return `<div class="clsbar ${c}" role="note"><b>LEVEL ${level} · ${t}</b><span>SCP 재단 내부 문서${extra?" · "+extra:""} · 무단 열람·복제·반출 금지</span></div>`;
 }
 const DEPT_OF=id=>spick(id+"dept",["연구부 · 격리동 B","연구부 · 격리동 A","생물학 연구과","변칙 물품 연구과","인간형 개체 연구과","외부 현상 조사과"]);
-function docNo(d){ return `S19-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
+function docNo(d){ const b=branchOf(d.id), s=b&&siteOf(d), sn=s&&!s.none&&!s.redacted?s.name.match(/\d+/)?.[0]:""; return `${b?"K"+(sn||"00").padStart(2,"0"):"S19"}-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
 function revDate(id){ return `${srnd(id+"y",2008,2024)}-${pad(srnd(id+"m",1,12))}-${pad(srnd(id+"d",1,28))}` }
 function docCover(d, need, {masked=false, sub=null}={}){
   const k=classKey(d.object_class);
@@ -1558,8 +1735,10 @@ function docCover(d, need, {masked=false, sub=null}={}){
     [cell("문서 번호",masked?'<span class="redact">S19-0000-R0</span>':docNo(d)),cell("최종 개정",masked?'<span class="redact">0000-00-00</span>':`${revDate(d.id)} <span class="dim2">(제${srnd(d.id+"rev",2,14)}판)</span>`)],
     [cell("관리 부서",masked?'<span class="redact">████████</span>':DEPT_OF(d.id)),cell("평가",typeof d.rating==="number"?`${d.rating>0?"+":""}${d.rating}`:"—")],
   ];
-  return `<div class="cover k-${k}">
-    <div class="ctop">${EMBLEM}<div><b>SCP 재단</b><span>${sub?"부록 문서 · "+esc(sub):"특수 격리 절차 문서"}</span></div><div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
+  const br=branchOf(d.id);
+  if(br) rows.splice(1,0,[cell("소속 지부",`<b class="brname">${br.name}</b> <span class="dim2">(${br.code})</span>`),cell("담당 기지",siteCell(d,masked))]);
+  return `<div class="cover k-${k}${br?" br-"+br.code.toLowerCase():""}">
+    <div class="ctop">${EMBLEM}<div><b>SCP 재단${br?" "+br.name:""}</b><span>${sub?FORMS[formKind(sub)].name+" · "+esc(sub):"특수 격리 절차 문서"}${br?" · "+br.en:""}</span></div>${br?branchSeal(br):""}<div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
     <h1 class="ctitle">${sub?esc(sub):d.id}${!sub&&docName(d)?`<small>${esc(docName(d))}</small>`:sub?`<small>${d.id}${docName(d)?" · "+esc(docName(d)):""}</small>`:""}</h1>
     <table class="cinfo">${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}${(d.tags||[]).length&&!masked?`<tr><th>태그</th><td colspan="3" class="dim">${d.tags.filter(t=>t!==d.object_class).slice(0,8).map(t=>`<a class="tagl" href="#database?t=${encodeURIComponent(t)}">#${esc(t)}</a>`).join(" ")}</td></tr>`:""}</table>
   </div>`;
@@ -1577,18 +1756,18 @@ function showSub(id, idx){
   const nav=`<div class="pn"><span>${idx>0?`<a href="#${id.toLowerCase()}/${idx-1}">← ${esc(subs[idx-1].title)}</a>`:""}</span><span>${idx<subs.length-1?`<a href="#${id.toLowerCase()}/${idx+1}">${esc(subs[idx+1].title)} →</a>`:""}</span></div>`;
   if(!ok){ S.denied++; saveSession(); glitch(1); feedPush(`접근 거부 기록 — ${S.user} → ${id} / ${s.title}`,"red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
     ${clrNeedNote(s.level)}<div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
-  <div class="sec"><h4 class="subt">${esc(s.title)}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}</div></div>
-  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
+  ${subForm(d,s,linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}
+  ${subsBox(d,idx)}${nav}${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
 /* ════ 문서 열람 ════ */
@@ -1600,7 +1779,7 @@ function showDoc(id){
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
     feedPush(`접근 거부 기록 — ${S.user} → ${id}`, "red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}${docCover(d,need,{masked:true})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}${docCover(d,need,{masked:true})}
       <div class="meta"><span>요구 권한 Level ${need}</span><span>현재 권한 Level ${S.level}</span><span>${now()}</span></div>
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
       <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
@@ -1620,8 +1799,9 @@ function showDoc(id){
   else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
   feedPush(`${S.user} 열람 — ${id}`, ""); noteRecent(id);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}
     ${docCover(d,need)}
+    ${cpHead(d)}
     ${docInfo(d,need,sd)}
     ${docTools(id)}
     ${resumeBar(id)}
@@ -1629,10 +1809,11 @@ function showDoc(id){
     <div class="meta"><span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
+    ${formEnd("cp")}
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
-    ${clsBanner(need)}
+    ${clsBanner(need,branchOf(id)?.name||"")}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
     ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
@@ -1654,7 +1835,7 @@ function docTools(id){
     <button type="button" class="tb" data-dt="print" title="인쇄 (출력 기록이 남습니다)">인쇄</button></div>`;
 }
 function docPN(id){
-  const ids=Object.keys(SCP).sort(byId), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
+  const ids=sortedIds(), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
   const lab=k=>`${k}${docName(SCP[k])?" "+esc(docName(SCP[k])):""}`;
   return `<div class="pn docpn"><span>${p?`<a href="#${p.toLowerCase()}" title="이전 문서">‹ ${lab(p)}</a>`:""}</span><span>${n?`<a href="#${n.toLowerCase()}" title="다음 문서">${lab(n)} ›</a>`:""}</span></div>`;
 }
@@ -1745,6 +1926,9 @@ function fmtBody(html){
     let e=k; while(e<items.length && items[e].sp) e++;
     const run=items.slice(k,e), labs=run.map(r=>FMT_TXT(r.sp[0]).trim());
     const repeats=labs.length!==new Set(labs).size;
+    /* 실험·면담 기록처럼 정해진 기재 항목(일자·피험자·절차·결과…)이 이어지면 서식 표로 */
+    const known=labs.filter(l=>trialLab(l)||fieldKey(l)).length;
+    if(!repeats && run.length>=2 && known>=2 && known*3>=run.length*2){ out.push(`<table class="ftab kvf">${run.map(r=>`<tr><th>${r.sp[0]}</th><td>${fmtStage(r.sp[1])}</td></tr>`).join("")}</table>`); k=e; continue }
     if((run.length>=3 && repeats) || (run.length>=2 && looksSaid(run.map(r=>r.sp[1])))) out.push(dlg(run.map(r=>r.sp)));
     else if(run.every(r=>FMT_TXT(r.sp[1]).length<=60) && !looksSaid(run.map(r=>r.sp[1]))) out.push(`<dl class="kvb">${run.map(r=>`<dt>${r.sp[0]}</dt><dd>${r.sp[1]}</dd>`).join("")}</dl>`);
     else run.forEach(r=>out.push(fmtPara(r.para)));
@@ -1791,6 +1975,191 @@ function fmtPara(p){
     return `<div class="logbox bare"><div class="logbd">${p.map((l,k)=>sps[k]?`<div class="lr"><b class="who">${sps[k][0]}</b><span class="say">${fmtStage(sps[k][1])}</span></div>`:`<div class="lr dir">${fmtStage(l)}</div>`).join("")}</div></div>`;
   return `<p>${p.join("<br>")}</p>`;
 }
+
+/* ════ 지부 문서 구분: -KO 문서에 한국 지부 표지와 담당 기지 표시 ════ */
+const BRANCH={KO:{name:"한국 지부",en:"SCP Foundation · Korean Branch",code:"KO"}};
+const branchOf=id=>BRANCH[idNum(id||"")[1]]||null;
+
+/* 담당 기지: 본문에 가장 많이 나오는 기지·구역 (제19기지, Site-21 → 제21기지). 없으면 지부 본부 직할 */
+const SITE_CACHE={};
+function siteOf(d){
+  if(!d.full_text) return null;
+  if(SITE_CACHE[d.id]) return SITE_CACHE[d.id];
+  const cnt=new Map(), add=n=>cnt.set(n,(cnt.get(n)||0)+1);
+  const t=d.full_text;
+  for(const m of t.matchAll(/제\s?([0-9█]{1,4}|[θ⌘])\s?(?:[가-힣]{0,10}?)(기지|구역)/g)) add(`제${m[1]}${m[2]}`);
+  for(const m of t.matchAll(/\b(Site|Area)[-–\s]([0-9█]{1,4})\b/gi)) add(`제${m[2]}${/^a/i.test(m[1])?"구역":"기지"}`);
+  let best=null, bn=0;
+  for(const [n,c] of cnt){ const known=!/█/.test(n)?1:0, b=best&&!/█/.test(best)?1:0;
+    if(c>bn || (c===bn && known>b)){ best=n; bn=c } }
+  return SITE_CACHE[d.id]=best?{name:best, redacted:/█/.test(best), n:bn}:{name:"한국 지부 본부 직할", none:true};
+}
+function siteCell(d, masked){
+  if(masked) return '<span class="redact">제██기지</span>';
+  const s=siteOf(d); if(!s) return '<span class="dim2">본문 불러오는 중</span>';
+  if(s.none) return `${s.name} <span class="dim2">(본문에 기지 언급 없음)</span>`;
+  if(s.redacted) return `<span class="dm">${esc(s.name)}</span> <span class="dim2">(위치 검열)</span>`;
+  return `<a class="xref" href="#regs?p=secure-facilities-locations&q=${encodeURIComponent(s.name)}" title="보안시설 위치에서 찾기">${esc(s.name)}</a>${s.n>1?` <span class="dim2">본문 ${s.n}회 언급</span>`:""}`;
+}
+/* 표지 머리의 지부 인장 */
+function branchSeal(b){ return `<div class="brseal" aria-label="${b.name}"><b>${b.code}</b><span>${b.name}</span></div>` }
+/* 목록용 작은 지부 표시 */
+function branchTag(id){ const b=branchOf(id); return b?` <span class="brtag" title="${b.name} 문서">${b.code}</span>`:"" }
+
+/* ════════════════════════════════════════════
+   문서 종류별 공문서 양식
+   격리 프로토콜 · 실험 기록지 · 면담 기록서 · 사건 보고서 · 탐사 기록서 · 회수 보고서 · 내부 서신 · 부록
+   종류마다 서식 번호, 결재란, 고정 기재 항목표, 본문 구획 이름, "이하 여백" 끝맺음을 같게 맞춘다.
+   ════════════════════════════════════════════ */
+/* 기재 항목: 키 → [표에 쓸 이름, 본문에서 찾을 이름들] */
+const FORM_FIELDS={
+  date:["일시",/^(실험 |면담 |사건 |탐사 |발생 |회수 |작성 |발신 )?(일자|날짜|일시|시각|일)$|^발신일$|^작성일$|^기간$/],
+  who:["담당",/^(실험자|담당자|담당 연구원|책임 연구원|책임자|감독관|연구원|감독|면담자|면담관|질문자|탐사 책임자|작성자|보고자|발신자|발신)$/],
+  subj:["대상",/^(피험자|실험 대상|대상|피면담자|면담 대상|면담 대상자|면담대상|응답자|수신자|수신)$/],
+  place:["장소",/^(장소|위치|실험 장소|발생 장소|발견 장소|회수 장소|탐사 장소|격리 장소)$/],
+  team:["인원",/^(탐사조|탐사 인원|탐사대|탐사자|참여 인원|관련 인원|투입 인원|투입 부대|대응 부대|목격자)$/],
+  src:["출처",/^(출처|기록 출처|기록 매체|매체|형식)$/],
+  title:["제목",/^(제목|건명)$/],
+};
+const FORMS={
+  cp: {name:"특수 격리 절차서",code:"CP-F01",dept:"격리 관리부",body:"격리 절차",fields:[]},
+  exp:{name:"실험 기록지",code:"RD-F02",dept:"연구부",body:"실험 내용",fields:[["date","실험 일자"],["who","실험자"],["subj","피험자"],["place","실험 장소"]]},
+  itv:{name:"면담 기록서",code:"RD-F03",dept:"연구부",body:"면담 내용",fields:[["date","면담 일시"],["who","면담자"],["subj","피면담자"],["place","면담 장소"]]},
+  inc:{name:"사건 보고서",code:"SE-F04",dept:"보안부",body:"사건 경위",fields:[["date","발생 일시"],["place","발생 장소"],["team","관련 인원"],["src","기록 출처"]]},
+  exl:{name:"탐사 기록서",code:"MF-F05",dept:"기동특무부대 지원과",body:"탐사 경과",fields:[["date","탐사 일시"],["team","탐사 인원"],["place","탐사 장소"],["who","책임자"]]},
+  rec:{name:"회수 보고서",code:"MF-F06",dept:"현장 요원 관리과",body:"회수 경위",fields:[["date","회수 일시"],["place","회수 장소"],["team","관련 인원"],["src","기록 출처"]]},
+  cor:{name:"내부 서신",code:"AD-F07",dept:"총무과",body:"본문",fields:[["who","발신"],["subj","수신"],["date","발신일"],["title","제목"]]},
+  add:{name:"부록 문서",code:"AD-F08",dept:"",body:"내용",fields:[]},
+};
+/* 제목을 먼저 보고, 애매하면 본문의 기재 항목으로 판단 */
+function formKind(title, text=""){
+  const t=String(title||"");
+  if(/면담|인터뷰|심문|대담|녹취/.test(t)) return "itv";
+  if(/실험|시험|테스트|시행/.test(t)) return "exp";
+  if(/탐사|탐색|정찰/.test(t)) return "exl";
+  if(/사건|사고|격리 (실패|위반)|탈주|침해|사태/.test(t)) return "inc";
+  if(/회수|발견 경위|포획|확보/.test(t)) return "rec";
+  if(/서신|편지|메모|이메일|메일|비망록|통신문|공문|각서|서한/.test(t)) return "cor";
+  const head=String(text).split("\n").slice(0,40).map(l=>(l.match(/^\s*([^:：\n]{1,14}?)\s*[:：]/)||[])[1]).filter(Boolean);
+  const has=re=>head.some(l=>re.test(l.trim()));
+  if(has(/^(면담자|피면담자|면담 대상|면담관)$/)) return "itv";
+  if(has(/^(피험자|실험자|실험 대상)$/) || head.filter(l=>/^(절차|결과|실험 결과|지시사항|투입|출력|분석)$/.test(l.trim())).length>=2) return "exp";
+  if(has(/^(탐사조|탐사 인원|탐사대)$/)) return "exl";
+  if(has(/^(수신자|발신자|수신|발신)$/)) return "cor";
+  return "add";
+}
+const fieldKey=lab=>{ for(const k in FORM_FIELDS) if(FORM_FIELDS[k][1].test(lab)) return k; return "" };
+/* 본문 첫머리의 "항목: 값" 줄을 떼어 내 기재 항목표로 옮김 (대화가 시작되면 멈춤) */
+function pullFields(lines, kind, keep=false){
+  const want=new Set(FORMS[kind].fields.map(f=>f[0])), got={}, rest=[]; let open=true, seen=0;
+  for(const l of lines){
+    const t=l.trim();
+    if(open && isBlankTxt(t)){ rest.push(l); continue }
+    if(open && seen<14){
+      const sp=fmtSpeaker(t), k=sp?fieldKey(FMT_TXT(sp[0]).trim()):"";
+      if(k && want.has(k) && !got[k] && FMT_TXT(sp[1]).length<=80){ got[k]=sp[1]; seen++; if(!keep) continue }
+      /* 첫 줄이 서두 문장이면 한 번은 넘어감 */
+      if(!sp && seen===0 && rest.filter(x=>!isBlankTxt(x)).length===0){ rest.push(l); continue }
+      if(!sp) open=false; else seen++;
+    }
+    rest.push(l);
+  }
+  return {got, rest};
+}
+/* 결재란: 담당 · 검토 · 승인 (도장) */
+function signBox(d, kind, who, key){
+  const nm=FMT_TXT(who||"").replace(/\s*(박사|연구원|요원|부장|과장|관리관|감독관|기술자|대원|조사관|교수|씨|님)$/,"").replace(/x/g,"").trim();
+  const st=(nm && !/█/.test(nm) && nm.length<=4)?nm:"";
+  const day=srnd(key+"sd",1,28), base=revDate(d.id).slice(0,8);
+  const cell=(role,stamp,cls,dd)=>`<div class="sg"><span class="sgr">${role}</span><span class="seal ${cls}">${stamp}</span><span class="sgd">${dd}</span></div>`;
+  return `<div class="signs" aria-label="결재란"><span class="sgh">결<br>재</span>
+    ${cell("담당",esc(st||"인"),st?"":"blank",base+pad(day))}
+    ${cell("검토","검토",""  ,base+pad(Math.min(28,day+1)))}
+    ${cell("승인","승인","ok",base+pad(Math.min(28,day+2)))}</div>`;
+}
+/* 서식 머리: 서식 번호 · 양식 이름 · 결재란 · 기재 항목표 */
+function formHead(d, kind, {key="", no="", got={}, extra=[]}={}){
+  const F=FORMS[kind];
+  const val=v=>v?v:`<span class="fnil">기재 없음</span>`;
+  /* 기재 항목을 하나도 찾지 못한 문서(비고만 있는 부록 등)는 빈 칸 줄을 늘어놓지 않음 */
+  const any=F.fields.some(([k])=>got[k]);
+  const cells=[...extra, ...(any?F.fields.map(([k,lab])=>[lab,val(got[k])]):[])];
+  const rows=[]; for(let i=0;i<cells.length;i+=2) rows.push(cells.slice(i,i+2));
+  return `<div class="fhead f-${kind}">
+    <div class="fh1"><div class="fname"><span class="fcode">서식 ${F.code}${F.dept?` · ${esc(F.dept)}`:""}</span><b>${F.name}</b>${no?`<span class="fno">${no}</span>`:""}</div>${signBox(d,kind,got.who,d.id+key)}</div>
+    ${rows.length?`<table class="ftab">${rows.map(r=>`<tr>${r.map(([h,v])=>`<th>${h}</th><td>${v}</td>`).join("")}${r.length<2?"<th></th><td></td>":""}</tr>`).join("")}</table>`:""}
+  </div>`;
+}
+const formEnd=kind=>`<div class="fend"><span>— 이하 여백 —</span><small>본 문서는 SCP 재단 문서 관리 규정에 따라 서식 ${FORMS[kind].code} (${FORMS[kind].name})으로 작성되었습니다 · 보존 기간 영구</small></div>`;
+
+/* 실험 기록: "실험 1", "실험 기록 914-02" 같은 줄로 회차를 나눔 */
+const TRIAL_HEAD=/^(실험|시험|테스트|시행|실험 기록|실험 번호|실험 로그)\s*(번호\s*)?[#№]?\s*[0-9A-Za-z가-힣][\w\-–.·/]{0,24}\s*[:：]?$/;
+const TRIAL_ORDER=[
+  ["일자",/^(실험 )?(일자|날짜|일시|시각)$/],["실험자",/^(실험자|담당자|담당 연구원|책임 연구원|연구원|감독관|감독|책임자)$/],
+  ["피험자",/^(피험자|실험 대상|대상|대상물|투입 대상)$/],["준비",/^(지급 물품|투입|입력|준비물|장비|물품|설정|조건|사용 물품|투입물)$/],
+  ["절차",/^(절차|지시사항|지시 사항|실험 절차|방법|실험 방법|내용|실험 내용)$/],["결과",/^(결과|실험 결과|출력|관찰|관찰 결과|산출물)$/],
+  ["분석",/^(분석|비고|주석|결론|참고|메모|추가 사항|노트|추가 기록)$/],
+];
+const trialLab=lab=>{ const r=TRIAL_ORDER.find(([,re])=>re.test(lab)); return r?r[0]:"" };
+/* 한 회차: 항목 줄은 고정 순서의 표로, 이어지는 줄은 앞 항목에 붙이고, 나머지는 서식 본문으로 */
+function trialCard(head, lines, n){
+  const rows=[], free=[]; let last=null;
+  for(const l of lines){
+    const t=l.trim(); if(isBlankTxt(t)){ last=null; continue }
+    const sp=fmtSpeaker(t), lab=sp?trialLab(FMT_TXT(sp[0]).trim()):"";
+    if(lab){ last={lab, raw:FMT_TXT(sp[0]).trim(), v:[sp[1]]}; rows.push(last); continue }
+    if(last && !free.length && !sp) { last.v.push(t); continue }
+    free.push(l); last=null;
+  }
+  if(rows.length<2) return null;
+  rows.sort((a,b)=>TRIAL_ORDER.findIndex(x=>x[0]===a.lab)-TRIAL_ORDER.findIndex(x=>x[0]===b.lab));
+  return `<div class="trial"><div class="trh"><span class="trn">${pad(n)}</span><b>${head||"기록 내용"}</b></div>
+    <table class="ftab trt">${rows.map(r=>`<tr><th>${esc(r.raw)}</th><td>${fmtStage(r.v.join("<br>"))}</td></tr>`).join("")}</table>
+    ${free.length?`<div class="trf">${fmtBody(free.join("\n"))}</div>`:""}</div>`;
+}
+function trialsBody(lines){
+  const parts=[]; let cur={head:"",lines:[]};
+  for(const l of lines){ const t=FMT_TXT(l).trim();
+    if(TRIAL_HEAD.test(t) && t.length<=40){ parts.push(cur); cur={head:l.trim().replace(/\s*[:：]\s*$/,""),lines:[]}; continue }
+    cur.lines.push(l) }
+  parts.push(cur);
+  let n=0, out=[], cards=0;
+  for(const p of parts){
+    if(!p.head && !p.lines.some(l=>!isBlankTxt(l))) continue;
+    const c=trialCard(p.head,p.lines,n+1);
+    if(c){ n++; cards++; out.push(c) } else out.push((p.head?`<h5 class="bh">${p.head}</h5>`:"")+fmtBody(p.lines.join("\n")));
+  }
+  return cards?out.join(""):null;
+}
+
+/* 부록(하위 문서)을 종류별 양식으로: 머리 + 본문 구획 + 끝맺음 */
+function subForm(d, s, html){
+  const kind=formKind(s.title, s.text);
+  const lines=html.replace(/\r/g,"").split("\n");
+  /* 회차가 여럿인 실험 기록은 첫 회차 항목을 머리에 보여 주되 본문에서 떼지 않음 */
+  const multi=kind==="exp" && lines.filter(l=>TRIAL_HEAD.test(FMT_TXT(l).trim())).length>=2;
+  const {got, rest}=pullFields(lines, kind, multi);
+  const tm=s.title.match(/([0-9A-Za-z][\w]*(?:[-–.][\w]+)+)\s*:?\s*$/);
+  const extra=[["대상 항목",`<b class="hi">${d.id}</b>`],["문서 번호",`${docNo(d)}-${pad(s.idx+1)}`]];
+  if(kind==="add") extra.push(["구분",esc(s.title.length>40?s.title.slice(0,40)+"…":s.title)]);
+  if(kind==="itv" && (!got.who || !got.subj)) guessSpeakers(rest, got);
+  const body=(kind==="exp"&&trialsBody(rest))||fmtBody(rest.join("\n"));
+  return `${formHead(d,kind,{key:s.title,no:tm?esc(tm[1]):"",got,extra})}
+  <div class="sec"><h4 class="subt"><i>${FORMS[kind].body}</i> ${esc(s.title)}</h4><div class="body fmt">${body}</div></div>
+  ${formEnd(kind)}`;
+}
+/* 면담 기록에 면담자·피면담자 칸이 없으면 녹취의 화자 둘로 채움 (재단 쪽 직함이 붙은 쪽이 면담자) */
+function guessSpeakers(lines, got){
+  const cnt={}, html={};
+  for(const l of lines){ const sp=fmtSpeaker(l.trim()); if(!sp) continue; const k=FMT_TXT(sp[0]).trim(); cnt[k]=(cnt[k]||0)+1; html[k]=sp[0] }
+  const top=Object.keys(cnt).filter(k=>cnt[k]>=2).sort((a,b)=>cnt[b]-cnt[a]).slice(0,2);
+  if(top.length<2) return;
+  const staff=k=>/(박사|연구원|요원|관리관|감독관|부장|과장|조사관|면담관|대원|교수|O5|사령관|기지장)/.test(k);
+  const [w,o]=staff(top[1])&&!staff(top[0])?[top[1],top[0]]:[top[0],top[1]];
+  if(!got.who) got.who=html[w]; if(!got.subj) got.subj=html[o];
+}
+/* 본 문서(격리 프로토콜) 머리: 서식 번호 · 결재란만 (기재 항목은 표지에 있음) */
+const cpHead=d=>formHead(d,"cp",{key:"cp",no:docNo(d)});
 
 /* ════ 문서별 실시간 연출 ════ */
 function docEffects(id){
@@ -1882,7 +2251,7 @@ function incidents(){
   return `<h2 class="ph">사건 <span>기록</span> · SITE-19</h2>
   <table><tr><th>일시</th><th>관련 항목</th><th class="hm">분류</th><th>요약</th><th class="hm">상태</th></tr>
   ${rows.map(([n,s,t,sum,st])=>{ const href=SCP[s]?"#"+s.toLowerCase():"";
-    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim">${daysAgo(n)}</td><td>${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
+    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim nw">${daysAgo(n)}</td><td class="nw">${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
   </table>
   <p class="dim2" style="margin-top:14px;font-size:11px">Level 3 미만 인원에게는 지난 60일 기록만 표시됩니다. 그 이전에는 아무 일도 없었습니다.</p>`;
 }
@@ -2246,12 +2615,17 @@ function apprState(a){
   return {steps, status, why, end:steps[steps.length-1].t};
 }
 /* 승인된 열람 권한: 승인 시각부터 24시간 */
-function grantUntil(id){
-  let best=0;
-  for(const a of apprList()){ if(a.type!=="access"||a.id!==id) continue;
-    const s=apprState(a); if(s.status==="완료") best=Math.max(best, s.end+86400000) }
-  return best>Date.now()?best:0;
+/* 목록·통계에서 문서마다 불리므로, 결재 기록을 읽어 만든 표를 잠깐(1초) 재사용 */
+let GRANTS={at:0,user:"",map:null};
+function grantMap(){
+  const now=Date.now();
+  if(GRANTS.map && GRANTS.user===S.user && now-GRANTS.at<1000) return GRANTS.map;
+  const map={};
+  for(const a of apprList()){ if(a.type!=="access") continue;
+    const s=apprState(a); if(s.status==="완료") map[a.id]=Math.max(map[a.id]||0, s.end+86400000) }
+  GRANTS={at:now,user:S.user,map}; return map;
 }
+function grantUntil(id){ const best=grantMap()[id]||0; return best>Date.now()?best:0 }
 /* 문서 열람에 쓰이는 실제 권한 (임시 권한 포함) */
 function lvlFor(id){ const d=SCP[id]; if(!d) return S.level; return grantUntil(id)?Math.max(S.level,reqLevel(d.object_class)):S.level }
 
@@ -2549,17 +2923,46 @@ const deptHead=d=>DIR.filter(r=>r[2]===d).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
 const pName=r=>r[1].replace(/<[^>]+>/g,"")||"[편집됨]";
 const initials=r=>{const n=pName(r).replace(/[^가-힣A-Za-z]/g,"");return n?(/[가-힣]/.test(n)?n.slice(-2):n.slice(0,2).toUpperCase()):"?"};
 const statDot=s=>`<span class="sdot ${STAT_CLS[s]||""}" aria-hidden="true"></span>${s}`;
-function orgBox(d,cur){
-  const h=deptHead(d), n=DIR.filter(r=>r[2]===d).length, I=DEPT_INFO[d]||{};
-  return `<a class="obox ${d===cur?"on":""}" href="#org?d=${encodeURIComponent(d)}"><b>${d}</b><span class="dim2">${h?`${h[3].replace(/\s*\(.*\)/,"")} ${pName(h)}`:""}</span><span class="dim2">${n}명${I.dot?` · ${I.dot}`:""}</span></a>`;
+const HQ_COLOR={"관리 본부":"hq-a","연구 본부":"hq-r","보안 본부":"hq-s"};
+const DIRECTOR="A-19-0001";
+/* 본부장: 소속 부서장 중 가장 높은 직급이 겸임 */
+const hqHead=hq=>DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(deptHead).filter(Boolean).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
+const shortTitle=t=>t.replace(/\s*\(.*\)/,"");
+function orgMem(r,head){
+  return `<button type="button" class="omem${head?" head":""}" data-person="${r[0]}" title="${esc(pName(r)+" · "+r[3]+" · "+r[4])}">
+    <span class="pav sm" aria-hidden="true">${initials(r)}</span><span class="omn"><b>${r[1]}</b><span class="dim2">${shortTitle(r[3])}</span></span>
+    ${head?`<span class="ohtag">부서장</span>`:`<span class="sdot ${STAT_CLS[r[4]]||""}" aria-label="${r[4]}"></span>`}</button>`;
+}
+function orgUnit(d,cur,skip){
+  const I=DEPT_INFO[d]||{}, ppl=DIR.filter(r=>r[2]===d&&r[0]!==skip).sort((a,b)=>RANK(a[3])-RANK(b[3])), h=ppl[0];
+  return `<div class="ounit ${HQ_COLOR[I.hq]||""}${d===cur?" on":""}${I.dot?" dotted":""}">
+    <a class="ouh" href="#org?d=${encodeURIComponent(d)}"><b>${d}</b><span>${ppl.length}명</span></a>
+    ${I.dot?`<div class="ouno">${I.dot}</div>`:""}
+    <div class="oub">${h?orgMem(h,true):""}<div class="omems">${ppl.slice(1).map(r=>orgMem(r)).join("")}</div></div></div>`;
 }
 function orgChart(){
-  const top=DIR.find(r=>r[0]==="A-19-0001");
-  return `<div class="ochart" role="tree" aria-label="SITE-19 조직 체계">
-    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 이사관</b><span class="dim2">Site Director</span><span>${top?top[1]:""}</span><span>${clrTag("A-19-0001")}</span></a></div>
-    <div class="ohqs">${HQS.map(hq=>`<div class="ohq"><div class="ohqt">${hq}</div>
-      <div class="odepts">${DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(d=>orgBox(d)).join("")}</div></div>`).join("")}</div></div>`;
+  const top=dirById(DIRECTOR), compact=store.get("org_compact",false);
+  const staff="기지 관리부";
+  return `<div class="ochart${compact?" compact":""}" role="group" aria-label="SITE-19 조직도">
+    <div class="ochead"><span class="dim2">SITE-19 조직도 · ${new Date().getFullYear()}년 기준 · 총 ${DIR.length}명</span>
+      <span class="oclegend"><i class="hq-a"></i>관리 <i class="hq-r"></i>연구 <i class="hq-s"></i>보안 <i class="dot"></i>파견</span>
+      <button type="button" class="btn sm" data-orgcompact>${compact?"구성원 모두 보기":"부서장만 보기"}</button></div>
+    <div class="otop">
+      <div class="oceo"><button type="button" class="ounit ceo" data-person="${DIRECTOR}">
+        <span class="ouh"><b>제19기지 이사관</b><span>Site Director</span></span>
+        <span class="oub"><span class="omem head"><span class="pav sm" aria-hidden="true">${top?initials(top):"?"}</span><span class="omn"><b>${top?top[1]:""}</b><span>${clrTag(DIRECTOR)}</span></span></span></span></button></div>
+      <div class="ostaffrow"><div class="ostaff">${orgUnit(staff,"",DIRECTOR)}</div></div>
+    </div>
+    <div class="ohqs">${HQS.map(hq=>{const hh=hqHead(hq), ds=DEPTS.filter(d=>d!==staff&&(DEPT_INFO[d]||{}).hq===hq);
+      const n=DIR.filter(r=>ds.includes(r[2])).length;
+      return `<div class="ohq"><div class="ohqb ${HQ_COLOR[hq]}"><b>${hq}</b><span class="dim2">본부장(겸) ${hh?`${pName(hh)} · ${shortTitle(hh[3])}`:"공석"}</span><span class="dim2">${ds.length}개 부서 · ${n}명</span></div>
+      <div class="odepts">${ds.map(d=>`<div class="od">${orgUnit(d)}</div>`).join("")}</div></div>`}).join("")}</div></div>`;
 }
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-orgcompact]"); if(!b) return;
+  const c=b.closest(".ochart"), on=!c.classList.contains("compact");
+  c.classList.toggle("compact",on); store.set("org_compact",on); b.textContent=on?"구성원 모두 보기":"부서장만 보기";
+});
 function personCard(r){
   return `<button type="button" class="pcard" data-person="${r[0]}"><span class="pav" aria-hidden="true">${initials(r)}</span>
     <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span>${clrTag(r[0])}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
@@ -2586,11 +2989,12 @@ function org(qs){
       :`<div class="empty">"${esc(q)}"에 해당하는 직원이 없습니다. 이름, 식별번호, 직책으로 검색할 수 있습니다.</div>`;
   } else {
     const rows=[...DIR].sort((a,b)=>DEPTS.indexOf(a[2])-DEPTS.indexOf(b[2])||RANK(a[3])-RANK(b[3]));
-    main=`${orgChart()}<h4 class="osub">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
+    main=`<h4 class="osub" style="margin-top:0">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
       <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>인가 · 계급</th><th>내선</th><th>상태</th></tr>
       ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm" style="white-space:nowrap">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td style="white-space:nowrap">${clrTag(r[0])}</td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
   }
   return `<h2 class="ph">조직<span>도</span> · SITE-19</h2>
+  ${!dept&&!q?orgChart():""}
   <div class="orgwrap">${side}<div>${form}${main}
     <p class="dim2" style="font-size:11px;margin-top:14px">내선 번호는 개인정보 보호를 위해 열람 사유를 입력해야 표시됩니다. 인사 기록 상세는 <a class="xref" href="#personnel">인사 파일</a>에서 확인하십시오.</p></div></div>`;
 }
@@ -2718,7 +3122,7 @@ function search(qs){
   if(!q) return head+`<div class="empty">검색어를 입력하십시오.<br><span class="dim2">상단 검색창이나 커맨드라인 <kbd>find 검색어</kbd> 로도 검색할 수 있습니다.</span></div>`;
   const has=s=>String(s||"").toLowerCase().includes(ql);
   const strip=s=>String(s).replace(/<[^>]+>/g,"");
-  const docs=Object.values(SCP).filter(d=>has(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" "))||(lvlFor(d.id)>=reqLevel(d.object_class)&&has(d.full_text))).sort((a,b)=>byId(a.id,b.id));
+  const docs=sortedIds().map(k=>SCP[k]).filter(d=>metaText(d).includes(ql)||(d.full_text&&textAt(d,ql)>=0&&lvlFor(d.id)>=reqLevel(d.object_class)));
   const posts=[...BOARD.map(b=>({href:`#board?no=${b[0]}`,t:b[2],s:b[6],m:`공지 · ${b[3]}`})),...freePosts().map(p=>({href:`#board?tab=free&no=${p.no}`,t:p.title,s:p.body,m:`자유게시판 · ${p.user}`}))].filter(p=>has(p.t)||has(p.s));
   const arcs=ARCHIVE.map((r,i)=>({i,r})).filter(({r})=>has(r[1])||has(r[4]));
   const ppl=DIR.filter(r=>has(strip(r.join(" "))));
@@ -2999,7 +3403,7 @@ function attendance(qs){
     let st=r?(r.out||k!==today()?"정상":"근무 중"):lv.has(k)?"연차":(wd===0||wd===6)?"휴일":k>today()?"":k===today()?"미출근":"—";
     if(isLate(r)) st="지각"; if(r&&w>DAY_MIN+60) st+=" · 연장";
     return `<tr class="${k===today()?"tday":""} ${wd===0||wd===6?"wkend":""}"><td>${k.slice(5)} (${["일","월","화","수","목","금","토"][wd]})</td><td>${r?hm(r.in):"—"}</td><td>${r&&r.out?hm(r.out):"—"}</td><td>${dur(w)}</td>
-      <td><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
+      <td class="hm"><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
   }).join("");
   const year=today().slice(0,4), used=[...lv].filter(k=>k.startsWith(year)).length;
   const r=store.get(attKey(),{})[today()]||{};
@@ -3412,7 +3816,7 @@ function stats(){
   const classRows=CL.map(([k,l])=>({label:`<i aria-hidden="true">${CLASS_ICON[k]}</i> ${l}`,n:cc[k]||0,pct:pct(cc[k]||0,N),color:`var(--k-${k})`,
     href:["keter","euclid","safe","apollyon"].includes(k)?`#database?c=${k}`:k==="unknown"||k==="neutral"?"#database?c=other":""})).filter(r=>r.n);
   const SR=[["1","시리즈 1",d=>!idNum(d.id)[1]&&idNum(d.id)[0]<1000],["2","시리즈 2",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=1000&&idNum(d.id)[0]<2000],
-            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","국제 지부",d=>!!idNum(d.id)[1]]];
+            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","한국 지부",d=>!!idNum(d.id)[1]]];
   const serRows=SR.map(([s,l,f])=>{const n=docs.filter(f).length;return {label:l,n,pct:pct(n,N),href:`#database?s=${s}`}}).filter(r=>r.n);
   const tagRows=TOP_TAGS.slice(0,12).map(([t,n])=>({label:esc(t),n,href:`#database?t=${encodeURIComponent(t)}`}));
   const rated=docs.filter(d=>d.rating!=null&&!isNaN(+d.rating)), avg=rated.length?Math.round(rated.reduce((s,d)=>s+ +d.rating,0)/rated.length):0;
@@ -3891,7 +4295,7 @@ $("#cmdline").addEventListener("keydown",e=>{
     case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 001-ko)"); break } openDoc(normId(m[1],m[2])); break }
     case "find": go("#search"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
-    case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
+    case "list": out(sortedIds().map(k=>SCP[k]).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
     case "history": go("#history"); break;
     case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]} (${LVL_EN[S.level]})\n계급    ${userClass(S.user)}계급\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n열람    ${S.recent.length}건\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${srnd(S.user,2,7)}건의 불일치를 포함합니다.`); break;
     case "fx": toggleFx(); out(`화면 효과 ${FX.on?"활성화":"비활성화"}. (깜빡임·글리치·흔들림)`); break;
