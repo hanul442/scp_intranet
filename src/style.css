@@ -717,6 +717,55 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 @media(max-width:600px){.body.fmt .logbd{grid-template-columns:1fr}.body.fmt .lr .who{max-width:none;padding-bottom:0}.body.fmt .lr .say{padding-left:12px}.body.fmt dl.kvb{grid-template-columns:1fr}.body.fmt dl.kvb dt{border-bottom:0;padding-bottom:0}}
 @media print{.body.fmt .logbox,.body.fmt dl.kvb,.body.fmt .callout{border-color:#999!important;break-inside:avoid}}
 
+/* ─── 문서 종류별 공문서 양식 (32-forms.js) ─── */
+.fhead{border:1px solid var(--line2);background:var(--panel);margin:0 0 14px}
+.fh1{display:flex;align-items:stretch;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}
+.fhead .fname{display:flex;flex-direction:column;justify-content:center;gap:4px;padding:10px 16px;min-width:0}
+.fhead .fcode{font-size:10.5px;letter-spacing:.14em;color:var(--fg3)}
+.fhead .fname b{font-size:19px;letter-spacing:.3em;color:var(--hi);font-weight:600;line-height:1.2}
+.fhead .fno{font-size:11px;color:var(--fg2);letter-spacing:.06em}
+.fhead.f-cp{border-top:0}
+.fhead.f-cp .fh1{border-bottom:0}
+.signs{display:flex;border-left:1px solid var(--line);flex:none}
+.signs .sgh{display:flex;align-items:center;justify-content:center;width:22px;font-size:10.5px;line-height:1.5;color:var(--fg3);border-right:1px solid var(--line);background:var(--bg2);text-align:center}
+.signs .sg{display:flex;flex-direction:column;align-items:center;width:62px;border-right:1px solid var(--line)}
+.signs .sg:last-child{border-right:0}
+.signs .sgr{width:100%;text-align:center;font-size:10.5px;color:var(--fg3);background:var(--bg2);border-bottom:1px solid var(--line);padding:2px 0;letter-spacing:.2em}
+.signs .seal{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin:6px 0 2px;border:2px solid var(--red2);border-radius:50%;color:var(--red2);font-size:10.5px;font-weight:700;letter-spacing:0;line-height:1;opacity:.85;transform:rotate(-8deg);word-break:keep-all;text-align:center}
+.signs .seal.blank{border-style:dashed;opacity:.4}
+.signs .seal.ok{transform:rotate(6deg)}
+.signs .sgd{font-size:9.5px;color:var(--fg3);padding-bottom:4px}
+table.ftab{width:100%;border-collapse:collapse;font-size:12px}
+.ftab th{width:88px;background:var(--bg2);color:var(--fg3);font-weight:400;font-size:11px;letter-spacing:.06em;padding:6px 10px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);text-align:left;vertical-align:top;white-space:nowrap}
+.ftab td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ftab td+th{border-left:1px solid var(--line)}
+.ftab tr:last-child th,.ftab tr:last-child td{border-bottom:0}
+.ftab .fnil{color:var(--fg3);font-size:11px}
+.body.fmt table.ftab{border:1px solid var(--line);margin:0 0 1em;font-size:.95em}
+.body.fmt .ftab th{font-size:.9em}
+.body.fmt .trial{border:1px solid var(--line2);margin:0 0 1.2em;background:var(--panel)}
+.body.fmt .trial .trh{display:flex;align-items:center;gap:10px;padding:6px 12px;border-bottom:1px solid var(--line2);background:var(--bg2)}
+.body.fmt .trial .trn{font-size:11px;color:var(--fg3);letter-spacing:.1em;border:1px solid var(--line2);padding:0 6px}
+.body.fmt .trial .trh b{color:var(--hi);font-weight:600}
+.body.fmt .trial table.ftab{border:0;margin:0}
+.body.fmt .trial .trf{padding:10px 12px 0;border-top:1px solid var(--line)}
+.fend{text-align:center;margin:18px 0 22px;color:var(--fg3)}
+.fend span{display:block;font-size:12px;letter-spacing:.3em}
+.fend small{display:block;font-size:10.5px;margin-top:6px;letter-spacing:.02em}
+body[data-theme=light] .fhead,body[data-theme=light] .body.fmt .trial,body[data-theme=light] .body.fmt table.ftab{border-radius:6px;overflow:hidden}
+body[data-theme=light] .ftab th,body[data-theme=light] .signs .sgr,body[data-theme=light] .signs .sgh{background:#eef2f6}
+@media(max-width:600px){
+  .fh1{flex-direction:column;gap:0}
+  .signs{border-left:0;border-top:1px solid var(--line)}
+  .signs .sg{flex:1;width:auto}
+  .fhead .fname b{font-size:17px;letter-spacing:.35em}
+  table.ftab tr{display:grid;grid-template-columns:80px minmax(0,1fr)}
+  .ftab th,.ftab td{display:block;border-left:0!important;border-right:0}
+  .ftab th:empty,.ftab th:empty+td{display:none}
+  .ftab th{white-space:normal;border-right:1px solid var(--line)}
+}
+@media print{.fhead,.body.fmt .trial,.body.fmt table.ftab{border-color:#999!important;break-inside:avoid}.signs .seal{color:#c00;border-color:#c00}}
+
 /* ─── 조직도 ─── */
 .otree .ohqn{font-size:10px;letter-spacing:.2em;color:var(--fg3);padding:10px 14px 2px}
 .ochart{border:1px solid var(--line);background:var(--panel);padding:18px 14px;margin:14px 0 18px}
