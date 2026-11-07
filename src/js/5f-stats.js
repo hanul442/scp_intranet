@@ -15,7 +15,7 @@ function stats(){
   const classRows=CL.map(([k,l])=>({label:`<i aria-hidden="true">${CLASS_ICON[k]}</i> ${l}`,n:cc[k]||0,pct:pct(cc[k]||0,N),color:`var(--k-${k})`,
     href:["keter","euclid","safe","apollyon"].includes(k)?`#database?c=${k}`:k==="unknown"||k==="neutral"?"#database?c=other":""})).filter(r=>r.n);
   const SR=[["1","시리즈 1",d=>!idNum(d.id)[1]&&idNum(d.id)[0]<1000],["2","시리즈 2",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=1000&&idNum(d.id)[0]<2000],
-            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","국제 지부",d=>!!idNum(d.id)[1]]];
+            ["3","시리즈 3",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=2000&&idNum(d.id)[0]<3000],["x","시리즈 4 이상",d=>!idNum(d.id)[1]&&idNum(d.id)[0]>=3000],["x","한국 지부",d=>!!idNum(d.id)[1]]];
   const serRows=SR.map(([s,l,f])=>{const n=docs.filter(f).length;return {label:l,n,pct:pct(n,N),href:`#database?s=${s}`}}).filter(r=>r.n);
   const tagRows=TOP_TAGS.slice(0,12).map(([t,n])=>({label:esc(t),n,href:`#database?t=${encodeURIComponent(t)}`}));
   const rated=docs.filter(d=>d.rating!=null&&!isNaN(+d.rating)), avg=rated.length?Math.round(rated.reduce((s,d)=>s+ +d.rating,0)/rated.length):0;

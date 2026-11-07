@@ -59,7 +59,7 @@ function dashboard(){
    검색(번호·제목·별명·태그·본문) + 등급 · 시리즈 · 태그 필터 + 정렬 + 50건씩 페이지
    상태는 주소(#database?q=&c=&s=&t=&o=&p=)에 그대로 남아 새로고침·공유가 됨 */
 const DB_PAGE=50;
-const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["x","그 외"]];
+const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["4","시리즈 4 이상 (3000–)"],["ko","한국 지부 (-KO)"],["x","그 외"]];
 const SORTS=[["num","번호순"],["rate","평가 높은순"],["name","이름순"],["recent","최근 열람순"]];
 const TOP_TAGS=(()=>{const c={};for(const d of Object.values(SCP))for(const t of d.tags||[])if(!["안전","유클리드","케테르","아폴리온","타우미엘"].includes(t))c[t]=(c[t]||0)+1;return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,24)})();
 function dbState(params){
@@ -102,9 +102,9 @@ function matchClass(d,c){
 }
 function inSeries(d,s){
   if(s==="all") return true;
-  const [n,sfx]=idNum(d.id); if(sfx) return s==="x";
+  const [n,sfx]=idNum(d.id); if(s==="ko") return sfx==="KO"; if(sfx) return s==="x";
   if(s==="1") return n<1000; if(s==="2") return n>=1000&&n<2000; if(s==="3") return n>=2000&&n<3000;
-  return n>=3000;
+  if(s==="4") return n>=3000; return false;
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
@@ -145,7 +145,7 @@ function dbRows(st){
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
-      <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
+      <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
       <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
