@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from normalize import clean_text, normalize_class  # noqa: E402
+from normalize import class_from_text, clean_text, normalize_class, normalize_doc  # noqa: E402
 
 
 class NormalizeClassTest(unittest.TestCase):
@@ -26,6 +26,34 @@ class NormalizeClassTest(unittest.TestCase):
     def test_empty_and_unknown(self):
         self.assertEqual(normalize_class(""), ("", ""))
         self.assertEqual(normalize_class("●●|●●●●●"), ("", "●●|●●●●●"))
+
+
+class ClassFromTextTest(unittest.TestCase):
+    def test_class_alone_on_line(self):
+        self.assertEqual(class_from_text("일련번호: SCP-018-KO\n\n안전\n\n특수 격리 절차: …"), ("안전", ""))
+
+    def test_acs_secondary(self):
+        t = "일련번호: 233-KO\n\n격리 등급:\n\n난해\n\n2차 등급:\n\n타우미엘\n\n특수 격리 절차: …"
+        self.assertEqual(class_from_text(t), ("타우미엘", "2차 등급"))
+
+    def test_acs_plain(self):
+        self.assertEqual(class_from_text("객체 등급: 식물\n\n격리 등급: 유클리드\n"), ("유클리드", ""))
+
+    def test_esoteric_name(self):
+        self.assertEqual(class_from_text("변칙 등급: 아르콘[1]\n\n특수 격리 절차: …"), ("아르콘", ""))
+        self.assertEqual(class_from_text("등급: 변칙 보류\n"), ("보류", ""))
+
+    def test_tags_fallback(self):
+        self.assertEqual(class_from_text("특수 격리 절차: …", ["ko", "케테르"]), ("케테르", ""))
+        self.assertEqual(class_from_text("특수 격리 절차: …", ["난해한-등급"]), ("난해", ""))
+        self.assertEqual(class_from_text("특수 격리 절차: …", ["안전", "유클리드"]), ("", ""))
+
+    def test_text_beats_tags(self):
+        self.assertEqual(class_from_text("일련번호: SCP-1\n\n케테르\n", ["안전"]), ("케테르", ""))
+
+    def test_normalize_doc_fills_missing_class(self):
+        d = normalize_doc({"object_class": "", "full_text": "일련번호: SCP-1\n\n유클리드\n", "tags": []})
+        self.assertEqual(d["object_class"], "유클리드")
 
 
 class CleanTextTest(unittest.TestCase):
