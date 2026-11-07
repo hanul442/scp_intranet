@@ -1052,3 +1052,31 @@ body[data-theme=light]{--ko:#1d4f9a}
 .rlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:4px 12px;padding:8px 0 4px}
 body[data-theme=light] .xpop{border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
 @media print{.xpop{display:none!important}.xterm{border:0}}
+/* ── 휴대폰 화면 다듬기 ── 줄바꿈 깨짐 · 넘침 · 손가락으로 누르기 쉬운 크기 */
+.badge,td.nw,.topbar .lvl{white-space:nowrap}
+.orgwrap>*{min-width:0}
+.tsearch{display:none}
+.mobnote{display:none;font-size:11px;margin-top:6px}
+@media (max-width:900px){
+  .nav{scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{padding-top:11px;padding-bottom:11px}
+}
+@media (max-width:600px){
+  .tsearch{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;color:var(--fg2);text-decoration:none;font-size:15px}
+  .loginbox{padding:22px 18px}
+  .loginbox .actions{flex-wrap:wrap;gap:10px}
+  .loginbox .actions .btn{white-space:nowrap;flex:1 0 100%;padding:10px 14px}
+  .btn{min-height:36px}
+  .chip,.tagc{min-height:32px;padding:4px 12px}
+  .tb{min-height:32px;padding:4px 10px}
+  .search input{min-width:0;font-size:16px} /* iOS: 16px 미만이면 입력할 때 화면이 확대됨 */
+  .search .btn{flex:0 0 auto}
+  td.nw{font-size:11.5px}
+  .rgrid{grid-template-columns:104px minmax(620px,1fr)}
+  .rname small{display:none}
+  .mobnote{display:block}
+  #fxbtn{display:none} /* 효과 켜기/끄기는 환경 설정에 있음 */
+  table.org th:nth-child(5),table.org td:nth-child(5){display:none}
+}

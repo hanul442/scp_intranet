@@ -19,6 +19,7 @@ function loadChunk(key){
   return BODY_WAIT[key];
 }
 function loadBody(id){ return hasBody(id) ? Promise.resolve() : loadChunk(SCP[id].chunk) }
+function unloadedCount(){ let n=0; for(const k in SCP){ const d=SCP[k]; if(d.chunk&&!d.loaded) n++ } return n }
 /* 아직 안 불러온 본문을 전부 (전문 검색용). onProgress(완료, 전체) */
 async function loadAllBodies(onProgress){
   const keys=[...new Set(Object.values(SCP).filter(d=>d.chunk&&!d.loaded).map(d=>d.chunk))];
@@ -49,8 +50,35 @@ function reqLevel(c){
 }
 /* 문서 ID: SCP-173, SCP-001-KO 등 */
 function normId(num, suffix){ return "SCP-"+String(num).padStart(3,"0")+(suffix?"-"+suffix.replace(/^-/,"").toUpperCase():"") }
-function idNum(id){ const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); return m?[+m[1],m[2]||""]:[1e9,""] }
-function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.localeCompare(ys) }
+/* 번호 해석은 정렬·필터에서 문서 수천 건 × 여러 번 불리므로 결과를 기억해 둠 */
+const ID_NUM=new Map();
+function idNum(id){
+  let v=ID_NUM.get(id); if(v) return v;
+  const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); v=m?[+m[1],m[2]||""]:[1e9,""];
+  ID_NUM.set(id,v); return v;
+}
+function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || (xs===ys?0:xs<ys?-1:1) }
+/* 번호순 전체 목록 (문서 목록은 불러온 뒤 바뀌지 않음) */
+let SORTED_IDS=null;
+function sortedIds(){ return SORTED_IDS||(SORTED_IDS=Object.keys(SCP).sort(byId)) }
+/* 한글 이름 정렬용 (localeCompare 를 매번 부르면 느림) */
+const KO_COLL=new Intl.Collator("ko");
+/* 검색: 영문이 없는 검색어(한글·숫자)는 대소문자 변환 없이 바로 찾고,
+   영문이 있으면 소문자로 바꾼 본문을 문서마다 한 번만 만들어 둠 */
+const LC_TEXT=new WeakMap();
+function textAt(d, ql){
+  const t=d.full_text; if(!t) return -1;
+  if(ql===ql.toUpperCase()) return t.indexOf(ql); // 대소문자가 없는 글자뿐
+  let lc=LC_TEXT.get(d); if(lc==null){ lc=t.toLowerCase(); LC_TEXT.set(d,lc) }
+  return lc.indexOf(ql);
+}
+/* 번호 · 제목 · 별명 · 태그 · 등급을 합친 소문자 문자열 (목록 검색용) */
+const META_LC=new WeakMap();
+function metaText(d){
+  let m=META_LC.get(d);
+  if(m==null){ m=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+(d.object_class||"")).toLowerCase(); META_LC.set(d,m) }
+  return m;
+}
 /* 표시용 이름: 시리즈 목록의 별칭 → 없으면 제목에서 번호를 뗀 것 */
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
 /* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */

@@ -1060,6 +1060,34 @@ body[data-theme=light]{--ko:#1d4f9a}
 .rlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:4px 12px;padding:8px 0 4px}
 body[data-theme=light] .xpop{border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
 @media print{.xpop{display:none!important}.xterm{border:0}}
+/* ── 휴대폰 화면 다듬기 ── 줄바꿈 깨짐 · 넘침 · 손가락으로 누르기 쉬운 크기 */
+.badge,td.nw,.topbar .lvl{white-space:nowrap}
+.orgwrap>*{min-width:0}
+.tsearch{display:none}
+.mobnote{display:none;font-size:11px;margin-top:6px}
+@media (max-width:900px){
+  .nav{scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{padding-top:11px;padding-bottom:11px}
+}
+@media (max-width:600px){
+  .tsearch{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;color:var(--fg2);text-decoration:none;font-size:15px}
+  .loginbox{padding:22px 18px}
+  .loginbox .actions{flex-wrap:wrap;gap:10px}
+  .loginbox .actions .btn{white-space:nowrap;flex:1 0 100%;padding:10px 14px}
+  .btn{min-height:36px}
+  .chip,.tagc{min-height:32px;padding:4px 12px}
+  .tb{min-height:32px;padding:4px 10px}
+  .search input{min-width:0;font-size:16px} /* iOS: 16px 미만이면 입력할 때 화면이 확대됨 */
+  .search .btn{flex:0 0 auto}
+  td.nw{font-size:11.5px}
+  .rgrid{grid-template-columns:104px minmax(620px,1fr)}
+  .rname small{display:none}
+  .mobnote{display:block}
+  #fxbtn{display:none} /* 효과 켜기/끄기는 환경 설정에 있음 */
+  table.org th:nth-child(5),table.org td:nth-child(5){display:none}
+}
 
 </style>
 </head>
@@ -1094,6 +1122,7 @@ body[data-theme=light] .xpop{border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,
     <span class="alert" id="topalert">▲ 격리 실패 경보 — 구역 7</span>
     <span class="sp"></span>
     <form id="gsearch" class="gsearch" role="search"><label for="gq" class="sr">통합 검색</label><input id="gq" name="q" type="search" placeholder="통합 검색  Ctrl+K" autocomplete="off" spellcheck="false"></form>
+    <a class="tsearch" href="#search" aria-label="통합 검색" title="통합 검색">검색</a>
     <button type="button" class="audio-btn bell" id="bell" aria-label="알림" aria-expanded="false" aria-controls="notipanel">알림 <span id="belln" class="amber"></span></button>
     <a id="who" class="dim" href="#settings" title="환경 설정"></a>
     <span class="lvl" id="lvl"></span>
@@ -1190,6 +1219,7 @@ function loadChunk(key){
   return BODY_WAIT[key];
 }
 function loadBody(id){ return hasBody(id) ? Promise.resolve() : loadChunk(SCP[id].chunk) }
+function unloadedCount(){ let n=0; for(const k in SCP){ const d=SCP[k]; if(d.chunk&&!d.loaded) n++ } return n }
 /* 아직 안 불러온 본문을 전부 (전문 검색용). onProgress(완료, 전체) */
 async function loadAllBodies(onProgress){
   const keys=[...new Set(Object.values(SCP).filter(d=>d.chunk&&!d.loaded).map(d=>d.chunk))];
@@ -1220,8 +1250,35 @@ function reqLevel(c){
 }
 /* 문서 ID: SCP-173, SCP-001-KO 등 */
 function normId(num, suffix){ return "SCP-"+String(num).padStart(3,"0")+(suffix?"-"+suffix.replace(/^-/,"").toUpperCase():"") }
-function idNum(id){ const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); return m?[+m[1],m[2]||""]:[1e9,""] }
-function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || xs.localeCompare(ys) }
+/* 번호 해석은 정렬·필터에서 문서 수천 건 × 여러 번 불리므로 결과를 기억해 둠 */
+const ID_NUM=new Map();
+function idNum(id){
+  let v=ID_NUM.get(id); if(v) return v;
+  const m=id.match(/^SCP-(\d+)(?:-([A-Z]+))?/); v=m?[+m[1],m[2]||""]:[1e9,""];
+  ID_NUM.set(id,v); return v;
+}
+function byId(a,b){ const [x,xs]=idNum(a),[y,ys]=idNum(b); return x-y || (xs===ys?0:xs<ys?-1:1) }
+/* 번호순 전체 목록 (문서 목록은 불러온 뒤 바뀌지 않음) */
+let SORTED_IDS=null;
+function sortedIds(){ return SORTED_IDS||(SORTED_IDS=Object.keys(SCP).sort(byId)) }
+/* 한글 이름 정렬용 (localeCompare 를 매번 부르면 느림) */
+const KO_COLL=new Intl.Collator("ko");
+/* 검색: 영문이 없는 검색어(한글·숫자)는 대소문자 변환 없이 바로 찾고,
+   영문이 있으면 소문자로 바꾼 본문을 문서마다 한 번만 만들어 둠 */
+const LC_TEXT=new WeakMap();
+function textAt(d, ql){
+  const t=d.full_text; if(!t) return -1;
+  if(ql===ql.toUpperCase()) return t.indexOf(ql); // 대소문자가 없는 글자뿐
+  let lc=LC_TEXT.get(d); if(lc==null){ lc=t.toLowerCase(); LC_TEXT.set(d,lc) }
+  return lc.indexOf(ql);
+}
+/* 번호 · 제목 · 별명 · 태그 · 등급을 합친 소문자 문자열 (목록 검색용) */
+const META_LC=new WeakMap();
+function metaText(d){
+  let m=META_LC.get(d);
+  if(m==null){ m=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+(d.object_class||"")).toLowerCase(); META_LC.set(d,m) }
+  return m;
+}
 /* 표시용 이름: 시리즈 목록의 별칭 → 없으면 제목에서 번호를 뗀 것 */
 function docName(d){ const t=(d.nickname||(d.title||"").replace(/^SCP-[\w-]+\s*[-–—:]?\s*/,"")).trim(); return t&&t!==d.id?t:"" }
 /* 등급 아이콘 · 보안 등급 표기 — 문서를 한눈에 구분하기 위함 */
@@ -1398,7 +1455,12 @@ function route(){
 }
 /* 브라우저 탭 제목: 화면 이름 — SCiPNET (탭 구분 · 화면 낭독기용) */
 function setTitle(t){ document.title=(t?t+" — ":"")+"SCiPNET // SITE-19" }
-function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
+function setNav(v){
+  document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") });
+  // 휴대폰: 메뉴가 가로 한 줄로 바뀌므로 지금 화면의 탭이 보이도록 메뉴만 옆으로 스크롤
+  const nav=document.querySelector(".nav"), on=nav&&nav.querySelector("a.on");
+  if(on && nav.scrollWidth>nav.clientWidth){ const l=on.offsetLeft-(nav.clientWidth-on.offsetWidth)/2; nav.scrollTo({left:Math.max(0,l)}) }
+}
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
@@ -1524,20 +1586,31 @@ function inSeries(d,s){
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
-  for(const d of Object.values(SCP)){
+  const qn=/^\d+$/.test(ql)?"scp-"+ql.padStart(3,"0"):""; // "173" → "scp-173"
+  for(const id of sortedIds()){ const d=SCP[id];
     if(!matchClass(d,st.c) || !inSeries(d,st.s) || (st.t && !(d.tags||[]).includes(st.t))) continue;
     if(!ql){ hits.push({d}); continue }
-    const meta=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+d.object_class).toLowerCase();
-    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,m=>"scp-"+m.padStart(3,"0")))){ hits.push({d}); continue }
+    const meta=metaText(d);
+    if(meta.includes(ql) || (qn && meta.includes(qn))){ hits.push({d}); continue }
     // 본문 검색: 본문을 불러온 문서만
-    const i=(d.full_text||"").toLowerCase().indexOf(ql);
+    const i=textAt(d,ql);
     if(i>=0) hits.push({d, at:i});
   }
-  const name=d=>docName(d)||"\uffff";
   const rec=id=>{const i=S.recent.indexOf(id);return i<0?1e9:i};
-  const cmp={num:(a,b)=>byId(a.d.id,b.d.id), rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
-    name:(a,b)=>name(a.d).localeCompare(name(b.d),"ko")||byId(a.d.id,b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
+  if(st.o==="num"||!SORTS.some(x=>x[0]===st.o)) return hits; // 이미 번호순
+  const cmp={rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
+    name:(a,b)=>nameRank(a.d.id)-nameRank(b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
   return hits.sort(cmp);
+}
+/* 이름순 순위: 처음 한 번만 정렬해 두고 재사용 (이름 없는 문서는 뒤로, 같은 이름은 번호순) */
+let NAME_RANK=null;
+function nameRank(id){
+  if(!NAME_RANK){
+    const L=sortedIds().map(k=>[k,docName(SCP[k])]);
+    const named=L.filter(x=>x[1]).sort((a,b)=>KO_COLL.compare(a[1],b[1])||byId(a[0],b[0]));
+    NAME_RANK=new Map([...named,...L.filter(x=>!x[1])].map((x,i)=>[x[0],i]));
+  }
+  return NAME_RANK.get(id)??1e9;
 }
 function pager(cur,total,hrefFor){
   if(total<=1) return "";
@@ -1549,8 +1622,8 @@ function pager(cur,total,hrefFor){
 function dbRows(st){
   const ql=st.q.trim();
   const hits=dbHits(st), pages=Math.max(1,Math.ceil(hits.length/DB_PAGE)), cur=Math.min(st.p,pages);
-  const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
-  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  const unloaded=ql?unloadedCount():0;
+  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button><div class="dim2 mobnote">본문 전체는 용량이 큽니다. 휴대폰에서는 Wi-Fi 연결을 권장합니다.</div></div>`:"";
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
@@ -1760,7 +1833,7 @@ function docTools(id){
     <button type="button" class="tb" data-dt="print" title="인쇄 (출력 기록이 남습니다)">인쇄</button></div>`;
 }
 function docPN(id){
-  const ids=Object.keys(SCP).sort(byId), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
+  const ids=sortedIds(), i=ids.indexOf(id), p=ids[i-1], n=ids[i+1];
   const lab=k=>`${k}${docName(SCP[k])?" "+esc(docName(SCP[k])):""}`;
   return `<div class="pn docpn"><span>${p?`<a href="#${p.toLowerCase()}" title="이전 문서">‹ ${lab(p)}</a>`:""}</span><span>${n?`<a href="#${n.toLowerCase()}" title="다음 문서">${lab(n)} ›</a>`:""}</span></div>`;
 }
@@ -2339,7 +2412,7 @@ function incidents(){
   return `<h2 class="ph">사건 <span>기록</span> · SITE-19</h2>
   <table><tr><th>일시</th><th>관련 항목</th><th class="hm">분류</th><th>요약</th><th class="hm">상태</th></tr>
   ${rows.map(([n,s,t,sum,st])=>{ const href=SCP[s]?"#"+s.toLowerCase():"";
-    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim">${daysAgo(n)}</td><td>${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
+    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim nw">${daysAgo(n)}</td><td class="nw">${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
   </table>
   <p class="dim2" style="margin-top:14px;font-size:11px">Level 3 미만 인원에게는 지난 60일 기록만 표시됩니다. 그 이전에는 아무 일도 없었습니다.</p>`;
 }
@@ -2703,12 +2776,17 @@ function apprState(a){
   return {steps, status, why, end:steps[steps.length-1].t};
 }
 /* 승인된 열람 권한: 승인 시각부터 24시간 */
-function grantUntil(id){
-  let best=0;
-  for(const a of apprList()){ if(a.type!=="access"||a.id!==id) continue;
-    const s=apprState(a); if(s.status==="완료") best=Math.max(best, s.end+86400000) }
-  return best>Date.now()?best:0;
+/* 목록·통계에서 문서마다 불리므로, 결재 기록을 읽어 만든 표를 잠깐(1초) 재사용 */
+let GRANTS={at:0,user:"",map:null};
+function grantMap(){
+  const now=Date.now();
+  if(GRANTS.map && GRANTS.user===S.user && now-GRANTS.at<1000) return GRANTS.map;
+  const map={};
+  for(const a of apprList()){ if(a.type!=="access") continue;
+    const s=apprState(a); if(s.status==="완료") map[a.id]=Math.max(map[a.id]||0, s.end+86400000) }
+  GRANTS={at:now,user:S.user,map}; return map;
 }
+function grantUntil(id){ const best=grantMap()[id]||0; return best>Date.now()?best:0 }
 /* 문서 열람에 쓰이는 실제 권한 (임시 권한 포함) */
 function lvlFor(id){ const d=SCP[id]; if(!d) return S.level; return grantUntil(id)?Math.max(S.level,reqLevel(d.object_class)):S.level }
 
@@ -3205,7 +3283,7 @@ function search(qs){
   if(!q) return head+`<div class="empty">검색어를 입력하십시오.<br><span class="dim2">상단 검색창이나 커맨드라인 <kbd>find 검색어</kbd> 로도 검색할 수 있습니다.</span></div>`;
   const has=s=>String(s||"").toLowerCase().includes(ql);
   const strip=s=>String(s).replace(/<[^>]+>/g,"");
-  const docs=Object.values(SCP).filter(d=>has(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" "))||(lvlFor(d.id)>=reqLevel(d.object_class)&&has(d.full_text))).sort((a,b)=>byId(a.id,b.id));
+  const docs=sortedIds().map(k=>SCP[k]).filter(d=>metaText(d).includes(ql)||(d.full_text&&textAt(d,ql)>=0&&lvlFor(d.id)>=reqLevel(d.object_class)));
   const posts=[...BOARD.map(b=>({href:`#board?no=${b[0]}`,t:b[2],s:b[6],m:`공지 · ${b[3]}`})),...freePosts().map(p=>({href:`#board?tab=free&no=${p.no}`,t:p.title,s:p.body,m:`자유게시판 · ${p.user}`}))].filter(p=>has(p.t)||has(p.s));
   const arcs=ARCHIVE.map((r,i)=>({i,r})).filter(({r})=>has(r[1])||has(r[4]));
   const ppl=DIR.filter(r=>has(strip(r.join(" "))));
@@ -3486,7 +3564,7 @@ function attendance(qs){
     let st=r?(r.out||k!==today()?"정상":"근무 중"):lv.has(k)?"연차":(wd===0||wd===6)?"휴일":k>today()?"":k===today()?"미출근":"—";
     if(isLate(r)) st="지각"; if(r&&w>DAY_MIN+60) st+=" · 연장";
     return `<tr class="${k===today()?"tday":""} ${wd===0||wd===6?"wkend":""}"><td>${k.slice(5)} (${["일","월","화","수","목","금","토"][wd]})</td><td>${r?hm(r.in):"—"}</td><td>${r&&r.out?hm(r.out):"—"}</td><td>${dur(w)}</td>
-      <td><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
+      <td class="hm"><span class="bar"><i style="width:${Math.min(100,w/(DAY_MIN+120)*100)}%" class="${w>DAY_MIN+60?"ot":""}"></i></span></td><td class="${st.startsWith("지각")?"amber":st==="연차"?"cyan":st==="미출근"?"red":"dim"}">${st}${r&&r.seed?' <span class="dim2" title="단말 로그 기준 자동 집계">·</span>':""}</td></tr>`;
   }).join("");
   const year=today().slice(0,4), used=[...lv].filter(k=>k.startsWith(year)).length;
   const r=store.get(attKey(),{})[today()]||{};
@@ -4255,7 +4333,7 @@ $("#cmdline").addEventListener("keydown",e=>{
     case "open": { const m=arg.match(/(\d{1,4})(?:\s*-?\s*([a-z]{2,3}))?/i); if(!m){ out("사용법: open <번호>  (예: open 173, open 001-ko)"); break } openDoc(normId(m[1],m[2])); break }
     case "find": go("#search"+(arg?"?q="+encodeURIComponent(arg):"")); break;
     case "search": go("#database"+(arg?"?q="+encodeURIComponent(arg):"")); break;
-    case "list": out(Object.values(SCP).sort((a,b)=>byId(a.id,b.id)).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
+    case "list": out(sortedIds().map(k=>SCP[k]).map(d=>`${d.id.padEnd(12)} ${(d.object_class||"[데이터 말소]").padEnd(8)} ${docName(d)}`).join("\n")); break;
     case "history": go("#history"); break;
     case "whoami": out(`사용자  ${S.user}\n권한    ${LVL_NAME[S.level]} (${LVL_EN[S.level]})\n계급    ${userClass(S.user)}계급\n세션    ${$("#sess").textContent}\n위반    ${S.denied}회\n열람    ${S.recent.length}건\n단말    SITE-19 NODE 0x3F1A\n\n참고: 귀하의 인사 기록은 ${srnd(S.user,2,7)}건의 불일치를 포함합니다.`); break;
     case "fx": toggleFx(); out(`화면 효과 ${FX.on?"활성화":"비활성화"}. (깜빡임·글리치·흔들림)`); break;

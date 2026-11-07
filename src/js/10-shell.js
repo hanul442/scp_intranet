@@ -117,7 +117,12 @@ function route(){
 }
 /* 브라우저 탭 제목: 화면 이름 — SCiPNET (탭 구분 · 화면 낭독기용) */
 function setTitle(t){ document.title=(t?t+" — ":"")+"SCiPNET // SITE-19" }
-function setNav(v){ document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") }) }
+function setNav(v){
+  document.querySelectorAll(".nav a,.gnb a").forEach(a=>{ const on=a.dataset.v===v; a.classList.toggle("on",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current") });
+  // 휴대폰: 메뉴가 가로 한 줄로 바뀌므로 지금 화면의 탭이 보이도록 메뉴만 옆으로 스크롤
+  const nav=document.querySelector(".nav"), on=nav&&nav.querySelector("a.on");
+  if(on && nav.scrollWidth>nav.clientWidth){ const l=on.offsetLeft-(nav.clientWidth-on.offsetWidth)/2; nav.scrollTo({left:Math.max(0,l)}) }
+}
 function go(hash){ if(location.hash===hash) route(); else location.hash=hash }
 function openDoc(id){ go("#"+id.toLowerCase()) }
 function openSub(id, idx){ go("#"+id.toLowerCase()+"/"+idx) }
