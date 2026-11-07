@@ -59,6 +59,51 @@ def count_subs(d):
 
 
 
+# src/js/30-document.js 의 linkRefs 와 같은 규칙 — 본문에 나오는 SCP 번호
+REF_RE = re.compile(r"SCP-(\d{3,4})(-[A-Z]{2,3}(?![A-Za-z]))?(?!\d)")
+BACKLINK_MAX = 40
+
+
+def norm_id(num, sfx):
+    return "SCP-" + num.zfill(3) + ("-" + sfx.lstrip("-").upper() if sfx else "")
+
+
+def add_backlinks(raw):
+    """문서마다 '이 문서를 언급한 문서' 목록(bl)을 만든다. 본문은 열 때 불러오므로 미리 계산해 둠"""
+    back = {}
+    for k, v in raw.items():
+        for n, sfx in set(REF_RE.findall(v.get("full_text") or "")):
+            t = norm_id(n, sfx)
+            if t != k and t in raw:
+                back.setdefault(t, set()).add(k)
+    return {k: sorted(v, key=lambda x: (-(raw[x].get("rating") or 0), x))[:BACKLINK_MAX] for k, v in back.items()}
+
+
+XTERM_TOP = 6
+
+
+def term_key(t, m):
+    """용어 key 의 $1/$2 를 잡힌 그룹으로 채움 (JS termKey 와 같은 규칙)"""
+    g = [x for x in m.groups() if x is not None]
+    return re.sub(r"\$(\d)", lambda a: g[int(a.group(1)) - 1] if len(g) >= int(a.group(1)) else "", t)
+
+
+def term_docs(raw, terms):
+    """용어마다 [등장 문서 수, 평가 높은 문서 몇 건] — 본문 링크에 띄우는 미리보기용"""
+    pats = [(t, re.compile(t["re"])) for t in terms]
+    hits = {}
+    for k, v in raw.items():
+        text = v.get("full_text") or ""
+        keys = {term_key(t["k"], m) for t, p in pats for m in p.finditer(text)}
+        for key in keys:
+            hits.setdefault(key, []).append(k)
+    out = {}
+    for key, ids in hits.items():
+        ids.sort(key=lambda x: (-(raw[x].get("rating") or 0), x))
+        out[key] = [len(ids)] + ids[:XTERM_TOP]
+    return out
+
+
 def js_data(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
@@ -66,8 +111,11 @@ def js_data(obj):
 def build():
     raw = store.load()
     index, chunks = {}, {}
+    backlinks = add_backlinks(raw)
     for k, v in sorted(raw.items()):
         d = normalize_doc(v)
+        if k in backlinks:
+            d["bl"] = backlinks[k]
         key = chunk_key(k)
         d["subs"] = count_subs(d)
         d["chunk"] = key
@@ -86,6 +134,8 @@ def build():
     if "</script" in js.lower():
         sys.exit("src/js 안에 '</script' 문자열이 있으면 인라인할 수 없습니다.")
     js = js.replace("/*__SCP_DATA__*/", js_data(index))
+    terms = json.loads((root / "data/xterms.json").read_text(encoding="utf-8"))["terms"]
+    js = js.replace("/*__XTERMS__*/", js_data({"terms": terms, "docs": term_docs(raw, terms)}))
     lore = json.loads((root / "data/lore.json").read_text(encoding="utf-8"))["pages"]
     rules = next(p for p in lore if p["slug"] == "security-clearance-levels")
     js = js.replace("/*__LORE_RULES__*/", js_data(rules))
