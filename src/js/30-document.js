@@ -60,7 +60,7 @@ function docCover(d, need, {masked=false, sub=null}={}){
   const br=branchOf(d.id);
   if(br) rows.splice(1,0,[cell("소속 지부",`<b class="brname">${br.name}</b> <span class="dim2">(${br.code})</span>`),cell("담당 기지",siteCell(d,masked))]);
   return `<div class="cover k-${k}${br?" br-"+br.code.toLowerCase():""}">
-    <div class="ctop">${EMBLEM}<div><b>SCP 재단${br?" "+br.name:""}</b><span>${sub?"부록 문서 · "+esc(sub):"특수 격리 절차 문서"}${br?" · "+br.en:""}</span></div>${br?branchSeal(br):""}<div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
+    <div class="ctop">${EMBLEM}<div><b>SCP 재단${br?" "+br.name:""}</b><span>${sub?FORMS[formKind(sub)].name+" · "+esc(sub):"특수 격리 절차 문서"}${br?" · "+br.en:""}</span></div>${br?branchSeal(br):""}<div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
     <h1 class="ctitle">${sub?esc(sub):d.id}${!sub&&docName(d)?`<small>${esc(docName(d))}</small>`:sub?`<small>${d.id}${docName(d)?" · "+esc(docName(d)):""}</small>`:""}</h1>
     <table class="cinfo">${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}${(d.tags||[]).length&&!masked?`<tr><th>태그</th><td colspan="3" class="dim">${d.tags.filter(t=>t!==d.object_class).slice(0,8).map(t=>`<a class="tagl" href="#database?t=${encodeURIComponent(t)}">#${esc(t)}</a>`).join(" ")}</td></tr>`:""}</table>
   </div>`;
@@ -88,7 +88,7 @@ function showSub(id, idx){
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
-  <div class="sec"><h4 class="subt">${esc(s.title)}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}</div></div>
+  ${subForm(d,s,linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}
   ${subsBox(d,idx)}${nav}${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
@@ -123,6 +123,7 @@ function showDoc(id){
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
   <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}
     ${docCover(d,need)}
+    ${cpHead(d)}
     ${docInfo(d,need,sd)}
     ${docTools(id)}
     ${resumeBar(id)}
@@ -130,6 +131,7 @@ function showDoc(id){
     <div class="meta"><span>열람자 ${esc(S.user)} · ${now().slice(0,16)}</span></div>
     ${docToc(sections,d)}
     ${sections.map(([h,t],i)=>`<div class="sec"><h4><i>${i+1}.</i> ${h}</h4><div class="body fmt">${fmtBody(linkRefs(markQuotes(markDM(redactWords(t,id+h,ratio))),id))}</div></div>`).join("")}
+    ${formEnd("cp")}
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
