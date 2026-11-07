@@ -12,7 +12,7 @@ function logHistory(key){
 function docToc(sections, d){
   const subs=splitDoc(d).subs;
   if(sections.length+subs.length<3) return "";
-  return `<nav class="toc" aria-label="목차"><b>목차</b><ol>${sections.map(([h],i)=>`<li><button type="button" data-toc="${i}">${esc(h)}</button></li>`).join("")}${subs.length?`<li><button type="button" data-toc="subs">부록 ${subs.length}건</button></li>`:""}<li><button type="button" data-toc="similar">비슷한 문서</button></li></ol></nav>`;
+  return `<nav class="toc" aria-label="목차"><b>목차</b><ol>${sections.map(([h],i)=>`<li><button type="button" data-toc="${i}">${esc(h)}</button></li>`).join("")}${subs.length?`<li><button type="button" data-toc="subs">부록 ${subs.length}건</button></li>`:""}<li><button type="button" data-toc="similar">관련 문서</button></li></ol></nav>`;
 }
 document.addEventListener("click",e=>{
   const b=e.target.closest("[data-toc]"); if(!b) return;

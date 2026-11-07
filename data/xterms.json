@@ -1,0 +1,355 @@
+{
+ "_doc": "본문 자동 링크 용어 — src/js/32-xlink.js, build.py 공용. re 는 JS/Python 공통 문법, $1/$2 는 첫 번째로 잡힌 그룹",
+ "terms": [
+  {
+   "k": "dept:o5",
+   "t": "O5 평의회",
+   "kind": "부서",
+   "re": "(?<![가-힣A-Za-z])O5\\s?평의회|(?<![가-힣A-Za-z])O5-(?:\\d{1,2}(?!\\d)|█+)",
+   "href": "#o5",
+   "desc": "재단 최고 의결 기구. 열세 명의 평의원(O5-1 ~ O5-13)으로 이루어지며, 평의원의 신원은 5등급 기밀이다."
+  },
+  {
+   "k": "dept:ethics",
+   "t": "윤리위원회",
+   "kind": "부서",
+   "re": "윤리\\s?위원회",
+   "href": "#regs?p=about-the-scp-foundation",
+   "desc": "재단 활동이 윤리적으로 타당한지 심사하는 감독 기구. 실험 승인·종결 명령 등에 이의를 제기할 수 있다."
+  },
+  {
+   "k": "dept:raisa",
+   "t": "RAISA",
+   "kind": "부서",
+   "re": "(?<![가-힣A-Za-z])RAISA(?![A-Za-z])|기록정보보안관리국",
+   "href": "#org?d=RAISA%20%EB%B6%84%EC%86%8C",
+   "desc": "기록정보보안관리국(Records and Information Security Administration). 문서 등급, 열람 기록, 보안 인가 심사를 맡는다. 본 기지에는 분소가 있다."
+  },
+  {
+   "k": "dept:antimeme",
+   "t": "반밈과",
+   "kind": "부서",
+   "re": "반밈과|반밈\\s?부서",
+   "href": "#scp-3125",
+   "desc": "반밈(인지·기억에서 스스로를 지우는) 현상을 다루는 부서. 존재 자체가 잘 기억되지 않는다."
+  },
+  {
+   "k": "dept:pata",
+   "t": "파타피직스과",
+   "kind": "부서",
+   "re": "파타피직스\\s?(?:과|부서)",
+   "href": "#regs?p=about-the-scp-foundation",
+   "desc": "서사·작가 개념과 관련된 이상 현상을 연구하는 부서."
+  },
+  {
+   "k": "dept:legal",
+   "t": "재단 법무부",
+   "kind": "부서",
+   "re": "재단\\s?법무부",
+   "href": "#regs?p=about-the-scp-foundation",
+   "desc": "재단 내부의 법률 문제, 각국 정부와의 협약, 직원 계약을 다루는 부서."
+  },
+  {
+   "k": "dept:mtf",
+   "t": "기동특무부대",
+   "kind": "부서",
+   "re": "기동특무부대\\s?사령부",
+   "href": "#regs?p=task-forces",
+   "desc": "특정 위협에 대응하도록 여러 기지에서 모은 정예 부대."
+  },
+  {
+   "k": "site19:보안부",
+   "t": "보안부",
+   "kind": "본 기지 부서",
+   "re": "(?<![가-힣A-Za-z])보안부(?!서)",
+   "href": "#org?d=%EB%B3%B4%EC%95%88%EB%B6%80"
+  },
+  {
+   "k": "site19:의무실",
+   "t": "의무실",
+   "kind": "본 기지 부서",
+   "re": "(?<![가-힣A-Za-z])의무실",
+   "href": "#org?d=%EC%9D%98%EB%AC%B4%EC%8B%A4"
+  },
+  {
+   "k": "site19:전산팀",
+   "t": "전산팀",
+   "kind": "본 기지 부서",
+   "re": "(?<![가-힣A-Za-z])전산팀",
+   "href": "#org?d=%EC%A0%84%EC%82%B0%ED%8C%80"
+  },
+  {
+   "k": "site19:인사관리과",
+   "t": "인사부",
+   "kind": "본 기지 부서",
+   "re": "(?<![가-힣A-Za-z])인사(?:관리)?(?:부|과)(?!서)",
+   "href": "#org?d=%EC%9D%B8%EC%82%AC%EA%B4%80%EB%A6%AC%EA%B3%BC"
+  },
+  {
+   "k": "cls:$1",
+   "t": "$1계급",
+   "kind": "인원 계급",
+   "re": "(?<![A-Za-z])([A-E])\\s?계급",
+   "href": "#regs?q=$1%EA%B3%84%EA%B8%89"
+  },
+  {
+   "k": "site:$1",
+   "t": "제$1기지",
+   "kind": "기지",
+   "re": "제\\s?0*(\\d{1,3})\\s?(?:[가-힣]{0,10}?)기지|(?<![A-Za-z가-힣])(?:기지|Site|SITE)-0*(\\d{1,3})(?!\\d)",
+   "href": "#regs?p=secure-facilities-locations&s=$1"
+  },
+  {
+   "k": "mtf:$1-$2",
+   "t": "기동특무부대 $1-$2",
+   "kind": "기동특무부대",
+   "re": "(?:기동특무부대|MTF)\\s?([가-힣]{1,4}?)\\s?[-–]\\s?(\\d{1,3})(?!\\d)",
+   "href": "#regs?p=task-forces&s=$1-$2%20("
+  },
+  {
+   "k": "goi:혼돈의 반란",
+   "t": "혼돈의 반란",
+   "kind": "요주의 단체",
+   "re": "혼돈의 반란",
+   "href": "#regs?p=groups-of-interest&s=혼돈의 반란"
+  },
+  {
+   "k": "goi:세계 오컬트 연합",
+   "t": "세계 오컬트 연합",
+   "kind": "요주의 단체",
+   "re": "세계 오컬트 연합|(?<![가-힣A-Za-z])GOC(?![A-Za-z])",
+   "href": "#regs?p=groups-of-interest&s=세계 오컬트 연합"
+  },
+  {
+   "k": "goi:뱀의 손",
+   "t": "뱀의 손",
+   "kind": "요주의 단체",
+   "re": "뱀의 손",
+   "href": "#regs?p=groups-of-interest&s=뱀의 손"
+  },
+  {
+   "k": "goi:부서진 신의 교회",
+   "t": "부서진 신의 교회",
+   "kind": "요주의 단체",
+   "re": "부서진 신의 교회",
+   "href": "#regs?p=groups-of-interest&s=부서진 신의 교회"
+  },
+  {
+   "k": "goi:원더테인먼트 박사",
+   "t": "원더테인먼트 박사",
+   "kind": "요주의 단체",
+   "re": "원더테인먼트 박사",
+   "href": "#regs?p=groups-of-interest&s=원더테인먼트 박사"
+  },
+  {
+   "k": "goi:마셜, 카터",
+   "t": "마셜, 카터",
+   "kind": "요주의 단체",
+   "re": "마셜, 카터",
+   "href": "#regs?p=groups-of-interest&s=마셜, 카터"
+  },
+  {
+   "k": "goi:주홍왕의 아이들",
+   "t": "주홍왕의 아이들",
+   "kind": "요주의 단체",
+   "re": "주홍왕의 아이들",
+   "href": "#regs?p=groups-of-interest&s=주홍왕의 아이들"
+  },
+  {
+   "k": "goi:사르킥",
+   "t": "사르킥",
+   "kind": "요주의 단체",
+   "re": "사르킥",
+   "href": "#regs?p=groups-of-interest&s=사르킥"
+  },
+  {
+   "k": "goi:특이사건반",
+   "t": "특이사건반",
+   "kind": "요주의 단체",
+   "re": "연방수사국 특이사건반|(?<![가-힣A-Za-z])UIU(?![A-Za-z])",
+   "href": "#regs?p=groups-of-interest&s=특이사건반"
+  },
+  {
+   "k": "goi:지평선 구상",
+   "t": "지평선 구상",
+   "kind": "요주의 단체",
+   "re": "지평선 구상",
+   "href": "#regs?p=groups-of-interest&s=지평선 구상"
+  },
+  {
+   "k": "goi:프로메테우스 연구소",
+   "t": "프로메테우스 연구소",
+   "kind": "요주의 단체",
+   "re": "프로메테우스 연구소",
+   "href": "#regs?p=groups-of-interest&s=프로메테우스 연구소"
+  },
+  {
+   "k": "goi:앤더슨 로보틱스",
+   "t": "앤더슨 로보틱스",
+   "kind": "요주의 단체",
+   "re": "앤더슨 로보틱스",
+   "href": "#regs?p=groups-of-interest&s=앤더슨 로보틱스"
+  },
+  {
+   "k": "goi:알렉실바 대학",
+   "t": "알렉실바 대학",
+   "kind": "요주의 단체",
+   "re": "알렉실바 대학",
+   "href": "#regs?p=groups-of-interest&s=알렉실바 대학"
+  },
+  {
+   "k": "goi:오네이로이 공동체",
+   "t": "오네이로이 공동체",
+   "kind": "요주의 단체",
+   "re": "오네이로이 공동체",
+   "href": "#regs?p=groups-of-interest&s=오네이로이 공동체"
+  },
+  {
+   "k": "goi:파라워치",
+   "t": "파라워치",
+   "kind": "요주의 단체",
+   "re": "파라워치",
+   "href": "#regs?p=groups-of-interest&s=파라워치"
+  },
+  {
+   "k": "goi:권사단",
+   "t": "권사단",
+   "kind": "요주의 단체",
+   "re": "권사단",
+   "href": "#regs?p=groups-of-interest&s=권사단"
+  },
+  {
+   "k": "goi:삼중달 구상",
+   "t": "삼중달 구상",
+   "kind": "요주의 단체",
+   "re": "삼중달 구상",
+   "href": "#regs?p=groups-of-interest&s=삼중달 구상"
+  },
+  {
+   "k": "goi:다에바인",
+   "t": "다에바인",
+   "kind": "요주의 단체",
+   "re": "다에바인",
+   "href": "#regs?p=groups-of-interest&s=다에바인"
+  },
+  {
+   "k": "goi:제2하이토스 교단",
+   "t": "제2하이토스 교단",
+   "kind": "요주의 단체",
+   "re": "제2하이토스 교단",
+   "href": "#regs?p=groups-of-interest&s=제2하이토스 교단"
+  },
+  {
+   "k": "goi:이자메아",
+   "t": "이자메아",
+   "kind": "요주의 단체",
+   "re": "이자메아",
+   "href": "#regs?p=groups-of-interest&s=이자메아"
+  },
+  {
+   "k": "goi:만나 자선재단",
+   "t": "만나 자선재단",
+   "kind": "요주의 단체",
+   "re": "만나 자선재단",
+   "href": "#regs?p=groups-of-interest&s=만나 자선재단"
+  },
+  {
+   "k": "goi:골드베이커-라인츠",
+   "t": "골드베이커-라인츠",
+   "kind": "요주의 단체",
+   "re": "골드베이커-라인츠",
+   "href": "#regs?p=groups-of-interest&s=골드베이커-라인츠"
+  },
+  {
+   "k": "goi:그리즈버거",
+   "t": "그리즈버거",
+   "kind": "요주의 단체",
+   "re": "그리즈버거",
+   "href": "#regs?p=groups-of-interest&s=그리즈버거"
+  },
+  {
+   "k": "goi:앰브로즈 레스토랑",
+   "t": "앰브로즈 레스토랑",
+   "kind": "요주의 단체",
+   "re": "앰브로즈 레스토랑",
+   "href": "#regs?p=groups-of-interest&s=앰브로즈 레스토랑"
+  },
+  {
+   "k": "goi:사슴대학",
+   "t": "사슴대학",
+   "kind": "요주의 단체",
+   "re": "사슴대학",
+   "href": "#regs?p=groups-of-interest&s=사슴대학"
+  },
+  {
+   "k": "goi:다섯째 교단",
+   "t": "다섯째 교단",
+   "kind": "요주의 단체",
+   "re": "다섯째 교단",
+   "href": "#regs?p=groups-of-interest&s=다섯째 교단"
+  },
+  {
+   "k": "goi:시카고 스피릿",
+   "t": "시카고 스피릿",
+   "kind": "요주의 단체",
+   "re": "시카고 스피릿",
+   "href": "#regs?p=groups-of-interest&s=시카고 스피릿"
+  },
+  {
+   "k": "goi:특이화물판무처",
+   "t": "특이화물판무처",
+   "kind": "요주의 단체",
+   "re": "특이화물판무처",
+   "href": "#regs?p=groups-of-interest&s=특이화물판무처"
+  },
+  {
+   "k": "goi:메디치 은비예술한림원",
+   "t": "메디치 은비예술한림원",
+   "kind": "요주의 단체",
+   "re": "메디치 은비예술한림원",
+   "href": "#regs?p=groups-of-interest&s=메디치 은비예술한림원"
+  },
+  {
+   "k": "goi:비칸데르니드",
+   "t": "비칸데르니드",
+   "kind": "요주의 단체",
+   "re": "비칸데르니드",
+   "href": "#regs?p=groups-of-interest&s=비칸데르니드"
+  },
+  {
+   "k": "goi:발라븐",
+   "t": "발라븐",
+   "kind": "요주의 단체",
+   "re": "발라븐",
+   "href": "#regs?p=groups-of-interest&s=발라븐"
+  },
+  {
+   "k": "goi:윌슨 야생동물구제",
+   "t": "윌슨 야생동물구제",
+   "kind": "요주의 단체",
+   "re": "윌슨 야생동물구제",
+   "href": "#regs?p=groups-of-interest&s=윌슨 야생동물구제"
+  },
+  {
+   "k": "goi:토틀리소프트",
+   "t": "토틀리소프트",
+   "kind": "요주의 단체",
+   "re": "토틀리소프트",
+   "href": "#regs?p=groups-of-interest&s=토틀리소프트"
+  },
+  {
+   "k": "goi:상어죽빵센터",
+   "t": "상어죽빵센터",
+   "kind": "요주의 단체",
+   "re": "상어죽빵센터",
+   "href": "#regs?p=groups-of-interest&s=상어죽빵센터"
+  },
+  {
+   "k": "goi:허먼 풀러",
+   "t": "허먼 풀러",
+   "kind": "요주의 단체",
+   "re": "허먼 풀러",
+   "href": "#regs?p=groups-of-interest&s=허먼 풀러"
+  }
+ ]
+}

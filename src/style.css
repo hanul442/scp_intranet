@@ -1018,6 +1018,31 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 }
 body[data-theme=light] .igc,body[data-theme=light] .lbox,body[data-theme=light] .lbc,body[data-theme=light] .cldc{border-radius:6px}
 body[data-theme=light] .pyb span{border-radius:3px}
+
+/* ── 재단 본부 설정 (5j-foundation.js) · 규정집 목차 ── */
+.regtoc{display:flex;flex-wrap:wrap;gap:4px 12px;border:1px solid var(--line);background:var(--bg2);padding:9px 12px;margin:10px 0 18px;font-size:12px}
+.regtoc>span{width:100%;letter-spacing:.12em;font-size:10.5px}
+.regtoc a{color:var(--fg2);text-decoration:none}.regtoc a:hover{color:var(--hi);text-decoration:underline}
+.doc.regs .sec{scroll-margin-top:70px}
+.doc.regs .sec.hit>.regh{color:var(--hi);border-bottom-color:var(--amber)}
+.fdhq{border:1px solid var(--line);background:var(--panel);padding:16px 14px;margin:10px 0 6px}
+.fdtop{display:flex;justify-content:center}
+.fdadm{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px auto 0;max-width:620px;position:relative;padding-top:14px}
+.fdadm::before{content:"";position:absolute;top:0;left:50%;height:14px;border-left:1px solid var(--line2)}
+.fdadm .obox{text-align:center;align-items:center}
+.fddepts{margin-top:14px;border-top:1px dashed var(--line2);padding-top:10px}
+.fddepts summary{cursor:pointer;color:var(--hi);font-size:12.5px}
+.fdgrid,.fdcats{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-top:10px}
+.fdd{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line2);background:var(--bg2);padding:8px 10px;text-decoration:none;color:var(--fg2);font-size:11.5px;line-height:1.55;min-width:0}
+.fdd b{color:var(--hi);font-size:12.5px;font-weight:600}.fdd:hover{border-color:var(--amber)}
+.fdsite{margin-top:12px;font-size:12px}
+.o5grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:14px 0}
+.o5seat{border:1px solid var(--line2);background:var(--bg2);padding:10px 12px;font-size:12px}
+.o5seat .o5n{color:var(--red);font-weight:600;font-size:14px;letter-spacing:.06em;text-decoration:none}
+.o5seat ul{margin:6px 0 0;padding-left:16px;line-height:1.7}.o5seat li a{color:var(--fg);text-decoration:none}.o5seat li a:hover{color:var(--hi);text-decoration:underline}
+body[data-theme=light] .fdhq,body[data-theme=light] .fdd,body[data-theme=light] .o5seat,body[data-theme=light] .regtoc{border-radius:6px}
+body[data-theme=light] .fdd,body[data-theme=light] .o5seat{background:#fff}
+@media(max-width:600px){.fdadm{grid-template-columns:1fr}.fdadm::before{display:none}}
 /* 지부 문서: 한국 지부 표지 */
 :root{--ko:#5b86c4}
 body[data-theme=light]{--ko:#1d4f9a}
@@ -1030,6 +1055,28 @@ body[data-theme=light]{--ko:#1d4f9a}
 .brtag{display:inline-block;font-size:10px;letter-spacing:.1em;line-height:1;padding:2px 4px;border:1px solid var(--ko);color:var(--ko);vertical-align:1px}
 @media (max-width:600px){.brseal span{display:none}.brseal{padding:3px}}
 
+/* ─── 문서 간 연결 (32-xlink.js) ─── */
+.xterm{color:inherit;text-decoration:none;border-bottom:1px dashed var(--amber);cursor:pointer}
+.xterm:hover,.xterm:focus-visible{color:var(--amber);border-bottom-style:solid}
+.xpop{position:fixed;z-index:900;width:min(320px,calc(100vw - 16px));background:var(--bg2);border:1px solid var(--line2);border-left:3px solid var(--amber);padding:10px 12px;font-size:12px;line-height:1.55;color:var(--fg);box-shadow:0 10px 30px rgba(0,0,0,.45);display:none;flex-direction:column;gap:4px}
+.xpop.on{display:flex}
+.xph{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.xph b{color:var(--hi);font-weight:500}
+.xpt{color:var(--fg)}
+.xkind{font-size:10px;letter-spacing:.12em;color:var(--amber);border:1px solid var(--line2);padding:0 5px}
+.xpd{color:var(--fg2)}
+.xpn{margin-top:4px;padding-top:6px;border-top:1px solid var(--line)}
+.xpl{display:block;text-decoration:none;color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:1px 0 1px 8px;border-left:2px solid var(--kc,var(--line2))}
+.xpl:hover b{color:var(--cyan)}
+.xpl b{font-weight:500}
+.related .why{display:flex;gap:4px;flex-wrap:wrap;white-space:normal}
+.related .why i{font-style:normal;font-size:10px;color:var(--fg3);border:1px solid var(--line);padding:0 5px}
+.rlinks{margin-top:10px;display:flex;flex-direction:column;gap:6px;font-size:12px}
+.rlinks summary{cursor:pointer;color:var(--fg2)}
+.rlinks summary:hover{color:var(--hi)}
+.rlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:4px 12px;padding:8px 0 4px}
+body[data-theme=light] .xpop{border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+@media print{.xpop{display:none!important}.xterm{border:0}}
 /* ── 휴대폰 화면 다듬기 ── 줄바꿈 깨짐 · 넘침 · 손가락으로 누르기 쉬운 크기 */
 .badge,td.nw,.topbar .lvl{white-space:nowrap}
 .orgwrap>*{min-width:0}
