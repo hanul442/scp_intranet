@@ -717,23 +717,113 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 @media(max-width:600px){.body.fmt .logbd{grid-template-columns:1fr}.body.fmt .lr .who{max-width:none;padding-bottom:0}.body.fmt .lr .say{padding-left:12px}.body.fmt dl.kvb{grid-template-columns:1fr}.body.fmt dl.kvb dt{border-bottom:0;padding-bottom:0}}
 @media print{.body.fmt .logbox,.body.fmt dl.kvb,.body.fmt .callout{border-color:#999!important;break-inside:avoid}}
 
+/* ─── 문서 종류별 공문서 양식 (32-forms.js) ─── */
+.fhead{border:1px solid var(--line2);background:var(--panel);margin:0 0 14px}
+.fh1{display:flex;align-items:stretch;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}
+.fhead .fname{display:flex;flex-direction:column;justify-content:center;gap:4px;padding:10px 16px;min-width:0}
+.fhead .fcode{font-size:10.5px;letter-spacing:.14em;color:var(--fg3)}
+.fhead .fname b{font-size:19px;letter-spacing:.3em;color:var(--hi);font-weight:600;line-height:1.2}
+.fhead .fno{font-size:11px;color:var(--fg2);letter-spacing:.06em}
+.fhead.f-cp{border-top:0}
+.fhead.f-cp .fh1{border-bottom:0}
+.signs{display:flex;border-left:1px solid var(--line);flex:none}
+.signs .sgh{display:flex;align-items:center;justify-content:center;width:22px;font-size:10.5px;line-height:1.5;color:var(--fg3);border-right:1px solid var(--line);background:var(--bg2);text-align:center}
+.signs .sg{display:flex;flex-direction:column;align-items:center;width:62px;border-right:1px solid var(--line)}
+.signs .sg:last-child{border-right:0}
+.signs .sgr{width:100%;text-align:center;font-size:10.5px;color:var(--fg3);background:var(--bg2);border-bottom:1px solid var(--line);padding:2px 0;letter-spacing:.2em}
+.signs .seal{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin:6px 0 2px;border:2px solid var(--red2);border-radius:50%;color:var(--red2);font-size:10.5px;font-weight:700;letter-spacing:0;line-height:1;opacity:.85;transform:rotate(-8deg);word-break:keep-all;text-align:center}
+.signs .seal.blank{border-style:dashed;opacity:.4}
+.signs .seal.ok{transform:rotate(6deg)}
+.signs .sgd{font-size:9.5px;color:var(--fg3);padding-bottom:4px}
+table.ftab{width:100%;border-collapse:collapse;font-size:12px}
+.ftab th{width:88px;background:var(--bg2);color:var(--fg3);font-weight:400;font-size:11px;letter-spacing:.06em;padding:6px 10px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);text-align:left;vertical-align:top;white-space:nowrap}
+.ftab td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ftab td+th{border-left:1px solid var(--line)}
+.ftab tr:last-child th,.ftab tr:last-child td{border-bottom:0}
+.ftab .fnil{color:var(--fg3);font-size:11px}
+.body.fmt table.ftab{border:1px solid var(--line);margin:0 0 1em;font-size:.95em}
+.body.fmt .ftab th{font-size:.9em}
+.body.fmt .trial{border:1px solid var(--line2);margin:0 0 1.2em;background:var(--panel)}
+.body.fmt .trial .trh{display:flex;align-items:center;gap:10px;padding:6px 12px;border-bottom:1px solid var(--line2);background:var(--bg2)}
+.body.fmt .trial .trn{font-size:11px;color:var(--fg3);letter-spacing:.1em;border:1px solid var(--line2);padding:0 6px}
+.body.fmt .trial .trh b{color:var(--hi);font-weight:600}
+.body.fmt .trial table.ftab{border:0;margin:0}
+.body.fmt .trial .trf{padding:10px 12px 0;border-top:1px solid var(--line)}
+.fend{text-align:center;margin:18px 0 22px;color:var(--fg3)}
+.fend span{display:block;font-size:12px;letter-spacing:.3em}
+.fend small{display:block;font-size:10.5px;margin-top:6px;letter-spacing:.02em}
+body[data-theme=light] .fhead,body[data-theme=light] .body.fmt .trial,body[data-theme=light] .body.fmt table.ftab{border-radius:6px;overflow:hidden}
+body[data-theme=light] .ftab th,body[data-theme=light] .signs .sgr,body[data-theme=light] .signs .sgh{background:#eef2f6}
+@media(max-width:600px){
+  .fh1{flex-direction:column;gap:0}
+  .signs{border-left:0;border-top:1px solid var(--line)}
+  .signs .sg{flex:1;width:auto}
+  .fhead .fname b{font-size:17px;letter-spacing:.35em}
+  table.ftab tr{display:grid;grid-template-columns:80px minmax(0,1fr)}
+  .ftab th,.ftab td{display:block;border-left:0!important;border-right:0}
+  .ftab th:empty,.ftab th:empty+td{display:none}
+  .ftab th{white-space:normal;border-right:1px solid var(--line)}
+}
+@media print{.fhead,.body.fmt .trial,.body.fmt table.ftab{border-color:#999!important;break-inside:avoid}.signs .seal{color:#c00;border-color:#c00}}
+
 /* ─── 조직도 ─── */
 .otree .ohqn{font-size:10px;letter-spacing:.2em;color:var(--fg3);padding:10px 14px 2px}
-.ochart{border:1px solid var(--line);background:var(--panel);padding:18px 14px;margin:14px 0 18px}
-.oroot{display:flex;justify-content:center;position:relative;padding-bottom:18px}
-.oroot::after{content:"";position:absolute;bottom:0;left:50%;height:18px;border-left:1px solid var(--line2)}
-.obox{display:flex;flex-direction:column;gap:1px;border:1px solid var(--line2);background:var(--bg2);padding:7px 12px;text-decoration:none;color:var(--fg);font-size:11.5px;min-width:0}
-.obox b{font-size:12.5px;color:var(--hi);font-weight:600}
-.obox:hover,.obox.on{border-color:var(--amber)}
-.obox.root{border-color:var(--amber);min-width:200px;text-align:center;align-items:center}
-.ohqs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;position:relative;padding-top:18px}
-.ohqs::before{content:"";position:absolute;top:0;left:16.6%;right:16.6%;border-top:1px solid var(--line2)}
-.ohq{position:relative}
-.ohq::before{content:"";position:absolute;top:-18px;left:50%;height:18px;border-left:1px solid var(--line2)}
-.ohqt{text-align:center;font-size:11px;letter-spacing:.2em;color:var(--amber);border:1px solid var(--line2);padding:5px;margin-bottom:10px;background:var(--bg)}
-.odepts{display:flex;flex-direction:column;gap:8px;padding-left:14px;border-left:1px dashed var(--line2);margin-left:10px}
-.odepts .obox{position:relative}
-.odepts .obox::before{content:"";position:absolute;left:-15px;top:50%;width:14px;border-top:1px dashed var(--line2)}
+.ochart{--ln:var(--line2);--hc:var(--fg3);border:1px solid var(--line);background:var(--panel);padding:12px 14px 18px;margin:4px 0 18px;overflow-x:auto}
+.hq-a{--hc:var(--cyan)}.hq-r{--hc:var(--green)}.hq-s{--hc:var(--red2)}
+.ochead{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:11px;padding-bottom:12px;margin-bottom:16px;border-bottom:1px dashed var(--line)}
+.ochead .btn{margin-left:auto}
+.oclegend{display:flex;gap:4px;align-items:center;color:var(--fg2)}
+.oclegend i{display:inline-block;width:10px;height:10px;background:var(--hc);margin:0 2px 0 6px}
+.oclegend i.dot{background:none;border:1px dashed var(--fg2)}
+/* 상단: 이사관 + 참모 조직(옆 가지) */
+.otop{position:relative;padding-bottom:22px}
+.otop::after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:1px solid var(--ln)}
+.oceo{display:flex;justify-content:center;position:relative;z-index:1}
+.ostaffrow{display:grid;grid-template-columns:1fr 1fr;padding-top:14px}
+.ostaff{grid-column:2;position:relative;margin-left:34px;max-width:240px}
+.ostaff::before{content:"";position:absolute;left:-34px;width:34px;top:16px;border-top:1px dashed var(--ln)}
+/* 부서 상자 */
+.ounit{display:block;border:1px solid var(--line2);border-top:3px solid var(--hc);background:var(--bg2);font:inherit;color:var(--fg);text-align:left;padding:0;min-width:0;width:100%}
+.ounit.on{outline:1px solid var(--amber)}
+.ounit.dotted{border-style:dashed;border-top-style:solid}
+.ounit.ceo{--hc:var(--amber);min-width:230px;width:auto;cursor:pointer;text-align:center}
+.ounit.ceo:hover{border-color:var(--amber)}
+.ouh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:6px 10px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--hi);font-size:11px}
+.ouh b{font-size:12.5px;font-weight:600}
+.ouh span{color:var(--fg3);white-space:nowrap}
+a.ouh:hover b{color:var(--amber)}
+.ounit.ceo .ouh{flex-direction:column;align-items:center;gap:0}
+.ouno{font-size:10.5px;color:var(--fg2);padding:3px 10px 0}
+.oub{display:block;padding:4px}
+.omem{display:flex;align-items:center;gap:8px;width:100%;padding:4px 6px;background:none;border:0;font:inherit;color:var(--fg);text-align:left;cursor:pointer;font-size:11.5px}
+button.omem:hover{background:rgba(255,255,255,.04)}
+.omem.head{padding:6px}
+.ounit.ceo .omem{justify-content:center}
+.omn{display:flex;flex-direction:column;min-width:0;flex:1;line-height:1.35}
+.omn b{color:var(--hi);font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.omem.head .omn b{font-weight:600;font-size:12.5px}
+.omn .dim2{font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.omem .sdot{margin:0;flex:none}
+.ohtag{flex:none;font-size:9.5px;letter-spacing:.05em;padding:1px 5px;border:1px solid var(--hc);color:var(--hc)}
+.omems{border-top:1px dashed var(--line);margin-top:2px;padding-top:2px}
+.omems:empty{display:none}
+.ochart.compact .omems{display:none}
+.pav.sm{width:26px;height:26px;font-size:10.5px}
+/* 본부 가로 가지 */
+.ohqs{display:flex;align-items:flex-start}
+.ohq{flex:1 1 0;min-width:190px;position:relative;padding:22px 8px 0}
+.ohq::before{content:"";position:absolute;top:0;left:0;right:0;border-top:1px solid var(--ln)}
+.ohq:first-child::before{left:50%}.ohq:last-child::before{right:50%}
+.ohq::after{content:"";position:absolute;top:0;left:50%;height:22px;border-left:1px solid var(--ln)}
+.ohqb{display:flex;flex-direction:column;align-items:center;gap:1px;text-align:center;background:var(--hc);color:#fff;padding:7px 10px;font-size:11px}
+.ohqb b{font-size:13px;letter-spacing:.15em;font-weight:600}
+.ohqb .dim2{color:rgba(255,255,255,.82)}
+/* 본부 아래 세로 가지 */
+.odepts{margin:0 0 0 16px;padding-top:12px}
+.od{position:relative;padding-left:18px;margin-bottom:12px}
+.od::before{content:"";position:absolute;left:0;top:-12px;height:31px;width:18px;border-left:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+.od:not(:last-child)::after{content:"";position:absolute;left:0;top:19px;bottom:-12px;border-left:1px solid var(--ln)}
+.od:last-child{margin-bottom:0}
 .osub{font-size:12px;letter-spacing:.15em;color:var(--fg2);margin:18px 0 8px;font-weight:400}
 .dhead{margin-top:14px}
 .dtitle h3{font-size:18px;color:var(--hi);margin:2px 0 10px;font-weight:600}
@@ -751,9 +841,11 @@ body[data-theme=light] .body.fmt dl.kvb dt{background:#eef2f6}
 .sdot.green{background:var(--green)}.sdot.amber{background:var(--amber)}
 .plink{background:none;border:0;padding:0;font:inherit;color:var(--hi);cursor:pointer;text-align:left}.plink:hover{color:var(--amber);text-decoration:underline}
 .pfull{display:flex;gap:14px;align-items:center}.pn2{font-size:16px;color:var(--hi)}
-body[data-theme=light] .ochart,body[data-theme=light] .obox,body[data-theme=light] .pcard,body[data-theme=light] .ohqt{border-radius:6px}
-body[data-theme=light] .obox,body[data-theme=light] .ohqt{background:#fff}
-@media(max-width:720px){.otree .ohqn{display:none}.ohqs{grid-template-columns:1fr}.ohqs::before,.ohq::before{display:none}.oroot::after{display:none}.oroot{padding-bottom:10px}.ohqs{padding-top:0}}
+body[data-theme=light] .ochart,body[data-theme=light] .ounit,body[data-theme=light] .pcard,body[data-theme=light] .ohqb{border-radius:6px}
+body[data-theme=light] .ounit{background:#fff;box-shadow:0 1px 2px rgba(16,24,32,.06)}
+body[data-theme=light] .ounit .ouh{border-radius:4px 4px 0 0}
+body[data-theme=light] button.omem:hover{background:#f1f4f8}
+@media(max-width:720px){.otree .ohqn{display:none}.ohqs{flex-direction:column;align-items:stretch}.ohq{min-width:0;padding:14px 0 0}.ohq::before,.ohq::after{display:none}.otop{padding-bottom:0}.ostaffrow{grid-template-columns:1fr;padding-top:10px}.otop::after,.ostaff::before{display:none}.ostaff{grid-column:1;margin:0;max-width:none}.oceo .ounit{width:100%}.ounit.ceo{min-width:0}}
 
 /* ─── 보안 인가 · 인원 계급 ─── */
 #lvl{cursor:pointer}#lvl:hover,#lvl:focus-visible{text-decoration:underline}
@@ -926,6 +1018,17 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 }
 body[data-theme=light] .igc,body[data-theme=light] .lbox,body[data-theme=light] .lbc,body[data-theme=light] .cldc{border-radius:6px}
 body[data-theme=light] .pyb span{border-radius:3px}
+/* 지부 문서: 한국 지부 표지 */
+:root{--ko:#5b86c4}
+body[data-theme=light]{--ko:#1d4f9a}
+.cover.br-ko .ctop{background:linear-gradient(90deg,color-mix(in srgb,var(--ko) 16%,transparent),transparent 70%);border-bottom-color:color-mix(in srgb,var(--ko) 45%,var(--line))}
+.cover.br-ko .ctop .emblem{color:var(--ko)}
+.brseal{margin-left:auto;display:flex;align-items:center;gap:6px;border:1px solid var(--ko);color:var(--ko);padding:3px 8px 3px 3px;font-size:11px;letter-spacing:.08em;white-space:nowrap}
+.brseal b{background:var(--ko);color:#fff;font-size:11px;letter-spacing:.12em;padding:1px 5px;display:inline-block}
+.brseal+.cicon{margin-left:12px}
+.brname{color:var(--ko);font-weight:600}
+.brtag{display:inline-block;font-size:10px;letter-spacing:.1em;line-height:1;padding:2px 4px;border:1px solid var(--ko);color:var(--ko);vertical-align:1px}
+@media (max-width:600px){.brseal span{display:none}.brseal{padding:3px}}
 
 /* ── 휴대폰 화면 다듬기 ── 줄바꿈 깨짐 · 넘침 · 손가락으로 누르기 쉬운 크기 */
 .badge,td.nw,.topbar .lvl{white-space:nowrap}

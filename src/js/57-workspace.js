@@ -49,17 +49,46 @@ const deptHead=d=>DIR.filter(r=>r[2]===d).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
 const pName=r=>r[1].replace(/<[^>]+>/g,"")||"[편집됨]";
 const initials=r=>{const n=pName(r).replace(/[^가-힣A-Za-z]/g,"");return n?(/[가-힣]/.test(n)?n.slice(-2):n.slice(0,2).toUpperCase()):"?"};
 const statDot=s=>`<span class="sdot ${STAT_CLS[s]||""}" aria-hidden="true"></span>${s}`;
-function orgBox(d,cur){
-  const h=deptHead(d), n=DIR.filter(r=>r[2]===d).length, I=DEPT_INFO[d]||{};
-  return `<a class="obox ${d===cur?"on":""}" href="#org?d=${encodeURIComponent(d)}"><b>${d}</b><span class="dim2">${h?`${h[3].replace(/\s*\(.*\)/,"")} ${pName(h)}`:""}</span><span class="dim2">${n}명${I.dot?` · ${I.dot}`:""}</span></a>`;
+const HQ_COLOR={"관리 본부":"hq-a","연구 본부":"hq-r","보안 본부":"hq-s"};
+const DIRECTOR="A-19-0001";
+/* 본부장: 소속 부서장 중 가장 높은 직급이 겸임 */
+const hqHead=hq=>DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(deptHead).filter(Boolean).sort((a,b)=>RANK(a[3])-RANK(b[3]))[0];
+const shortTitle=t=>t.replace(/\s*\(.*\)/,"");
+function orgMem(r,head){
+  return `<button type="button" class="omem${head?" head":""}" data-person="${r[0]}" title="${esc(pName(r)+" · "+r[3]+" · "+r[4])}">
+    <span class="pav sm" aria-hidden="true">${initials(r)}</span><span class="omn"><b>${r[1]}</b><span class="dim2">${shortTitle(r[3])}</span></span>
+    ${head?`<span class="ohtag">부서장</span>`:`<span class="sdot ${STAT_CLS[r[4]]||""}" aria-label="${r[4]}"></span>`}</button>`;
+}
+function orgUnit(d,cur,skip){
+  const I=DEPT_INFO[d]||{}, ppl=DIR.filter(r=>r[2]===d&&r[0]!==skip).sort((a,b)=>RANK(a[3])-RANK(b[3])), h=ppl[0];
+  return `<div class="ounit ${HQ_COLOR[I.hq]||""}${d===cur?" on":""}${I.dot?" dotted":""}">
+    <a class="ouh" href="#org?d=${encodeURIComponent(d)}"><b>${d}</b><span>${ppl.length}명</span></a>
+    ${I.dot?`<div class="ouno">${I.dot}</div>`:""}
+    <div class="oub">${h?orgMem(h,true):""}<div class="omems">${ppl.slice(1).map(r=>orgMem(r)).join("")}</div></div></div>`;
 }
 function orgChart(){
-  const top=DIR.find(r=>r[0]==="A-19-0001");
-  return `<div class="ochart" role="tree" aria-label="SITE-19 조직 체계">
-    <div class="oroot"><a class="obox root" href="#org?d=${encodeURIComponent("기지 관리부")}"><b>제19기지 이사관</b><span class="dim2">Site Director</span><span>${top?top[1]:""}</span><span>${clrTag("A-19-0001")}</span></a></div>
-    <div class="ohqs">${HQS.map(hq=>`<div class="ohq"><div class="ohqt">${hq}</div>
-      <div class="odepts">${DEPTS.filter(d=>d!=="기지 관리부"&&(DEPT_INFO[d]||{}).hq===hq).map(d=>orgBox(d)).join("")}</div></div>`).join("")}</div></div>`;
+  const top=dirById(DIRECTOR), compact=store.get("org_compact",false);
+  const staff="기지 관리부";
+  return `<div class="ochart${compact?" compact":""}" role="group" aria-label="SITE-19 조직도">
+    <div class="ochead"><span class="dim2">SITE-19 조직도 · ${new Date().getFullYear()}년 기준 · 총 ${DIR.length}명</span>
+      <span class="oclegend"><i class="hq-a"></i>관리 <i class="hq-r"></i>연구 <i class="hq-s"></i>보안 <i class="dot"></i>파견</span>
+      <button type="button" class="btn sm" data-orgcompact>${compact?"구성원 모두 보기":"부서장만 보기"}</button></div>
+    <div class="otop">
+      <div class="oceo"><button type="button" class="ounit ceo" data-person="${DIRECTOR}">
+        <span class="ouh"><b>제19기지 이사관</b><span>Site Director</span></span>
+        <span class="oub"><span class="omem head"><span class="pav sm" aria-hidden="true">${top?initials(top):"?"}</span><span class="omn"><b>${top?top[1]:""}</b><span>${clrTag(DIRECTOR)}</span></span></span></span></button></div>
+      <div class="ostaffrow"><div class="ostaff">${orgUnit(staff,"",DIRECTOR)}</div></div>
+    </div>
+    <div class="ohqs">${HQS.map(hq=>{const hh=hqHead(hq), ds=DEPTS.filter(d=>d!==staff&&(DEPT_INFO[d]||{}).hq===hq);
+      const n=DIR.filter(r=>ds.includes(r[2])).length;
+      return `<div class="ohq"><div class="ohqb ${HQ_COLOR[hq]}"><b>${hq}</b><span class="dim2">본부장(겸) ${hh?`${pName(hh)} · ${shortTitle(hh[3])}`:"공석"}</span><span class="dim2">${ds.length}개 부서 · ${n}명</span></div>
+      <div class="odepts">${ds.map(d=>`<div class="od">${orgUnit(d)}</div>`).join("")}</div></div>`}).join("")}</div></div>`;
 }
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-orgcompact]"); if(!b) return;
+  const c=b.closest(".ochart"), on=!c.classList.contains("compact");
+  c.classList.toggle("compact",on); store.set("org_compact",on); b.textContent=on?"구성원 모두 보기":"부서장만 보기";
+});
 function personCard(r){
   return `<button type="button" class="pcard" data-person="${r[0]}"><span class="pav" aria-hidden="true">${initials(r)}</span>
     <span class="pcm"><b>${r[1]}</b><span class="dim2">${r[3]}</span><span>${clrTag(r[0])}</span><span class="pst">${statDot(r[4])}</span></span></button>`;
@@ -86,11 +115,12 @@ function org(qs){
       :`<div class="empty">"${esc(q)}"에 해당하는 직원이 없습니다. 이름, 식별번호, 직책으로 검색할 수 있습니다.</div>`;
   } else {
     const rows=[...DIR].sort((a,b)=>DEPTS.indexOf(a[2])-DEPTS.indexOf(b[2])||RANK(a[3])-RANK(b[3]));
-    main=`${orgChart()}<h4 class="osub">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
+    main=`<h4 class="osub" style="margin-top:0">전체 직원 <span class="dim2">${DIR.length}명</span></h4>
       <table class="org"><tr><th>이름</th><th class="hm">식별번호</th><th>부서 · 직책</th><th>인가 · 계급</th><th>내선</th><th>상태</th></tr>
       ${rows.map(r=>`<tr><td><button type="button" class="plink" data-person="${r[0]}">${r[1]}</button></td><td class="dim hm" style="white-space:nowrap">${r[0]}</td><td class="dim">${r[2]}<br><span class="dim2">${r[3]}</span></td><td style="white-space:nowrap">${clrTag(r[0])}</td><td>${maskedExt(r[0])}</td><td class="${STAT_CLS[r[4]]||""}">${statDot(r[4])}</td></tr>`).join("")}</table>`;
   }
   return `<h2 class="ph">조직<span>도</span> · SITE-19</h2>
+  ${!dept&&!q?orgChart():""}
   <div class="orgwrap">${side}<div>${form}${main}
     <p class="dim2" style="font-size:11px;margin-top:14px">내선 번호는 개인정보 보호를 위해 열람 사유를 입력해야 표시됩니다. 인사 기록 상세는 <a class="xref" href="#personnel">인사 파일</a>에서 확인하십시오.</p></div></div>`;
 }
