@@ -1018,3 +1018,14 @@ body.nofx .cursor::after,body.nofx .topbar .alert.on,body.nofx .eyes.on{animatio
 }
 body[data-theme=light] .igc,body[data-theme=light] .lbox,body[data-theme=light] .lbc,body[data-theme=light] .cldc{border-radius:6px}
 body[data-theme=light] .pyb span{border-radius:3px}
+/* 지부 문서: 한국 지부 표지 */
+:root{--ko:#5b86c4}
+body[data-theme=light]{--ko:#1d4f9a}
+.cover.br-ko .ctop{background:linear-gradient(90deg,color-mix(in srgb,var(--ko) 16%,transparent),transparent 70%);border-bottom-color:color-mix(in srgb,var(--ko) 45%,var(--line))}
+.cover.br-ko .ctop .emblem{color:var(--ko)}
+.brseal{margin-left:auto;display:flex;align-items:center;gap:6px;border:1px solid var(--ko);color:var(--ko);padding:3px 8px 3px 3px;font-size:11px;letter-spacing:.08em;white-space:nowrap}
+.brseal b{background:var(--ko);color:#fff;font-size:11px;letter-spacing:.12em;padding:1px 5px;display:inline-block}
+.brseal+.cicon{margin-left:12px}
+.brname{color:var(--ko);font-weight:600}
+.brtag{display:inline-block;font-size:10px;letter-spacing:.1em;line-height:1;padding:2px 4px;border:1px solid var(--ko);color:var(--ko);vertical-align:1px}
+@media (max-width:600px){.brseal span{display:none}.brseal{padding:3px}}

@@ -45,7 +45,7 @@ function clsBanner(level, extra=""){
   return `<div class="clsbar ${c}" role="note"><b>LEVEL ${level} · ${t}</b><span>SCP 재단 내부 문서${extra?" · "+extra:""} · 무단 열람·복제·반출 금지</span></div>`;
 }
 const DEPT_OF=id=>spick(id+"dept",["연구부 · 격리동 B","연구부 · 격리동 A","생물학 연구과","변칙 물품 연구과","인간형 개체 연구과","외부 현상 조사과"]);
-function docNo(d){ return `S19-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
+function docNo(d){ const b=branchOf(d.id), s=b&&siteOf(d), sn=s&&!s.none&&!s.redacted?s.name.match(/\d+/)?.[0]:""; return `${b?"K"+(sn||"00").padStart(2,"0"):"S19"}-${d.id.replace("SCP-","").replace(/-/g,"")}-R${srnd(d.id+"rev",2,14)}` }
 function revDate(id){ return `${srnd(id+"y",2008,2024)}-${pad(srnd(id+"m",1,12))}-${pad(srnd(id+"d",1,28))}` }
 function docCover(d, need, {masked=false, sub=null}={}){
   const k=classKey(d.object_class);
@@ -57,8 +57,10 @@ function docCover(d, need, {masked=false, sub=null}={}){
     [cell("문서 번호",masked?'<span class="redact">S19-0000-R0</span>':docNo(d)),cell("최종 개정",masked?'<span class="redact">0000-00-00</span>':`${revDate(d.id)} <span class="dim2">(제${srnd(d.id+"rev",2,14)}판)</span>`)],
     [cell("관리 부서",masked?'<span class="redact">████████</span>':DEPT_OF(d.id)),cell("평가",typeof d.rating==="number"?`${d.rating>0?"+":""}${d.rating}`:"—")],
   ];
-  return `<div class="cover k-${k}">
-    <div class="ctop">${EMBLEM}<div><b>SCP 재단</b><span>${sub?FORMS[formKind(sub)].name+" · "+esc(sub):"특수 격리 절차 문서"}</span></div><div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
+  const br=branchOf(d.id);
+  if(br) rows.splice(1,0,[cell("소속 지부",`<b class="brname">${br.name}</b> <span class="dim2">(${br.code})</span>`),cell("담당 기지",siteCell(d,masked))]);
+  return `<div class="cover k-${k}${br?" br-"+br.code.toLowerCase():""}">
+    <div class="ctop">${EMBLEM}<div><b>SCP 재단${br?" "+br.name:""}</b><span>${sub?FORMS[formKind(sub)].name+" · "+esc(sub):"특수 격리 절차 문서"}${br?" · "+br.en:""}</span></div>${br?branchSeal(br):""}<div class="cicon ${k}" aria-hidden="true">${CLASS_ICON[k]}</div></div>
     <h1 class="ctitle">${sub?esc(sub):d.id}${!sub&&docName(d)?`<small>${esc(docName(d))}</small>`:sub?`<small>${d.id}${docName(d)?" · "+esc(docName(d)):""}</small>`:""}</h1>
     <table class="cinfo">${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}${(d.tags||[]).length&&!masked?`<tr><th>태그</th><td colspan="3" class="dim">${d.tags.filter(t=>t!==d.object_class).slice(0,8).map(t=>`<a class="tagl" href="#database?t=${encodeURIComponent(t)}">#${esc(t)}</a>`).join(" ")}</td></tr>`:""}</table>
   </div>`;
@@ -76,18 +78,18 @@ function showSub(id, idx){
   const nav=`<div class="pn"><span>${idx>0?`<a href="#${id.toLowerCase()}/${idx-1}">← ${esc(subs[idx-1].title)}</a>`:""}</span><span>${idx<subs.length-1?`<a href="#${id.toLowerCase()}/${idx+1}">${esc(subs[idx+1].title)} →</a>`:""}</span></div>`;
   if(!ok){ S.denied++; saveSession(); glitch(1); feedPush(`접근 거부 기록 — ${S.user} → ${id} / ${s.title}`,"red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{masked:true,sub:s.title})}
     <div class="meta"><span>요구 권한 Level ${s.level}</span><span>현재 권한 Level ${S.level}</span></div>
     <div class="denied"><b>접근 거부</b>이 부록은 상위 문서보다 높은 권한을 요구합니다. 이 시도는 기록되었습니다.<br><span class="dim">누적 위반 ${S.denied}회</span>${reqBtn(id,s.level)}</div>
     ${clrNeedNote(s.level)}<div class="sec"><div class="body">${blackBars(rnd(30,70))}</div></div>${subsBox(d,idx)}${nav}</div>`); return }
   feedPush(`${S.user} 열람 — ${id} / ${s.title}`,""); noteRecent(id);
   const ratio = lv>s.level?0 : (s.level>=3?0.06:0.025);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id,href:"#"+id.toLowerCase()},{t:s.title}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,"부록")}${docCover(d,s.level,{sub:s.title})}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${docCover(d,s.level,{sub:s.title})}
   ${resumeBar(id+"/"+idx)}
   <div class="meta"><span>상위 문서 <a class="xref" href="#${id.toLowerCase()}">${id}</a></span><span>부록 ${idx+1} / ${subs.length}</span></div>
   ${subForm(d,s,linkRefs(markQuotes(markDM(redactWords(s.text,id+s.title,ratio))),id))}
-  ${subsBox(d,idx)}${nav}${clsBanner(s.level,"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
+  ${subsBox(d,idx)}${nav}${clsBanner(s.level,(branchOf(id)?branchOf(id).name+" · ":"")+"부록")}${attrib(d)}</div>`); afterDocRender(id+"/"+idx);
 }
 
 /* ════ 문서 열람 ════ */
@@ -99,7 +101,7 @@ function showDoc(id){
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
     feedPush(`접근 거부 기록 — ${S.user} → ${id}`, "red");
     render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}${docCover(d,need,{masked:true})}
+    <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}${docCover(d,need,{masked:true})}
       <div class="meta"><span>요구 권한 Level ${need}</span><span>현재 권한 Level ${S.level}</span><span>${now()}</span></div>
       <div class="denied"><b>접근 거부</b>귀하의 보안 등급은 이 문서를 열람하기에 충분하지 않습니다. 이 시도는 RAISA에 기록되었으며 담당 관리자에게 통보됩니다.<br><span class="dim">누적 위반 ${S.denied}회${S.denied>=3?' — <span class="red">기억소거 검토 대상</span>':''}</span>${reqBtn(id,need)}</div>
       <div class="sec"><h4><i>1.</i> 특수 격리 절차</h4><div class="body">${blackBars(rnd(18,30))}</div></div>
@@ -119,7 +121,7 @@ function showDoc(id){
   else if(sd.pre.length>40) sections.push(["추가 정보", sd.pre]);
   feedPush(`${S.user} 열람 — ${id}`, ""); noteRecent(id);
   render(`${crumb([{t:"격리 데이터베이스",href:"#database"},{t:id}])}
-  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need)}
+  <div class="doc k-${classKey(d.object_class)}">${clsBanner(need,branchOf(id)?.name||"")}
     ${docCover(d,need)}
     ${cpHead(d)}
     ${docInfo(d,need,sd)}
@@ -133,7 +135,7 @@ function showDoc(id){
     ${subsBox(d)}
     ${docNoteBox(id)}
     ${similarBox(d)}
-    ${clsBanner(need)}
+    ${clsBanner(need,branchOf(id)?.name||"")}
     ${docPN(id)}
     <div class="attrib">출처: <a href="${d.source}" target="_blank" rel="noopener">${d.source}</a><br>
     ${d.author?`저자 ${esc(d.author)}`:""}${d.translator?` · 역자 ${esc(d.translator)}`:""} · SCP 재단 콘텐츠는 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 3.0</a>으로 배포됩니다.</div>
