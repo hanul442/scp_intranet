@@ -18,7 +18,71 @@
   "author": "Ihp",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-4100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/173pictogram.png",
+    "cap": "항목 \"173\"에 대한 그림문자"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/914pictogram.png",
+    "cap": "항목 \"914\"에 대한 그림문자"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/882pictogram2.png",
+    "cap": "항목 \"882\"에 대한 그림문자"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/2000pictogram.png",
+    "cap": "항목 \"2000\"에 대한 그림문자. 재해 가능성이 있는 정보를 감추기 위해 하얀색 네모가 추가됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/hexapodextinction.png",
+    "cap": "그림문자 4100-1202, SCP-4100에 존재했던 초기 생명체의 진화 과정으로 추정됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/dinosaurpictogram.png",
+    "cap": "그림문자 4100-1265, 유기 생명체의 지속적인 진화 과정."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/foundationhistorypictogram.png",
+    "cap": "삼두회 조직의 역사 혹은 목적"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/destroyerpictogram.png",
+    "cap": "그림문자-4100-1050."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4100/FoundationVictorious.png",
+    "cap": "SCP-4100으로부터 전송된 마지막 전파"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Arecibo_message.svg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "173pictogram.png, 2000pictogram.png, 882pictogram2.png, 914pictogram.png, destroyerpictogram(1).png, destroyerpictogram.png, dinosaurpictogram.png, foundationhistorypictogram.png, FoundationVictorious"
+    ],
+    [
+     "저자",
+     "Ihp"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-4100"
+    ]
+   ]
+  ]
  },
  "SCP-4107": {
   "id": "SCP-4107",
@@ -40,7 +104,14 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-4107",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4107/dead.jpg",
+    "cap": "SCP-4107 시체를 촬영한 가장 오래된 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4117": {
   "id": "SCP-4117",
@@ -61,7 +132,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4117",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4127": {
   "id": "SCP-4127",
@@ -82,7 +155,51 @@
   "author": "The Great Hippo",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://www.scpwiki.com/local--files/fragment:scp-4127-2/quarter.png",
+    "cap": "그림 1.1: SCP-4127(무효화 이후)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "nickel.png (Fragment 1)"
+    ],
+    [
+     "저자",
+     "The Great Hippo"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "nickel.png (Fragment 2)"
+    ],
+    [
+     "저자",
+     "The Great Hippo"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4130": {
   "id": "SCP-4130",
@@ -105,7 +222,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4130",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4131": {
   "id": "SCP-4131",
@@ -129,7 +248,37 @@
   "author": "NatVoltaic",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4131",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4131/anomalocaris_model_2.jpg",
+    "cap": "SCP-4131이 속한 아노말로카리스속(屬) 일종의 복원도."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "anomalocaris_model_2.jpg"
+    ],
+    [
+     "Name",
+     "Anomalocaris canadensis - reconstruction - MUSE.jpg"
+    ],
+    [
+     "Author",
+     "Matteo De Stefano/MUSE"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-4144": {
   "id": "SCP-4144",
@@ -152,6 +301,8 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4144",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

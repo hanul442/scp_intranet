@@ -20,7 +20,33 @@
   "author": "OriTiefling & Queerious",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8401",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8401/Axolotl.png",
+    "cap": "격리된 SCP-8401."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Axolotl.png"
+    ],
+    [
+     "저작권자",
+     "LaDameBucolique"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Axolotl-2193331_1280.webp/640px-Axolotl-2193331_1280.webp.png"
+    ]
+   ]
+  ]
  },
  "SCP-8408": {
   "id": "SCP-8408",
@@ -42,7 +68,33 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8408",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8408/EGG-Thumbnail.png",
+    "cap": "THUMBNAIL"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8408/egg.png",
+    "cap": "SCP-8408"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "egg.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-8411": {
   "id": "SCP-8411",
@@ -66,7 +118,335 @@
   "author": "Dino--Draws",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8411",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/13.png",
+    "cap": "{$caption}"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/tree.jpg",
+    "cap": "Betula papyrifera (종이자작나무)에 새겨진 SCP-8411 개체. 스테인칠로 강조됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/8.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/9.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/10.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/12.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/14.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/15.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/16.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/12a.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/13a.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/14a.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8411/Her.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tree.jpg"
+    ],
+    [
+     "Name",
+     "File:Dülmen, Hausdülmen, Bäume — 2022 — 9636.jpg"
+    ],
+    [
+     "Author",
+     "Dietmar Rabich"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_B%C3%A4ume_--_2022_--_9636.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "1.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "4.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "5.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "6.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "7.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "8.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "9.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "10.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "11.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "12.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "13.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "14.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "15.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "12a.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "13a.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "14a.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Her.png"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Author",
+     "Dino--Draws"
+    ]
+   ]
+  ]
  },
  "SCP-8433": {
   "id": "SCP-8433",
@@ -87,6 +467,32 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8433",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8433/anomalousblanket.png",
+    "cap": "SCP-8433 사례의 기묘한 형태를 묘사한 그림."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "anomalousblanket.png"
+    ],
+    [
+     "Author",
+     "davidmis does not match any existing user name"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  }
 }

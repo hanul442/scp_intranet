@@ -21,7 +21,9 @@
   "author": "RJB_R",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-2600",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2602": {
   "id": "SCP-2602",
@@ -44,7 +46,14 @@
   "author": "Communism will win",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2602",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2602/library.jpg",
+    "cap": "SCP-2602"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2604": {
   "id": "SCP-2604",
@@ -66,7 +75,14 @@
   "author": "Marcuse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2604",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2604/Not%20a%20Fence.jpg",
+    "cap": "격리되기 전의 SCP-2604."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2614": {
   "id": "SCP-2614",
@@ -86,7 +102,37 @@
   "author": "bbaztek",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2614",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2614/2923.jpg",
+    "cap": "형이초학적 하이퍼모델과의 데이터 충돌: DMRG 전 연구 인력들은 상기된 절차를 재차 반복하지 말 것을 강력히 권고받으며 이를 어길시 처분될 수 있음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "2923.jpg"
+    ],
+    [
+     "Name",
+     "LAX Hallway"
+    ],
+    [
+     "Author",
+     "Jeff Kramer"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr.com"
+    ]
+   ]
+  ]
  },
  "SCP-2616": {
   "id": "SCP-2616",
@@ -108,7 +154,9 @@
   "author": "faminepulse",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-2616",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2617": {
   "id": "SCP-2617",
@@ -135,7 +183,18 @@
   "author": "MrWrong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2617",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2617/Russian%20TV%20tower.JPG",
+    "cap": "SCP-2617"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2617/Cirrus%20cloud%202.jpg",
+    "cap": "소련 ██████에서 형성되는 SCP-2617-C."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2620": {
   "id": "SCP-2620",
@@ -156,7 +215,9 @@
   "author": "Decibelles",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2620",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2624": {
   "id": "SCP-2624",
@@ -188,7 +249,37 @@
   "author": "TyGently",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2624",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2624/laika2.gif",
+    "cap": "발사되기 전 스푸트니크 2호 캡슐에 탑승한 라이카."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "laika2.gif"
+    ],
+    [
+     "Name",
+     "Laika_mockup.gif"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2627": {
   "id": "SCP-2627",
@@ -209,7 +300,14 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2627",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2627/boardwalk-entrance.jpg",
+    "cap": "주간의 SCP-2627"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2630": {
   "id": "SCP-2630",
@@ -233,7 +331,9 @@
   "author": "Taffeta",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2630",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2635": {
   "id": "SCP-2635",
@@ -260,7 +360,14 @@
   "author": "Dr Solo",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2635",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2635/potato.jpg",
+    "cap": "SCP-2635"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2639": {
   "id": "SCP-2639",
@@ -283,7 +390,14 @@
   "author": "The Great Hippo",
   "translator": "igangsu",
   "source": "https://scpko.wikidot.com/scp-2639",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2639/earthquake2.jpg",
+    "cap": "마돈나 디 시에나의 잔해."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2645": {
   "id": "SCP-2645",
@@ -304,7 +418,9 @@
   "author": "ribby97",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2645",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2646": {
   "id": "SCP-2646",
@@ -327,6 +443,31 @@
   "author": "CirclesAndSquares",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2646",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "watertowerfinal.jfif"
+    ],
+    [
+     "Name",
+     "watertowerfinal.jfif"
+    ],
+    [
+     "Author",
+     "CirclesAndSquares"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/scp-2646"
+    ]
+   ]
+  ]
  }
 }

@@ -21,7 +21,37 @@
   "author": "Elenee FishTruck",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5709",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5709/door.jpg",
+    "cap": "SCP-5709의 출입구."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "door"
+    ],
+    [
+     "원본",
+     "Lotanrecycle post door detail.jpg"
+    ],
+    [
+     "저작권자",
+     "Yoav Dothan"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5720": {
   "id": "SCP-5720",
@@ -41,7 +71,37 @@
   "author": "Roget & Wilt",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-5720",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5720/Brokengod-fist-new.jpg",
+    "cap": "연구를 위해 몇 개의 탱크를 떼어낸 SCP-5720."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Brokengod-fist-new.jpg"
+    ],
+    [
+     "원본",
+     "US Navy 041026-N-1825E-041 A robot used by Navy Explosive Ordnance Disposal Mobile Unit Eight (EODMU-8), Detachment Eighteen, carries an explosives deterrent device in its claw during an exercise.jpg"
+    ],
+    [
+     "저작권자",
+     "Joe Ebalo, Elenee FishTruck"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5721": {
   "id": "SCP-5721",
@@ -72,7 +132,33 @@
   "author": "Cerastes",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-5721",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5721/eris.jpg",
+    "cap": "SCP-5721-1의 역사적 묘사."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "eris"
+    ],
+    [
+     "원본",
+     "Eris"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5726": {
   "id": "SCP-5726",
@@ -98,7 +184,21 @@
   "author": "Uncle Nicolini, keyii",
   "translator": "oratio",
   "source": "https://scpko.wikidot.com/scp-5726",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5726/anime-title.png",
+    "cap": "반짝반짝 마법소녀 ♥ 달링 핑크!! (2002-2007)의 타이틀 스크린"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "anime-title.png"
+    ]
+   ]
+  ]
  },
  "SCP-5733": {
   "id": "SCP-5733",
@@ -123,7 +223,81 @@
   "author": "Dysadron",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5733/SuburbSlasher.jpg",
+    "cap": "SCP-5733 케이스 앞면에 있는 그림"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SuburbSlasher.jpg"
+    ],
+    [
+     "원본",
+     "Handmade chef knife.jpgt"
+    ],
+    [
+     "저작권자",
+     "KNF Italy"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SuburbSlasher.jpg"
+    ],
+    [
+     "원본",
+     "VHS Box Texture"
+    ],
+    [
+     "저작권자",
+     "MadamBlackWolf"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "deviantart"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SuburbSlasher.jpg"
+    ],
+    [
+     "원본",
+     "Scared adult woman with hands at face"
+    ],
+    [
+     "저작권자",
+     "pixy.org"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "pixy"
+    ]
+   ]
+  ]
  },
  "SCP-5739": {
   "id": "SCP-5739",
@@ -144,7 +318,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5739",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5739/ELEPHANTFRIEND.jpg",
+    "cap": "SCP-5739의 사진, 격리할 당시 에밀리 콜의 시신 위에 떠 있는 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ELEPHANTFRIEND.jpg"
+    ],
+    [
+     "저작권자",
+     "Supposedly Spooky"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-5747": {
   "id": "SCP-5747",
@@ -165,6 +365,36 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5747",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5747/5747.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "World_Trade_Centre_Twin_Towers_New_York.jpg"
+    ],
+    [
+     "원본",
+     "World Trade Centre, Twin Towers, New York, USA."
+    ],
+    [
+     "저작권자",
+     "Yann Forge"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:World_Trade_Centre_Twin_Towers_New_York.jpg"
+    ]
+   ]
+  ]
  }
 }

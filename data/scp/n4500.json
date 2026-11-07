@@ -18,7 +18,9 @@
   "author": "MathBrush",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4503": {
   "id": "SCP-4503",
@@ -38,7 +40,33 @@
   "author": "SpoonOfEvil",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4503",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4503/pastapot.jpg",
+    "cap": "가동중인 SCP-4503"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pastapot.jpg"
+    ],
+    [
+     "저자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Maxpixel(archive)"
+    ]
+   ]
+  ]
  },
  "SCP-4514": {
   "id": "SCP-4514",
@@ -60,7 +88,21 @@
   "author": "Captain Kirby",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-4514",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4514/Vintage_Switchblade.jpg",
+    "cap": "SCP-4514"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Vintage_Switchblade.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4517": {
   "id": "SCP-4517",
@@ -79,7 +121,21 @@
   "author": "MaliceAforethought",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4517",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://topia.wdfiles.com/local--files/malice-quality/censoredbath.jpg",
+    "cap": "SCP-4517이 담긴 욕조. 내부는 검열됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "censoredbath.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4521": {
   "id": "SCP-4521",
@@ -102,7 +158,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4521",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4531": {
   "id": "SCP-4531",
@@ -128,7 +186,43 @@
   "author": "Yossipossi",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4531",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4531/river2.jpg",
+    "cap": "SCP-4531 근교의 다우가바강."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "river2.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Department of Tactical Theology White Background Shiny transparent.png"
+    ],
+    [
+     "저자",
+     "Aethris"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "비고",
+     "Image colors changed and effects added."
+    ]
+   ]
+  ]
  },
  "SCP-4534": {
   "id": "SCP-4534",
@@ -148,7 +242,9 @@
   "author": "",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4534",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4545": {
   "id": "SCP-4545",
@@ -170,7 +266,21 @@
   "author": "Mortos",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4545",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4545/horse.png",
+    "cap": "SCP-4545 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "horse.png"
+    ]
+   ]
+  ]
  },
  "SCP-4548": {
   "id": "SCP-4548",
@@ -196,6 +306,30 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4548",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4548/star.png",
+    "cap": "SCP-4548."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4548/location.png",
+    "cap": "G-194C 성단에 있는 SCP-4548"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "location.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "star.png"
+    ]
+   ]
+  ]
  }
 }

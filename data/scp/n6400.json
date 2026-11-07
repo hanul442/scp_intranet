@@ -19,7 +19,14 @@
   "author": "UraniumEmpire",
   "translator": "Hoyaa2367",
   "source": "https://scpko.wikidot.com/scp-6400",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6400/outthere.jpg",
+    "cap": "SCP-6400."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6402": {
   "id": "SCP-6402",
@@ -45,7 +52,9 @@
   "author": "Mooagain",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-6402",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6404": {
   "id": "SCP-6404",
@@ -69,7 +78,9 @@
   "author": "OriTiefling",
   "translator": "DOLight",
   "source": "https://scpko.wikidot.com/scp-6404",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6405": {
   "id": "SCP-6405",
@@ -93,7 +104,9 @@
   "author": "Metaphysician",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6405",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6416": {
   "id": "SCP-6416",
@@ -120,7 +133,14 @@
   "author": "Placeholder McD",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6416",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6416/cubedesk.jpg",
+    "cap": "PoI-5242 판본-7XFQWB32R4의 컬렉션과 함께 놓여있는 SCP-6416-큐브 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6427": {
   "id": "SCP-6427",
@@ -143,7 +163,9 @@
   "author": "Fishish",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6427",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6435": {
   "id": "SCP-6435",
@@ -163,7 +185,32 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6435",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scpforest"
+    ],
+    [
+     "Name",
+     "File:Forest footpath - geograph.org.uk - 430581.jpg"
+    ],
+    [
+     "Author",
+     "James Allan"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6442": {
   "id": "SCP-6442",
@@ -187,7 +234,37 @@
   "author": "Dr Shoulder & Yossipossi",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-6442",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6442/scp-6442.jpg",
+    "cap": "[데이터 말소]격리시설의 일부분"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-6442.jpg"
+    ],
+    [
+     "원본",
+     "Swinging Valve for Supersonic Wind Tunnel - GPN-2000-001474.jpg"
+    ],
+    [
+     "저작권자",
+     "NASA/GRC"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6445": {
   "id": "SCP-6445",
@@ -211,7 +288,233 @@
   "author": "MontagueETC",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6445",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6445/6445-Thumbnail.png",
+    "cap": "전율하는 왕국 아래에"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "6445-Thumbnail.png"
+    ],
+    [
+     "저작권자",
+     "MontagueETC"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Surrealistics Logo.png"
+    ],
+    [
+     "저작권자",
+     "MontagueETC"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Surrealistics Logo Background.png"
+    ],
+    [
+     "저작권자",
+     "MontagueETC"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Looped Square Full.png"
+    ],
+    [
+     "저작권자",
+     "MontagueETC"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Infrared.svg"
+    ],
+    [
+     "저작권자",
+     "MontagueETC"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-1.png"
+    ],
+    [
+     "원본",
+     "Fornsalen Museum, Visby ( Gotland ). Picture stone with looped square."
+    ],
+    [
+     "저작권자",
+     "Wolfgang Sauber"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-2.png"
+    ],
+    [
+     "원본",
+     "Eesti kultuurimälestise logo Tartu Jaani kiriku seinal."
+    ],
+    [
+     "저작권자",
+     "Ivo Kruusamägi"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-3.png"
+    ],
+    [
+     "원본",
+     "A Mississippian culture Cox style shell gorget with a cross in circle solar motif and four woodpecker heads."
+    ],
+    [
+     "저작권자",
+     "Herb Roe, www.chromesun.com"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-4.png"
+    ],
+    [
+     "원본",
+     "Cheese moulds with looped square motif, seen in the Finnish National Museum, Helsinki."
+    ],
+    [
+     "저작권자",
+     "Kaihsu Tai"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-5.png"
+    ],
+    [
+     "원본",
+     "The ruined castle of Borgholm"
+    ],
+    [
+     "저작권자",
+     "L.G.foto"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Entrance-6.png"
+    ],
+    [
+     "원본",
+     "Rana museum, department of Natural history in Mo i Rana. Rana municipality, county of Nordland, Norway. Photo 28 September 2007 with a Nikon Coolpix 5600 5,1 Megapixel camera. With \"Saint Hannes cross"
+    ],
+    [
+     "저작권자",
+     "Sandivas"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikipedia"
+    ],
+    [
+     "원본",
+     "Nus"
+    ],
+    [
+     "저작권자",
+     "Dr Moned"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ],
+    [
+     "출처",
+     "Dr Moned's Icons and Art"
+    ]
+   ]
+  ]
  },
  "SCP-6448": {
   "id": "SCP-6448",
@@ -235,6 +538,17 @@
   "author": "OzzyLizard",
   "translator": "quilt ###",
   "source": "https://scpko.wikidot.com/scp-6448",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/ozzylizard-2/NotDeer2",
+    "cap": "비변칙적 사슴을 모방하는 SCP-6448 개체."
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/ozzylizard-2/FunkyDude",
+    "cap": "비변칙적 사슴과 의사소통하려 시도하는 SCP-6448 개체."
+   }
+  ],
+  "img_credits": []
  }
 }

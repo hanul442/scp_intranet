@@ -25,7 +25,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-650-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-650-ko/frog-2240764_960_720.jpg",
+    "cap": "관측기록 SCP-650-C 당시 SCP-650-KO의 외형과 흡사한 조각상"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/activity-documentation-file-11-a/OneroiGardens2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-651-KO": {
   "id": "SCP-651-KO",
@@ -50,7 +61,33 @@
   "author": "Garlic Corn-Potatoes",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-651-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-651-ko/miniseoul",
+    "cap": "확인할 수 있는 가장 최근의 SCP-651-KO."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Mini-Seoul (작은 서울) - panoramio.jpg"
+    ],
+    [
+     "저자",
+     "골뱅"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-652-KO": {
   "id": "SCP-652-KO",
@@ -72,7 +109,9 @@
   "author": "Chris nix #",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-652-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-653-KO": {
   "id": "SCP-653-KO",
@@ -100,7 +139,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-653-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-653-ko/SCP-653-KO.jpg",
+    "cap": "2018년 6월경에 찍힌 사진. SCP-653-KO는 구름에 가려 보이지 않는다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-654-KO": {
   "id": "SCP-654-KO",
@@ -125,7 +171,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-654-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-655-KO": {
   "id": "SCP-655-KO",
@@ -150,7 +198,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-655-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-655-ko/SCP-655-KR.jpg",
+    "cap": "포획된 SCP-655-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-656-KO": {
   "id": "SCP-656-KO",
@@ -173,7 +228,21 @@
   "author": "Cubic72",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-656-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-656-ko/scp-656-ko.jpg",
+    "cap": "SCP-656-KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-656-ko.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-657-KO": {
   "id": "SCP-657-KO",
@@ -196,7 +265,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-657-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-657-ko/Girl_with_laptop_japan.jpg",
+    "cap": "생전의 PoI-1190."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-658-KO": {
   "id": "SCP-658-KO",
@@ -222,7 +298,18 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-658-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://oratio.wdfiles.com/local--files/godok/school",
+    "cap": "제██K기지 전경"
+   },
+   {
+    "src": "https://oratio.wdfiles.com/local--files/godok/girl",
+    "cap": "실종 이전의 SCP-658-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-659-KO": {
   "id": "SCP-659-KO",
@@ -242,7 +329,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-659-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-660-KO": {
   "id": "SCP-660-KO",
@@ -268,7 +357,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-660-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-661-KO": {
   "id": "SCP-661-KO",
@@ -297,7 +388,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-661-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-661-ko/ringadingding.jpg",
+    "cap": "2019년 8월 22일, 강원도 정선군"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-662-KO": {
   "id": "SCP-662-KO",
@@ -319,7 +417,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-662-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-663-KO": {
   "id": "SCP-663-KO",
@@ -347,7 +447,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-663-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-663-ko/Aesculap_scalpel_handle_No.3.jpg",
+    "cap": "SCP-663-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-664-KO": {
   "id": "SCP-664-KO",
@@ -369,7 +476,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-664-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-665-KO": {
   "id": "SCP-665-KO",
@@ -389,7 +498,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-665-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-666-KO": {
   "id": "SCP-666-KO",
@@ -428,7 +539,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-666-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-667-KO": {
   "id": "SCP-667-KO",
@@ -451,7 +564,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-667-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-668-KO": {
   "id": "SCP-668-KO",
@@ -477,7 +592,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-668-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-668-ko/48a5921d3e9d63b4.png",
+    "cap": "SCP-668-KO의 로고."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-668-ko/%EB%B0%88%EC%A0%81%EC%9E%AC%ED%95%B4.png",
+    "cap": "시각재해 검열됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-669-KO": {
   "id": "SCP-669-KO",
@@ -506,7 +632,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-669-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-669-ko/1.jpg",
+    "cap": "SCP-669-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-670-KO": {
   "id": "SCP-670-KO",
@@ -529,7 +662,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-670-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-671-KO": {
   "id": "SCP-671-KO",
@@ -552,7 +687,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-671-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-672-KO": {
   "id": "SCP-672-KO",
@@ -574,7 +711,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-672-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-673-KO": {
   "id": "SCP-673-KO",
@@ -598,7 +737,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-673-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-673-ko/Portrait_of_an_unidentified_man_in_a_suit_(I0024799).tiff.jpg",
+    "cap": "가장 오래된 SCP-673-KO-1의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-674-KO": {
   "id": "SCP-674-KO",
@@ -626,7 +772,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-674-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-675-KO": {
   "id": "SCP-675-KO",
@@ -650,7 +798,18 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-675-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-675-ko/Pox%20deity.png",
+    "cap": "발사되는 SCP-675-KO의 화상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-675-ko/grassland.png",
+    "cap": "SCP-675-KO가 발견된 공간. 경미한 인식재해 현상이 드러나고 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-676-KO": {
   "id": "SCP-676-KO",
@@ -675,7 +834,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-676-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-677-KO": {
   "id": "SCP-677-KO",
@@ -699,7 +860,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-677-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-678-KO": {
   "id": "SCP-678-KO",
@@ -725,7 +888,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-678-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-679-KO": {
   "id": "SCP-679-KO",
@@ -752,7 +917,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-679-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-681-KO": {
   "id": "SCP-681-KO",
@@ -779,7 +946,9 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-681-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-682-KO": {
   "id": "SCP-682-KO",
@@ -805,7 +974,9 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-682-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-683-KO": {
   "id": "SCP-683-KO",
@@ -828,7 +999,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-683-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-684-KO": {
   "id": "SCP-684-KO",
@@ -850,7 +1023,14 @@
   "author": "Xrosiam",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-684-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-684-ko/Ibm-5150-1.jpg",
+    "cap": "SCP-684-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-685-KO": {
   "id": "SCP-685-KO",
@@ -877,7 +1057,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-685-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-686-KO": {
   "id": "SCP-686-KO",
@@ -898,7 +1080,57 @@
   "author": "amir holy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-686-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-686-ko/slimed.png",
+    "cap": "SCP-686-KO의 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-686-ko/mark.png",
+    "cap": "SCP-686-KO의 표면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "slimed.png, mark.png"
+    ],
+    [
+     "원본",
+     "alborz mountains"
+    ],
+    [
+     "저자",
+     "amir holy"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Storm Clouds Gathering"
+    ],
+    [
+     "저자",
+     "Zooey"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-687-KO": {
   "id": "SCP-687-KO",
@@ -921,7 +1153,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-687-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-688-KO": {
   "id": "SCP-688-KO",
@@ -941,7 +1175,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-688-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-688-ko/popcorn-nodule.jpg",
+    "cap": "SCP-688-KO 소지자의 흉부 CT 사진. 전형적인 팝콘 석회화 결절(화살표)이 나타난다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-689-KO": {
   "id": "SCP-689-KO",
@@ -970,7 +1211,9 @@
   "author": "Salamander724(아이디어/사진 제공) & quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-689-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-690-KO": {
   "id": "SCP-690-KO",
@@ -997,7 +1240,9 @@
   "author": "CatSi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-690-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-691-KO": {
   "id": "SCP-691-KO",
@@ -1020,7 +1265,9 @@
   "author": "PIMANG",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-691-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-692-KO": {
   "id": "SCP-692-KO",
@@ -1046,7 +1293,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-692-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-692-ko/Bayard.jpg",
+    "cap": "바야르와 그 위에 올라탄 네 형제를 묘사한 그림. 14세기 초."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-692-ko/Explosion.jpg",
+    "cap": "격리실 내 카메라에 촬영된 폭발 순간의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-692-ko/RosBeiaard.jpg",
+    "cap": "벨기에 덴데르몬더Dendermonde에서 열린 전통 축제의 사진. 바야르와 네 형제의 모습을 재현하고 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-693-KO": {
   "id": "SCP-693-KO",
@@ -1067,7 +1329,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-693-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-694-KO": {
   "id": "SCP-694-KO",
@@ -1094,7 +1358,9 @@
   "author": "DreamCube",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-694-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-695-KO": {
   "id": "SCP-695-KO",
@@ -1113,7 +1379,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-695-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-696-KO": {
   "id": "SCP-696-KO",
@@ -1139,7 +1407,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-696-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-697-KO": {
   "id": "SCP-697-KO",
@@ -1166,7 +1436,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-697-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-697-ko/SCP-697-KO.jpg",
+    "cap": "따개비와 분해된 따개비의 흔적으로 뒤덮인 부표형 SCP-697-KO 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-698-KO": {
   "id": "SCP-698-KO",
@@ -1192,7 +1469,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-698-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-698-ko/scp-698-ko.jpg",
+    "cap": "SCP-698-KO 개체들. 항밈 제거 필터가 적용됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-699-KO": {
   "id": "SCP-699-KO",
@@ -1216,6 +1500,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-699-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

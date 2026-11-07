@@ -19,7 +19,37 @@
   "author": "Varaxous",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5760",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5760/mummy.jpg",
+    "cap": "건조실에 보관 중인 SCP-5760."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mummy.jpg"
+    ],
+    [
+     "원본",
+     "File:Mummy 501594 fh000031.jpg"
+    ],
+    [
+     "저작권자",
+     "David Monniaux"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5761": {
   "id": "SCP-5761",
@@ -43,7 +73,89 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5761",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5761/scpstation.png",
+    "cap": "SCP-5761."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5761/scpgreece.png",
+    "cap": "히마Hyma 외곽."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5761/scpcomp.png",
+    "cap": "변칙성이 발현되기 전의 SCP-5761-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpstation.png"
+    ],
+    [
+     "원본",
+     "International Space Station"
+    ],
+    [
+     "저작권자",
+     "Kowh"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scpgreece.png"
+    ],
+    [
+     "원본",
+     "Cretan mountains"
+    ],
+    [
+     "저작권자",
+     "Jan Fidler"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scpcomp.png"
+    ],
+    [
+     "원본",
+     "Discover Supercomputer 3"
+    ],
+    [
+     "저작권자",
+     "NASA Goddard Space Flight Center"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5762": {
   "id": "SCP-5762",
@@ -67,7 +179,33 @@
   "author": "Rounderhouse",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5762",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5762/800px-WBAMC_first_in_DoD_to_use_robot_for_surgery_160426-A-EK666-506.jpg",
+    "cap": "3번 수술실에 있는 SCP-5762."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "WBAMC_first_in_DoD_to_use_robot_for_surgery_160426-A-EK666-506.jpg"
+    ],
+    [
+     "저작권자",
+     "Marcy Sanchez"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-5768": {
   "id": "SCP-5768",
@@ -87,7 +225,37 @@
   "author": "jackVS",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5768",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5768/disneyland.jpg",
+    "cap": "SCP-5768의 중심지인 디즈니랜드 리조트에서 민간인이 촬영한 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "disneyland.jpg"
+    ],
+    [
+     "원본",
+     "Disneyland California 1976"
+    ],
+    [
+     "저작권자",
+     "Gary Lee Todd"
+    ],
+    [
+     "라이선스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "link"
+    ]
+   ]
+  ]
  },
  "SCP-5772": {
   "id": "SCP-5772",
@@ -106,7 +274,33 @@
   "author": "Pythy",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-5772",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5772/turbulent-flow.jpg",
+    "cap": "SCP-5772의 작은 부분의 시뮬레이션."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "turbulent-flow.jpg"
+    ],
+    [
+     "저작권자",
+     "Oak Ridge National Laboratory, U.S. Dept. of Energy"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Oak Ridge National Laboratory"
+    ]
+   ]
+  ]
  },
  "SCP-5787": {
   "id": "SCP-5787",
@@ -131,7 +325,55 @@
   "author": "PlaguePJP & J Dune",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5787",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5787/genos.jpg",
+    "cap": "SCP-5787의 현장인 제노스 스테이크."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5787/library.png",
+    "cap": "D-2392의 바디캠 정지화면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "genos.jpg"
+    ],
+    [
+     "저작권자",
+     "j.reed"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/2b44b9a5-eae4-4b34-8563-7d845f1a8a93"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "library.png"
+    ],
+    [
+     "저작권자",
+     "H Michael Miley"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/359aaeeb-8c14-417b-b78f-6a7be77f7b76"
+    ]
+   ]
+  ]
  },
  "SCP-5788": {
   "id": "SCP-5788",
@@ -150,7 +392,9 @@
   "author": "Riemann",
   "translator": "Parrot37 : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-5788",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5789": {
   "id": "SCP-5789",
@@ -175,7 +419,9 @@
   "author": "CityToast",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5789",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5790": {
   "id": "SCP-5790",
@@ -197,7 +443,50 @@
   "author": "MaliceAforethought",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-5790",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Mikhail_Vrubel_-_Flying_Demon_-_Google_Art_Project.jpg"
+    ],
+    [
+     "원본",
+     "Flying Demon"
+    ],
+    [
+     "저작권자",
+     "Mikhail Vrubel"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Seance_Doll.jpg"
+    ],
+    [
+     "저작권자",
+     "Cesare Lombroso"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5798": {
   "id": "SCP-5798",
@@ -218,6 +507,66 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5798",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5798/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5798/sgirfqxh.jpg",
+    "cap": "SCP-5798이 주로 출현하는 장소"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5798/zq29p3D.jpg",
+    "cap": "SCP-5798이 자주 나타나는 배수구"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "they.jpg"
+    ],
+    [
+     "Name",
+     "the y"
+    ],
+    [
+     "Author",
+     "me"
+    ],
+    [
+     "License",
+     "CC-BY-SA-3.0"
+    ],
+    [
+     "Source Link",
+     "i took it"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "draingang.jpg"
+    ],
+    [
+     "Name",
+     "drain"
+    ],
+    [
+     "Author",
+     "me"
+    ],
+    [
+     "License",
+     "CC-BY-SA-3.0"
+    ],
+    [
+     "Source Link",
+     "i took it"
+    ]
+   ]
+  ]
  }
 }

@@ -20,7 +20,59 @@
   "author": "Cherry Pict",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-900",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-900/900_Underwater.jpg",
+    "cap": "해안가에서 125미터 떨어진 곳에 위치한 수중 구조물. 건축학적 증거에 따르면, 해당 구조물은 SCP-900이 멸망한 지 약 1,500년이 지난 후에 건설되었음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "900_Underwater.jpg"
+    ],
+    [
+     "Name",
+     "Shipreck"
+    ],
+    [
+     "Author",
+     "slava"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Site78.jpeg"
+    ],
+    [
+     "Name",
+     "North Sea oil platform"
+    ],
+    [
+     "Author",
+     "Stan Shebs"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:North_Sea_oil_platform.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-903": {
   "id": "SCP-903",
@@ -41,7 +93,37 @@
   "author": "SpoonOfEvil",
   "translator": "W62826",
   "source": "https://scpko.wikidot.com/scp-903",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-903/903.jpg",
+    "cap": "관측소 A에서 본 SCP-903"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "903.jpg"
+    ],
+    [
+     "원본",
+     "The vortex whirlwind"
+    ],
+    [
+     "저작권자",
+     "Phild.d"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유 (원작자 허가 하에 사용, Accelerando가 원본 페이지에 남긴 2014. 04. 14. 코멘트 참고)"
+    ],
+    [
+     "출처",
+     "flickr 아카이브"
+    ]
+   ]
+  ]
  },
  "SCP-904": {
   "id": "SCP-904",
@@ -63,7 +145,9 @@
   "author": "Sophia Light",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-904",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-905": {
   "id": "SCP-905",
@@ -87,7 +171,9 @@
   "author": "Salman Corbette & Dexanote",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-905",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-908": {
   "id": "SCP-908",
@@ -107,7 +193,28 @@
   "author": "spikebrennan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-908",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Ball's Pyramid North.jpg"
+    ],
+    [
+     "저작권자",
+     "Fanny Schertzer"
+    ],
+    [
+     "라이선스",
+     "크리에이티브 커먼즈 4.0 / 3.0 / 2.5 / 2.0 / 1.0 모두와 호환됨."
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-909": {
   "id": "SCP-909",
@@ -130,7 +237,9 @@
   "author": "Salman Corbette & Dexanote",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-909",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-911": {
   "id": "SCP-911",
@@ -153,7 +262,14 @@
   "author": "eric_h",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-911",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-911/911.jpg",
+    "cap": "SCP-911의 일부"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-912": {
   "id": "SCP-912",
@@ -173,7 +289,9 @@
   "author": "XCninety",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-912",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-913": {
   "id": "SCP-913",
@@ -196,7 +314,9 @@
   "author": "Salman Corbette & Dexanote",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-913",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-914": {
   "id": "SCP-914",
@@ -215,7 +335,37 @@
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-914",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "태엽장치"
+  "nickname": "태엽장치",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-914/gears.jpg",
+    "cap": "비활성화된 상태의 SCP-914의 가장 덜 복잡한 부분"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gears.jpg"
+    ],
+    [
+     "원본",
+     "Gears"
+    ],
+    [
+     "저작권자",
+     "Thomas Claveirole"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-916": {
   "id": "SCP-916",
@@ -237,7 +387,9 @@
   "author": "Dr_Adams",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-916",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-917": {
   "id": "SCP-917",
@@ -261,7 +413,9 @@
   "author": "Dexanote",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-917",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-918": {
   "id": "SCP-918",
@@ -283,7 +437,32 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-918",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "918-new"
+    ],
+    [
+     "원본",
+     "Marabou stork (Leptoptilos crumenifer) head.jpg"
+    ],
+    [
+     "저작권자",
+     "Charles J. Sharp"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-919": {
   "id": "SCP-919",
@@ -303,7 +482,9 @@
   "author": "Lat Ware",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-919",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-920": {
   "id": "SCP-920",
@@ -326,7 +507,33 @@
   "author": "Salman Corbette",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-920",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-920/MrLost2.jpg",
+    "cap": "██████ 요원(오른쪽)에 의해 호송되고 있는 SCP-920(왼쪽). ██████ 요원의 마지막 모습이 담긴 것으로 알려진 사진임"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "MrLost2.jpg"
+    ],
+    [
+     "저작권자",
+     "T3W_boston"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-924": {
   "id": "SCP-924",
@@ -346,7 +553,9 @@
   "author": "Djoric",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-924",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-928": {
   "id": "SCP-928",
@@ -366,7 +575,37 @@
   "author": "Dave Rapp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-928",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-928/le-romney-face.jpg",
+    "cap": "SCP-928"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "le-romney-face.jpg"
+    ],
+    [
+     "원본",
+     "File:Porcelain doll.jpeg"
+    ],
+    [
+     "저작권자",
+     "Jorcoga"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-931": {
   "id": "SCP-931",
@@ -389,7 +628,9 @@
   "author": "Quikngruvn",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-931",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-933": {
   "id": "SCP-933",
@@ -410,7 +651,9 @@
   "author": "Lat Ware",
   "translator": "blackmagpie : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-933",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-936": {
   "id": "SCP-936",
@@ -434,7 +677,9 @@
   "author": "VAElynx",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-936",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-937": {
   "id": "SCP-937",
@@ -455,7 +700,63 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-937",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-937/scp937.jpg",
+    "cap": "SCP-937의 '텅 빈 기둥' 개체"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-937/scp937-2-small.png",
+    "cap": "수색형 SCP-937-2"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp947.jpg"
+    ],
+    [
+     "원본",
+     "File:Strangler_Fig_Cape_Tribulation.jpg"
+    ],
+    [
+     "저작권자",
+     "Poyt448 Peter Woodard"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scp937-2-small.png"
+    ],
+    [
+     "원본",
+     "File:Heteropteryx dilatata.png"
+    ],
+    [
+     "저작권자",
+     "Ian13"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-939": {
   "id": "SCP-939",
@@ -476,7 +777,9 @@
   "author": "Adam Smascher & EchoFourDelta",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-939",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-942": {
   "id": "SCP-942",
@@ -499,7 +802,9 @@
   "author": "InnocentBystander",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-942",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-944": {
   "id": "SCP-944",
@@ -519,7 +824,33 @@
   "author": "eric_h",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-944",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-944/SCP-944.jpg",
+    "cap": "봉쇄되기 전 SCP-944의 내부"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-944.jpg"
+    ],
+    [
+     "원본",
+     "Mirror Maze"
+    ],
+    [
+     "저작권자",
+     "Leonard Pickell"
+    ],
+    [
+     "라이선스",
+     "모든 권리 보유(저작권자의 허가 하에 사용, Accelerando가 원본 페이지 토론란에 남긴 2014. 05. 29. 코멘트 참고)"
+    ]
+   ]
+  ]
  },
  "SCP-946": {
   "id": "SCP-946",
@@ -541,7 +872,9 @@
   "author": "PureQuestion",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-946",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-947": {
   "id": "SCP-947",
@@ -564,7 +897,9 @@
   "author": "A Random Day",
   "translator": "Abyshroom",
   "source": "https://scpko.wikidot.com/scp-947",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-949": {
   "id": "SCP-949",
@@ -585,6 +920,36 @@
   "author": "Tanhony",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-949",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-949/949-new.jpg",
+    "cap": "SCP-949-1 개체: '말코손바닥사슴 마티'"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "949-new.jpg"
+    ],
+    [
+     "원본",
+     "AS0131_2248"
+    ],
+    [
+     "저작권자",
+     "TheAHL"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  }
 }

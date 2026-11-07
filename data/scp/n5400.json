@@ -22,7 +22,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5401",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5404": {
   "id": "SCP-5404",
@@ -44,7 +46,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5404",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5410": {
   "id": "SCP-5410",
@@ -67,7 +71,77 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5410",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5410/one",
+    "cap": "SCP-5410의 제어반."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5410/two",
+    "cap": "발견 당시의 SCP-5410."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5410/tea",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "one.jpg"
+    ],
+    [
+     "Author",
+     "Steve Parker"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://ccsearch.creativecommons.org/photos/9817f179-994f-4cd8-ae62-54a5784f2f87"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "two.jpg"
+    ],
+    [
+     "Author",
+     "Steve Parker"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://ccsearch.creativecommons.org/photos/dc97b020-edcc-451d-ab75-f81cc9b672a6"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tea.jpg"
+    ],
+    [
+     "Author",
+     "吳錦 (Kam)"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://ccsearch.creativecommons.org/photos/46019da3-857f-4cd0-8fb7-e1f0a3acfdd5"
+    ]
+   ]
+  ]
  },
  "SCP-5415": {
   "id": "SCP-5415",
@@ -91,7 +165,129 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5415",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5415/120GM",
+    "cap": "SCP-5415-1의 표지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "120GM"
+    ],
+    [
+     "저작권자",
+     "Dysadron"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "FloorPlan1"
+    ],
+    [
+     "저작권자",
+     "Dysadron"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "FloorPlan2"
+    ],
+    [
+     "저작권자",
+     "Dysadron"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "FloorPlan3"
+    ],
+    [
+     "저작권자",
+     "Dysadron"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Baptism"
+    ],
+    [
+     "저작권자",
+     "Dysadron"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Baptism"
+    ],
+    [
+     "원본",
+     "young-happy-couple-at-sunset-beach"
+    ],
+    [
+     "저작권자",
+     "peopleshot"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "https://pickupimage.com/free-photos/young-happy-couple-at-sunset-beach/2333012"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Baptism"
+    ],
+    [
+     "원본",
+     "Free vintage antique leather book cover texture for layers (2981931138).jpg"
+    ],
+    [
+     "저작권자",
+     "Pink Sherbert Photography"
+    ],
+    [
+     "라이선스",
+     "Creative Commons Attribution 2.0 Generic"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Free_vintage_antique_leather_book_cover_texture_for_layers_(2981931138).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-5417": {
   "id": "SCP-5417",
@@ -112,7 +308,32 @@
   "author": "swordlover87",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-5417",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "2020_Villa_Weisdorff.jpg"
+    ],
+    [
+     "원본",
+     "2020 Villa Weisdorff"
+    ],
+    [
+     "저작권자",
+     "Stefan Oemisch"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5430": {
   "id": "SCP-5430",
@@ -135,7 +356,9 @@
   "author": "A Random Day",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5430",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5443": {
   "id": "SCP-5443",
@@ -156,6 +379,8 @@
   "author": "TheyCallMeTim",
   "translator": "oratio",
   "source": "https://scpko.wikidot.com/scp-5443",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

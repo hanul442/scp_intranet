@@ -20,7 +20,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-400-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-400-ko/%E3%85%85.jpg",
+    "cap": "SCP-400-KO가 소지한 그림의 사본."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-401-KO": {
   "id": "SCP-401-KO",
@@ -43,7 +50,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-401-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-402-KO": {
   "id": "SCP-402-KO",
@@ -65,7 +74,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-402-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-403-KO": {
   "id": "SCP-403-KO",
@@ -89,7 +100,16 @@
   "author": "three days",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-403-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "asdf"
+    ]
+   ]
+  ]
  },
  "SCP-404-KO": {
   "id": "SCP-404-KO",
@@ -113,7 +133,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-404-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-405-KO": {
   "id": "SCP-405-KO",
@@ -136,7 +158,9 @@
   "author": "Aiken Drum & Gozarane",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-405-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-406-KO": {
   "id": "SCP-406-KO",
@@ -159,7 +183,42 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-406-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-406-ko/Cat.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/hi.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/dnldzm.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/taddybear",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/EKqhd.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/nn.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/dkfdkqhwk.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4605-a4af/hlhl.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-407-KO": {
   "id": "SCP-407-KO",
@@ -186,7 +245,14 @@
   "author": "CatSi does not match any existing user name",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-407-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-407-ko/med",
+    "cap": "현재 처방되고 있는 SCP-407-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-408-KO": {
   "id": "SCP-408-KO",
@@ -212,7 +278,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-408-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-409-KO": {
   "id": "SCP-409-KO",
@@ -236,7 +304,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-409-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-410-KO": {
   "id": "SCP-410-KO",
@@ -261,7 +331,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-410-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-410-ko/F82YASEJ3K.jpg",
+    "cap": "SCP-410-KO의 외형."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-410-ko/B8NYUXPN6X.jpg",
+    "cap": "SCP-410-KO의 체관이 굵어진 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-411-KO": {
   "id": "SCP-411-KO",
@@ -286,7 +367,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-411-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-412-KO": {
   "id": "SCP-412-KO",
@@ -313,7 +396,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-412-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-412-ko/SCP-412-KO.JPG",
+    "cap": "SCP-███-KO의 3차원 이미지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-413-KO": {
   "id": "SCP-413-KO",
@@ -338,7 +428,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-413-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-414-KO": {
   "id": "SCP-414-KO",
@@ -363,7 +455,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-414-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-414-ko/caelum.png",
+    "cap": "조각칼자리의 도해."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-415-KO": {
   "id": "SCP-415-KO",
@@ -388,7 +487,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-415-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-416-KO": {
   "id": "SCP-416-KO",
@@ -416,7 +517,14 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-416-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-416-ko/stump.jpg",
+    "cap": "SCP-416-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-417-KO": {
   "id": "SCP-417-KO",
@@ -446,7 +554,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-417-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-417-ko/417ko.png",
+    "cap": "1943년경 노르웨이의 SCP-417-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-418-KO": {
   "id": "SCP-418-KO",
@@ -469,7 +584,31 @@
   "author": "three days",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-418-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-418-ko/Welovecorn!.jpg",
+    "cap": "사우스다코타주 미첼에 위치한 그들의 기지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-418-ko/Cornsilovecorns",
+    "cap": "옥수수 만세!!!!1!"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "welovecorn!"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Cornsilovecorns"
+    ]
+   ]
+  ]
  },
  "SCP-419-KO": {
   "id": "SCP-419-KO",
@@ -491,7 +630,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-419-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-420-KO": {
   "id": "SCP-420-KO",
@@ -519,7 +660,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-420-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-420-ko/White_cane_sugar.JPG",
+    "cap": "romania.aic 본체 주변에 놓여져 있던 SCP-420-KO 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-421-KO": {
   "id": "SCP-421-KO",
@@ -544,7 +696,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-421-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-422-KO": {
   "id": "SCP-422-KO",
@@ -568,7 +722,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-422-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-423-KO": {
   "id": "SCP-423-KO",
@@ -592,7 +748,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-423-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-424-KO": {
   "id": "SCP-424-KO",
@@ -617,7 +775,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-424-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-425-KO": {
   "id": "SCP-425-KO",
@@ -646,7 +806,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-425-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-426-KO": {
   "id": "SCP-426-KO",
@@ -673,7 +835,18 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-426-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-426-ko/crow.jpg",
+    "cap": "SCP-426-KO의 스프라이트."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-426-ko/crow2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-427-KO": {
   "id": "SCP-427-KO",
@@ -695,7 +868,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-427-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-428-KO": {
   "id": "SCP-428-KO",
@@ -719,7 +894,9 @@
   "author": "Chess2823, three days",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-428-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-429-KO": {
   "id": "SCP-429-KO",
@@ -741,7 +918,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-429-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-430-KO": {
   "id": "SCP-430-KO",
@@ -773,7 +952,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-430-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-431-KO": {
   "id": "SCP-431-KO",
@@ -796,7 +977,14 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-431-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": "복리후생부 로고. SCP-431-KO의 목격 사진에서 추출함."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-432-KO": {
   "id": "SCP-432-KO",
@@ -817,7 +1005,9 @@
   "author": "Didic",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-432-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-433-KO": {
   "id": "SCP-433-KO",
@@ -839,7 +1029,9 @@
   "author": "Didic",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-433-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-434-KO": {
   "id": "SCP-434-KO",
@@ -863,7 +1055,9 @@
   "author": "Didic",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-434-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-435-KO": {
   "id": "SCP-435-KO",
@@ -887,7 +1081,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-435-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-435-ko/Acidobacterium.jpg",
+    "cap": "생체발광하는 SCP-435-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-436-KO": {
   "id": "SCP-436-KO",
@@ -912,7 +1113,22 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-436-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-436-ko/%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5.jpg",
+    "cap": "돼지국밥."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/division-of-sustainable-containment-development-hub/Rncskslsl.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-436-ko/vehicle-metal-factory-drum-beer-alcohol-643964-pxhere.com.jpg",
+    "cap": "제145K수용기지 지하에 설치된 SCPreserved-436-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-437-KO": {
   "id": "SCP-437-KO",
@@ -944,7 +1160,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-437-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-437-ko/%EA%B2%BD%EB%82%A8-%ED%86%B5%EC%98%81-%EC%B6%A9%EB%AC%B4%EA%B9%80%EB%B0%A5-011.jpg",
+    "cap": "회수된 SCP-437-KO-B"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-438-KO": {
   "id": "SCP-438-KO",
@@ -965,7 +1188,18 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-438-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-438-ko/Korean.desserts-Biyanco-01.jpg",
+    "cap": "SCP-438-KO에 보관했던 빙과류 제품. 포장 디자인이 현재의 동일 제품과 다른 것에 주목."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-438-ko/warehouse.png",
+    "cap": "프로토타입 변칙 공간"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-439-KO": {
   "id": "SCP-439-KO",
@@ -989,7 +1223,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-439-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-439-ko/pill-316601_640.jpg",
+    "cap": "실험을 위해 포장을 벗긴 오렌지 맛의 SCP-439-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-440-KO": {
   "id": "SCP-440-KO",
@@ -1012,7 +1253,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-440-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-440-ko/Broken_toilet_seats.jpg",
+    "cap": "D-2543이 발생시킨 SCP-440-KO로 인해 파괴된 제21K기지의 변기"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-441-KO": {
   "id": "SCP-441-KO",
@@ -1036,7 +1284,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-441-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-442-KO": {
   "id": "SCP-442-KO",
@@ -1063,7 +1313,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-442-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-443-KO": {
   "id": "SCP-443-KO",
@@ -1084,7 +1336,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-443-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-444-KO": {
   "id": "SCP-444-KO",
@@ -1110,7 +1364,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-444-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/fragment:scp-444-ko-1/countdown.gif",
+    "cap": "범인은?"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-445-KO": {
   "id": "SCP-445-KO",
@@ -1134,7 +1395,99 @@
   "author": "LR0725",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-445-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-445-ko/Staphylococcus_aureus_VISA_2.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-445-ko/Treponema_pallidum.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-445-ko/Streptococcus_mutans_01.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-445-ko/Candida_albicans_PHIL_3192_lores.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Staphylococcus_aureus_VISA_2.jpg"
+    ],
+    [
+     "제작자",
+     "미국 질병통제예방센터"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://phil.cdc.gov/details.aspx?pid=11157"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Treponema_pallidum.jpg"
+    ],
+    [
+     "제작자",
+     "미국 질병통제예방센터"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://phil.cdc.gov/details.aspx?pid=1977"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Streptococcus_mutans_01.jpg"
+    ],
+    [
+     "제작자",
+     "미국 질병통제예방센터"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://phil.cdc.gov/details.aspx?pid=1043"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Candida_albicans_PHIL_3192_lores.jpg"
+    ],
+    [
+     "제작자",
+     "미국 질병통제예방센터"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://phil.cdc.gov/details.aspx?pid=3192"
+    ]
+   ]
+  ]
  },
  "SCP-446-KO": {
   "id": "SCP-446-KO",
@@ -1161,7 +1514,33 @@
   "author": "LR0725, Kepner",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-446-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-446-ko/Chemiluminescance.jpg",
+    "cap": "활성화된 SCP-446-KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Chemiluminescance.jpg"
+    ],
+    [
+     "제작자",
+     "PRHaney from Wikimedia Commons"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Chemiluminescance.JPG"
+    ]
+   ]
+  ]
  },
  "SCP-447-KO": {
   "id": "SCP-447-KO",
@@ -1188,7 +1567,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-447-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-448-KO": {
   "id": "SCP-448-KO",
@@ -1225,7 +1606,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-448-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-449-KO": {
   "id": "SCP-449-KO",
@@ -1246,6 +1629,8 @@
   "author": "CatSi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-449-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -44,6 +44,200 @@
   "author": "WarriorofChaos",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-7629",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/1024px-%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D0%BD%D0%BA%D0%B5_-_panoramio.jpg",
+    "cap": "SCP-7629로 향하는 터널 입구"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Droganian-Language-Alphabet.png",
+    "cap": "용인어 문자 체계."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Shed-Skin.jpg",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Mab-Mural.jpg",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Droganian-Gate-(Ver.3).png",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Droganian-village.jpg",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/Royal-Halls-(Ver.2).png",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/o5-4-(Ralliston).jpg",
+    "cap": "O5-4."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-7629-1/05-8.jpg",
+    "cap": "O5-8."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Droganian-Language-Alphabet.png"
+    ],
+    [
+     "Author",
+     "WarriorofChaos"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Shed-Skin.jpg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons Image 1"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Mab-Mural.jpg"
+    ],
+    [
+     "Author",
+     "WarriorofChaos"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Droganian-Gate-(Ver.2).png"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons Image 1"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Droganian-village.jpg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Royal-Halls-(Ver.2).png"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons Image 1"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "o5-4-(Ralliston).jpg"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "05-8.jpg"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "The-City-of-Arcadia.jpg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons Image 1"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Arcadia-Flag.png"
+    ],
+    [
+     "Author",
+     "WarriorofChaos"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Sunset-Dragon.jpg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

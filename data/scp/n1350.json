@@ -17,7 +17,9 @@
   "author": "D-Mos",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1352",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1353": {
   "id": "SCP-1353",
@@ -44,7 +46,9 @@
   "author": "SoullessSingularity",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1353",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1358": {
   "id": "SCP-1358",
@@ -66,7 +70,9 @@
   "author": "Wilt",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1358",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1360": {
   "id": "SCP-1360",
@@ -88,7 +94,55 @@
   "author": "Jacob Conwell",
   "translator": "Knoth",
   "source": "https://scpko.wikidot.com/scp-1360",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1360/SCP-1360.jpg",
+    "cap": "격리된 SCP-1360."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1360/SCP-1360-1.jpg",
+    "cap": "2009년 8월 9일 SCP-1360의 허리 아래쪽에서 채취한 SCP-1360-1의 일부분."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1360.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1360"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-1360-1.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:TwaronSRM.jpg"
+    ],
+    [
+     "제작자",
+     "No-w-ay, Rounderhouse (수정)"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1362": {
   "id": "SCP-1362",
@@ -111,7 +165,9 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1362",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1370": {
   "id": "SCP-1370",
@@ -132,7 +188,9 @@
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1370",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "성가신봇"
+  "nickname": "성가신봇",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1371": {
   "id": "SCP-1371",
@@ -153,7 +211,33 @@
   "author": "faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1371",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1371/1371.png",
+    "cap": "수조 안의 SCP-1371"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1371.png"
+    ],
+    [
+     "출처",
+     "https://www.publicdomainpictures.net/en/view-image.php?image=249759"
+    ],
+    [
+     "제작자",
+     "Video Girl"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1373": {
   "id": "SCP-1373",
@@ -175,7 +259,9 @@
   "author": "minmin",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1373",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1379": {
   "id": "SCP-1379",
@@ -196,7 +282,33 @@
   "author": "Dexanote",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1379",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1379/fuckingclownsAAAA.jpg",
+    "cap": "SCP-1379."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "fuckingclownsAAAA.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1379"
+    ],
+    [
+     "제작자",
+     "Dexanote"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1380": {
   "id": "SCP-1380",
@@ -219,7 +331,9 @@
   "author": "Eskobar",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1382": {
   "id": "SCP-1382",
@@ -245,7 +359,33 @@
   "author": "SnakeoilSage",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1382",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1382/1382.jpg",
+    "cap": "SCP-1382-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1382.jpg"
+    ],
+    [
+     "출처",
+     "https://www.vos.noaa.gov/MWL/apr_10/vandalism.shtml"
+    ],
+    [
+     "제작자",
+     "National Oceanic and Atmospheric Administration"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1384": {
   "id": "SCP-1384",
@@ -269,7 +409,9 @@
   "author": "DrEverettMann",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1384",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1387": {
   "id": "SCP-1387",
@@ -296,7 +438,33 @@
   "author": "Waterfire",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1387",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1387/index.jpg",
+    "cap": "격리되기 전 비행하고 있는 SCP-1387."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "index.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "l0da_ralta"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1390": {
   "id": "SCP-1390",
@@ -316,7 +484,33 @@
   "author": "kinchtheknifeblade",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1390",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1390/scp-1390.jpg",
+    "cap": "SCP-1390이 포함되지 않은 SCP-1390-1 물체 한 점. SCP-1390-2 감염 제3기 [편집됨] 유사성이 드러난다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1390.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Rama"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0 FR"
+    ]
+   ]
+  ]
  },
  "SCP-1391": {
   "id": "SCP-1391",
@@ -336,6 +530,8 @@
   "author": "Maddy L",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1391",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

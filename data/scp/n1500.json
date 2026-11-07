@@ -20,7 +20,9 @@
   "author": "Anaxagoras",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1501": {
   "id": "SCP-1501",
@@ -41,7 +43,33 @@
   "author": "RJB_R",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1501",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1501/1501.jpg",
+    "cap": "SCP-1501 개체, 19██년에 기록됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1501.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Chicago Daily News"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1503": {
   "id": "SCP-1503",
@@ -65,7 +93,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1503",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1504": {
   "id": "SCP-1504",
@@ -89,7 +119,9 @@
   "author": "MayD",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1504",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1505": {
   "id": "SCP-1505",
@@ -113,7 +145,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1505",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1507": {
   "id": "SCP-1507",
@@ -134,7 +168,18 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1507",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1507/flam.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1507/flams.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1509": {
   "id": "SCP-1509",
@@ -155,7 +200,55 @@
   "author": "Rioghail",
   "translator": "O_Shaw",
   "source": "https://scpko.wikidot.com/scp-1509",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1509/Knife_(Parang)_with_Sheath_MET_36.25.840a_b_001_Apr2017.jpg",
+    "cap": "SCP-1509 와 그 칼집 (칼집의 이쪽 면에서는 조각이 거의 보이지 않음)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1509/Monomorium_pharaonis_casent0173986_profile_1.jpg",
+    "cap": "SCP-1509로 인해 발생한 상처에서 발견된 현상 1509-1애집개미Monomorium phaeronis종."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Knife_(Parang)_with_Sheath_MET_36.25.840a_b_001_Apr2017.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1509"
+    ],
+    [
+     "제작자",
+     "Rioghail"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Monomorium_pharaonis_casent0173986_profile_1.jpg.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1509"
+    ],
+    [
+     "제작자",
+     "Rioghail"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1510": {
   "id": "SCP-1510",
@@ -176,7 +269,14 @@
   "author": "Dmatix",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1510",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1510/romart-orig-helmet%20%281%29.jpg",
+    "cap": "SCP-1510"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1512": {
   "id": "SCP-1512",
@@ -196,7 +296,9 @@
   "author": "spikebrennan",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1512",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1514": {
   "id": "SCP-1514",
@@ -222,7 +324,37 @@
   "author": "Anborough",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1514",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1514/FireControlComputerAndAddingMachinePatent-web.png",
+    "cap": "원래 위치인 [편집됨]의 SCP-1514-1A."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1514/UARS%20satellite.jpg",
+    "cap": "SCP-1514-2."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "UARS satellite.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1515": {
   "id": "SCP-1515",
@@ -244,7 +376,9 @@
   "author": "Salman Corbette ＆ faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1515",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1519": {
   "id": "SCP-1519",
@@ -264,7 +398,9 @@
   "author": "faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1519",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1520": {
   "id": "SCP-1520",
@@ -286,7 +422,9 @@
   "author": "Smapti",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1520",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1522": {
   "id": "SCP-1522",
@@ -309,7 +447,9 @@
   "author": "FlameShirt",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1522",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1523": {
   "id": "SCP-1523",
@@ -330,7 +470,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1523",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1524": {
   "id": "SCP-1524",
@@ -353,7 +495,9 @@
   "author": "Inkshooter",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1524",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1525": {
   "id": "SCP-1525",
@@ -373,7 +517,9 @@
   "author": "Hateyon",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1525",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1529": {
   "id": "SCP-1529",
@@ -395,7 +541,14 @@
   "author": "Smapti",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1529",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1529/1529.jpg",
+    "cap": "19██년에 에베레스트 북향 능선에서 SCP-1529와 조우한 등반객의 시체. 사진은 접촉 17시간 후에 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1530": {
   "id": "SCP-1530",
@@ -421,7 +574,33 @@
   "author": "Accelerando",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1530",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1530/SCP-1530.jpg",
+    "cap": "사건 1530-B 이전의 SCP-1530."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1530.jpg"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Nicholas A. Tonell"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1535": {
   "id": "SCP-1535",
@@ -443,7 +622,33 @@
   "author": "faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1535",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1535/1535.png",
+    "cap": "면담 중인 SCP-1535-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1535.png"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "terry priest"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1539": {
   "id": "SCP-1539",
@@ -463,7 +668,9 @@
   "author": "ophite",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1539",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1541": {
   "id": "SCP-1541",
@@ -487,7 +694,9 @@
   "author": "",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-1541",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1543": {
   "id": "SCP-1543",
@@ -510,7 +719,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1543",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1545": {
   "id": "SCP-1545",
@@ -530,7 +741,33 @@
   "author": "Salman Corbette",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1545",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1545/Larry%20the%20Loving%20Llama-new.jpg",
+    "cap": "SCP-1545"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Larry the Loving Llama-new.jpg"
+    ],
+    [
+     "출처",
+     "https://note.com/toxictvfisher/n/n4a6a67865112"
+    ],
+    [
+     "제작자",
+     "おさかなテレビジョン"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1548": {
   "id": "SCP-1548",
@@ -562,6 +799,17 @@
   "author": "NatVoltaic & Varaxous",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-1548",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1548/Solar.png",
+    "cap": "형성 과정 중의 SCP-1548 사건"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1548/probe_adjustments.jpg",
+    "cap": "세라프-1의 기적학적 입자 감지기를 조정하는 중이다."
+   }
+  ],
+  "img_credits": []
  }
 }

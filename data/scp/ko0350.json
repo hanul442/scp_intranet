@@ -24,7 +24,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-350-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-351-KO": {
   "id": "SCP-351-KO",
@@ -49,7 +51,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-351-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-431-ko/bokjiii.png",
+    "cap": "복리후생부 로고. SCP-351-KO의 목격 사진에서 추출함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-351-ko/jajinibdae.jpg",
+    "cap": "SCP-351-KO. 인지재해 유발 요소 제거됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-352-KO": {
   "id": "SCP-352-KO",
@@ -73,7 +86,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-352-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-353-KO": {
   "id": "SCP-353-KO",
@@ -97,7 +112,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-353-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-354-KO": {
   "id": "SCP-354-KO",
@@ -120,7 +137,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-354-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-355-KO": {
   "id": "SCP-355-KO",
@@ -140,7 +159,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-355-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-356-KO": {
   "id": "SCP-356-KO",
@@ -163,7 +184,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-356-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-356-ko/20161028_195931-1.jpg",
+    "cap": "실험 중인 SCP-356-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-357-KO": {
   "id": "SCP-357-KO",
@@ -191,7 +219,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-357-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-358-KO": {
   "id": "SCP-358-KO",
@@ -217,7 +247,34 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-358-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/jjokji.jpg",
+    "cap": "SCP-358-KO의 등장 당시 촬영된 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/blueprint.jpg",
+    "cap": "크샹크-크로폴딩 시공간 고정 엔진의 청사진 일부. 가장 구조가 간단한 부분이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/581.jpg",
+    "cap": "글리제 581이 촬영된 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/thaum.jpg",
+    "cap": "재단 소속 기적술사에 의해 인위적으로 제작된 기적학적 응축체. 가공되지 않아 자체 발광으로 에너지를 잃고 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/bus.jpg",
+    "cap": "버스 - 미리내.aic"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-358-ko/survivors.jpg",
+    "cap": "2033/03/01 21:22:06 촬영됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-359-KO": {
   "id": "SCP-359-KO",
@@ -243,7 +300,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-359-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-360-KO": {
   "id": "SCP-360-KO",
@@ -269,7 +328,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-360-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-361-KO": {
   "id": "SCP-361-KO",
@@ -291,7 +352,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-361-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-362-KO": {
   "id": "SCP-362-KO",
@@ -315,7 +378,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-362-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-363-KO": {
   "id": "SCP-363-KO",
@@ -340,7 +405,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-363-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-364-KO": {
   "id": "SCP-364-KO",
@@ -372,7 +439,26 @@
   "author": "Crislr",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-364-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-364-ko/SCP-364-KO-1.jpg",
+    "cap": "모지오름의 위치 (좌측 하단) 및 주변 지도"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-364-ko/SCP-364-KO-2.jpg",
+    "cap": "SCP-364-KO-U1로 이어지는 계단. 2011년 6월 7일 촬영."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-364-ko/SCP-364-KO-5.jpg",
+    "cap": "SCP-364-KO-C1. 2013년 9월 8일 촬영. 잠재적 인식재해 검열됨"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-364-ko/SCP-364-KO-6.jpg",
+    "cap": "SCP-364-KO-D2. 2017년 9월 9일 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-365-KO": {
   "id": "SCP-365-KO",
@@ -395,7 +481,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-365-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-366-KO": {
   "id": "SCP-366-KO",
@@ -417,7 +510,9 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-366-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-367-KO": {
   "id": "SCP-367-KO",
@@ -441,7 +536,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-367-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-367-ko/Portrait_of_Yellow-headed_Amazon_Parrot.jpg",
+    "cap": "SCP-367-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-368-KO": {
   "id": "SCP-368-KO",
@@ -462,7 +564,9 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-368-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-369-KO": {
   "id": "SCP-369-KO",
@@ -487,7 +591,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-369-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-370-KO": {
   "id": "SCP-370-KO",
@@ -512,7 +618,9 @@
   "author": "oratio, Rvadell",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-370-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-372-KO": {
   "id": "SCP-372-KO",
@@ -532,7 +640,9 @@
   "author": "Gua1ngHa3i",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-372-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-373-KO": {
   "id": "SCP-373-KO",
@@ -557,7 +667,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-373-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-374-KO": {
   "id": "SCP-374-KO",
@@ -578,7 +690,9 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-374-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-375-KO": {
   "id": "SCP-375-KO",
@@ -606,7 +720,18 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-375-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-375ko-1/khovd.png",
+    "cap": "몽골 홉드 주"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-375ko-1/mtfnu4182.png",
+    "cap": "사건 당시의 MTF 뉴-418, 주변을 정찰하는 중."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-376-KO": {
   "id": "SCP-376-KO",
@@ -627,7 +752,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-376-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-377-KO": {
   "id": "SCP-377-KO",
@@ -655,7 +782,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-377-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-378-KO": {
   "id": "SCP-378-KO",
@@ -679,7 +808,38 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-378-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer1.jpg",
+    "cap": "제67가설기지 내 세탁기 내부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer2.jpg",
+    "cap": "제8148기지 내 세탁기 내부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer3.jpg",
+    "cap": "달레스 기지 내 세탁기 내부. 고위험 세탁물이 들어 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer4.jpg",
+    "cap": "제04K기지 내 세탁기 내부. 감지되는 바 없다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer5.jpg",
+    "cap": "기지 내 세탁 시설 내부. 화상에 변칙적 변형이 포착된다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer6.jpg",
+    "cap": "기지 내 세탁 시설 내부에서 촬영된 1등급 청소 노동자. 화상에 변칙적 변형이 포착된다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-378-ko/Washer7.jpg",
+    "cap": "세탁이 완료된 세탁기의 내부. 화상에 변칙적 변형이 포착된다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-379-KO": {
   "id": "SCP-379-KO",
@@ -698,7 +858,9 @@
   "author": "Brian Baul",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-379-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-380-KO": {
   "id": "SCP-380-KO",
@@ -723,7 +885,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-380-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-381-KO": {
   "id": "SCP-381-KO",
@@ -745,7 +909,18 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-381-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/clockedhead/Preta",
+    "cap": "SCP-381-KO-나의 두개골."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/secure-facility-dossier-area-19k/insignia.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-382-KO": {
   "id": "SCP-382-KO",
@@ -767,7 +942,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-382-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-383-KO": {
   "id": "SCP-383-KO",
@@ -790,7 +967,18 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-383-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-383-ko-1/mainscreen.jpg",
+    "cap": "SCP-383-KO의 시작 화면"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-383-ko-1/characters.jpg",
+    "cap": "SCP-383-KO의 세 주인공 캐릭터들. 위에서부터 파란 고래, 노래 3세, 도래까마귀 양이다.1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-384-KO": {
   "id": "SCP-384-KO",
@@ -812,7 +1000,14 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-384-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-384-ko/Koreanpeninsula.jpg",
+    "cap": "SCP-384-KO 발생 직후의 한반도 위성 사진. 검열됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-385-KO": {
   "id": "SCP-385-KO",
@@ -838,7 +1033,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-385-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-386-KO": {
   "id": "SCP-386-KO",
@@ -861,7 +1058,14 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-386-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Television",
+    "cap": "SCP-386-KO 피영향자의 대장내시경 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-387-KO": {
   "id": "SCP-387-KO",
@@ -884,7 +1088,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-387-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-387-ko/Tammany_Hall_Mechanical_Coin_Bank%2C_1873_%284360056780%29.jpg",
+    "cap": "보관중인 SCP-387-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-388-KO": {
   "id": "SCP-388-KO",
@@ -908,7 +1119,9 @@
   "author": "vocadomato",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-388-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-389-KO": {
   "id": "SCP-389-KO",
@@ -936,7 +1149,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-389-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-389-ko/On-The-Kyungrak-System-1964-Bild27.png",
+    "cap": "SCP-389-KO 개체가 지닌 \"관.\""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-389-ko/Great_fruit-eating_bat_skull_-_Burke_Museum_-_03.jpg",
+    "cap": "새끼 SCP-389-KO 개체의 두개골."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-389-ko/Briefmarke-Kim-Bong-Han.png",
+    "cap": "1964년 우표의 김봉한."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-390-KO": {
   "id": "SCP-390-KO",
@@ -964,7 +1192,9 @@
   "author": "Manas_Ciel",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-390-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-391-KO": {
   "id": "SCP-391-KO",
@@ -985,7 +1215,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-391-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-392-KO": {
   "id": "SCP-392-KO",
@@ -1008,7 +1240,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-392-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-392-ko/SPECIAL_CALL.jpg",
+    "cap": "SCP-392-KO가 비어 있는 장면을 찍은 화상캠 장면 중 하나"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-392-ko/PROTOCOL_OUT.jpg",
+    "cap": "프로토콜 아웃이 발생하기 직전의 SCP-392-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-393-KO": {
   "id": "SCP-393-KO",
@@ -1033,7 +1276,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-393-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-394-KO": {
   "id": "SCP-394-KO",
@@ -1060,7 +1305,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-394-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-394-ko/Teapot.jpg",
+    "cap": "SCP-394-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-395-KO": {
   "id": "SCP-395-KO",
@@ -1087,7 +1339,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-395-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-396-KO": {
   "id": "SCP-396-KO",
@@ -1114,7 +1368,22 @@
   "author": "romrom, POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-396-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396-ko/A_generic_oval_shaped_medicine_pill.jpg",
+    "cap": "SCP-396-KO"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-396-ko/1200px-Syrian_hamster_named_Toffee.jpg",
+    "cap": "다도 비즈니스 파트너 로버트 미첼이에요 인사해요"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-397-KO": {
   "id": "SCP-397-KO",
@@ -1149,7 +1418,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-397-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:shitmetal-7-8fb4/%EB%8A%A5%EC%B9%A8%EA%B3%B5%EA%B0%84%EA%B5%AC%EC%A1%B0",
+    "cap": "1. 곡장 2. 석호 3. 석양 4. 망주석 5. 봉분 6. 난간석 7. 혼유석 8. 문인석 9. 장명등 10. 석마 11. 무인석 12. 예감 13. 비각"
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:shitmetal-7-8fb4/535",
+    "cap": "1981년 세종문화회관 대강당, 535돌 한글날"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-398-KO": {
   "id": "SCP-398-KO",
@@ -1173,7 +1453,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-398-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-399-KO": {
   "id": "SCP-399-KO",
@@ -1197,6 +1479,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-399-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-399-ko/KakaoTalk_20180423_004446560.jpg",
+    "cap": "격리 전의 SCP-399-KO."
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -21,7 +21,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-050-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-051-KO": {
   "id": "SCP-051-KO",
@@ -44,7 +46,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-051-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-052-KO": {
   "id": "SCP-052-KO",
@@ -68,7 +72,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-052-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-053-KO": {
   "id": "SCP-053-KO",
@@ -91,7 +97,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-053-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-054-KO": {
   "id": "SCP-054-KO",
@@ -114,7 +122,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-054-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-055-KO": {
   "id": "SCP-055-KO",
@@ -140,7 +150,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-055-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-056-KO": {
   "id": "SCP-056-KO",
@@ -167,7 +179,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-056-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-056-ko/meme.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-057-KO": {
   "id": "SCP-057-KO",
@@ -197,7 +216,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-057-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-058-KO": {
   "id": "SCP-058-KO",
@@ -218,7 +239,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-058-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-059-KO": {
   "id": "SCP-059-KO",
@@ -242,7 +265,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-059-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-060-KO": {
   "id": "SCP-060-KO",
@@ -266,7 +291,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-060-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-061-KO": {
   "id": "SCP-061-KO",
@@ -292,7 +319,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-061-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-061-ko/sodamonster.JPG",
+    "cap": "변형이 완료된 SCP-061-KO의 신경을 자극했을 때의 모습"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-062-KO": {
   "id": "SCP-062-KO",
@@ -313,7 +347,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-062-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-063-KO": {
   "id": "SCP-063-KO",
@@ -339,7 +375,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-063-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-064-KO": {
   "id": "SCP-064-KO",
@@ -360,7 +398,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-064-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-065-KO": {
   "id": "SCP-065-KO",
@@ -384,7 +424,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-065-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-066-KO": {
   "id": "SCP-066-KO",
@@ -411,7 +453,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-066-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-067-KO": {
   "id": "SCP-067-KO",
@@ -434,7 +478,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-067-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-068-KO": {
   "id": "SCP-068-KO",
@@ -457,7 +503,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-068-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-069-KO": {
   "id": "SCP-069-KO",
@@ -479,7 +527,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-069-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-070-KO": {
   "id": "SCP-070-KO",
@@ -501,7 +551,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-070-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-071-KO": {
   "id": "SCP-071-KO",
@@ -527,7 +579,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-071-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-071-ko/scp-071-ko.jpg",
+    "cap": "SCP-071-KO 개체로 구성된 숲"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-072-KO": {
   "id": "SCP-072-KO",
@@ -550,7 +609,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-072-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-073-KO": {
   "id": "SCP-073-KO",
@@ -573,7 +634,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-073-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-074-KO": {
   "id": "SCP-074-KO",
@@ -594,7 +657,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-074-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-075-KO": {
   "id": "SCP-075-KO",
@@ -619,7 +684,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-075-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-076-KO": {
   "id": "SCP-076-KO",
@@ -649,7 +716,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-076-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-077-KO": {
   "id": "SCP-077-KO",
@@ -669,7 +738,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-077-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-078-KO": {
   "id": "SCP-078-KO",
@@ -692,7 +763,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-078-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-079-KO": {
   "id": "SCP-079-KO",
@@ -720,7 +793,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-079-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-080-KO": {
   "id": "SCP-080-KO",
@@ -748,7 +823,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-080-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-081-KO": {
   "id": "SCP-081-KO",
@@ -775,7 +852,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-081-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-082-KO": {
   "id": "SCP-082-KO",
@@ -802,7 +881,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-082-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-083-KO": {
   "id": "SCP-083-KO",
@@ -825,7 +906,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-083-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-083-ko/clock-700867_640.jpg",
+    "cap": "SCP-083-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-084-KO": {
   "id": "SCP-084-KO",
@@ -851,7 +939,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-084-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-085-KO": {
   "id": "SCP-085-KO",
@@ -874,7 +964,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-085-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-086-KO": {
   "id": "SCP-086-KO",
@@ -898,7 +990,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-086-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-086-ko/SCP-086-KO-01.jpg",
+    "cap": "실험 중인 SCP-086-KO-01"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-087-KO": {
   "id": "SCP-087-KO",
@@ -924,7 +1023,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-087-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-088-KO": {
   "id": "SCP-088-KO",
@@ -949,7 +1050,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-088-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-089-KO": {
   "id": "SCP-089-KO",
@@ -976,7 +1079,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-089-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-090-KO": {
   "id": "SCP-090-KO",
@@ -1004,7 +1109,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-090-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-091-KO": {
   "id": "SCP-091-KO",
@@ -1027,7 +1134,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-091-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-092-KO": {
   "id": "SCP-092-KO",
@@ -1053,7 +1162,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-092-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-092-ko/star3.png",
+    "cap": "SCP-092-KO가 발신되는 곳으로 추정되는 위치"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-093-KO": {
   "id": "SCP-093-KO",
@@ -1076,7 +1192,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-093-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-094-KO": {
   "id": "SCP-094-KO",
@@ -1097,7 +1215,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-094-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-095-KO": {
   "id": "SCP-095-KO",
@@ -1123,7 +1243,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-095-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-096-KO": {
   "id": "SCP-096-KO",
@@ -1147,7 +1269,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-096-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-096-ko/SCP-%EB%A7%9D%EA%B0%80%EC%A7%84%EB%82%B4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98%20%EC%9E%90%EB%A3%8C%20%EC%9D%B4%EA%B1%B0%EB%8B%A4%21%21%21%21.jpg",
+    "cap": "비활성화 상태의 SCP-096-KO-1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-097-KO": {
   "id": "SCP-097-KO",
@@ -1180,7 +1309,38 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-097-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-imago-male.jpg",
+    "cap": "그림 1. SCP-097-KO 수컷 성충의 스케치."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-larva-1.jpg",
+    "cap": "그림 2. SCP-097-KO의 1령 유충의 스케치. (×10)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-larva-2.jpg",
+    "cap": "그림 3. SCP-097-KO의 2령 유충의 스케치. (×5)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-larva-3.jpg",
+    "cap": "그림 4. SCP-097-KO의 3령 유충의 스케치. (×2)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-larva-4.jpg",
+    "cap": "그림 5. SCP-097-KO의 4령 유충의 스케치. (×1.5)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/scp-097-ko-larva-5.jpg",
+    "cap": "그림 6. SCP-097-KO의 5령 유충의 스케치."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-098-KO": {
   "id": "SCP-098-KO",
@@ -1206,7 +1366,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-098-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-099-KO": {
   "id": "SCP-099-KO",
@@ -1232,6 +1394,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-099-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

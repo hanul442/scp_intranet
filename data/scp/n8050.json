@@ -18,7 +18,9 @@
   "author": "Tanhony",
   "translator": "Yunsule",
   "source": "https://scpko.wikidot.com/scp-8051",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8055": {
   "id": "SCP-8055",
@@ -39,7 +41,14 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8055",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/peppersghost-ix/Our_little_men_and_women%3B_modern_methods_of_character_building%3B_%281912%29_%2814781868315%29.jpg",
+    "cap": "SCP-8055."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8066": {
   "id": "SCP-8066",
@@ -67,7 +76,135 @@
   "author": "MontagueETC",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8066",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8066/8066-thumbnail.png",
+    "cap": "THUMBNAIL"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-8066-1/2006.png",
+    "cap": "격리 상태의 SCP-2006."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-8066-1/reach.png",
+    "cap": "[02:03], 프레임 2"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "2006.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "reach.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "watcher.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "beforeandafter.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "spectre.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "shadow.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "doomsday.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "comeandsee.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-8072": {
   "id": "SCP-8072",
@@ -85,7 +222,33 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8072",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8072/garbage.jpg",
+    "cap": "SCP-8072"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "garbage.jpg"
+    ],
+    [
+     "Author",
+     "X posid"
+    ],
+    [
+     "License",
+     "CC0 Public Domain"
+    ],
+    [
+     "Source Link",
+     "PublicDomainPictures.net"
+    ]
+   ]
+  ]
  },
  "SCP-8091": {
   "id": "SCP-8091",
@@ -108,7 +271,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8091",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8091/500px-Trees_burning_during_Creek_Fire.webp",
+    "cap": "조사 과정에서 회수한 이미지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8093": {
   "id": "SCP-8093",
@@ -128,6 +298,31 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8093",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "skeleton.jpg"
+    ],
+    [
+     "Name",
+     "Skeleton_Model_5579_HaJN.jpg"
+    ],
+    [
+     "Author",
+     "Hans-Jürgen Neubert"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 4.0 International"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Skeleton_Model_5579_HaJN.jpg"
+    ]
+   ]
+  ]
  }
 }

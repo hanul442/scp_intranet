@@ -21,7 +21,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5462",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5464": {
   "id": "SCP-5464",
@@ -47,7 +49,46 @@
   "author": "",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5464",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "120.png"
+    ],
+    [
+     "저작권자",
+     "Liryn and EstrellaYoshte"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "wojtek"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Wojtek_the_bear.jpg"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "저작권자",
+     "Imperial War Museum"
+    ]
+   ]
+  ]
  },
  "SCP-5476": {
   "id": "SCP-5476",
@@ -67,7 +108,9 @@
   "author": "Mooagain",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5476",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5479": {
   "id": "SCP-5479",
@@ -90,7 +133,117 @@
   "author": "Grigori Karpin",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5479",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/movieposter2",
+    "cap": "발견 이후 회수된 SCP-5479 영화 포스터."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Shrewsbury%20Prison%20%28now%20closed%29.jpg",
+    "cap": "SCP-5479 중에서 제19기지의 알파 D계급동이 나오는 장면."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/site19securitymeeting",
+    "cap": "SCP-5479 중에서 제19기지의 HMCL 위원회 회의가 나오는 장면."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/labmates",
+    "cap": "SCP-5479 중에서 폴란스키와 B가 제19기지의 감마 밈연구동에 있는 장면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "2008_EAERE Meeting"
+    ],
+    [
+     "저작권자",
+     "Efd Initiative"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     ": Foundation Emblem"
+    ],
+    [
+     "저작권자",
+     ": Aelanna"
+    ],
+    [
+     "라이선스",
+     ": CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     ": https://en.wikipedia.org/wiki/SCP_Foundation#/media/File:SCP_Foundation_(emblem).svg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Lab mates"
+    ],
+    [
+     "저작권자",
+     "camerazn"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Shrewsbury Prison (now closed)"
+    ],
+    [
+     "저작권자",
+     "Frank Kinch"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "5479 logo"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "LINK"
+    ]
+   ]
+  ]
  },
  "SCP-5480": {
   "id": "SCP-5480",
@@ -117,6 +270,8 @@
   "author": "Tiamat Elsen",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-5480",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

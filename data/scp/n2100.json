@@ -22,7 +22,85 @@
   "author": "Abettik",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2100",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2100/site_entrance.jpg",
+    "cap": "제██기지의 입구"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2100/neutron_star.png",
+    "cap": "SCP-2100-4"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2100/supernova_w49b.png",
+    "cap": "2100-오메가 사건의 결과"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "site_entrance.jpg"
+    ],
+    [
+     "Name",
+     "The Ice Cube Laboratory at Amundsen-Scott South Pole station, as dawn was breaking after six months of darkness."
+    ],
+    [
+     "Author",
+     "Mel MacMahon"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "neutron_star.png"
+    ],
+    [
+     "Author",
+     "Abettik"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "supernova_w49b.png"
+    ],
+    [
+     "Name",
+     "W49B: Rare Explosion May Have Created Our Galaxy's Youngest Black Hole"
+    ],
+    [
+     "Author",
+     "NASA/CXC/MIT/L.Lopez"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2101": {
   "id": "SCP-2101",
@@ -50,7 +128,9 @@
   "author": "weizhong",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-2101",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2106": {
   "id": "SCP-2106",
@@ -75,7 +155,9 @@
   "author": "Jacob Conwell",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2106",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2111": {
   "id": "SCP-2111",
@@ -101,7 +183,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2111",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2112": {
   "id": "SCP-2112",
@@ -125,7 +209,9 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2112",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2115": {
   "id": "SCP-2115",
@@ -146,7 +232,9 @@
   "author": "Tagliafierro",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-2115",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2121": {
   "id": "SCP-2121",
@@ -172,7 +260,9 @@
   "author": "Drewbear",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-2121",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2124": {
   "id": "SCP-2124",
@@ -195,7 +285,33 @@
   "author": "manwhat",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2124",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2124/scpxxxx.jpg",
+    "cap": "종전의 위치에서 재단이 습득한 이후에 촬영한 SCP-2124의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scpxxxx.jpg"
+    ],
+    [
+     "Author",
+     "manwhat"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2126": {
   "id": "SCP-2126",
@@ -216,7 +332,33 @@
   "author": "Lesh",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2126",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2126/2126letter.png",
+    "cap": "SCP-2126의 사진 복사본. 클릭하면 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "2126letter-small.png"
+    ],
+    [
+     "Author",
+     "Lesh"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2127": {
   "id": "SCP-2127",
@@ -239,7 +381,37 @@
   "author": "fastandbulbous",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2127/Hinterkaifeck-Marterl-small.jpg",
+    "cap": "SCP-2127이 보통 나타나는 추모비. 사진은 피험자들이 SCP-2127-1에 가 있을 때 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Hinterkaifeck-Marterl-small.jpg"
+    ],
+    [
+     "Name",
+     "Hinterkaifeck-Marterl.jpg"
+    ],
+    [
+     "Author",
+     "Andreas Keller"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2128": {
   "id": "SCP-2128",
@@ -261,7 +433,9 @@
   "author": "daveyoufool",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2128",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2131": {
   "id": "SCP-2131",
@@ -288,7 +462,14 @@
   "author": "Doctor Cimmerian",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2131",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2131/xDIpXeE.png",
+    "cap": "사건 2131-19 직후 촬영한 SCP-2131의 사진. 상처가 없음에 유의할 것."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2132": {
   "id": "SCP-2132",
@@ -310,7 +491,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2132",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2132/numbers2.jpg",
+    "cap": "SCP-2132-01"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "numbers2.jpg"
+    ],
+    [
+     "Name",
+     "RB 6125 Fairbanks radio station 1915 333"
+    ],
+    [
+     "Author",
+     "Sam Stokes"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2133": {
   "id": "SCP-2133",
@@ -336,7 +547,54 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2133",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "15_Russian_Village_on_Tundras.jpg"
+    ],
+    [
+     "Name",
+     "15 Russian Village on Tundras.jpg"
+    ],
+    [
+     "Author",
+     "Frank J. McGrath"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "640px-Cannibalism_russian_famine1921_6_peasants_bouzuluk_district_and_remains_of_humans_they_eatten.jpg"
+    ],
+    [
+     "Name",
+     "Cannibalism russian famine1921 6 peasants bouzuluk district and remains of humans they eatten.jpg"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2135": {
   "id": "SCP-2135",
@@ -358,7 +616,37 @@
   "author": "ObserverSeptember",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2135",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpsandbox2.wdfiles.com/local--files/observerseptember-s-draft-emporium/91st%20Street",
+    "cap": "길거리 높이에서 본 SCP-2135 입구"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "91st_Street.jpg"
+    ],
+    [
+     "Name",
+     "Street grading defunct 91st St station WTM3 The Fixers 0003.jpg"
+    ],
+    [
+     "Author",
+     "The Fixers"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-2140": {
   "id": "SCP-2140",
@@ -381,7 +669,55 @@
   "author": "sirpudding",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2140/Glyph3PetrogradFixed.png",
+    "cap": "SCP-2140"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2140/Svalbard_seed_vault_IMG_8887.JPG",
+    "cap": "제313구역 깊숙한 저장고"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Glyph3PetrogradFixed.png"
+    ],
+    [
+     "Author",
+     "Petrograd"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Svalbard_seed_vault_IMG_8887.JPG"
+    ],
+    [
+     "Name",
+     "Svalbard seed vault IMG 8887.JPG"
+    ],
+    [
+     "Author",
+     "Bjoertvedt"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2146": {
   "id": "SCP-2146",
@@ -403,7 +739,9 @@
   "author": "MegalomaniacInchworm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2146",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2148": {
   "id": "SCP-2148",
@@ -427,6 +765,8 @@
   "author": "TwistedGears",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2148",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

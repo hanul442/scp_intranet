@@ -19,7 +19,9 @@
   "author": "LuluTheRadiant",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4656",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4660": {
   "id": "SCP-4660",
@@ -43,7 +45,33 @@
   "author": "Jacob Conwell",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4660",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4660/SCP-4660-1.jpg",
+    "cap": "SCP-4660-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-4660-1.jpg"
+    ],
+    [
+     "저자",
+     "Jacob Conwell's fiance"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4661": {
   "id": "SCP-4661",
@@ -71,7 +99,181 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4661",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/lux.png",
+    "cap": "야간 폐기물 배출 주기에 들어선 제666기지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/red.png",
+    "cap": "사건 도중 대니얼스 요원이 촬영한 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/helicopter.png",
+    "cap": "시저스 팰리스 지하층으로 돌입하는 임무 팀."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/vegas2.png",
+    "cap": "시저스 팰리스 지하층으로 돌입하는 임무 팀."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/raid.png",
+    "cap": "시저스 팰리스 지하층으로 돌입하는 임무 팀."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/suite.jpg",
+    "cap": "건설 중인 제666기지, 1992년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4661/construction.jpg",
+    "cap": "건설 중인 제666기지, 1992년."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "construction.jpg"
+    ],
+    [
+     "Name",
+     "Lexor.jpg"
+    ],
+    [
+     "Author",
+     "Tim Emerich"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Public Domain Puctures"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "helicopter.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "lux.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "marines.JPG"
+    ],
+    [
+     "Name",
+     "160109-Z-MGXXX-006.JPG"
+    ],
+    [
+     "Author",
+     "National Guard photo"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Defence.gov"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "mgm2.JPG"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "raid.jpg"
+    ],
+    [
+     "Name",
+     "International forces simulate raids during Bold Alligator 2014 141107-M-DS159-148.jpg"
+    ],
+    [
+     "Author",
+     "Lance Cpl. Sullivan Laramie"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "suite.jpg"
+    ],
+    [
+     "Name",
+     "Champagne Lodge & Luxury Suites (DuPage County, IL)"
+    ],
+    [
+     "Author",
+     "DiscoverDuPage"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-4666": {
   "id": "SCP-4666",
@@ -96,7 +298,55 @@
   "author": "Hercules Rockefeller",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4666",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4666/yuleman-photo%20FINAL.jpg",
+    "cap": "SCP-4666으로 추측되는 사진. 백야사태 #057130 현장에서 회수된 휴대전화에서 발견. 확대해서 보려면 여기 클릭."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4666/fingerprints7.jpg",
+    "cap": "SCP-4666의 지문. 특유의 이중와상문에 주목."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "fingerprints7.jpg"
+    ],
+    [
+     "저자",
+     "Hercules Rockefeller"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "yuleman-photo FINAL.jpg"
+    ],
+    [
+     "저자",
+     "Hercules Rockefeller"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4669": {
   "id": "SCP-4669",
@@ -122,7 +372,9 @@
   "author": "kinchtheknifeblade",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4669",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4670": {
   "id": "SCP-4670",
@@ -148,7 +400,31 @@
   "author": "A Random Day",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4670",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4670/cici.jpg",
+    "cap": "최초 포획 당시 촬영한 SCP-4670의 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4670/bbq.jpg",
+    "cap": "시시스에 있는 야외 화로 중 하나. 사진에 보이는 고기의 DNA는 20██년에 마지막으로 목격되었던 애틀랜타 경찰서 소속의 그렉 샘슨Gregg Samson 경찰관과 일치했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cici.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bbq.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4680": {
   "id": "SCP-4680",
@@ -170,7 +446,21 @@
   "author": "daveyoufool",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4680",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4680/rasputin.jpg",
+    "cap": "SCP-4680"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rasputin.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4683": {
   "id": "SCP-4683",
@@ -192,7 +482,9 @@
   "author": "Ihp",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4683",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4684": {
   "id": "SCP-4684",
@@ -215,7 +507,21 @@
   "author": "Proasek",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4684",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4684/rounderhouse.jpg",
+    "cap": "SCP-4684 뮌헨본부"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rounderhouse.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4686": {
   "id": "SCP-4686",
@@ -237,7 +543,14 @@
   "author": "AlleraRey",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4686",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4686/Hug",
+    "cap": "알 수 없는 요청자를 껴안은 SCP-4686-1의 식별 가능한 사진. 원본 사진의 출처는 여전히 알 수 없다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4689": {
   "id": "SCP-4689",
@@ -258,6 +571,8 @@
   "author": "Ihp",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4689",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

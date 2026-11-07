@@ -23,7 +23,59 @@
   "author": "DrBleep",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3700",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3700/map1.png",
+    "cap": "SCP-3700의 효과 범위를 나타낸 그림."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3700/800px-PSM_V23_D086_The_deep_sea_fish_eurypharynx_pelecanoides.jpg",
+    "cap": "오크니 제도 원주민들의 묘사에 따른 SCP-3700-2의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "800px-PSM_V23_D086_The_deep_sea_fish_eurypharynx_pelecanoides.jpg"
+    ],
+    [
+     "저자",
+     "Unknown author"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "map1.png"
+    ],
+    [
+     "저자",
+     "Cyantreuse (#)"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3700"
+    ],
+    [
+     "비고",
+     "created by me in Adobe Photoshop CC 2017"
+    ]
+   ]
+  ]
  },
  "SCP-3707": {
   "id": "SCP-3707",
@@ -42,7 +94,33 @@
   "author": "Communism will win",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3707",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3707/camry.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "camry.png"
+    ],
+    [
+     "저자",
+     "Communism will win"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3715": {
   "id": "SCP-3715",
@@ -64,7 +142,33 @@
   "author": "Noktigo",
   "translator": "Bunting",
   "source": "https://scpko.wikidot.com/scp-3715",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3715/TEA-small.jpg",
+    "cap": "SCP-3715 벽의 일부분"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "TEA-small.jpg"
+    ],
+    [
+     "저자",
+     "Noktigo"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3717": {
   "id": "SCP-3717",
@@ -86,7 +190,21 @@
   "author": "DrChandra",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3717",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3717/Pickled%20Punkz.jpg",
+    "cap": "앞에서부터 뒤로. SCP-3717-01, -02, -03"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Pickled Punkz.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3733": {
   "id": "SCP-3733",
@@ -107,7 +225,9 @@
   "author": "notgull",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3737": {
   "id": "SCP-3737",
@@ -128,7 +248,55 @@
   "author": "Alephaestion",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3737",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3737/bridge.jpg",
+    "cap": "재회 사건 도중의 SCP-3737-1을 촬영한 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3737/sheltie.jpg",
+    "cap": "SCP-3737-2 한 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bridge.jpg"
+    ],
+    [
+     "저자",
+     "-"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "pxhere"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "sheltie.jpg"
+    ],
+    [
+     "저자",
+     "Sharingknowledge"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-3738": {
   "id": "SCP-3738",
@@ -152,7 +320,14 @@
   "author": "Weryllium",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3738",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3738/hypotrochoid.gif",
+    "cap": "SCP-3738과 유사한 하이포트로코이드."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3740": {
   "id": "SCP-3740",
@@ -175,7 +350,21 @@
   "author": "djkaktus",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3740",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3740/Ashur.jpg",
+    "cap": "SCP-3740. SCP-3740의 개인 소지품에서 찍은 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Ashur.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3746": {
   "id": "SCP-3746",
@@ -195,6 +384,8 @@
   "author": "RJB_R & Rounderhouse",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3746",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

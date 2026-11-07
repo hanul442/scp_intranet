@@ -22,7 +22,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-850-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-851-KO": {
   "id": "SCP-851-KO",
@@ -47,7 +49,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-851-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-852-KO": {
   "id": "SCP-852-KO",
@@ -73,7 +77,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-852-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-853-KO": {
   "id": "SCP-853-KO",
@@ -94,7 +100,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-853-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-854-KO": {
   "id": "SCP-854-KO",
@@ -115,7 +123,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-854-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-855-KO": {
   "id": "SCP-855-KO",
@@ -134,7 +144,14 @@
   "author": "Bangja",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-855-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-855-ko/a.jpg",
+    "cap": "분류위원회 사무실"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-856-KO": {
   "id": "SCP-856-KO",
@@ -156,7 +173,14 @@
   "author": "Bangja",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-856-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-856-ko/a.jpg",
+    "cap": "○○산"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-857-KO": {
   "id": "SCP-857-KO",
@@ -185,7 +209,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-857-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-858-KO": {
   "id": "SCP-858-KO",
@@ -208,7 +234,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-858-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-858-ko/realbamja.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-859-KO": {
   "id": "SCP-859-KO",
@@ -231,7 +264,18 @@
   "author": "Bangja",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-859-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-859-ko/b4",
+    "cap": "우연학부 로고"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-859-ko/b.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-860-KO": {
   "id": "SCP-860-KO",
@@ -257,7 +301,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-860-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-861-KO": {
   "id": "SCP-861-KO",
@@ -278,7 +324,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-861-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-861-ko/Washball.jpg",
+    "cap": "SCP-861-KO"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-861-ko/49112921.jpg",
+    "cap": "제5K기지에서 SCP-861-KO로 볶음밥을 만드는 실험을 진행하는 장면"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-862-KO": {
   "id": "SCP-862-KO",
@@ -301,7 +358,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-862-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-862-ko/13064427414_c4e4135474_k.jpg",
+    "cap": "활성화된 SCP-862-KO의 모습"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-863-KO": {
   "id": "SCP-863-KO",
@@ -324,7 +388,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-863-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-864-KO": {
   "id": "SCP-864-KO",
@@ -347,7 +413,9 @@
   "author": "Agent_Wanderer",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-864-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-865-KO": {
   "id": "SCP-865-KO",
@@ -370,7 +438,9 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-865-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-866-KO": {
   "id": "SCP-866-KO",
@@ -394,7 +464,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-866-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-866-ko/Ingoma_Ezulwini.jpg",
+    "cap": "인고마 흘라비사. 남아프리카 공화국 울룬디에서 1974/4/5 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-867-KO": {
   "id": "SCP-867-KO",
@@ -414,7 +491,38 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-867-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/pencil.jpg",
+    "cap": "1"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/ethanol.jpg",
+    "cap": "2"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/bottlecap.jpg",
+    "cap": "3"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/glassescleaner.jpg",
+    "cap": "4"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/note.jpg",
+    "cap": "5"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/coin.jpg",
+    "cap": "6"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-867-ko/black.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-868-KO": {
   "id": "SCP-868-KO",
@@ -435,7 +543,9 @@
   "author": "Agent_Wanderer",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-868-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-869-KO": {
   "id": "SCP-869-KO",
@@ -457,7 +567,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-869-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-869-ko/1.png",
+    "cap": "SCP-869-KO-1을 통해 얻은 옥수수"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-869-ko/2.png",
+    "cap": "사진이 찍힌 장소는 불명이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-870-KO": {
   "id": "SCP-870-KO",
@@ -481,7 +602,21 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-870-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-870-ko/Abandoned_building_in_Znamirowice_IV.jpg",
+    "cap": "SCP-870-KO가 위치한 건물의 외부 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ]
+  ]
  },
  "SCP-871-KO": {
   "id": "SCP-871-KO",
@@ -503,7 +638,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-871-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-872-KO": {
   "id": "SCP-872-KO",
@@ -524,7 +661,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-872-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-873-KO": {
   "id": "SCP-873-KO",
@@ -548,7 +687,9 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-873-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-874-KO": {
   "id": "SCP-874-KO",
@@ -567,7 +708,139 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-874-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-meow-j/scp-meow-j-1",
+    "cap": "회의 후 식사 중인 C5 평의회. 12마리 전원이 참석하였다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-meow-j/scp-meow-j-2",
+    "cap": "제22야옹기지에 침입하는 마교의 고양이. 촬영자는 북두천렬권에 당해 108조각으로 토막난 채 발견되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-meow-j/scp-meow-j-3",
+    "cap": "전투 중인 난낭권법 수련자와 흑묘백묘권 수련자. 싸움의 여파로 제23생물기지는 전파되었다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-meow-j/scp-meow-j-4",
+    "cap": "████"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-meow-j-1 (https://scpko.wikidot.com/scp-meow-j)"
+    ],
+    [
+     "Author",
+     "Takashi(aes256)"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-meow-j-2 (https://scpko.wikidot.com/scp-meow-j)"
+    ],
+    [
+     "Author",
+     "Greg Mote"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "grooming (https://scpko.wikidot.com/scp-106)"
+    ],
+    [
+     "원본",
+     "106 Victim"
+    ],
+    [
+     "저작권자",
+     "Cinemamind"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "-"
+    ],
+    [
+     "Author",
+     "Jérôme Coppée"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-meow-j-3 (https://scpko.wikidot.com/scp-meow-j)"
+    ],
+    [
+     "Name",
+     "Catch cats.JPG"
+    ],
+    [
+     "Author",
+     "MagAloche"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-meow-j-4 (https://scpko.wikidot.com/scp-meow-j)"
+    ],
+    [
+     "Author",
+     "Scott Wylie"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-875-KO": {
   "id": "SCP-875-KO",
@@ -590,7 +863,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-875-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-876-KO": {
   "id": "SCP-876-KO",
@@ -612,7 +887,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-876-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-877-KO": {
   "id": "SCP-877-KO",
@@ -637,7 +914,38 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-877-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko1.png",
+    "cap": "SCP-877-KO-1의 화면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko4.png",
+    "cap": "진입 시의 모습. 2픽셀의 그래픽은 SCP-877-KO 내로 진입 도중인 신보라 요원."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko5.png",
+    "cap": "내부에서 연구를 진행하는 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-877-ko/877ko7.png",
+    "cap": "마지막 시신을 이양하기 위해 바닥을 들어내는 신보라 요원."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-878-KO": {
   "id": "SCP-878-KO",
@@ -659,7 +967,9 @@
   "author": "Canonkart",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-878-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-879-KO": {
   "id": "SCP-879-KO",
@@ -682,7 +992,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-879-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-879-ko/Mesobuthus_martesnii.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-879-ko/%EC%A0%84%EA%B0%88%EB%B6%84%ED%8F%AC%EB%8F%84.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-879-ko/1629754.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-880-KO": {
   "id": "SCP-880-KO",
@@ -703,7 +1028,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-880-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-881-KO": {
   "id": "SCP-881-KO",
@@ -725,7 +1052,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-881-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-882-KO": {
   "id": "SCP-882-KO",
@@ -747,7 +1076,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-882-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-883-KO": {
   "id": "SCP-883-KO",
@@ -768,7 +1099,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-883-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-883-ko/pit.jpg",
+    "cap": "SCP-883-KO 변칙성의 부차적 결과."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-883-ko/Insam_%28ginseng%29.png",
+    "cap": "2:00:00"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-884-KO": {
   "id": "SCP-884-KO",
@@ -789,7 +1131,14 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-884-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-884-ko/SCP-884-KO-A",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-885-KO": {
   "id": "SCP-885-KO",
@@ -812,7 +1161,9 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-885-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-886-KO": {
   "id": "SCP-886-KO",
@@ -836,7 +1187,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-886-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-887-KO": {
   "id": "SCP-887-KO",
@@ -862,7 +1215,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-887-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-888-KO": {
   "id": "SCP-888-KO",
@@ -890,7 +1245,9 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-888-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-889-KO": {
   "id": "SCP-889-KO",
@@ -913,7 +1270,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-889-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-890-KO": {
   "id": "SCP-890-KO",
@@ -938,7 +1297,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-890-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-891-KO": {
   "id": "SCP-891-KO",
@@ -960,7 +1321,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-891-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-892-KO": {
   "id": "SCP-892-KO",
@@ -984,7 +1347,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-892-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-892-ko/SCP-892-KO.jpg",
+    "cap": "첫 번째 SCP-892-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-893-KO": {
   "id": "SCP-893-KO",
@@ -1007,7 +1377,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-893-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-894-KO": {
   "id": "SCP-894-KO",
@@ -1028,7 +1400,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-894-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-895-KO": {
   "id": "SCP-895-KO",
@@ -1052,7 +1426,9 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-895-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-896-KO": {
   "id": "SCP-896-KO",
@@ -1076,7 +1452,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-896-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-897-KO": {
   "id": "SCP-897-KO",
@@ -1107,7 +1485,14 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-897-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-897-ko/dental.jpg",
+    "cap": "SCP-897-KO 출현의 한 예시"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-898-KO": {
   "id": "SCP-898-KO",
@@ -1133,7 +1518,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-898-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-899-KO": {
   "id": "SCP-899-KO",
@@ -1158,6 +1545,8 @@
   "author": "ssoda , Langston77",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-899-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -23,7 +23,18 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2750",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2750/Skinwalker%20Pic%201.jpg",
+    "cap": "ASCI 기관원에게 첫 번째로 포획된 SCP-2750 개체. 1860년경 촬영."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2750/Skinwalker%20Pic%202.jpg",
+    "cap": "두 번째로 포획된 SCP-2750 개체. 1870년경 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2753": {
   "id": "SCP-2753",
@@ -48,7 +59,14 @@
   "author": "The Great Hippo",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2753",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2753/jenga.png",
+    "cap": "보스턴 변칙 예술 엑스포(BAAE)에서 촬영된 붕괴 전의 SCP-2753-A 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2755": {
   "id": "SCP-2755",
@@ -70,7 +88,9 @@
   "author": "DolphinSlugchugger",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2755",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2761": {
   "id": "SCP-2761",
@@ -100,7 +120,9 @@
   "author": "OZ Ouroboros",
   "translator": "tul-uffle",
   "source": "https://scpko.wikidot.com/scp-2761",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2769": {
   "id": "SCP-2769",
@@ -123,7 +145,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2769",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2769/200px-Warning_icon_svg.png",
+    "cap": "권장!"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2769/1280px-Cardisoma_armatus-front.jpg",
+    "cap": "테라리움 바깥에 있는 SCP-61231."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2770": {
   "id": "SCP-2770",
@@ -144,7 +177,14 @@
   "author": "Blarghalt",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-2770",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2770/QwlkOXP.png",
+    "cap": "2770-1. 재단 아카이브, 19██/██/██"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2771": {
   "id": "SCP-2771",
@@ -168,7 +208,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2771",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2771/DisneyPoint.jpg",
+    "cap": "366-투텔라-적절 손짓."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2772": {
   "id": "SCP-2772",
@@ -190,7 +237,9 @@
   "author": "SoullessSingularity",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2772",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2773": {
   "id": "SCP-2773",
@@ -211,7 +260,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2773",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2773/SCPThermal.jpg",
+    "cap": "SCP-2773-1의 열화상 이미지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2778": {
   "id": "SCP-2778",
@@ -233,7 +289,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2778",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2779": {
   "id": "SCP-2779",
@@ -255,7 +313,37 @@
   "author": "Rimple",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2779",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2779/piglet-1.jpg",
+    "cap": "우리 안에 있는 SCP- 2779."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "piglet-1.jpg"
+    ],
+    [
+     "원본",
+     "Arapawa_Pigglet.jpg"
+    ],
+    [
+     "저작권자",
+     "Sierra Pacheco"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2786": {
   "id": "SCP-2786",
@@ -275,7 +363,9 @@
   "author": "Billith",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2786",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2790": {
   "id": "SCP-2790",
@@ -299,7 +389,14 @@
   "author": "",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2790",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2790/squid.jpg",
+    "cap": "2790은 사랑스러우며 자주 쓰다듬어 줘야 한다"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2791": {
   "id": "SCP-2791",
@@ -321,7 +418,18 @@
   "author": "Buttfranklin",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2791",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2791/bank_network.png",
+    "cap": "SCP-2791 네트워크의 도식적 표현. 각 꼭짓점은 개별 독립체를 가리키고, 하나 이상의 서약으로 연결된 경우 꼭짓점들은 서로 변으로 이어진다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2791/scheme_vert_ko.png",
+    "cap": "SCP-2791-126101 서약 부분 그래프"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2792": {
   "id": "SCP-2792",
@@ -346,7 +454,30 @@
   "author": "Fantem",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2792",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2792/Sarahsdoll.jpg",
+    "cap": "SCP-2792-1"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2792/Sarah.jpg",
+    "cap": "SCP-2792-2"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2792/scp2792.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2792/prometheus.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2792/Alva.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2797": {
   "id": "SCP-2797",
@@ -368,7 +499,14 @@
   "author": "anqxyr",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2797",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2797/squirrel.jpg",
+    "cap": "SCP-2797"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2799": {
   "id": "SCP-2799",
@@ -392,6 +530,13 @@
   "author": "RJB_R ＆ HammerMaiden",
   "translator": "Fearing",
   "source": "https://scpko.wikidot.com/scp-2799",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2799/X-3-new.jpg",
+    "cap": "SCP-2799-3."
+   }
+  ],
+  "img_credits": []
  }
 }

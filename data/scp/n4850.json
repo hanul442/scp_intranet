@@ -26,7 +26,33 @@
   "author": "Rounderhouse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4852",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4852/trees.png",
+    "cap": "SCP-4852 도중 파괴된 나무들."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "trees.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4853": {
   "id": "SCP-4853",
@@ -46,7 +72,9 @@
   "author": "aismallard (작가 페이지)",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4853",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4855": {
   "id": "SCP-4855",
@@ -72,7 +100,14 @@
   "author": "",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-4855",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4855/SCP-4855-ver%202",
+    "cap": "SCP-4855, 회수 시점."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4861": {
   "id": "SCP-4861",
@@ -95,7 +130,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4861",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4863": {
   "id": "SCP-4863",
@@ -119,7 +156,9 @@
   "author": "NatVoltaic",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4863",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4883": {
   "id": "SCP-4883",
@@ -140,7 +179,33 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4883",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4883/bookoflife.jpg",
+    "cap": "SCP-4883의 간에서 수술로 제거한 책."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "bookoflife.jpg"
+    ],
+    [
+     "Author",
+     "Weryllium"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4885": {
   "id": "SCP-4885",
@@ -162,7 +227,33 @@
   "author": "Shaggydredlocks",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4885",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4885/him.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "him.png"
+    ],
+    [
+     "저자",
+     "Shaggydredlocks"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4887": {
   "id": "SCP-4887",
@@ -189,7 +280,28 @@
   "author": "MaliceAforethought",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4887",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "honey-bee-larvae-322532_1280.jpg"
+    ],
+    [
+     "저자",
+     "PollyDot"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-4890": {
   "id": "SCP-4890",
@@ -216,7 +328,9 @@
   "author": "Baronjoe",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4890",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4899": {
   "id": "SCP-4899",
@@ -236,6 +350,41 @@
   "author": "Lady Zero",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4899",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/SCP-4899.jpg",
+    "cap": "SCP-4899의 전파 화상의 착색본"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899cap1.jpg",
+    "cap": "네바다주의 미군 시설인 그룸호 공군기지. 화상이 복호되고 34분 뒤, 건물 붕괴가 일어나 사망자 █명 발생."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899cap2.jpg",
+    "cap": "제66기지. 이 화상을 받고 29분 뒤, 기지 동(東)동에서 화재가 발생했다. 기지의 30%가 소개되었고 사망자는 █명 발생."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899cap3.jpg",
+    "cap": "제64저장기지. 이 화상을 받고 36분 뒤, 진원이 3 마일 밖인 지진이 발생해 기지에서 사망자 ██명 발생."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899cap4.jpg",
+    "cap": "제6구역. 방송이 복호되고 28분 뒤, 격리 유실이 발생하여 인원 ██명이 살처분됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899cap5.jpg",
+    "cap": "제96구역. 이 화상을 받고 40분 뒤, [편집됨] 사망자 ██명 발생."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899message1.jpg",
+    "cap": "수신일자 ██/██/████. 중요도 불명."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4899/4899message2.jpg",
+    "cap": "이 이후로 SCP-4899의 방송은 없었다."
+   }
+  ],
+  "img_credits": []
  }
 }

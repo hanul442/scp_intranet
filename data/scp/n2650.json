@@ -19,7 +19,9 @@
   "author": "Smapti",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2652",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2658": {
   "id": "SCP-2658",
@@ -42,7 +44,63 @@
   "author": "eggs",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2658",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2658/rubyproxy.png",
+    "cap": "SCP-2658 스캔본."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2658/sapphireproxy.png",
+    "cap": "이미지 SCP-2658-003."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "rubyproxy.png"
+    ],
+    [
+     "Name",
+     "rubyproxy.png"
+    ],
+    [
+     "Author",
+     "eggs"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/scp-2658"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sapphireproxy.png"
+    ],
+    [
+     "Name",
+     "sapphireproxy.png"
+    ],
+    [
+     "Author",
+     "eggs"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/scp-2658"
+    ]
+   ]
+  ]
  },
  "SCP-2660": {
   "id": "SCP-2660",
@@ -67,7 +125,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2660",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2660/lamp2.jpg",
+    "cap": "SCP-2660"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2662": {
   "id": "SCP-2662",
@@ -94,7 +159,9 @@
   "author": "SoullessSingularity",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2662",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2664": {
   "id": "SCP-2664",
@@ -121,7 +188,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2664",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2673": {
   "id": "SCP-2673",
@@ -143,7 +212,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2673",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2675": {
   "id": "SCP-2675",
@@ -166,7 +237,18 @@
   "author": "Anborough",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2675",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2675/142836656730122.jpg",
+    "cap": "시비르 호의 사진 파일."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2675/November.jpg",
+    "cap": "2675-노벰버 사태 당시 촬영된 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2677": {
   "id": "SCP-2677",
@@ -190,7 +272,14 @@
   "author": "UraniumEmpire",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2677",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2677/2000Contest.jpg",
+    "cap": "SCP-2677-1의 일부"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2678": {
   "id": "SCP-2678",
@@ -215,7 +304,9 @@
   "author": "Cerastes",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2678",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2679": {
   "id": "SCP-2679",
@@ -237,7 +328,26 @@
   "author": "The Great Hippo",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2679",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2679/grave.jpg",
+    "cap": "SCP-2679."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2679/radius-1.jpg",
+    "cap": "SCP-2679-B-129 (원위부 골절)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2679/hand-1.jpg",
+    "cap": "SCP-2679-B-526 (오른손. 여분의 지골이 존재)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2679/hyperdontia-1.jpg",
+    "cap": "SCP-2679-B-985. 상악골, 하악골에 기형이 있고 과잉치가 있음."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2682": {
   "id": "SCP-2682",
@@ -261,7 +371,14 @@
   "author": "faminepulse",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-2682",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2682/fruit.png",
+    "cap": "SCP-2682 근접 촬영 이미지."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2686": {
   "id": "SCP-2686",
@@ -284,7 +401,9 @@
   "author": "Wogglebug",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2686",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2690": {
   "id": "SCP-2690",
@@ -304,7 +423,14 @@
   "author": "kinchtheknifeblade",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2690",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2690/tableau.jpg",
+    "cap": "우리를 위해 다시 한번 날아올라줘."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2693": {
   "id": "SCP-2693",
@@ -326,6 +452,13 @@
   "author": "Calibri Bold : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-2693",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://www.scpwiki.com/local--files/scp-2693/cutie%20kitty%20cat%20so%20so%20cute",
+    "cap": "SCP-2693-2."
+   }
+  ],
+  "img_credits": []
  }
 }

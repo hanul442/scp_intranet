@@ -20,7 +20,9 @@
   "author": "Enma Ai",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-700",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-701": {
   "id": "SCP-701",
@@ -43,7 +45,29 @@
   "author": "tinwatchman",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-701",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-701/Volgun701.jpg",
+    "cap": "SCP-701-19██-A에서 찍은 SCP-701-1의 정지 화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Volgun701.jpg"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-702": {
   "id": "SCP-702",
@@ -65,7 +89,9 @@
   "author": "Heiden",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-702",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-703": {
   "id": "SCP-703",
@@ -87,7 +113,14 @@
   "author": "Brucy",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-703",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-703/703-new.jpg",
+    "cap": "최초 격리 당시에 찍은 SCP-703의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-704": {
   "id": "SCP-704",
@@ -109,7 +142,9 @@
   "author": "Dr Blank",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-704",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-705": {
   "id": "SCP-705",
@@ -135,7 +170,9 @@
   "author": "Dr Kondraki",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-705",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-706": {
   "id": "SCP-706",
@@ -156,7 +193,9 @@
   "author": "Aelanna",
   "translator": "Hanabi Greenwich",
   "source": "https://scpko.wikidot.com/scp-706",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-707": {
   "id": "SCP-707",
@@ -175,7 +214,9 @@
   "author": "Aelanna",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-707",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-708": {
   "id": "SCP-708",
@@ -197,7 +238,9 @@
   "author": "Frank Horrigan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-708",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-709": {
   "id": "SCP-709",
@@ -217,7 +260,29 @@
   "author": "Whitewings",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-709",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-709/scp709.jpg",
+    "cap": "근처 나무에서 촬영된 SCP-709"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "12. Korowai Treehouse"
+    ],
+    [
+     "저작권자",
+     "Mahfuz Ahmed"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-710": {
   "id": "SCP-710",
@@ -239,7 +304,9 @@
   "author": "SpoonOfEvil",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-710",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-711": {
   "id": "SCP-711",
@@ -261,7 +328,9 @@
   "author": "Photosynthetic",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-711",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-713": {
   "id": "SCP-713",
@@ -281,7 +350,9 @@
   "author": "Photosynthetic",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-713",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-714": {
   "id": "SCP-714",
@@ -300,7 +371,37 @@
   "author": "Arcalane",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-714",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-714/SCP-714.jpg",
+    "cap": "회수 직후의 SCP-714."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-714.jpg"
+    ],
+    [
+     "원본",
+     "File:Archer's Ring MET LC-36 25 2802-001.jpg"
+    ],
+    [
+     "저작권자",
+     "Metropolitan Museum of Art"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-715": {
   "id": "SCP-715",
@@ -327,7 +428,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-715",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-715/booth.jpg",
+    "cap": "발견 직후의 SCP-715."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-715/LCairns.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-715/KAktus.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-715/O572.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-715/715-letter-v2.png",
+    "cap": "데이터 말소"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-718": {
   "id": "SCP-718",
@@ -350,7 +474,9 @@
   "author": "Dr Gears",
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-718",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-719": {
   "id": "SCP-719",
@@ -373,7 +499,33 @@
   "author": "sandrewswann",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-719",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-719/SCP.jpg",
+    "cap": "SCP-719-1 설치 후 작동 점검 중인 새 SCP-719 장치."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Porta-Color.png"
+    ],
+    [
+     "저작권자",
+     "Tirante"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "https://commons.wikimedia.org/wiki/File:Porta-Color.png"
+    ]
+   ]
+  ]
  },
  "SCP-722": {
   "id": "SCP-722",
@@ -394,7 +546,9 @@
   "author": "mirthless",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-722",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-727": {
   "id": "SCP-727",
@@ -416,7 +570,33 @@
   "author": "Shebleha",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-727",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-727/Garden_Triclinium_Petra_Jordan1415.jpg",
+    "cap": "SCP-727 입구"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Garden Triclinium Petra Jordan1415.jpg"
+    ],
+    [
+     "저작권자",
+     "Michael Gunther"
+    ],
+    [
+     "라이선스",
+     "CC SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-732": {
   "id": "SCP-732",
@@ -437,7 +617,9 @@
   "author": "scratskinner",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-732",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-733": {
   "id": "SCP-733",
@@ -458,7 +640,14 @@
   "author": "",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-300/AW-signature.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-735": {
   "id": "SCP-735",
@@ -480,7 +669,9 @@
   "author": "Multimoog",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-735",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-737": {
   "id": "SCP-737",
@@ -502,7 +693,14 @@
   "author": "Tanhony",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-737",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-737/737-new.jpg",
+    "cap": "먹이가 주어진 후 얼마 되지 않은 때의 SCP-737."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-738": {
   "id": "SCP-738",
@@ -526,7 +724,9 @@
   "author": "Le Blue Dude",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-738",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-740": {
   "id": "SCP-740",
@@ -552,7 +752,33 @@
   "author": "TL333s",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-740",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-740/scp740.jpg",
+    "cap": "힌덴부르크 참사의 원본 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:Hindenburg burning, 1937.jpg"
+    ],
+    [
+     "저작권자",
+     "Gus Pasquarella"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-742": {
   "id": "SCP-742",
@@ -571,7 +797,9 @@
   "author": "GwenWinterheart",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-742",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-743": {
   "id": "SCP-743",
@@ -592,7 +820,33 @@
   "author": "Quikngruvn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-743",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-743/choco.jpg",
+    "cap": "[데이터 말소] 제거를 위해 배치된 분출 상태의 SCP-743"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "choco.jpg"
+    ],
+    [
+     "Author",
+     "R-E-AL"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.m.wikimedia.org/wiki/File:2010-11-21-Belek-Schokoladenbrunnen.JPG"
+    ]
+   ]
+  ]
  },
  "SCP-745": {
   "id": "SCP-745",
@@ -613,7 +867,25 @@
   "author": "Sorts",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-745",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-745/745.jpg",
+    "cap": "1985년 5월 16일. 발현되었을 때 속력을 유지하는 것이 SCP-745 쌍을 떼어내는 데 가장 효과적이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "745.jpg"
+    ],
+    [
+     "저작권자",
+     "blackle"
+    ]
+   ]
+  ]
  },
  "SCP-748": {
   "id": "SCP-748",
@@ -635,7 +907,22 @@
   "author": "Metaphysician",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-748",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-748/interior",
+    "cap": "SCP-748의 내부."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-748/Christian_Michelsen_OB.F04667.jpg",
+    "cap": "랜돌프 T. 메츠거, 1898년."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-748/bwkY217.jpg%3F1",
+    "cap": "SCP-748-4의 뇌가 든 통."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-749": {
   "id": "SCP-749",
@@ -654,6 +941,8 @@
   "author": "Heiden",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-749",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

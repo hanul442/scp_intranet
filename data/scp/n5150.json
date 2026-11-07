@@ -21,7 +21,9 @@
   "author": "TheMightyMcB",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-5153",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5155": {
   "id": "SCP-5155",
@@ -43,7 +45,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5155",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5155/gilmers.jpg",
+    "cap": "SCP-5155."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gilmers.jpg"
+    ],
+    [
+     "원본",
+     "Mule Deer Herd (15382464835).jpg"
+    ],
+    [
+     "저작권자",
+     "John Carr"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-5167": {
   "id": "SCP-5167",
@@ -66,7 +98,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5167",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5175": {
   "id": "SCP-5175",
@@ -92,7 +126,119 @@
   "author": "",
   "translator": "LR0725, TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-5175",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5798/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5175/knife.jpg",
+    "cap": "SCP-5175"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5175/damien.jpg",
+    "cap": "초도 면담 당시 PoI-3445. 대상의 '백업 나이프'에 주목하라."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5175/cutlery.jpg",
+    "cap": "커틀러리 컬렉션. SCP-5175의 발견지이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5175/mall.jpg",
+    "cap": "SCP-████의 내부"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "knife.jpg"
+    ],
+    [
+     "Name",
+     "DGJ_4750 - Moroccan Knife"
+    ],
+    [
+     "Author",
+     "Dennis Jarver"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "damien.jpg"
+    ],
+    [
+     "Name",
+     "Day 43 Outtake 2 - Faceless"
+    ],
+    [
+     "Author",
+     "failedimitator"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "cutlery.jpg"
+    ],
+    [
+     "Name",
+     "Knife Shops are Fun"
+    ],
+    [
+     "Author",
+     "ka3vo"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "mall.jpg"
+    ],
+    [
+     "Name",
+     "Dead Mall, Randall Park"
+    ],
+    [
+     "Author",
+     "Eddie~S"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flicker"
+    ]
+   ]
+  ]
  },
  "SCP-5185": {
   "id": "SCP-5185",
@@ -115,7 +261,32 @@
   "author": "",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-5185",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "https://i.imgur.com/fPabp4M.png"
+    ],
+    [
+     "Name",
+     "spider"
+    ],
+    [
+     "Author",
+     "Sean MacEntee"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "creative commons.org"
+    ]
+   ]
+  ]
  },
  "SCP-5192": {
   "id": "SCP-5192",
@@ -140,7 +311,32 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5192",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "lobster"
+    ],
+    [
+     "원본",
+     "Lobster 01"
+    ],
+    [
+     "저작권자",
+     "Postdlf"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5195": {
   "id": "SCP-5195",
@@ -161,6 +357,13 @@
   "author": "The Great Hippo, Weryllium",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-5195",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5195/trick1.png",
+    "cap": "SCP-5195."
+   }
+  ],
+  "img_credits": []
  }
 }

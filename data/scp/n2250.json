@@ -24,7 +24,9 @@
   "author": "Crayne",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2250",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2251": {
   "id": "SCP-2251",
@@ -44,7 +46,14 @@
   "author": "Doctor Cimmerian",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2251",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2251/115_unknown_object.jpg",
+    "cap": "SCP-2251의 영상물에서 12분 46초에 출현하는 객체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2254": {
   "id": "SCP-2254",
@@ -68,7 +77,95 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-2254",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2254/paragonlogokor.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2254/littleriver.jpg",
+    "cap": "앨라배마 주 팰런 인근의 리틀리버 협곡, SCP-2254의 주 발현지"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2254/jack.jpg",
+    "cap": "적외선 카메라로 촬영한 SCP-2254의 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2254/fetus.jpg",
+    "cap": "해부되고 있는 SCP-2254-1 개체. 대략 수정 후 8일"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "paragonlogokor.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "littleriver.jpg"
+    ],
+    [
+     "원본 제목",
+     "Little River Canyon National Park,Gaylesville,AL.jpg"
+    ],
+    [
+     "저작권자",
+     "Richard A. Weaver"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "jack.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fetus.jpg"
+    ],
+    [
+     "원본 제목",
+     "Fetus in fetu after operation.jpg"
+    ],
+    [
+     "저작권자",
+     "Nisreen M Khalifa"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2256": {
   "id": "SCP-2256",
@@ -94,7 +191,9 @@
   "author": "qntm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2256",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2258": {
   "id": "SCP-2258",
@@ -114,7 +213,37 @@
   "author": "rockyred9",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2258",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2258/Balloons.png",
+    "cap": "격리 이전에 아마추어가 찍은 SCP-2258 사진. (식별 번호가 적용되기 전이라는 점을 지적하여 둠.)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Balloons.png"
+    ],
+    [
+     "Name",
+     "Balloons"
+    ],
+    [
+     "Author",
+     "Alan Cleaver"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2263": {
   "id": "SCP-2263",
@@ -135,7 +264,33 @@
   "author": "Dr Solo",
   "translator": "ClapClap",
   "source": "https://scpko.wikidot.com/scp-2263",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2263/Human-Skeleton.jpg",
+    "cap": "SCP-2263-32"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Human-Skeleton.jpg"
+    ],
+    [
+     "Author",
+     "Sklmsta"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2264": {
   "id": "SCP-2264",
@@ -161,7 +316,89 @@
   "author": "Metaphysician",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2264",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2264/SCP-2264-1.JPG",
+    "cap": "런던탑 마틴타워."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2264/SCP-2264-2.jpg",
+    "cap": "제9대 노섬벌랜드 백작 헨리 퍼시."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2264/SCP-2264-3.jpg",
+    "cap": "크리스토퍼 말로."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "750px-London_martin_tower_08.03.2013_12-41-27.JPG"
+    ],
+    [
+     "Name",
+     "London martin tower 08.03.2013 12-41-27.JPG"
+    ],
+    [
+     "Author",
+     "Dirk Ingo Franke"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Henry_Percy-9th_Earl_of_Northumberland.jpg"
+    ],
+    [
+     "Name",
+     "Henry Percy-9th Earl of Northumberland.jpg"
+    ],
+    [
+     "Author",
+     "Anthony van Dyck"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "389px-Marlowe-Portrait-1585.jpg"
+    ],
+    [
+     "Name",
+     "Christopher Marlowe.jpg"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2265": {
   "id": "SCP-2265",
@@ -182,7 +419,9 @@
   "author": "ObserverSeptember",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2265",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2268": {
   "id": "SCP-2268",
@@ -202,7 +441,9 @@
   "author": "SpectralDragon",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2268",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2269": {
   "id": "SCP-2269",
@@ -225,7 +466,9 @@
   "author": "Aelanna",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2269",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2272": {
   "id": "SCP-2272",
@@ -250,7 +493,9 @@
   "author": "Kate McTiriss",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2272",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2273": {
   "id": "SCP-2273",
@@ -277,7 +522,9 @@
   "author": "Agent MacLeod",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2273",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2280": {
   "id": "SCP-2280",
@@ -298,7 +545,9 @@
   "author": "Drewbear",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2280",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2282": {
   "id": "SCP-2282",
@@ -320,7 +569,9 @@
   "author": "llama66613",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2282",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2287": {
   "id": "SCP-2287",
@@ -345,7 +596,9 @@
   "author": "Voct",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2287",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2288": {
   "id": "SCP-2288",
@@ -369,7 +622,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2288",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2292": {
   "id": "SCP-2292",
@@ -393,7 +648,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2292",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2292/QMrobu7.jpg",
+    "cap": "SCP-2292, 1983년."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "gorilla-small.jpg"
+    ],
+    [
+     "Author",
+     "Metaphysician"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2295": {
   "id": "SCP-2295",
@@ -414,7 +695,33 @@
   "author": "K Mota",
   "translator": "CatSi",
   "source": "https://scpko.wikidot.com/scp-2295",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2295/kairos.jpg",
+    "cap": "활동 상태에 접어들지 않은 SCP-2295"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "kairos.jpg"
+    ],
+    [
+     "Author",
+     "cuddlesandnuggets"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2296": {
   "id": "SCP-2296",
@@ -434,6 +741,80 @@
   "author": "Buttfranklin",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2296",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2296/tube.jpg",
+    "cap": "인위적으로 노출시킨 SCP-2296 개체"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2296/active_huddles.jpg",
+    "cap": "숨겨진 SCP-2296 개체를 포함한 몇몇 덩어리를 이미지 상단에서 관찰할 수 있다"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2296/desolate_penguins_hurl.jpg",
+    "cap": "SCP-2296에서 데리고 나온 펭귄들의 무기력증"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tube.jpg"
+    ],
+    [
+     "Author",
+     "Buttfranklin"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "active_huddles.jpg"
+    ],
+    [
+     "Author",
+     "Buttfranklin"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "desolate_penguins_hurl.jpg"
+    ],
+    [
+     "Name",
+     "emperor-penguins-1221041_1920.jpg"
+    ],
+    [
+     "Author",
+     "xraylori6061"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  }
 }

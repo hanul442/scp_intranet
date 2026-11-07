@@ -20,7 +20,9 @@
   "author": "Gabriel Jade",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4900",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4910": {
   "id": "SCP-4910",
@@ -51,7 +53,21 @@
   "author": "S D Locke, Flumswack가 쓴 초안을 재작성",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-4910",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4910/smile.png",
+    "cap": "SCP-4910의 모습이 담긴 유일한 파일 - 영상 손상 직전에 포착함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "smile.png"
+    ]
+   ]
+  ]
  },
  "SCP-4911": {
   "id": "SCP-4911",
@@ -72,7 +88,37 @@
   "author": "Joreth",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4911",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4911/wall.jpg",
+    "cap": "SCP-4911"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "wall.jpg"
+    ],
+    [
+     "Name",
+     "Newgrange from right side"
+    ],
+    [
+     "Author",
+     "Cary Bass-Deschenes"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/14429081@N00/3877944375/"
+    ]
+   ]
+  ]
  },
  "SCP-4914": {
   "id": "SCP-4914",
@@ -95,7 +141,9 @@
   "author": "",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4914",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4918": {
   "id": "SCP-4918",
@@ -120,7 +168,55 @@
   "author": "Ihp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-4918",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4918/British_cavalry_resting_1917.jpg",
+    "cap": "1917년 스카프 전투 당시 휴식하고 있는 SCP-4918-1(가장 오른쪽)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4918/Inha_runonlaulajat.jpg",
+    "cap": "1918년 H1N1 범유행의 피해자를 위안하며 시를 읋는 SCP-4918-3(왼쪽)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "British_cavalry_resting_1917.jpg"
+    ],
+    [
+     "저자",
+     "Ernest Brooks"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Inha_runonlaulajat.jpg"
+    ],
+    [
+     "저자",
+     "I. K. Inha"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-4923": {
   "id": "SCP-4923",
@@ -141,7 +237,9 @@
   "author": "Randomini",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4923",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4934": {
   "id": "SCP-4934",
@@ -162,7 +260,9 @@
   "author": "Uncle Nicolini",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4934",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4940": {
   "id": "SCP-4940",
@@ -186,7 +286,33 @@
   "author": "Dr Gears",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4940",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4940/SCP4940.jpg",
+    "cap": "SCP-4940"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP4940.jpg"
+    ],
+    [
+     "저자",
+     "Dr Gears"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4946": {
   "id": "SCP-4946",
@@ -208,7 +334,9 @@
   "author": "UraniumEmpire",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-4946",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4948": {
   "id": "SCP-4948",
@@ -230,6 +358,8 @@
   "author": "notgull",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4948",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

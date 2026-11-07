@@ -24,7 +24,21 @@
   "author": "Arian Zwegers",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4959/nest.jpg",
+    "cap": "깃털 달린 뱀의 신전"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "nest.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4960": {
   "id": "SCP-4960",
@@ -52,7 +66,109 @@
   "author": "DrClef",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4960",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/SCP-4XXX",
+    "cap": "SCP-4960을 묘사한 것으로 여겨지는 양각된 석판. 디지털 복원됨"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/British_Museum_Queen_of_the_Night.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/abernathy-5.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/SCP-4960-A.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/SCP-4960-B.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/abernathy-1.png",
+    "cap": "F. 윌리엄 애버네시가 간략하게 스케치한 SC-9 지역 묘사"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/abernathy-2.png",
+    "cap": "F. 윌리엄 애버네시가 간략하게 스케치한 SC-9-F 방으로 향하는 터널 묘사"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4960/abernathy-3.png",
+    "cap": "F. 윌리엄 애버네시가 간략하게 스케치한 SC-9-F 방."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-4XXX"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "British_Museum_Queen_of_the_Night.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-4960-A.png"
+    ],
+    [
+     "저자",
+     "UncertaintyCrossing"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-4960"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-4960-B.png"
+    ],
+    [
+     "저자",
+     "AnagramDaine : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-4960"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "abernathy-1.png, abernathy-2.png, abernathy-3.png, abernathy-5.png"
+    ],
+    [
+     "저자",
+     "DrClef"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-4960"
+    ]
+   ]
+  ]
  },
  "SCP-4966": {
   "id": "SCP-4966",
@@ -80,7 +196,33 @@
   "author": "AbsentmindedNihilist",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4966",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4966/tubbs.png",
+    "cap": "SCP-4966"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tubbs.png"
+    ],
+    [
+     "저자",
+     "AbsentmindedNihilist"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4967": {
   "id": "SCP-4967",
@@ -103,7 +245,21 @@
   "author": "Uncle Nicolini",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4967",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4967/elvis.png",
+    "cap": "SCP-4967의 생전 모습. 1982년경."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "elvis.png"
+    ]
+   ]
+  ]
  },
  "SCP-4971": {
   "id": "SCP-4971",
@@ -135,7 +291,62 @@
   "author": "djkaktus",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4971",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/header.png",
+    "cap": "SCP-4971의 내부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/location.png",
+    "cap": "미국 인디애나주, 헤이븐브룩"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/mall.png",
+    "cap": "사우스우드 파크 쇼핑 센터, 2005."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/mall2.png",
+    "cap": "사우스우드 파크 쇼핑 센터 시설 지도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/lobby.png",
+    "cap": "사우스우드 파크 쇼핑센터의 메인 로비."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/shop.png",
+    "cap": "옷 가게 내부. 미확인 독립체는 강조 처리함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/gaia.png",
+    "cap": "SCP-4971 내부에서 발견된 비피의 마지막 간청의 펼쳐진 페이지. 우측 페이지의 이미지는 근처 땅에서 발견된 상징과 일치한다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/spirit.jpg",
+    "cap": "방콕의 전술 카메라 녹화본에 찍힌 미확인 생물체의 사진"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/humanoid.png",
+    "cap": "I-44의 비디오 카메라에 찍힌 미상의 인간형 독립체. 시각적인 왜곡은 SCP-4971에 잠재된 전자기 잡음으로 인해 생겼다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/biphi.jpg",
+    "cap": "I-44 팀의 화상 송신기에서 보내온 마지막 이미지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/biphi2.png",
+    "cap": "SCP-4971-▽."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/katarina.jpg",
+    "cap": "확보한 영상에서 나온 정지 화면."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4971/mercury.png",
+    "cap": "확보한 영상 중 정지 화면"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4972": {
   "id": "SCP-4972",
@@ -155,7 +366,14 @@
   "author": "Tanhony",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4972",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4972/scpcare.png",
+    "cap": "카레 박사"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4975": {
   "id": "SCP-4975",
@@ -184,7 +402,14 @@
   "author": "Scented_Shadow",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4975",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4975/4975.png",
+    "cap": "1863년 ████ ██ █████이 제작한 판화. SCP-4975를 묘사한 것으로 여겨진다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4976": {
   "id": "SCP-4976",
@@ -209,7 +434,9 @@
   "author": "pr0m37h3um",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-4976",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4991": {
   "id": "SCP-4991",
@@ -238,7 +465,151 @@
   "author": "Westrin * fishingenthusiast",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4991",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/them.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/Life.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/logo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/jokah.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/spook.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/pizz.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/thegang4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/wojak.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft:crssk-57-e85f/Redacted.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/temppage/Horrid",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "them.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Life.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "logo.png"
+    ],
+    [
+     "저자",
+     "Ralliston"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "Used with permission."
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "jokah.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "spook.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "pizz.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "thegang4.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "wojak.jpg"
+    ],
+    [
+     "저자",
+     "daviiid"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://i.gyazo.com/b8008bbd9332c720988f1f7cf4db8dda.png"
+    ],
+    [
+     "비고",
+     "Used with permission"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Redacted.png"
+    ],
+    [
+     "저자",
+     "Westrin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-4991"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Horrid"
+    ]
+   ]
+  ]
  },
  "SCP-4994": {
   "id": "SCP-4994",
@@ -257,7 +628,59 @@
   "author": "Lady Zero",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4994",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4994/4994access1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4994/4994clearance2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4994/SCP-4994-1.jpg",
+    "cap": "SCP-4994-1"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4994/SCP-4994-2flag.jpg",
+    "cap": "SCP-4994-2의 공식 깃발"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4994/SCP-4994-2flagwave.jpg",
+    "cap": "바람에 펄럭이고 있는 SCP-4994-2의 깃발 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4994/SCP-4994-3.jpg",
+    "cap": "SCP-4994-3의 상징"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-4994-1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-4994-2flag.jpg, SCP-4994-3.jpg"
+    ],
+    [
+     "저자",
+     "Lady Zero"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-4994"
+    ]
+   ]
+  ]
  },
  "SCP-4999": {
   "id": "SCP-4999",
@@ -280,6 +703,36 @@
   "author": "CadaverCommander",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4999/death.png",
+    "cap": "SCP-4999, 1973년 경. 전문 사진 작가 구스타브 뷔르거(Gustav Bürger)가 죽기 3분전에 찍은 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "death.png"
+    ],
+    [
+     "Name",
+     "Man Actor Suit Adult Business People Portrait"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Max Pixel"
+    ]
+   ]
+  ]
  }
 }

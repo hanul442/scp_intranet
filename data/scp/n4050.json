@@ -18,7 +18,9 @@
   "author": "Westrin",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4050",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4053": {
   "id": "SCP-4053",
@@ -40,7 +42,33 @@
   "author": "ubergoober",
   "translator": "Garlic Corn-Potatoes",
   "source": "https://scpko.wikidot.com/scp-4053",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/skynet/kill-agent.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "CERN Server 03.jpg"
+    ],
+    [
+     "저자",
+     "Florian Hirzinger"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-4054": {
   "id": "SCP-4054",
@@ -61,7 +89,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4054",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4054/box_art.png",
+    "cap": "그림 1.1: 일곱 번째 문의 표지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4054/atitle.png",
+    "cap": "그림 1.2: 타이틀 화면."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4054/screenshot1.png",
+    "cap": "그림 1.3: 레벨 5 (지하 묘지)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4054/screenshot2.png",
+    "cap": "그림 1.4: 레벨 7 (묻힌 도시). 몇몇 스프라이트와 타일이 제대로 로드되지 않는 것에 주목."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4054/stream.png",
+    "cap": "그림 1.5: inky49의 비디오 생방송 영상"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4056": {
   "id": "SCP-4056",
@@ -86,7 +137,21 @@
   "author": "Uncle Nicolini&Captain Kirby",
   "translator": "pepping1235",
   "source": "https://scpko.wikidot.com/scp-4056",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4056/gearsstorage.jpg",
+    "cap": "SCP-4056."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gearsstorage.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4057": {
   "id": "SCP-4057",
@@ -113,7 +178,9 @@
   "author": "Researcher Blasko",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-4057",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4062": {
   "id": "SCP-4062",
@@ -136,7 +203,33 @@
   "author": "Lesh",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4062",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4062/South_Russian_Ovcharka.jpg",
+    "cap": "제██기지 중앙의 안뜰에 있는 SCP-4062."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "South_Russian_Ovcharka.jpg"
+    ],
+    [
+     "저자",
+     "Benutzer:Caronna"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-4064": {
   "id": "SCP-4064",
@@ -158,7 +251,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4064",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4064/us.png",
+    "cap": "SCP-4064-B, 재단에 처음 구류된 직후 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4065": {
   "id": "SCP-4065",
@@ -179,7 +279,31 @@
   "author": "ch00bakka",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4065",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4065/countermeme.jpg",
+    "cap": "페치카료바/바켄 선택적 지각 반밈"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4065/sra.png",
+    "cap": "SCP-4065-1 개체(An instance of SCP-4065-1)1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "countermeme.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "sra.png"
+    ]
+   ]
+  ]
  },
  "SCP-4069": {
   "id": "SCP-4069",
@@ -203,7 +327,9 @@
   "author": "Cyantreuse does not match any existing user name",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4069",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4070": {
   "id": "SCP-4070",
@@ -221,7 +347,14 @@
   "author": "DolphinSlugchugger",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4070",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4070/4070.jpg",
+    "cap": "미국 메인주 뱅고어시의 위성 사진. 한때 SCP-4070-1 개체의 공통된 목적지였다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4080": {
   "id": "SCP-4080",
@@ -241,7 +374,37 @@
   "author": "OthellotheCat",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4080",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4080/David.png",
+    "cap": "SCP-4080-1를 보여주는 SCP-4080의 에피소드 타이틀 화면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "David.png"
+    ],
+    [
+     "저자",
+     "Armando Lazo"
+    ],
+    [
+     "라이선스",
+     "free to use(pexels license)"
+    ],
+    [
+     "출처",
+     "Pexels"
+    ],
+    [
+     "비고",
+     "edited by DolphinSlugchugger"
+    ]
+   ]
+  ]
  },
  "SCP-4087": {
   "id": "SCP-4087",
@@ -259,7 +422,14 @@
   "author": "The Great Hippo",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4087",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4087/weapon.jpg",
+    "cap": "SCP-4087 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4088": {
   "id": "SCP-4088",
@@ -280,7 +450,37 @@
   "author": "",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4088",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4088/Piano.png",
+    "cap": "SCP-4088"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "piano.png"
+    ],
+    [
+     "Name",
+     "Grand Piano"
+    ],
+    [
+     "Author",
+     "Michael Coghlan"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-4089": {
   "id": "SCP-4089",
@@ -304,7 +504,18 @@
   "author": "The Great Hippo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4089",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4089/teeth1.png",
+    "cap": "SCP-4089 종사자가 업로드한 스트리밍 영상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4089/teeth2.png",
+    "cap": "적출된 외인성 기형종. 제거 후 3시간 동안 저작운동을 계속했다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4096": {
   "id": "SCP-4096",
@@ -324,7 +535,14 @@
   "author": "MaliceAforethought",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4096",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4096/buliding.jpg",
+    "cap": "SCP-4096이 있는 건물. 격리 이전의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4097": {
   "id": "SCP-4097",
@@ -344,7 +562,21 @@
   "author": "N/A",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4097",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4097/Big_Bertha",
+    "cap": "SCP-4097의 공학적 전신 빅베르타 곡사포."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Big_Bertha"
+    ]
+   ]
+  ]
  },
  "SCP-4098": {
   "id": "SCP-4098",
@@ -369,6 +601,20 @@
   "author": "Westrin & Henzoid",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-4098",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4098/scpscp.png",
+    "cap": "한때 기지94번의 바깥모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpscp.png"
+    ]
+   ]
+  ]
  }
 }

@@ -20,7 +20,33 @@
   "author": "Enresshou",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1753",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1753/SCP-1753%20Censor.jpg",
+    "cap": "SCP-1753의 검열된 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1753 Censor.jpg"
+    ],
+    [
+     "출처",
+     "https://gilbertmunger.org/Pages/ID200.html"
+    ],
+    [
+     "제작자",
+     "Gilbert Munger"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1755": {
   "id": "SCP-1755",
@@ -45,7 +71,9 @@
   "author": "Anaxagoras",
   "translator": "Cavern dweller",
   "source": "https://scpko.wikidot.com/scp-1755",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1756": {
   "id": "SCP-1756",
@@ -69,7 +97,9 @@
   "author": "Smapti",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1756",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1761": {
   "id": "SCP-1761",
@@ -93,7 +123,9 @@
   "author": "giant enemy spycrab",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-1761",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1762": {
   "id": "SCP-1762",
@@ -118,7 +150,33 @@
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1762",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "용들이 간 곳"
+  "nickname": "용들이 간 곳",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1762/SCP-1762.jpg",
+    "cap": "SCP-1762-2의 개체 중 하나."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "New-Dragon.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Nyar94"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1764": {
   "id": "SCP-1764",
@@ -138,7 +196,9 @@
   "author": "DrClef",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-1764",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1766": {
   "id": "SCP-1766",
@@ -159,7 +219,14 @@
   "author": "Draxal",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1766",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1766/atc-new.jpg",
+    "cap": "SCP-1766의 활동을 감시하는 ████ 요원"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1768": {
   "id": "SCP-1768",
@@ -179,7 +246,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1768",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1780": {
   "id": "SCP-1780",
@@ -204,7 +273,33 @@
   "author": "HammerMaiden",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1780",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1780/AO-Watch.jpg",
+    "cap": "회수물품 AO-1780-3"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "AO-Watch.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1780"
+    ],
+    [
+     "제작자",
+     "HammerMaiden"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1781": {
   "id": "SCP-1781",
@@ -226,7 +321,14 @@
   "author": "djkaktus ＆ kinchtheknifeblade",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1781",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1781/hugo.png",
+    "cap": "《바람과 함께 사라지다》에서 발췌된 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1782": {
   "id": "SCP-1782",
@@ -246,7 +348,33 @@
   "author": "faminepulse",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1782",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1782/1782-1.png",
+    "cap": "████년 8월 31일의 SCP-1782. 독립체는 잡아먹히면서 레위기의 구절들을 무작위적으로 암송했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1782-1.png"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Department of Conservation, faminepulse 수정"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1784": {
   "id": "SCP-1784",
@@ -268,7 +396,9 @@
   "author": "",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-1784",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1785": {
   "id": "SCP-1785",
@@ -288,7 +418,33 @@
   "author": "cornhime",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1785",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1785/screm.jpg",
+    "cap": "제103생물기지로 재배치되기 전의 오펠리아"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "screm.jpg"
+    ],
+    [
+     "출처",
+     "https://www.publicdomainpictures.net/es/view-image.php?image=59487&picture=arbusto-brillante-rosa-roja"
+    ],
+    [
+     "제작자",
+     "Lynn Greyling"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1788": {
   "id": "SCP-1788",
@@ -310,7 +466,9 @@
   "author": "TedlyAnderson",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1788",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1793": {
   "id": "SCP-1793",
@@ -334,7 +492,9 @@
   "author": "FlameShirt",
   "translator": "Carole Roh",
   "source": "https://scpko.wikidot.com/scp-1793",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1794": {
   "id": "SCP-1794",
@@ -355,7 +515,9 @@
   "author": "ViaNegativa",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1794",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1797": {
   "id": "SCP-1797",
@@ -375,7 +537,9 @@
   "author": "anqxyr",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1797",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1799": {
   "id": "SCP-1799",
@@ -401,6 +565,36 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1799",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1799/1799.jpg",
+    "cap": "SCP-1799"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "1799.jpg"
+    ],
+    [
+     "Name",
+     "Sad Clown - Occupy Wall St.jpg"
+    ],
+    [
+     "Author",
+     "charliegolonkiewicz"
+    ],
+    [
+     "License",
+     "CC 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Sad_Clown_-_Occupy_Wall_St.jpg"
+    ]
+   ]
+  ]
  }
 }

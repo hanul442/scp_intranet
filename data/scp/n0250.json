@@ -19,7 +19,29 @@
   "author": "Dr Kondraki",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-250",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-250/SCP-250.jpg",
+    "cap": "포획되기 전에 촬영한 SCP-250."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-250.jpg"
+    ],
+    [
+     "저작권자",
+     "Dr Kondraki"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-251": {
   "id": "SCP-251",
@@ -41,7 +63,9 @@
   "author": "Bijhan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-251",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-252": {
   "id": "SCP-252",
@@ -68,7 +92,9 @@
   "author": "wishun",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-252",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-253": {
   "id": "SCP-253",
@@ -87,7 +113,9 @@
   "author": "snorlison",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-253",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-257": {
   "id": "SCP-257",
@@ -109,7 +137,9 @@
   "author": "Tom Serveaux",
   "translator": "dt644",
   "source": "https://scpko.wikidot.com/scp-257",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-258": {
   "id": "SCP-258",
@@ -132,7 +162,33 @@
   "author": "Loreweaver",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-258",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-258/scp-258.png",
+    "cap": "회수되기 전의 SCP-258. 메인주 █████████."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-258"
+    ],
+    [
+     "원본",
+     "Riverside Park, Chilton, WI: frog spring rocker"
+    ],
+    [
+     "저작권자",
+     "Nels Olsen (S D Locke에 의해 수정됨)"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-259": {
   "id": "SCP-259",
@@ -152,7 +208,37 @@
   "author": "eric_h",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-259",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-259/SCP-259_fractal-new.png",
+    "cap": "SCP-259와 유사한 프랙탈 이미지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-259 fractal-new.png"
+    ],
+    [
+     "원본",
+     "Fractal - Green and Yellow Swirls.png"
+    ],
+    [
+     "저작권자",
+     "WelshPixie"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-260": {
   "id": "SCP-260",
@@ -173,7 +259,9 @@
   "author": "Wonderful Lizard",
   "translator": "KKH313",
   "source": "https://scpko.wikidot.com/scp-260",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-261": {
   "id": "SCP-261",
@@ -194,7 +282,9 @@
   "author": "Dr Gears",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-261",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-262": {
   "id": "SCP-262",
@@ -216,7 +306,9 @@
   "author": "The Administrator",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-262",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-266": {
   "id": "SCP-266",
@@ -236,7 +328,9 @@
   "author": "Dr Kondraki",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-266",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-268": {
   "id": "SCP-268",
@@ -259,7 +353,9 @@
   "author": "Pair Of Ducks",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-268",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-269": {
   "id": "SCP-269",
@@ -280,7 +376,9 @@
   "author": "Aelanna",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-269",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-270": {
   "id": "SCP-270",
@@ -304,7 +402,9 @@
   "author": "Mimi_42",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-270",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-271": {
   "id": "SCP-271",
@@ -325,7 +425,37 @@
   "author": "Noaqiyeum",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-271",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-271/infectiousinscription-new.jpg",
+    "cap": "SCP-271"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "infectiousinscription-new.jpg"
+    ],
+    [
+     "원본",
+     "Музей языков мира экспонат 05.jpg"
+    ],
+    [
+     "저작권자",
+     "Ostrinstro"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-272": {
   "id": "SCP-272",
@@ -347,7 +477,14 @@
   "author": "DragonBoots",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-272",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-272/SCP-272.jpg",
+    "cap": "SCP-272"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-273": {
   "id": "SCP-273",
@@ -367,7 +504,9 @@
   "author": "G Fox",
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-273",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-277": {
   "id": "SCP-277",
@@ -387,7 +526,9 @@
   "author": "Mimi_42",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-277",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-279": {
   "id": "SCP-279",
@@ -409,7 +550,9 @@
   "author": "Mimi_42",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-279",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-280": {
   "id": "SCP-280",
@@ -431,7 +574,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-280",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-280/new-SCP-280.png",
+    "cap": "최초 확보 중 SCP-280이 물리적 형태를 상실한 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-282": {
   "id": "SCP-282",
@@ -452,7 +602,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-282",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-283": {
   "id": "SCP-283",
@@ -470,7 +622,9 @@
   "author": "Dr Oliver Wood",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-283",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-290": {
   "id": "SCP-290",
@@ -490,7 +644,9 @@
   "author": "Nesevo",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-290",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-291": {
   "id": "SCP-291",
@@ -511,7 +667,9 @@
   "author": "agatharights",
   "translator": "MystericWonder",
   "source": "https://scpko.wikidot.com/scp-291",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-292": {
   "id": "SCP-292",
@@ -532,7 +690,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-292",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-293": {
   "id": "SCP-293",
@@ -554,7 +714,9 @@
   "author": "Dr Gears",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-293",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-294": {
   "id": "SCP-294",
@@ -575,7 +737,29 @@
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-294",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "커피 자판기"
+  "nickname": "커피 자판기",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-294/SCP-294.jpg",
+    "cap": "회수 당시의 SCP-294"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp_294_by_staticfactory-d4xwn6e.jpg"
+    ],
+    [
+     "저작권자",
+     "StaticFactory"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-296": {
   "id": "SCP-296",
@@ -599,7 +783,9 @@
   "author": "Lowell",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-296",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-297": {
   "id": "SCP-297",
@@ -620,7 +806,9 @@
   "author": "DrClef",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-297",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-298": {
   "id": "SCP-298",
@@ -641,7 +829,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-298",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-299": {
   "id": "SCP-299",
@@ -662,6 +852,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-299",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

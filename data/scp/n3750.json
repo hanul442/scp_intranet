@@ -20,7 +20,37 @@
   "author": "Weryllium",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3753",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3753/daledalecolitaderana.jpg",
+    "cap": "SCP-3753"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "daledalecolitaderana.jpg"
+    ],
+    [
+     "Name",
+     "Mugicha Tea bag by CR 01.jpg"
+    ],
+    [
+     "Author",
+     "Corpse Reviver"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3759": {
   "id": "SCP-3759",
@@ -46,7 +76,21 @@
   "author": "Weryllium",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-3759",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3759/endling.jpg",
+    "cap": "SCP-3759 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "endling.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3767": {
   "id": "SCP-3767",
@@ -67,7 +111,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3767",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3774": {
   "id": "SCP-3774",
@@ -95,7 +141,9 @@
   "author": "OthellotheCat",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3774",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3777": {
   "id": "SCP-3777",
@@ -119,7 +167,9 @@
   "author": "Univine",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3777",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3780": {
   "id": "SCP-3780",
@@ -143,7 +193,9 @@
   "author": "",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3780",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3786": {
   "id": "SCP-3786",
@@ -166,7 +218,43 @@
   "author": "minmin",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3786",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3786/dog1.PNG",
+    "cap": "SCP-3786이 머리를 내놓고 잠을 취하는 희귀한 장면이 포착된 순간."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3786/dog2.jpg",
+    "cap": "1985년경 촬영된 옛 량구생물병기연구소 시설."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "dog1.PNG"
+    ],
+    [
+     "저자",
+     "Minmin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dog2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3788": {
   "id": "SCP-3788",
@@ -191,7 +279,21 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3788",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3788/titanic2.jpg",
+    "cap": "SCP-3788"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "titanic2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3790": {
   "id": "SCP-3790",
@@ -214,7 +316,21 @@
   "author": "djkaktus & Croquembouche",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3790",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3790/doorway3.jpg",
+    "cap": "SCP-3790의 내부"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "doorway3.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3792": {
   "id": "SCP-3792",
@@ -239,7 +355,21 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3792",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3792/scpsmoke.png",
+    "cap": "형성되는 과정 중의 SCP-3792-1 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpsmoke.png"
+    ]
+   ]
+  ]
  },
  "SCP-3794": {
   "id": "SCP-3794",
@@ -259,7 +389,21 @@
   "author": "Weryllium",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-3794",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3794/rule.jpg",
+    "cap": "SCP-3794"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rule.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3797": {
   "id": "SCP-3797",
@@ -283,7 +427,14 @@
   "author": "stormbreath",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3797",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3797/deltat",
+    "cap": "시간변칙부의 휘장."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3799": {
   "id": "SCP-3799",
@@ -311,6 +462,97 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3799",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "iteration1pic"
+    ],
+    [
+     "Name",
+     "Blizzard1 - NOAA.jpg"
+    ],
+    [
+     "Author",
+     "NOAA Photo Library"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "iteration2pic"
+    ],
+    [
+     "Name",
+     "Snowflake9.png"
+    ],
+    [
+     "Author",
+     "Wilson Bentley"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "iteration3pic"
+    ],
+    [
+     "Name",
+     "Blizzard2 - NOAA.jpg"
+    ],
+    [
+     "Author",
+     "NOAA Photo Library"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "iteration4pic"
+    ],
+    [
+     "Name",
+     "USS Philippine Sea (CV-47) flight deck with snow Nov 1950.jpg"
+    ],
+    [
+     "Author",
+     "USN"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

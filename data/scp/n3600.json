@@ -20,7 +20,9 @@
   "author": "MrWrong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3609",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3610": {
   "id": "SCP-3610",
@@ -42,7 +44,9 @@
   "author": "SunnyClockwork",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3610",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3612": {
   "id": "SCP-3612",
@@ -64,7 +68,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3612",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3613": {
   "id": "SCP-3613",
@@ -89,7 +95,9 @@
   "author": "Jacob Conwell",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3613",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3615": {
   "id": "SCP-3615",
@@ -127,7 +135,21 @@
   "author": "mlister",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3615",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3615/reference.jpg",
+    "cap": "회수된 자료. SCP-3615-1을 나타내는 것으로 여겨진다. Dictionnaire Infernal의 내용과 유사함에 주목할 것."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "reference.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3620": {
   "id": "SCP-3620",
@@ -149,7 +171,33 @@
   "author": "Allan Crain",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3620",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3620/scp-3620.jpg",
+    "cap": "최초 발견 당시 사진에 찍힌 SCP-3620"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-3620.jpg"
+    ],
+    [
+     "Author",
+     "Allan Crain"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3626": {
   "id": "SCP-3626",
@@ -172,7 +220,99 @@
   "author": "kemoT01",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3626",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3626/Iteration_1",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3626/Iteration_2",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3626/Iteration_3",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3626/Iteration_4",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Iteration_1"
+    ],
+    [
+     "저자",
+     "kemoT01's sister"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Iteration_2"
+    ],
+    [
+     "저자",
+     "kemoT01's sister"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Iteration_3"
+    ],
+    [
+     "저자",
+     "kemoT01's sister"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Iteration_4"
+    ],
+    [
+     "저자",
+     "kemoT01's sister"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3633": {
   "id": "SCP-3633",
@@ -195,7 +335,89 @@
   "author": "Captain Kirby & DarkStuff",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-3633",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/vessel",
+    "cap": "SCP-3633"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/lie1",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/lie2",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/lie3",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/notme",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3633/home",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "vessel"
+    ],
+    [
+     "저자",
+     "johnnymip"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "home"
+    ],
+    [
+     "저자",
+     "Sick Bones"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "lie1, lie2, lie3, notme"
+    ],
+    [
+     "저자",
+     "DarkStuff"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3633"
+    ]
+   ]
+  ]
  },
  "SCP-3637": {
   "id": "SCP-3637",
@@ -221,7 +443,21 @@
   "author": "Weryllium",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3637",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3637/Maiasaura.jpg",
+    "cap": "박물관으로 옮겨진 SCP-3637."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Maiasaura.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3649": {
   "id": "SCP-3649",
@@ -245,6 +481,20 @@
   "author": "Pedantique",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3649",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3649/cloudcover",
+    "cap": "발견 이후 초기의 SCP-3649 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cloudcover"
+    ]
+   ]
+  ]
  }
 }

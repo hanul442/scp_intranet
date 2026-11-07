@@ -21,7 +21,18 @@
   "author": "MontagueETC",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8751",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8751/8751-thumbnail.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8751/house.jpg",
+    "cap": "SCP-8751의 뒷마당 감시 카메라 영상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8771": {
   "id": "SCP-8771",
@@ -44,7 +55,63 @@
   "author": "syuzhet",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8771",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8771/whale.png",
+    "cap": "안구에서 회수한 SCP-8771의 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8771/mountain.jpeg",
+    "cap": "비탄산의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "whale.png"
+    ],
+    [
+     "Name",
+     "Whale"
+    ],
+    [
+     "Author",
+     "U.N. Owen"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wdfiles.com/local--files/scp-8771/whale.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "mountain.jpeg"
+    ],
+    [
+     "Name",
+     "Mountain"
+    ],
+    [
+     "Author",
+     "www.Pixel.la Free Stock Photos"
+    ],
+    [
+     "License",
+     "Creative Commons CC0 1.0 Universal Public Domain Dedication"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Mountains-dark-rocks-silhouette_(23698898073).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8792": {
   "id": "SCP-8792",
@@ -67,7 +134,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8792",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8792/sand.jpg",
+    "cap": "최초 SCP-8792 탐사에서 촬영된 정지 화상. 시야 저하는 이후 재발하지 않음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "sand.jpg"
+    ],
+    [
+     "Author",
+     "Mn khetib"
+    ],
+    [
+     "License",
+     "CC BY SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Lost_in_the_sandstorm.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8798": {
   "id": "SCP-8798",
@@ -89,6 +182,36 @@
   "author": "Tufto",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8798",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8798/pit.jpg",
+    "cap": "SCP-8798의 초반 구역. 비정상적인 빛에 주목."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pit.JPG"
+    ],
+    [
+     "Name",
+     "Natural_Bridge_Cavern_Grendel's_Canyon.JPG"
+    ],
+    [
+     "Author",
+     "James Sumner"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Natural_Bridge_Cavern_Grendel%27s_Canyon.jpg"
+    ]
+   ]
+  ]
  }
 }

@@ -20,7 +20,21 @@
   "author": "TL333s",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3454",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3454/scp3454.jpg",
+    "cap": "벌-기지, 키 큰 벌들의 땅 입구가 위치함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp3454.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3456": {
   "id": "SCP-3456",
@@ -47,7 +61,21 @@
   "author": "DrBleep",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3456",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3456/Douglas-Scottish_FFT(1901)-p162-Nuckalavee-illustr-J_Torrance_(cropped).jpg",
+    "cap": "생존자 제임스 테런스가 묘사한 SCP-3456의 예술적 연출물."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Douglas-Scottish_FFT(1901)-p162-Nuckalavee-illustr-J_Torrance_(cropped).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3457": {
   "id": "SCP-3457",
@@ -73,7 +101,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3457",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3457/crown",
+    "cap": "SCP-3457에 사용되는 유물 중 하나인 롬바르디아 철관. 몬차 대성당에 전시됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3464": {
   "id": "SCP-3464",
@@ -96,7 +131,21 @@
   "author": "Lt Flops",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3464",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3464/undead-bread-redemption.jpg",
+    "cap": "변형 중인 SCP-3464 개체. 오렌다 요원이 촬영함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "undead-bread-redemption.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3466": {
   "id": "SCP-3466",
@@ -118,7 +167,9 @@
   "author": "DarkStuff",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3466",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3470": {
   "id": "SCP-3470",
@@ -140,7 +191,9 @@
   "author": "",
   "translator": "Agent_Wanderer",
   "source": "https://scpko.wikidot.com/scp-3470",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3477": {
   "id": "SCP-3477",
@@ -169,7 +222,37 @@
   "author": "",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3477",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3477/haroldholt.jpg",
+    "cap": "호주 총리 재임 당시의 SCP-3477-0"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "haroldholt.jpg"
+    ],
+    [
+     "Name",
+     "Portrait of Harold Holt, M.H.R. for Fawkner, Victoria"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-3480": {
   "id": "SCP-3480",
@@ -194,7 +277,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3480",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3480/05warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3480/Mytikas_at_sunset_(Olympus_mt.).jpg",
+    "cap": "올림푸스산 기슭에서 본 SCP-3480의 풍경."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3480/Amazing_halo_effect_(1336635365).jpg",
+    "cap": "백색 사태 중의 SCP-3480-1. 변칙성 우측에 칸트 계수기가 보인다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3484": {
   "id": "SCP-3484",
@@ -218,7 +316,21 @@
   "author": "WrongJohnSilver",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-3484",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3484/rauberslehrbuch.jpg",
+    "cap": "SCP-3484의 예시 페이지. 밈적 재해를 포함하지 않은 것으로 판명됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rauberslehrbuch.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3485": {
   "id": "SCP-3485",
@@ -240,7 +352,21 @@
   "author": "notgull",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3485/lobster.jpg",
+    "cap": "비변칙적인 바닷가재(Homarus gammarus) 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "lobster.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3487": {
   "id": "SCP-3487",
@@ -262,7 +388,9 @@
   "author": "",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-3487",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3492": {
   "id": "SCP-3492",
@@ -284,7 +412,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3492",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3494": {
   "id": "SCP-3494",
@@ -305,7 +435,39 @@
   "author": "",
   "translator": "Alexandreo",
   "source": "https://scpko.wikidot.com/scp-3494",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3494/trustdado2.png",
+    "cap": "SCP-3494 \"초강력 변비약\"을 홍보하는 TV 광고 ."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "trustdado.png"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "trustdado_2.png"
+    ]
+   ]
+  ]
  },
  "SCP-3496": {
   "id": "SCP-3496",
@@ -329,7 +491,34 @@
   "author": "ClavigerAI",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3496",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "recovery"
+    ],
+    [
+     "저자",
+     "u/CountBubs"
+    ],
+    [
+     "라이선스",
+     "All rights reserved(permission)"
+    ],
+    [
+     "출처",
+     "https://www.reddit.com/r/pics/comments/23rfub/an_abandoned_hornets_nest_my_dad_found_in_his/"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "microscopeAnalysis"
+    ]
+   ]
+  ]
  },
  "SCP-3497": {
   "id": "SCP-3497",
@@ -351,6 +540,20 @@
   "author": "ModernMajorGeneral",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3497",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3497/SCP-3497-bird.jpg",
+    "cap": "SCP-3497 (#12)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-3497-bird.jpg"
+    ]
+   ]
+  ]
  }
 }

@@ -18,7 +18,9 @@
   "author": "Proasek",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4554",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4559": {
   "id": "SCP-4559",
@@ -36,7 +38,9 @@
   "author": "Westrin",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4559",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4560": {
   "id": "SCP-4560",
@@ -58,7 +62,14 @@
   "author": "Jacob Conwell",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4560",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4560/SCP4560.jpg",
+    "cap": "SCP-4560 감염의 말기에 이르렀다고 생각되는 최초의 환자."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4563": {
   "id": "SCP-4563",
@@ -84,7 +95,9 @@
   "author": "Penguin6 does not match any existing user name & Ralph Lloyd",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4563",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4564": {
   "id": "SCP-4564",
@@ -108,7 +121,21 @@
   "author": "Dr Balthazaar & RJB_R",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4564",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/balths-sandbox/eel",
+    "cap": "D-4564-14를 공격하려 하는 SCP-4564-A 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "eel"
+    ]
+   ]
+  ]
  },
  "SCP-4578": {
   "id": "SCP-4578",
@@ -132,7 +159,9 @@
   "author": "daveyoufool",
   "translator": "Kkachi",
   "source": "https://scpko.wikidot.com/scp-4578",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4589": {
   "id": "SCP-4589",
@@ -156,7 +185,21 @@
   "author": "Weryllium",
   "translator": "Kkachi",
   "source": "https://scpko.wikidot.com/scp-4589",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4589/tearrifying.jpg",
+    "cap": "회수된 SCP-4589 종균"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tearrifying.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4596": {
   "id": "SCP-4596",
@@ -179,6 +222,20 @@
   "author": "Daderot",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4596",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4596/Farmhouse.jpg",
+    "cap": "SCP-4596에 있는 주택."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Farmhouse.jpg"
+    ]
+   ]
+  ]
  }
 }

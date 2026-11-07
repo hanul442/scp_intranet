@@ -39,7 +39,155 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5956",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5956/Cannon1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5956/REISNOCANNON.jpg",
+    "cap": "REISNO 대포."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "REISNOCANNON.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Cannon1.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Cannon2.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "5243.png"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "AAFD-1.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "AAFD-2.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Blank.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "NOCANNON.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Harry.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Omega1.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "AAFD-3X.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Ngo.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-5979": {
   "id": "SCP-5979",
@@ -54,7 +202,14 @@
   "author": "Marceline_Raynes",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-5979",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5979/planet",
+    "cap": "SCP-5979, 스페이스 포스 3호기가 촬영함."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5983": {
   "id": "SCP-5983",
@@ -74,7 +229,37 @@
   "author": "Rounderhouse",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5983",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5983/splosion.jpg",
+    "cap": "SCP-5983 실험 중 촬영된 이미지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "splosion.jpg"
+    ],
+    [
+     "원본",
+     "Mushroom cloud"
+    ],
+    [
+     "저작권자",
+     "California National Guard"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5987": {
   "id": "SCP-5987",
@@ -95,7 +280,28 @@
   "author": "Cerastes",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5987",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "sirenhead"
+    ],
+    [
+     "저작권자",
+     "Cerastes, Jon Parise"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5991": {
   "id": "SCP-5991",
@@ -120,7 +326,9 @@
   "author": "Westrin",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-5991",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5993": {
   "id": "SCP-5993",
@@ -147,7 +355,77 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5993",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5993/bee.jpg",
+    "cap": "SCP-5993에 속한 개체 중 하나."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5993/cleopatras-coffin.png",
+    "cap": "MDV-HIVE (\"클레오파트라의 관\")"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "bee.png"
+    ],
+    [
+     "Name",
+     "Apis mellifera carnica worker hive entrance 3"
+    ],
+    [
+     "Author",
+     "Makro Freak"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "cleopatras-coffin.png"
+    ],
+    [
+     "Name",
+     "Lenco Bearcat G2"
+    ],
+    [
+     "Author",
+     "Raymond Wambsgans"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DoTT.png"
+    ],
+    [
+     "Author",
+     "Aethris"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5994": {
   "id": "SCP-5994",
@@ -173,7 +451,63 @@
   "author": "UraniumEmpire",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-5994",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5994/VHS1f.jpg",
+    "cap": "사진 1.1. SCP-5994의 정지화상, 22:38:32 경의 배치 2A, 화면 2. 시점 3."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5994/rnavarro.jpg",
+    "cap": "레이먼드 나바로. 1996년 경."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rnavarro.jpg"
+    ],
+    [
+     "원본",
+     "Odlévání"
+    ],
+    [
+     "저작권자",
+     "Lukas Stavek"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "VHS1f.jpg"
+    ],
+    [
+     "원본",
+     "324"
+    ],
+    [
+     "저작권자",
+     "Dangerous…Dan"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5998": {
   "id": "SCP-5998",
@@ -199,7 +533,28 @@
   "author": "Cerastes",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-5998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "mary"
+    ],
+    [
+     "Author",
+     "Cerastes"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-5999": {
   "id": "SCP-5999",
@@ -225,6 +580,463 @@
   "author": "Shaggydredlocks / VolgunStrife / Woedenaz / Modern_Erasmus / TheeSherm",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "0.png, 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Candles On Seven"
+    ],
+    [
+     "저작권자",
+     "lbrownstone"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dollface.png"
+    ],
+    [
+     "원본",
+     "3000.png"
+    ],
+    [
+     "저작권자",
+     "Cyantreuse"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Foundation Wiki"
+    ],
+    [
+     "원본",
+     "A pustule.jpg"
+    ],
+    [
+     "저작권자",
+     "Saurabh R. Patil"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Cutaneous findings in systemic sarcoidosis.JPEG"
+    ],
+    [
+     "저작권자",
+     "Nowack et al."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "firm up bat wings"
+    ],
+    [
+     "저작권자",
+     "Kendra Goering"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Necrotizing fasciitis left leg.JPEG"
+    ],
+    [
+     "저작권자",
+     "Piotr Smuszkiewicz, Iwona Trojanowska, & Hanna Tomczak"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Screw Loose"
+    ],
+    [
+     "저작권자",
+     "Steve Jurvetson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "wrinkled dough skin"
+    ],
+    [
+     "저작권자",
+     "foam"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "freedom.mp4"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Breaking Glass"
+    ],
+    [
+     "저작권자",
+     "ngruber"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/ngruber/sounds/204777"
+    ],
+    [
+     "원본",
+     "Crowd Screaming, A.wav"
+    ],
+    [
+     "저작권자",
+     "InspectorJ"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/inspectorj/sounds/421852"
+    ],
+    [
+     "원본",
+     "scream14.mp3"
+    ],
+    [
+     "저작권자",
+     "Grez1"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/grez1/sounds/485802"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "0.png, 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Candles On Seven"
+    ],
+    [
+     "저작권자",
+     "lbrownstone"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dollface.png"
+    ],
+    [
+     "원본",
+     "3000.png"
+    ],
+    [
+     "저작권자",
+     "Cyantreuse"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "A pustule.jpg"
+    ],
+    [
+     "저작권자",
+     "Saurabh R. Patil"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Cutaneous findings in systemic sarcoidosis.JPEG"
+    ],
+    [
+     "저작권자",
+     "Nowack et al."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "firm up bat wings"
+    ],
+    [
+     "저작권자",
+     "Kendra Goering"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Necrotizing fasciitis left leg.JPEG"
+    ],
+    [
+     "저작권자",
+     "Piotr Smuszkiewicz, Iwona Trojanowska, & Hanna Tomczak"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Screw Loose"
+    ],
+    [
+     "저작권자",
+     "Steve Jurvetson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "wrinkled dough skin"
+    ],
+    [
+     "저작권자",
+     "foam"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fireflysung-webfont.woff, fireflysung-webfont.woff2, main.js, main.min.css, mersenne-twister.js, modernizr-custom.js, normalize.min.css, petme-webfont.woff, petme-webfont.woff2, pixel-flow.cjs.js, pix"
+    ],
+    [
+     "저작권자",
+     "Woedenaz"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "freedom-amber.mp4, freedom-amber-shorter.mp4, freedom-amber-shorter.webm, freedom-amber.webm, freedom-amber.webm.xmp"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Breaking Glass"
+    ],
+    [
+     "저작권자",
+     "ngruber"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/ngruber/sounds/204777"
+    ],
+    [
+     "원본",
+     "Crowd Screaming, A.wav"
+    ],
+    [
+     "저작권자",
+     "InspectorJ"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/inspectorj/sounds/421852"
+    ],
+    [
+     "원본",
+     "scream14.mp3"
+    ],
+    [
+     "저작권자",
+     "Grez1"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://freesound.org/people/grez1/sounds/485802"
+    ]
+   ]
+  ]
  }
 }

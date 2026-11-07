@@ -26,7 +26,49 @@
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-2000",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "데우스 엑스 마키나"
+  "nickname": "데우스 엑스 마키나",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2000/SCP-2000-2.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Remember_Us.jpg"
+    ],
+    [
+     "저작권자",
+     "HammerMaiden"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Desolate track on Lealholm moor - geograph.org.uk - 94020.jpg"
+    ],
+    [
+     "저작권자",
+     "Colin Grice"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2001": {
   "id": "SCP-2001",
@@ -48,7 +90,37 @@
   "author": "Bluedanoob",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2001",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2001/rocket",
+    "cap": "사건 2001-19██-1 당시 정지 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rocket"
+    ],
+    [
+     "원본 제목",
+     "SM-3 launch to destroy the NRO-L 21 satellite.jpg"
+    ],
+    [
+     "저작권자",
+     "저자 미상"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2002": {
   "id": "SCP-2002",
@@ -74,7 +146,41 @@
   "author": "Crayne",
   "translator": "Cocoonist",
   "source": "https://scpko.wikidot.com/scp-2002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2002/SCP-2000_wreckage.png",
+    "cap": "사우디아라비아의 인원이 SCP-2002의 추락 지점에서 잔해를 수습하고 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2002/GOC_screenshot_KTE0481.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-2000_wreckage.png"
+    ],
+    [
+     "원본 제목",
+     "Debris-star48 3.jpg"
+    ],
+    [
+     "저작권자",
+     "NASA"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2004": {
   "id": "SCP-2004",
@@ -97,7 +203,33 @@
   "author": "SnakeoilSage",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-2004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2004/Molecule.png",
+    "cap": "밈이 제거된 L-2004 샘플. 기호는 물 분자로 판명되었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Molecule.png"
+    ],
+    [
+     "저작권자",
+     "SnakeoilSage"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2006": {
   "id": "SCP-2006",
@@ -120,7 +252,37 @@
   "author": "weizhong",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2006",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2006/SCP%20Ro-Man.jpg",
+    "cap": "《로봇 몬스터》의 한 장면 (웨이드 윌리엄스 제공)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP Ro-Man.jpg"
+    ],
+    [
+     "원본 제목",
+     "Robot Monster"
+    ],
+    [
+     "저작권자",
+     "Phil Tucker"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2007": {
   "id": "SCP-2007",
@@ -143,7 +305,14 @@
   "author": "GrandEnder",
   "translator": "izenkel",
   "source": "https://scpko.wikidot.com/scp-2007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2007/scp-2007.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2008": {
   "id": "SCP-2008",
@@ -165,7 +334,9 @@
   "author": "Doctor Cimmerian & The Great Hippo",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2008",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2009": {
   "id": "SCP-2009",
@@ -192,7 +363,71 @@
   "author": "Gaffsey",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2009/Mold.jpg",
+    "cap": "이전에 D-998120-W였던, SCP-2009-01의 한 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2009/Stachy11.jpg",
+    "cap": "SCP-2009-02"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Mold.jpg"
+    ],
+    [
+     "저작권자",
+     "Gaffsey"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "User DeryckChan-df300.tif"
+    ],
+    [
+     "저작권자",
+     "Jelly Helm"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "[Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Stachy11.jpg"
+    ],
+    [
+     "저작권자",
+     "Brendon Rawlings"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2010": {
   "id": "SCP-2010",
@@ -215,7 +450,9 @@
   "author": "Devereaux",
   "translator": "Jaytt",
   "source": "https://scpko.wikidot.com/scp-2010",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2013": {
   "id": "SCP-2013",
@@ -236,7 +473,9 @@
   "author": "Ihp",
   "translator": "Catsi",
   "source": "https://scpko.wikidot.com/scp-2013",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2014": {
   "id": "SCP-2014",
@@ -260,7 +499,9 @@
   "author": "DeviantDharma",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2014",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2015": {
   "id": "SCP-2015",
@@ -281,7 +522,9 @@
   "author": "DeviantDharma",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-2015",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2019": {
   "id": "SCP-2019",
@@ -303,7 +546,9 @@
   "author": "DeviantDharma",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2019",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2020": {
   "id": "SCP-2020",
@@ -325,7 +570,9 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2020",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2021": {
   "id": "SCP-2021",
@@ -346,7 +593,9 @@
   "author": "AndarielHalo",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-2021",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2022": {
   "id": "SCP-2022",
@@ -372,7 +621,89 @@
   "author": "Bucell",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2022/VaulotDyevre_RogetTator_BoraBora2.jpg",
+    "cap": "SCP-2022 \"보라보라®\"."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2022/VaulotDyevre_RogetTator_BoraBora6.jpg",
+    "cap": "SCP-2022가 공급된 약국. 프랑스 ████. 20██년 07월 23일"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2022/VaulotDyevre_RogetTator_BoraBora1.jpg",
+    "cap": "SCP-2022의 상표들."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "VaulotDyevre_RogetTator_BoraBora2.jpg"
+    ],
+    [
+     "원본 제목",
+     "BoraBora"
+    ],
+    [
+     "저작권자",
+     "Quentin Vaulot and Goliath Dyevre"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "VaulotDyevre_RogetTator_BoraBora6.jpg"
+    ],
+    [
+     "원본 제목",
+     "BoraBora"
+    ],
+    [
+     "저작권자",
+     "Quentin Vaulot and Goliath Dyevre"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "VaulotDyevre_RogetTator_BoraBora1.jpg"
+    ],
+    [
+     "원본 제목",
+     "BoraBora"
+    ],
+    [
+     "저작권자",
+     "Quentin Vaulot and Goliath Dyevre"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2023": {
   "id": "SCP-2023",
@@ -396,7 +727,9 @@
   "author": "Zyn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2023",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2024": {
   "id": "SCP-2024",
@@ -419,7 +752,9 @@
   "author": "DrBerggren",
   "translator": "Cavern dweller",
   "source": "https://scpko.wikidot.com/scp-2024",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2026": {
   "id": "SCP-2026",
@@ -441,7 +776,9 @@
   "author": "DeviantDharma",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2026",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2028": {
   "id": "SCP-2028",
@@ -463,7 +800,9 @@
   "author": "DeviantDharma",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-2028",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2030": {
   "id": "SCP-2030",
@@ -484,7 +823,55 @@
   "author": "PeppersGhost",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2030",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2030/SCP-2030-1.jpg",
+    "cap": "유명한 온디맨드식 스트리밍 동영상 사이트에 나타난 SCP-2030"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2030/SCP-2030-2.jpg",
+    "cap": "몰래 카메라에서 자신의 모습을 드러내는 SCP-2030-1의 정지영상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "LaughIsFun3.jpg"
+    ],
+    [
+     "저작권자",
+     "peppersghost"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Laugh.jpg"
+    ],
+    [
+     "저작권자",
+     "peppersghost"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2031": {
   "id": "SCP-2031",
@@ -506,7 +893,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2036": {
   "id": "SCP-2036",
@@ -529,7 +918,33 @@
   "author": "Alchemist Toxias",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2036",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2036/Rabbit.jpg",
+    "cap": "격리되기 전의 SCP-2036-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Rabbit.jpg"
+    ],
+    [
+     "저작권자",
+     "Norrie Adamson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2037": {
   "id": "SCP-2037",
@@ -551,7 +966,37 @@
   "author": "Agent E",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2037",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2037/15_for_Dinner.jpg",
+    "cap": "격리되기 전의 SCP-2037 야생 개체들"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "15_for_Dinner.jpg"
+    ],
+    [
+     "원본 제목",
+     "15 for Dinner.jpg"
+    ],
+    [
+     "저작권자",
+     "Jessie Eastland"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2039": {
   "id": "SCP-2039",
@@ -576,7 +1021,89 @@
   "author": "dierubikdie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2039",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2039/valley.jpg",
+    "cap": "2003년 ██월 ██일 활성화 직후의 뒷일"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2039/mabel.png",
+    "cap": "-P33과 함께있는 SCP-2039-P01 \"마벨\", 1907년경"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2039/blaine.png",
+    "cap": "SCP-2039-W01 \"블라인\", 1918년경"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "valley.jpg"
+    ],
+    [
+     "원본 제목",
+     "Elk Complex Fire Boise National Forest.jpg"
+    ],
+    [
+     "저작권자",
+     "U.S. Department of Agriculture"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "mabel.png"
+    ],
+    [
+     "원본 제목",
+     "Elderly woman in a rocking chair peeling apple with young girl standing in front of her LCCN2004676230.jpg"
+    ],
+    [
+     "저작권자",
+     "Brownell, Elizabeth B"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "blaine.png"
+    ],
+    [
+     "원본 제목",
+     "StateLibQld 2 125459 Man posing with a book in a cane chair, 1910-1920.jpg"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2040": {
   "id": "SCP-2040",
@@ -598,7 +1125,33 @@
   "author": "Nighkos",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2040",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2040/Robot.JPG",
+    "cap": "SCP-2040"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Robot.JPG"
+    ],
+    [
+     "저작권자",
+     "Nighkos"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2045": {
   "id": "SCP-2045",
@@ -621,7 +1174,9 @@
   "author": "Jekeled",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2045",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2046": {
   "id": "SCP-2046",
@@ -646,7 +1201,49 @@
   "author": "KingGolem",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2046",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2046/Mendeleev%27s%20Nightmare%20-%20Resized.png",
+    "cap": "효과의 진행 정도를 확인하기 위해 본 보고서를 작성하고 있는 현재 SCP-2046의 상태를 복제한 것. 밈 노출을 방지하기 위해 변칙적인 원소들에는 먹칠을 가하였다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Mendeleev's Nightmare - Resized.png"
+    ],
+    [
+     "저작권자",
+     "KingGolem"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Periodic-table.jpg"
+    ],
+    [
+     "저작권자",
+     "LeVanHan"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2047": {
   "id": "SCP-2047",
@@ -671,7 +1268,33 @@
   "author": "Doctor Cimmerian ＆ InsipidParoxysm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2047",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2047/theta.png",
+    "cap": "태양계와 세타-c계를 비교한 것."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "theta.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2048": {
   "id": "SCP-2048",
@@ -692,7 +1315,9 @@
   "author": "Drewbear",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2048",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2049": {
   "id": "SCP-2049",
@@ -716,6 +1341,8 @@
   "author": "InsipidParoxysm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2049",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

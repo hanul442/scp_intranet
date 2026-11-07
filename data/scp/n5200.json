@@ -23,7 +23,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5212",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5212/scprabbit.jpg",
+    "cap": "SCP-5212로 추정되는 사진. 피영향자의 유품 중에서 회수했다. SCP-5212의 사진은 치명적 위협을 일으키지 않는다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scprabbit.jpg"
+    ],
+    [
+     "원본",
+     "white rabbit"
+    ],
+    [
+     "저작권자",
+     "Dan Davison"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/22541812@N03/5066012858"
+    ]
+   ]
+  ]
  },
  "SCP-5218": {
   "id": "SCP-5218",
@@ -45,7 +75,9 @@
   "author": "Rounderhouse",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5218",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5228": {
   "id": "SCP-5228",
@@ -68,7 +100,14 @@
   "author": "Nickthebrick1",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5228",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5228/Pizza_Close.jpg",
+    "cap": "클로즈업한 SCP-5228-A"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5239": {
   "id": "SCP-5239",
@@ -91,7 +130,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5239",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5241": {
   "id": "SCP-5241",
@@ -121,7 +162,71 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5241",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5241/Necker_cube.jpg",
+    "cap": "SCP-5241. 항밈적 성질에 주목."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5241/text1.png",
+    "cap": "SCP-5241에 새겨진 내용을 디지털 형식으로 재구성한 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5241/rule90.png",
+    "cap": "GoI-004C."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/church-of-the-broken-god-hub/SPMax.png",
+    "cap": "GoI-004C."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Necker_cube.jpg"
+    ],
+    [
+     "원본",
+     "Necker cube.svg"
+    ],
+    [
+     "저작권자",
+     "BenFrantzDale"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Necker_cube.svg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "rule90.png"
+    ],
+    [
+     "원본",
+     "R090 rand 0.png"
+    ],
+    [
+     "저작권자",
+     "Eouw0o83hf"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:R090_rand_0.png"
+    ]
+   ]
+  ]
  },
  "SCP-5242": {
   "id": "SCP-5242",
@@ -144,7 +249,37 @@
   "author": "Placeholder McD",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-5242",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Volatility",
+    "cap": "'변동'을 나타내는 기호식별자, SCP-정수의 원래 위험 등급에서 추상화된 모양."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Rubiks_revenge_scrambled.jpg"
+    ],
+    [
+     "원본",
+     "Rubiks revenge scrambled.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Rubiks_revenge_scrambled.jpg"
+    ],
+    [
+     "저작권자",
+     "Mike Gonzalez"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-5243": {
   "id": "SCP-5243",
@@ -173,6 +308,358 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5243",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/AAFD-1-2.jpg",
+    "cap": "2020년 9월 8일, 모노크롬 카메라로 촬영한 비전저감시설Acroamatic Abatement Facility AAF-D"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/AAFD-2.jpg",
+    "cap": "2012년 9월 8일, 비전저감시설 AAF-D의 보안 카메라로 촬영된 정지 화상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/Olmo.jpg",
+    "cap": "베르나베 델 올모 박사의 유해 (일부)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/Sampi.png",
+    "cap": "PTF 삼피-5243 (\"9월에 만나자\")"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/AAFD-3.jpg",
+    "cap": "2007년 9월 8일, 비전저감시설 AAF-D."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5243/Adrijan.jpg",
+    "cap": "아드리얀 즐라타 박사의 유해 (일부)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "AAFD-1-2.jpg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Allagash Brewery pipes"
+    ],
+    [
+     "저작권자",
+     "Douglas Muth"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Big Pipes at Stanford's New Central Energy Facility"
+    ],
+    [
+     "저작권자",
+     "Steve Jurvetson"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Piped Dreams"
+    ],
+    [
+     "저작권자",
+     "shando."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "smoke"
+    ],
+    [
+     "저작권자",
+     "mason bryant"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Smoke 5"
+    ],
+    [
+     "저작권자",
+     "Andrew Magill"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Tarpon Springs Reverse Osmosis Water Treatment Plant"
+    ],
+    [
+     "저작권자",
+     "Florida Water Daily"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Twin Spin"
+    ],
+    [
+     "저작권자",
+     "darkday"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "AAFD-2.jpg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Heatpipe tunnel copenhagen 2009.jpg"
+    ],
+    [
+     "저작권자",
+     "Bill Ebbesen"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Fireworks"
+    ],
+    [
+     "저작권자",
+     "Lee Haywood"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Fireworks"
+    ],
+    [
+     "저작권자",
+     "Neil Barnwell"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Fireworks"
+    ],
+    [
+     "저작권자",
+     "Nigel Howe"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "Fireworks in Beijing China 7"
+    ],
+    [
+     "저작권자",
+     "weirdchina"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "AAFD-3.jpg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Pipes"
+    ],
+    [
+     "저작권자",
+     "flattop341"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Adrijan.jpg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Lemon and Lime"
+    ],
+    [
+     "저작권자",
+     "William Warby"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Olmo.jpg"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Blue Mosaic Bathroom Tiles"
+    ],
+    [
+     "저작권자",
+     "William Warby"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sampi.png"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

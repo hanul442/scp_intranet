@@ -21,7 +21,55 @@
   "author": "Dr Leonerd",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6204",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6204/444px-Emperor_Penguin_Manchot_empereur.jpg",
+    "cap": "격리 이전의 SCP-6204."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "444px-Emperor_Penguin_Manchot_empereur.jpg"
+    ],
+    [
+     "Name",
+     "Emperor Penguin Manchot empereur.jpg"
+    ],
+    [
+     "Author",
+     "Samuel Blanc."
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SapientosaurusActivity.png"
+    ],
+    [
+     "Author",
+     "Rick Swartz"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6206": {
   "id": "SCP-6206",
@@ -43,7 +91,63 @@
   "author": "GreenWolf",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6206",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6206/GeorgeBush.png",
+    "cap": "2001년 월드시리즈 이후 SCP-2206 우주의 베이스볼 커미셔너인 SCP-6206이 패배팀을 처형하라는 신호를 보내고 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6206/GeorgeBush2.jpg",
+    "cap": "POI-1776-43의 공식 초상화."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "GeorgeBush.jpg"
+    ],
+    [
+     "원본",
+     "George W. Bush about to throw out 1st pitch at Game 3 of 2001 World Series.jpg"
+    ],
+    [
+     "저작권자",
+     "Eric Draper"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "GeorgeBush2.jpg"
+    ],
+    [
+     "원본",
+     "President Bush poses for his official portrait in the Roosevelt Room (blue tie).tif"
+    ],
+    [
+     "저작권자",
+     "Eric Draper"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-6208": {
   "id": "SCP-6208",
@@ -67,7 +171,33 @@
   "author": "Elunerazim",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6208",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6208/empty-room.webp",
+    "cap": "비현실학부장이자 SCP-6208 개체인 존 도 이사관의 사무실."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Empty room of office.jpg"
+    ],
+    [
+     "저작권자",
+     "Np6824"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6222": {
   "id": "SCP-6222",
@@ -91,7 +221,121 @@
   "author": "Aftokrator",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-6222",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6222/fishprison.png",
+    "cap": "SCP-6222의 입구."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6222/fishcorridor.jpg",
+    "cap": "SCP-6222 내부 복도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6222/shrimpcell.jpg",
+    "cap": "SCP-6222-1 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6222/gouramicell.jpg",
+    "cap": "SCP-6222-1 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6222/isopodcell.jpg",
+    "cap": "SCP-6222-1 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "fishcorridor.jpg"
+    ],
+    [
+     "Author",
+     "Brian Stansberry"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Fort-moultrie-corridor-sc3.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fishprison.png"
+    ],
+    [
+     "Author",
+     "Man vyi"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Guernsey_2011_034.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "gouramicell.jpg"
+    ],
+    [
+     "Author",
+     "Ks.mini"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Aquarium_fish21.JPG"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "isopodcell.jpg"
+    ],
+    [
+     "Author",
+     "Ray Swi-hymn from Sijhih-Taipei, Taiwan"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:20181106_Nixe_5870_(48435497707).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "shrimpcell.jpg"
+    ],
+    [
+     "Author",
+     "Ragnhild&Neil Crawford from Sweden"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Bezier_fiskmarknad-9637_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6224": {
   "id": "SCP-6224",
@@ -116,7 +360,63 @@
   "author": "J Dune",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-6224",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6224/oscar.png",
+    "cap": "."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Asuka.jpg"
+    ],
+    [
+     "Name",
+     "Neon Genesis Evangelion"
+    ],
+    [
+     "Author",
+     "Antonio Tajuelo"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Osca.jpg"
+    ],
+    [
+     "Name",
+     "Evangelion World 07"
+    ],
+    [
+     "Author",
+     "Lifetime Travelmates"
+    ],
+    [
+     "License",
+     "CC-BY-SA-2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-6238": {
   "id": "SCP-6238",
@@ -136,7 +436,9 @@
   "author": "UncannyClown276",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6238",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6239": {
   "id": "SCP-6239",
@@ -160,7 +462,9 @@
   "author": "Tanhony",
   "translator": "Practical Goo",
   "source": "https://scpko.wikidot.com/scp-6239",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6246": {
   "id": "SCP-6246",
@@ -183,7 +487,37 @@
   "author": "Jack Waltz",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6246",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6246/sunset.jpg",
+    "cap": "모스의 바디캠에 녹화된 한 장면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "sunset.jpg"
+    ],
+    [
+     "Name",
+     "File:Sunset_and_Tall_Grass_-_panoramio.jpg"
+    ],
+    [
+     "Author",
+     "Shane Smith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6247": {
   "id": "SCP-6247",
@@ -204,6 +538,8 @@
   "author": "Fishish",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6247",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

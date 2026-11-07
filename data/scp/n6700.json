@@ -19,7 +19,14 @@
   "author": "rattles",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-6704",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6704/6704.jpg",
+    "cap": "2021년에 있었던 제19기지의 독립기념일 불꽃놀이 장면. K.P. 크로우K.P. Crow 제공."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6733": {
   "id": "SCP-6733",
@@ -44,7 +51,33 @@
   "author": "Dysadron",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-6733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6733/Video.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Video.jpg"
+    ],
+    [
+     "Author",
+     "Valdevia"
+    ],
+    [
+     "License",
+     "CC-BY-SA"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/valdevia"
+    ]
+   ]
+  ]
  },
  "SCP-6740": {
   "id": "SCP-6740",
@@ -66,7 +99,179 @@
   "author": "djkaktus",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6740",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6740/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6740/doorway.jpg",
+    "cap": "SCP-6740의 입구."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6740/doorway2.jpg",
+    "cap": "SCP-6740의 입구. 변칙개체 안에서 본 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6740/guardian.jpg",
+    "cap": "영묘 입구의 음각된 대좌 위에 있는 조각상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "doorway.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Stanley Kubrick's office"
+    ],
+    [
+     "저작권자",
+     "James Mitchell"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "The Black Door (227031445).jpeg"
+    ],
+    [
+     "저작권자",
+     "Raúl Ponce"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "doorway2.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Mausoleum"
+    ],
+    [
+     "저작권자",
+     "Bart Everson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "원본",
+     "The Black Door (227031445).jpeg"
+    ],
+    [
+     "저작권자",
+     "Raúl Ponce"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "guardian.jpg"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Benevolent Protective Order of Elks"
+    ],
+    [
+     "저작권자",
+     "A Disappearing Act"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "warning.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6742": {
   "id": "SCP-6742",
@@ -85,7 +290,9 @@
   "author": "Fishish",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-6742",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6747": {
   "id": "SCP-6747",
@@ -121,6 +328,29 @@
   "author": "Liryn, Placeholder McD, Ralliston and stephlynch",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6747",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/admonition/admo-6747-squarethumb.png",
+    "cap": "훈계"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6747/stfmem.png",
+    "cap": "STF-𐤌 (\"이야기꾼\")"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6747/admo-6747-typology_ko.png",
+    "cap": "다양한 서사차원적 위상. 기능성의 규모가 큰 것에서부터 작은 것 순서로 배열됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6747/admo-6747-heros-journey_ko.png",
+    "cap": "α의 일반적인 추상화. 메타픽션적인 도구로 사용된다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6747/arche2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

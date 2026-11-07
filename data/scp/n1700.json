@@ -22,7 +22,33 @@
   "author": "Weryllium",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1701",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1701/ez.JPG",
+    "cap": "회수된 SCP-1701."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ez.JPG"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Don Williams"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1710": {
   "id": "SCP-1710",
@@ -45,7 +71,33 @@
   "author": "Dmatix",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1710",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1710/Tree-new.jpg",
+    "cap": "SCP-1710-1 (왼쪽) 과 SCP-1710-2"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Tree-new.jpg"
+    ],
+    [
+     "출처",
+     "https://www.geograph.org.uk/photo/79861"
+    ],
+    [
+     "제작자",
+     "John Winfield, Aethris 수정"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1712": {
   "id": "SCP-1712",
@@ -69,7 +121,33 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1712",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1712/lookoutbelow2",
+    "cap": "리처드 보이드(SCP-1712-A)의 알려진 마지막 사진, 대기권 바깥으로 벗어나기 1시간 전에 촬영함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "lookoutbelow2.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "sebi ryffel"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1714": {
   "id": "SCP-1714",
@@ -90,7 +168,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1714",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1715": {
   "id": "SCP-1715",
@@ -115,7 +195,33 @@
   "author": "ObserverSeptember",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1715",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1715/1715.jpg",
+    "cap": "몇몇 사례에서 SCP-1715가 사용한 프로필 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1715.jpg"
+    ],
+    [
+     "출처",
+     "Pxhere"
+    ],
+    [
+     "제작자",
+     "N/A"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1719": {
   "id": "SCP-1719",
@@ -140,7 +246,14 @@
   "author": "eric_h",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1719",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1719/lens.jpg",
+    "cap": "SCP-1719"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1725": {
   "id": "SCP-1725",
@@ -161,7 +274,9 @@
   "author": "RJB_R",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1725",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1726": {
   "id": "SCP-1726",
@@ -189,7 +304,9 @@
   "author": "Djoric : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1726",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1727": {
   "id": "SCP-1727",
@@ -210,7 +327,33 @@
   "author": "RJB_R",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-1727",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1727/1727-new.jpg",
+    "cap": "폐쇄된 공간에서의 수원 실험 중에 SCP-1727이 발사한 차량."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1727-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Diego Delso"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1728": {
   "id": "SCP-1728",
@@ -232,7 +375,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1728",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1730": {
   "id": "SCP-1730",
@@ -256,7 +401,289 @@
   "translator": "Bunting ＆ Aiken Drum ＆ Gua1ngHa3i ＆ yankarel ＆ Nareum ＆ Faud",
   "source": "https://scpko.wikidot.com/scp-1730",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "제13기지에 무슨 일이 일어났나?"
+  "nickname": "제13기지에 무슨 일이 일어났나?",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/warehouse-new.jpg",
+    "cap": "SCP-1730의 주 사무 건물. 지하층으로 통하는 주요 출입구는 이 건물 지하에 있다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/location.png",
+    "cap": "미국 텍사스주 빅 밴드 랜치 주립공원."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/power.jpg",
+    "cap": "SCP-1730의 발전소."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/bleed.jpg",
+    "cap": "지하 3층으로 내려가는 남서쪽 계단통에 쓰여 있는 메시지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/exploration.jpg",
+    "cap": "D12-5의 견착식 카메라에서 찍힌 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/camera.jpg",
+    "cap": "fileserv:/S:/1730/exploration/drone139.jpg"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/writing.jpg",
+    "cap": "fileserv:/S:/1730/exploration/drone144. 인식재해는 말소됨."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/graph.jpg",
+    "cap": "발전소 단말기에서 회수된 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1730/explo.jpg",
+    "cap": "SCP-1730의 연구 구역 입구."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1730warning.png"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bleed.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "camera.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "classified.png"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "explo.jpg"
+    ],
+    [
+     "Name",
+     "Old South Fremantle Power Station (6916665231).jpg"
+    ],
+    [
+     "제작자",
+     "Aaron Meads"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "exploration.jpg"
+    ],
+    [
+     "Name",
+     "Defense.gov photo essay 080605-F-3798Y-294.jpg"
+    ],
+    [
+     "제작자",
+     "Tech Sgt. Cohen A. Young"
+    ],
+    [
+     "라이센스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "graph.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "power.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "The Old Ipswich Power Station 1984 - geograph.org.uk - 292440.jpg"
+    ],
+    [
+     "제작자",
+     "Keith Evans"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SOS.pm3"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "warehouse.png"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "South Fremantle Power Station.jpg"
+    ],
+    [
+     "제작자",
+     "Nachoman-au"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "writing.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1730"
+    ]
+   ]
+  ]
  },
  "SCP-1731": {
   "id": "SCP-1731",
@@ -278,7 +705,9 @@
   "author": "azzleflux : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1731",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1733": {
   "id": "SCP-1733",
@@ -299,7 +728,29 @@
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1733",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "시즌 개막전"
+  "nickname": "시즌 개막전",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1733/1733-new.jpg",
+    "cap": "1733-007 재생본의 한 프레임."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1733-new.jpg"
+    ],
+    [
+     "제작자",
+     "ratking666"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1735": {
   "id": "SCP-1735",
@@ -319,7 +770,9 @@
   "author": "faminepulse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1735",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1739": {
   "id": "SCP-1739",
@@ -341,6 +794,8 @@
   "author": "Chubert",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-1739",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

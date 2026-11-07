@@ -18,7 +18,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4455",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4456": {
   "id": "SCP-4456",
@@ -46,7 +48,32 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-4456",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/scp-4456/I%20ship%20it"
+    ],
+    [
+     "Name",
+     "DSC08443 - El Galeón - THE END"
+    ],
+    [
+     "Author",
+     "Dennis Jarvis"
+    ],
+    [
+     "License",
+     "CC-by-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/22490717@N02/36286967086/"
+    ]
+   ]
+  ]
  },
  "SCP-4464": {
   "id": "SCP-4464",
@@ -70,7 +97,21 @@
   "author": "Mortos",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-4464",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4464/Leonberger_male.jpg",
+    "cap": "비변칙적인 레온베르거 품종의 예시. 시각적 참고 자료로서 첨부."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Leonberger_male.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4465": {
   "id": "SCP-4465",
@@ -90,7 +131,9 @@
   "author": "DarkStuff",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4465",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4469": {
   "id": "SCP-4469",
@@ -112,7 +155,21 @@
   "author": "Airman 1st Class Eboni Reece",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4469",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4469/shovel.jpg",
+    "cap": "SCP-4469"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "shovel.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4485": {
   "id": "SCP-4485",
@@ -139,7 +196,70 @@
   "author": "Woedenaz",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4485",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "LHOOQ.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "location-scp-4485.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Scranton-JatesEngine.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "watchinglistening.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4494": {
   "id": "SCP-4494",
@@ -164,7 +284,14 @@
   "author": "Mortos",
   "translator": "Aiken Drum & quilt",
   "source": "https://scpko.wikidot.com/scp-4494",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4494/spooky2.jpg",
+    "cap": "사라지기 직전의 SCP-4494."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4495": {
   "id": "SCP-4495",
@@ -194,7 +321,14 @@
   "author": "UraniumEmpire",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4495",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4495/30to50.PNG",
+    "cap": "폐기 준비 중인 SCP-4495-1."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4498": {
   "id": "SCP-4498",
@@ -227,6 +361,54 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-4498",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4498/header.png",
+    "cap": "기동특무부대 레아-8 요원들이 제53기지에 접근하는 중이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4498/location.png",
+    "cap": "펜실베이니아 주 피츠버그 인근의 제53기지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "header.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "location.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

@@ -20,7 +20,14 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8356",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8356/wrongway_horizontal.png",
+    "cap": "SCP-8356 구조의 도해"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8357": {
   "id": "SCP-8357",
@@ -39,7 +46,14 @@
   "author": "IndustryStandard",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-8357",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8357/Head.jpg",
+    "cap": "보관 중인 SCP-8357"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8372": {
   "id": "SCP-8372",
@@ -65,7 +79,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8372",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8376": {
   "id": "SCP-8376",
@@ -85,7 +101,14 @@
   "author": "mothmanUXO",
   "translator": "soypower2",
   "source": "https://scpko.wikidot.com/scp-8376",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8376/grave.png",
+    "cap": "회수된 ███████ 요양원의 일정표"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8380": {
   "id": "SCP-8380",
@@ -108,6 +131,58 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/troutmaskreplica-soggy/thumbnail.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "anthology.jpeg"
+    ],
+    [
+     "Name",
+     "Splashy New Year New Orleans"
+    ],
+    [
+     "Author",
+     "Bart Everson"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 2.0 Generic"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Splashy_New_Year_New_Orleans.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "thumbnail.png"
+    ],
+    [
+     "Name",
+     "StateLibQld 1 109508 Crowd at the swimming pool, ca. 1910"
+    ],
+    [
+     "Author",
+     "State Library of Queensland"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:StateLibQld_1_109508_Crowd_at_the_swimming_pool,_ca._1910.jpg"
+    ]
+   ]
+  ]
  }
 }

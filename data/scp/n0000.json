@@ -16,7 +16,37 @@
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-002",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "\"살아있는\" 방"
+  "nickname": "\"살아있는\" 방",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-002/800px-SCP002-new.jpg",
+    "cap": "격리 구역의 SCP-002"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "800px-SCP002-new.jpg"
+    ],
+    [
+     "원본 제목",
+     "Leather ball, N/A, two brown steel wheeled airplane stairs on snow field during daytime"
+    ],
+    [
+     "저작권자",
+     "The Metropolitan Museum of Art, N/A, N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인, CC0, CC0"
+    ],
+    [
+     "출처",
+     "Metropolitan, pxhere, peakpx"
+    ]
+   ]
+  ]
  },
  "SCP-003": {
   "id": "SCP-003",
@@ -46,7 +76,37 @@
   "author": "Xian",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-003",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-003/SCP-003a-new.jpg",
+    "cap": "SCP-003 회로의 근접 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-003a-new.jpg"
+    ],
+    [
+     "원본 제목",
+     "Microchip-24lcs52-cp-HD.jpg"
+    ],
+    [
+     "저작권자",
+     "ZeptoBars"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-004": {
   "id": "SCP-004",
@@ -69,7 +129,33 @@
   "author": "deusprogrammer",
   "translator": "QAZ135 & quilt (재번역)",
   "source": "https://scpko.wikidot.com/scp-004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-004/SCP004_door-new.jpg",
+    "cap": "SCP-004-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP004_door-new.jpg"
+    ],
+    [
+     "Author",
+     "Anonymous"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-005": {
   "id": "SCP-005",
@@ -88,7 +174,33 @@
   "author": "저자 미상",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-005",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-005/SCP-005.jpg",
+    "cap": "SCP-005의 확대 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-005.jpg"
+    ],
+    [
+     "저작권자",
+     "Brian Uhreen"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/snype451/103190389/"
+    ]
+   ]
+  ]
  },
  "SCP-006": {
   "id": "SCP-006",
@@ -110,7 +222,33 @@
   "author": "저자 불명",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-006",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-006/SCP006_stream-new.jpg",
+    "cap": "SCP-006"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "new006.jpg"
+    ],
+    [
+     "저작권자",
+     "CityToast"
+    ],
+    [
+     "라이선스",
+     "CC-BY 3.0"
+    ],
+    [
+     "출처",
+     "\"\"Ndongo Stream\"\", CC-BY-4.0"
+    ]
+   ]
+  ]
  },
  "SCP-007": {
   "id": "SCP-007",
@@ -131,7 +269,9 @@
   "author": "저자 미상",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-008": {
   "id": "SCP-008",
@@ -153,7 +293,33 @@
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-008",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "좀비 전염병"
+  "nickname": "좀비 전염병",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-008/scp-008.png",
+    "cap": "SCP-008의 3차 구조 리본 다이어그램 삽화. 1차 아미노산 서열 정보는 편집됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-008.png"
+    ],
+    [
+     "저작권자",
+     "EstrellaYoshte"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "원본 출처",
+     "Protein BLMH PDB 1cb5"
+    ]
+   ]
+  ]
  },
  "SCP-009": {
   "id": "SCP-009",
@@ -173,7 +339,29 @@
   "author": "Chameleon X",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-009/009.png",
+    "cap": "회수 이전의 SCP-009"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "009.png"
+    ],
+    [
+     "Author",
+     "S D Locke"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-010": {
   "id": "SCP-010",
@@ -194,7 +382,9 @@
   "author": "Le Blue Dude",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-010",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-011": {
   "id": "SCP-011",
@@ -216,7 +406,51 @@
   "author": "Proxtown",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-011",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-011/SCP011.jpg",
+    "cap": "SCP-011"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP011.jpg"
+    ],
+    [
+     "저작권자",
+     "nthdayoncaprica (Reddit)"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://www.reddit.com/r/SCP/comments/birndg/visited_011_yesterday/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "SCP011.jpg"
+    ],
+    [
+     "Author",
+     "nthdayoncaprica (Reddit)"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://www.reddit.com/r/SCP/comments/birndg/visited_011_yesterday/"
+    ]
+   ]
+  ]
  },
  "SCP-012": {
   "id": "SCP-012",
@@ -239,7 +473,9 @@
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-012",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "엉터리 악보"
+  "nickname": "엉터리 악보",
+  "images": [],
+  "img_credits": []
  },
  "SCP-013": {
   "id": "SCP-013",
@@ -259,7 +495,28 @@
   "author": "Dexanote",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-013",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-013updated"
+    ],
+    [
+     "저작권자",
+     "Amonost"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "Cigarette Image (퍼블릭 도메인)"
+    ]
+   ]
+  ]
  },
  "SCP-014": {
   "id": "SCP-014",
@@ -278,7 +535,21 @@
   "author": "Whitewings",
   "translator": "O-Road",
   "source": "https://scpko.wikidot.com/scp-014",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-014/3241597616_e47326fc1a-new.jpg",
+    "cap": "최초 격리 전의 SCP-014."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3241597616_e47326fc1a-new.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-015": {
   "id": "SCP-015",
@@ -297,7 +568,24 @@
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-015",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "배관 악몽"
+  "nickname": "배관 악몽",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-015New"
+    ],
+    [
+     "저작권자",
+     "Scorpion451"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-016": {
   "id": "SCP-016",
@@ -321,7 +609,9 @@
   "author": "DrClef",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-016",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-017": {
   "id": "SCP-017",
@@ -342,7 +632,33 @@
   "author": "CityToast",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-017",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-017/scp017InCaptivity.jpg",
+    "cap": "SCP-017의 자료 영상"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp017InCaptivity"
+    ],
+    [
+     "저작권자",
+     "CityToast"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "출처",
+     "자체제작"
+    ]
+   ]
+  ]
  },
  "SCP-018": {
   "id": "SCP-018",
@@ -362,7 +678,37 @@
   "author": "Epic Phail Spy",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-018",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-018/superball.jpg",
+    "cap": "SCP-018"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "superball.jpg"
+    ],
+    [
+     "원본",
+     "SB 001"
+    ],
+    [
+     "저작권자",
+     "Lenore Edman"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "[https://www.flickr.com/photos/lenore-m/441554240]"
+    ]
+   ]
+  ]
  },
  "SCP-019": {
   "id": "SCP-019",
@@ -383,7 +729,47 @@
   "author": "Sophia Light",
   "translator": "Vincent1226",
   "source": "https://scpko.wikidot.com/scp-019",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-019/scp-019-new.jpg",
+    "cap": "SCP-019"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-019/scp-019-2-new.jpg",
+    "cap": "SCP-019-2 표본"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-019-2-new.jpg"
+    ],
+    [
+     "저작권자",
+     "Elenee FishTruck, Dmitry Makeev"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sphynx kittens.jpg"
+    ],
+    [
+     "저작권자",
+     "Stephen Lea"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Sphynx_kittens.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-020": {
   "id": "SCP-020",
@@ -407,7 +793,59 @@
   "author": "Aelanna",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-020",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-020/SCP-020.jpg",
+    "cap": "민간인 주택에서 자라난 SCP-020."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-020/scp020-2.jpg",
+    "cap": "SCP-020 군체에 감염된 민간인의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp020.jpg"
+    ],
+    [
+     "저작권자",
+     "EPA"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "scp020-2.jpg"
+    ],
+    [
+     "원본",
+     "Petechial rash.JPG"
+    ],
+    [
+     "저작권자",
+     "DrFO.Jr.Tn"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA-3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Petechial_rash.JPG"
+    ]
+   ]
+  ]
  },
  "SCP-021": {
   "id": "SCP-021",
@@ -429,7 +867,33 @@
   "author": "HK-016",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-021",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-021/021-new.jpg",
+    "cap": "D-124(현재 사망함)에 있는 SCP-021"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "021-new.jpg"
+    ],
+    [
+     "저작권자",
+     "Micael Faccio"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-022": {
   "id": "SCP-022",
@@ -451,7 +915,37 @@
   "author": "DrSevere",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-022/SCP-022.png",
+    "cap": "보안 카메라로 촬영한 SCP-022의 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-022.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "원본",
+     "MORTUARY"
+    ],
+    [
+     "출처",
+     "Public Domain Q (퍼블릭 도메인)"
+    ]
+   ]
+  ]
  },
  "SCP-023": {
   "id": "SCP-023",
@@ -477,7 +971,33 @@
   "author": "Pig_catapult",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-023",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-023/scp-023.png",
+    "cap": "SCP-███의 탈주 당시 임시 보관소에 격리된 SCP-023의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-023.png"
+    ],
+    [
+     "저작권자",
+     "Escape from Site 19, JackalRelated가 이미지를 편집함."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://escapefromsite19.com/"
+    ]
+   ]
+  ]
  },
  "SCP-024": {
   "id": "SCP-024",
@@ -498,7 +1018,37 @@
   "author": "SpoonOfEvil",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-024",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-024/024.jpg",
+    "cap": "SCP-024가 위치를 숨기기 위해 5개의 복제품 사이에 숨겨져 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "024.jpg"
+    ],
+    [
+     "원본",
+     "View Over Universal Studios Backlot"
+    ],
+    [
+     "저작권자",
+     "Rob Young"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-025": {
   "id": "SCP-025",
@@ -518,7 +1068,32 @@
   "author": "thattallfellow",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-025",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "025.jpeg"
+    ],
+    [
+     "원본",
+     "Wall Cabinet Wardrobe Wood Red Brown Black Furniture Setup"
+    ],
+    [
+     "저작권자",
+     "불명"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "PxHere"
+    ]
+   ]
+  ]
  },
  "SCP-026": {
   "id": "SCP-026",
@@ -541,7 +1116,81 @@
   "author": "DrEverettMann",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-026",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-026/SCP-026-A-new.jpg",
+    "cap": "SCP-026의 중앙 현관"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-026/SCP-026-B-new.jpg",
+    "cap": "동측 동의 2층 복도"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-026/SCP-026-C-new.png",
+    "cap": "SCP-026 내부에서 발견된 대상들"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-026-A-new.jpg"
+    ],
+    [
+     "원본",
+     "Abandoned Art School 13 (6343092498).jpg"
+    ],
+    [
+     "저작권자",
+     "Tiffany Bailey"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-026-B-new.jpg"
+    ],
+    [
+     "원본",
+     "Long passage de 300 pieds du relais st francois - panoramio.jpg"
+    ],
+    [
+     "저작권자",
+     "Mario Hains"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-026-C-new.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-027": {
   "id": "SCP-027",
@@ -566,7 +1215,9 @@
   "author": "Quikngruvn",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-027",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-028": {
   "id": "SCP-028",
@@ -586,7 +1237,21 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-028",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-028/scp-028.png",
+    "cap": "격리되기 전 SCP-028"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-028.png"
+    ]
+   ]
+  ]
  },
  "SCP-029": {
   "id": "SCP-029",
@@ -609,7 +1274,9 @@
   "author": "AdminBright",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-029",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-030": {
   "id": "SCP-030",
@@ -632,7 +1299,9 @@
   "author": "Mulciber",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-030",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-031": {
   "id": "SCP-031",
@@ -661,7 +1330,37 @@
   "author": "DrClef",
   "translator": "Abyshroom",
   "source": "https://scpko.wikidot.com/scp-031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-031/scp-031rev.jpg",
+    "cap": "조선민주주의인민공화국의 평양에 위치한 류경 호텔"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-031rev.jpg"
+    ],
+    [
+     "Name",
+     "Ryugyong Hotel Pyongyang 02"
+    ],
+    [
+     "Author",
+     "Nicor"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-032": {
   "id": "SCP-032",
@@ -683,7 +1382,9 @@
   "author": "Dmatix",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-032",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-033": {
   "id": "SCP-033",
@@ -703,7 +1404,9 @@
   "author": "Mulciber",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-033",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-034": {
   "id": "SCP-034",
@@ -724,7 +1427,37 @@
   "author": "SpoonOfEvil",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-034",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-034/blade.jpg",
+    "cap": "SCP-034"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "blade.jpg"
+    ],
+    [
+     "원본",
+     "ObsidianBladeChiapaTuxtla"
+    ],
+    [
+     "저작권자",
+     "Alejandro Linares Garcia"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-035": {
   "id": "SCP-035",
@@ -748,7 +1481,33 @@
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-035",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "빙의 가면"
+  "nickname": "빙의 가면",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-035/scp--035--002-new.gif",
+    "cap": "분비물이 없는 상태의 SCP-035를 예술가가 묘사한 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-035-002-new.gif"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-036": {
   "id": "SCP-036",
@@ -769,7 +1528,63 @@
   "author": "FritzWillie",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-036",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-036/SCP-036-1.png",
+    "cap": "이륙 대기 중인 순례 비행기"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-036/SCP-036-2.jpg",
+    "cap": "순례가 시작하기 직전에 촬영한 야지디 성자(聖者)들"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-036.png"
+    ],
+    [
+     "원본 제목",
+     "Plane on Runway"
+    ],
+    [
+     "저작권자",
+     "Phil Downs"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-036-2.jpg"
+    ],
+    [
+     "원본 제목",
+     "Camel caravan Bourke from The Powerhouse Museum Collection"
+    ],
+    [
+     "저작권자",
+     "미상"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-037": {
   "id": "SCP-037",
@@ -789,7 +1604,9 @@
   "author": "Dr. Klein",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-037",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-038": {
   "id": "SCP-038",
@@ -812,7 +1629,9 @@
   "author": "작자 미상",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-038",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-039": {
   "id": "SCP-039",
@@ -835,7 +1654,21 @@
   "author": "Kothardarastrix",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-039",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-039/monkey-new.jpg",
+    "cap": "수컷 SCP-039 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "monkey-new.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-040": {
   "id": "SCP-040",
@@ -859,7 +1692,9 @@
   "author": "Kain Pathos Crow",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-040",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-041": {
   "id": "SCP-041",
@@ -880,7 +1715,9 @@
   "author": "FritzWillie",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-041",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-042": {
   "id": "SCP-042",
@@ -901,7 +1738,37 @@
   "author": "작자 미상",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-042",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-042/SCP-042-new.jpg",
+    "cap": "전기 철조망을 이용하여 서있게 한 SCP-042"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-042-new.jpg"
+    ],
+    [
+     "원본",
+     "White Horse Closeup"
+    ],
+    [
+     "저작권자",
+     "Kim Newberg"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-043": {
   "id": "SCP-043",
@@ -921,7 +1788,29 @@
   "author": "작자 미상",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-043",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-043/whitealbum-new.jpg",
+    "cap": "앨범자켓 속에 들어있는 SCP-043."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "whitealbum-new.jpg"
+    ],
+    [
+     "저작권자",
+     "Elenee FishTruck"
+    ],
+    [
+     "원본",
+     "Three White Albums"
+    ]
+   ]
+  ]
  },
  "SCP-044": {
   "id": "SCP-044",
@@ -943,7 +1832,37 @@
   "author": "FritzWillie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-044",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-044/SCP-44.jpg",
+    "cap": "\"Upshot Knolte Ford Grable\"로 명명된 실험 도중에 촬영한 SCP-044의 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-44.jpg"
+    ],
+    [
+     "원본 제목",
+     "Upshot-Knothole GRABLE.jpg"
+    ],
+    [
+     "저작권자",
+     "Department of Energy"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-045": {
   "id": "SCP-045",
@@ -966,7 +1885,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-045",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-046": {
   "id": "SCP-046",
@@ -989,7 +1910,63 @@
   "author": "Eskobar",
   "translator": "Faud",
   "source": "https://scpko.wikidot.com/scp-046",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-046/46-1.jpg",
+    "cap": "SCP-046 군락의 일부분. 주로 고사리(Pteridium) 속의 식물들로 구성되어 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-046/46-2.jpg",
+    "cap": "SCP-046의 일부분. 주로 푸른양귀비(blue corydalis)로 구성된 대형 군락이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "46-1.jpg"
+    ],
+    [
+     "원본",
+     "Bracken (Pteridium sp)"
+    ],
+    [
+     "저작권자",
+     "Evelyn Simak"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "46-2.jpg"
+    ],
+    [
+     "원본",
+     "Primula florindae yellow & Corydalis flexuosa"
+    ],
+    [
+     "저작권자",
+     "peganum"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-047": {
   "id": "SCP-047",
@@ -1009,7 +1986,51 @@
   "author": "Erku",
   "translator": "Faud",
   "source": "https://scpko.wikidot.com/scp-047",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-047/047.png",
+    "cap": "격리 실패 이후 제██기지의 보안 실험실에서 회수하기 전 SCP-047의 현장 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-047/SCP-047a.png",
+    "cap": "P-047-A에 감염된 D-15978, 감염된 지 이틀 뒤의 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-047a.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "047.png"
+    ],
+    [
+     "저작권자",
+     "S D Locke"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-048": {
   "id": "SCP-048",
@@ -1030,7 +2051,9 @@
   "author": "DrClef",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-048",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-049": {
   "id": "SCP-049",
@@ -1057,6 +2080,64 @@
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-049",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "흑사병 의사"
+  "nickname": "흑사병 의사",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-049/049_1_ntsc.png",
+    "cap": "SCP-049."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-049/049xray.jpg",
+    "cap": "발견 당시의 SCP-049."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-049/049_2_ntsc.png",
+    "cap": "발견 당시의 SCP-049."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-049-Image-2.png"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "049xray.jpg"
+    ],
+    [
+     "저작권자",
+     "Jadeitor"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-049D-Image-2.png"
+    ],
+    [
+     "저작권자",
+     "VolgunStrife"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

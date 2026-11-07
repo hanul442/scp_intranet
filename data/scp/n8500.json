@@ -16,7 +16,32 @@
   "author": "Coldsmith",
   "translator": "smalljam",
   "source": "https://scpko.wikidot.com/scp-8501",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "boxtruck"
+    ],
+    [
+     "Name",
+     "File:ISUZU ELF, 6th Gen, Hi-cab White Box truck.jpg"
+    ],
+    [
+     "Author",
+     "Mj-bird"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:ISUZU_ELF,_6th_Gen,_Hi-cab_White_Box_truck.jpg#globalusage"
+    ]
+   ]
+  ]
  },
  "SCP-8502": {
   "id": "SCP-8502",
@@ -36,7 +61,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8502",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8513": {
   "id": "SCP-8513",
@@ -57,7 +84,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8513",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8517": {
   "id": "SCP-8517",
@@ -84,7 +113,9 @@
   "author": "",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-8517",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8518": {
   "id": "SCP-8518",
@@ -108,7 +139,37 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8518",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8518/tower.jpg",
+    "cap": "예술가가 묘사한 SCP-8518"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tower.jpg"
+    ],
+    [
+     "Name",
+     "South aspect of Linton Water Tower, Rivey Hill"
+    ],
+    [
+     "Author",
+     "Rob Noble"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Geograph"
+    ]
+   ]
+  ]
  },
  "SCP-8520": {
   "id": "SCP-8520",
@@ -133,7 +194,28 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8520",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Moon.jpg"
+    ],
+    [
+     "Author",
+     "the real Kam75"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.m.wikimedia.org/wiki/File:Moon_(6118589469).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-8523": {
   "id": "SCP-8523",
@@ -154,7 +236,340 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-8523",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "photo-1441829266145-6d4bfbd38eb4.jpeg"
+    ],
+    [
+     "Name",
+     "body of water under clear blue sky"
+    ],
+    [
+     "Author",
+     "Greg Becker"
+    ],
+    [
+     "License",
+     "CC0 1.0"
+    ],
+    [
+     "Source Link",
+     "Unsplash"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "54275074108_61e974fbda_o.png"
+    ],
+    [
+     "Name",
+     "na casa do cacete"
+    ],
+    [
+     "Author",
+     "local lesbian commie"
+    ],
+    [
+     "License",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sea-3723885_1280.jpg"
+    ],
+    [
+     "Author",
+     "miguelgrafico"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "coral-2778435_1280.jpg"
+    ],
+    [
+     "Author",
+     "marcelokato"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "anemone-314284_1280.jpg"
+    ],
+    [
+     "Author",
+     "PublicDomainPictures"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pexels-iriser-1086584.jpg"
+    ],
+    [
+     "Name",
+     "Three Multicolored Jellyfishes"
+    ],
+    [
+     "Author",
+     "Irina Iriser"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pexels"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pexels-tomfisk-668790.jpg"
+    ],
+    [
+     "Name",
+     "Green Coral Reef Under Water"
+    ],
+    [
+     "Author",
+     "Tom Fisk"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pexels"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pexels-blaque-x-264516-932638.jpg"
+    ],
+    [
+     "Name",
+     "Underwater Photography of Deep Sea"
+    ],
+    [
+     "Author",
+     "Blaque X"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pexels"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pexels-ekamelev-920163.jpg"
+    ],
+    [
+     "Name",
+     "Macro Photography Of White Coral"
+    ],
+    [
+     "Author",
+     "Egor Kamelev"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pxhere"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "animal-67488_1280.jpg"
+    ],
+    [
+     "Author",
+     "WikiImages"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "jellyfish-969927_1280.jpg"
+    ],
+    [
+     "Author",
+     "Cherie1212"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "woman-2725337_1280.jpg"
+    ],
+    [
+     "Author",
+     "Engin_Akyurt"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "whale-cow-79863_1280.jpg"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "jellyfish-2566795_1280.jpg"
+    ],
+    [
+     "Author",
+     "StockSnap"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "anemone-1391724_1280.jpg"
+    ],
+    [
+     "Author",
+     "cocoparisienne"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "underwater-1175406_1280.jpg"
+    ],
+    [
+     "Author",
+     "MonicaVolpin"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "jellyfish-2884_1280.jpg"
+    ],
+    [
+     "Author",
+     "PublicDomainPictures"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-8531": {
   "id": "SCP-8531",
@@ -175,7 +590,14 @@
   "author": "Communism will win",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8531",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8531/welcometofunny.jpg",
+    "cap": "활성화된 SCP-8531."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8534": {
   "id": "SCP-8534",
@@ -194,6 +616,32 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8534",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/troutmaskreplica-house/recovered%20footage.jpg",
+    "cap": "{$caption}"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "St bona soccer game goalkeeper 1967 01.jpg"
+    ],
+    [
+     "Author",
+     "Unknown author"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:St_bona_soccer_game_goalkeeper_1967_01.jpg"
+    ]
+   ]
+  ]
  }
 }

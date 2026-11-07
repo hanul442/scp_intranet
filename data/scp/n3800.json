@@ -19,7 +19,53 @@
   "author": "Uncle Nicolini",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3803",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3803/drbellusfinal.png",
+    "cap": "SCP-3803에 들어있는 SCP-3803-1 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3803/amazon.jpg",
+    "cap": "브라질 혼도니아, 2003년 ██월 ██일"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3803/amazon1.jpg",
+    "cap": "브라질 혼도니아, 2005년 ██월 ██일"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "amazon1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "amazon.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "drbellusfinal.png"
+    ],
+    [
+     "저자",
+     "daisybellus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3803"
+    ]
+   ]
+  ]
  },
  "SCP-3808": {
   "id": "SCP-3808",
@@ -42,7 +88,14 @@
   "author": "Communism Will Win",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3808",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3808/borger.png",
+    "cap": "안전하게 볼 수 있도록 편집한 SCP-3808의 화상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3809": {
   "id": "SCP-3809",
@@ -67,7 +120,55 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3809",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/satellite2",
+    "cap": "레이크우드 교회에서 설교 중인 조엘 오스틴."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/osteen2",
+    "cap": "레이크우드 교회에서 설교 중인 조엘 오스틴."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Osteen1"
+    ],
+    [
+     "Author",
+     "Justin Brackett"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0 International"
+    ],
+    [
+     "Source",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Satellite"
+    ],
+    [
+     "Author",
+     "Atmospheric Infrared Sounder"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-3812": {
   "id": "SCP-3812",
@@ -104,7 +205,30 @@
   "author": "djkaktus",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3812",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3812/RAE.jpg",
+    "cap": "시위 진압용 장비를 착용한 경찰의 모습으로 출현한 SCP-3812와 브루닝-칸트 관측기를 통해 관측된 모습 (우측)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3812/sam.png",
+    "cap": "어릴 적 살았던 집 앞의 SCP-3812. 루이지애나 주 기록에서 발췌한 이미지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3812/unshaped.jpg",
+    "cap": "SCP-3812의 모습. 맥락 불명."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3812/unwritten.png",
+    "cap": "████년 ██월 ██일 사건 중 촬영된 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3812/unshaped2.jpg",
+    "cap": "XK 사건 이후의 SCP-3812. 적외선 영역에서 관측됨 [채색된 부분]."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3817": {
   "id": "SCP-3817",
@@ -128,7 +252,14 @@
   "author": "Mendelssohn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3817",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3817/felixmendelssohn.jpg",
+    "cap": "SCP-3817로 판명된 사진. 1850년경 촬영."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3835": {
   "id": "SCP-3835",
@@ -152,7 +283,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3835",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3841": {
   "id": "SCP-3841",
@@ -178,7 +311,9 @@
   "author": "NatVoltaic",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3841",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3847": {
   "id": "SCP-3847",
@@ -202,7 +337,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3847",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3848": {
   "id": "SCP-3848",
@@ -226,6 +363,8 @@
   "author": "Cyantreuse",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-3848",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

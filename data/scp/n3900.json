@@ -19,7 +19,9 @@
   "author": "TyGently",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3900",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3901": {
   "id": "SCP-3901",
@@ -43,7 +45,33 @@
   "author": "LurkD",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3901",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpsandbox2.wdfiles.com/local--files/lurk-s-lair-iii/Scan_20170323.png",
+    "cap": "SCP-3901의 사진 파일, 1973년 경."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Scan_20170323.png"
+    ],
+    [
+     "저자",
+     "LurkD"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3901"
+    ]
+   ]
+  ]
  },
  "SCP-3902": {
   "id": "SCP-3902",
@@ -64,7 +92,9 @@
   "author": "Lamentte",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3902",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3903": {
   "id": "SCP-3903",
@@ -85,7 +115,9 @@
   "author": "DrChandra",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-3903",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3904": {
   "id": "SCP-3904",
@@ -107,7 +139,29 @@
   "author": "minmin",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3904",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3904/meow.png",
+    "cap": "SCP-3904 4개체(세부 지정 불명)와 피험체 3904/04 (지글스)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "meow.png"
+    ],
+    [
+     "저자",
+     "Communism will winCommunism will win : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-3907": {
   "id": "SCP-3907",
@@ -128,7 +182,9 @@
   "author": "Krag-Jorgensen",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3907",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3908": {
   "id": "SCP-3908",
@@ -152,7 +208,47 @@
   "author": "JanitorCakeworth",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3908",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3908/CraigRedact.png",
+    "cap": "SCP-3908 중인 SCP-3908"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3908/Craig.png",
+    "cap": "크레이그 \"스킵\" 왓슨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "CraigRedact.png"
+    ],
+    [
+     "저자",
+     "JanitorCakeworth"
+    ],
+    [
+     "라이선스",
+     "CC By-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scp-wiki.net/scp-3908"
+    ],
+    [
+     "비고",
+     "Fissh 번역"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Craig.png"
+    ]
+   ]
+  ]
  },
  "SCP-3914": {
   "id": "SCP-3914",
@@ -176,7 +272,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3914",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3922": {
   "id": "SCP-3922",
@@ -198,7 +296,33 @@
   "author": "daveyoufool",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3922",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3922/theend.jpg",
+    "cap": "SCP-3922에 의해 대체된 영상의 엔딩 타이틀 카드."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "theend.jpg"
+    ],
+    [
+     "Author",
+     "daveyoufool"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3927": {
   "id": "SCP-3927",
@@ -221,7 +345,33 @@
   "author": "Engyles",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3927",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3927/FancyMouse.jpg",
+    "cap": "제██기지로 이송하기 전에 촬영한 SCP-3927의 사진. 같이 찍힌 풍선은 나중에 SCP-3927의 집 구석 잡동사니 속에서 발견되었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "FancyMouse.jpg"
+    ],
+    [
+     "저자",
+     "Engyles"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr (archive)"
+    ]
+   ]
+  ]
  },
  "SCP-3929": {
   "id": "SCP-3929",
@@ -243,7 +393,21 @@
   "author": "djkaktus",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-3929",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3929/pill.png",
+    "cap": "SCP-3929."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pill.png"
+    ]
+   ]
+  ]
  },
  "SCP-3930": {
   "id": "SCP-3930",
@@ -271,7 +435,95 @@
   "author": "djkaktus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3930",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3930/default.png",
+    "cap": "N/A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3930/thescreamer.png",
+    "cap": "SCP-3930."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3930/location.png",
+    "cap": "러시아연방 코미공화국 우신스크."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "default.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "logo.png"
+    ],
+    [
+     "저자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "location.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "thescreamer.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3931": {
   "id": "SCP-3931",
@@ -298,7 +550,9 @@
   "author": "SketchyTh0ughts",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-3931",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3932": {
   "id": "SCP-3932",
@@ -322,7 +576,21 @@
   "author": "stormbreath",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3932",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3932/diplomats.jpg",
+    "cap": "재단이 주최한 외교 회담 중에 찍힌 대보초제국 망명 정부의 대사들."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "diplomats.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3935": {
   "id": "SCP-3935",
@@ -351,7 +619,121 @@
   "author": "djkaktus",
   "translator": "SSOL",
   "source": "https://scpko.wikidot.com/scp-3935",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3935/school.png",
+    "cap": "살베이션 고등학교."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3935/location.png",
+    "cap": "미국 인디애나주, 살베이션"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3935/cheerleaders.png",
+    "cap": "UIU 파일에 첨부된 사진. 상세 내용 불명."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3935/figure.png",
+    "cap": "하늘에 떠 있는 미확인된 형상의 사진. UIU 보고서에서 수집됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cheerleaders.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "figure.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "humanoid.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "location.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "school.png"
+    ],
+    [
+     "Name",
+     "Wetherby High School (6th February 2013) 003.JPG"
+    ],
+    [
+     "Author",
+     "Mtaylor848"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3936": {
   "id": "SCP-3936",
@@ -371,7 +753,9 @@
   "author": "Tanhony",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3936",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3940": {
   "id": "SCP-3940",
@@ -394,7 +778,33 @@
   "author": "Modern_Erasmus",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3940",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3940/bugs.jpg",
+    "cap": "사건 3940-1의 발생 위치와 \"표적\"."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bugs.jpg"
+    ],
+    [
+     "저자",
+     "Thank You (25 Millions ) views"
+    ],
+    [
+     "라이선스",
+     "CC BY-2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-3942": {
   "id": "SCP-3942",
@@ -412,7 +822,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3942",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3949": {
   "id": "SCP-3949",
@@ -438,6 +850,8 @@
   "author": "Weryllium",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3949",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

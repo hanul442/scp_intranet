@@ -18,7 +18,9 @@
   "author": "A Random Day",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3850",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3851": {
   "id": "SCP-3851",
@@ -41,7 +43,21 @@
   "author": "Amoghamahale",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3851",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3851/3851",
+    "cap": "SCP-3851, 발견 당시"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3851"
+    ]
+   ]
+  ]
  },
  "SCP-3855": {
   "id": "SCP-3855",
@@ -65,7 +81,31 @@
   "author": "ObserverSeptember",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3855",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/observerseptember/3855.jpg",
+    "cap": "1929년 SCP-3855 입구(우측)."
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/observerseptember/3855jones.jpg",
+    "cap": "앨버트 존스(1895년-1932년경)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3855.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3855jones.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3856": {
   "id": "SCP-3856",
@@ -92,7 +132,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3856",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3864": {
   "id": "SCP-3864",
@@ -115,7 +157,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3864",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3866": {
   "id": "SCP-3866",
@@ -138,7 +182,28 @@
   "author": "Captain Kirby",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3866",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pills.jpeg"
+    ],
+    [
+     "저자",
+     "diapicard"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "maxpixel(원문 출처, 페이지 접속 불가), Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-3867": {
   "id": "SCP-3867",
@@ -163,7 +228,59 @@
   "author": "Uncle Nicolini ＆ Captain Kirby",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3867",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/frankie.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/dexter.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/sommer.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/pinto.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/dirt.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3867/medium.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "dirt.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "medium.jpg"
+    ],
+    [
+     "저자",
+     "Simon Strandgaard"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr (archive)"
+    ]
+   ]
+  ]
  },
  "SCP-3870": {
   "id": "SCP-3870",
@@ -185,7 +302,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3870",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3871": {
   "id": "SCP-3871",
@@ -213,7 +332,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3871",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3874": {
   "id": "SCP-3874",
@@ -240,7 +361,121 @@
   "author": "Uncle Nicolini",
   "translator": "hoyaa2367",
   "source": "https://scpko.wikidot.com/scp-3874",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3874/castro1.jpeg",
+    "cap": "2005년의 SCP-3874."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3874/castro2.jpg",
+    "cap": "1959년의 SCP-3874."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3874/bro.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3874/signature.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3874/castro3.jpeg",
+    "cap": "2005년 브라질에서 열린 회의에 참석한 SCP-3874-EX."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "castro1.jpeg"
+    ],
+    [
+     "저자",
+     "President of Russia"
+    ],
+    [
+     "라이선스",
+     "CC BY 4.0"
+    ],
+    [
+     "출처",
+     "http://en.kremlin.ru/events/president/news/46198"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "castro2.jpg"
+    ],
+    [
+     "저자",
+     "-"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "castro3.jpg"
+    ],
+    [
+     "저자",
+     "Antônio Milena/ABr"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0 BR"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "signature.png"
+    ],
+    [
+     "저자",
+     "Donald Rumsfeld"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bro.png"
+    ],
+    [
+     "저자",
+     "Unknown author"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "US department of Defense"
+    ]
+   ]
+  ]
  },
  "SCP-3878": {
   "id": "SCP-3878",
@@ -266,7 +501,21 @@
   "author": "Taffeta",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3878",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3878/giimbiyu.png",
+    "cap": "자주색으로 칠한 부분이 김비유어 구사자들의 거주지다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "giimbiyu.png"
+    ]
+   ]
+  ]
  },
  "SCP-3880": {
   "id": "SCP-3880",
@@ -292,7 +541,29 @@
   "author": "Rimple",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3880",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3880/chaac-screenshot.png",
+    "cap": "SCP-3880 사태 직후의 DJ 차크 라이브 방송 스크린샷. 클릭하면 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "chaac-screenshot.png"
+    ],
+    [
+     "저자",
+     "Rimple"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-3881": {
   "id": "SCP-3881",
@@ -311,7 +582,37 @@
   "author": "Petr Kratochvil",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3881",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3881/ring.png",
+    "cap": "SCP-3881"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ring.png"
+    ],
+    [
+     "저자",
+     "Petr Kratochvil"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://www.freestockphotos.biz/stockphoto/5661"
+    ],
+    [
+     "비고",
+     "Photoshopped from this image"
+    ]
+   ]
+  ]
  },
  "SCP-3883": {
   "id": "SCP-3883",
@@ -335,7 +636,33 @@
   "author": "Sly161 & Zyn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3883",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3883/smaller.jpg",
+    "cap": "습득 당시의 SCP-3883."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "smaller.jpg"
+    ],
+    [
+     "Author",
+     "Sly161"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3885": {
   "id": "SCP-3885",
@@ -360,7 +687,18 @@
   "author": "CadaverCommander",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3885",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3885/ghosttown%281%29.jpg",
+    "cap": "SCP-3885, 공중 감시 드론이 화염방사기에 무력화되고 SCP-3885-01에 의해 해체되기 직전에 촬영"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3885/explosion.JPG",
+    "cap": "SCP-3885-01이 자동차 공학을 적용하려 시도할 때 통상 생기는 결과."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3890": {
   "id": "SCP-3890",
@@ -384,7 +722,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3890",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3892": {
   "id": "SCP-3892",
@@ -406,7 +746,9 @@
   "author": "CadaverCommander",
   "translator": "trianglebacteria",
   "source": "https://scpko.wikidot.com/scp-3892",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3894": {
   "id": "SCP-3894",
@@ -428,7 +770,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3894",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3894/marduk.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3895": {
   "id": "SCP-3895",
@@ -455,6 +804,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3895",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3895/marduk.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

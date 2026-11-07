@@ -23,7 +23,37 @@
   "author": "Ampyrsand",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6254",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6254/QXHTkIP_ko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6254/wfRjUl6_ko.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Pentagon-dodecaëder in brons, 150 tot 400 NC, vindplaats- Tongeren, Leopoldwal, 1939, collectie Gallo-Romeins Museum Tongeren, 4002.jpg"
+    ],
+    [
+     "Author",
+     "None provided"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source",
+     "https://commons.wikimedia.org/wiki/File:Pentagon-dodeca%C3%ABder_in_brons,_150_tot_400_NC,_vindplaats-_Tongeren,_Leopoldwal,_1939,_collectie_Gallo-Romeins_Museum_Tongeren,_4002.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6262": {
   "id": "SCP-6262",
@@ -47,7 +77,33 @@
   "author": "Waspus",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6262",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6262/CreepyBus.jpg",
+    "cap": "SCP-6262의 현재 형태. 같은 버스 차종의 다른 차량에는 존재하지 않는 눈과 웃는 표정에 주목하라."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Creepy Bus.jpg"
+    ],
+    [
+     "Author",
+     "Minseong Kim"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-6263": {
   "id": "SCP-6263",
@@ -70,7 +126,29 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6263",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5382/Clio.png",
+    "cap": "제43기지 기록수정계"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Clio.png"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-6267": {
   "id": "SCP-6267",
@@ -90,7 +168,9 @@
   "author": "Tyumen",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-6267",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6269": {
   "id": "SCP-6269",
@@ -117,7 +197,211 @@
   "author": "DodoDevil, Fishish, GremlinGroup & JakdragonX",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6269",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/collab%3Aclaw2/ClawLogo.png",
+    "cap": "MCM"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6269/Control1.jpg",
+    "cap": "SCP-6269 통제실 D-76F-32B."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6269/Work1.jpg",
+    "cap": "DotMCM:EATM 프로토콜에 따라 인원들이 SCP-6269를 격월 조사하는 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6269/CLAW1.jpg",
+    "cap": "SCP-6269-클로."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6269/Hlogo4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6269/Evan.jpg",
+    "cap": "SCP-6269 운용원 에반 페레이라가 SCP-6269-스크린의 요소를 사용하고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Claw1.jpg"
+    ],
+    [
+     "원본",
+     "Big Mechanical Claw"
+    ],
+    [
+     "저작권자",
+     "Michael Coghlan"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/89165847@N00/22839004436"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Clawlogo.png"
+    ],
+    [
+     "원본",
+     "Big Mechanical Claw"
+    ],
+    [
+     "저작권자",
+     "Michael Coghlan + GremlinGroup"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/89165847@N00/22839004436"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Hlogo4.jpg"
+    ],
+    [
+     "원본",
+     "MCM Dept Logo"
+    ],
+    [
+     "저작권자",
+     "HarryBlank"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "this page"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "N/A"
+    ],
+    [
+     "원본",
+     "GLORIOUS"
+    ],
+    [
+     "저작권자",
+     "Calibold"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Control1.jpg"
+    ],
+    [
+     "원본",
+     "Canadian Science - TRIUMF cyclotron"
+    ],
+    [
+     "저작권자",
+     "Adam Foster"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Canadian_Science_-_TRIUMF_cyclotron_-_Flickr_-_Cargo_Cult_(4).jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Work1.jpg"
+    ],
+    [
+     "원본",
+     "GODDARD 40TH ANNIVERSARY - DPLA"
+    ],
+    [
+     "저작권자",
+     "National Aeronautics and Space Administration"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:GODDARD_40TH_ANNIVERSARY_-_DPLA_-_59704d18fcd39df4818fe965e429d088.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Evan.jpg"
+    ],
+    [
+     "원본",
+     "Sonar Technician stands watch in the sonar control room aboard USS Carney."
+    ],
+    [
+     "저작권자",
+     "Official U.S. Navy Page"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/56594044@N06/44442135022"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "mcmachine-bg.webp"
+    ],
+    [
+     "원본",
+     "Sky 68"
+    ],
+    [
+     "저작권자",
+     "Whistleswhite"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Sky_68.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6274": {
   "id": "SCP-6274",
@@ -143,7 +427,37 @@
   "author": "Rounderhouse",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6274",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6274/table.png",
+    "cap": "SCP-6274 — \"만찬\", 1934년 경"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "table.png"
+    ],
+    [
+     "원본",
+     "25 ft. dial used as banquet dining table, Free Trades Hall, Leicester (1910)"
+    ],
+    [
+     "저작권자",
+     "pellethepoet"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-6287": {
   "id": "SCP-6287",
@@ -163,7 +477,9 @@
   "author": "Dr Leonerd",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-6287",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6289": {
   "id": "SCP-6289",
@@ -185,7 +501,57 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6289",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6289/THEWIZARD",
+    "cap": "SCP-6289"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6289/COMMAND.png",
+    "cap": "SCP-6289의 커맨드 프롬프트"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6289/HUZZAH.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "THEWIZARD.png"
+    ],
+    [
+     "Name",
+     "Priest on a Pillar.png"
+    ],
+    [
+     "Author",
+     "Demetrios Andrianis"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.m.wikimedia.org/wiki/File:Priest_on_a_Pillar.png#mw-jump-to-license"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "COMMAND.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "HUZZAH.png"
+    ]
+   ]
+  ]
  },
  "SCP-6292": {
   "id": "SCP-6292",
@@ -210,6 +576,32 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6292",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6292/death.jpg",
+    "cap": "다섯째 밤 사태의 영향에 대한 중세 묘사"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "death.jpg"
+    ],
+    [
+     "출처",
+     "Hugo Simberg Garden of Death"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "제작자",
+     "Hugo Simberg"
+    ]
+   ]
+  ]
  }
 }

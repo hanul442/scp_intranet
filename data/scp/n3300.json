@@ -20,7 +20,9 @@
   "author": "rumetzen",
   "translator": "aspookybiscuit",
   "source": "https://scpko.wikidot.com/scp-3300",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3303": {
   "id": "SCP-3303",
@@ -43,7 +45,9 @@
   "author": "Communism will win",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3303",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3305": {
   "id": "SCP-3305",
@@ -68,7 +72,33 @@
   "author": "Captain Kirby",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-3305",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3305/mybreadonatree.jpg",
+    "cap": "SCP-3305의 사진. 사건 SCP-3305-A 도중 몰수"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mybreadonatree.jpg"
+    ],
+    [
+     "저자",
+     "Captain Kirby"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/local--files/scp-3305/mybreadonatree.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3308": {
   "id": "SCP-3308",
@@ -87,7 +117,33 @@
   "author": "yarou151",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3308",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3308/SCP-3308_thumbnail.jpg",
+    "cap": "실험 중 설치한 드론으로 촬영한 SCP-3308."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-3308_thumbnail.jpg"
+    ],
+    [
+     "Author",
+     "yarou151"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/local--files/scp-3308/SCP-3308_thumbnail.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3309": {
   "id": "SCP-3309",
@@ -114,7 +170,46 @@
   "author": "Lt Flops (작가 페이지) & PhamtomGuy (아직 작품이 하나 뿐입니다. 한번 읽어보세요. SCP-3969)",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3309",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "buttons.png"
+    ],
+    [
+     "저자",
+     "Lt Flops"
+    ],
+    [
+     "라이선스",
+     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+    ],
+    [
+     "출처",
+     "SCP Foundation"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "rss_icon.png"
+    ],
+    [
+     "저자",
+     "Lt Flops"
+    ],
+    [
+     "라이선스",
+     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+    ],
+    [
+     "출처",
+     "SCP Foundation"
+    ]
+   ]
+  ]
  },
  "SCP-3313": {
   "id": "SCP-3313",
@@ -135,7 +230,14 @@
   "author": "Doctor Cimmerian",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3313",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3313/BenFranklinDuplessis.jpg",
+    "cap": "SCP-3313-1의 초상화"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3318": {
   "id": "SCP-3318",
@@ -160,7 +262,33 @@
   "author": "Tanhony",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3318",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3318/June_odd-eyed-cat_cropped.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "June odd-eyed-cat cropped.jpg"
+    ],
+    [
+     "저자",
+     "Keith Kissel"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3332": {
   "id": "SCP-3332",
@@ -180,7 +308,33 @@
   "author": "Penton",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3332",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3332/anchor.jpeg.jpg",
+    "cap": "SCP-3332"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "anchor.jpeg.jpg"
+    ],
+    [
+     "Author",
+     "Penton"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/local--files/scp-3332/anchor.jpeg.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3333": {
   "id": "SCP-3333",
@@ -200,7 +354,37 @@
   "author": "Cyantreuse",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3333",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3333/IMG_1325.JPG",
+    "cap": "선탑 화재초소. SCP-3333의 입구는 오른쪽 위 구석에 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3333/IMG_1332.JPG",
+    "cap": "선탑 화재초소."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3000.png"
+    ],
+    [
+     "저자",
+     "Cyantreuse"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3334": {
   "id": "SCP-3334",
@@ -223,7 +407,43 @@
   "author": "PandoraNuker",
   "translator": "rinkaru",
   "source": "https://scpko.wikidot.com/scp-3334",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3334/SCP-3334-nn.png",
+    "cap": "MEDUSA 앙상블에서 단일 신경망에 대해 생성된 다이어그램. 범례: 적색 (Convolution), 주황색 (Pooling), 청색 (ReLu/Softmax), 보라색 (Fully Connected), 녹색 (LSTM)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3334/SCP-3334-adv.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-3334-adv.png"
+    ],
+    [
+     "저자",
+     "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ],
+    [
+     "출처",
+     "https://arxiv.org/abs/1312.6199"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-3334-nn.png"
+    ]
+   ]
+  ]
  },
  "SCP-3336": {
   "id": "SCP-3336",
@@ -242,7 +462,9 @@
   "author": "towwl",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3336",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3338": {
   "id": "SCP-3338",
@@ -264,7 +486,37 @@
   "author": "Zyn",
   "translator": "MrHydrogenChloride",
   "source": "https://scpko.wikidot.com/scp-3338",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3338/otamatone.jpg",
+    "cap": "SCP-3338 개체, ██████ █████████의 숙소에서 살고 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3338/otamatone2.jpg",
+    "cap": "SCP-3338 개체, 잃어버린 펜을 되찾아왔다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "otamatone.jpg, otamatone2.jpg"
+    ],
+    [
+     "저자",
+     "Tatsuo Yamashita"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr, Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-3340": {
   "id": "SCP-3340",
@@ -289,7 +541,9 @@
   "author": "Ayers",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3340",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3344": {
   "id": "SCP-3344",
@@ -313,7 +567,9 @@
   "author": "trennerdios",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3344",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3349": {
   "id": "SCP-3349",
@@ -335,6 +591,36 @@
   "author": "ghosthorses",
   "translator": "MrHydrogenChloride",
   "source": "https://scpko.wikidot.com/scp-3349",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/scpcrnp/laughpic",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/scpcrnp/figurea1",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ekg, spectrogram1, spectrogram2"
+    ],
+    [
+     "저자",
+     "ghosthorses"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://www.scpwiki.com/scp-3349"
+    ]
+   ]
+  ]
  }
 }

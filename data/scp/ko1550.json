@@ -17,7 +17,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1551-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1555-KO": {
   "id": "SCP-1555-KO",
@@ -37,7 +39,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1555-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1557-KO": {
   "id": "SCP-1557-KO",
@@ -60,7 +64,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1557-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/show-me-the-sky-show-me-the-dream/image_20250308100313.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/show-me-the-sky-show-me-the-dream/image_20250307204326.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/show-me-the-sky-show-me-the-dream/laura-ockel-LDlrTxYiphA-unsplash.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/show-me-the-sky-show-me-the-dream/Ash",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/show-me-the-sky-show-me-the-dream/Rain",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1565-KO": {
   "id": "SCP-1565-KO",
@@ -83,7 +110,18 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1565-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1565-ko/2018-01-10_unidentified_snow_fly_3.jpg",
+    "cap": "SCP-1565-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1565-ko/Running-gif-8bit.gif",
+    "cap": "이동하는 SCP-1565-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1569-KO": {
   "id": "SCP-1569-KO",
@@ -109,7 +147,59 @@
   "author": "NASA",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1569-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1569-ko/goldensun.png",
+    "cap": "SCP-1569-KO 발생 현장의 이미지. 한국천문연구원의 자료를 기반으로 생성함."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1569-ko/dwarf.jpg",
+    "cap": "SCP-1569-KO 완료 시점 태양의 모습"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1569-ko/dado.png",
+    "cap": "다도."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1569-ko/kasi.png",
+    "cap": "SCP-1569-KO를 수신한 한국천문연구원."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "goldensun.jpg"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dwarf.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "dado.png"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "kasi.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1570-KO": {
   "id": "SCP-1570-KO",
@@ -138,7 +228,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1570-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1577-KO": {
   "id": "SCP-1577-KO",
@@ -163,7 +255,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1577-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1580-KO": {
   "id": "SCP-1580-KO",
@@ -185,7 +279,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1580-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1589-KO": {
   "id": "SCP-1589-KO",
@@ -212,7 +308,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1589-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1590-KO": {
   "id": "SCP-1590-KO",
@@ -236,7 +334,18 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1590-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1590-ko/%EC%9C%A1%EA%B0%9C%EC%9E%A5.jpg",
+    "cap": "SCP-1590-KO에서 제작한 육개장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-097-ko/SCP-Logo-small-thick.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1591-KO": {
   "id": "SCP-1591-KO",
@@ -261,7 +370,9 @@
   "author": "oratio, TimothyYoung",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1591-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1592-KO": {
   "id": "SCP-1592-KO",
@@ -282,7 +393,9 @@
   "author": "TimothyYoung",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1592-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1593-KO": {
   "id": "SCP-1593-KO",
@@ -309,7 +422,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1593-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1593-ko/bone.jpg",
+    "cap": "SCP-1593-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1594-KO": {
   "id": "SCP-1594-KO",
@@ -332,7 +452,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1594-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1595-KO": {
   "id": "SCP-1595-KO",
@@ -353,7 +475,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1595-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/agentwanderer/frog.jpg",
+    "cap": "SCP-1595-KO를 발현하기 위한 자세"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/department-of-psycho-analysis/Sigmund_Freud_LIFE.jpg",
+    "cap": "SCP-1595-KO의 개발자 지그문트 프로이그"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1596-KO": {
   "id": "SCP-1596-KO",
@@ -376,7 +509,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1596-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1596-ko/Sine.svg.png",
+    "cap": "SCP-1596-KO가 내놓은 그래프의 일부"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1597-KO": {
   "id": "SCP-1597-KO",
@@ -399,7 +539,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1597-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1598-KO": {
   "id": "SCP-1598-KO",
@@ -421,7 +563,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1598-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1599-KO": {
   "id": "SCP-1599-KO",
@@ -449,6 +593,50 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1599-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1599-ko/ufo.jpg",
+    "cap": "SCP-1599-KO를 촬영한 사진"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1599-ko/field.jpg",
+    "cap": "사건 1599KO-1 이전 스톤헨지가 위치했던 솔즈베리 평원"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1599-ko/museum.jpg",
+    "cap": "프랑스의 모 박물관. 보관하고 있던 유물 150여 점이 일제히 하늘로 비상하며 천장이 파괴됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1599-ko/arthur.jpg",
+    "cap": "선택받은 용사만이 뽑을 수 있다는 이야기가 전해지던, 소위 전설의 검이 박혀 있던 곳. 검이 박힌 바위째로 날아갔다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "field.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "museum.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "arthur.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ufo.jpg"
+    ]
+   ]
+  ]
  }
 }

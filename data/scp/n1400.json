@@ -17,7 +17,9 @@
   "author": "BubTheFriable",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1402",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1407": {
   "id": "SCP-1407",
@@ -39,7 +41,14 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1407",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1407/scpbuds.jpg",
+    "cap": "SCP-1407 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1415": {
   "id": "SCP-1415",
@@ -58,7 +67,9 @@
   "author": "Varkarrus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1415",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1422": {
   "id": "SCP-1422",
@@ -79,7 +90,14 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1422",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1422/i-will-spank-you-and-make-you-beg-for-it.jpg",
+    "cap": "미국 국립공원 관리청 웹사이트에서 가져온 옐로스톤 국립공원의 지도. 클릭하면 확대된다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1423": {
   "id": "SCP-1423",
@@ -104,7 +122,33 @@
   "author": "RJB_R",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1423",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1423/1423-new.png",
+    "cap": "SCP-1423"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1423-new.png"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/shimelle/2906557231"
+    ],
+    [
+     "제작자",
+     "Shimelle Laine"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1425": {
   "id": "SCP-1425",
@@ -130,7 +174,9 @@
   "author": "Silberescher",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1425",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1427": {
   "id": "SCP-1427",
@@ -153,7 +199,33 @@
   "author": "ophite",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1427",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1427/SCP-1427.jpg",
+    "cap": "북한 평양에 위치한 SCP-1427 격리 시설의 외형"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1427.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Ryugyong_Hotel_-_August_27,_2011_(Cropped).jpg"
+    ],
+    [
+     "제작자",
+     "Joseph Ferris III"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1428": {
   "id": "SCP-1428",
@@ -182,7 +254,9 @@
   "author": "Anborough",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1428",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1433": {
   "id": "SCP-1433",
@@ -204,7 +278,9 @@
   "author": "Smapti",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1433",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1437": {
   "id": "SCP-1437",
@@ -224,7 +300,121 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1437",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-1-new.jpg",
+    "cap": "격리 이전의 SCP-1437의 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-2-new.jpg",
+    "cap": "SCP-1437"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-3-new.jpg",
+    "cap": "SCP-1437"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-4-new.jpg",
+    "cap": "SCP-1437"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1437/1437-5-new.jpg",
+    "cap": "SCP-1437"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1437-1-new.jpg"
+    ],
+    [
+     "출처",
+     "Geograph"
+    ],
+    [
+     "제작자",
+     "Anne Burgess"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1437-2-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Simon Burchell"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1437-3-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "deror_avi"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1437-4-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "U.S. Army Corps of Engineers"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1437-5-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "A. L. (loading)"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1440": {
   "id": "SCP-1440",
@@ -248,7 +438,16 @@
   "author": "Dmatix",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1440",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1440"
+    ]
+   ]
+  ]
  },
  "SCP-1442": {
   "id": "SCP-1442",
@@ -270,7 +469,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1442",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1446": {
   "id": "SCP-1446",
@@ -295,7 +496,9 @@
   "author": "Vendor Xeno",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1446",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1448": {
   "id": "SCP-1448",
@@ -318,7 +521,33 @@
   "author": "Communism will win",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1448",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1448/1448.png",
+    "cap": "최초로 확인된 SCP-1448-1 개체인 미주리주 ████████ 인근 교회. 1846년 SCP-1448가 떠났다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1448.png"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "Larkwind"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1449": {
   "id": "SCP-1449",
@@ -340,6 +569,8 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1449",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -18,7 +18,33 @@
   "author": "atomicthumbs",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3104",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3104/3104.jpg",
+    "cap": "격리 도중 기동특무부대 Δ-16의 지휘관이 촬영한 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3104.jpg"
+    ],
+    [
+     "저자",
+     "atomicthumbs"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-3104"
+    ]
+   ]
+  ]
  },
  "SCP-3107": {
   "id": "SCP-3107",
@@ -38,7 +64,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3107",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3108": {
   "id": "SCP-3108",
@@ -61,7 +89,37 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-3108",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3108/CustomisationNerfEthis.jpg",
+    "cap": "격리된 SCP-3108"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "CustomisationNerfEthis.jpg"
+    ],
+    [
+     "Name",
+     "CustomisationNerfEthis.jpg"
+    ],
+    [
+     "Author",
+     "Leonarius"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3114": {
   "id": "SCP-3114",
@@ -82,7 +140,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3114",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3117": {
   "id": "SCP-3117",
@@ -105,7 +165,46 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3117",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/voodoo.jpg",
+    "cap": "GOC측의 사진. 맥락 불명. 사진 뒷면에 쓰여있기를: 【01/19/2005 발견 벽장 속에 숨어 있었음】"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/goc_color.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image0.jpg",
+    "cap": "[00:00:02]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image1.jpg",
+    "cap": "[00:00:16]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image2.jpg",
+    "cap": "[00:08:55]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image3.jpg",
+    "cap": "[00:15:50]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image4.jpg",
+    "cap": "[00:18:23]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image5.jpg",
+    "cap": "[00:28:41]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3117/image6.jpg",
+    "cap": "[00:61:17]"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3118": {
   "id": "SCP-3118",
@@ -125,7 +224,9 @@
   "author": "TL333s",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-3118",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3120": {
   "id": "SCP-3120",
@@ -146,7 +247,51 @@
   "author": "Rodrigo.Argenton",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3120",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3120/Samsung_Galaxy_S7_Edge.png",
+    "cap": "SCP-3120과 모델이 동일한 휴대폰."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Samsung_Galaxy_S7_Edge.png"
+    ],
+    [
+     "저자",
+     "Rodrigo.Argenton"
+    ],
+    [
+     "라이선스",
+     "CC BY 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "antimeme.jpg"
+    ],
+    [
+     "저자",
+     "CannedBread"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-3120"
+    ]
+   ]
+  ]
  },
  "SCP-3124": {
   "id": "SCP-3124",
@@ -168,7 +313,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3124",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3124/notasoccerball.png",
+    "cap": "SCP-3124의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3125": {
   "id": "SCP-3125",
@@ -197,7 +349,9 @@
   "author": "qntm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3125",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3127": {
   "id": "SCP-3127",
@@ -222,7 +376,9 @@
   "author": "Tanhony",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3127",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3128": {
   "id": "SCP-3128",
@@ -242,7 +398,14 @@
   "author": "The Great Hippo",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3128",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3128/monopolio2.jpg",
+    "cap": "SCP-3128."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3130": {
   "id": "SCP-3130",
@@ -263,7 +426,9 @@
   "author": "Decibelles",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3130",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3131": {
   "id": "SCP-3131",
@@ -287,7 +452,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3131",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3133": {
   "id": "SCP-3133",
@@ -310,7 +477,33 @@
   "author": "CannedBread",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3133",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3133/Trolley_problem.png",
+    "cap": "Attachment: 난_다섯이_죽도록_놔두겠다.png"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Trolley_problem.png"
+    ],
+    [
+     "저자",
+     "McGeddon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Trolley_problem.png"
+    ]
+   ]
+  ]
  },
  "SCP-3138": {
   "id": "SCP-3138",
@@ -336,7 +529,14 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3138",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3138/metaphor.jpg",
+    "cap": "본 L. 카민스키. 1921년판 『위대한 유산』에서 회수됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3140": {
   "id": "SCP-3140",
@@ -362,7 +562,77 @@
   "author": "NatVoltaic",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3140",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3140/DaevicSymbols1.png",
+    "cap": "SCP-3140-1 표면에 새겨진 기호들을 재현한 것."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3140/digsite1.jpg",
+    "cap": "발굴현장 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3140/greenhouse.jpg",
+    "cap": "식물원 베타의 한 구획."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "DaevicSymbols1.png"
+    ],
+    [
+     "저자",
+     "NatVoltaic"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-3140"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "digsite1.jpg"
+    ],
+    [
+     "저자",
+     "Ann Cook"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Archaeological_dig,_Whithorn_Priory_-_geograph.org.uk_-_262987.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "greenhouse.jpg"
+    ],
+    [
+     "저자",
+     "U.S. Department of Agriculture"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/usdagov/24931867396 #"
+    ]
+   ]
+  ]
  },
  "SCP-3141": {
   "id": "SCP-3141",
@@ -382,7 +652,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3141",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3143": {
   "id": "SCP-3143",
@@ -409,6 +681,13 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3143",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3143/murphy1.png",
+    "cap": "SCP-3143의 그림."
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -17,7 +17,37 @@
   "author": "",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6058",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6058/6058",
+    "cap": "SCP-6058"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "6058"
+    ],
+    [
+     "원본",
+     "File:Clockworks - Providenzkirche - Heidelberg, Germany - DSC01540.jpg"
+    ],
+    [
+     "저작권자",
+     "Daderot"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6061": {
   "id": "SCP-6061",
@@ -43,7 +73,37 @@
   "author": "",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-6061",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6061/bloodycarpet.jpg",
+    "cap": "SCP-6061-C 사건 후 범죄 현장에서 촬영한 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "bloodycarpet.jpg"
+    ],
+    [
+     "Name",
+     "bloody carpet"
+    ],
+    [
+     "Author",
+     "Jo Naylor"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/1ea13a52-4a0d-4d3f-8ce7-c7a7963e551a"
+    ]
+   ]
+  ]
  },
  "SCP-6077": {
   "id": "SCP-6077",
@@ -63,7 +123,9 @@
   "author": "pr0m37h3um",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-6077",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6078": {
   "id": "SCP-6078",
@@ -90,7 +152,14 @@
   "author": "Dr Leonerd",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-6078",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/collab%3Adeath-and-the-authors/5921.jpg",
+    "cap": "17세기 유럽 지도에 그려진 SCP-6078."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6080": {
   "id": "SCP-6080",
@@ -123,7 +192,90 @@
   "author": "ratking666 & ValidClay & JackalRelated",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6080",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6080/iconforcrom.jpg",
+    "cap": "스폰지밥 자자 이리로왓"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/banner_4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/toonbox.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/event.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/toonrun.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/diagram.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/imsorry.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/king.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/bed.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/hellground.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/stillfeelsick.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/hellpark.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/hellbuildings.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/runrunrun.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/notjacob.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/endlog.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/tooncollector.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/room.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/footage1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6080/theyareok.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6096": {
   "id": "SCP-6096",
@@ -146,6 +298,31 @@
   "author": "Tanhony",
   "translator": "SSOL",
   "source": "https://scpko.wikidot.com/scp-6096",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "guest"
+    ],
+    [
+     "Name",
+     "Ghost of my past"
+    ],
+    [
+     "Author",
+     "Soumyadeep Paul"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  }
 }

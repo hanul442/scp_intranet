@@ -21,7 +21,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-700-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-701-KO": {
   "id": "SCP-701-KO",
@@ -52,7 +54,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-701-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-701-ko/donkey.jpg",
+    "cap": "쿠로사와 히로아키가 제공한 사진이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-702-KO": {
   "id": "SCP-702-KO",
@@ -77,7 +86,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-702-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-702-ko/poorACS.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-702-ko/nakseo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-702-ko/702-KO.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-703-KO": {
   "id": "SCP-703-KO",
@@ -100,7 +124,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-703-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-704-KO": {
   "id": "SCP-704-KO",
@@ -123,7 +149,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-704-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-705-KO": {
   "id": "SCP-705-KO",
@@ -150,7 +178,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-705-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-706-KO": {
   "id": "SCP-706-KO",
@@ -174,7 +204,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-706-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-707-KO": {
   "id": "SCP-707-KO",
@@ -202,7 +234,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-707-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-708-KO": {
   "id": "SCP-708-KO",
@@ -227,7 +261,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-708-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-709-KO": {
   "id": "SCP-709-KO",
@@ -258,7 +294,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-709-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-710-KO": {
   "id": "SCP-710-KO",
@@ -284,7 +322,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-710-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-711-KO": {
   "id": "SCP-711-KO",
@@ -309,7 +349,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-711-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-711-ko/300px-SCP-711-KO.jpg",
+    "cap": "낮에 촬영한 SCP-711-KO의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-712-KO": {
   "id": "SCP-712-KO",
@@ -334,7 +381,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-712-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-713-KO": {
   "id": "SCP-713-KO",
@@ -358,7 +407,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-713-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-714-KO": {
   "id": "SCP-714-KO",
@@ -386,7 +437,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-714-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-715-KO": {
   "id": "SCP-715-KO",
@@ -412,7 +465,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-715-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-715-ko/Inside_Darvaza_gas_crater,_J%C3%A4hennem_derwezesi,_Door_to_Hell,_Gates_of_Hell,_Derweze,_Turkmenistan.jpg",
+    "cap": "SCP-715-KO를 경험하고 기지로 복귀한 ███ 연구원의 증언을 바탕으로 제작된 SCP-715-KO-2의 컴퓨터 그래픽"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-716-KO": {
   "id": "SCP-716-KO",
@@ -440,7 +500,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-716-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-716-ko/building-690065_640.jpg",
+    "cap": "SCP-716-KO의 F구간 중 일부 모습"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-717-KO": {
   "id": "SCP-717-KO",
@@ -475,7 +542,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-717-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-717-ko/717-ko-2.jpg",
+    "cap": "탐사단이 촬영한 집의 사진. 지붕에 있는 수탉 모형에 주목할 것."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-717-ko/skull.jpg",
+    "cap": "SCP-717-KO-1."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-717-ko/golden.jpg",
+    "cap": "제17기지 감시카메라에 찍힌 PoI-2705의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-717-ko/Aini2.jpg",
+    "cap": "SCP-717-KO-2."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-718-KO": {
   "id": "SCP-718-KO",
@@ -507,7 +593,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-718-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/cat-with-eye/7544072990_73b1072340_o.jpg",
+    "cap": "한쪽 눈만 뜨고 있는 SCP-718-KO의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-718-ko/459px-Waschvollautomat_Constructa_1950er.jpg",
+    "cap": "카이트 씨의 집에 있던 문제의 1950년대식 세탁기."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-719-KO": {
   "id": "SCP-719-KO",
@@ -534,7 +631,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-719-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-720-KO": {
   "id": "SCP-720-KO",
@@ -560,7 +659,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-720-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-721-KO": {
   "id": "SCP-721-KO",
@@ -589,7 +690,30 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-721-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-721-ko/Minhwa-Tiger_and_magpie-03.jpg",
+    "cap": "\"까치호랑이\"라는 작품명으로 알려진 작가 미상의 조선시대 민화. 해당 민화에 그려진 '호랑이'에 표범의 것으로 여겨지는 점무늬까지 묘사되어 있음에 주목할 것."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-721-ko/amur_leopard_tiger.png",
+    "cap": "현재 재단에 감시되고 있는 SCP-721-KO 개체의 얼굴면에 대한 묘사."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-721-ko/%E8%99%8E.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-721-ko/%E8%B1%B9.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-721-ko/%E8%99%8E%E8%B1%B9%E5%AD%90.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-722-KO": {
   "id": "SCP-722-KO",
@@ -613,7 +737,21 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-722-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-722-ko/magicalgirl.jpg",
+    "cap": "SCP-722-KO의 플레이 화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "magicalgirl.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-723-KO": {
   "id": "SCP-723-KO",
@@ -644,7 +782,16 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-723-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ]
+  ]
  },
  "SCP-724-KO": {
   "id": "SCP-724-KO",
@@ -674,7 +821,9 @@
   "author": "POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-724-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-725-KO": {
   "id": "SCP-725-KO",
@@ -701,7 +850,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-725-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-725-ko/SCP-725-KO.jpg",
+    "cap": "무장한 재단 요원의 접근을 위협으로 간주하고 변칙성을 발동해 도주 중인 수컷 SCP-725-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-725-ko/mailsinbo-19370520.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-726-KO": {
   "id": "SCP-726-KO",
@@ -724,7 +884,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-726-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-727-KO": {
   "id": "SCP-727-KO",
@@ -749,7 +911,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-727-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-728-KO": {
   "id": "SCP-728-KO",
@@ -774,7 +938,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-728-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-729-KO": {
   "id": "SCP-729-KO",
@@ -798,7 +964,21 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-729-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-729-ko/rat.jpg",
+    "cap": "구내식당에서 발견된 SCP-729-KO-A로 추정되는 쥐."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "rat.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-730-KO": {
   "id": "SCP-730-KO",
@@ -821,7 +1001,9 @@
   "author": "CatSi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-730-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-731-KO": {
   "id": "SCP-731-KO",
@@ -843,7 +1025,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-731-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-732-KO": {
   "id": "SCP-732-KO",
@@ -867,7 +1051,57 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-732-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-732-ko/Nicolas_Flamel_Histoire_critique.jpg",
+    "cap": "알려진 니콜라스 플라멜의 초상"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-732-ko/Magnum_Opus.jpg",
+    "cap": "마그눔 오푸스의 변색작업을 그린 중세의 연금술 자료"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-732-ko/%CE%92%CE%BFllingen_lapis1.jpg",
+    "cap": "칼 융의 별장인 '볼링겐 타워('레푸기움'으로도 불린다.)'에 존재하는 비석. 다양한 연금학적 상징이 음각되어 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-732-ko/Michelson_morley_experiment_1887.jpg",
+    "cap": "마이켈슨과 몰리 박사가 에테르를 관측해 낼 때 사용한 장치. 에테르의 발견은 니콜라스 플라멜의 후기 자료의 발견과 함께 연금학부의 성장에 이바지한 큰 사건 중 하나이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Alchmy.png"
+    ]
+   ]
+  ]
  },
  "SCP-733-KO": {
   "id": "SCP-733-KO",
@@ -891,7 +1125,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-733-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-733-ko/Gull.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-733-ko/Steller's_sea_eagle.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-734-KO": {
   "id": "SCP-734-KO",
@@ -912,7 +1157,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-734-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-734-ko/1.png",
+    "cap": "물이 줄어든 아랄 해."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-734-ko/2.png",
+    "cap": "상처는 아물지언정, 그 흉터는 영원히 남으리라."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-735-KO": {
   "id": "SCP-735-KO",
@@ -939,7 +1195,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-735-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-736-KO": {
   "id": "SCP-736-KO",
@@ -963,7 +1221,25 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-736-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-736-ko/no.png",
+    "cap": "[이미지 맥락 제거됨]"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-736-ko/but.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "no.png & but.png"
+    ]
+   ]
+  ]
  },
  "SCP-737-KO": {
   "id": "SCP-737-KO",
@@ -988,7 +1264,21 @@
   "author": "Navla & 2018",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-737-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-737-ko/deadbyinfo.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "deadbyinfo.png"
+    ]
+   ]
+  ]
  },
  "SCP-738-KO": {
   "id": "SCP-738-KO",
@@ -1017,7 +1307,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-738-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-738-ko/Boong.png",
+    "cap": "그림1: 아즈나-V로 촬영된 사진들을 일체화시켜 구성한 최대 비행 고도에 근접한 상태의 SCP-738-KO-B. 2012년 북극 대 사이클론 발생 당시 촬영. 표시된 1,000km 축적자는 지표면 기준임."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-738-ko/Boong_map_1.png",
+    "cap": "그림 2. 아즈나-IV 촬영 자료들을 참고하여 제작된 최대 비행 고도에 도달한 이후 SCP-738-KO-B의 이동 경로. 고도 변화 및 태평양 진입 등의 요인으로 점점 작아져 보이는 것을 반영하였음."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-739-KO": {
   "id": "SCP-739-KO",
@@ -1039,7 +1340,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-739-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-740-KO": {
   "id": "SCP-740-KO",
@@ -1061,7 +1364,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-740-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-741-KO": {
   "id": "SCP-741-KO",
@@ -1085,7 +1390,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-741-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-742-KO": {
   "id": "SCP-742-KO",
@@ -1112,7 +1419,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-742-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-743-KO": {
   "id": "SCP-743-KO",
@@ -1135,7 +1444,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-743-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-744-KO": {
   "id": "SCP-744-KO",
@@ -1158,7 +1469,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-744-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-745-KO": {
   "id": "SCP-745-KO",
@@ -1181,7 +1494,47 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-745-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-745-ko/map.png",
+    "cap": "▲ SCP-745-KO의 좌표"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-745-ko/watch.jpg",
+    "cap": "97K감시기지의 감시탑"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-745-ko/corrupt.jpg",
+    "cap": "▲ 카이-2가 보낸 이미지 자료."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "map.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "watch.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "corrupt.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Ocean.mp4"
+    ]
+   ]
+  ]
  },
  "SCP-746-KO": {
   "id": "SCP-746-KO",
@@ -1205,7 +1558,9 @@
   "author": "UNKNOWNWRAEB : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-746-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-747-KO": {
   "id": "SCP-747-KO",
@@ -1229,7 +1584,71 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-747-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/Chernobyl_2019_G09.jpg",
+    "cap": "안방과 개인 방으로 향하는 문"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/1280px-Chernobyl_30_years_after_disaster_%2850441750637%29.jpg",
+    "cap": "거실."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/Abandoned_house%2C_%C5%81%C4%99g%2C_Krak%C3%B3w_04.jpg",
+    "cap": "안방."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/Poland-01324_-_Walk_a_Mile_in_My_Shoes%21%21_%2830949836533%29.jpg",
+    "cap": "형제들."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/Maggots_for_fishing%2C_Winschoten_%282020%29_02.jpg",
+    "cap": "SCP-747-KO-1. 갓 지어진 흰 쌀밥."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-747-ko/Chemnitz_Tar_Mummy.jpg",
+    "cap": "SCP-747-KO-2. 어머니."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ]
+  ]
  },
  "SCP-748-KO": {
   "id": "SCP-748-KO",
@@ -1254,7 +1673,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-748-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-749-KO": {
   "id": "SCP-749-KO",
@@ -1276,6 +1697,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-749-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

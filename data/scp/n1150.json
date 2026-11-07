@@ -18,7 +18,33 @@
   "author": "Tanhony",
   "translator": "oratio",
   "source": "https://scpko.wikidot.com/scp-1151",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1151/1151.jpg",
+    "cap": "변칙 현상의 최종 단계에 달한 SCP-1151-1. 사진이 촬영되기 전 피험자는 스스로의 머리를 제거한 상태였다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1151.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:065-365-_Show_us_your_smile!_(2765083201).jpg"
+    ],
+    [
+     "제작자",
+     "Ben Smith from Oxford, England"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1152": {
   "id": "SCP-1152",
@@ -41,7 +67,33 @@
   "author": "Vorcha",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1152",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/adoption-poster-bandit/raccoon.jpg",
+    "cap": "최초 포획 당시의 SCP-1152. 왼쪽 앞발에 발가락이 하나 없는 것이 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "raccoon.jpg"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/weasello/344738121/"
+    ],
+    [
+     "제작자",
+     "SnugglePilot"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1154": {
   "id": "SCP-1154",
@@ -68,7 +120,9 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1154",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1155": {
   "id": "SCP-1155",
@@ -95,7 +149,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1155",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1155/1155-new.jpg",
+    "cap": "버려진 건물로 옮겨간 뒤의 SCP-1155"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "1155-new.jpg"
+    ],
+    [
+     "Name",
+     "SCP-1155 Predatory street art"
+    ],
+    [
+     "Author",
+     "eddybird"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Reddit"
+    ]
+   ]
+  ]
  },
  "SCP-1158": {
   "id": "SCP-1158",
@@ -116,7 +200,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1158",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1158/scp-1158.jpg",
+    "cap": "SCP-1158의 급양 및 탐지 폴립. 자연 덩굴 속에 위장해 먹잇감을 기다리는 중이다"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1159": {
   "id": "SCP-1159",
@@ -138,7 +229,9 @@
   "author": "CityToast",
   "translator": "ssoda",
   "source": "https://scpko.wikidot.com/scp-1159",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1160": {
   "id": "SCP-1160",
@@ -162,7 +255,55 @@
   "author": "djkaktus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1160",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1160/bird.png",
+    "cap": "최초 격리되기 전의 SCP-1160. 사진 촬영일자 1915년 8월 15일."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1160/cereal.jpg",
+    "cap": "1954년에 판매된 초기형 슈퍼코코파우스 시리얼 상자의 모형. 밈적 요소들은 말소되었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bird.png"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cereal.jpg"
+    ],
+    [
+     "제작자",
+     "djkaktus"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-1162": {
   "id": "SCP-1162",
@@ -183,7 +324,9 @@
   "author": "Rounderhouse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1162",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1170": {
   "id": "SCP-1170",
@@ -206,7 +349,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1170",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1171": {
   "id": "SCP-1171",
@@ -227,7 +372,9 @@
   "author": "DrEverettMann",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-1171",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1173": {
   "id": "SCP-1173",
@@ -251,7 +398,37 @@
   "author": "Eskobar",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1173",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1173-1/sq11-06.jpg",
+    "cap": "SCP-1173이 묘사된 가장 오래된 기록 중 하나, 1709년에 발간됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "sq11-06.jpg"
+    ],
+    [
+     "Name",
+     "Carte du tendre 300dpi.jpg"
+    ],
+    [
+     "Author",
+     "François Chauveau"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1176": {
   "id": "SCP-1176",
@@ -274,7 +451,9 @@
   "author": "Smapti",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-1176",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1178": {
   "id": "SCP-1178",
@@ -297,7 +476,14 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1178",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1178/NUKE-new.png",
+    "cap": "19██년 ██월 ██일 최초 발사 사건 동안의 SCP-1178."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1180": {
   "id": "SCP-1180",
@@ -317,7 +503,55 @@
   "author": "floridapologia",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1180",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1180/coconutpalmscp-new.jpg",
+    "cap": "이식하기 전의 SCP-1180"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1180/coconutface-new.jpg",
+    "cap": "겉껍질을 벗긴 표본"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "coconutpalmscp-new.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Manila_dwarf_coconut_palm.jpg"
+    ],
+    [
+     "제작자",
+     "Scott Bauer"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "coconutface-new.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Coconut_face.jpg"
+    ],
+    [
+     "제작자",
+     "Petey21"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1182": {
   "id": "SCP-1182",
@@ -340,7 +574,9 @@
   "author": "CthulhuBear",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-1182",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1186": {
   "id": "SCP-1186",
@@ -365,7 +601,55 @@
   "author": "MrWrong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1186",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1186/Cicada%20nymph%20.jpg",
+    "cap": "중국 성도시의 문수원에서 반쯤 묻힌 채 발견된 SCP-1186."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1186/Sun%20wukong.jpg",
+    "cap": "천축행자에서 숭배한 투전승불의 화신으로 여겨진 \"손행자\"를 묘사한 그림. 그 외에 손행자와 관련된 것으로 여겨지는 SCP-2711과 SCP-2178을 현재 재단이 격리하고 있다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Cicada nymph .jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Cicada_nymph_(14338617637).jpg"
+    ],
+    [
+     "제작자",
+     "Graham Wise"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sun wukong.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Xyj-sun_wukong.jpg"
+    ],
+    [
+     "제작자",
+     "Shizhao"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1189": {
   "id": "SCP-1189",
@@ -387,7 +671,9 @@
   "author": "Beich",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1189",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1192": {
   "id": "SCP-1192",
@@ -410,7 +696,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1192",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1193": {
   "id": "SCP-1193",
@@ -433,7 +721,9 @@
   "author": "ophite",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1193",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1199": {
   "id": "SCP-1199",
@@ -454,6 +744,32 @@
   "author": "NightCoffee365 does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1199",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1199/NewCan",
+    "cap": "제25구역 공업 실험실에 있는 SCP-1199"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "NewCan"
+    ],
+    [
+     "출처",
+     "https://unsplash.com/photos/yellow-painting-bucket-tmhLbZ2g_lE"
+    ],
+    [
+     "제작자",
+     "Jack Douglass"
+    ],
+    [
+     "라이센스",
+     "Unsplash License"
+    ]
+   ]
+  ]
  }
 }

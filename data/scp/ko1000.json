@@ -19,7 +19,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1000-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1001-KO": {
   "id": "SCP-1001-KO",
@@ -48,7 +50,18 @@
   "author": "Xrosiam",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1001-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1001-ko/orange.JPG",
+    "cap": "최초로 조합된 SCP-1001-KO"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1001-ko/Axolotl.jpg",
+    "cap": "유형성숙의 대표적인 예시인 아홀로틀."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1002-KO": {
   "id": "SCP-1002-KO",
@@ -72,7 +85,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1002-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1003-KO": {
   "id": "SCP-1003-KO",
@@ -99,7 +114,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1003-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1003-ko/1.jpg",
+    "cap": "항밈적 차폐막을 해제한 SCP-1003-KO. 차폐막 작동 시 SCP-1003-KO는 자신의 존재를 효과적으로 감출 수 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1003-ko/2.jpg",
+    "cap": "프로토타입 DHC. SCP-███ 유출 당시 [편집됨] 주민 전체의 인간성을 성공적으로 보존해 낸 바 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1003-ko/3.jpg",
+    "cap": "SCP-1003-KO 내부 회로의 일부. 비유클리드 구조의 컴퓨트로늄 회로를 통해 SCP-1003-KO는 극도의 저전력 상태에서 최대 120억의 인간성을 효율적으로 저장할 수 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1004-KO": {
   "id": "SCP-1004-KO",
@@ -124,7 +154,9 @@
   "author": "c_bonefish does not match any existing user name",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1004-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1005-KO": {
   "id": "SCP-1005-KO",
@@ -145,7 +177,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1005-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1006-KO": {
   "id": "SCP-1006-KO",
@@ -167,7 +201,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1006-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1007-KO": {
   "id": "SCP-1007-KO",
@@ -189,7 +225,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1007-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1007-ko/Unnamed1_-_panoramio_%2812%29.jpg",
+    "cap": "SCP-1007-KO 발생 지점. 부표 설치 직전에 촬영함."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1008-KO": {
   "id": "SCP-1008-KO",
@@ -213,7 +256,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1008-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1009-KO": {
   "id": "SCP-1009-KO",
@@ -239,7 +284,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1009-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1010-KO": {
   "id": "SCP-1010-KO",
@@ -264,7 +311,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1010-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1011-KO": {
   "id": "SCP-1011-KO",
@@ -286,7 +335,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1011-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1011-ko/Lunch_(Explore_2015-01-24)_-_Flickr_-_@lattefarsan.jpg",
+    "cap": "SCP-1011-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1012-KO": {
   "id": "SCP-1012-KO",
@@ -314,7 +370,14 @@
   "author": "Xrosiam",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1012-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-1012-ko-1/Huitzilopochtli.jpg",
+    "cap": "아즈텍 유적에 기록된 SCP-1012-KO-1의 모습"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1013-KO": {
   "id": "SCP-1013-KO",
@@ -340,7 +403,33 @@
   "author": "Cubic72",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1013-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1013-ko/Catinadream.jpg",
+    "cap": "SCP-1013-KO-1, 확대 캡처본."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Catinadream.jpg"
+    ],
+    [
+     "저자",
+     "Νικόλαος Κυριακάκης"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼스"
+    ]
+   ]
+  ]
  },
  "SCP-1014-KO": {
   "id": "SCP-1014-KO",
@@ -361,7 +450,9 @@
   "author": "Cubic72",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1014-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1015-KO": {
   "id": "SCP-1015-KO",
@@ -385,7 +476,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1015-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1016-KO": {
   "id": "SCP-1016-KO",
@@ -407,7 +500,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1016-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1017-KO": {
   "id": "SCP-1017-KO",
@@ -429,7 +524,26 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1017-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1017-ko/Psychodentistry.png",
+    "cap": "제871기지 심리치의학부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1017-ko/Dentistry_Temporal_Anomalies.png",
+    "cap": "제871기지 치의시간변칙부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1017-ko/Tooththaumatology.png",
+    "cap": "제871기지 치아기적학부"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1017-ko/_Tooth.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1018-KO": {
   "id": "SCP-1018-KO",
@@ -450,7 +564,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1018-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1019-KO": {
   "id": "SCP-1019-KO",
@@ -474,7 +590,73 @@
   "author": "LandAndTree",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1019-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1019-ko/Schoolzone.jpg",
+    "cap": "당시 사건이 일어났던 현장인 경기도 안산시 내 어린이 보호구역."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1019-ko/yeji_face2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Schoolzone.jpg"
+    ],
+    [
+     "저자",
+     "LandAndTree"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "yeji_face.png"
+    ],
+    [
+     "저자",
+     "Cubic72"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "본 문서"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "yeji_face2.png"
+    ],
+    [
+     "저자",
+     "Cubic72"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "본 문서"
+    ]
+   ]
+  ]
  },
  "SCP-1020-KO": {
   "id": "SCP-1020-KO",
@@ -500,7 +682,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1020-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1020-ko/%EB%8F%85%EB%8F%84%20%EC%B2%9C%EC%9E%A5%EA%B5%B4%20%EB%B0%94%EB%8B%A5.jpg",
+    "cap": "천장굴 내부에서 촬영된 장면"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1020-ko/%EB%8F%99%EA%B5%AD%EB%8C%80%EC%A7%80%EB%8F%84_%EC%9A%B8%EB%A6%89%EB%8F%85%EB%8F%84.PNG",
+    "cap": "동국대지도(1757) — 빨간색 네모 안에 있는 섬이 독도(우산도)이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1021-KO": {
   "id": "SCP-1021-KO",
@@ -525,7 +718,9 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1021-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1022-KO": {
   "id": "SCP-1022-KO",
@@ -548,7 +743,9 @@
   "author": "vocadomato",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1022-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1023-KO": {
   "id": "SCP-1023-KO",
@@ -569,7 +766,9 @@
   "author": "Cubic72",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1023-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1024-KO": {
   "id": "SCP-1024-KO",
@@ -589,7 +788,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1024-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1025-KO": {
   "id": "SCP-1025-KO",
@@ -613,7 +814,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1025-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1026-KO": {
   "id": "SCP-1026-KO",
@@ -635,7 +838,38 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1026-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/scp-1026-ko.jpg",
+    "cap": "SCP-1026-KO"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/scp-1026-ko-1951.jpg",
+    "cap": "SCP-1026-KO, 1951년 촬영."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/scp-1026-ko-signature.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/pearson-roh%20meeting.webp",
+    "cap": "조지 피어슨 이사관과 SCP-1026-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/reagan-roh%20meeting.webp",
+    "cap": "로널드 레이건 대통령과 SCP-1026-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/Gorbachev_Signature.svg.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1026-ko/scp-1026-ko-fin.webp",
+    "cap": "SCP-1026-KO의 묘소."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1027-KO": {
   "id": "SCP-1027-KO",
@@ -660,7 +894,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1027-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1028-KO": {
   "id": "SCP-1028-KO",
@@ -682,7 +918,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1028-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1029-KO": {
   "id": "SCP-1029-KO",
@@ -701,7 +939,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1029-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1030-KO": {
   "id": "SCP-1030-KO",
@@ -727,7 +967,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1030-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1032-KO": {
   "id": "SCP-1032-KO",
@@ -750,7 +992,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1032-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1033-KO": {
   "id": "SCP-1033-KO",
@@ -771,7 +1015,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1033-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1035-KO": {
   "id": "SCP-1035-KO",
@@ -797,7 +1043,9 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1035-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1038-KO": {
   "id": "SCP-1038-KO",
@@ -816,7 +1064,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1038-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-1038-ko/goose",
+    "cap": "SCP-1038-KO-12의 모습(2024년 출생, 2026년 촬영)."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1040-KO": {
   "id": "SCP-1040-KO",
@@ -841,7 +1096,14 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1040-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1040-ko/thetailoffatgetcrawls",
+    "cap": "SCP-1040-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1042-KO": {
   "id": "SCP-1042-KO",
@@ -862,7 +1124,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1042-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1044-KO": {
   "id": "SCP-1044-KO",
@@ -892,7 +1156,18 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1044-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1044-ko/spider",
+    "cap": "SCP-1044-KO의 풍광과 흡사한 신두리 해안사구의 사진. 최대 개체군이 있었던 곳이기도 하다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1044-ko/why",
+    "cap": "SCP-1044-KO의 풍광과 흡사한 신두리 해안사구의 사진. 최대 개체군이 있었던 곳이기도 하다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1047-KO": {
   "id": "SCP-1047-KO",
@@ -913,7 +1188,21 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1047-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1047-ko/stones.jpg",
+    "cap": "최초로 채집한 SCP-1047-KO"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "stones.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-1049-KO": {
   "id": "SCP-1049-KO",
@@ -940,6 +1229,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1049-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

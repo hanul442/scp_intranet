@@ -25,7 +25,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1900-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1900-ko/radio.png",
+    "cap": "SCP-1900-KO."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1900-ko/camus.jpg",
+    "cap": "알베르 카뮈. 1957년 촬영됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1901-KO": {
   "id": "SCP-1901-KO",
@@ -48,7 +59,18 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1901-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-22/roman1.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/payroy-22/romanmom.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1903-KO": {
   "id": "SCP-1903-KO",
@@ -72,7 +94,93 @@
   "author": "Ko Lanta",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1903-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1903-ko/blur.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1903-ko/cockroach.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1903-ko/thinking.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1903-ko/eagle.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cockroach.png, blur.png"
+    ],
+    [
+     "원본",
+     "Giant cockroach (5963301152).jpg"
+    ],
+    [
+     "저자",
+     "Ko Lanta"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "thinking.png"
+    ],
+    [
+     "원본",
+     "Contemplating boy in with his hand on his chin while thinking (15557042034).jpg"
+    ],
+    [
+     "저자",
+     "Personal Creations"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "eagle.png"
+    ],
+    [
+     "원본",
+     "Bald Eagle Head sq.jpg"
+    ],
+    [
+     "저자",
+     "Martin Falbisoner"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어"
+    ]
+   ]
+  ]
  },
  "SCP-1904-KO": {
   "id": "SCP-1904-KO",
@@ -92,7 +200,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1904-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1907-KO": {
   "id": "SCP-1907-KO",
@@ -116,7 +226,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1907-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1907-ko/MTF_Kuti_Deim_Yaga.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1907-ko/MTF_Yuk_Beom_Pursuers.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1910-KO": {
   "id": "SCP-1910-KO",
@@ -136,7 +257,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1910-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1911-KO": {
   "id": "SCP-1911-KO",
@@ -157,7 +280,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1911-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Noryangjin",
+    "cap": "노량진역"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Monkey",
+    "cap": "몽중인화된 개체의 화상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1913-KO": {
   "id": "SCP-1913-KO",
@@ -178,7 +312,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1913-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1914-KO": {
   "id": "SCP-1914-KO",
@@ -207,7 +343,9 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1914-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1915-KO": {
   "id": "SCP-1915-KO",
@@ -229,7 +367,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1915-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1919-KO": {
   "id": "SCP-1919-KO",
@@ -254,7 +394,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1919-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/departments-ko/muism_logo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A2043380-734-6clr/ShinanoChuoPost.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1920-KO": {
   "id": "SCP-1920-KO",
@@ -278,7 +429,33 @@
   "author": "kallerna",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1920-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1920-ko/1920kosea",
+    "cap": "현재 SCP-1920-KO의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Atlantic near Faroe Islands.jpg"
+    ],
+    [
+     "저자",
+     "kallerna"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-1923-KO": {
   "id": "SCP-1923-KO",
@@ -299,7 +476,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1923-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1928-KO": {
   "id": "SCP-1928-KO",
@@ -324,7 +503,55 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1928-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1928-ko/Mickey_1928.jpg",
+    "cap": "<증기선 윌리> 중 한 장면의 '미키 마우스'"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1928-ko/Mickey_in_Cave.png",
+    "cap": "라스코 동굴에서 발견된 벽화."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Mickey_1928.jpg"
+    ],
+    [
+     "Author",
+     "Walt Disney, Ub Iwerks"
+    ],
+    [
+     "License",
+     "public domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Mickey_in_Cave.png"
+    ],
+    [
+     "Author",
+     "EU, Walt Disney, Ub Iwerks, Ginger butter"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg, https://commons.wikimedia.org/wiki/File:Earlypete.jpg를 GIMP 2.10.38를 사용해 직접 합성했습니다."
+    ]
+   ]
+  ]
  },
  "SCP-1930-KO": {
   "id": "SCP-1930-KO",
@@ -352,7 +579,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1930-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1932-KO": {
   "id": "SCP-1932-KO",
@@ -390,7 +619,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1932-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1937-KO": {
   "id": "SCP-1937-KO",
@@ -414,7 +645,9 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1937-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1942-KO": {
   "id": "SCP-1942-KO",
@@ -434,7 +667,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1942-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1943-KO": {
   "id": "SCP-1943-KO",
@@ -457,7 +692,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1943-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1944-KO": {
   "id": "SCP-1944-KO",
@@ -484,7 +721,34 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1944-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/M4A3E2.jpg",
+    "cap": "M4A3E2 셔먼 전차."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/Headphone.jpg",
+    "cap": "M-03 기억 추출기의 입력 구성요소."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/Lec2.jpg",
+    "cap": "필리프 르클레르. 1944년 8월 촬영됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/Pzkpfws.png",
+    "cap": "4호 전차(상단)와 5호 전차 \"판터\"(하단)."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/10th_SS_PzDiv.png",
+    "cap": "제10SS기갑사단 \"프룬츠베르크\"."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1944-ko/M10.jpg",
+    "cap": "M10 대전차자주포."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1948-KO": {
   "id": "SCP-1948-KO",
@@ -507,6 +771,13 @@
   "author": "TreWa",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1948-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/scp-1018-ko/KakaoTalk_20251214_175953859.jpg",
+    "cap": "SCP-1948-KO-1이 격리되고 있는 제60K기지 제2외부동(현재 재개발 예정)"
+   }
+  ],
+  "img_credits": []
  }
 }

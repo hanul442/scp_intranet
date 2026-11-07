@@ -32,7 +32,246 @@
   "author": "Rounderhouse",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-6000",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "center.png, centerred.png"
+    ],
+    [
+     "Name",
+     "Fusillade Logo"
+    ],
+    [
+     "Author",
+     "Aethris"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "6k.jpg"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "bubble3.png"
+    ],
+    [
+     "Name",
+     "Borneo rainforest.jpg"
+    ],
+    [
+     "Author",
+     "Dukeabruzzi/edited by Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "smallsnek.jpg, bigsnek.png"
+    ],
+    [
+     "Author",
+     "Valdevia / Art Page"
+    ],
+    [
+     "License",
+     "CC BY 4.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "library.png"
+    ],
+    [
+     "Name",
+     "County Dublin - Long Room-Trinity College - 20180703092642.jpg"
+    ],
+    [
+     "Author",
+     "MichaelMaggs/edited by Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tilly.png"
+    ],
+    [
+     "Name",
+     "Blanche Lincoln, 2007.jpg"
+    ],
+    [
+     "Author",
+     "Office of Senator Blanche Lincoln/edited by Rounderhouse"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "bubble4.png"
+    ],
+    [
+     "Name",
+     "Aerial view of the Amazon Rainforest.jpg"
+    ],
+    [
+     "Author",
+     "lubasi/edited by Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY SA 2.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "forest2.png"
+    ],
+    [
+     "Name",
+     "Flickr - Israel Defense Forces - IDF Elite Units' Soldiers Take Cover in the Elyakim Combat Training Base (14).jpg"
+    ],
+    [
+     "Author",
+     "Israel Defense Forces/edited by stephlynch"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "jungleman.png"
+    ],
+    [
+     "Author",
+     "Pixabay"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Pixabay"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "bubble5.png"
+    ],
+    [
+     "Name",
+     "working on it"
+    ],
+    [
+     "Author",
+     "working on it"
+    ],
+    [
+     "License",
+     "working on it"
+    ],
+    [
+     "Source",
+     "working on it"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "earth.png"
+    ],
+    [
+     "Author",
+     "NASA/edited by Rounderhouse"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "interior.png"
+    ],
+    [
+     "Name",
+     "Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg"
+    ],
+    [
+     "Author",
+     "Diliff"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-6001": {
   "id": "SCP-6001",
@@ -70,7 +309,153 @@
   "author": "T Rutherford",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-6001",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6001/welcomePNGko.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6001/SCP-6000.jpg",
+    "cap": "특이점의 입구에서 본 차원 A6K."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "AbsentBG.png, ApexBG.png, AssemblyBG.png, CharityBG.png, CollectiveBG.png, FoundationBG.png, NightlandsBG.png, PartnershipBG.png, PeacekeepersBG.png, UnnamedBG.png, WanderBG.png, WatchersBG.png, welco"
+    ],
+    [
+     "저작권자",
+     "T Rutherford"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "원본",
+     "Electronic Circuit Crossing Symbol"
+    ],
+    [
+     "저작권자",
+     "vermeil"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "OPENCLIPART"
+    ],
+    [
+     "원본",
+     "Gear"
+    ],
+    [
+     "저작권자",
+     "Dmitry Kudinov"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "The Noun Project"
+    ],
+    [
+     "원본",
+     "Moon Full Cloudy"
+    ],
+    [
+     "저작권자",
+     "OpenIcons"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ],
+    [
+     "원본",
+     "Pagan religions symbols - 4 rows.png"
+    ],
+    [
+     "저작권자",
+     "Wewelsburger"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "원본",
+     "Popular culture atom symbol.svg"
+    ],
+    [
+     "저작권자",
+     "TomasBat"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "warning.png"
+    ],
+    [
+     "저작권자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-6000.jpg"
+    ],
+    [
+     "저작권자",
+     "T Rutherford"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "[/scp-6001 SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-6002": {
   "id": "SCP-6002",
@@ -100,7 +485,137 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6002/scp_logo_red.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6002/mole_embed_image.jpeg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6002/hatzegopteryx.jpeg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6002/chinese_dragon.jpeg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mole_embed_image.jpeg"
+    ],
+    [
+     "원본",
+     "Mole embed image"
+    ],
+    [
+     "저작권자",
+     "Original image by Xpda. Edits by author."
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "figure-1.jpeg"
+    ],
+    [
+     "원본",
+     "Figure 1"
+    ],
+    [
+     "저작권자",
+     "Original image by Marco Verch. Edits by author."
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "swamp_flyer.jpeg"
+    ],
+    [
+     "원본",
+     "Swamp flyer"
+    ],
+    [
+     "저작권자",
+     "Original image by NPS Natural Resources. Edits by author and article collaborators."
+    ],
+    [
+     "라이선스",
+     "Public Domain Mark 1.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "hatzegopteryx.jpeg"
+    ],
+    [
+     "원본",
+     "Hatzegopteryx"
+    ],
+    [
+     "저작권자",
+     "Mark Witton"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "chinese_dragon.jpeg"
+    ],
+    [
+     "원본",
+     "Chinese dragon"
+    ],
+    [
+     "저작권자",
+     "GoShow"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-6003": {
   "id": "SCP-6003",
@@ -127,7 +642,51 @@
   "author": "PlaguePJP, AnActualCrow, J Dune",
   "translator": "salamander724",
   "source": "https://scpko.wikidot.com/scp-6003",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/sigma%3Aintegration/lighthouse.gif",
+    "cap": "SCP-6003-1."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6003/fog.png",
+    "cap": "SCP-6003"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6003/harrymap2.png",
+    "cap": "스와인 이사관이 그린 지도의 복제본."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6003/oilrig.png",
+    "cap": "제NULL기지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "lighthouse2.gif"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "fog.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "harrymap2.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "oilrig.png"
+    ]
+   ]
+  ]
  },
  "SCP-6005": {
   "id": "SCP-6005",
@@ -159,7 +718,22 @@
   "author": "Tufto. SCP-6000 경연 투고작입니다. 더 많은 작품은 여기에서 찾아볼 수 있습니다.",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-6005",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6005/dogmountain.jpg",
+    "cap": "워싱턴 주, 컬럼비아 강 협곡의 도그 산. 카산드라 \"캐시\" 히긴즈Cassandra \"Cassie\" Higgins가 마지막으로 목격된 것으로 알려진 장소다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6005/cascadiamap.png",
+    "cap": "캐스캐디아 생태지역의 위성사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6005/Dark_Forest.jpg",
+    "cap": "6005-435 개체를 대상으로 하는 불파인 프로젝트(Project Vulpine) 격리 사건 장소. 일시 1984-09-06"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6008": {
   "id": "SCP-6008",
@@ -188,7 +762,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6008",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6010": {
   "id": "SCP-6010",
@@ -213,7 +789,9 @@
   "author": "Mooagain",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-6010",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6023": {
   "id": "SCP-6023",
@@ -239,7 +817,63 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6023",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6023/thatsamoray.jpg",
+    "cap": "북아메리카 최초 SCP-6023-1 개체 실험 당시 발견된 곰치(고객)와 청소놀래기의 모습."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6023/potat.jpg",
+    "cap": "아시아 최초 SCP-6023-1 개체 실험 당시 발견된 감자바리(고객)와 청소놀래기의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "thatsamoray.jpg"
+    ],
+    [
+     "원본",
+     "Moray6.jpg"
+    ],
+    [
+     "저작권자",
+     "Albert kok"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Moray6.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "potat.jpg"
+    ],
+    [
+     "원본",
+     "Epinephelus tukula is cleaned by two Labroides dimidiatus.jpg"
+    ],
+    [
+     "저작권자",
+     "Richard Ling"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Epinephelus_tukula_is_cleaned_by_two_Labroides_dimidiatus.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-6031": {
   "id": "SCP-6031",
@@ -260,7 +894,9 @@
   "author": "Fish^12",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-6031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6034": {
   "id": "SCP-6034",
@@ -286,7 +922,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6034",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6034/trench.jpg",
+    "cap": "SCP-6034-1 안에서 현상한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6039": {
   "id": "SCP-6039",
@@ -309,6 +952,36 @@
   "author": "Nicolaus Snow",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-6039",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6039/Teddy.jpg",
+    "cap": "화질을 개선한 최초 발견 당시의 SCP-6039이미지"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Teddy"
+    ],
+    [
+     "원본",
+     "Little girl hugs teddy bear toy"
+    ],
+    [
+     "저작권자",
+     "shixart1985"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  }
 }

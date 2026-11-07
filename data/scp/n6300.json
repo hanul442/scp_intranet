@@ -18,7 +18,9 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-6306",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6336": {
   "id": "SCP-6336",
@@ -41,7 +43,9 @@
   "author": "Lamentte",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6336",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6337": {
   "id": "SCP-6337",
@@ -61,6 +65,80 @@
   "author": "syuzhet",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-6337",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/syuzhet/Shaun_Donovan_official_photo_%28cropped%29.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Shaun_Donovan_official_photo_(cropped).jpg"
+    ],
+    [
+     "Name",
+     "Shaun Donovan, Director, Office of Management and Budget (2014-2017), portrait taken during the commissioned officer portrait session in the Eisenhower Executive Office Building of the White House, Se"
+    ],
+    [
+     "Author",
+     "Chuck Kennedy"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Shaun_Donovan_official_photo_(cropped).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "5211990423_0ba87ed27d_w.jpg"
+    ],
+    [
+     "Name",
+     "Ikon Gallery - during my works party - party main room"
+    ],
+    [
+     "Author",
+     "Elliott Brown"
+    ],
+    [
+     "License",
+     "Attribution 2.0 Generic (CC BY 2.0)"
+    ],
+    [
+     "Source Link",
+     "https://flic.kr/p/8WyPaR"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "14839186109_de7b867b9f_w.jpg"
+    ],
+    [
+     "Name",
+     "Roman victim of the 24-25 August 79 A.D. eruption of Mt. Vesuvius (Pompeii, Italy) 4"
+    ],
+    [
+     "Author",
+     "James St. John"
+    ],
+    [
+     "License",
+     "Attribution 2.0 Generic (CC BY 2.0)"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/jsjgeology/14839186109/"
+    ]
+   ]
+  ]
  }
 }

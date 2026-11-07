@@ -19,7 +19,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2551",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2554": {
   "id": "SCP-2554",
@@ -41,7 +43,9 @@
   "author": "SpectralDragon",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2554",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2556": {
   "id": "SCP-2556",
@@ -63,7 +67,63 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2556",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2556/2556a.jpg",
+    "cap": "1956년 재단에 격리권이 양도된 이후에 촬영한 SCP-2556."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2556/2556b.jpg",
+    "cap": "이륙 전 SCP-2556의 승무원. 왼쪽부터, 로저 허니컷 대위, 제임스 일로우스키 소위, 로드니 어웬 대위."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "2556a.jpg"
+    ],
+    [
+     "Name",
+     "B47E in flight.jpg"
+    ],
+    [
+     "Author",
+     "U.S. Air Force"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://en.wikipedia.org/wiki/File:B47E_in_flight.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "2556b.jpg"
+    ],
+    [
+     "Name",
+     "Convair/General Dynamics Plant and Personnel"
+    ],
+    [
+     "Author",
+     "SDASM Archives"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/sdasmarchives/8126107170/"
+    ]
+   ]
+  ]
  },
  "SCP-2558": {
   "id": "SCP-2558",
@@ -87,7 +147,63 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2558/siteasof1971.png",
+    "cap": "이동 전 SCP-2558의 본래 지점, 1969년에 촬영."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2558/panacea3.png",
+    "cap": "플로리다 주 호스슈비치 읍에서부터 최종 상륙지인 파너시아에까지 걸친 SCP-2558의 과거 위치 및 예상 \"파너시아 경로\"."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "siteasof1971.png"
+    ],
+    [
+     "Name",
+     "Bethlehem Primitive Baptist Church building - Old Chicora, Florida"
+    ],
+    [
+     "Author",
+     "Bulger, Peggy A."
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.floridamemory.com/items/show/119868"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "panacea3.png"
+    ],
+    [
+     "Name",
+     "panacea3.png"
+    ],
+    [
+     "Author",
+     "Kate McTiriss"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/scp-2558"
+    ]
+   ]
+  ]
  },
  "SCP-2565": {
   "id": "SCP-2565",
@@ -109,7 +225,9 @@
   "author": "Taffeta",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2565",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2569": {
   "id": "SCP-2569",
@@ -131,7 +249,9 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2569",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2571": {
   "id": "SCP-2571",
@@ -156,7 +276,115 @@
   "author": "The Great Hippo",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2571",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2571/craggle.jpg",
+    "cap": "SCP-2571에서 나타나는 나무에 대한 예술적 묘사물(\"늙은 크래글 나무The Old Craggle Tree\")."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2571/video1.jpg",
+    "cap": "00:23"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2571/video2.jpg",
+    "cap": "01:09"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2571/video5.jpg",
+    "cap": "02:42"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "video5.jpg"
+    ],
+    [
+     "Name",
+     "log-face-fash-tree-forest-spirit"
+    ],
+    [
+     "Author",
+     "Alexas_Fotos"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/log-face-fash-tree-forest-spirit-1091115/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "craggle.jpg"
+    ],
+    [
+     "Name",
+     "tree-creepy-scary-halloween"
+    ],
+    [
+     "Author",
+     "jjfgg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/illustrations/tree-creepy-scary-halloween-1817755/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "video2.jpg"
+    ],
+    [
+     "Name",
+     "tree-face-tree-face-nature-plant"
+    ],
+    [
+     "Author",
+     "15299"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/tree-face-tree-face-nature-plant-68990/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "video1.jpg"
+    ],
+    [
+     "Name",
+     "children-promenade-autumn-landscape"
+    ],
+    [
+     "Author",
+     "AlainAudet"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/children-promenade-autumn-landscape-1138682/"
+    ]
+   ]
+  ]
  },
  "SCP-2573": {
   "id": "SCP-2573",
@@ -179,7 +407,9 @@
   "author": "ch00bakka",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2573",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2578": {
   "id": "SCP-2578",
@@ -204,7 +434,14 @@
   "author": "daveyoufool",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2578",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2578/sicsempertyrannis.jpg",
+    "cap": "[편집됨] 전자우편 계정에서 발견된 SCP-2578-A 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2579": {
   "id": "SCP-2579",
@@ -226,7 +463,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2579",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2579/bearbear.jpg",
+    "cap": "수컷 SCP-2579. 유명한 힙합 춤인 내내(Nae Nae)를 추면서 암컷 개체에게 구애하는 모습이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2580": {
   "id": "SCP-2580",
@@ -247,7 +491,14 @@
   "author": "Zmax15",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2580",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2580/scp-2580.jpg",
+    "cap": "문서 2580-A의 스캔본"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2582": {
   "id": "SCP-2582",
@@ -269,7 +520,9 @@
   "author": "faminepulse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2582",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2583": {
   "id": "SCP-2583",
@@ -288,7 +541,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2583",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2584": {
   "id": "SCP-2584",
@@ -311,7 +566,9 @@
   "author": "llama66613",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2584",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2585": {
   "id": "SCP-2585",
@@ -332,7 +589,37 @@
   "author": "Anborough",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2585",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2585/800px-K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg",
+    "cap": "K2."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "800px-K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg"
+    ],
+    [
+     "원본 제목",
+     "File:K2, Mount Godwin Austen, Chogori, Savage Mountain.jpg"
+    ],
+    [
+     "저작권자",
+     "Athn"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2592": {
   "id": "SCP-2592",
@@ -353,7 +640,14 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2592",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2592/scp2592.png",
+    "cap": "최초 격리 당시 회수된 사진. 촬영 정황은 불상."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2597": {
   "id": "SCP-2597",
@@ -372,7 +666,9 @@
   "author": "GeometryPrime",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2597",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2598": {
   "id": "SCP-2598",
@@ -394,7 +690,14 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2598",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2598/moth.jpg",
+    "cap": "격리된 SCP-2598"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2599": {
   "id": "SCP-2599",
@@ -421,6 +724,8 @@
   "author": "weizhong",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2599",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

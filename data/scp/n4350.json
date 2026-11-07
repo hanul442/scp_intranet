@@ -18,7 +18,33 @@
   "author": "Rounderhouse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4355",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4355/hall.png",
+    "cap": "라치미 기념관에서의 SCP-4355, 1차 탐사 도중 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "hall.png"
+    ],
+    [
+     "Author",
+     "Rounderhouse"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4362": {
   "id": "SCP-4362",
@@ -40,7 +66,33 @@
   "author": "The Great Hippo",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4362",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4362/weapon.png",
+    "cap": "Fig 1.1: ADS 프로그램의 초기 프로토타입."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "weapon.png"
+    ],
+    [
+     "Author",
+     "The Great Hippo"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4364": {
   "id": "SCP-4364",
@@ -64,7 +116,9 @@
   "author": "taylor_itkin",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-4364",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4376": {
   "id": "SCP-4376",
@@ -83,7 +137,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4376",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4380": {
   "id": "SCP-4380",
@@ -109,7 +165,14 @@
   "author": "Felixou",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4380/first.png",
+    "cap": "가장 첫 번째"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4384": {
   "id": "SCP-4384",
@@ -130,7 +193,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4384",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4384/redtail.jpg",
+    "cap": "SCP-4384, 소리를 흡수하며 \"식사\" 중"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "redtail.jpg"
+    ],
+    [
+     "Name",
+     "20170614-OC-PJK-0604"
+    ],
+    [
+     "Author",
+     "Preston Keres"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-4391": {
   "id": "SCP-4391",
@@ -150,7 +243,9 @@
   "author": "NatVoltaic",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-4391",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4394": {
   "id": "SCP-4394",
@@ -176,6 +271,31 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4394",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pianoliquidation.JPG"
+    ],
+    [
+     "Name",
+     "Steinway Vienna 002.JPG"
+    ],
+    [
+     "Author",
+     "Gryffindor"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

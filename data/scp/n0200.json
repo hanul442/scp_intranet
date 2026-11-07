@@ -17,7 +17,9 @@
   "author": "underthered",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-200",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-201": {
   "id": "SCP-201",
@@ -38,7 +40,29 @@
   "author": "Dr Gears",
   "translator": "O-Road",
   "source": "https://scpko.wikidot.com/scp-201",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-201/005.jpg",
+    "cap": "회수된 SCP-201"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "005.jpg"
+    ],
+    [
+     "저작권자",
+     "Skorj"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-202": {
   "id": "SCP-202",
@@ -59,7 +83,9 @@
   "author": "FritzWillie",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-202",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-203": {
   "id": "SCP-203",
@@ -81,7 +107,9 @@
   "author": "Chungy McBungy",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-203",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-204": {
   "id": "SCP-204",
@@ -104,7 +132,9 @@
   "author": "SpoonOfEvil",
   "translator": "jso9923",
   "source": "https://scpko.wikidot.com/scp-204",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-205": {
   "id": "SCP-205",
@@ -126,7 +156,9 @@
   "author": "Sorts",
   "translator": "LoveGold",
   "source": "https://scpko.wikidot.com/scp-205",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-206": {
   "id": "SCP-206",
@@ -148,7 +180,66 @@
   "author": "Dugond",
   "translator": "Gene R",
   "source": "https://scpko.wikidot.com/scp-206",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-1.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-2.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-3.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-4.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-ru.wdfiles.com/local--files/scp-206/img2s.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-6.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-7.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-9.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-10.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-12.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-13.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-14.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-15.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-206/206-18.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-207": {
   "id": "SCP-207",
@@ -168,7 +259,37 @@
   "author": "Aeish",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-207",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-207/SCP207.jpg",
+    "cap": "SCP-207-C"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP207.jpg"
+    ],
+    [
+     "원본",
+     "CocaColaBottle.jpg"
+    ],
+    [
+     "저작권자",
+     "Hariadhi"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-208": {
   "id": "SCP-208",
@@ -192,7 +313,37 @@
   "author": "Dr Kondraki",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-208",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-208/SCP-208.jpg",
+    "cap": "나일 강 삼각주 근처에서 발견된 SCP-208의 조각상"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp208.jpg"
+    ],
+    [
+     "원본",
+     "Egypt.Dendera.Bes.01.jpg"
+    ],
+    [
+     "저작권자",
+     "Hajor"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-209": {
   "id": "SCP-209",
@@ -214,7 +365,9 @@
   "author": "미상",
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-209",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-210": {
   "id": "SCP-210",
@@ -234,7 +387,9 @@
   "author": "Robert Sandler : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-210",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-211": {
   "id": "SCP-211",
@@ -255,7 +410,37 @@
   "author": "Espinoza",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-211",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-211/houseofpages.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "houseofpages.jpg"
+    ],
+    [
+     "Name",
+     "House of Leaves"
+    ],
+    [
+     "Author",
+     "Katherine Lannin"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0 (used with permission)"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-212": {
   "id": "SCP-212",
@@ -275,7 +460,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-212",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-212/SCP-212-1.jpg",
+    "cap": "████████ 요원을 손보는 SCP-212"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-212/SCP-212-2.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-213": {
   "id": "SCP-213",
@@ -296,7 +492,29 @@
   "author": "Daydreamin",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-213",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-213/SCP-213.jpg",
+    "cap": "초기 격리 동안 자신의 변칙적 특성을 발현하는 SCP-213"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "213.JPG"
+    ],
+    [
+     "저작권자",
+     "http://thewashingmachinepost.net (허가 하에 사용)"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-216": {
   "id": "SCP-216",
@@ -317,7 +535,9 @@
   "author": "psh",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-216",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-217": {
   "id": "SCP-217",
@@ -338,7 +558,9 @@
   "author": "Dr Gears",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-217",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-220": {
   "id": "SCP-220",
@@ -360,7 +582,21 @@
   "author": "floridapologia",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-220",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-220/oldcouple%20%281%29-new.jpg",
+    "cap": "격리 중인 SCP-220의 정지 화상"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "oldcouple%20%281%29-new.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-221": {
   "id": "SCP-221",
@@ -379,7 +615,9 @@
   "author": "Arlecchino",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-221",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-222": {
   "id": "SCP-222",
@@ -400,7 +638,9 @@
   "author": "미상",
   "translator": "onze11",
   "source": "https://scpko.wikidot.com/scp-222",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-225": {
   "id": "SCP-225",
@@ -421,7 +661,37 @@
   "author": "RhettSarlin",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-225",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-225/silversphere.jpg",
+    "cap": "SCP-225-1 (왼쪽) 과 SCP-225-2 (오른쪽)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "silversphere.jpg"
+    ],
+    [
+     "원본",
+     "Sputnik asm.jpg, RhettSarlin 본인이 촬영한 하늘 사진"
+    ],
+    [
+     "저작권자",
+     "NSSDC, NASA, RhettSarlin"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인 (원본) / CC BY-SA 3.0 (수정본)"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-226": {
   "id": "SCP-226",
@@ -442,7 +712,9 @@
   "author": "Dr Gerald",
   "translator": "jso9923",
   "source": "https://scpko.wikidot.com/scp-226",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-227": {
   "id": "SCP-227",
@@ -464,7 +736,9 @@
   "author": "sturmhauke",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-227",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-228": {
   "id": "SCP-228",
@@ -484,7 +758,9 @@
   "author": "tunedtoadeadchannel",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-228",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-229": {
   "id": "SCP-229",
@@ -504,7 +780,63 @@
   "author": "Dr Gears",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-229",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-229/SCP-229.jpg",
+    "cap": "SCP-229에 감염된 전신주"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-229/SCP-229-2.jpg",
+    "cap": "이라크 지역에서의 대규모 SCP-229 감염. 사진은 제거 직전에 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-229-1"
+    ],
+    [
+     "Name",
+     "n/a"
+    ],
+    [
+     "Author",
+     "n/a"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pxhere.com/en/photo/924087"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-229-2"
+    ],
+    [
+     "Name",
+     "wire-tangled-wires-tangle"
+    ],
+    [
+     "Author",
+     "kaigraphick"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://pixabay.com/photos/wire-tangled-wires-tangle-1526138/"
+    ]
+   ]
+  ]
  },
  "SCP-230": {
   "id": "SCP-230",
@@ -526,7 +858,9 @@
   "author": "Sc0tch",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-230",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-231": {
   "id": "SCP-231",
@@ -551,7 +885,33 @@
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-231",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "특수 인력 필요"
+  "nickname": "특수 인력 필요",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-231/scp-blank.png",
+    "cap": "O5-██의 지시로 사진 삭제됨"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-blank.png"
+    ],
+    [
+     "저자",
+     "Aelanna, far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-233": {
   "id": "SCP-233",
@@ -570,7 +930,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-233",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-234": {
   "id": "SCP-234",
@@ -592,7 +954,9 @@
   "author": "Aelanna",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-234",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-239": {
   "id": "SCP-239",
@@ -618,7 +982,9 @@
   "author": "Dantensen",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-239",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-242": {
   "id": "SCP-242",
@@ -638,7 +1004,83 @@
   "author": "Phlimm",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-242",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-242/242-1.jpg",
+    "cap": "고여있는 연못의 물, 시간=0분."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-242/242-2.jpg",
+    "cap": "고여있는 연못의 물, 시간=9분."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-242/242-3.jpg",
+    "cap": "고여있는 연못의 물, 시간=16분."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-242/242-4.jpg",
+    "cap": "고여있는 연못의 물, 시간=18분."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "242-1.jpg"
+    ],
+    [
+     "Author",
+     "Phlimm"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "242-2.jpg"
+    ],
+    [
+     "Author",
+     "Phlimm"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "242-3.jpg"
+    ],
+    [
+     "Author",
+     "Phlimm"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "242-4.jpg"
+    ],
+    [
+     "Author",
+     "Phlimm"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-243": {
   "id": "SCP-243",
@@ -657,7 +1099,9 @@
   "author": "Photosynthetic",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-243",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-244": {
   "id": "SCP-244",
@@ -680,7 +1124,9 @@
   "author": "MalcolmMacLean",
   "translator": "aftergduo",
   "source": "https://scpko.wikidot.com/scp-244",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-245": {
   "id": "SCP-245",
@@ -703,7 +1149,9 @@
   "author": "Doctor Cimmerian",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-245",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-247": {
   "id": "SCP-247",
@@ -726,7 +1174,9 @@
   "author": "GwenWinterheart",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-247",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-248": {
   "id": "SCP-248",
@@ -745,7 +1195,9 @@
   "author": "Sir Mize",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-248",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-249": {
   "id": "SCP-249",
@@ -764,6 +1216,8 @@
   "author": "Dr Gerald",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-249",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

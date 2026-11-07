@@ -24,7 +24,9 @@
   "author": "DrBleep ＆ Rimple, Roget의 초안을 재작성함.",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3500",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3502": {
   "id": "SCP-3502",
@@ -43,7 +45,33 @@
   "author": "Zyn, TheManhattenProject의 초안을 재작성함.",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3502",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3502/Kangaroosign.jpg",
+    "cap": "SCP-3502의 영향을 받은 전형적인 표지판. 촬영일자 01/06/20██."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "lobster.jpg"
+    ],
+    [
+     "저자",
+     "Broesis"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-3512": {
   "id": "SCP-3512",
@@ -67,7 +95,93 @@
   "author": "psul",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3512",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3512/Sagrada3.jpg",
+    "cap": "\"사그라다 파밀리아\" 대성전"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3512/Combined.jpg",
+    "cap": "SCP-3512-1의 척추에서 나온 물질 - MTF 제타-9의 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3512/Sagrada1.jpg",
+    "cap": "12장 [14]의 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3512/Sagrada6.jpg",
+    "cap": "사건 3512/A에서 촬영된 동굴 입구"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Combined.jpg"
+    ],
+    [
+     "저자",
+     "psul"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3D Spine Model"
+    ],
+    [
+     "저자",
+     "Zygote media group"
+    ],
+    [
+     "라이선스",
+     "permission from the owner"
+    ],
+    [
+     "출처",
+     "https://www.zygote.com/poly-models/3d-human-skeleton/3d-human-spine"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sagrada6.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sagrada1.jpg"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sagrada3.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-3513": {
   "id": "SCP-3513",
@@ -87,7 +201,21 @@
   "author": "psul",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3513",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3513/Throat.jpg",
+    "cap": "탐사 3513-2 중 D-4353의 대뇌에서 찍은 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Throat.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3515": {
   "id": "SCP-3515",
@@ -109,7 +237,29 @@
   "author": "psul",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-3515",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3515/tree7.jpg",
+    "cap": "SCP-3515"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tree7.jpg"
+    ],
+    [
+     "저자",
+     "Zhange"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-3519": {
   "id": "SCP-3519",
@@ -134,7 +284,9 @@
   "author": "sirpudding",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3519",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3521": {
   "id": "SCP-3521",
@@ -155,7 +307,53 @@
   "author": "djkaktus",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3521",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3521/bananapills.jpg",
+    "cap": "SCP-3521."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3521/location.png",
+    "cap": "미국 조지아주의 제92기지"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3521/site92.jpg",
+    "cap": "제92기지의 무너진 천장. 기지 하층부의 파괴로 인해 피해가 발생했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bananapills.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "location.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "site92.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3529": {
   "id": "SCP-3529",
@@ -178,7 +376,18 @@
   "author": "XilasCrowe",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3529",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3529/sneksnek.jpg",
+    "cap": "사육 상태의 SCP-3529-1 개체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3529/sneksneksnek.jpg",
+    "cap": "\"자우어크라우트\"라는 별명이 주어진 SCP-3529-1 개체. 이 SCP-3529-1 개체가 SCP-3529 코드를 실행하는 역할을 맡는 경우가 모든 경우의 70%로 가장 흔하다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3536": {
   "id": "SCP-3536",
@@ -200,7 +409,21 @@
   "author": "Weryllium",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3536",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3536/machine.jpg",
+    "cap": "SCP-3536의 일부."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "machine.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3537": {
   "id": "SCP-3537",
@@ -223,7 +446,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3537",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3549": {
   "id": "SCP-3549",
@@ -246,6 +471,8 @@
   "author": "DrChandra",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-3549",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -16,7 +16,9 @@
   "translator": "crane135",
   "source": "https://scpko.wikidot.com/scp-500",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "만병통치약"
+  "nickname": "만병통치약",
+  "images": [],
+  "img_credits": []
  },
  "SCP-501": {
   "id": "SCP-501",
@@ -37,7 +39,9 @@
   "author": "Poorsmitty",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-501",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-503": {
   "id": "SCP-503",
@@ -58,7 +62,9 @@
   "author": "DStecks",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-503",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-504": {
   "id": "SCP-504",
@@ -80,7 +86,33 @@
   "author": "BlastYoBoots",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-504",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-504/tomato2.jpg",
+    "cap": "SCP-504"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-504.jpg"
+    ],
+    [
+     "원본",
+     "Tomatoes"
+    ],
+    [
+     "저작권자",
+     "Luke Addison"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-505": {
   "id": "SCP-505",
@@ -103,7 +135,9 @@
   "author": "ModernMajorGeneral",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-505",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-506": {
   "id": "SCP-506",
@@ -124,7 +158,9 @@
   "author": "eric_h",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-506",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-507": {
   "id": "SCP-507",
@@ -145,7 +181,9 @@
   "translator": "XCninety",
   "source": "https://scpko.wikidot.com/scp-507",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "떨떠름한 차원이동자"
+  "nickname": "떨떠름한 차원이동자",
+  "images": [],
+  "img_credits": []
  },
  "SCP-513": {
   "id": "SCP-513",
@@ -166,7 +204,33 @@
   "author": "beefwit",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-513",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-513/SCP-513.JPG",
+    "cap": "SCP-513"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Cowbell.JPG"
+    ],
+    [
+     "원본",
+     "File:Cowbell-2.jpg"
+    ],
+    [
+     "저작권자",
+     "Michael Malak"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-514": {
   "id": "SCP-514",
@@ -188,7 +252,9 @@
   "author": "SpoonOfEvil",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-514",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-516": {
   "id": "SCP-516",
@@ -209,7 +275,29 @@
   "author": "ModernMajorGeneral",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-516",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-516/tank.jpg",
+    "cap": "시험 사격장에 나온 SCP-516"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tank.jpg"
+    ],
+    [
+     "저작권자",
+     "Valder137"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-517": {
   "id": "SCP-517",
@@ -230,7 +318,9 @@
   "author": "Dexanote",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-517",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-523": {
   "id": "SCP-523",
@@ -250,7 +340,9 @@
   "author": "Achalk",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-523",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-524": {
   "id": "SCP-524",
@@ -270,7 +362,37 @@
   "author": "Dr Gerald",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-524",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-524/Waltuh.png",
+    "cap": "우리를 내려다보는 위치에 난 창문을 통해 본 SCP-524의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Waltuh.png"
+    ],
+    [
+     "원본",
+     "Rabbit Rabbits Domestic Animal Cute"
+    ],
+    [
+     "저작권자",
+     "derRenner"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-525": {
   "id": "SCP-525",
@@ -291,7 +413,9 @@
   "author": "Yubi Shines",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-525",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-526": {
   "id": "SCP-526",
@@ -316,7 +440,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-526",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-527": {
   "id": "SCP-527",
@@ -342,7 +468,83 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-527",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-527/flapper-up.png",
+    "cap": "SCP-527."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "flapper-up.png"
+    ],
+    [
+     "저작권자",
+     "Erminustay"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Puntius semifasciolatus in Botanic garden in Teplice.JPG"
+    ],
+    [
+     "저작권자",
+     "Chmee2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Black beaver hat - DPLA - b6d0e1b6b1ba431eee6388650cb516fb (page 2).jpg"
+    ],
+    [
+     "저작권자",
+     "Conner Prairie"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Sir Henry Head. Photograph. Wellcome V0026528.jpg"
+    ],
+    [
+     "저작권자",
+     "Wellcome Trust"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-529": {
   "id": "SCP-529",
@@ -362,7 +564,33 @@
   "author": "미상",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-529",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-529/SCP-529-new.jpg",
+    "cap": "SCP-529"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-529-new.jpg"
+    ],
+    [
+     "원본",
+     "File:Cat on concrete floor.JPG"
+    ],
+    [
+     "저작권자",
+     "Ionutzmovie, JackalRelated에 의해 수정됨"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-530": {
   "id": "SCP-530",
@@ -383,7 +611,9 @@
   "author": "미상",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-530",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-533": {
   "id": "SCP-533",
@@ -402,7 +632,9 @@
   "author": "willangford",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-533",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-536": {
   "id": "SCP-536",
@@ -422,7 +654,9 @@
   "author": "Lancashire McGee",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-536",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-537": {
   "id": "SCP-537",
@@ -444,7 +678,9 @@
   "author": "Achalk",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-537",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-538": {
   "id": "SCP-538",
@@ -467,7 +703,9 @@
   "author": "evictedSaint",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-538",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-542": {
   "id": "SCP-542",
@@ -486,7 +724,9 @@
   "author": "agatharights",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-542",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-543": {
   "id": "SCP-543",
@@ -507,7 +747,33 @@
   "author": "Clipperton",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-543",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-543/tvnoise.jpg",
+    "cap": "텔레비전에서 재생중인 SCP-543"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "tvnoise.jpg"
+    ],
+    [
+     "원본",
+     "File:TV noise.jpg"
+    ],
+    [
+     "저작권자",
+     "Mysid"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-545": {
   "id": "SCP-545",
@@ -531,7 +797,9 @@
   "author": "agatharights",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-545",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-546": {
   "id": "SCP-546",
@@ -550,7 +818,29 @@
   "author": "candidkiss",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-546",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-546/546.jpg",
+    "cap": "SCP-546"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "546.jpg"
+    ],
+    [
+     "저작권자",
+     "candidkiss"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-547": {
   "id": "SCP-547",
@@ -572,7 +862,9 @@
   "author": "AliV",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-547",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-548": {
   "id": "SCP-548",
@@ -592,7 +884,33 @@
   "author": "Dr_Fences",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-548",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-548/scp-548.jpg",
+    "cap": "SCP-548"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "546.jpg"
+    ],
+    [
+     "원본",
+     "File:Haplopelma lividum.jpg"
+    ],
+    [
+     "저작권자",
+     "Dávid Horváth"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-549": {
   "id": "SCP-549",
@@ -613,6 +931,8 @@
   "author": "Skali Sharpnose",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-549",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

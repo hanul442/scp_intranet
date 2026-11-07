@@ -18,7 +18,28 @@
   "author": "bigslothonmyface",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-6502",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Harwick.jpeg"
+    ],
+    [
+     "저작권자",
+     ": ritingon"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/64304130@N00/2569840898"
+    ]
+   ]
+  ]
  },
  "SCP-6525": {
   "id": "SCP-6525",
@@ -39,7 +60,37 @@
   "author": "SketchyTh0ughts",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-6525",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6525/treesss",
+    "cap": "SCP-6525 사건 이후 찍은 사진. 사진에 찍힌 영역에서 90% 이상이 변칙성에 영향을 받았다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "treesss"
+    ],
+    [
+     "원본",
+     "The tree, as it used to be"
+    ],
+    [
+     "저작권자",
+     "Rebecca Partington"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-6535": {
   "id": "SCP-6535",
@@ -63,7 +114,185 @@
   "author": "Ecronak",
   "translator": "Sycop",
   "source": "https://scpko.wikidot.com/scp-6535",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Little_girl_running_to_her_daddy.jpg",
+    "cap": "타이나."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Waterfall_in_Ordesa.jpg",
+    "cap": "타히믹 폭포. 아름다운 장소야."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Green_field_under_a_cloudy_sky,_yellow_flowers,_old_houses_looking_very_American,_two_goats_munching_down,_USA.jpg",
+    "cap": "집."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Milford_Sound_New_Zealand..jpg",
+    "cap": "정말 환상적인 광경이야."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Pure_happiness.jpg",
+    "cap": "우리 자매 영원히 <3"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:sisters-0/Toronto_High_Park_cherry_blossoms.jpg",
+    "cap": "공원으로!"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Waterfall_in_Ordesa.jpg"
+    ],
+    [
+     "Author",
+     "fotografar"
+    ],
+    [
+     "License",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/c335f881-93bc-4bb0-b81f-60c1ea9905ca"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Green_field_under_a_cloudy_sky,_yellow flowers,_old_houses_looking_very_American,_two_goats_munching_down,_USA.jpg"
+    ],
+    [
+     "Author",
+     "Wonderlane"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/2ca9ca68-5f04-44ff-aa08-8b575cea911d"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Milford_Sound_New_Zealand.jpg"
+    ],
+    [
+     "Author",
+     "Bernard Spragg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/75d0b531-7707-463a-999e-5e35150e9a01"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Pure_Happiness.jpg"
+    ],
+    [
+     "Author",
+     "21limited"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/7ba4c929-7b39-4d16-99dc-526f7d7b5d0c"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Little_girl_running_to_her_daddy.jpg"
+    ],
+    [
+     "Author",
+     "travel oriented"
+    ],
+    [
+     "License",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/bfde2860-4448-4acd-8201-b80c14083e99"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Toronto_High_Park_cherry_blossoms"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Smoke_From_a_Stick_in_Hand.jpg"
+    ],
+    [
+     "Author",
+     "plaits"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/28cc7bb3-28b5-48b5-932a-b03684673455"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Dreaming_is_Free.jpg"
+    ],
+    [
+     "Author",
+     "Go-tea 郭天"
+    ],
+    [
+     "License",
+     "CC-BY 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/24c5b19f-eca1-4cb6-8359-70ff98e14144"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Distant_person.jpg"
+    ],
+    [
+     "Author",
+     "StressedTechnician"
+    ],
+    [
+     "License",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.openverse.engineering/image/e50e4a37-d8b2-495c-96e2-d0061976a141"
+    ]
+   ]
+  ]
  },
  "SCP-6541": {
   "id": "SCP-6541",
@@ -83,6 +312,8 @@
   "author": "PoufyPoufson",
   "translator": "Dr_RingoP",
   "source": "https://scpko.wikidot.com/scp-6541",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

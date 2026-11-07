@@ -19,7 +19,89 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4608",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4608/thing.png",
+    "cap": "마지막 격리 규약 적용 이전의 SCP-4608."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4608/one.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4608/two.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "File:Photograph of Logged Off, Burned Over, Nonrestocking Private Land - NARA - 2129428.jpg"
+    ],
+    [
+     "Name",
+     "thing.png"
+    ],
+    [
+     "Author",
+     "U.S. National Archives and Records Administration"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "File:Johnny Appleseed 1.jpg"
+    ],
+    [
+     "Name",
+     "one"
+    ],
+    [
+     "Author",
+     "H. S. Knapp"
+    ],
+    [
+     "License",
+     "public domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "File:Burning Man 2013 Drifts (10227016246).jpg"
+    ],
+    [
+     "Name",
+     "two"
+    ],
+    [
+     "Author",
+     "Jennifer Morrow"
+    ],
+    [
+     "License",
+     "public domain"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-4633": {
   "id": "SCP-4633",
@@ -43,7 +125,29 @@
   "author": "Mortos",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-4633",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4633/hands.jpg",
+    "cap": "확보된 문서."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "hands.jpg"
+    ],
+    [
+     "저자",
+     "Mortos"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-4645": {
   "id": "SCP-4645",
@@ -66,7 +170,21 @@
   "author": "Calibri Bold",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4645",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4645/SCP_Blackmail.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "http://scp-wiki.wdfiles.com/local--files/scp-4645/SCP%20Blackmail"
+    ]
+   ]
+  ]
  },
  "SCP-4647": {
   "id": "SCP-4647",
@@ -86,6 +204,20 @@
   "author": "Weryllium",
   "translator": "fluxman, BFgail",
   "source": "https://scpko.wikidot.com/scp-4647",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4647/truckstop.jpg",
+    "cap": "SCP-4647"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "truckstop.jpg"
+    ]
+   ]
+  ]
  }
 }

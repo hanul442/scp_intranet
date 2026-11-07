@@ -24,7 +24,14 @@
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-1000",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "빅풋"
+  "nickname": "빅풋",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1000/bigfoot_patterson01-new.png",
+    "cap": "검증되지 않은 아마추어 영상의 한 장면"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1001": {
   "id": "SCP-1001",
@@ -46,7 +53,9 @@
   "author": "The Raven",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-1001",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1002": {
   "id": "SCP-1002",
@@ -67,7 +76,9 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1003": {
   "id": "SCP-1003",
@@ -88,7 +99,14 @@
   "author": "Doctor Flibble",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1003",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1003/SCP-1003.jpg",
+    "cap": "[편집됨]의 박제가게에서 회수된 부패한 SCP-1003-2 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1004": {
   "id": "SCP-1004",
@@ -113,7 +131,18 @@
   "author": "AdminBright",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-1004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1004/SCP-1004.jpg",
+    "cap": "SCP-1004의 최신판"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1004/SCP-1004.png",
+    "cap": "SCP-1004의 구판"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1005": {
   "id": "SCP-1005",
@@ -133,7 +162,33 @@
   "author": "ChazzK",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-1005",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1005/SCP-1005.jpg",
+    "cap": "실험 1005-16 종료 후 격리실에서 0 등급 보조 연구원 █████의 도움으로 복원 중인 SCP-1005"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "PaintedMan.jpg"
+    ],
+    [
+     "출처",
+     "https://www.alexameade.com/"
+    ],
+    [
+     "제작자",
+     "Alexa Meade Art"
+    ],
+    [
+     "라이센스",
+     "(허가 하 사용)"
+    ]
+   ]
+  ]
  },
  "SCP-1006": {
   "id": "SCP-1006",
@@ -154,7 +209,33 @@
   "author": "TexasBigfoot",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1006",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1006/spider%20proletariat-new.jpg",
+    "cap": "SCP-1006, 2011년 8월 19일"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "spider proletariat-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Krzysztof Ziarnek"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1007": {
   "id": "SCP-1007",
@@ -180,7 +261,9 @@
   "author": "Doctor Flibble",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1008": {
   "id": "SCP-1008",
@@ -201,7 +284,9 @@
   "author": "Aelanna",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-1008",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1009": {
   "id": "SCP-1009",
@@ -225,7 +310,29 @@
   "author": "Sophia Light",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1009/trees2-small.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "trees2-small.png"
+    ],
+    [
+     "제작자",
+     "Sophia Light"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1010": {
   "id": "SCP-1010",
@@ -249,7 +356,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1010",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1011": {
   "id": "SCP-1011",
@@ -273,7 +382,9 @@
   "author": "VAElynx",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1011",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1012": {
   "id": "SCP-1012",
@@ -293,7 +404,28 @@
   "author": "spikebrennan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1012",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Abandoned Soviet Over-the-Horizon Radar Array - Chernobyl Exclusion Zone - Northern Ukraine - 08.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Abandoned_Soviet_Over-the-Horizon_Radar_Array_-_Chernobyl_Exclusion_Zone_-_Northern_Ukraine_-_08_(26494245624).jpg"
+    ],
+    [
+     "제작자",
+     "Adam Jones from Kelowna, BC, Canada"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1013": {
   "id": "SCP-1013",
@@ -316,7 +448,14 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1013",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1013/348427530_30ea0bd5e2.jpg",
+    "cap": "요원 ███████의 시체. 해당자는 대상에게 노출되고 이틀 뒤 석회화된 조직을 잃기 시작했으며, 시험용 자료를 채취하기도 전에 대량출혈로 실혈사했다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1014": {
   "id": "SCP-1014",
@@ -337,7 +476,9 @@
   "author": "Anaxagoras",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1014",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1015": {
   "id": "SCP-1015",
@@ -357,7 +498,32 @@
   "author": "Lasergoose",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1015",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-1015.webp"
+    ],
+    [
+     "Name",
+     "1974 Aluminum Front"
+    ],
+    [
+     "Author",
+     "Smithsonian Institution"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Picryl"
+    ]
+   ]
+  ]
  },
  "SCP-1016": {
   "id": "SCP-1016",
@@ -378,7 +544,33 @@
   "author": "KeterSatyr",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1016",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1016/bloody_key_by_mercio.jpg",
+    "cap": "증거물로서 수집된 SCP-1016"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bloody_key_by_mercio.jpg"
+    ],
+    [
+     "출처",
+     "https://www.deviantart.com/mercio/art/bloody-key-170754386"
+    ],
+    [
+     "제작자",
+     "mercio"
+    ],
+    [
+     "라이센스",
+     "(허가 하 사용)"
+    ]
+   ]
+  ]
  },
  "SCP-1017": {
   "id": "SCP-1017",
@@ -399,7 +591,9 @@
   "author": "Dr_Madd",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1017",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1018": {
   "id": "SCP-1018",
@@ -421,7 +615,33 @@
   "author": "Tanhony",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1018",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1018/scpunderwater-new.jpg",
+    "cap": "SCP-1018-1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpunderwater-new.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Cristo_degli_abissi.jpg"
+    ],
+    [
+     "제작자",
+     "Yoruno"
+    ],
+    [
+     "라이센스",
+     "CC-BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1020": {
   "id": "SCP-1020",
@@ -444,7 +664,33 @@
   "author": "Lasergoose",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1020",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1020/RANSOM.jpg",
+    "cap": "사건 1020-01 뒤에 회수된 편지와 봉투"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "RANSOM.jpg"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "제작자",
+     "Lasergoose"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1021": {
   "id": "SCP-1021",
@@ -467,7 +713,9 @@
   "author": "Nakruh",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1021",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1022": {
   "id": "SCP-1022",
@@ -488,7 +736,9 @@
   "author": "ModernMajorGeneral",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1023": {
   "id": "SCP-1023",
@@ -508,7 +758,9 @@
   "author": "Zombii",
   "translator": "YangDo",
   "source": "https://scpko.wikidot.com/scp-1023",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1024": {
   "id": "SCP-1024",
@@ -530,7 +782,9 @@
   "author": "Quikngruvn",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-1024",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1025": {
   "id": "SCP-1025",
@@ -551,7 +805,33 @@
   "author": "Lasergoose",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1025",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1025/scp-1025-new.png",
+    "cap": "SCP-1025, 출판사명은 검열되었음."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1025-new.png"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ],
+    [
+     "제작자",
+     "Naepic, Elenee FishTruck"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1026": {
   "id": "SCP-1026",
@@ -572,7 +852,9 @@
   "author": "Doctor Borre",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1026",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1027": {
   "id": "SCP-1027",
@@ -595,7 +877,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1027",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1027/tumblr_lfrqpbXH601qzgcpyo1_500.png",
+    "cap": "격리실 밖에 둔 SCP-1027의 표본. 사진은 The Stranger 제공."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1029": {
   "id": "SCP-1029",
@@ -616,7 +905,33 @@
   "author": "Dr Pip",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1029",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1029/scp-1029.jpg",
+    "cap": "SCP-1029 효과가 나타나지 않는 SCP-1029의 축소판 복사본"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1029.jpg"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/72744295@N00/3435779732"
+    ],
+    [
+     "제작자",
+     "Jim, the Photographer"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1031": {
   "id": "SCP-1031",
@@ -636,7 +951,9 @@
   "author": "Dr Pip",
   "translator": "hs0711",
   "source": "https://scpko.wikidot.com/scp-1031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1032": {
   "id": "SCP-1032",
@@ -659,7 +976,37 @@
   "author": "MrAesthetics",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1032",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1032/SCP-1032-new.jpg",
+    "cap": "SCP-1032의 최근 사진 (확대 불가)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-1032-new.jpg"
+    ],
+    [
+     "Name",
+     "SCP-1032: The Prediction Clock"
+    ],
+    [
+     "Author",
+     "Escape from Site 19"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP-1032"
+    ]
+   ]
+  ]
  },
  "SCP-1033": {
   "id": "SCP-1033",
@@ -681,7 +1028,9 @@
   "author": "noent",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1033",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1036": {
   "id": "SCP-1036",
@@ -703,7 +1052,73 @@
   "author": "spikebrennan",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1036",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1036/1036-6-small.jpg",
+    "cap": "SCP-1036-6 (얼굴 확대)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1036/1036-III-small.jpg",
+    "cap": "SCP-1036-2, -3, -4 (재단에 입수되기 전인 1902년 촬영된 기록사진.)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "British Museum Room 25 Nkisi Kongo people 19th century Detail 17022019 4987.jpg"
+    ],
+    [
+     "제작자",
+     "Vassil"
+    ],
+    [
+     "라이센스",
+     "CC0 1.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Nkisi_Kongo_people_19th_century_Detail_17022019_4987.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1036-6-small.jpg"
+    ],
+    [
+     "제작자",
+     "Jean-Pierre Dalbéra from Paris, France"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Nkondi-RDC.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1036-III-small.jpg"
+    ],
+    [
+     "제작자",
+     "fugzu"
+    ],
+    [
+     "라이센스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "https://www.flickr.com/photos/70253321@N00/15250357997/"
+    ]
+   ]
+  ]
  },
  "SCP-1037": {
   "id": "SCP-1037",
@@ -725,7 +1140,33 @@
   "author": "carbonCore",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1037",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1037/bolt.jpg",
+    "cap": "사건 1037-5 당시, 영향받은 물질들에 둘러싸인 SCP-1037(사진 가운데)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bolt.jpg"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Rusty_railroad_screws.jpg"
+    ],
+    [
+     "제작자",
+     "Kotivalo"
+    ],
+    [
+     "라이센스",
+     "CC0"
+    ]
+   ]
+  ]
  },
  "SCP-1040": {
   "id": "SCP-1040",
@@ -747,7 +1188,9 @@
   "author": "Lumancer",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1040",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1041": {
   "id": "SCP-1041",
@@ -768,7 +1211,9 @@
   "author": "Communism will win",
   "translator": "thd-glasses",
   "source": "https://scpko.wikidot.com/scp-1041",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1043": {
   "id": "SCP-1043",
@@ -790,7 +1235,9 @@
   "author": "VAElynx",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1043",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1044": {
   "id": "SCP-1044",
@@ -810,7 +1257,9 @@
   "author": "SurplusGamer",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1044",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1045": {
   "id": "SCP-1045",
@@ -833,7 +1282,33 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1045",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1045/candle_lantern.jpg?width=409&height=630",
+    "cap": "SCP-1045"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "candle_lantern.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1045"
+    ],
+    [
+     "제작자",
+     "Drewbear"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1046": {
   "id": "SCP-1046",
@@ -856,7 +1331,41 @@
   "author": "Anonymous, Uncle Nicolini(재작성)",
   "translator": "globin",
   "source": "https://scpko.wikidot.com/scp-1046",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1046/tweet1.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1046/tweet2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1046/tweet3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1046/tweet4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1046/tweet5.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "tweet1-5"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1048": {
   "id": "SCP-1048",
@@ -877,7 +1386,9 @@
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-1048",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "건축가 곰"
+  "nickname": "건축가 곰",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1049": {
   "id": "SCP-1049",
@@ -900,6 +1411,13 @@
   "author": "TankCopter",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1049",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1049/SCP-1049.png",
+    "cap": "멕시코 ██████의 조류관찰자가 촬영한 SCP-1049 사진"
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -18,7 +18,9 @@
   "author": "DrScooter",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1950",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1956": {
   "id": "SCP-1956",
@@ -44,7 +46,9 @@
   "author": "DeviantDharma",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1956",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1958": {
   "id": "SCP-1958",
@@ -66,7 +70,33 @@
   "author": "Smapti",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1958",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1958/VWvangrey.jpg",
+    "cap": "복구된 발사 이전의 SCP-1958의 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "VWvangrey.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Kieft"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1959": {
   "id": "SCP-1959",
@@ -88,7 +118,37 @@
   "author": "Dr Hendra",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1959",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1959/1959-new.png",
+    "cap": "2010년 ██월 ██일에 촬영된 SCP-1959"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1959-new.png"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "비고",
+     "Yossipossi 수정"
+    ]
+   ]
+  ]
  },
  "SCP-1960": {
   "id": "SCP-1960",
@@ -109,7 +169,37 @@
   "author": "Tiger66261",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1960",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1960/scp-1960-small.gif",
+    "cap": "1989년 ██월 ██일 보이저 2호가 촬영한 해왕성 사진. SCP-1960 메세지가 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1960-small.gif"
+    ],
+    [
+     "출처",
+     "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/vg2_1127527.html"
+    ],
+    [
+     "제작자",
+     "NASA"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "비고",
+     "ConceptJunkie 수정"
+    ]
+   ]
+  ]
  },
  "SCP-1964": {
   "id": "SCP-1964",
@@ -130,7 +220,9 @@
   "author": "Technician Downs",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-1964",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1965": {
   "id": "SCP-1965",
@@ -151,7 +243,9 @@
   "author": "Smapti",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1965",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1968": {
   "id": "SCP-1968",
@@ -175,7 +269,9 @@
   "author": "Requitefahrenheit",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1968",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1969": {
   "id": "SCP-1969",
@@ -198,7 +294,9 @@
   "author": "Rejekyll",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1969",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1970": {
   "id": "SCP-1970",
@@ -218,7 +316,14 @@
   "author": "Sorts",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1970",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1970/1970.JPG",
+    "cap": "격리 중인 SCP-1970"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1972": {
   "id": "SCP-1972",
@@ -242,7 +347,9 @@
   "author": "Ihp & Djoric",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1972",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1974": {
   "id": "SCP-1974",
@@ -265,7 +372,9 @@
   "author": "Devereaux",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-1974",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1976": {
   "id": "SCP-1976",
@@ -290,7 +399,9 @@
   "author": "RJB_R",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1976",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1981": {
   "id": "SCP-1981",
@@ -311,7 +422,41 @@
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-1981",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "연설 중에 다친 로널드 레이건"
+  "nickname": "연설 중에 다친 로널드 레이건",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1981/SCP-1981.jpg",
+    "cap": "SCP-1981의 정지화면 모음, SCP-1981-1이 찍혀 있음."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1981/SCP-1981-1.jpg",
+    "cap": "2005년 █월 █일 영상의 정지 화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ronreagancutupfs.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1981"
+    ],
+    [
+     "제작자",
+     "Digiwizzard"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "비고",
+     "원본 영상 (퍼블릭 도메인)"
+    ]
+   ]
+  ]
  },
  "SCP-1982": {
   "id": "SCP-1982",
@@ -334,7 +479,33 @@
   "author": "faminepulse",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-1982",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1982/1982-2.png",
+    "cap": "\"기념식 '거물' 호러스\""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1982-2.png"
+    ],
+    [
+     "출처",
+     "아카이브"
+    ],
+    [
+     "제작자",
+     "Thomas Riggs Jr."
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1983": {
   "id": "SCP-1983",
@@ -358,7 +529,9 @@
   "author": "DrEverettMann",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-1983",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1985": {
   "id": "SCP-1985",
@@ -382,7 +555,9 @@
   "author": "thedeadlymoose",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-1985",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1986": {
   "id": "SCP-1986",
@@ -404,7 +579,14 @@
   "author": "Requitefahrenheit",
   "translator": "izenkel, ynha",
   "source": "https://scpko.wikidot.com/scp-1986",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1986/tunz.jpg",
+    "cap": "SCP-1986 터널 입구. 처음 100m에는 광원이 설치되어 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1989": {
   "id": "SCP-1989",
@@ -425,7 +607,9 @@
   "author": "Esperion",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1989",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1990": {
   "id": "SCP-1990",
@@ -447,7 +631,14 @@
   "author": "Amiolas",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1990",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1990/SCP-1990.jpg",
+    "cap": "SCP-1990."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1993": {
   "id": "SCP-1993",
@@ -469,7 +660,9 @@
   "author": "Eskobar",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1993",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1997": {
   "id": "SCP-1997",
@@ -490,7 +683,9 @@
   "author": "Ink Asylum",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1997",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1998": {
   "id": "SCP-1998",
@@ -513,7 +708,9 @@
   "author": "Eskobar",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1999": {
   "id": "SCP-1999",
@@ -534,6 +731,32 @@
   "author": "TL333s",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1999/Img_3389.jpg",
+    "cap": "뉴욕 주 ███████에서 SCP-1999에 영향 받은 샤워 매트"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Img_3389.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1999"
+    ],
+    [
+     "제작자",
+     "TL333s"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

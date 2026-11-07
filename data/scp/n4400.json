@@ -32,7 +32,14 @@
   "author": "NatVoltaic",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-4413",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4413/makingthishappen.png",
+    "cap": "2029년 4월 13일 사건 당시 XTE J1118+480 블랙홀에서 방출된 EM 방사선 스팩트럼. 오전 11시 11분에 녹색 가시광선이 일순간 갑작스럽게 증가했다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4419": {
   "id": "SCP-4419",
@@ -55,7 +62,14 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-4419",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4419/ambulance.jpg",
+    "cap": "출현 이후 해당 지역을 떠나는 SCP-4419."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4428": {
   "id": "SCP-4428",
@@ -81,7 +95,59 @@
   "author": "Lt Flops",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-4428",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4428/dr-michaels.png",
+    "cap": "마이클스 박사의 최근 사진. 인접 환경은 편집되었다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "dr-michaels.png"
+    ],
+    [
+     "Name",
+     "2010 Research Fellows"
+    ],
+    [
+     "Author",
+     "NWABR"
+    ],
+    [
+     "License",
+     "Attribution 2.0 Generic (CC BY 2.0)"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DoMC_Logo100.png"
+    ],
+    [
+     "Name",
+     "DoMC Logo"
+    ],
+    [
+     "Author",
+     "hawkguyy"
+    ],
+    [
+     "License",
+     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+    ],
+    [
+     "Source Link",
+     "Dr. Michaels - SCP Foundation"
+    ]
+   ]
+  ]
  },
  "SCP-4430": {
   "id": "SCP-4430",
@@ -101,7 +167,18 @@
   "author": "Ayers",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-4430",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4430/faceless.jpg",
+    "cap": "〈에반홀리에 사는 얼굴없는 자〉 제6판의 표지 삽화 (28 x 28 cm)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4430/mask.jpg",
+    "cap": "〈에반홀리에 사는 얼굴없는 자〉의 가면무도회."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-4437": {
   "id": "SCP-4437",
@@ -122,7 +199,33 @@
   "author": "Popsioak",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-4437",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4437/map.png",
+    "cap": "SCP-4437이 나타날 수도 있는 구간."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "map.png"
+    ],
+    [
+     "저자",
+     "Popsioak"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-4438": {
   "id": "SCP-4438",
@@ -143,7 +246,9 @@
   "author": "Tanhony",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-4438",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4444": {
   "id": "SCP-4444",
@@ -178,6 +283,180 @@
   "author": "djkaktus",
   "translator": "Crssk & Nareum",
   "source": "https://scpko.wikidot.com/scp-4444",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4444/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4444/bushvgore.png",
+    "cap": "SCP-4444(좌측)와 재단의 일라이어스 쇼 박사(우측)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/location.png",
+    "cap": "미국 테네시 주, 카시지Carthage"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/AlGore.png",
+    "cap": "SCP-4444."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4444/uiuheader.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4444/ticonheader.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/september.jpg",
+    "cap": "사회자 짐 레러와 쇼 이사관이 지켜보는 동안 SCP-4444가 암흑 주문을 시전하는 모습이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/gore2.jpg",
+    "cap": "취소된 다수의 광고 중 하나에 출연한 SCP-4444."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/cat.jpg",
+    "cap": "SCP-4444의 선거 광고 중 한 편에 출연한 고양이."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/bush.jpg",
+    "cap": "2000년 미국 대선 승리를 축하하는 일라이어스 쇼 박사."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4444/gore.jpg",
+    "cap": "해명되지 않은 TV 광고에 출연한 SCP-4444의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "AlGore.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bush.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "bushvgore.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cat.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "gore.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "gore2.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "september.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

@@ -19,7 +19,29 @@
   "author": "AnActualCrow",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5655",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://www.scpwiki.com/local--files/scp-5655/spam.png",
+    "cap": "사건 5655.1 도중의 SCP-5655-1. 알라미 연구원의 바디캠으로 촬영함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "spam.png"
+    ],
+    [
+     "원본",
+     "Incident 5655.1"
+    ],
+    [
+     "저작권자",
+     "AnActualCrow"
+    ]
+   ]
+  ]
  },
  "SCP-5681": {
   "id": "SCP-5681",
@@ -43,7 +65,57 @@
   "author": "Vivarium, Grigori Karpin",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5681",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Gehenna%20Set",
+    "cap": "SCP-5681-1이 화면으로 들어오기 직전 SCP-5681에 등장한 스테이지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/scoreboard",
+    "cap": "SCP-5681에서 보여준 점수판."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Spiral.jpg",
+    "cap": "SCP-5681의 미궁 구역에서 가져온 정지화면."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/Rotten.jpg",
+    "cap": "게임 도중 제시된 \"상품\" 중 하나. 퇴비 재료로 유용하기 때문에 8센트의 가치가 매겨졌다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Set.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Gehenne_Set.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Spiral.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Rotten.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "5681 logo"
+    ]
+   ]
+  ]
  },
  "SCP-5688": {
   "id": "SCP-5688",
@@ -64,7 +136,9 @@
   "author": "Tanhony",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-5688",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5690": {
   "id": "SCP-5690",
@@ -86,7 +160,14 @@
   "author": "",
   "translator": "POI_Damgi",
   "source": "https://scpko.wikidot.com/scp-5690",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5690/redlight.png",
+    "cap": "SCP-5690의 입구."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5696": {
   "id": "SCP-5696",
@@ -113,6 +194,60 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5696",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5696/SCP5696",
+    "cap": "SCP-5696."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5696/SCP5696E",
+    "cap": "\"Finish this job, Kill that cheating bastard.\" [sic]"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP5696"
+    ],
+    [
+     "저작권자",
+     "sickkybricky"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scpwiki.com/scp-5696"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP5696E"
+    ],
+    [
+     "저작권자",
+     "sickkybricky"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scpwiki.com/scp-5696"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "TEST_5696-127"
+    ]
+   ]
+  ]
  }
 }

@@ -20,7 +20,33 @@
   "author": "TwistedGears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2300",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2300/IronGolem-new.jpg",
+    "cap": "SCP-2300-26"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "IronGolem-new.jpg"
+    ],
+    [
+     "Author",
+     "matsuri_ht"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2301": {
   "id": "SCP-2301",
@@ -44,7 +70,9 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2301",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2304": {
   "id": "SCP-2304",
@@ -65,7 +93,105 @@
   "author": "Rounderhouse",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2304",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2304/man.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "shrek.png"
+    ],
+    [
+     "Author",
+     "Uncle Nicolini"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "deep.png"
+    ],
+    [
+     "Author",
+     "plaguebearer"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "beyblade.png"
+    ],
+    [
+     "Author",
+     "plaguebearer"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "man.png"
+    ],
+    [
+     "Author",
+     "Uncle Nicolini"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "rockne.jpg"
+    ],
+    [
+     "Author",
+     "RockTeethMothEyes"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2305": {
   "id": "SCP-2305",
@@ -85,7 +211,33 @@
   "author": "ObserverSeptember",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-2305",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2305/lolz.jpg",
+    "cap": "SCP-2305"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "lolz.jpg"
+    ],
+    [
+     "Author",
+     "ObserverSeptember"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2306": {
   "id": "SCP-2306",
@@ -110,7 +262,37 @@
   "author": "Jacob Conwell",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2306",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2306/SCP-2306.png",
+    "cap": "SCP-2306. 앰퍼샌드가 SCP-2906의 비활성화된 버전인지 단순한 상표인지 현재 조사 중이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "SCP-2306.png"
+    ],
+    [
+     "Name",
+     "Memory Stick"
+    ],
+    [
+     "Author",
+     "Kevin Casper"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2307": {
   "id": "SCP-2307",
@@ -134,7 +316,9 @@
   "author": "Ihp",
   "translator": "thd-glasses",
   "source": "https://scpko.wikidot.com/scp-2307",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2308": {
   "id": "SCP-2308",
@@ -155,7 +339,9 @@
   "author": "GreenWolf",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2308",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2309": {
   "id": "SCP-2309",
@@ -181,7 +367,9 @@
   "author": "Univine",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-2309",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2310": {
   "id": "SCP-2310",
@@ -201,7 +389,9 @@
   "author": "lukebn",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2310",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2312": {
   "id": "SCP-2312",
@@ -223,7 +413,37 @@
   "author": "MrWrong",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2312",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2312/TRNC_location.png",
+    "cap": "녹색 표시: SCP-2312의 효과 영역"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "TRNC_location.png"
+    ],
+    [
+     "Name",
+     "TRNC location.svg"
+    ],
+    [
+     "Author",
+     "Abser"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2316": {
   "id": "SCP-2316",
@@ -247,7 +467,73 @@
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2316",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "수학여행"
+  "nickname": "수학여행",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2316/cwarning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2316/header.png",
+    "cap": "SCP-2316."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "warning.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "cwarning.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "header.png"
+    ],
+    [
+     "Author",
+     "djkaktus"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2317": {
   "id": "SCP-2317",
@@ -273,7 +559,9 @@
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-2317",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "또 다른 세상으로 가는 문"
+  "nickname": "또 다른 세상으로 가는 문",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2324": {
   "id": "SCP-2324",
@@ -297,7 +585,9 @@
   "author": "daveyoufool",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2324",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2329": {
   "id": "SCP-2329",
@@ -321,7 +611,33 @@
   "author": "gishface",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2329",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2329/scp-apartment.png",
+    "cap": "SCP-2329의 로비, 1914년 10월 3일. 기록에 따르면, 본 사진이 촬영될 당시 방 안에 있던 재단 측 인원 4명 모두 각자 저마다의 의자에 앉아있었다 함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-apartment.png"
+    ],
+    [
+     "Author",
+     "gishface"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2332": {
   "id": "SCP-2332",
@@ -349,7 +665,37 @@
   "author": "Zyn",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2332",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2332/2332smallswallowtail.png",
+    "cap": "SCP-2332, 산제비나비일 때 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2332/2332smallsylphina.png",
+    "cap": "SCP-2332, 씰피나보석나비일 때 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "2332smallswallowtail.png"
+    ],
+    [
+     "Author",
+     "Scorpion451"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2336": {
   "id": "SCP-2336",
@@ -369,7 +715,9 @@
   "author": "spikebrennan",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2336",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2337": {
   "id": "SCP-2337",
@@ -394,7 +742,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2337",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2337/corncrake2.jpg",
+    "cap": "SCP-2337"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "corncrake2.jpg"
+    ],
+    [
+     "Name",
+     "Corncrake by Loch Mòr Bharabhais, Isle of Lewis"
+    ],
+    [
+     "Author",
+     "Claire Pegrum"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2339": {
   "id": "SCP-2339",
@@ -416,7 +794,9 @@
   "author": "LilyFlower",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2339",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2342": {
   "id": "SCP-2342",
@@ -439,7 +819,33 @@
   "author": "Randomini",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2342",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2342/scp-2342-new.png",
+    "cap": "Les mots de la majorité l'emportent sur les mots de quelques-uns."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-2342-new.png"
+    ],
+    [
+     "Author",
+     "Elogee Fishtruck"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2345": {
   "id": "SCP-2345",
@@ -461,7 +867,14 @@
   "author": "Lowell",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2345",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2345/untitled-new.jpg",
+    "cap": "SCP-████ 부검 녹화본의 정지 화면"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2347": {
   "id": "SCP-2347",
@@ -484,7 +897,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2347",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2348": {
   "id": "SCP-2348",
@@ -509,6 +924,36 @@
   "author": "NatVoltaic",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2348",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2348/sky.jpg",
+    "cap": "SCP-2348의 최신 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "sky.jpg"
+    ],
+    [
+     "Name",
+     "A cloud"
+    ],
+    [
+     "Author",
+     "Ervins Strauhmanis"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  }
 }

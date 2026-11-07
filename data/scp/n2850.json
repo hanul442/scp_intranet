@@ -20,7 +20,14 @@
   "author": "HotCocoaNerd",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2851",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2851/300px-Color_icon_red.jpg",
+    "cap": "예방접종 그림"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2852": {
   "id": "SCP-2852",
@@ -43,7 +50,14 @@
   "author": "kinchtheknifeblade",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2852",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2852/scpdad.jpg",
+    "cap": "블랙-등급 사건에서의 SCP-2852."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2855": {
   "id": "SCP-2855",
@@ -70,7 +84,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2855",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2860": {
   "id": "SCP-2860",
@@ -93,7 +109,9 @@
   "author": "Jacob Conwell",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2860",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2861": {
   "id": "SCP-2861",
@@ -114,7 +132,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2861",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2862": {
   "id": "SCP-2862",
@@ -136,7 +156,14 @@
   "author": "faminepulse",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2862",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2862/owl.jpg",
+    "cap": "격리 초기 당시 주위 사람을 관찰하는 SCP-2862."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2865": {
   "id": "SCP-2865",
@@ -162,7 +189,9 @@
   "author": "Malum Lupus",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2865",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2866": {
   "id": "SCP-2866",
@@ -181,7 +210,14 @@
   "author": "182crazyking",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2866",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2866/SCP-2866.jpg",
+    "cap": "초기 격리 전의 SCP-2866."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2872": {
   "id": "SCP-2872",
@@ -203,7 +239,9 @@
   "author": "Freudian",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2872",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2873": {
   "id": "SCP-2873",
@@ -227,7 +265,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2873",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2874": {
   "id": "SCP-2874",
@@ -250,7 +290,9 @@
   "author": "Tanhony",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-2874",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2875": {
   "id": "SCP-2875",
@@ -274,7 +316,18 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2875",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2875/bear.jpg",
+    "cap": "SCP-2875의 결과인 위스콘신 주 ███████에서의 SCP-2875-A."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2875/location.png",
+    "cap": "███████, 위스콘신, 미국."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2881": {
   "id": "SCP-2881",
@@ -298,7 +351,33 @@
   "author": "Zmax15",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2881",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2881/scp-2881.JPG",
+    "cap": "SCP-2881"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-2881.JPG"
+    ],
+    [
+     "Author",
+     "Zmax15"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2885": {
   "id": "SCP-2885",
@@ -319,7 +398,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2885",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2886": {
   "id": "SCP-2886",
@@ -342,7 +423,37 @@
   "author": "Multiscoop",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2886",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2886/Olympus_Mons_sm.jpg",
+    "cap": "화성의 SCP-2886."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Olympus_Mons_sm.jpg"
+    ],
+    [
+     "Name",
+     "Olympus Mons.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2889": {
   "id": "SCP-2889",
@@ -367,7 +478,9 @@
   "author": "AbsentmindedNihilist",
   "translator": "Hwarin",
   "source": "https://scpko.wikidot.com/scp-2889",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2894": {
   "id": "SCP-2894",
@@ -389,7 +502,14 @@
   "author": "AndarielHalo",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2894",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2894/metatron.jpg",
+    "cap": "현재 SCP-████ 프로토타입의 반복3"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2897": {
   "id": "SCP-2897",
@@ -413,6 +533,32 @@
   "author": "GreenWolf",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2897",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2897/AnalyticsLetterheadFAO3.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "AnalyticsLetterheadFAO3.png"
+    ],
+    [
+     "Author",
+     "GreenWolf"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

@@ -18,7 +18,9 @@
   "author": "Adam Henderson",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1550",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1556": {
   "id": "SCP-1556",
@@ -40,7 +42,9 @@
   "author": "Fantem",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1556",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1557": {
   "id": "SCP-1557",
@@ -68,7 +72,9 @@
   "author": "marslifeform",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1557",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1558": {
   "id": "SCP-1558",
@@ -88,7 +94,9 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1558",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1561": {
   "id": "SCP-1561",
@@ -110,7 +118,14 @@
   "author": "Daedalus34",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1561",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1561/The%20crown.jpg",
+    "cap": "폐하의 왕관, 심히 아름다운 영광에 넘친다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1562": {
   "id": "SCP-1562",
@@ -132,7 +147,9 @@
   "author": "trennerdios",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1562",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1565": {
   "id": "SCP-1565",
@@ -154,7 +171,14 @@
   "author": "Weryllium",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1565",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1565/kingdomcome.jpg",
+    "cap": "헬라스 분지의 SCP-1565"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1566": {
   "id": "SCP-1566",
@@ -176,7 +200,9 @@
   "author": "NineAndNinetyHours",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1566",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1570": {
   "id": "SCP-1570",
@@ -196,7 +222,9 @@
   "author": "Sorts",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1570",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1574": {
   "id": "SCP-1574",
@@ -222,7 +250,33 @@
   "author": "RJB_R",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1574",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1574/1574.jpg",
+    "cap": "기록된 SCP-1574의 출현"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1574.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1574"
+    ],
+    [
+     "제작자",
+     "익명"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1578": {
   "id": "SCP-1578",
@@ -245,7 +299,33 @@
   "author": "PeppersGhost",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1578",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1578/scp-1578.jpg",
+    "cap": "SCP-1578을 찍었다고 알려진 사진들 중 가장 오래된 것. 이 출현사례는 다리 의복이 결여된 비전형적 사례임에 유의."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-1578.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Irving Telling & Willie Grandon"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-1579": {
   "id": "SCP-1579",
@@ -264,7 +344,9 @@
   "author": "Dexanote",
   "translator": "neighborhard",
   "source": "https://scpko.wikidot.com/scp-1579",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1584": {
   "id": "SCP-1584",
@@ -286,7 +368,9 @@
   "author": "llama66613",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1584",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1585": {
   "id": "SCP-1585",
@@ -307,7 +391,9 @@
   "author": "Zugzwang",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1585",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1588": {
   "id": "SCP-1588",
@@ -330,7 +416,33 @@
   "author": "Smapti",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1588",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1588/cliffs.jpg",
+    "cap": "본래 환경의 SCP-1588(강조된 부분)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cliffs.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Fanny"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1590": {
   "id": "SCP-1590",
@@ -353,7 +465,9 @@
   "author": "AdminBright",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1590",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1591": {
   "id": "SCP-1591",
@@ -375,7 +489,33 @@
   "author": "RJB_R",
   "translator": "hostile",
   "source": "https://scpko.wikidot.com/scp-1591",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1591/1591-new.jpg",
+    "cap": "등급이 재조정되기 전, 실험 중인 SCP-1591."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1591-new.jpg"
+    ],
+    [
+     "출처",
+     "https://www.geograph.org.uk/photo/6166311"
+    ],
+    [
+     "제작자",
+     "Rod Allday"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1593": {
   "id": "SCP-1593",
@@ -399,7 +539,9 @@
   "author": "Tanhony",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-1593",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1595": {
   "id": "SCP-1595",
@@ -418,6 +560,8 @@
   "author": "Dmatix",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1595",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

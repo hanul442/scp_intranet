@@ -20,7 +20,37 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1151-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1151-ko/Diamond.jpg",
+    "cap": "회수된 SCP-1151-KO-2 개체들을 촬영한 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Diamond.jpg"
+    ],
+    [
+     "원본",
+     "File:Diamond-249288.jpg"
+    ],
+    [
+     "저작권자",
+     "Robert M. Lavinsky"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-1155-KO": {
   "id": "SCP-1155-KO",
@@ -44,7 +74,18 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1155-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/queiqneasnjdnkasacasd/Family",
+    "cap": "물체 1155-KO.1"
+   },
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/queiqneasnjdnkasacasd/Head",
+    "cap": "물체 1155-KO.2"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1159-KO": {
   "id": "SCP-1159-KO",
@@ -70,7 +111,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1159-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1164-KO": {
   "id": "SCP-1164-KO",
@@ -95,7 +138,34 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1164-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/%EC%99%B8%EC%84%A4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/Glasses.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/Lime2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/Imnotwiki.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/romrom.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1164-ko/%EA%B3%A0%EC%96%91%EC%9D%B4.png",
+    "cap": "SCP-6003-KO의 모습이라고 주장되는 사진, 기지 인원의 인식재해적 피해를 분석 중이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1173-KO": {
   "id": "SCP-1173-KO",
@@ -116,7 +186,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1173-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1180-KO": {
   "id": "SCP-1180-KO",
@@ -141,7 +213,9 @@
   "author": "tul-uffle",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1180-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1186-KO": {
   "id": "SCP-1186-KO",
@@ -164,7 +238,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1186-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1188-KO": {
   "id": "SCP-1188-KO",
@@ -190,7 +266,14 @@
   "author": "dmddo",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1188-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1188-ko/fish",
+    "cap": "어린 노랑씬벵이."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1190-KO": {
   "id": "SCP-1190-KO",
@@ -212,7 +295,9 @@
   "author": "CatSi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1190-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1192-KO": {
   "id": "SCP-1192-KO",
@@ -239,7 +324,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1192-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1192-ko/timmy.png",
+    "cap": "SCP-1192-KO"
+   },
+   {
+    "src": "https://scp-jp-storage.wdfiles.com/local--files/file%3A5644609-81-3uqa/%E9%83%A8%E9%96%80%E3%83%AD%E3%82%B4.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1194-KO": {
   "id": "SCP-1194-KO",
@@ -263,7 +359,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1194-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1195-KO": {
   "id": "SCP-1195-KO",
@@ -285,7 +383,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1195-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1198-KO": {
   "id": "SCP-1198-KO",
@@ -307,7 +407,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1198-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1199-KO": {
   "id": "SCP-1199-KO",
@@ -333,6 +435,41 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1199-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/guinimon.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/spamon.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/hydra.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/peanut.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/maria.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/mugung.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/skinwalker.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1199-ko/kos.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  }
 }

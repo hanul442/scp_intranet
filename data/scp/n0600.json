@@ -17,7 +17,9 @@
   "author": "Rejekyll",
   "translator": "maliel",
   "source": "https://scpko.wikidot.com/scp-600",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-603": {
   "id": "SCP-603",
@@ -41,7 +43,22 @@
   "author": "psh",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-603",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-603/primes.png",
+    "cap": "SCP-603의 아웃풋"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-603/jacob.png",
+    "cap": "2008년 2월 4일자 제이컵의 스크린샷."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-603/ram_dist_thumb.jpg",
+    "cap": "SCP-603-95의 스크린샷"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-604": {
   "id": "SCP-604",
@@ -61,7 +78,9 @@
   "author": "name",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-604",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-607": {
   "id": "SCP-607",
@@ -82,7 +101,9 @@
   "author": "tunedtoadeadchannel",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-607",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-609": {
   "id": "SCP-609",
@@ -105,7 +126,9 @@
   "author": "Silberescher",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-609",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-610": {
   "id": "SCP-610",
@@ -126,7 +149,51 @@
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-610",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "증오의 살점"
+  "nickname": "증오의 살점",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-610/610-new.png",
+    "cap": "SCP-610 감염자들과 개조된 환경. 사진에 보이는 것은 감염된 생물, 감염된 무생물, 감염된 비인간, 그리고 감염된 정체불명의 무언가들이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "610.png"
+    ],
+    [
+     "저작권자",
+     "stephlynch, Austin Beaulier"
+    ],
+    [
+     "라이선스",
+     "CC-BY 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "My dog Sookie sleeping"
+    ],
+    [
+     "저작권자",
+     "Austin Beaulier"
+    ],
+    [
+     "라이선스",
+     "CC BY 4.0"
+    ],
+    [
+     "출처",
+     "Sketchfab"
+    ]
+   ]
+  ]
  },
  "SCP-611": {
   "id": "SCP-611",
@@ -146,7 +213,9 @@
   "author": "TroyL",
   "translator": "Hume_David",
   "source": "https://scpko.wikidot.com/scp-611",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-613": {
   "id": "SCP-613",
@@ -167,7 +236,9 @@
   "author": "Shue Donham",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-613",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-614": {
   "id": "SCP-614",
@@ -189,7 +260,14 @@
   "author": "oops_ur_dead",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-614",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-614/615.png",
+    "cap": "SCP-614 메인 페이지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-616": {
   "id": "SCP-616",
@@ -217,7 +295,9 @@
   "author": "미상",
   "translator": "LHSein",
   "source": "https://scpko.wikidot.com/scp-616",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-617": {
   "id": "SCP-617",
@@ -240,7 +320,9 @@
   "author": "SpoonOfEvil",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-617",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-618": {
   "id": "SCP-618",
@@ -268,7 +350,14 @@
   "author": "PlaguePJP",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-618",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-618/baby.png",
+    "cap": "브로콜리를 먹고 있는 실험 대상 A-4."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-619": {
   "id": "SCP-619",
@@ -288,7 +377,9 @@
   "author": "Communism will win",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-619",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-627": {
   "id": "SCP-627",
@@ -309,7 +400,9 @@
   "author": "AdminBright",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-627",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-628": {
   "id": "SCP-628",
@@ -332,7 +425,9 @@
   "author": "Photosynthetic",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-628",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-630": {
   "id": "SCP-630",
@@ -359,7 +454,9 @@
   "author": "ohnorobot",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-630",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-634": {
   "id": "SCP-634",
@@ -380,7 +477,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-634",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-634/Goldfish-new.jpg",
+    "cap": "확보 당시의 SCP-634"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Goldfish-new.jpg"
+    ],
+    [
+     "원본",
+     "Golden Fish.jpg"
+    ],
+    [
+     "저작권자",
+     "TenisViejos"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-635": {
   "id": "SCP-635",
@@ -402,7 +529,9 @@
   "author": "sandrewswann",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-635",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-636": {
   "id": "SCP-636",
@@ -423,7 +552,9 @@
   "author": "Aelanna",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-636",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-638": {
   "id": "SCP-638",
@@ -447,7 +578,121 @@
   "author": "Rounderhouse",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-638",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-638/chappellheader.png",
+    "cap": "리처드 채플, 1904년경."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-638/bagels.jpg",
+    "cap": "SCP-638-A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-638/moody.jpg",
+    "cap": "SCP-638-B"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-638/fiori.jpg",
+    "cap": "SCP-638-C"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-638/ahtum.jpg",
+    "cap": "SCP-638-D와 -E, 각각 왼쪽과 오른쪽의 인물."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ahtum.jpg"
+    ],
+    [
+     "Author",
+     "New South Wales. Police Dept."
+    ],
+    [
+     "License",
+     "Public Domain (per per Australian Copyright Council)"
+    ],
+    [
+     "Source Link",
+     "Sydney Living Museums"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "bagels.jpg"
+    ],
+    [
+     "Author",
+     "New South Wales. Police Dept."
+    ],
+    [
+     "License",
+     "Public Domain (per per Australian Copyright Council)"
+    ],
+    [
+     "Source Link",
+     "Sydney Living Museums"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "chappellheader.png"
+    ],
+    [
+     "Author",
+     "New South Wales. Police Dept."
+    ],
+    [
+     "License",
+     "Public Domain (per per Australian Copyright Council)"
+    ],
+    [
+     "Source Link",
+     "Sydney Living Museums"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "fiori.jpg"
+    ],
+    [
+     "Author",
+     "New South Wales. Police Dept."
+    ],
+    [
+     "License",
+     "Public Domain (per per Australian Copyright Council)"
+    ],
+    [
+     "Source Link",
+     "Sydney Living Museums"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "moody.jpg"
+    ],
+    [
+     "Author",
+     "New South Wales. Police Dept."
+    ],
+    [
+     "License",
+     "Public Domain (per per Australian Copyright Council)"
+    ],
+    [
+     "Source Link",
+     "Sydney Living Museums"
+    ]
+   ]
+  ]
  },
  "SCP-639": {
   "id": "SCP-639",
@@ -469,7 +714,9 @@
   "author": "Magello",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-639",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-641": {
   "id": "SCP-641",
@@ -490,7 +737,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-641",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-641/EggDoll.jpg",
+    "cap": "분해 후 약 45분이 경과한 인형의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-642": {
   "id": "SCP-642",
@@ -510,7 +764,9 @@
   "author": "Camwyn",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-642",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-644": {
   "id": "SCP-644",
@@ -534,7 +790,9 @@
   "author": "TyGently",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-644",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-645": {
   "id": "SCP-645",
@@ -557,7 +815,9 @@
   "author": "Mezzo & Voct (재작성)",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-645",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-648": {
   "id": "SCP-648",
@@ -578,7 +838,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-648",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-649": {
   "id": "SCP-649",
@@ -599,6 +861,27 @@
   "author": "AsmodeusDark",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-649",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "649-new"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "CC0 Public Domain"
+    ],
+    [
+     "Source Link",
+     "pxhere"
+    ]
+   ]
+  ]
  }
 }

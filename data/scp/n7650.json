@@ -21,7 +21,33 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7687",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7687/ICU.png",
+    "cap": "눈물기관."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "ICU.png"
+    ],
+    [
+     "Author",
+     "National Department of Scientific Instruction"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7693": {
   "id": "SCP-7693",
@@ -43,7 +69,21 @@
   "author": "ParallelPotatoes",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7693",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7693/cow.jpg",
+    "cap": "SCP-7693으로 인해 침묵당한 소"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "cow.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7699": {
   "id": "SCP-7699",
@@ -62,6 +102,58 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7699",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7699/quiet.png",
+    "cap": "Thumbnail"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "moon.png"
+    ],
+    [
+     "Name",
+     "File:AS11-44-6550.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "footprint.jpeg"
+    ],
+    [
+     "Name",
+     "File:AldrinFootprint.jpg"
+    ],
+    [
+     "Author",
+     "Buzz Aldrin"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

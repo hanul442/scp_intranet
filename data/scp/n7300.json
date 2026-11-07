@@ -20,7 +20,37 @@
   "author": "Ellie3",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-7300",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7300/plankton.jpg",
+    "cap": "SCP-7300 (중앙)."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "plankton.jpg"
+    ],
+    [
+     "원본",
+     "Mikrofoto.de-Pleurosigma angulatum-11.jpg"
+    ],
+    [
+     "저작권자",
+     "Frank Fox"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 DE"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7303": {
   "id": "SCP-7303",
@@ -41,7 +71,67 @@
   "author": "",
   "translator": "Crsnd",
   "source": "https://scpko.wikidot.com/scp-7303",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5798/warning.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7303/Xray.jpg",
+    "cap": "무증상 갈비뼈 골절로 진단받은 환자의 엑스레이 사진. 골격 구조의 손상이 없는 것을 유념하라."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7303/Dockery.jpg",
+    "cap": "헨리 닥커리 박사"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Xray.jpg"
+    ],
+    [
+     "Name",
+     "Chest X-ray.jpg"
+    ],
+    [
+     "Author",
+     "Ptrump16"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Chest_X-ray.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Dockery.jpg"
+    ],
+    [
+     "Name",
+     "41-year-old man with partial gray hair.jpg"
+    ],
+    [
+     "Author",
+     "Francis Helminski"
+    ],
+    [
+     "License",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:41_year_old_man_with_partial_gray_hair.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7311": {
   "id": "SCP-7311",
@@ -67,7 +157,32 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7311",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "National_Security_Agency_headquarters%2C_Fort_Meade%2C_Maryland.jpg"
+    ],
+    [
+     "Name",
+     "National Security Agency headquarters, Fort Meade, Maryland.jpg"
+    ],
+    [
+     "Author",
+     "National Security Agency"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-7313": {
   "id": "SCP-7313",
@@ -92,7 +207,33 @@
   "author": "JakdragonX",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-7313",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7313/door.jpg",
+    "cap": "SCP-7313으로 통하는 문."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "door.jpg"
+    ],
+    [
+     "저작권자",
+     "Bri"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-7328": {
   "id": "SCP-7328",
@@ -116,7 +257,9 @@
   "author": "Kothardarastrix",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7328",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7333": {
   "id": "SCP-7333",
@@ -140,7 +283,33 @@
   "author": "Zyn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7333",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7333/business.jpg",
+    "cap": "몬태나주 빌링스에서 확보된 뒤 임시 격리된 SCP-7333."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "business.jpg"
+    ],
+    [
+     "Author",
+     "Zyn"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "http://scp-wiki.wikidot.com/local--files/scp-7333/business.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7340": {
   "id": "SCP-7340",
@@ -164,7 +333,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-7340",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7340/Operating_room_anesthetic_station.jpg",
+    "cap": "제96의료기지의 SCP-7340 마취실."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Operating_room_anesthetic_station.jpg"
+    ],
+    [
+     "Name",
+     "Operating room anesthetic station"
+    ],
+    [
+     "Author",
+     "Coronation Dental Specialty Group"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-7342": {
   "id": "SCP-7342",
@@ -185,6 +384,32 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7342",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7342/7342.jpg",
+    "cap": "SCP-7342-1 내용물. 각 시리얼 조각은 원 제품보다 모양이 불규칙하다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Reese's_Puffs_Bats_(48923025367).jpg"
+    ],
+    [
+     "Author",
+     "Matthew Bellemare"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

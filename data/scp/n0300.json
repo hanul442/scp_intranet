@@ -18,7 +18,37 @@
   "author": "Aelanna",
   "translator": "Spawn Lenic",
   "source": "https://scpko.wikidot.com/scp-300",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-300/scp300-2.png",
+    "cap": "SCP-300, 격리 이전에 촬영된 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-300/AW-signature.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp300-2.png"
+    ],
+    [
+     "저작권자",
+     "Debbie Anderson"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-302": {
   "id": "SCP-302",
@@ -39,7 +69,9 @@
   "author": "Pair Of Ducks",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-302",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-303": {
   "id": "SCP-303",
@@ -60,7 +92,9 @@
   "author": "AJAlkaline",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-303",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-304": {
   "id": "SCP-304",
@@ -80,7 +114,9 @@
   "author": "Dr_Adams",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-304",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-307": {
   "id": "SCP-307",
@@ -102,7 +138,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-307",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-307/carnivorousivy-new.jpg",
+    "cap": "SCP-307"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-309": {
   "id": "SCP-309",
@@ -123,7 +166,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-309",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-309/stuffedanimal.jpg",
+    "cap": "SCP-309"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-309/invertedbody-new.jpg",
+    "cap": "불행히도 SCP-309를 발견한 ██████ 요원."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-310": {
   "id": "SCP-310",
@@ -143,7 +197,18 @@
   "author": "JonnyD",
   "translator": "Bunting",
   "source": "https://scpko.wikidot.com/scp-310",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-310/scp-310-candle.jpg",
+    "cap": "격리에서 해제된 SCP-310의 불이 붙은 부분의 클로즈업"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-310/scp-310-body.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-312": {
   "id": "SCP-312",
@@ -165,7 +230,29 @@
   "author": "GwenWinterheart",
   "translator": "blackmagpie : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다.",
   "source": "https://scpko.wikidot.com/scp-312",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-312/yoric",
+    "cap": "특이한 형상의 구름으로 위장한 SCP-312."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-312.jpg"
+    ],
+    [
+     "저작권자",
+     "The Spood Kumo"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-313": {
   "id": "SCP-313",
@@ -185,7 +272,9 @@
   "author": "HK-016",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-313",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-317": {
   "id": "SCP-317",
@@ -208,7 +297,9 @@
   "author": "Voct",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-317",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-319": {
   "id": "SCP-319",
@@ -230,7 +321,9 @@
   "author": "sandrewswann",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-319",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-321": {
   "id": "SCP-321",
@@ -252,7 +345,9 @@
   "author": "AdminBright",
   "translator": "O-Road",
   "source": "https://scpko.wikidot.com/scp-321",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-322": {
   "id": "SCP-322",
@@ -272,7 +367,9 @@
   "author": "Kain Pathos Crow",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-322",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-323": {
   "id": "SCP-323",
@@ -295,7 +392,33 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-323",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-323/uhhDc.png",
+    "cap": "임시 실험실의 SCP-323"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Deer Skull. Paradise Valley, Nevada Folklife Collection"
+    ],
+    [
+     "Author",
+     "Alfred Harrell"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "https://picryl.com/media/deer-skull"
+    ]
+   ]
+  ]
  },
  "SCP-329": {
   "id": "SCP-329",
@@ -316,7 +439,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-329",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-330": {
   "id": "SCP-330",
@@ -337,7 +462,9 @@
   "author": "Dr Kondraki",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-330",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-331": {
   "id": "SCP-331",
@@ -357,7 +484,9 @@
   "author": "Jack Rankin",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-331",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-332": {
   "id": "SCP-332",
@@ -386,7 +515,85 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-332",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment:scp-332-0/band.jpg",
+    "cap": "변칙성을 얻기 이전 SCP-332의 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "band.jpg"
+    ],
+    [
+     "Name",
+     "EHS Band 1960.jpg"
+    ],
+    [
+     "Author",
+     "Brett L Lloyd"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "field.jpg"
+    ],
+    [
+     "Name",
+     "East Davidson High School 3"
+    ],
+    [
+     "Author",
+     "Mx. Granger"
+    ],
+    [
+     "License",
+     "CC0 1.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "padlock.png"
+    ],
+    [
+     "Name",
+     "Document text security.svg"
+    ],
+    [
+     "Author",
+     "PICOL, PIctorial COmmunication Language"
+    ],
+    [
+     "License",
+     "CC BY 3.0"
+    ],
+    [
+     "Source",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-335": {
   "id": "SCP-335",
@@ -405,7 +612,9 @@
   "author": "Dave Rapp",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-335",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-336": {
   "id": "SCP-336",
@@ -425,7 +634,9 @@
   "author": "Dr Kondraki",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-336",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-338": {
   "id": "SCP-338",
@@ -445,7 +656,9 @@
   "author": "Drewbear",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-338",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-339": {
   "id": "SCP-339",
@@ -465,7 +678,9 @@
   "author": "Dr Blank",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-339",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-341": {
   "id": "SCP-341",
@@ -485,7 +700,33 @@
   "author": "FritzWillie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-341",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-341/SCP-341-1.jpg",
+    "cap": "항성계의들과 함께 발견된 설계도. 이 설계도에 따른 항성계의는 제작되지 않았거나 분실된 것으로 보인다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "341-4.jpg"
+    ],
+    [
+     "원본",
+     "File:William Pearson Orrery.png"
+    ],
+    [
+     "저작권자",
+     "David Brewster"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ]
+  ]
  },
  "SCP-342": {
   "id": "SCP-342",
@@ -510,7 +751,14 @@
   "author": "name",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-342",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-342/SCP-342.jpg",
+    "cap": "SCP-342의 각각의 형태를 한 사진에 모은 콜라주"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-343": {
   "id": "SCP-343",
@@ -534,7 +782,9 @@
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-343",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "\"신\""
+  "nickname": "\"신\"",
+  "images": [],
+  "img_credits": []
  },
  "SCP-344": {
   "id": "SCP-344",
@@ -555,7 +805,9 @@
   "author": "Iron_Wolf_",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-344",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-346": {
   "id": "SCP-346",
@@ -579,7 +831,9 @@
   "author": "agatharights",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-346",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-347": {
   "id": "SCP-347",
@@ -602,7 +856,9 @@
   "author": "agatharights",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-347",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-348": {
   "id": "SCP-348",
@@ -627,6 +883,23 @@
   "author": "Zyn",
   "translator": "KKH313",
   "source": "https://scpko.wikidot.com/scp-348",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "348.jpg"
+    ],
+    [
+     "저작권자",
+     "Zyn"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  }
 }

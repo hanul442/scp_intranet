@@ -19,7 +19,55 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3200",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3200/research.png",
+    "cap": "민간 과학기관에서 작성한 SCP-3200 지도. 보이는 점들은 모두 변칙존재의 앞에 위치한 항성/은하들을 나타낸다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3200/astronaut.jpg",
+    "cap": "송골매 9호 탐사대 승무원. 왼쪽에서 오른쪽 순서로 알렉산더 모로, 미하일 쿠즈네초프, 토머스 세웰."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "research.png"
+    ],
+    [
+     "저자",
+     "El C"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Boovoid.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "astronaut.jpg"
+    ],
+    [
+     "저자",
+     "NASA"
+    ],
+    [
+     "라이선스",
+     "public domain"
+    ],
+    [
+     "출처",
+     "https://www.nasa.gov/image-article/expedition-44-backup-crew-members/"
+    ]
+   ]
+  ]
  },
  "SCP-3201": {
   "id": "SCP-3201",
@@ -43,7 +91,62 @@
   "author": "xplkqlkcassia",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3201",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/verification%20gif.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/moving%20green%20dots%20gif.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/big%20words.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/sharper-doggos(2).png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/needs%20a%20carpenter.png",
+    "cap": "사하 공화국 로가시키노의 주민들은 1984년 SCP-3201 개체가 반복적으로 출현한 후 GRU-P 부서에 의해 강제로 이주했다. (2008)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/drawing.png",
+    "cap": "1967년 작성된 예비 문건. SCP-3201이 시각적으로 묘사된 최초의 문서다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/metal%20doggos.png",
+    "cap": "SCP-3201-25가 수집한 물품들의 예시 (1985)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/chinese%20state%20security.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/cube%20doggos.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/scary%20man.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/setting%20sun.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/alien%20writing.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3201/bottom%20image.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3203": {
   "id": "SCP-3203",
@@ -63,7 +166,9 @@
   "author": "Captain Kirby",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3203",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3209": {
   "id": "SCP-3209",
@@ -86,7 +191,9 @@
   "author": "jabyrwock",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3209",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3211": {
   "id": "SCP-3211",
@@ -109,7 +216,9 @@
   "author": "Croquembouche",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3211",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3213": {
   "id": "SCP-3213",
@@ -134,7 +243,14 @@
   "author": "Doctor Cimmerian",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3213",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3213/SCP-3213_Affected_Animal.jpg",
+    "cap": "야생 남방코끼리바다표범을 이용한 실험 시도. 피험체는 SCP-3213이 주변에서 사라지기 전까지 “꺼져, 칼!” 이라는 소리를 냈다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3216": {
   "id": "SCP-3216",
@@ -153,7 +269,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3216",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3220": {
   "id": "SCP-3220",
@@ -176,7 +294,16 @@
   "author": "A Random Day",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3220",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "shaft"
+    ]
+   ]
+  ]
  },
  "SCP-3221": {
   "id": "SCP-3221",
@@ -207,7 +334,21 @@
   "author": "Modern_Erasmus ＆ Tufto",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3221",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3221/11271766325_25c24f49fc_z.jpg",
+    "cap": "SCP-3221을 가두고 있는 기계장치의 일부분."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "11271766325_25c24f49fc_z.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3222": {
   "id": "SCP-3222",
@@ -227,7 +368,164 @@
   "author": "CannedBread",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3222",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pencil1.jpeg"
+    ],
+    [
+     "Name",
+     "pencil1.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil2.jpeg"
+    ],
+    [
+     "Name",
+     "pencil2.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil3.jpeg"
+    ],
+    [
+     "Name",
+     "pencil3.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil4.jpeg"
+    ],
+    [
+     "Name",
+     "pencil4.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil5.jpeg"
+    ],
+    [
+     "Name",
+     "pencil5.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil6.jpeg"
+    ],
+    [
+     "Name",
+     "pencil6.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pencil7.jpeg"
+    ],
+    [
+     "Name",
+     "pencil7.jpeg"
+    ],
+    [
+     "Author",
+     "CannedBread"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "here"
+    ]
+   ]
+  ]
  },
  "SCP-3226": {
   "id": "SCP-3226",
@@ -249,7 +547,29 @@
   "author": "Lesh",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3226",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3226/headbones_creepitation(1).png",
+    "cap": "원 포장에 그려진 SCP-3226."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "headbones_creepitation(1).png"
+    ],
+    [
+     "저자",
+     "Lesh"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-3236": {
   "id": "SCP-3236",
@@ -274,7 +594,33 @@
   "author": "spikebrennan ＆ OthellotheCat＆ Dr Does Little",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3236",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3236/I-sopod_Flotation_Tank.jpg",
+    "cap": "SCP-3236"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "I-sopod_Flotation_Tank.jpg"
+    ],
+    [
+     "저자",
+     "Floatguru"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3240": {
   "id": "SCP-3240",
@@ -295,7 +641,14 @@
   "author": "AbsentmindedNihilist",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3240",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3240/fox.jpg",
+    "cap": "SCP-3240을 막 시작한 은여우. 위 사진은 해당 개체가 핀란드의 모피 농장에서 회수되었을 때 촬영되었다. 꼬리는 다시 자라났고, 현재 온전한 기능을 되찾았다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3243": {
   "id": "SCP-3243",
@@ -318,7 +671,21 @@
   "author": "Niagara66",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3243",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3243/Everglades.jpg",
+    "cap": "플로리다주 에버글레이즈의 SCP-3243이 자주 출몰하는 구역."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Everglades.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3246": {
   "id": "SCP-3246",
@@ -339,6 +706,180 @@
   "author": "Henzoid",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-3246",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/darkness3.png",
+    "cap": "SCP-3246"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/darktent.png",
+    "cap": "이전에 SCP-█████였던 동굴의 외부. 동굴 내부는 비정상적으로 높은 SCP-3246의 밀도로 인해 파악할 수 없다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/entryway.png",
+    "cap": "라미슨 가족 거주지의 내부 진입로"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/thumpingnoise.png",
+    "cap": "빨래방"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/familyroom3.png",
+    "cap": "이후 7살의 제이미 라미슨과 1살의 에밀리아 라미슨으로 확인됨. 둘 다 해당 주택의 거주자였다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/nycdarkline3MINE.png",
+    "cap": "드론으로 촬영한 촬영본, 편집되지 않은 맨하탄 영상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3246/nycdarklineexposed3MINE.png",
+    "cap": "300만개의 어두운 인간 형체들이 아침 하늘로 승천하면서 도시 경계 내부에서 메아리와 함께 내는 비명의 합창."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "darktent.png"
+    ],
+    [
+     "Name",
+     "\"Hawaiian lava tube\""
+    ],
+    [
+     "Author",
+     "Dave Bunnell"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 2.5 Generic"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Hawaiian_lava_tube.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "darktent.png"
+    ],
+    [
+     "Name",
+     "\"Todarodes pacificus tentacle\""
+    ],
+    [
+     "Author",
+     "A. Pollock"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Todarodes_pacificus_tentacle.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "entryway.png"
+    ],
+    [
+     "Name",
+     "\"Perpendicular hallway 02\""
+    ],
+    [
+     "Author",
+     "Almanta"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 4.0 International"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Perpendicular_hallway_02.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "thumpingnoise.png"
+    ],
+    [
+     "Author",
+     "Henzoid"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "familyroom3.png"
+    ],
+    [
+     "Name",
+     "\"Smiling face\""
+    ],
+    [
+     "Author",
+     "A-Durand"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution-Share Alike 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Smiling_face.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "familyroom3.png"
+    ],
+    [
+     "Name",
+     "\"Smiling baby\""
+    ],
+    [
+     "Author",
+     "Fairuz Othman"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 2.0 Generic"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Smiling_baby.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "nycdarkline3MINE.png"
+    ],
+    [
+     "Name",
+     "\"NYC Skyline from Weehawken, NJ #4\""
+    ],
+    [
+     "Author",
+     "gargudojr"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 2.0 Generic"
+    ],
+    [
+     "Source Link",
+     "https://openverse.org/image/0a27dcbf-0d80-482e-b8ab-db875fe72cd1"
+    ]
+   ]
+  ]
  }
 }

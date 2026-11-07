@@ -20,7 +20,9 @@
   "author": "Dr Bazan",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1850",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1860": {
   "id": "SCP-1860",
@@ -47,7 +49,24 @@
   "author": "Accelerando",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1860",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "ProductOfHermanFuller-1.webp, ProductOfHermanFuller-2.webp"
+    ],
+    [
+     "저자",
+     "BlackMES"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ]
+   ]
+  ]
  },
  "SCP-1861": {
   "id": "SCP-1861",
@@ -77,7 +96,21 @@
   "author": "PeppersGhost",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1861",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1861/WintersheimerLake.png",
+    "cap": "작은 규모의 인공 호수 수면에 나타난 SCP-1861-A의 낡은 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "WintersheimerLake.png"
+    ]
+   ]
+  ]
  },
  "SCP-1864": {
   "id": "SCP-1864",
@@ -108,7 +141,47 @@
   "author": "djkaktus",
   "translator": "Boi_Girl",
   "source": "https://scpko.wikidot.com/scp-1864",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1864/deep.jpg",
+    "cap": "SCP-1864-알파."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1864/labyrinth.jpg",
+    "cap": "SCP-1864의 미궁 내부 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "deep.jpg"
+    ],
+    [
+     "저자",
+     "Pallestrin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "labyrinth.jpg"
+    ],
+    [
+     "저자",
+     "Forsaken Fotos"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1867": {
   "id": "SCP-1867",
@@ -135,7 +208,33 @@
   "author": "Djoric",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1867",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1867/Nudibranch_Nembrotha_kubaryana.jpg",
+    "cap": "격리 중인 SCP-1867."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Nudibranch_Nembrotha_kubaryana.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Chad Ordelheide"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1872": {
   "id": "SCP-1872",
@@ -156,7 +255,33 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1872",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1872/1872-new.jpg",
+    "cap": "SCP-1872로 인한 사고 현장."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "872-new.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1872"
+    ],
+    [
+     "제작자",
+     "익명"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1875": {
   "id": "SCP-1875",
@@ -181,7 +306,45 @@
   "author": "TheMadStork",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-1875",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1875/1875-1.png",
+    "cap": "SCP-1875-1 (드라이브 샤프트가 보이지 않음)"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1875/1875-2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1875/1875-3.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1875/1875-4.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1875/1875-IMG-1AB-new.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1875-IMG-1AB-new.jpg"
+    ],
+    [
+     "제작자",
+     "JackalRelated"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1876": {
   "id": "SCP-1876",
@@ -201,7 +364,9 @@
   "author": "Aelanna",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-1876",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1879": {
   "id": "SCP-1879",
@@ -223,7 +388,9 @@
   "author": "marslifeform",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1879",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1880": {
   "id": "SCP-1880",
@@ -246,7 +413,9 @@
   "author": "Dmatix",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-1880",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1881": {
   "id": "SCP-1881",
@@ -269,7 +438,33 @@
   "author": "zaratustra",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1881",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1881/arcade.jpg",
+    "cap": "SCP-1881의 플레이 중 화면."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "arcade.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1881"
+    ],
+    [
+     "제작자",
+     "zaratustra"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1883": {
   "id": "SCP-1883",
@@ -291,7 +486,33 @@
   "author": "zaratustra",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-1883",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1883/SCP-1883.jpg",
+    "cap": "SCP-1883 스크린샷"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-1883.jpg"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-1883"
+    ],
+    [
+     "제작자",
+     "zaratustra, kimnokcha 번역"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-1884": {
   "id": "SCP-1884",
@@ -313,7 +534,9 @@
   "author": "PeppersGhost",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-1884",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1887": {
   "id": "SCP-1887",
@@ -334,7 +557,55 @@
   "author": "Salman Corbette",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1887",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1887/1887-2-new.jpg",
+    "cap": "[편집됨], 1998"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-1887/1887-3-new.jpg",
+    "cap": "[편집됨], 2011"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1887-2-new.jpg"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ],
+    [
+     "제작자",
+     "Rudolf Kukačka (Ruda)"
+    ],
+    [
+     "라이센스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "1887-3-new.jpg"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ],
+    [
+     "제작자",
+     "fieldscape"
+    ],
+    [
+     "라이센스",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-1889": {
   "id": "SCP-1889",
@@ -357,7 +628,9 @@
   "author": "NARFNra",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-1889",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1890": {
   "id": "SCP-1890",
@@ -380,7 +653,14 @@
   "author": "floridapologia",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1890",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1890/Bonifay1.jpg",
+    "cap": "SCP-1890에서 발췌한 사진 중 하나."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1893": {
   "id": "SCP-1893",
@@ -405,7 +685,9 @@
   "author": "Eskobar",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-1893",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1896": {
   "id": "SCP-1896",
@@ -428,7 +710,9 @@
   "author": "floridapologia",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-1896",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1899": {
   "id": "SCP-1899",
@@ -449,6 +733,8 @@
   "author": "Aelanna",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-1899",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

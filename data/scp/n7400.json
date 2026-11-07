@@ -25,7 +25,89 @@
   "author": "Sherf & Calibold",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-7400",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7400/LoLPlayer.jpg",
+    "cap": "라이언 드안토니오, SCP-7400의 최초 피해자인 〈리그 오브 레전드〉 플레이어."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7400/FabsolHate.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7400/RussellBecket.jpg",
+    "cap": "러셀 베켓."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7400/UNC.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "LoLPlayer.jpg"
+    ],
+    [
+     "원본",
+     "Portrait Male Young"
+    ],
+    [
+     "저작권자",
+     "GG_BenQ_Gambit"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "https://pixabay.com/photos/portrait-male-young-hoodie-1236732/"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "FabsolHate.jpg"
+    ],
+    [
+     "저작권자",
+     "Calibold"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/i%20hate%20fabsol.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "RussellBecket.jpg"
+    ],
+    [
+     "원본",
+     "Business Man Lawyer"
+    ],
+    [
+     "저작권자",
+     "dilsileimonteiro"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "https://pixabay.com/photos/business-man-lawyer-man-1125324/"
+    ]
+   ]
+  ]
  },
  "SCP-7404": {
   "id": "SCP-7404",
@@ -47,7 +129,37 @@
   "author": "UraniumEmpire",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-7404",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7404/entomb.png",
+    "cap": "SCP-7404는 파시쿠의 무덤(Tomb of Pacheco)을 묘비의 모델로 삼았다. 그 의미에 대해 묻자, SCP-7404는 답변을 거부했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "entomb.PNG"
+    ],
+    [
+     "원본",
+     "File:Tomb of Pacheco.jpg"
+    ],
+    [
+     "저작권자",
+     "FuriousYogi"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-7408": {
   "id": "SCP-7408",
@@ -80,7 +192,171 @@
   "author": "MontagueETC",
   "translator": "Solhan",
   "source": "https://scpko.wikidot.com/scp-7408",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7408/7408-Thumbnail.png",
+    "cap": "THUMBNAIL"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7408/Butterfly.png",
+    "cap": "최초 격리 직후의 SCP-7408-A 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7408/Kondraki.png",
+    "cap": "PoI-267-515"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "7408-Thumbnail.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Graphium agamemnon 20131222.jpg"
+    ],
+    [
+     "Author",
+     "Peellden"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ],
+    [
+     "Name",
+     "Profile"
+    ],
+    [
+     "Author",
+     "Michael Mol"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ],
+    [
+     "Name",
+     "Baseball cap from the Memphis Red Sox"
+    ],
+    [
+     "Author",
+     "Collection of the Smithsonian National Museum of African American History and Culture"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "NMAAHC"
+    ],
+    [
+     "Name",
+     "Forest"
+    ],
+    [
+     "Author",
+     "Kamil Porembiński"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "memet-icon.svg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP-7000"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Radix.svg"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Butterfly.png"
+    ],
+    [
+     "Name",
+     "Tailed Jay Butterfly"
+    ],
+    [
+     "Author",
+     "Rachel Kramer"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Kondraki.png"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7409": {
   "id": "SCP-7409",
@@ -102,7 +378,33 @@
   "author": "typoenjoyer",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7409",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7409/7409.jpg",
+    "cap": "SCP-7409. 피닉스호가 근접 촬영함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Lilium candidum, Tunisia - 20110517.jpg"
+    ],
+    [
+     "Author",
+     "Habib M'henni"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lilium_candidum%2C_Tunisia_-_20110517.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7413": {
   "id": "SCP-7413",
@@ -134,7 +436,37 @@
   "author": "FLOORBOARDS",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7413",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7413/Geisterzug.jpg",
+    "cap": "바디캠 기록에서 확보됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Geisterzug.jpg"
+    ],
+    [
+     "Name",
+     "Geisterzug"
+    ],
+    [
+     "Author",
+     "A.tucker"
+    ],
+    [
+     "License",
+     "Creative Commons Attribution 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Geisterzug.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7419": {
   "id": "SCP-7419",
@@ -159,7 +491,9 @@
   "author": "PoufyPoufson",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7419",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7441": {
   "id": "SCP-7441",
@@ -186,6 +520,13 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-7441",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7441/honse.png",
+    "cap": "표준 SCP-7441 시행 방법 [윤리워윈회 요구에 따라 편집됨]"
+   }
+  ],
+  "img_credits": []
  }
 }

@@ -18,7 +18,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-750",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-750/contact-lens.jpg",
+    "cap": "SCP-750 샘플을 케이스 외부에서 촬영한 클로즈업 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-750/edited%20drawing.JPG",
+    "cap": "수 시간 동안 SCP-750을 착용한 피영향자가 묘사한 ███████ 박사."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-752": {
   "id": "SCP-752",
@@ -41,7 +52,63 @@
   "author": "GwenWinterheart",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-752",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-752/SCP-752.png",
+    "cap": "무인 탐사 영상 중 한 장면의 스틸 사진."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-752/cave-new.jpg",
+    "cap": "SCP-752로 이어지는 것이 확인된 입구 중 하나."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-752.png"
+    ],
+    [
+     "원본",
+     "Chicago Airport Hall (16913132792).jpg"
+    ],
+    [
+     "저작권자",
+     "Amaury Laporte, S D Locke에 의해 편집됨."
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0 (원본) / CC BY-SA 3.0 (편집본)"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cave-new.jpg"
+    ],
+    [
+     "원본",
+     "Gomantong Cave swallow nests.jpg"
+    ],
+    [
+     "저작권자",
+     "Laura"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-753": {
   "id": "SCP-753",
@@ -61,7 +128,29 @@
   "author": "Tanhony",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-753",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-753/753-new.jpg",
+    "cap": "마셜, 카터 & 다크 유한회사의 기록에서 가져온 SCP-753의 화상."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "753-new.jpg"
+    ],
+    [
+     "저작권자",
+     "史前巨莽"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-754": {
   "id": "SCP-754",
@@ -84,7 +173,14 @@
   "author": "karajade",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-754",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-754/SCP_754.jpg",
+    "cap": "연필과 크레용으로 그려진 SCP-754"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-755": {
   "id": "SCP-755",
@@ -106,7 +202,14 @@
   "author": "tunedtoadeadchannel",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-755",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-755/SCP-755-1.jpg",
+    "cap": "SCP-755-b 개체가 [편집됨]에 위치한 개인 주택의 현관 계단에 남겨졌다"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-756": {
   "id": "SCP-756",
@@ -126,7 +229,9 @@
   "author": "UtterlyUseless",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-756",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-757": {
   "id": "SCP-757",
@@ -148,7 +253,9 @@
   "author": "DrMocha",
   "translator": "Loki_Louis",
   "source": "https://scpko.wikidot.com/scp-757",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-759": {
   "id": "SCP-759",
@@ -169,7 +276,9 @@
   "author": "Camwyn",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-759",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-762": {
   "id": "SCP-762",
@@ -187,7 +296,9 @@
   "author": "Agent Peters",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-762",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-765": {
   "id": "SCP-765",
@@ -206,7 +317,29 @@
   "author": "TroyL",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-765",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-765/duckpond-new.jpg",
+    "cap": "SCP-765"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "duckpond-new.jpg"
+    ],
+    [
+     "저작권자",
+     "N_Aepic_Fael (Elenee FishTruck이 토론란에 남긴 2020. 09. 22. 코멘트 참조)"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-768": {
   "id": "SCP-768",
@@ -226,7 +359,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-768",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-772": {
   "id": "SCP-772",
@@ -248,7 +383,9 @@
   "author": "",
   "translator": "taekiu",
   "source": "https://scpko.wikidot.com/scp-772",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-773": {
   "id": "SCP-773",
@@ -268,7 +405,33 @@
   "author": "DrMagnus",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-773",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-773/FivesDartboard.jpg",
+    "cap": "실험을 위해 세팅된 SCP-773"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "File:FivesDartboard.jpg"
+    ],
+    [
+     "저작권자",
+     "Andy Roberts"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "위키미디어 커먼즈"
+    ]
+   ]
+  ]
  },
  "SCP-777": {
   "id": "SCP-777",
@@ -289,7 +452,47 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-777",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-777/771-1-new.jpg",
+    "cap": "SCP-777의 사진. 로봇 드론으로 촬영함."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-777/771-2-new.jpg",
+    "cap": "탈출한 SCP-777-1 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "771-1-new.jpg"
+    ],
+    [
+     "Source",
+     "Flickr"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "771-2-new.jpg"
+    ],
+    [
+     "Source",
+     "PublicDomainPictures.net"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ]
+   ]
+  ]
  },
  "SCP-779": {
   "id": "SCP-779",
@@ -311,7 +514,29 @@
   "author": "Tanhony",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-779",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-779/779-new.jpg",
+    "cap": "야생의 SCP-779 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "779-new.jpg"
+    ],
+    [
+     "Source",
+     "Flickr"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ]
+   ]
+  ]
  },
  "SCP-784": {
   "id": "SCP-784",
@@ -335,7 +560,51 @@
   "author": "Snowshoe",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-784",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-784/scp-784-2.jpg",
+    "cap": "사격 목표물로 사용하기 위해 제██구역으로 운반 중이던 재단 차량. 수송대는 SCP-784 근방에서 정차한 채로 밤을 지샜다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-784/scp-784-1.jpg",
+    "cap": "노엘 행사 발생 직전에 SCP-784의 일부를 촬영한 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "U.S. Soldiers in the 30th Armored Brigade Combat team"
+    ],
+    [
+     "저작권자",
+     "Defense Visual Information Distribution Service"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Christmas Lights of Yorkshire"
+    ],
+    [
+     "저작권자",
+     "Edward Crompton"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-785": {
   "id": "SCP-785",
@@ -358,7 +627,9 @@
   "author": "Chubert",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-785",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-786": {
   "id": "SCP-786",
@@ -377,7 +648,9 @@
   "author": "BeeDee",
   "translator": "Kassadian",
   "source": "https://scpko.wikidot.com/scp-786",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-787": {
   "id": "SCP-787",
@@ -398,7 +671,9 @@
   "author": "Moose Fisher",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-787",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-788": {
   "id": "SCP-788",
@@ -418,7 +693,9 @@
   "author": "Aelanna",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-788",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-789": {
   "id": "SCP-789",
@@ -440,7 +717,9 @@
   "author": "Dexanote",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-789",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-790": {
   "id": "SCP-790",
@@ -461,7 +740,9 @@
   "author": "UtterlyUseless",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-790",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-791": {
   "id": "SCP-791",
@@ -482,7 +763,9 @@
   "author": "Dr Gears",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-791",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-792": {
   "id": "SCP-792",
@@ -507,7 +790,9 @@
   "author": "rumetzen",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-792",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-794": {
   "id": "SCP-794",
@@ -527,7 +812,9 @@
   "author": "Aelanna",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-794",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-795": {
   "id": "SCP-795",
@@ -550,7 +837,9 @@
   "author": "eric_h",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-795",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-799": {
   "id": "SCP-799",
@@ -570,6 +859,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-799",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

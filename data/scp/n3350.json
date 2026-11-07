@@ -20,7 +20,9 @@
   "author": "Decibelles",
   "translator": "Explained25",
   "source": "https://scpko.wikidot.com/scp-3351",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3352": {
   "id": "SCP-3352",
@@ -42,7 +44,26 @@
   "author": "The Great Hippo",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3352",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3352/steel.png",
+    "cap": "사진 1.1: 하드윅 제유소 (1991년경)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3352/steel2.png",
+    "cap": "사진 1.2: I빔 글귀."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3352/steel3.png",
+    "cap": "사진 1.3: 수소 열 교환기 배열 (1991년경)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3352/steel1.png",
+    "cap": "사진 1.4: 신호가 끊기기 전 476HF의 배관 길목의 보안 영상에 찍힌 마지막 프레임."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3355": {
   "id": "SCP-3355",
@@ -68,7 +89,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3355",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3355/computer.jpg",
+    "cap": "운용 중인 SCP-3355의 자료 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "computer.jpg"
+    ],
+    [
+     "Name",
+     "PAVE Paws Computer Room.jpg"
+    ],
+    [
+     "Author",
+     "Sgt. Don Sutherland"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3370": {
   "id": "SCP-3370",
@@ -89,7 +140,33 @@
   "author": "Taffeta",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3370",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3370/terminal.jpg",
+    "cap": "시드니 킹스포드-스미스 국제공항."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "terminal.jpg"
+    ],
+    [
+     "저자",
+     "Maksym Kozlenko"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3374": {
   "id": "SCP-3374",
@@ -111,7 +188,33 @@
   "author": "Leveritas",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3374",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3374/rescue2.jpg",
+    "cap": "MTF 감마-7에게 구조된 D-5███. 스쿠버 마스크와 탱크는 제거했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rescue2.jpg"
+    ],
+    [
+     "저자",
+     "Leveritas"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA"
+    ],
+    [
+     "출처",
+     "SCP-3374"
+    ]
+   ]
+  ]
  },
  "SCP-3375": {
   "id": "SCP-3375",
@@ -135,7 +238,77 @@
   "author": "Zyn",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3375",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3375/eel1.JPG",
+    "cap": "독일 베를린 수족관에서 발견된 SCP-3375 다섯 개체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3375/eel2.jpg",
+    "cap": "북캘리포니아 몬터레이만 수족관에서 막 식사를 마친 SCP-3375 두 개체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3375/eel3.jpg",
+    "cap": "런던 해양생물수족관에서 먹이를 기다리는 SCP-3375 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "eel1.JPG"
+    ],
+    [
+     "저자",
+     "廖俊斌"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "eel2.JPG"
+    ],
+    [
+     "저자",
+     "KENPEI"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "eel3.JPG"
+    ],
+    [
+     "저자",
+     "Bernd"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3379": {
   "id": "SCP-3379",
@@ -163,7 +336,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3379",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3379/todaysspecial.jpg",
+    "cap": "재단 선박으로 인양되고 있는 SCP-3379-1 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "todaysspecial.jpg"
+    ],
+    [
+     "Name",
+     "Noaa-walrus29"
+    ],
+    [
+     "Author",
+     "Office of NOAA Corps Operations"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3380": {
   "id": "SCP-3380",
@@ -186,7 +389,21 @@
   "author": "NatVoltaic ＆ LordStonefish",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3380",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3380/Surreal_number_tree.png",
+    "cap": "초현실수의 수형도. 엡실론($\\epsilon$ 또는 $ε$)1은 무한소를 나타내고, 오메가($\\omega$)2는 무한대를 나타낸다. 클릭하면 확대됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Surreal_number_tree.png"
+    ]
+   ]
+  ]
  },
  "SCP-3386": {
   "id": "SCP-3386",
@@ -209,7 +426,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3386",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3386/nightowls.jpg",
+    "cap": "SCP-3386-1 개체"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3390": {
   "id": "SCP-3390",
@@ -233,7 +457,28 @@
   "author": "Malcious",
   "translator": "MrHydrogenChloride",
   "source": "https://scpko.wikidot.com/scp-3390",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "https://i.imgur.com/EA3fT9H.jpg"
+    ],
+    [
+     "저자",
+     "Malcious"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "http://scp-wiki.wikidot.com/scp-3390"
+    ]
+   ]
+  ]
  },
  "SCP-3393": {
   "id": "SCP-3393",
@@ -254,7 +499,9 @@
   "author": "Captain Kirby",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3393",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3396": {
   "id": "SCP-3396",
@@ -287,6 +534,8 @@
   "author": "CadaverCommander",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3396",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -19,7 +19,37 @@
   "author": "Captain Kirby",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3650",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3650/Wanderlust_top.jpg",
+    "cap": "SCP-3650 개체의 사진 쪽 면"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3650/Wanderlust_2.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Wanderlust_2.jpg, Wanderlust_top.jpg"
+    ],
+    [
+     "저자",
+     "Captain Kirby"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-3650"
+    ]
+   ]
+  ]
  },
  "SCP-3670": {
   "id": "SCP-3670",
@@ -39,7 +69,21 @@
   "author": "Taffeta",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3670",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3670/plushie.jpg",
+    "cap": "SCP-3670. 이전 실험에서 나온 잔여물을 제거하기 위해 세탁한 후의 모습이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "plushie.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3671": {
   "id": "SCP-3671",
@@ -62,7 +106,9 @@
   "author": "DrMorris",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3671",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3672": {
   "id": "SCP-3672",
@@ -84,7 +130,9 @@
   "author": "LordStonefish",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-3672",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3673": {
   "id": "SCP-3673",
@@ -104,7 +152,9 @@
   "author": "psul",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3673",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3681": {
   "id": "SCP-3681",
@@ -129,7 +179,14 @@
   "author": "macro_au_micro",
   "translator": "three days",
   "source": "https://scpko.wikidot.com/scp-3681",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3681/balloon.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3682": {
   "id": "SCP-3682",
@@ -150,7 +207,18 @@
   "author": "faminepulse",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3682",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3682/church.jpg",
+    "cap": "EE-3682의 증거들을 보관 중인 기지."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3682/daniel.png",
+    "cap": "영상에서 반복해 등장하는 개체."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3683": {
   "id": "SCP-3683",
@@ -177,7 +245,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3683",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3683/asinnocentasdoves.jpg",
+    "cap": "분열한 뒤 SCP-3683의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "asinnocentasdoves.jpg"
+    ],
+    [
+     "Name",
+     "Rock pigeon eating swarm"
+    ],
+    [
+     "Author",
+     "Rootology"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3688": {
   "id": "SCP-3688",
@@ -197,7 +295,32 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3688",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "dancer"
+    ],
+    [
+     "Name",
+     "Kuan Yin Standing Traveling Eastward Across the Ocean.jpg"
+    ],
+    [
+     "Author",
+     "Li Junfeng"
+    ],
+    [
+     "License",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3689": {
   "id": "SCP-3689",
@@ -225,7 +348,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3689",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3691": {
   "id": "SCP-3691",
@@ -251,7 +376,33 @@
   "author": "Fishish, Jack Waltz",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-3691",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3691/statue",
+    "cap": "사건-3691-A 이전의 SCP-3691."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "statue.png"
+    ],
+    [
+     "저자",
+     "Jean-David & Anne-Laure"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-3693": {
   "id": "SCP-3693",
@@ -274,7 +425,21 @@
   "author": "djkaktus & The Great Hippo",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3693",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3693/theother.jpg",
+    "cap": "SCP-3693을 묘사한 그림"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "theother.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3697": {
   "id": "SCP-3697",
@@ -299,6 +464,8 @@
   "author": "Monkeysky",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3697",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

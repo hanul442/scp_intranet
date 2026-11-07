@@ -20,7 +20,33 @@
   "author": "The Raven",
   "translator": "Knoth",
   "source": "https://scpko.wikidot.com/scp-150",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-150/isopod.jpg",
+    "cap": "20배 확대한 D-13732의 뇌에서 추출한 SCP-150의 모습."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "isopod.jpg"
+    ],
+    [
+     "원본",
+     "Isopod, Glyptonotus antarcticus.jpg"
+    ],
+    [
+     "저작권자",
+     "Zureks"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-151": {
   "id": "SCP-151",
@@ -40,7 +66,29 @@
   "author": "Agent Thornsmith",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-151",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-151/SCP-151(1).jpg",
+    "cap": "SCP-151의 디지털 이미지. 대상을 복제한 그림에서는 아무런 해로운 효과도 발생하지 않는다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-151(1).jpg"
+    ],
+    [
+     "원본",
+     "Vlad Gerasimov"
+    ],
+    [
+     "라이선스",
+     "원작자의 허락 하에 사용"
+    ]
+   ]
+  ]
  },
  "SCP-152": {
   "id": "SCP-152",
@@ -63,7 +111,37 @@
   "author": "MalcolmMacLean",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-152",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-152/152-new.jpg",
+    "cap": "SCP-152의 측면 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "152-new.jpg"
+    ],
+    [
+     "원본",
+     "Old book gathering 2.jpg"
+    ],
+    [
+     "저작권자",
+     "Remi Mathis"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-153": {
   "id": "SCP-153",
@@ -87,7 +165,37 @@
   "author": "Quikngruvn",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-153",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-153/scp-153-new.jpg",
+    "cap": "위장한 SCP-153 개체의 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp-153-new.jpg"
+    ],
+    [
+     "원본",
+     "Golvbrunn.jpg"
+    ],
+    [
+     "저작권자",
+     "Holger.Ellgaard"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-154": {
   "id": "SCP-154",
@@ -109,7 +217,9 @@
   "author": "Kain Pathos Crow",
   "translator": "Abyshroom",
   "source": "https://scpko.wikidot.com/scp-154",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-155": {
   "id": "SCP-155",
@@ -132,7 +242,37 @@
   "author": "Aelanna",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-155",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-155/scp155-1_th.jpg",
+    "cap": "SCP-155에서 제거한 변칙적이지 않은 중앙 연산 처리 장치."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp155-1.jpg"
+    ],
+    [
+     "원본",
+     "Processor board cray-2 hg.jpg"
+    ],
+    [
+     "저작권자",
+     "Hannes Grobe & Chresten Wübber"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-156": {
   "id": "SCP-156",
@@ -154,7 +294,37 @@
   "author": "Oresthin",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-156",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-156/scp156.png",
+    "cap": "SCP-156 더미"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp156.png"
+    ],
+    [
+     "Name",
+     "Pomegranate seeds.png"
+    ],
+    [
+     "Author",
+     "Sakartvelo"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-157": {
   "id": "SCP-157",
@@ -178,7 +348,14 @@
   "author": "eric_h",
   "translator": "Abyshroom",
   "source": "https://scpko.wikidot.com/scp-157",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-157/scp157-new.jpg",
+    "cap": "자연 상태의 SCP-157 소형 군집"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-158": {
   "id": "SCP-158",
@@ -200,7 +377,9 @@
   "author": "Kain Pathos Crow",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-158",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-159": {
   "id": "SCP-159",
@@ -220,7 +399,9 @@
   "author": "regedit",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-159",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-160": {
   "id": "SCP-160",
@@ -241,7 +422,14 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-160",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-160/scp160-new.jpg",
+    "cap": "최초 격리 당시의 SCP-160"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-161": {
   "id": "SCP-161",
@@ -262,7 +450,9 @@
   "author": "AdminBright",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-161",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-162": {
   "id": "SCP-162",
@@ -282,7 +472,29 @@
   "author": "Dr Gears",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-162",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-162/scp162.jpg",
+    "cap": "격리 구역에 있는 SCP-162."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp162.jpg"
+    ],
+    [
+     "원본",
+     "Mapper720"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-163": {
   "id": "SCP-163",
@@ -302,7 +514,9 @@
   "author": "Flah",
   "translator": "kimnokcha",
   "source": "https://scpko.wikidot.com/scp-163",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-165": {
   "id": "SCP-165",
@@ -327,7 +541,193 @@
   "author": "FritzWillie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-165",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-1.png",
+    "cap": "어느 폐건물에서 태양열을 피하는 SCP-165"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/SCP-165-2.jpg",
+    "cap": "SCP-165의 전자현미경 사진"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-3.png",
+    "cap": "이 사진은 격리하기 전에 촬영된 것으로, 지상 무인기로 촬영했다"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-4.png",
+    "cap": "애리조나 주 프레드릭스버그에서 가장 멀쩡한 건물. SCP-165의 가장 큰 사구가 발견된 곳이다"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-5.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-6.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-165/165-7.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "165-1.png"
+    ],
+    [
+     "원본",
+     "Kolmannskuppe Krankenhaus Innen 09.jpg"
+    ],
+    [
+     "저작권자",
+     "Zairon"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-165-2.jpg"
+    ],
+    [
+     "원본",
+     "Yellow mite (Tydeidae), Lorryia formosa 2.jpg"
+    ],
+    [
+     "저작권자",
+     "Erbe, Pooley: USDA, ARS, EMU"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "165-3.png"
+    ],
+    [
+     "원본",
+     "Kolmanskop sand.jpg"
+    ],
+    [
+     "저작권자",
+     "Damien du Toit"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "165-4.png"
+    ],
+    [
+     "원본",
+     "Kolmanskop 2018 02.jpg"
+    ],
+    [
+     "저작권자",
+     "Johan Jönsson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "165-5.jpg"
+    ],
+    [
+     "원본",
+     "Kolmanskop 2018-07-28 24.jpg"
+    ],
+    [
+     "저작권자",
+     "Johan Jönsson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "165-6.png"
+    ],
+    [
+     "원본",
+     "Kolmanskop1 flip666.jpg"
+    ],
+    [
+     "저작권자",
+     "Philipp Schäufele"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "165-7.png"
+    ],
+    [
+     "원본",
+     "Kolmanskop 2018-07-28 63.jpg"
+    ],
+    [
+     "저작권자",
+     "Johan Jönsson"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-166": {
   "id": "SCP-166",
@@ -354,7 +754,32 @@
   "author": "미상",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-166",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp156.png"
+    ],
+    [
+     "Name",
+     "Pomegranate seeds.png"
+    ],
+    [
+     "Author",
+     "Sakartvelo"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0 Unported"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-167": {
   "id": "SCP-167",
@@ -375,7 +800,9 @@
   "author": "gscshoyru",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-167",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-168": {
   "id": "SCP-168",
@@ -396,7 +823,9 @@
   "author": "A Fat Ghost",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-168",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-169": {
   "id": "SCP-169",
@@ -418,7 +847,37 @@
   "author": "미상",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-169",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-169/SCP-169-spectograph.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp169spectograph.jpg"
+    ],
+    [
+     "원본",
+     "Bloop.jpg"
+    ],
+    [
+     "저작권자",
+     "National Oceanic and Atmospheric Administration"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-170": {
   "id": "SCP-170",
@@ -438,7 +897,29 @@
   "author": "far2",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-170",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-170/xray.jpg",
+    "cap": "(절단 후) 책상과 결합된 대상의 손가락 X 레이. 균열은 대상이 벗어나려고 몸부림치는 동안 발생했다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "xray.jpg"
+    ],
+    [
+     "저작권자",
+     "far2"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-171": {
   "id": "SCP-171",
@@ -457,7 +938,9 @@
   "author": "FritzWillie",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-171",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-172": {
   "id": "SCP-172",
@@ -477,7 +960,53 @@
   "author": "Dr Gears",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-172",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-172/SCP-172.jpg",
+    "cap": "SCP-172의 초기 X선 사진"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp-172"
+    ],
+    [
+     "Name",
+     "X-Ray Skull"
+    ],
+    [
+     "Author",
+     "Erich Ferdinand"
+    ],
+    [
+     "License",
+     "CC by-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/erix/267167699"
+    ],
+    [
+     "Name",
+     "Dülmen, Heilig-Kreuz-Kirche, Uhrwerk — 2019 — 3061"
+    ],
+    [
+     "Author",
+     "CC by-SA 4.0"
+    ],
+    [
+     "License",
+     "Dietmar Rabich"
+    ],
+    [
+     "Source Link",
+     "https://commons.m.wikimedia.org/wiki/File:D%C3%BClmen,_Heilig-Kreuz-Kirche,_Uhrwerk_--_2019_--_3061.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-173": {
   "id": "SCP-173",
@@ -499,7 +1028,9 @@
   "author": "Moto42",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-173",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-174": {
   "id": "SCP-174",
@@ -520,7 +1051,14 @@
   "author": "RichardJ28",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-174",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-174/scp174-new.jpg",
+    "cap": "SCP-174"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-175": {
   "id": "SCP-175",
@@ -540,7 +1078,9 @@
   "author": "gscshoyru",
   "translator": "Night_D",
   "source": "https://scpko.wikidot.com/scp-175",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-176": {
   "id": "SCP-176",
@@ -560,7 +1100,29 @@
   "author": "Aelanna",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-176",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-176/scp176.jpg",
+    "cap": "SCP-176"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp176.jpg"
+    ],
+    [
+     "저작권자",
+     "abandonedfreak"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-177": {
   "id": "SCP-177",
@@ -580,7 +1142,9 @@
   "author": "미상",
   "translator": "QAZ135",
   "source": "https://scpko.wikidot.com/scp-177",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-178": {
   "id": "SCP-178",
@@ -601,7 +1165,9 @@
   "author": "91stCataclysm",
   "translator": "LoveGold",
   "source": "https://scpko.wikidot.com/scp-178",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-179": {
   "id": "SCP-179",
@@ -628,7 +1194,47 @@
   "author": "Dr Reach",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-179",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-179/SCPArchiveLogo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-179/SCP-AN-ME-993.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCPArchinveLogo.png"
+    ],
+    [
+     "저작권자",
+     "Dr Reach"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "SCP-AN-ME-993.png"
+    ],
+    [
+     "저작권자",
+     "Dr Reach"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-180": {
   "id": "SCP-180",
@@ -650,7 +1256,18 @@
   "author": "FritzWillie",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-180",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-180/SCP-180-new.jpg",
+    "cap": "이것은 [말소됨] 요원이 카메라를 통해 포즈를 취하고 있는 사진이다. 그의 외견과 다르게 그는 33세 흑발 벽안의 인간 남성이다. SCP-180 '숙주'의 정체성은 얼룩덜룩하고 뻣뻣한 털을 가진 닥스훈트이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-180/SCP-180-1-new.jpg",
+    "cap": "이 젊은 여성으로 보이는 것은 실제로는 4세의 보르네오 오랑우탄이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-181": {
   "id": "SCP-181",
@@ -671,7 +1288,9 @@
   "author": "cyrus013",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-181",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-182": {
   "id": "SCP-182",
@@ -693,7 +1312,9 @@
   "author": "Yours Truly",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-182",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-183": {
   "id": "SCP-183",
@@ -715,7 +1336,9 @@
   "author": "HK-016",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-183",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-184": {
   "id": "SCP-184",
@@ -734,7 +1357,14 @@
   "author": "Dr Gears",
   "translator": "Jaytt",
   "source": "https://scpko.wikidot.com/scp-184",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-184/dodecahedron-new.png",
+    "cap": "SCP-184"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-185": {
   "id": "SCP-185",
@@ -756,7 +1386,29 @@
   "author": "Dilzo",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-185",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-185/105mb2yy9.jpg",
+    "cap": "격리 전의 SCP-185"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "105mb2yy9.jpg"
+    ],
+    [
+     "저작권자",
+     "Army Radio Sales Co"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-187": {
   "id": "SCP-187",
@@ -778,7 +1430,9 @@
   "author": "far2",
   "translator": "shfoakdls",
   "source": "https://scpko.wikidot.com/scp-187",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-188": {
   "id": "SCP-188",
@@ -799,7 +1453,63 @@
   "author": "snorlison",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-188",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-188/scp188.jpg",
+    "cap": "SCP-188이 초래한 효과의 한 예시."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-188/Outdoor188.jpg",
+    "cap": "SCP-188 초기 야외 실험에 관한 회수된 문건."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "scp188.jpg"
+    ],
+    [
+     "Name",
+     "MOTH-ER, 2006"
+    ],
+    [
+     "Author",
+     "Paul Hazelton"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "scp-188-2"
+    ],
+    [
+     "Name",
+     "andy goldsworthy"
+    ],
+    [
+     "Author",
+     "mareo_diaz"
+    ],
+    [
+     "License",
+     "CC by-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/14233029@N00/1904967625"
+    ]
+   ]
+  ]
  },
  "SCP-191": {
   "id": "SCP-191",
@@ -822,7 +1532,9 @@
   "author": "DrClef & Sylocat",
   "translator": "Cavern dweller",
   "source": "https://scpko.wikidot.com/scp-191",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-193": {
   "id": "SCP-193",
@@ -842,7 +1554,14 @@
   "author": "Lumancer",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-193",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-193/SCP-193-new.jpg",
+    "cap": "여러 SCP-193-02 개체로 채워진 SCP-193-01"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-196": {
   "id": "SCP-196",
@@ -865,7 +1584,9 @@
   "author": "InfiniteOracle",
   "translator": "Dr Devan",
   "source": "https://scpko.wikidot.com/scp-196",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-197": {
   "id": "SCP-197",
@@ -885,7 +1606,9 @@
   "author": "Sorts",
   "translator": "Asalain",
   "source": "https://scpko.wikidot.com/scp-197",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-198": {
   "id": "SCP-198",
@@ -905,7 +1628,9 @@
   "author": "Soulbane",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-198",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-199": {
   "id": "SCP-199",
@@ -928,6 +1653,36 @@
   "author": "Photosynthetic & MisterFlames",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-199",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-199/fern.jpg",
+    "cap": "SCP-199"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "fern.jpg"
+    ],
+    [
+     "Name",
+     "Crepidomanes minutum utiwagoke01.jpg"
+    ],
+    [
+     "Author",
+     "keisotyo"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  }
 }

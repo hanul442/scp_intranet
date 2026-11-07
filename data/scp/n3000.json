@@ -28,7 +28,75 @@
   "author": "A Random Day & Joreth & djkaktus",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3000",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3000/gaslight.png",
+    "cap": "애트잭 규약 도중의 SCP-3000과 재단 잠수부."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3000/submarine.jpg",
+    "cap": "SCPF 에레미타가 접촉 장소로 잠수하고 있다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3000/warning2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3000/krishnamoorthy.png",
+    "cap": "벤카트라만 크리쉬나무티 박사Dr. Venkatraman Krishnamoorthy"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "warning.png, warning2.png"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "gaslight.png"
+    ],
+    [
+     "저자",
+     "djkaktus, Jens Petersen, Bernard DUPONT"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "submarine.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "krishnamoorthy.png"
+    ]
+   ]
+  ]
  },
  "SCP-3001": {
   "id": "SCP-3001",
@@ -53,7 +121,9 @@
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-3001",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "적색 현실"
+  "nickname": "적색 현실",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3002": {
   "id": "SCP-3002",
@@ -84,7 +154,9 @@
   "author": "MayD",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3002",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3003": {
   "id": "SCP-3003",
@@ -108,7 +180,41 @@
   "author": "Communism will win",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3003",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3003/3000.jpg",
+    "cap": "SCP-3003"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3003/marce.png",
+    "cap": "지구 토착종인 식물군과 상호작용하고 있는 SCP-3003-1 개체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3003/amoeba.jpg",
+    "cap": "SCP-3003-2"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3000.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "marce.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "amoeba.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3004": {
   "id": "SCP-3004",
@@ -136,7 +242,21 @@
   "author": "kinchtheknifeblade",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3004",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3004/scpbug.png",
+    "cap": "SCP-3004-2 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scpbug.png"
+    ]
+   ]
+  ]
  },
  "SCP-3005": {
   "id": "SCP-3005",
@@ -159,7 +279,9 @@
   "author": "Silberescher",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-3005",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3007": {
   "id": "SCP-3007",
@@ -187,7 +309,85 @@
   "author": "Zhange",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-3007",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/Memetic%20kill%20agent.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/City",
+    "cap": "SCP-3007-2가 SCP-3007-3을 그림으로 묘사한 것. 기둥에 붙은 그림은 보이지 않는다. (부록 3 참조)"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/1.jpg",
+    "cap": "3007.A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/2.jpg",
+    "cap": "3007.A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/3.jpg",
+    "cap": "3007.A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/4.jpg",
+    "cap": "3007.A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/5.jpg",
+    "cap": "3007.A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3007/Earth",
+    "cap": "3007"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "2.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "3.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "4.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "5.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "City"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Earth"
+    ]
+   ]
+  ]
  },
  "SCP-3008": {
   "id": "SCP-3008",
@@ -207,7 +407,9 @@
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3008",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "완벽하게 평범하고 일반적인 낡은 이케아"
+  "nickname": "완벽하게 평범하고 일반적인 낡은 이케아",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3009": {
   "id": "SCP-3009",
@@ -231,7 +433,21 @@
   "author": "keyii",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3009",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3009/snapghost_scp_eats_chicken_feet.jpg",
+    "cap": "실험 3009-A-3 도중 전송된 이미지."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "snapghost_scp_eats_chicken_feet.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3012": {
   "id": "SCP-3012",
@@ -255,7 +471,21 @@
   "author": "kinchtheknifeblade",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-3012",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3012/SCP-3012.jpg",
+    "cap": "클리블랜드 메트로팍스에 위치한 다리 밑에서 발견된 SCP-3012-1 개체. 디벅 사태 이후 다리 전체에 구조적 결함이 발생함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "3011.jpeg"
+    ]
+   ]
+  ]
  },
  "SCP-3017": {
   "id": "SCP-3017",
@@ -279,7 +509,31 @@
   "author": "Kentucky",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3017",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3017/unfortunate.jpg",
+    "cap": "20█4년 체포 당시 프레이저 멜브룩의 머그샷."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3017/house_fire.jpg",
+    "cap": "사건 I-3017-1 N 당시 영상 정지화면"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "unfortunate.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "house_fire.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3020": {
   "id": "SCP-3020",
@@ -302,7 +556,9 @@
   "author": "Ihp",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3020",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3021": {
   "id": "SCP-3021",
@@ -325,7 +581,25 @@
   "author": "Communism will win",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3021",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3021/b.png",
+    "cap": "기표 3021-알파"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3021/a.png",
+    "cap": "기표 3021-베타"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "a.png, b.png"
+    ]
+   ]
+  ]
  },
  "SCP-3022": {
   "id": "SCP-3022",
@@ -344,7 +618,37 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3022",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3022/hook.png",
+    "cap": "SCP-3022"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "hook.png"
+    ],
+    [
+     "Name",
+     "Trigger style Capo alt.jpg"
+    ],
+    [
+     "Author",
+     "Connormah"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-3023": {
   "id": "SCP-3023",
@@ -367,7 +671,37 @@
   "author": "Communism will win does not match any existing user name",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3023",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3023/germany2.png",
+    "cap": "빨간색으로 강조되어 있는 부분이 SCP-3023 사건이 발생한 장소로 알려진 곳이다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "germany2.png"
+    ],
+    [
+     "Name",
+     "GM-map.jpg"
+    ],
+    [
+     "Author",
+     "CIA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "cia.gov"
+    ]
+   ]
+  ]
  },
  "SCP-3024": {
   "id": "SCP-3024",
@@ -390,7 +724,21 @@
   "author": "Communism will win",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-3024",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3024/mrdeadlysins.png",
+    "cap": "그림 1"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "mrdeadlysins.png"
+    ]
+   ]
+  ]
  },
  "SCP-3027": {
   "id": "SCP-3027",
@@ -414,7 +762,27 @@
   "author": "CannedBread",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3027",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3027/consonants.jpg",
+    "cap": "SCP-3027의 닿소리 음소표."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "consonants"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "vowels"
+    ]
+   ]
+  ]
  },
  "SCP-3031": {
   "id": "SCP-3031",
@@ -441,7 +809,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3031",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3031/3000.png",
+    "cap": "SCP-3031"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "KIC 842852.jpg"
+    ],
+    [
+     "Name",
+     "Oligodendrocyte.png"
+    ],
+    [
+     "Author",
+     "Jurjen Broeke"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-3033": {
   "id": "SCP-3033",
@@ -467,7 +865,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3033",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3034": {
   "id": "SCP-3034",
@@ -487,7 +887,14 @@
   "author": "The Great Hippo",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-3034",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3034/site753a.jpeg",
+    "cap": "제3034가설기지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3041": {
   "id": "SCP-3041",
@@ -511,7 +918,14 @@
   "author": "The Great Hippo",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-3041",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3041/redknife.jpg",
+    "cap": "SCP-3041."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3043": {
   "id": "SCP-3043",
@@ -539,7 +953,14 @@
   "author": "The Great Hippo",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3043",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3043/typewriter.jpg",
+    "cap": "무효화되기 전의 SCP-3043."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3045": {
   "id": "SCP-3045",
@@ -561,7 +982,14 @@
   "author": "The Great Hippo",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-3045",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3045/bee_big-nose.png",
+    "cap": "SCP-3045의 로고."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-3046": {
   "id": "SCP-3046",
@@ -582,7 +1010,9 @@
   "author": "Eskobar",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-3046",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3049": {
   "id": "SCP-3049",
@@ -602,6 +1032,62 @@
   "author": "rioludoodle",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3049",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3049/pie-oven.jpg",
+    "cap": "최초 회수 당시 현장에서 활성화 상태에 돌입한 SCP-3049"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3049/pie.jpg",
+    "cap": "갓 구운 SCP-3049-1 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pie-oven.jpg"
+    ],
+    [
+     "Name",
+     "Used Gas Stove"
+    ],
+    [
+     "Author",
+     "bats22"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source Link",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "pie.jpg"
+    ],
+    [
+     "Name",
+     "Apple pie fresh out of the oven.jpg"
+    ],
+    [
+     "Author",
+     "Sage Ross"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  }
 }

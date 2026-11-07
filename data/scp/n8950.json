@@ -20,7 +20,14 @@
   "author": "Jezixo",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-8958",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8958/container2.jpg",
+    "cap": "발견 위치"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8974": {
   "id": "SCP-8974",
@@ -42,7 +49,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8974",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8975": {
   "id": "SCP-8975",
@@ -62,7 +71,33 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8975",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/harry-blank-8/Abyss.jpg",
+    "cap": "SCP-8975"
+   },
+   {
+    "src": "https://scp-sandbox-3.wdfiles.com/local--files/harry-blank-8/Abyss_Closeup.jpg",
+    "cap": "확대한 SCP-8975"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Abyss.jpg/Abyss_Closeup.jpg"
+    ],
+    [
+     "Author",
+     "HarryBlank"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-8984": {
   "id": "SCP-8984",
@@ -82,7 +117,9 @@
   "author": "Uncle Nicolini",
   "translator": "W62826",
   "source": "https://scpko.wikidot.com/scp-8984",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8986": {
   "id": "SCP-8986",
@@ -104,7 +141,26 @@
   "author": "PeppersGhost",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-8986",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8986/Mannequin_in_black_and_white_from_a_clothing_shop.jpg",
+    "cap": "실험 8986-0052. 왼쪽부터 DFPO-B011, DFPO-B012."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8986/mannequinsspooky.jpg",
+    "cap": "원래 위치의 DFPO-A201. 맨 왼쪽."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8986/crashdude.jpg",
+    "cap": "DFPO-A874."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8986/BrobinShmilliams.jpg",
+    "cap": "원래 위치의 DFPO-D0230."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8988": {
   "id": "SCP-8988",
@@ -129,7 +185,26 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8988",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8988/8988site.jpg",
+    "cap": "제898기지. 오로제네시스 주 배치 시설이다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8988/geodynamo.gif",
+    "cap": "2007년 기준 지구의 자기장 모델"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8988/monitoring.gif",
+    "cap": "오로제네시스의 실시간 계산값"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8988/OROGENESIS2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-8993": {
   "id": "SCP-8993",
@@ -151,7 +226,9 @@
   "author": "SynthPanda_",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-8993",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-8998": {
   "id": "SCP-8998",
@@ -177,7 +254,43 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-8998",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8998/apartment.jpg",
+    "cap": "SCP-8998이 현재 거주 중인 아파트 건물."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-8998/cat.jpg",
+    "cap": "SCP-8998-1이 제공한 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "apartment.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cat.jpg, cat-original.jpg"
+    ],
+    [
+     "저작권자",
+     "aismallard"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "자작"
+    ]
+   ]
+  ]
  },
  "SCP-8999": {
   "id": "SCP-8999",
@@ -199,6 +312,24 @@
   "author": "",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-8999",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5935/warning.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "License",
+     "CC BY SA 3.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }

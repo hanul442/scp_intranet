@@ -20,7 +20,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1451-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1456-KO": {
   "id": "SCP-1456-KO",
@@ -40,7 +42,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1456-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1460-KO": {
   "id": "SCP-1460-KO",
@@ -67,7 +71,9 @@
   "author": "Agent_Wanderer",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1460-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1464-KO": {
   "id": "SCP-1464-KO",
@@ -95,7 +101,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1464-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1464-ko/%EB%8D%B0%EC%8A%A4%EC%BC%84%EC%88%98%EC%8A%A4%EC%9D%98_%EB%9D%BC%EB%B9%84%EB%A6%B0%ED%86%A0%EC%8A%A4.jpg",
+    "cap": "SCP-1464-KO의 격리실에 대한 간략한 단면도. 실제 격리실 구조의 복잡도는 해당 도면의 1400배 가량이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1464-ko/%EB%8D%B0%EC%8A%A4%EC%BC%84%EC%88%98%EC%8A%A4_%EB%AC%B8%EC%9E%90.jpg",
+    "cap": "호모 사피엔스 데스켄수스의 문자 일부"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1465-KO": {
   "id": "SCP-1465-KO",
@@ -116,7 +133,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1465-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1470-KO": {
   "id": "SCP-1470-KO",
@@ -141,7 +160,9 @@
   "author": "limempty",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1470-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1480-KO": {
   "id": "SCP-1480-KO",
@@ -179,7 +200,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1480-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1488-KO": {
   "id": "SCP-1488-KO",
@@ -215,7 +238,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1488-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1490-KO": {
   "id": "SCP-1490-KO",
@@ -238,7 +263,9 @@
   "author": "Plone",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1490-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1491-KO": {
   "id": "SCP-1491-KO",
@@ -260,7 +287,14 @@
   "author": "Lostplaced",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1491-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/lost30/1491ko",
+    "cap": "제██K기지 구내식당에서 출현한 SCP-1491-KO 개체들."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1494-KO": {
   "id": "SCP-1494-KO",
@@ -283,7 +317,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1494-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1497-KO": {
   "id": "SCP-1497-KO",
@@ -306,7 +342,9 @@
   "author": "Garlic Corn-Potatoes",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1497-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1499-KO": {
   "id": "SCP-1499-KO",
@@ -333,6 +371,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1499-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

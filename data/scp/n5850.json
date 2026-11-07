@@ -23,7 +23,34 @@
   "author": "AnActualCrow & Henzoid",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5855",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/AppleFeet.png",
+    "cap": "\"주홍빛 뮤즈\", 저명한 후기 인상주의자 휴고 디모어의 1879년 작품."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/Manana.png",
+    "cap": "텀블러 이용자 st4rvingshartist 의 계정에서 가져온 이미지. 캡션은 다음과 같다. \"팔 달린 바나나가 예술을 계속하라고 말해준 꿈에서 영감을 받았습니다. 고마워요 마나나 :)\""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/Pearson.png",
+    "cap": "\"피버 드림\", @ZaylArt🔞이 트위터에, 2019년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/painapple.png",
+    "cap": "\"못생긴 파인애플\", 랄프 제이콥스, 2012년 스콜라스틱 예술 경연 준우승작."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/orangeLips.png",
+    "cap": "\"실체 없는 발성\", 임마누엘 캔터펠로 로젠스타인, 현재 AAAG(미국 추상예술 갤러리)에서 소장 중, 2016년."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5855/froot.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5856": {
   "id": "SCP-5856",
@@ -45,7 +72,37 @@
   "author": "MaliceAforethought",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-5856",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://topia.wdfiles.com/local--files/malice-norm/dtbmw.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "dtbmw.png"
+    ],
+    [
+     "원본",
+     "Topographia Austriacarum (Merian) 370.jpg"
+    ],
+    [
+     "저작권자",
+     "Martin Zeiller"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "위키미디어 공용"
+    ]
+   ]
+  ]
  },
  "SCP-5859": {
   "id": "SCP-5859",
@@ -69,7 +126,26 @@
   "author": "Anorrack",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-5859",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5859/fileface.png",
+    "cap": "{$caption}"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5859/filefront.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5859/Sherman.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5859/smallstamp.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5861": {
   "id": "SCP-5861",
@@ -92,7 +168,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5861",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5863": {
   "id": "SCP-5863",
@@ -117,7 +195,9 @@
   "author": "SynthPanda_",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5863",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5865": {
   "id": "SCP-5865",
@@ -142,7 +222,9 @@
   "author": "ObserverSeptember",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5865",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5866": {
   "id": "SCP-5866",
@@ -168,7 +250,139 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5866",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5866/Tiamat.jpg",
+    "cap": "SCP-5866의 재구성된 골격. 비율은 1/3500이다."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5866/Tiamat2.jpg",
+    "cap": "티아마트의 죽음을 다룬 아시리아의 묘사."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5866/Tiamat3.jpg",
+    "cap": "다섯 머리를 가진 티아마트의 작은 모형."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5866/Tiamat4.jpg",
+    "cap": "사건 5866-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Tiamat.jpg"
+    ],
+    [
+     "Name",
+     "Tiamat 1"
+    ],
+    [
+     "Author",
+     "Just Taken Pics"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Tiamat2.jpg"
+    ],
+    [
+     "Name",
+     "Tiamat 2"
+    ],
+    [
+     "Author",
+     "Ben Pirard"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Tiamat3.jpg"
+    ],
+    [
+     "Name",
+     "Tiamat 3"
+    ],
+    [
+     "Author",
+     "W10002"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Tiamat4.jpg"
+    ],
+    [
+     "Name",
+     "Tiamat 4 (composite)"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "CC0 1.0"
+    ],
+    [
+     "Source",
+     "cooperhewitt.org"
+    ],
+    [
+     "Author",
+     "▓▒░ TORLEY ░▒▓"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ],
+    [
+     "Author",
+     "Mooganic"
+    ],
+    [
+     "License",
+     "CC BY 2.0"
+    ],
+    [
+     "Source",
+     "flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5868": {
   "id": "SCP-5868",
@@ -193,7 +407,37 @@
   "author": "kinchtheknifeblade",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-5868",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5868/olney.jpg",
+    "cap": "올니 식품 가공 공장"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "olney.jpg"
+    ],
+    [
+     "Name",
+     "Morrell Meat Packing smokehouse"
+    ],
+    [
+     "Author",
+     "Brooklyn11211"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5881": {
   "id": "SCP-5881",
@@ -214,7 +458,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5881",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5884": {
   "id": "SCP-5884",
@@ -235,7 +481,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5884",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5889": {
   "id": "SCP-5889",
@@ -260,6 +508,26 @@
   "author": "Dysadron, Grigori Karpin",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5889",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5889/contusko.jpg",
+    "cap": "기록된 SCP-5889 사례의 분포."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "contus"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "5889 logo"
+    ]
+   ]
+  ]
  }
 }

@@ -17,7 +17,9 @@
   "author": "Limeyy",
   "translator": "Dr Sagan",
   "source": "https://scpko.wikidot.com/scp-6653",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-6654": {
   "id": "SCP-6654",
@@ -38,7 +40,14 @@
   "author": "",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-6654",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpdsandbox.wdfiles.com/local--files/limey%3Acritstuff/566px-Guy_Stroumsa.jpg",
+    "cap": "SCP-6654."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6659": {
   "id": "SCP-6659",
@@ -72,7 +81,535 @@
   "author": "Liryn, Placeholder McD, DodoDevil",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-6659",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/admonition/admo-6659-tets.png",
+    "cap": "훈계"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Flip.jpg",
+    "cap": "반잠수 상태의 제184/A이동기지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Dei-4.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Blake-2.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/logo.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/DoTT-White.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Meme-3.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Prom-T-3.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scptestwiki.wdfiles.com/local--files/sigma:admonition-redesign-6659/admo-place-icon.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6659/Stars-bg-3.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Stars-3.jpg"
+    ],
+    [
+     "Name",
+     "Deel van de sterrenhemel"
+    ],
+    [
+     "Author",
+     "M. Henry"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.281873"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "admo-6659-tets.png"
+    ],
+    [
+     "Name",
+     "Nova target chamber"
+    ],
+    [
+     "Author",
+     "Lawrence Livermore National Laboratory"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Nova_target_chamber.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Flip.jpg"
+    ],
+    [
+     "Name",
+     "RP FLIP at research location"
+    ],
+    [
+     "Author",
+     "U.S. Navy/John F. Williams"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://en.wikipedia.org/wiki/File:RP_FLIP_at_research_location_(120630-N-PO203-310).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Dei-4.png"
+    ],
+    [
+     "Name",
+     "God schept de zon en de maan"
+    ],
+    [
+     "Author",
+     "Francesco Villamena"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.188589"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Blake-2.png"
+    ],
+    [
+     "Name",
+     "Satan Exulting over Eve"
+    ],
+    [
+     "Author",
+     "William Blake"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Satan_Exulting_over_Eve.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Knife-1.jpg"
+    ],
+    [
+     "Name",
+     "Boarding Knife"
+    ],
+    [
+     "Author",
+     "D. van den Bosch"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "http://hdl.handle.net/10934/RM0001.COLLECT.244549"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Meme-3.jpg"
+    ],
+    [
+     "Name",
+     "tree0210"
+    ],
+    [
+     "Author",
+     "Jonathan Lidbeck"
+    ],
+    [
+     "License",
+     "Attribution 2.0 Generic (CC BY 2.0)"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/jondissed/49096163528/in/album-72157711740788652/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Prom-T-3.png"
+    ],
+    [
+     "Name",
+     "Prometheus Brings Fire to Mankind"
+    ],
+    [
+     "Author",
+     "Heinrich Füger"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "DoTT-White.png"
+    ],
+    [
+     "Name",
+     "DoTT Logo"
+    ],
+    [
+     "Author",
+     "Aethris"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/secure-facility-dossier-reliquary-area-27"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "logo.png"
+    ],
+    [
+     "Name",
+     "Meta-Logo"
+    ],
+    [
+     "Author",
+     "GreenGolem"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/golem-s-icon-page"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "PN.png"
+    ],
+    [
+     "Name",
+     "Presumed Neutralized"
+    ],
+    [
+     "Author",
+     "GreenGolem"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "https://scp-wiki.wikidot.com/golem-s-icon-page"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Anatomische studie van de spieren en pezen van de linkerhand"
+    ],
+    [
+     "Author",
+     "Pieter van Gunst"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.339427"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Röntgenopname van een hand van een volwassene"
+    ],
+    [
+     "Author",
+     "Otto Hidlebrand"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.288300"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Studie van een hand"
+    ],
+    [
+     "Author",
+     "Joannes Bemme"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.77725"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Studie van een hand met een naald tussen duim en wijsvinger"
+    ],
+    [
+     "Author",
+     "Henricus Wilhelmus Couwenberg"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.99491"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Skelet van een hand"
+    ],
+    [
+     "Author",
+     "Jan l'Admiral"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.230751"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Twee zeesterren en een zeespin"
+    ],
+    [
+     "Author",
+     "Maurtis Verveer"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.640375"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Zeester (Asteroidea)"
+    ],
+    [
+     "Author",
+     "Anonymous"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.693289"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Microscopische opname van een jonge zeester, 25 keer vergroot"
+    ],
+    [
+     "Author",
+     "Marunus Pieter Filbri"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.266441"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Star-shaped tile with floral scrolls"
+    ],
+    [
+     "Author",
+     "Anonyomous"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.52503"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Staartster en de wonderbaarlijke genezing van een doofstomme jongen, 1627"
+    ],
+    [
+     "Author",
+     "Anonymous"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.459081"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Stars-bg-3.jpg"
+    ],
+    [
+     "Name",
+     "Portret van Hardouin de Beaumont de Péréfixe"
+    ],
+    [
+     "Author",
+     "Nicolas Pitau (I)"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://hdl.handle.net/10934/RM0001.COLLECT.165124"
+    ]
+   ]
+  ]
  },
  "SCP-6663": {
   "id": "SCP-6663",
@@ -95,7 +632,31 @@
   "author": "Deadly Bread",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-6663",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6663/header.png",
+    "cap": "SCP-6663이 발생한 장소인 마이어스 목장."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6663/nebula.png",
+    "cap": "file04.png"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "header.png"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "nebula.png"
+    ]
+   ]
+  ]
  },
  "SCP-6666": {
   "id": "SCP-6666",
@@ -146,7 +707,94 @@
   "author": "djkaktus",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-6666",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6666/6666paragon.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/titania2.png",
+    "cap": "SCP-6666"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/paragon.png",
+    "cap": "파라곤 프로젝트"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/lance.png",
+    "cap": "응용특무부대 헤트-1 \"롱기누스의 창\""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/titania3.png",
+    "cap": "SCP-6666을 조사하는 Mk.VII \"율리시스\" 무인기"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6666/6666map.png",
+    "cap": "SCP-6666 대륙권 공동 지도"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/hector.png",
+    "cap": "고대 전사를 묘사한5 석판"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/hector2.png",
+    "cap": "고대 전사를 묘사한5 석판"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/lancaster.png",
+    "cap": "파라곤 프로젝트 이사관 섀넌 랭커스터"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/bird.png",
+    "cap": "토착 인간형 독립체"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6666/6666cain.png",
+    "cap": "SCP-073의 원본 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/aud.png",
+    "cap": "SCP-4840의 고대 유적."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/connington.png",
+    "cap": "윈스턴 J. 커닝턴 경 귀하."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/cave.png",
+    "cap": "대홍수 이전사 연구부 이사관 코린 맬서스"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6666/6666champion.png",
+    "cap": "대홍수 이전사 연구부 이사관 코린 맬서스"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/malthus.png",
+    "cap": "대홍수 이전사 연구부 이사관 코린 맬서스"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6666/6666god.png",
+    "cap": "SCP-343의 원본 사진."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/darkforest.png",
+    "cap": "N/A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/titania4.jpg",
+    "cap": "활성화된 도중의 SCP-6666. 찰리 타워에서 촬영한 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/figure.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6666/longing2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6670": {
   "id": "SCP-6670",
@@ -168,7 +816,51 @@
   "author": "Ecronak",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-6670",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6670/ecronak_image_flesh.png",
+    "cap": "SCP-6670의 폴라로이드 사진, 2002년 촬영됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Flesh.jpg"
+    ],
+    [
+     "저작권자",
+     "ξωαŋ ThΦt (slowly back…)"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/9f604df7-f630-48dc-a08c-8c3eaafb8075"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Classroom..jpg"
+    ],
+    [
+     "저작권자",
+     "MIKI Yoshihito. (#mikiyoshihito)"
+    ],
+    [
+     "라이선스",
+     "CC-BY 2.0"
+    ],
+    [
+     "출처",
+     "https://search.creativecommons.org/photos/2d1419c5-ba70-4a73-8360-82ede24bdb16"
+    ]
+   ]
+  ]
  },
  "SCP-6681": {
   "id": "SCP-6681",
@@ -192,7 +884,26 @@
   "author": "Tanhony",
   "translator": "ClockedHead",
   "source": "https://scpko.wikidot.com/scp-6681",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6681/scpchaplin.jpg",
+    "cap": "SCP-6681."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6681/scptramp.jpg",
+    "cap": "'떠돌이the Tramp'로서의 SCP-6681."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6681/scpmanoir.jpg",
+    "cap": "마누아 드 반."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6681/scpgrave.jpg",
+    "cap": "SCP-6681의 묘지."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-6696": {
   "id": "SCP-6696",
@@ -215,7 +926,37 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-6696",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6696/Teeth.jpg",
+    "cap": "그림 1. SCP-6696의 외관."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Teeeth.jpg"
+    ],
+    [
+     "Name",
+     "Birmingham Dental Hospital & School of Dentistry - Pebble Mill Road, Edgbaston"
+    ],
+    [
+     "Author",
+     "Elliott Brown"
+    ],
+    [
+     "License",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://search.creativecommons.org/photos/c2a6e9ac-d38b-4eea-b9ab-ff83484f4a18"
+    ]
+   ]
+  ]
  },
  "SCP-6698": {
   "id": "SCP-6698",
@@ -241,6 +982,13 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-6698",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-6698/bathroom.jpg",
+    "cap": "SCP-6698의 내부."
+   }
+  ],
+  "img_credits": []
  }
 }

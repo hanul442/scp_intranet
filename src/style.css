@@ -1105,3 +1105,47 @@ body[data-theme=light] .xpop{border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,
   #fxbtn{display:none} /* 효과 켜기/끄기는 환경 설정에 있음 */
   table.org th:nth-child(5),table.org td:nth-child(5){display:none}
 }
+
+/* ─── 문서 첨부 사진 (33-docimg.js) ─── */
+figure.photo{margin:4px 0 1.1em;border:1px solid var(--line2);background:var(--panel);max-width:520px}
+.body.fmt figure.photo{margin:4px 0 1.1em}
+figure.photo .phframe{display:block;width:100%;padding:8px;border:0;border-bottom:1px solid var(--line);background:var(--bg2);cursor:zoom-in;font:inherit;color:inherit}
+figure.photo img{display:block;max-width:100%;max-height:420px;margin:0 auto;height:auto;filter:grayscale(.15) contrast(1.03)}
+figure.photo .phframe:focus-visible{outline:2px solid var(--amber);outline-offset:-2px}
+figure.photo figcaption{display:flex;gap:10px;align-items:baseline;padding:6px 10px;font-size:12px;line-height:1.55;color:var(--fg2)}
+figure.photo figcaption b{flex:none;font-weight:400;font-size:10.5px;letter-spacing:.12em;color:var(--fg3);border:1px solid var(--line2);padding:0 5px}
+figure.photo .phframe.broken{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:90px;cursor:default;font-size:12px;color:var(--fg3)}
+figure.photo .phframe.broken a{color:var(--fg2)}
+.phset{border:1px solid var(--line2);margin:0 0 18px;background:var(--panel)}
+.phset h5{margin:0;padding:6px 12px;font-size:11px;font-weight:400;letter-spacing:.2em;color:var(--fg3);background:var(--bg2);border-bottom:1px solid var(--line2)}
+.phset h5 small{letter-spacing:.04em;margin-left:6px}
+.phgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;padding:10px}
+.phgrid figure.photo{margin:0;max-width:none;display:flex;flex-direction:column}
+.phgrid figure.photo .phframe{flex:1;display:flex;align-items:center}
+.phgrid figure.photo img{max-height:220px}
+.phcred{margin-top:26px}
+.phcred h5{margin:0 0 6px;font-size:11px;font-weight:400;letter-spacing:.2em;color:var(--fg3)}
+.phcred table.ftab{border:1px solid var(--line);margin-bottom:6px;font-size:11.5px}
+.phcred .ftab th{white-space:normal;word-break:break-all;width:30%;max-width:220px}
+.phcred .ftab td{word-break:break-word}
+.phcred .pk{color:var(--fg3);font-size:10.5px;margin-right:2px}
+.phcred p{margin:4px 0;font-size:11px}
+.phview{position:fixed;inset:0;z-index:1200;background:rgba(5,6,7,.95);display:flex;flex-direction:column;padding:12px 16px}
+.phvbar{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--fg2);flex-wrap:wrap}
+.phvbar .sp{flex:1}
+.phvbar .tb{text-decoration:none;background:rgba(16,19,22,.8);font:inherit;font-size:11px;padding:3px 10px}
+.phvimg{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;gap:10px;padding:12px 0}
+.phvimg img{max-width:calc(100% - 100px);max-height:100%;object-fit:contain;background:#111}
+.phnav{flex:none;width:40px;height:56px;border:1px solid var(--line2);background:rgba(16,19,22,.8);color:var(--hi);font-size:24px;cursor:pointer}
+.phnav:focus-visible{outline:2px solid var(--amber)}
+.phvcap{margin:0 auto;max-width:720px;text-align:center;font-size:12.5px;color:var(--fg);line-height:1.6}
+body[data-theme=light] figure.photo,body[data-theme=light] .phset,body[data-theme=light] .phcred table.ftab{border-radius:6px;overflow:hidden}
+body[data-theme=light] figure.photo img{filter:none}
+@media(max-width:600px){
+  figure.photo{max-width:none}
+  .phgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:8px}
+  .phvimg img{max-width:100%}
+  .phnav{position:absolute;bottom:20px}
+  .phnav.prev{left:16px}.phnav.next{right:16px}
+}
+@media print{.phview{display:none}}

@@ -19,7 +19,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1250-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1259-KO": {
   "id": "SCP-1259-KO",
@@ -54,7 +56,9 @@
   "author": "Chris nix #",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1259-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1270-KO": {
   "id": "SCP-1270-KO",
@@ -76,7 +80,9 @@
   "author": "Chris nix",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1270-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1272-KO": {
   "id": "SCP-1272-KO",
@@ -98,7 +104,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1272-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1278-KO": {
   "id": "SCP-1278-KO",
@@ -120,7 +128,9 @@
   "author": "DreamCube",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1278-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-1282-KO": {
   "id": "SCP-1282-KO",
@@ -150,7 +160,14 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1282-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/the-noble-lady/256px-Automatic_Car_Battery_Charger_Finished_Unit_%2815258113834%29.jpg",
+    "cap": "SCP-1282-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1288-KO": {
   "id": "SCP-1288-KO",
@@ -174,7 +191,18 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1288-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1288-ko/mapsico.png",
+    "cap": "SCP-1288-KO의 로고"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1288-ko/newmapsiman.jpg",
+    "cap": "SCP-1288-KO-1을 촬영한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1293-KO": {
   "id": "SCP-1293-KO",
@@ -195,7 +223,18 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1293-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1293-ko/Hot_air_ballon_-_36149965484.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1293-ko/Field_in_the_Pelagonia_region.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1298-KO": {
   "id": "SCP-1298-KO",
@@ -219,7 +258,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1298-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-1298-ko/Tilia_cordata%2C_young_trees.JPG",
+    "cap": "최초 발견 당시 촬영한 SCP-1298-KO의 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-1299-KO": {
   "id": "SCP-1299-KO",
@@ -244,6 +290,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-1299-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

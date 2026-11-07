@@ -23,7 +23,18 @@
   "author": "Crssk",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-550-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-550-ko/coaster.jpg",
+    "cap": "무인 촬영 장비를 사용하여 SCP-975-KO의 내부를 촬영함. SCP-550-KO의 영항으로 변형됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-550-ko/castle.jpg",
+    "cap": "캐나다 언론 CBC에 노출된 KTE-2026-미메시스-아타리의 일부분"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-551-KO": {
   "id": "SCP-551-KO",
@@ -49,7 +60,18 @@
   "author": "K2 Black Panther does not match any existing user name",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-551-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-551-ko/Mouse_N3Q2278.jpg",
+    "cap": "먹이를 찾고 있는 SCP-551-KO 개체."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/beyond-entropy-hub/supreme-directorate-stamp.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-552-KO": {
   "id": "SCP-552-KO",
@@ -76,7 +98,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-552-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-553-KO": {
   "id": "SCP-553-KO",
@@ -97,7 +121,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-553-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-554-KO": {
   "id": "SCP-554-KO",
@@ -119,7 +145,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-554-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-554-ko/green.png",
+    "cap": "SCP-554-KO의 피영향자가 '녹색골수'의 증거로서 제시한 사진 중 하나. 실제로는 녹색형광단백질(GFP)을 이용하여 촬영된 비변칙적 골수의 사진이다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-555-KO": {
   "id": "SCP-555-KO",
@@ -143,7 +176,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-555-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-555-ko/SCP-555-KO.jpg",
+    "cap": "야외 실험 중에 촬영한 SCP-555-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-556-KO": {
   "id": "SCP-556-KO",
@@ -170,7 +210,9 @@
   "author": "Meat_Scholar",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-556-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-557-KO": {
   "id": "SCP-557-KO",
@@ -194,7 +236,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-557-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-558-KO": {
   "id": "SCP-558-KO",
@@ -217,7 +261,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-558-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-559-KO": {
   "id": "SCP-559-KO",
@@ -239,7 +285,9 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-559-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-560-KO": {
   "id": "SCP-560-KO",
@@ -263,7 +311,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-560-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-561-KO": {
   "id": "SCP-561-KO",
@@ -284,7 +334,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-561-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-562-KO": {
   "id": "SCP-562-KO",
@@ -305,7 +357,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-562-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-563-KO": {
   "id": "SCP-563-KO",
@@ -330,7 +384,9 @@
   "author": "Raihorizon",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-563-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-564-KO": {
   "id": "SCP-564-KO",
@@ -351,7 +407,9 @@
   "author": "Muramad",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-564-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-565-KO": {
   "id": "SCP-565-KO",
@@ -375,7 +433,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-565-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-566-KO": {
   "id": "SCP-566-KO",
@@ -398,7 +458,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-566-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-567-KO": {
   "id": "SCP-567-KO",
@@ -420,7 +482,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-567-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-568-KO": {
   "id": "SCP-568-KO",
@@ -440,7 +504,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-568-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-569-KO": {
   "id": "SCP-569-KO",
@@ -470,7 +536,14 @@
   "author": "TimothyYoung, POI_Damgi",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-569-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-569-ko/vhs.png",
+    "cap": "영상 시작 부분 캡처"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-570-KO": {
   "id": "SCP-570-KO",
@@ -497,7 +570,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-570-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-571-KO": {
   "id": "SCP-571-KO",
@@ -524,7 +599,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-571-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-571-ko/pollution-2575166_1920.jpg",
+    "cap": "SCP-571-KO, 전 제01무장차원격리기지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-572-KO": {
   "id": "SCP-572-KO",
@@ -549,7 +631,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-572-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-572-ko/DRAINAGE_FROM_AN_ABANDONED_MINE_POLLUTES_NEARBY_STREAMS_WITH_IRON_OXIDES_-_NARA_-_544056.jpg",
+    "cap": "SCP-572-KO들이 노역 중인 폐광산들 중 1개소. 철분에 오염된 붉은 지하수가 용출되고 있다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-573-KO": {
   "id": "SCP-573-KO",
@@ -575,7 +664,14 @@
   "author": "BlueMarK",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-573-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-573-ko/fish-1059268_1280.jpg",
+    "cap": "근접에서 촬영한 SCP-573-KO-F의 모습."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-574-KO": {
   "id": "SCP-574-KO",
@@ -596,7 +692,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-574-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-575-KO": {
   "id": "SCP-575-KO",
@@ -624,7 +722,18 @@
   "author": "ClockedHead",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-575-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/clockedhead/Poco",
+    "cap": "구재현."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/clockedhead/Poco2",
+    "cap": "밈적 인자 AP4THY."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-576-KO": {
   "id": "SCP-576-KO",
@@ -644,7 +753,9 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-576-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-577-KO": {
   "id": "SCP-577-KO",
@@ -667,7 +778,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-577-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-578-KO": {
   "id": "SCP-578-KO",
@@ -688,7 +801,9 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-578-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-579-KO": {
   "id": "SCP-579-KO",
@@ -713,7 +828,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-579-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-580-KO": {
   "id": "SCP-580-KO",
@@ -736,7 +853,37 @@
   "author": "thatbaldguy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-580-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-580-ko/young-man.png",
+    "cap": "SCP-580-KO를 사용한 모습"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "young-man.png"
+    ],
+    [
+     "원본",
+     "young-man-bald-guy-bald-adult-2718437"
+    ],
+    [
+     "저자",
+     "thatbaldguy"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-581-KO": {
   "id": "SCP-581-KO",
@@ -762,7 +909,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-581-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-581-ko/tree.jpg",
+    "cap": "SCP-581-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-582-KO": {
   "id": "SCP-582-KO",
@@ -785,7 +939,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-582-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-583-KO": {
   "id": "SCP-583-KO",
@@ -810,7 +966,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-583-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-584-KO": {
   "id": "SCP-584-KO",
@@ -839,7 +997,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-584-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-585-KO": {
   "id": "SCP-585-KO",
@@ -862,7 +1022,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-585-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-585-ko/White_rose_on_a_black_table.jpg",
+    "cap": "촬영된 SCP-585-KO의 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-586-KO": {
   "id": "SCP-586-KO",
@@ -887,7 +1054,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-586-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-587-KO": {
   "id": "SCP-587-KO",
@@ -910,7 +1079,9 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-587-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-588-KO": {
   "id": "SCP-588-KO",
@@ -943,7 +1114,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-588-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-588-ko/cool.jpg",
+    "cap": "사건 이전의 SCP-588-KO 구역 일부. 변칙예술가 체포 작전 중 촬영됨."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-589-KO": {
   "id": "SCP-589-KO",
@@ -966,7 +1144,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-589-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/devil-shopping/mnm.png",
+    "cap": "SCP-589-KO-1의 증언에 따라 재현한 SCP-589-KO의 로고"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-590-KO": {
   "id": "SCP-590-KO",
@@ -995,7 +1180,14 @@
   "author": "oratio",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-590-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-590-ko/sundae.jpg",
+    "cap": "SCP-590-KO에서 판매하는 순댓국"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-591-KO": {
   "id": "SCP-591-KO",
@@ -1016,7 +1208,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-591-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb3.wdfiles.com/local--files/thorley/images%20%283%29.jpeg",
+    "cap": "그들."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-8591/ellingfant.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-592-KO": {
   "id": "SCP-592-KO",
@@ -1038,7 +1241,18 @@
   "author": "TimothyYoung",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-592-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-592-ko/namecard3.png",
+    "cap": "행복한어린이재단재단 명함. 일부 정보 검열됨."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-592-ko/lily.jpg",
+    "cap": "SCP-2599가 촬영한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-593-KO": {
   "id": "SCP-593-KO",
@@ -1059,7 +1273,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-593-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-593-ko/Dane_Axe.jpeg",
+    "cap": "회수된 SCP-593-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-594-KO": {
   "id": "SCP-594-KO",
@@ -1079,7 +1300,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-594-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-594-ko/SCP-594-KO.jpg",
+    "cap": "발견 당시의 SCP-594-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-595-KO": {
   "id": "SCP-595-KO",
@@ -1105,7 +1333,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-595-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-595-ko/teamgeist.jpg",
+    "cap": "2006년 6월 21일, 독일 쾰른 소재의 라인 에네르기 슈타디온 근방에서 발견된 SCP-595-KO의 한 개체. 사진은 로봇을 이용하여 촬영하였다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-596-KO": {
   "id": "SCP-596-KO",
@@ -1130,7 +1365,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-596-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-597-KO": {
   "id": "SCP-597-KO",
@@ -1151,7 +1388,9 @@
   "author": "igangsu",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-597-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-598-KO": {
   "id": "SCP-598-KO",
@@ -1177,7 +1416,22 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-598-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-598-ko/tree.jpg",
+    "cap": "SCP-598-KO의 화상."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-598-ko/insignia.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-598-ko/little-guest.jpg",
+    "cap": "그림 1.1: 한때 경주 김씨 내의령공파 문중 소유였다가, 현재는 국립경주박물관에 소장되어 있는 그림."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-599-KO": {
   "id": "SCP-599-KO",
@@ -1200,6 +1454,8 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-599-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

@@ -17,7 +17,9 @@
   "author": "Pixeltasim",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2900",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2901": {
   "id": "SCP-2901",
@@ -44,7 +46,18 @@
   "author": "LurkD",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2901",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2901/SCP-2901-edit1.jpg",
+    "cap": "제45연구기지 소속 ██████ 요원의 사무실에서 압수한 SCP-2901 그림. [클릭하면 확대됨]"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2901/IDCARD.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2909": {
   "id": "SCP-2909",
@@ -66,7 +79,33 @@
   "author": "SoullessSingularity",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2909",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2909/housss.jpg",
+    "cap": "SCP-2909가 나타나는 집을 촬영한 사진, 알렌 마코브(Arlen Markob) 요원이 촬영."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "housss.jpg"
+    ],
+    [
+     "Author",
+     "Arlen Markob"
+    ],
+    [
+     "License",
+     "Copyrighted (Used with permission)"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2912": {
   "id": "SCP-2912",
@@ -89,7 +128,9 @@
   "author": "Metaphysician",
   "translator": "Kaestine",
   "source": "https://scpko.wikidot.com/scp-2912",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2913": {
   "id": "SCP-2913",
@@ -112,7 +153,14 @@
   "author": "Doctor Cimmerian",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2913",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2913/hand2.jpg",
+    "cap": "격리 중에 촬영된 SCP-2913의 사진. 노출된 뼈 부분은 보이지 않는다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2915": {
   "id": "SCP-2915",
@@ -135,7 +183,9 @@
   "author": "Djoric은(는) 기존 사용자 이름과 일치하지 않습니다.",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2915",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2920": {
   "id": "SCP-2920",
@@ -154,7 +204,9 @@
   "author": "Bryx",
   "translator": "blackmagpie does not match any existing user name",
   "source": "https://scpko.wikidot.com/scp-2920",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2921": {
   "id": "SCP-2921",
@@ -190,7 +242,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2921",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2921/forest",
+    "cap": "SCP-2921이 있는 길. 사진은 최초 발견 후 촬영되었다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2922": {
   "id": "SCP-2922",
@@ -214,7 +273,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2922",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2927": {
   "id": "SCP-2927",
@@ -239,7 +300,9 @@
   "author": "CapnThatguy",
   "translator": "ignoble",
   "source": "https://scpko.wikidot.com/scp-2927",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2930": {
   "id": "SCP-2930",
@@ -262,7 +325,9 @@
   "author": "Kate McTiriss",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2930",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2931": {
   "id": "SCP-2931",
@@ -285,7 +350,9 @@
   "author": "StopSquark",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2931",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2932": {
   "id": "SCP-2932",
@@ -310,7 +377,18 @@
   "author": "djkaktus",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-2932",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2254/paragonlogokor.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2932/forest2.jpg",
+    "cap": "SCP-2932의 입구로 이어지는 길."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2933": {
   "id": "SCP-2933",
@@ -335,7 +413,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2933",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2933/scary1.jpg",
+    "cap": "SCP-2933-1"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2935": {
   "id": "SCP-2935",
@@ -356,7 +441,18 @@
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2935",
   "license": "CC BY-SA 3.0 — scpko.wikidot.com",
-  "nickname": "오, 죽음이여"
+  "nickname": "오, 죽음이여",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2935/hole.png",
+    "cap": "SCP-2935."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2935/location.png",
+    "cap": "USA IN 욥바."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2936": {
   "id": "SCP-2936",
@@ -375,7 +471,9 @@
   "author": "Voct",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2936",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2938": {
   "id": "SCP-2938",
@@ -398,7 +496,9 @@
   "author": "Drewbear",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-2938",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2941": {
   "id": "SCP-2941",
@@ -422,7 +522,9 @@
   "author": "canaryfarmer",
   "translator": "LR0725 / 작가 페이지",
   "source": "https://scpko.wikidot.com/scp-2941",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2949": {
   "id": "SCP-2949",
@@ -443,6 +545,34 @@
   "author": "minmin",
   "translator": "Canonkart",
   "source": "https://scpko.wikidot.com/scp-2949",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2949/statictiger.jpg",
+    "cap": "SCP-2949"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "statictiger.jpg"
+    ],
+    [
+     "제작자",
+     "minmin"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Male Tiger Ranthambhore.jpg"
+    ],
+    [
+     "제작자",
+     "Koshy Koshy"
+    ]
+   ]
+  ]
  }
 }

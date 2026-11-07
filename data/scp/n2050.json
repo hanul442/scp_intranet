@@ -22,7 +22,9 @@
   "author": "weizhong",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2050",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2051": {
   "id": "SCP-2051",
@@ -44,7 +46,9 @@
   "author": "negative_zen",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2051",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2053": {
   "id": "SCP-2053",
@@ -66,7 +70,55 @@
   "author": "dierubikdie",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2053",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2053/page.png",
+    "cap": "SCP-2053-2 페이지의 견본"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2053/page2.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "page.png"
+    ],
+    [
+     "Author",
+     "dierubikdie"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "page2.png"
+    ],
+    [
+     "Author",
+     "dierubikdie"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2055": {
   "id": "SCP-2055",
@@ -86,7 +138,9 @@
   "author": "ZombieYorick",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2055",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2059": {
   "id": "SCP-2059",
@@ -107,7 +161,14 @@
   "author": "Nanoro",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2059",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2059/scp-2059.png",
+    "cap": "SCP-2059의 감각 기관을 근접 촬영한 사진."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2061": {
   "id": "SCP-2061",
@@ -128,7 +189,75 @@
   "author": "Kate McTiriss",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2061",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2061/calculator.jpg",
+    "cap": "1981년 실험 도중에 촬영한 SCP-2061."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2061/newsarticle.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "calculator.jpg"
+    ],
+    [
+     "원본 제목",
+     "Vintage Sharp Elsimate EL-1185 Electronic Printing Pocket Calculator, Made In Japan"
+    ],
+    [
+     "저작권자",
+     "Joe Haupt"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "newsarticle.png"
+    ],
+    [
+     "저작권자",
+     "Kate McTiriss"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "View of new suburban brick and tile bungalow, Sydney Street Willoughby"
+    ],
+    [
+     "저작권자",
+     "Powerhouse Museum"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2062": {
   "id": "SCP-2062",
@@ -149,7 +278,37 @@
   "author": "InsipidParoxysm",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2062",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2062/kron.jpg",
+    "cap": "레오폴트 크로네커."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "kron.jpg"
+    ],
+    [
+     "원본 제목",
+     "Leopold Kronecker 1865.jpg"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2063": {
   "id": "SCP-2063",
@@ -175,7 +334,18 @@
   "author": "WarpZone",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-2063",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2063/ContainedEnterprisePostSmol.png",
+    "cap": "격리 중인 SCP-2063."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2063/BlendedEnterprisePostSmol.png",
+    "cap": "\"실드 켬\" 반응을 보이는 SCP-2063. 연구원들은 대상의 \"스캔\" 범위인 2m 밖에서 500mW 레이저 포인터를 사용해 이 반응을 이끌어냈다. SCP-2063이 어떻게 광선을 맞기 전에 접근하는 광선을 감지했는지는 불분명하다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2067": {
   "id": "SCP-2067",
@@ -198,7 +368,9 @@
   "author": "DrBerggren",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2067",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2069": {
   "id": "SCP-2069",
@@ -221,7 +393,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2069",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2070": {
   "id": "SCP-2070",
@@ -241,7 +415,9 @@
   "author": "Silmerion",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2070",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2072": {
   "id": "SCP-2072",
@@ -263,7 +439,9 @@
   "author": "Kate McTiriss",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2072",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2073": {
   "id": "SCP-2073",
@@ -288,7 +466,9 @@
   "author": "Dr Reach",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2073",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2074": {
   "id": "SCP-2074",
@@ -309,7 +489,37 @@
   "author": "Sophia Light",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2074",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2074/noaa%20vent.jpg",
+    "cap": "SCP-2074"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "noaa vent.jpg"
+    ],
+    [
+     "원본 제목",
+     "Blacksmoker in Atlantic Ocean.jpg"
+    ],
+    [
+     "저작권자",
+     "P. Rona"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2075": {
   "id": "SCP-2075",
@@ -333,7 +543,37 @@
   "author": "Metaphysician",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2075",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2075/182px-Toma_nikolov_hristov.jpg",
+    "cap": "가장 오래된 SCP-2075의 사진."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "182px-Toma_nikolov_hristov.jpg"
+    ],
+    [
+     "원본 제목",
+     "Toma nikolov hristov.jpg"
+    ],
+    [
+     "저작권자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-2076": {
   "id": "SCP-2076",
@@ -357,7 +597,18 @@
   "author": "Logan Armstrong",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2076",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2076/macaw.png",
+    "cap": "광고용 책자에 영향을 준 SCP-2076 개체의 스캔본"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2076/potatoes.png",
+    "cap": "사건 2076-A 중 SCP-2076 출현 사례에 대한 묘사"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2078": {
   "id": "SCP-2078",
@@ -378,7 +629,9 @@
   "author": "Chubert",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2078",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2082": {
   "id": "SCP-2082",
@@ -406,7 +659,79 @@
   "author": "RJB_R",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2082",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/mammoth.jpg",
+    "cap": "복제된 SCP-2082-1의 원본인 SCP-2082 개체의 사체."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/2082%20equipment.png",
+    "cap": "11번 전초기지 관측소."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/SCP-2082.jpg",
+    "cap": "격리실에 있는 SCP-2082-1."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/mammoth.jpg"
+    ],
+    [
+     "Name",
+     "Mammuthus primigenius (baby woolly mammoth) (Late Pleistocene, 42 ka; Yamal Peninsula, Siberia, Russia) 1 (34834312015)"
+    ],
+    [
+     "Author",
+     "James St. John"
+    ],
+    [
+     "License",
+     "CC-by-SA 2.0"
+    ],
+    [
+     "Source Link",
+     "https://commons.wikimedia.org/wiki/File:Mammuthus_primigenius_(baby_woolly_mammoth)_(Late_Pleistocene,_42_ka;_Yamal_Peninsula,_Siberia,_Russia)_1_(34834312015).jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/2082%20equipment.png"
+    ],
+    [
+     "Name",
+     "Joensuu broadcasting station, equipment made in Yleisradio's workshop in Helsinki, 1938"
+    ],
+    [
+     "Author",
+     "Archives of the Finnish Broadcasting Company Yle"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "https://www.flickr.com/photos/ylearkisto/15484874051/"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/SCP-2082.jpg"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "https://scp-wiki.wdfiles.com/local--files/calibri-bold-s-mega-cool-author-page/SCP-2082.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-2085": {
   "id": "SCP-2085",
@@ -429,7 +754,9 @@
   "author": "Djoric",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2085",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2086": {
   "id": "SCP-2086",
@@ -453,7 +780,9 @@
   "author": "MorgiePie",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-2086",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2090": {
   "id": "SCP-2090",
@@ -475,7 +804,18 @@
   "author": "djkaktus",
   "translator": "lanlanmag",
   "source": "https://scpko.wikidot.com/scp-2090",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2090/timduncan.png",
+    "cap": "SCP-2090 감시 중 칸트 계수기에서 생성된 이미지."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2090/basketball.png",
+    "cap": "규약 올라말리즈틀리-5."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-2091": {
   "id": "SCP-2091",
@@ -502,7 +842,33 @@
   "author": "Decibelles",
   "translator": "Nareum",
   "source": "https://scpko.wikidot.com/scp-2091",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-2091/SCP-2091.jpg",
+    "cap": "변칙성을 발현하기 전인 1994년에 촬영한 SCP-2091-1과 함께 있는 SCP-2091-2. SCP-2091의 발견 지점에서 회수함."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-2091.jpg"
+    ],
+    [
+     "저작권자",
+     "Becky Harris"
+    ],
+    [
+     "라이선스",
+     "저작권 존재(카피라이트) 하지만 허락 받고 사용"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2092": {
   "id": "SCP-2092",
@@ -523,7 +889,59 @@
   "author": "TobiasTheTapir",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2092",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2092/probea.jpg",
+    "cap": "발사 이전의 탐사정-2092-A"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2092/solar.png",
+    "cap": "SCP-2092-1 메시지의 시각화"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "probea.jpg"
+    ],
+    [
+     "Name",
+     "Mars Climate Orbiter during tests.jpg"
+    ],
+    [
+     "Author",
+     "NASA"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "solar.png"
+    ],
+    [
+     "Author",
+     "TobiasTheTapir"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-2094": {
   "id": "SCP-2094",
@@ -547,7 +965,9 @@
   "author": "",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-2094",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2095": {
   "id": "SCP-2095",
@@ -574,7 +994,87 @@
   "author": "Metaphysician",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-2095",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2095/rsz_1024px-edmontosaurusmummy_zpsd4db2d38.jpg",
+    "cap": "1948년 8월 7일에 발굴된 이후의 SCP-2095."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-2095/rsz_ercole_hydra_76001812_zps8ea5bf10.png",
+    "cap": "편지에 부착되어 있던 봉랍."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "rsz_1024px-edmontosaurusmummy_zpsd4db2d38.jpg"
+    ],
+    [
+     "저작권자",
+     "Metaphysician"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Edmontosaurusmummy.jpg"
+    ],
+    [
+     "저작권자",
+     "A.E. Anderson"
+    ],
+    [
+     "라이선스",
+     "퍼블릭 도메인"
+    ],
+    [
+     "출처",
+     "Wikimedia"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "rsz_ercole_hydra_76001812_zps8ea5bf10.png"
+    ],
+    [
+     "저작권자",
+     "Metaphysician"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Wiki"
+    ],
+    [
+     "원본 제목",
+     "Ercole Hydra 76001812.jpg"
+    ],
+    [
+     "저작권자",
+     "CNG"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.5"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-2097": {
   "id": "SCP-2097",
@@ -598,7 +1098,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-2097",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2098": {
   "id": "SCP-2098",
@@ -622,7 +1124,9 @@
   "author": "Mulciber",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-2098",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-2099": {
   "id": "SCP-2099",
@@ -648,6 +1152,8 @@
   "author": "DrEverettMann",
   "translator": "Fissh",
   "source": "https://scpko.wikidot.com/scp-2099",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

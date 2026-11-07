@@ -21,7 +21,31 @@
   "author": "LilyFlower & minmin",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3250",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3250/sanders.jpg",
+    "cap": "1974년 12월 공개석상에 모습을 드러낸 POI-3250(할랜드 데이비드 샌더스 대령)."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3250/chicken.jpg",
+    "cap": "2009년 제88기지 연구실에 마련된 SCP-3250-양성 프라이드 치킨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "sanders.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "chicken.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3252": {
   "id": "SCP-3252",
@@ -41,7 +65,29 @@
   "author": "Rookierookie",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-3252",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3252/1280px-Extinction_intensityB.jpg",
+    "cap": "초기 시간무결성 분석도표 (Y축 비례는 정확하지 않음)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "1280px-Extinction_intensityB.jpg"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3270": {
   "id": "SCP-3270",
@@ -64,7 +110,37 @@
   "author": "JanitorCakeworth",
   "translator": "PIMANG",
   "source": "https://scpko.wikidot.com/scp-3270",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3270/newcat.jpg",
+    "cap": "SCP-3270의 사본"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "newcat.jpg"
+    ],
+    [
+     "Name",
+     "BlalockFatCat.jpg"
+    ],
+    [
+     "Author",
+     "Elisabet Stacy-Hurley"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3271": {
   "id": "SCP-3271",
@@ -91,7 +167,9 @@
   "author": "Tanhony",
   "translator": "MysteryInc",
   "source": "https://scpko.wikidot.com/scp-3271",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3272": {
   "id": "SCP-3272",
@@ -111,7 +189,27 @@
   "author": "TheMightyMcB",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-3272",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/fragment:scp-3272-0/Shooting_Star.jpg",
+    "cap": "한 SCP-3272 개체."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Shooting_Star.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Porta_Potty.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3275": {
   "id": "SCP-3275",
@@ -132,7 +230,33 @@
   "author": "Scented_Shadow",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3275",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3275/pizzazresize.png",
+    "cap": "재단에서 화학 분석차 획득한 SCP-3275-1 개체. 올리브가 유황 냄새를 발산한다. 주문 내용은 \"채식 피자\"였다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "pizzazresize.png"
+    ],
+    [
+     "저자",
+     "Scented_Shadow"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP-3275"
+    ]
+   ]
+  ]
  },
  "SCP-3279": {
   "id": "SCP-3279",
@@ -154,7 +278,28 @@
   "author": "Popsioak",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-3279",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "AB071_Merionis_hurrianae.jpg"
+    ],
+    [
+     "저자",
+     "AshLin"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-3280": {
   "id": "SCP-3280",
@@ -179,7 +324,31 @@
   "author": "S D Locke",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3280",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3280/storm.jpg",
+    "cap": "[편집됨]"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3280/storm2.jpg",
+    "cap": "[편집됨]"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "storm.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "storm2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3284": {
   "id": "SCP-3284",
@@ -200,7 +369,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3284",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3287": {
   "id": "SCP-3287",
@@ -228,7 +399,33 @@
   "author": "OthellotheCat",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-3287",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3287/medium.jpg",
+    "cap": "SCP-3287이 담긴 용기."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "medium.jpg"
+    ],
+    [
+     "저자",
+     "Bru-nO"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-3288": {
   "id": "SCP-3288",
@@ -254,7 +451,21 @@
   "author": "Metaphysician",
   "translator": "Crssk",
   "source": "https://scpko.wikidot.com/scp-3288",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3288/leopold%20i.jpg",
+    "cap": "귀도 카냐치가 그린 레오폴트 1세(1657-1658년 경)"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "leopold i.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-3293": {
   "id": "SCP-3293",
@@ -277,7 +488,33 @@
   "author": "djkaktus, Joreth",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-3293",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-3293/boy.jpg",
+    "cap": "격리 이전의 SCP-3293."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "boy.jpg"
+    ],
+    [
+     "저자",
+     "djkaktus"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-3295": {
   "id": "SCP-3295",
@@ -300,7 +537,69 @@
   "author": "ObserverSeptember, N/A, OpenClipart-Vectors",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-3295",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-3295/scp3295.png",
+    "cap": "SCP-3295 각 개체의 문에 달린 표지판."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "scp3295.png"
+    ],
+    [
+     "저자",
+     "ObserverSeptember, N/A, OpenClipart-Vectors"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Smoking place (zone) Ukraine.svg"
+    ],
+    [
+     "저자",
+     "N/A"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "N/A"
+    ],
+    [
+     "저자",
+     "OpenClipart-Vectors"
+    ],
+    [
+     "라이선스",
+     "CC0"
+    ],
+    [
+     "출처",
+     "Pixabay"
+    ]
+   ]
+  ]
  },
  "SCP-3296": {
   "id": "SCP-3296",
@@ -325,7 +624,9 @@
   "author": "notgull",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-3296",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-3299": {
   "id": "SCP-3299",
@@ -347,6 +648,8 @@
   "author": "Mortos",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-3299",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

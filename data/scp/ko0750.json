@@ -29,7 +29,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-750-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-750-ko/portrait-of-an-Air-Raid-Warden.jpg",
+    "cap": "초기 격리 당시 SCP-750-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-751-KO": {
   "id": "SCP-751-KO",
@@ -52,7 +59,31 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-751-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-751-ko/Krampus_1900s_4.jpg",
+    "cap": "크람푸스를 표현한 그림"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-751-ko/yule.png",
+    "cap": "중앙 우측의 독립체는 SCP-4666으로 파악됨."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "N/A"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "yule.png"
+    ]
+   ]
+  ]
  },
  "SCP-752-KO": {
   "id": "SCP-752-KO",
@@ -73,7 +104,9 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-752-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-753-KO": {
   "id": "SCP-753-KO",
@@ -94,7 +127,9 @@
   "author": "Garlic Corn-Potatoes",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-753-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-754-KO": {
   "id": "SCP-754-KO",
@@ -118,7 +153,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-754-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-755-KO": {
   "id": "SCP-755-KO",
@@ -149,7 +186,14 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-755-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-755-ko/hand.png",
+    "cap": "SCP-755-KO-A의 신체 변형을 묘사한 이미지"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-756-KO": {
   "id": "SCP-756-KO",
@@ -176,7 +220,31 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-756-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-756-ko/illusion0.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-756-ko/illusion1.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "Illusion0.png"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Illusion1.gif"
+    ]
+   ]
+  ]
  },
  "SCP-757-KO": {
   "id": "SCP-757-KO",
@@ -209,7 +277,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-757-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-758-KO": {
   "id": "SCP-758-KO",
@@ -231,7 +301,26 @@
   "author": "©︎Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-758-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/bangsangmask",
+    "cap": "장례, 나례 의식에서 사용되던 방상시 탈."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/Korea-Bukhansan-10%20%281%29.jpg",
+    "cap": "제██발굴지 입구."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/bangsang",
+    "cap": "제██발굴지 발굴팀장 이██ 박사의 메모 중 일부. 맥락 불명."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/migueludeom/IMG_6996.jpeg",
+    "cap": "SCP-758-KO-a."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-759-KO": {
   "id": "SCP-759-KO",
@@ -251,7 +340,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-759-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-760-KO": {
   "id": "SCP-760-KO",
@@ -273,7 +364,14 @@
   "author": "TocoT0ucan_98",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-760-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-760-ko/Dortmund-Zoo-Kleiner_Panda151930.jpg",
+    "cap": "새끼를 돌보는 레서판다. 출산 일주일 후 SCP-760-KO가 발생했다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-761-KO": {
   "id": "SCP-761-KO",
@@ -293,7 +391,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-761-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-762-KO": {
   "id": "SCP-762-KO",
@@ -318,7 +418,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-762-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-763-KO": {
   "id": "SCP-763-KO",
@@ -343,7 +445,18 @@
   "author": "pepping1235",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-763-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-763-ko/sea-1017596_1280.jpg",
+    "cap": "SCP-763-KO가 최초로 발견되었던 현장 사진"
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/beyond-entropy-hub/supreme-directorate-stamp.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-764-KO": {
   "id": "SCP-764-KO",
@@ -367,7 +480,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-764-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-765-KO": {
   "id": "SCP-765-KO",
@@ -388,7 +503,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-765-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-766-KO": {
   "id": "SCP-766-KO",
@@ -418,7 +535,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-766-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-767-KO": {
   "id": "SCP-767-KO",
@@ -444,7 +563,22 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-767-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-767-ko/SCP-767-KO.jpg",
+    "cap": "산책 대기 중인 SCP-767-KO"
+   },
+   {
+    "src": "https://incbox.wdfiles.com/local--files/koigare-hirosue/header.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://incbox.wdfiles.com/local--files/koigare-hirosue/hirosue.jpg",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-768-KO": {
   "id": "SCP-768-KO",
@@ -464,7 +598,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-768-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-769-KO": {
   "id": "SCP-769-KO",
@@ -483,7 +619,9 @@
   "author": "Plone",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-769-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-770-KO": {
   "id": "SCP-770-KO",
@@ -506,7 +644,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-770-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-770-ko/Lightning_at_Night.jpg",
+    "cap": "우천 중 촬영된 SCP-770-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-771-KO": {
   "id": "SCP-771-KO",
@@ -529,7 +674,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-771-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-772-KO": {
   "id": "SCP-772-KO",
@@ -555,7 +702,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-772-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-773-KO": {
   "id": "SCP-773-KO",
@@ -577,7 +726,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-773-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-774-KO": {
   "id": "SCP-774-KO",
@@ -604,7 +755,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-774-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-774-ko/Planetindra.jpg",
+    "cap": "우르수스 3호가 찍은 SCP-774-KO의 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-775-KO": {
   "id": "SCP-775-KO",
@@ -634,7 +792,14 @@
   "author": "Navla",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-775-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-775-ko/Noise.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-776-KO": {
   "id": "SCP-776-KO",
@@ -659,7 +824,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-776-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-776-ko/500px-%ED%92%8D%EB%AC%BC%EB%B6%81.jpg",
+    "cap": "면담 중인 SCP-776-KO."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-777-KO": {
   "id": "SCP-777-KO",
@@ -680,7 +852,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-777-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-778-KO": {
   "id": "SCP-778-KO",
@@ -705,7 +879,9 @@
   "author": "quilt",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-778-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-779-KO": {
   "id": "SCP-779-KO",
@@ -727,7 +903,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-779-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-780-KO": {
   "id": "SCP-780-KO",
@@ -751,7 +929,18 @@
   "author": "dododom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-780-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/collab%3Adododom-14-d484/owl-3184032_1920.jpg",
+    "cap": ""
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-780-ko/uiu.png",
+    "cap": ""
+   }
+  ],
+  "img_credits": []
  },
  "SCP-781-KO": {
   "id": "SCP-781-KO",
@@ -777,7 +966,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-781-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-782-KO": {
   "id": "SCP-782-KO",
@@ -801,7 +992,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-782-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-782-ko/SCP-782-KO.jpg",
+    "cap": "확보 당시 촬영된 비활성화 상태의 SCP-782-KO-2"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-783-KO": {
   "id": "SCP-783-KO",
@@ -835,7 +1033,14 @@
   "author": "dododom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-783-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-783-ko/apple-tree-3515068_1920.jpg",
+    "cap": "SCP-783-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-784-KO": {
   "id": "SCP-784-KO",
@@ -854,7 +1059,9 @@
   "author": "BsR408",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-784-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-785-KO": {
   "id": "SCP-785-KO",
@@ -874,7 +1081,9 @@
   "author": "Crsnd",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-785-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-786-KO": {
   "id": "SCP-786-KO",
@@ -895,7 +1104,33 @@
   "author": "Cubic72",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-786-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-786-ko/SCP-786-KO%20entrance.jpg",
+    "cap": "SCP-786-KO로 진입하는 입구 사진1. 촬영자 및 촬영 시점 불명."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "SCP-786-KO entrance.jpg"
+    ],
+    [
+     "저자",
+     "Vincentz"
+    ],
+    [
+     "라이선스",
+     "GFDL/CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "링크"
+    ]
+   ]
+  ]
  },
  "SCP-787-KO": {
   "id": "SCP-787-KO",
@@ -920,7 +1155,9 @@
   "author": "Migueludeom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-787-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-788-KO": {
   "id": "SCP-788-KO",
@@ -944,7 +1181,14 @@
   "author": "Aiken Drum",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-788-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-788-ko/museum.jpg",
+    "cap": "SCP-788-KO 내부. 81단계."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-789-KO": {
   "id": "SCP-789-KO",
@@ -974,7 +1218,14 @@
   "author": "romrom",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-789-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-789-ko/20210128_203458.jpg",
+    "cap": "SCP-789-KO"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-790-KO": {
   "id": "SCP-790-KO",
@@ -1003,7 +1254,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-790-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-791-KO": {
   "id": "SCP-791-KO",
@@ -1030,7 +1283,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-791-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-791-ko/scp-791-ko.jpg",
+    "cap": "SCP-791-KO의 제3격리동 외관"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-792-KO": {
   "id": "SCP-792-KO",
@@ -1053,7 +1313,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-792-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-793-KO": {
   "id": "SCP-793-KO",
@@ -1078,7 +1340,9 @@
   "author": "ProfoundAbyss",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-793-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-794-KO": {
   "id": "SCP-794-KO",
@@ -1100,7 +1364,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-794-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-794-ko/SCP-794-KO.png",
+    "cap": "SCP-794-KO가 안치된 무덤."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-795-KO": {
   "id": "SCP-795-KO",
@@ -1121,7 +1392,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-795-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-795-ko/T460_angled.jpg",
+    "cap": "SCP-795-KO-1을 촬영한 사진"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-796-KO": {
   "id": "SCP-796-KO",
@@ -1142,7 +1420,9 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-796-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-797-KO": {
   "id": "SCP-797-KO",
@@ -1169,7 +1449,14 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-797-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-797-ko/sky.jpg",
+    "cap": "회수 직전 촬영된 SCP-797-KO 개체 2점."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-798-KO": {
   "id": "SCP-798-KO",
@@ -1194,7 +1481,14 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-798-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-798-ko/fog.jpg",
+    "cap": "SCP-798-KO에 진입 중인 기동특무부대 욤-19 (\"방랑자들\")"
+   }
+  ],
+  "img_credits": []
  },
  "SCP-799-KO": {
   "id": "SCP-799-KO",
@@ -1227,6 +1521,13 @@
   "author": "Payroy",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-799-KO",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpkosb.wdfiles.com/local--files/draft%3Apayroy-4555-7d4b/scp-888-ko1.png",
+    "cap": "암괴(暗怪) 영점 스펙트럼 센서 탐지기."
+   }
+  ],
+  "img_credits": []
  }
 }

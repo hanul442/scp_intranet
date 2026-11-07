@@ -24,7 +24,305 @@
   "author": "Billith",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7912",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/voidy.png",
+    "cap": "내부"
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/empty.png",
+    "cap": "SCP-7912 격리실 내부."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7549/recurrent_triangle.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/inform.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen00.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen0.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen0000.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen9_.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen000.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen7.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/null",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/screen8.gif",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-6768/dept.png",
+    "cap": ""
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7912/poi.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "cryptic.svg"
+    ],
+    [
+     "Author",
+     "MontagueETC"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "recurrent_triangle.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "deletion.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "dod-detail.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "empty.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "inform.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "rsm.png"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "Tenebrarius.svg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "poi.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen0000.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen000.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen00.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen0.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen9_.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen8.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "screen7.gif"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "sort.jpg"
+    ],
+    [
+     "Author",
+     "Billith"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7918": {
   "id": "SCP-7918",
@@ -44,7 +342,51 @@
   "author": "Long Arm Larry",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-7918",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-7918/President_Ronald_Reagan_Looking_at__Get_Well_Soon_Mr._President__Photo_While_at_George_Washington_Hospital_-_DPLA_-_5745db95b0bd3cdc031957c9825fadc5.jpg",
+    "cap": "레이건 대통령, 1981년"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "President Reagan looking at \"Get Well Soon Mr. President\" - C1497-5A.jpg"
+    ],
+    [
+     "원본",
+     "President Reagan looking at \"Get Well Soon Mr. President\" - C1497-5A.jpg"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:President_Reagan_looking_at_%22Get_Well_Soon_Mr._President%22_-_C1497-5A.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Reagans_with_USS_Ronald_Reagan_model_1996_(cropped).jpg"
+    ],
+    [
+     "원본",
+     "Reagans_with_USS_Ronald_Reagan_model_1996_(cropped).jpg"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Reagans_with_USS_Ronald_Reagan_model_1996_(cropped).jpg"
+    ]
+   ]
+  ]
  },
  "SCP-7920": {
   "id": "SCP-7920",
@@ -65,7 +407,26 @@
   "author": "cubeflix",
   "translator": "Gua1ngHa3i",
   "source": "https://scpko.wikidot.com/scp-7920",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://smlt.wdfiles.com/local--files/cubeflix:veil/header.png",
+    "cap": "맥락 불명."
+   },
+   {
+    "src": "https://smlt.wdfiles.com/local--files/cubeflix:veil/stars.png",
+    "cap": "맥락 불명."
+   },
+   {
+    "src": "https://smlt.wdfiles.com/local--files/cubeflix:veil/fishbowl.jpg",
+    "cap": "맥락 불명."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/cubeflix/obelisk.png",
+    "cap": "맥락 불명."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-7923": {
   "id": "SCP-7923",
@@ -86,7 +447,9 @@
   "author": "Randomini",
   "translator": "Cubic72",
   "source": "https://scpko.wikidot.com/scp-7923",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-7926": {
   "id": "SCP-7926",
@@ -109,7 +472,33 @@
   "author": "Uncle Nicolini & Nickthebrick1",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-7926",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7926/pimple.png",
+    "cap": "변칙적 특성이 생기기 이전의 SCP-7926."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "pimple.png"
+    ],
+    [
+     "Name",
+     "Eros Vlahos cropped.jpg"
+    ],
+    [
+     "Author",
+     "Loweane"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ]
+   ]
+  ]
  },
  "SCP-7930": {
   "id": "SCP-7930",
@@ -133,7 +522,37 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7930",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7930/watchingyou.png",
+    "cap": "이전 SCP-7930 개체. 칠레 산티아고에 위치."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "watchingyou.PNG"
+    ],
+    [
+     "Name",
+     "Cine para adultos (Compañía de Jesús 1078)"
+    ],
+    [
+     "Author",
+     "José Miguel Cordero Carvacho"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia"
+    ]
+   ]
+  ]
  },
  "SCP-7933": {
   "id": "SCP-7933",
@@ -159,7 +578,33 @@
   "author": "daveyoufool",
   "translator": "quilt",
   "source": "https://scpko.wikidot.com/scp-7933",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-7933/munkyxing.jpg",
+    "cap": "SCP-7933에 완전히 감염된 VHS 비디오테이프의 타이틀 카드."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "munkyxing.jpg"
+    ],
+    [
+     "Author",
+     "daveyoufool"
+    ],
+    [
+     "License",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "Source Link",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  },
  "SCP-7941": {
   "id": "SCP-7941",
@@ -183,6 +628,50 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-7941",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/fragment:scp-7941-1/renard.gif",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "renard.gif"
+    ],
+    [
+     "저작권자",
+     "daveyoufool"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "tank.gif"
+    ],
+    [
+     "저작권자",
+     "daveyoufool"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "SCP Foundation Wiki"
+    ]
+   ]
+  ]
  }
 }

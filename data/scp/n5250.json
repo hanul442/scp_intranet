@@ -22,7 +22,18 @@
   "author": "",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-5250",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5250/lake.jpg",
+    "cap": "당신은 이 사진을 보고 SCP-5250 한 그릇 푸지게 먹을 좋은 장소라고 생각한다. 비록 사슴이 약간의 흔적을 남겼지만, 덕분에 어디로 가면 안될지, 어딜 보면 안될지를 알게 됐다."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5250/deer.jpg",
+    "cap": "이 무슨 멍청한 사슴인지, 당신이 웃는다."
+   }
+  ],
+  "img_credits": []
  },
  "SCP-5258": {
   "id": "SCP-5258",
@@ -43,7 +54,46 @@
   "author": "Penton",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5258",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Black White Graphic Pattern by Trisorn Triboon.jpg"
+    ],
+    [
+     "저작권자",
+     "Tris_T7"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Black_White_Graphic_Pattern_by_Trisorn_Triboon.jpg"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Black White Graphic Pattern by Trisorn Triboon 2.jpg"
+    ],
+    [
+     "저작권자",
+     "Tris_T7"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 4.0"
+    ],
+    [
+     "출처",
+     "https://commons.wikimedia.org/wiki/File:Black_White_Graphic_Pattern_by_Trisorn_Triboon_2.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-5267": {
   "id": "SCP-5267",
@@ -69,7 +119,81 @@
   "author": "Grigori Karpin",
   "translator": "Salamander724",
   "source": "https://scpko.wikidot.com/scp-5267",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/fortexterior",
+    "cap": "SCP-5267 내부에 위치한 성탑 유적."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/cavernexit",
+    "cap": "언덕배기의 지하 저장실 유적."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/ruinsabovecavern",
+    "cap": "SCP-5267 내부의 폐허유적 전경."
+   },
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/grigori-karpin-s-author-page/fortinterior",
+    "cap": "SCP-5267의 성탑의 내부."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Fortexterior"
+    ],
+    [
+     "저작권자",
+     "Gautam Gupta"
+    ],
+    [
+     "라이선스",
+     "CC By 2.0"
+    ],
+    [
+     "출처",
+     ":link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "cavernexit"
+    ],
+    [
+     "저작권자",
+     "Murray Barnes"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "ruinsabovecavern"
+    ],
+    [
+     "저작권자",
+     "Murray Barnes"
+    ],
+    [
+     "라이선스",
+     "CC BY 2.0"
+    ],
+    [
+     "출처",
+     "Link"
+    ]
+   ]
+  ]
  },
  "SCP-5269": {
   "id": "SCP-5269",
@@ -91,7 +215,32 @@
   "author": "J Dune",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-5269",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "S9sQ7BQ.jpeg"
+    ],
+    [
+     "원본",
+     "Haworth crater"
+    ],
+    [
+     "저작권자",
+     "NASA"
+    ],
+    [
+     "라이선스",
+     "Public Domain"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  },
  "SCP-5270": {
   "id": "SCP-5270",
@@ -120,7 +269,69 @@
   "author": "Penguin6 : 닉네임이 현존하는 사용자 이름과 일치하지 않습니다. & GerrymanderBassist",
   "translator": "TocoT0ucan_98",
   "source": "https://scpko.wikidot.com/scp-5270",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-5270/Hug",
+    "cap": ""
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "bear"
+    ],
+    [
+     "저작권자",
+     "Bandit \"Nickname Changes\" Bebop"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-5270"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Hat"
+    ],
+    [
+     "저작권자",
+     "Bandit \"Nickname Changes\" Bebop"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-5270"
+    ]
+   ],
+   [
+    [
+     "파일명",
+     "Hug"
+    ],
+    [
+     "저작권자",
+     "Bandit \"Nickname Changes\" Bebop"
+    ],
+    [
+     "라이선스",
+     "CC-BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-5270"
+    ]
+   ]
+  ]
  },
  "SCP-5280": {
   "id": "SCP-5280",
@@ -149,7 +360,37 @@
   "author": "stormbreath와 Amelia Wright 공저",
   "translator": "agent rebel",
   "source": "https://scpko.wikidot.com/scp-5280",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-5280/bees.jpg",
+    "cap": "글렌데일 부지를 찍은 일자 불명의 사진. 인공적으로 만들어진 SCP-5280 벌통 여러 개가 보인다. 사진에 찍힌 인간 독립체들의 신원이나 역할은 알 수 없다."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "bees.jpg"
+    ],
+    [
+     "Name",
+     "British bee journal & bee-keepers adviser"
+    ],
+    [
+     "Author",
+     "Unknown"
+    ],
+    [
+     "License",
+     "Public domain"
+    ],
+    [
+     "Source Link",
+     "Flickr"
+    ]
+   ]
+  ]
  },
  "SCP-5283": {
   "id": "SCP-5283",
@@ -169,7 +410,9 @@
   "author": "Trintavon",
   "translator": "LR0725",
   "source": "https://scpko.wikidot.com/scp-5283",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-5287": {
   "id": "SCP-5287",
@@ -193,6 +436,8 @@
   "author": "Cremo & Uncle Nicolini",
   "translator": "MGPedersen",
   "source": "https://scpko.wikidot.com/scp-5287",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  }
 }

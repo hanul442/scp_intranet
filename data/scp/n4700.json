@@ -26,7 +26,21 @@
   "author": "PeppersGhost",
   "translator": "Meiden",
   "source": "https://scpko.wikidot.com/scp-4703",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4703/4703.jpg",
+    "cap": "SCP-4703 내부."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "4703.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4710": {
   "id": "SCP-4710",
@@ -49,7 +63,9 @@
   "author": "A Random Day",
   "translator": "Langston77",
   "source": "https://scpko.wikidot.com/scp-4710",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4722": {
   "id": "SCP-4722",
@@ -71,7 +87,21 @@
   "author": "RichTea",
   "translator": "",
   "source": "https://scpko.wikidot.com/scp-4722",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4722/desirepath.jpg",
+    "cap": "SCP-4722가 영향을 끼친 보행길."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "desirepath.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4726": {
   "id": "SCP-4726",
@@ -93,7 +123,33 @@
   "author": "Uncle Nicolini",
   "translator": "TimothyYoung",
   "source": "https://scpko.wikidot.com/scp-4726",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4726/gamermilk.png",
+    "cap": "발견 당시 지역 사법당국 경관과 대면한 SCP-4726"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "gamermilk.png"
+    ],
+    [
+     "저자",
+     "Papa Sen"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 3.0"
+    ],
+    [
+     "출처",
+     "https://scp-wiki.wikidot.com/scp-4726"
+    ]
+   ]
+  ]
  },
  "SCP-4733": {
   "id": "SCP-4733",
@@ -120,7 +176,163 @@
   "author": "Deadly Bread, Lamentte",
   "translator": "KindOfBlue",
   "source": "https://scpko.wikidot.com/scp-4733",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4733/awcrop.jpg",
+    "cap": "POI-1851, 사망 직전의 모습."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4733/awapartment.jpg",
+    "cap": "POI-1581의 아파트, 그리고 SCP-4733의 초기 위치."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4733/mach.jpg",
+    "cap": "SCP-4733-1A."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4733/tele.jpg",
+    "cap": "SCP-4733-1B."
+   },
+   {
+    "src": "https://scpko.wdfiles.com/local--files/scp-4733/lamp.jpg",
+    "cap": "SCP-4733-1C."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "Filename",
+     "awcrop"
+    ],
+    [
+     "Name",
+     "An-ski 1910"
+    ],
+    [
+     "Author",
+     "Arkady Georgievich Gornfeld"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "awapartment"
+    ],
+    [
+     "Name",
+     "Interieur achterhuis- overwelfde ruimte - Maastricht - 20149918 - RCE"
+    ],
+    [
+     "Author",
+     "Gerard Dukker"
+    ],
+    [
+     "License",
+     "CC BY-SA 4.0"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "mach"
+    ],
+    [
+     "Name",
+     "Machine detail 1914 (3191683040)"
+    ],
+    [
+     "Author",
+     "Miami University Libraries"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "tele"
+    ],
+    [
+     "Name",
+     "A telegraphone LCCN2002709528"
+    ],
+    [
+     "Author",
+     "Library of Congress"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "lamp"
+    ],
+    [
+     "Name",
+     "Early Cooper Hewitt mercury vapor lamp"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "Public Domain"
+    ],
+    [
+     "Source Link",
+     "Wikimedia Commons"
+    ]
+   ],
+   [
+    [
+     "Filename",
+     "paper"
+    ],
+    [
+     "Name",
+     "Antique Old Texture Paper Parchment Background"
+    ],
+    [
+     "Author",
+     "N/A"
+    ],
+    [
+     "License",
+     "CC0"
+    ],
+    [
+     "Source Link",
+     "Max Pixel"
+    ]
+   ]
+  ]
  },
  "SCP-4746": {
   "id": "SCP-4746",
@@ -142,7 +354,21 @@
   "author": "Hatcheye",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4746",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4746/Traitor.jpg",
+    "cap": "SCP-4746가 변칙적 성질을 나타내기 이전의 사진인원들이 SCP-4746을 목격한 즉시 처분할 수 있도록 돕기 위한 시각 자료."
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "Traitor.jpg"
+    ]
+   ]
+  ]
  },
  "SCP-4747": {
   "id": "SCP-4747",
@@ -166,7 +392,9 @@
   "author": "UraniumEmpire",
   "translator": "fluxman",
   "source": "https://scpko.wikidot.com/scp-4747",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [],
+  "img_credits": []
  },
  "SCP-4748": {
   "id": "SCP-4748",
@@ -188,6 +416,32 @@
   "author": "Weryllium",
   "translator": "Aiken Drum",
   "source": "https://scpko.wikidot.com/scp-4748",
-  "license": "CC BY-SA 3.0 — scpko.wikidot.com"
+  "license": "CC BY-SA 3.0 — scpko.wikidot.com",
+  "images": [
+   {
+    "src": "https://scp-wiki.wdfiles.com/local--files/scp-4748/hypetrain.jpg",
+    "cap": "해변의 SCP-4748 개체"
+   }
+  ],
+  "img_credits": [
+   [
+    [
+     "파일명",
+     "hypetrain.jpg"
+    ],
+    [
+     "저자",
+     "Hugh Llewelyn"
+    ],
+    [
+     "라이선스",
+     "CC BY-SA 2.0"
+    ],
+    [
+     "출처",
+     "Wikimedia Commons"
+    ]
+   ]
+  ]
  }
 }
