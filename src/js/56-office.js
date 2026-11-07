@@ -42,12 +42,17 @@ function apprState(a){
   return {steps, status, why, end:steps[steps.length-1].t};
 }
 /* 승인된 열람 권한: 승인 시각부터 24시간 */
-function grantUntil(id){
-  let best=0;
-  for(const a of apprList()){ if(a.type!=="access"||a.id!==id) continue;
-    const s=apprState(a); if(s.status==="완료") best=Math.max(best, s.end+86400000) }
-  return best>Date.now()?best:0;
+/* 목록·통계에서 문서마다 불리므로, 결재 기록을 읽어 만든 표를 잠깐(1초) 재사용 */
+let GRANTS={at:0,user:"",map:null};
+function grantMap(){
+  const now=Date.now();
+  if(GRANTS.map && GRANTS.user===S.user && now-GRANTS.at<1000) return GRANTS.map;
+  const map={};
+  for(const a of apprList()){ if(a.type!=="access") continue;
+    const s=apprState(a); if(s.status==="완료") map[a.id]=Math.max(map[a.id]||0, s.end+86400000) }
+  GRANTS={at:now,user:S.user,map}; return map;
 }
+function grantUntil(id){ const best=grantMap()[id]||0; return best>Date.now()?best:0 }
 /* 문서 열람에 쓰이는 실제 권한 (임시 권한 포함) */
 function lvlFor(id){ const d=SCP[id]; if(!d) return S.level; return grantUntil(id)?Math.max(S.level,reqLevel(d.object_class)):S.level }
 

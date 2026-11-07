@@ -28,7 +28,7 @@ function incidents(){
   return `<h2 class="ph">사건 <span>기록</span> · SITE-19</h2>
   <table><tr><th>일시</th><th>관련 항목</th><th class="hm">분류</th><th>요약</th><th class="hm">상태</th></tr>
   ${rows.map(([n,s,t,sum,st])=>{ const href=SCP[s]?"#"+s.toLowerCase():"";
-    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim">${daysAgo(n)}</td><td>${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
+    return `<tr ${href?`class="row" data-href="${href}"`:""}><td class="dim nw">${daysAgo(n)}</td><td class="nw">${href?rowLink(href,s):`<span class="dim">${s}</span>`}</td><td class="hm">${t}</td><td class="dim">${linkRefs(sum,s)}</td><td class="hm">${st}</td></tr>`}).join("")}
   </table>
   <p class="dim2" style="margin-top:14px;font-size:11px">Level 3 미만 인원에게는 지난 60일 기록만 표시됩니다. 그 이전에는 아무 일도 없었습니다.</p>`;
 }

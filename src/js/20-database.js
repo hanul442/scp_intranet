@@ -59,7 +59,7 @@ function dashboard(){
    검색(번호·제목·별명·태그·본문) + 등급 · 시리즈 · 태그 필터 + 정렬 + 50건씩 페이지
    상태는 주소(#database?q=&c=&s=&t=&o=&p=)에 그대로 남아 새로고침·공유가 됨 */
 const DB_PAGE=50;
-const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["x","그 외"]];
+const SERIES=[["all","전체 시리즈"],["1","시리즈 1 (001–999)"],["2","시리즈 2 (1000–1999)"],["3","시리즈 3 (2000–2999)"],["4","시리즈 4 이상 (3000–)"],["ko","한국 지부 (-KO)"],["x","그 외"]];
 const SORTS=[["num","번호순"],["rate","평가 높은순"],["name","이름순"],["recent","최근 열람순"]];
 const TOP_TAGS=(()=>{const c={};for(const d of Object.values(SCP))for(const t of d.tags||[])if(!["안전","유클리드","케테르","아폴리온","타우미엘"].includes(t))c[t]=(c[t]||0)+1;return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,24)})();
 function dbState(params){
@@ -102,26 +102,37 @@ function matchClass(d,c){
 }
 function inSeries(d,s){
   if(s==="all") return true;
-  const [n,sfx]=idNum(d.id); if(sfx) return s==="x";
+  const [n,sfx]=idNum(d.id); if(s==="ko") return sfx==="KO"; if(sfx) return s==="x";
   if(s==="1") return n<1000; if(s==="2") return n>=1000&&n<2000; if(s==="3") return n>=2000&&n<3000;
-  return n>=3000;
+  if(s==="4") return n>=3000; return false;
 }
 function dbHits(st){
   const ql=st.q.trim().toLowerCase(), hits=[];
-  for(const d of Object.values(SCP)){
+  const qn=/^\d+$/.test(ql)?"scp-"+ql.padStart(3,"0"):""; // "173" → "scp-173"
+  for(const id of sortedIds()){ const d=SCP[id];
     if(!matchClass(d,st.c) || !inSeries(d,st.s) || (st.t && !(d.tags||[]).includes(st.t))) continue;
     if(!ql){ hits.push({d}); continue }
-    const meta=(d.id+" "+d.title+" "+(d.nickname||"")+" "+(d.tags||[]).join(" ")+" "+d.object_class).toLowerCase();
-    if(meta.includes(ql) || meta.includes(ql.replace(/^(\d+)$/,m=>"scp-"+m.padStart(3,"0")))){ hits.push({d}); continue }
+    const meta=metaText(d);
+    if(meta.includes(ql) || (qn && meta.includes(qn))){ hits.push({d}); continue }
     // 본문 검색: 본문을 불러온 문서만
-    const i=(d.full_text||"").toLowerCase().indexOf(ql);
+    const i=textAt(d,ql);
     if(i>=0) hits.push({d, at:i});
   }
-  const name=d=>docName(d)||"\uffff";
   const rec=id=>{const i=S.recent.indexOf(id);return i<0?1e9:i};
-  const cmp={num:(a,b)=>byId(a.d.id,b.d.id), rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
-    name:(a,b)=>name(a.d).localeCompare(name(b.d),"ko")||byId(a.d.id,b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
+  if(st.o==="num"||!SORTS.some(x=>x[0]===st.o)) return hits; // 이미 번호순
+  const cmp={rate:(a,b)=>(b.d.rating??-1e9)-(a.d.rating??-1e9)||byId(a.d.id,b.d.id),
+    name:(a,b)=>nameRank(a.d.id)-nameRank(b.d.id), recent:(a,b)=>rec(a.d.id)-rec(b.d.id)||byId(a.d.id,b.d.id)}[st.o]||((a,b)=>byId(a.d.id,b.d.id));
   return hits.sort(cmp);
+}
+/* 이름순 순위: 처음 한 번만 정렬해 두고 재사용 (이름 없는 문서는 뒤로, 같은 이름은 번호순) */
+let NAME_RANK=null;
+function nameRank(id){
+  if(!NAME_RANK){
+    const L=sortedIds().map(k=>[k,docName(SCP[k])]);
+    const named=L.filter(x=>x[1]).sort((a,b)=>KO_COLL.compare(a[1],b[1])||byId(a[0],b[0]));
+    NAME_RANK=new Map([...named,...L.filter(x=>!x[1])].map((x,i)=>[x[0],i]));
+  }
+  return NAME_RANK.get(id)??1e9;
 }
 function pager(cur,total,hrefFor){
   if(total<=1) return "";
@@ -133,8 +144,8 @@ function pager(cur,total,hrefFor){
 function dbRows(st){
   const ql=st.q.trim();
   const hits=dbHits(st), pages=Math.max(1,Math.ceil(hits.length/DB_PAGE)), cur=Math.min(st.p,pages);
-  const unloaded=ql?Object.values(SCP).filter(d=>d.chunk&&!d.loaded).length:0;
-  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button></div>`:"";
+  const unloaded=ql?unloadedCount():0;
+  const more=unloaded?`<div class="empty slim"><button type="button" class="btn" id="ftbtn">본문까지 검색 — 문서 ${unloaded}건의 본문 불러오기</button><div class="dim2 mobnote">본문 전체는 용량이 큽니다. 휴대폰에서는 Wi-Fi 연결을 권장합니다.</div></div>`:"";
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
@@ -145,7 +156,7 @@ function dbRows(st){
     if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
-      <td>${rowLink(href,d.id,ok?"hi":"")}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
+      <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
       <td>${badge(d)}</td>${tags}${rate}
       <td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td>
       <td class="dim hm">${tmp?'<span class="green">임시 열람</span>':ok?"열람 가능":"🔒 제한"}</td></tr>`}).join("")}
