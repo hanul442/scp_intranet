@@ -53,7 +53,7 @@ function fdUplink(dept){
   };
 }
 
-/* ── O5 평의회 기록: Level 4 이상이면 비공식 기록서류(출처 불명 유출본) 요약, 미만이면 기존 접근 거부 + 공개 규정 ── */
+/* ── O5 평의회 기록: Level 5(O5) 이상이면 비공식 기록서류(출처 불명 유출본) 요약, 미만이면 기존 접근 거부 + 공개 규정 ── */
 function fdO5Public(){
   const P=lorePage(FD_DEPTS), i=loreIdx(P,"O5 평의회"); if(i<0) return "";
   return `<div class="clrnote"><b>공개 규정 · 재단 부서 편람</b> O5 평의회 <span class="dim2">${esc(P.sections[i].en)}</span><p>${esc(P.sections[i].body.replace(/^개요:\s*/,""))}</p></div>`;
@@ -75,7 +75,7 @@ function fdO5Seats(){
 {
   const base=VIEWS.o5;
   VIEWS.o5=qs=>{
-    if(S.level<4) return base(qs)+loreSlot(fdO5Public,"");
+    if(!loreOpen(FD_O5)) return base(qs)+loreSlot(fdO5Public,"");
     feedPush(`O5 기록서류 열람 — ${S.user} (Level ${S.level})`,"amber");
     return `<h2 class="ph red">O5 <span>평의회 기록</span> · 비공식 기록서류</h2>
     <div class="notice danger">이 기록서류는 재단이 작성한 것이 아닙니다. 외부에서 유입된 사본이며, 서로 모순되는 보고를 그대로 담고 있습니다. 어느 보고가 참인지 판단하지 마십시오. 열람 사실은 기록되었습니다.</div>
@@ -87,20 +87,20 @@ function fdO5Seats(){
 function fdPeople(){
   const P=lorePage(FD_PPL); if(!P) return "";
   const cats=[]; let cur=null;
-  P.sections.forEach((s,i)=>{ if(s.level===1&&s.title!=="FOUNDATION INTERNAL DOSSIER"){ cur={t:s.title,i,n:0,who:[]}; cats.push(cur) } else if(cur&&s.level===3){ cur.n++; if(cur.who.length<4) cur.who.push(s.title.replace(/\(.*?\)/g,"").trim()) } });
+  P.sections.forEach((s,i)=>{ if(s.level===1&&s.title!=="FOUNDATION INTERNAL DOSSIER"){ cur=loreSecOpen(P,i)?{t:s.title,i,n:0,who:[]}:null; if(cur) cats.push(cur) } else if(cur&&s.level===3){ cur.n++; if(cur.who.length<4) cur.who.push(s.title.replace(/\(.*?\)/g,"").trim()) } });
   return `<div class="fdcats">${cats.map(c=>`<a class="fdd" href="${regHref(FD_PPL,c.i)}"><b>${esc(c.t)}</b><span class="dim2">${c.n}명</span><span>${esc(c.who.join(" · "))}${c.n>c.who.length?" …":""}</span></a>`).join("")}</div>`;
 }
 {
   const base=VIEWS.personnel;
   VIEWS.personnel=qs=>base(qs)+`<h4 class="osub" style="margin-top:26px">재단 주요 인원 기록서류 <span class="dim2">FOUNDATION INTERNAL DOSSIER · Level 4 이상</span></h4>
-    ${S.level>=4?loreSlot(fdPeople):`<div class="clrnote"><b>열람 제한</b> 재단 전체의 박사 · 요원 · 요주의 인물 기록은 보안 인가 4등급 이상에게만 공개됩니다. <a class="xref" href="#regs?p=${FD_PPL}">규정집에서 확인</a></div>`}`;
+    ${loreOpen(FD_PPL)?loreSlot(fdPeople):`<div class="clrnote"><b>열람 제한</b> 재단 전체의 박사 · 요원 · 요주의 인물 기록은 보안 인가 4등급 이상에게만 공개됩니다. <a class="xref" href="#regs?p=${FD_PPL}">규정집에서 확인</a></div>`}`;
 }
 
 /* ── 통합 검색: 규정집(재단 설정) 항목도 찾기 ── */
 function fdSearch(q){
   const ql=q.toLowerCase(), hits=[];
   [RULES,...(LORE?LORE.pages:[])].filter(p=>loreOpen(p.slug)).forEach(p=>p.sections.forEach((s,i)=>{
-    if(!s.title) return;
+    if(!s.title||!loreSecOpen(p,i)) return;
     const inT=(s.title+" "+s.en).toLowerCase().includes(ql), inB=!inT&&s.body.toLowerCase().includes(ql);
     if(inT||inB) hits.push({p,s,i,w:inT?0:1});
   }));

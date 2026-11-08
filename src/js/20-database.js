@@ -149,11 +149,11 @@ function dbRows(st){
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
-  ${page.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
+  ${page.map(({d,at})=>{const sp=!!SPECIAL[d.id], need=reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
     const href="#"+d.id.toLowerCase();
     const tags=`<td class="dim hm">${(d.tags||[]).filter(t=>t!==d.object_class).slice(0,4).map(t=>`<button type="button" class="tagl" data-t="${esc(t)}">${esc(t)}</button>`).join(" · ")||"—"}</td>`;
     const rate=`<td class="hm c dim">${typeof d.rating==="number"?(d.rating>0?"+":"")+d.rating:"—"}</td>`;
-    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
+    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
       <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>

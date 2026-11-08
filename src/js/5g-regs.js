@@ -15,8 +15,16 @@ function loadLore(){
   return LORE_WAIT;
 }
 /* 열람 제한 문서: 인가 등급 미달이면 규정 안내만 보여줌 */
-const LORE_GATE={"o5-command-dossier":4,"personnel-and-character-dossier":4};
+const LORE_GATE={"o5-command-dossier":5,"personnel-and-character-dossier":4};
 const loreOpen=slug=>S.level>=(LORE_GATE[slug]||0);
+/* 문서 안 일부 장(대제목)만 더 높은 등급: 인원 기록서류의 O5 사령부 장은 Level 5 */
+const LORE_SEC_GATE={"personnel-and-character-dossier":{"O5 사령부":5}};
+function loreSecLevel(page,i){
+  const G=LORE_SEC_GATE[page.slug]; if(!G) return 0;
+  for(let j=i;j>=0;j--){ const s=page.sections[j]; if(s.level===1) return G[s.title]||0 }
+  return 0;
+}
+const loreSecOpen=(page,i)=>S.level>=loreSecLevel(page,i);
 /* 규정집 특정 항목으로 가는 주소 (#regs?p=문서&n=항목번호 — 문서 전체를 보여 주고 그 항목으로 이동) */
 function regHref(slug,i){ return "#regs"+(slug===RULES.slug&&i==null?"":"?p="+slug+(i!=null?"&n="+i:"")) }
 function lorePage(slug){ return slug===RULES.slug ? RULES : LORE && LORE.pages.find(p=>p.slug===slug) }
@@ -39,7 +47,7 @@ function regs(qs){
   }
   const ql=q.toLowerCase();
   const sx=((qs&&qs.get("s"))||"").trim();  // 본문 링크에서 온 경우: 해당 구획만 (예: s=19 → 제19기지)
-  const secs=page.sections.filter(s=>(!sx||regsSecMatch(s,sx))&&(!ql||(s.title+" "+s.en+" "+s.body).toLowerCase().includes(ql)));
+  const secs=page.sections.filter((s,i)=>(!sx||regsSecMatch(s,sx))&&(!ql||loreSecOpen(page,i)&&(s.title+" "+s.en+" "+s.body).toLowerCase().includes(ql)));
   const big=page.sections.length>20, jump=qs&&qs.get("n");
   const top=page.sections.map((s,i)=>({s,i})).filter(({s})=>s.level===1&&s.title);
   const toc=!q&&!sx&&top.length>=4?`<nav class="regtoc" aria-label="목차"><span class="dim2">목차</span>${top.map(({s,i})=>`<a href="${regHref(page.slug,i)}">${esc(s.title)}</a>`).join("")}</nav>`:"";
@@ -51,7 +59,8 @@ function regs(qs){
     ${sx?`<div class="notice">문서 본문에서 연결된 항목만 표시 중 · <a href="#regs?p=${page.slug}">전체 보기</a></div>`:""}
     ${!q&&!sx&&typeof REG_IG==="object"&&REG_IG[page.slug]?REG_IG[page.slug]():""}
     ${toc}
-    ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1);
+    ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1), si=page.sections.indexOf(s), need=loreSecLevel(page,si);
+      if(need>S.level) return s.level===1?`<div class="sec" id="rs-${si}"><h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}><div class="denied"><b>LEVEL ${need} 이상 열람 가능</b>이 장은 보안 인가 ${need}등급 이상 인원에게만 공개됩니다.</div></div>`:"";
       return `<div class="sec" id="rs-${page.sections.indexOf(s)}">${s.title?`<h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}>`:""}
       ${s.body?`<div class="body">${linkRefs(markDM(esc(s.body)),"")}</div>`:""}</div>`}).join("")
       :`<div class="empty">${q?`"${esc(q)}"에 해당하는 항목이 없습니다.`:"규정집에 실린 항목이 없습니다."}${sx?` <a href="#regs?p=${page.slug}">전체 보기</a>`:""}</div>`}
