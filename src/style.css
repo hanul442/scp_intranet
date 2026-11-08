@@ -1149,3 +1149,24 @@ body[data-theme=light] figure.photo img{filter:none}
   .phnav.prev{left:16px}.phnav.next{right:16px}
 }
 @media print{.phview{display:none}}
+
+/* ─── 항밈 문서 연출 (41-antimeme.js) ─── */
+.notice.am-ban{border-left-color:var(--cyan);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.notice.am-ban .am-dose{margin-left:auto}
+.notice.am-ban button[disabled]{opacity:.5;cursor:default}
+.am-fading{transition:opacity 1.5s ease,filter 1.5s ease,letter-spacing 1.5s ease;opacity:0;filter:blur(5px);letter-spacing:.35em}
+.am-gone{min-height:1.6em}
+.am-gap{color:var(--fg3);font-style:italic;cursor:pointer;border-bottom:1px dashed var(--line2)}
+.am-gap:hover,.am-gap:focus-visible{color:var(--fg2);outline:none}
+.am-recall{animation:amback 1.3s ease}
+@keyframes amback{0%{opacity:0;filter:blur(6px)}60%{opacity:.8;filter:blur(1px)}100%{opacity:1;filter:none}}
+.am-word i{font-style:normal;transition:opacity .5s,filter .5s}
+.am-word i.off{opacity:0;filter:blur(3px)}
+.am-word.blank{color:var(--fg3);cursor:pointer;letter-spacing:-.05em}
+.am-word.back{animation:amback .9s ease;color:var(--amber)}
+.am-dmx{color:var(--cyan)!important;font-style:italic}
+h1.am-title{cursor:pointer;color:var(--fg2)}
+body.nofx .am-fading,body.nofx .am-word i{transition:none}
+body.nofx .am-recall,body.nofx .am-word.back{animation:none}
+@media (prefers-reduced-motion: reduce){ .am-fading,.am-word i{transition:none} .am-recall,.am-word.back{animation:none} }
+@media print{ .am-ban,.am-forgot{display:none!important} }
