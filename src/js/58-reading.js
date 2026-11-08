@@ -57,7 +57,7 @@ function onDocScroll(){
 }
 $("#content").addEventListener("scroll",onDocScroll,{passive:true});
 /* 문서를 그린 뒤 호출 */
-function afterDocRender(key){ logHistory(key); docPhotos(key); const b=$("#readbar"); if(b) b.style.width="0" }
+function afterDocRender(key){ logHistory(key); docPhotos(key); amFx(key); const b=$("#readbar"); if(b) b.style.width="0" }
 
 /* ════ 열람 이력 ════ */
 function histView(qs){
