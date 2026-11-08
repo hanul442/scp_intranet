@@ -1696,11 +1696,11 @@ function dbRows(st){
   if(!hits.length) return (st.c==="fav"&&!ql?`<div class="empty">즐겨찾기한 문서가 없습니다.<br><span class="dim2">문서 화면의 ☆ 즐겨찾기 버튼으로 추가하십시오.</span></div>`:`<div class="empty">조건에 맞는 항목이 없습니다.<br><span class="dim2">검색어를 줄이거나 필터를 '전체'로 바꿔 보십시오.</span></div>`)+more;
   const page=hits.slice((cur-1)*DB_PAGE,cur*DB_PAGE);
   return `<div class="dbcount dim2">${hits.length}건 중 ${(cur-1)*DB_PAGE+1}–${(cur-1)*DB_PAGE+page.length}</div>`+more+`<table><tr><th>항목</th><th>등급</th><th class="hm">태그</th><th class="hm c">평가</th><th>요구 권한</th><th class="hm">상태</th></tr>
-  ${page.map(({d,at})=>{const sp=!!SPECIAL[d.id]; const need=sp?0:reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
+  ${page.map(({d,at})=>{const sp=!!SPECIAL[d.id], need=reqLevel(d.object_class), ok=lvlFor(d.id)>=need, tmp=ok&&S.level<need;
     const href="#"+d.id.toLowerCase();
     const tags=`<td class="dim hm">${(d.tags||[]).filter(t=>t!==d.object_class).slice(0,4).map(t=>`<button type="button" class="tagl" data-t="${esc(t)}">${esc(t)}</button>`).join(" · ")||"—"}</td>`;
     const rate=`<td class="hm c dim">${typeof d.rating==="number"?(d.rating>0?"+":"")+d.rating:"—"}</td>`;
-    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td class="dim2">—</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
+    if(sp) return `<tr class="row" data-href="${href}"><td>${rowLink(href,d.id)}</td><td><span class="badge unknown">${d.id==="SCP-2521"?"●●|●●●●●|●●|●":"[반밈]"}</span></td>${tags}${rate}<td>${ok?`<span class="dim">Level ${need}</span>`:`<span class="red">Level ${need} 필요</span>`}</td><td class="amber hm">${d.id==="SCP-2521"?"문자 기록 불가":"내용 없음"}</td></tr>`;
     const snip = at!=null ? `<div class="snip">${ok?snippet(d.full_text,at,ql.length):'<span class="redact">본문 일치 — 권한 부족으로 미리보기 불가</span>'}</div>` : "";
     return `<tr class="row k-${classKey(d.object_class)} ${ok?"":"locked"}" data-href="${href}">
       <td>${rowLink(href,d.id,ok?"hi":"")}${branchTag(d.id)}${isFav(d.id)?' <span class="amber" title="즐겨찾기">★</span>':""}${docName(d)?`<div class="dim2 ttl">${esc(docName(d))}</div>`:""}${snip}</td>
@@ -1847,7 +1847,7 @@ function showSub(id, idx){
 /* ════ 문서 열람 ════ */
 function showDoc(id){
   const d=SCP[id]; if(!d) return deadRef(id);
-  if(SPECIAL[id]){ S.doc=id; noteRecent(id); feedPush(`${S.user} 열람 — ${id}`,""); render(SPECIAL[id](d)); docEffects(id); return }
+  if(SPECIAL[id]&&lvlFor(id)>=reqLevel(d.object_class)){ S.doc=id; noteRecent(id); feedPush(`${S.user} 열람 — ${id}`,""); render(SPECIAL[id](d)); docEffects(id); return }
   const need=reqLevel(d.object_class), lv=lvlFor(id), until=grantUntil(id);
   S.doc=id;
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
@@ -1937,7 +1937,7 @@ const SPECIAL={
   "SCP-2521": d=>`<a class="back" href="#database">← 데이터베이스</a>
    <div class="doc">
     <div class="hdr"><h1>SCP-2521</h1><span class="badge keter">●●|●●●●●|●●|●</span></div>
-    <div class="meta"><span>요구 권한 —</span><span>본 항목에 대한 문자 기반 정보는 보관할 수 없음</span></div>
+    <div class="meta"><span>요구 권한 Level ${reqLevel(d.object_class)}</span><span>본 항목에 대한 문자 기반 정보는 보관할 수 없음</span></div>
     <div class="pict">●●|●●●●●|●●|●<small>PICTOGRAPHIC RECORD ONLY</small></div>
     <div class="notice danger" id="p2521">본 항목에 관한 <b>문자·음성 형태의 정보</b>는 항목에 의해 회수됩니다. 이 안내문은 문자로 작성되어 있습니다.</div>
     <div class="sec"><h4>격리 절차</h4><div class="body" id="t2521">이 문서의 원문은 전부 그림문자로 작성되어 있으며 SCiPNET 단말은 이를 렌더링하지 못합니다. 원문은 출처 링크에서 열람하십시오. 다음 문장을 작성한 연구원은 현재 </div></div>
@@ -1945,7 +1945,7 @@ const SPECIAL={
   "SCP-3125": d=>`<a class="back" href="#database">← 데이터베이스</a>
    <div class="doc">
     <div class="hdr"><h1>SCP-3125</h1><span class="badge unknown">[반밈]</span></div>
-    <div class="meta"><span>요구 권한 Level 4</span><span>반밈과 (Antimemetics Division)</span></div>
+    <div class="meta"><span>요구 권한 Level ${reqLevel(d.object_class)}</span><span>반밈과 (Antimemetics Division)</span></div>
     <div class="sec"><h4>특수 격리 절차</h4><div class="body" id="t3125">이 페이지는 비어 있습니다.\n\n이 페이지는 처음부터 비어 있었습니다.\n\n귀하는 이 페이지에서 아무것도 읽지 않았고, 열람 기록에도 남지 않을 것입니다.\n\n</div></div>
     <div class="sec"><h4>설명</h4><div class="body dim2">— 기술 가능한 내용 없음 —</div></div>
     ${attrib(d)}</div>`,
@@ -4227,8 +4227,16 @@ function loadLore(){
   return LORE_WAIT;
 }
 /* 열람 제한 문서: 인가 등급 미달이면 규정 안내만 보여줌 */
-const LORE_GATE={"o5-command-dossier":4,"personnel-and-character-dossier":4};
+const LORE_GATE={"o5-command-dossier":5,"personnel-and-character-dossier":4};
 const loreOpen=slug=>S.level>=(LORE_GATE[slug]||0);
+/* 문서 안 일부 장(대제목)만 더 높은 등급: 인원 기록서류의 O5 사령부 장은 Level 5 */
+const LORE_SEC_GATE={"personnel-and-character-dossier":{"O5 사령부":5}};
+function loreSecLevel(page,i){
+  const G=LORE_SEC_GATE[page.slug]; if(!G) return 0;
+  for(let j=i;j>=0;j--){ const s=page.sections[j]; if(s.level===1) return G[s.title]||0 }
+  return 0;
+}
+const loreSecOpen=(page,i)=>S.level>=loreSecLevel(page,i);
 /* 규정집 특정 항목으로 가는 주소 (#regs?p=문서&n=항목번호 — 문서 전체를 보여 주고 그 항목으로 이동) */
 function regHref(slug,i){ return "#regs"+(slug===RULES.slug&&i==null?"":"?p="+slug+(i!=null?"&n="+i:"")) }
 function lorePage(slug){ return slug===RULES.slug ? RULES : LORE && LORE.pages.find(p=>p.slug===slug) }
@@ -4251,7 +4259,7 @@ function regs(qs){
   }
   const ql=q.toLowerCase();
   const sx=((qs&&qs.get("s"))||"").trim();  // 본문 링크에서 온 경우: 해당 구획만 (예: s=19 → 제19기지)
-  const secs=page.sections.filter(s=>(!sx||regsSecMatch(s,sx))&&(!ql||(s.title+" "+s.en+" "+s.body).toLowerCase().includes(ql)));
+  const secs=page.sections.filter((s,i)=>(!sx||regsSecMatch(s,sx))&&(!ql||loreSecOpen(page,i)&&(s.title+" "+s.en+" "+s.body).toLowerCase().includes(ql)));
   const big=page.sections.length>20, jump=qs&&qs.get("n");
   const top=page.sections.map((s,i)=>({s,i})).filter(({s})=>s.level===1&&s.title);
   const toc=!q&&!sx&&top.length>=4?`<nav class="regtoc" aria-label="목차"><span class="dim2">목차</span>${top.map(({s,i})=>`<a href="${regHref(page.slug,i)}">${esc(s.title)}</a>`).join("")}</nav>`:"";
@@ -4263,7 +4271,8 @@ function regs(qs){
     ${sx?`<div class="notice">문서 본문에서 연결된 항목만 표시 중 · <a href="#regs?p=${page.slug}">전체 보기</a></div>`:""}
     ${!q&&!sx&&typeof REG_IG==="object"&&REG_IG[page.slug]?REG_IG[page.slug]():""}
     ${toc}
-    ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1);
+    ${secs.length?secs.map(s=>{const h=Math.min(4,s.level+1), si=page.sections.indexOf(s), need=loreSecLevel(page,si);
+      if(need>S.level) return s.level===1?`<div class="sec" id="rs-${si}"><h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}><div class="denied"><b>LEVEL ${need} 이상 열람 가능</b>이 장은 보안 인가 ${need}등급 이상 인원에게만 공개됩니다.</div></div>`:"";
       return `<div class="sec" id="rs-${page.sections.indexOf(s)}">${s.title?`<h${h} class="regh">${esc(s.title)}${s.en?` <small class="dim2">${esc(s.en)}</small>`:""}</h${h}>`:""}
       ${s.body?`<div class="body">${linkRefs(markDM(esc(s.body)),"")}</div>`:""}</div>`}).join("")
       :`<div class="empty">${q?`"${esc(q)}"에 해당하는 항목이 없습니다.`:"규정집에 실린 항목이 없습니다."}${sx?` <a href="#regs?p=${page.slug}">전체 보기</a>`:""}</div>`}
@@ -4462,7 +4471,7 @@ function fdUplink(dept){
   };
 }
 
-/* ── O5 평의회 기록: Level 4 이상이면 비공식 기록서류(출처 불명 유출본) 요약, 미만이면 기존 접근 거부 + 공개 규정 ── */
+/* ── O5 평의회 기록: Level 5(O5) 이상이면 비공식 기록서류(출처 불명 유출본) 요약, 미만이면 기존 접근 거부 + 공개 규정 ── */
 function fdO5Public(){
   const P=lorePage(FD_DEPTS), i=loreIdx(P,"O5 평의회"); if(i<0) return "";
   return `<div class="clrnote"><b>공개 규정 · 재단 부서 편람</b> O5 평의회 <span class="dim2">${esc(P.sections[i].en)}</span><p>${esc(P.sections[i].body.replace(/^개요:\s*/,""))}</p></div>`;
@@ -4484,7 +4493,7 @@ function fdO5Seats(){
 {
   const base=VIEWS.o5;
   VIEWS.o5=qs=>{
-    if(S.level<4) return base(qs)+loreSlot(fdO5Public,"");
+    if(!loreOpen(FD_O5)) return base(qs)+loreSlot(fdO5Public,"");
     feedPush(`O5 기록서류 열람 — ${S.user} (Level ${S.level})`,"amber");
     return `<h2 class="ph red">O5 <span>평의회 기록</span> · 비공식 기록서류</h2>
     <div class="notice danger">이 기록서류는 재단이 작성한 것이 아닙니다. 외부에서 유입된 사본이며, 서로 모순되는 보고를 그대로 담고 있습니다. 어느 보고가 참인지 판단하지 마십시오. 열람 사실은 기록되었습니다.</div>
@@ -4496,20 +4505,20 @@ function fdO5Seats(){
 function fdPeople(){
   const P=lorePage(FD_PPL); if(!P) return "";
   const cats=[]; let cur=null;
-  P.sections.forEach((s,i)=>{ if(s.level===1&&s.title!=="FOUNDATION INTERNAL DOSSIER"){ cur={t:s.title,i,n:0,who:[]}; cats.push(cur) } else if(cur&&s.level===3){ cur.n++; if(cur.who.length<4) cur.who.push(s.title.replace(/\(.*?\)/g,"").trim()) } });
+  P.sections.forEach((s,i)=>{ if(s.level===1&&s.title!=="FOUNDATION INTERNAL DOSSIER"){ cur=loreSecOpen(P,i)?{t:s.title,i,n:0,who:[]}:null; if(cur) cats.push(cur) } else if(cur&&s.level===3){ cur.n++; if(cur.who.length<4) cur.who.push(s.title.replace(/\(.*?\)/g,"").trim()) } });
   return `<div class="fdcats">${cats.map(c=>`<a class="fdd" href="${regHref(FD_PPL,c.i)}"><b>${esc(c.t)}</b><span class="dim2">${c.n}명</span><span>${esc(c.who.join(" · "))}${c.n>c.who.length?" …":""}</span></a>`).join("")}</div>`;
 }
 {
   const base=VIEWS.personnel;
   VIEWS.personnel=qs=>base(qs)+`<h4 class="osub" style="margin-top:26px">재단 주요 인원 기록서류 <span class="dim2">FOUNDATION INTERNAL DOSSIER · Level 4 이상</span></h4>
-    ${S.level>=4?loreSlot(fdPeople):`<div class="clrnote"><b>열람 제한</b> 재단 전체의 박사 · 요원 · 요주의 인물 기록은 보안 인가 4등급 이상에게만 공개됩니다. <a class="xref" href="#regs?p=${FD_PPL}">규정집에서 확인</a></div>`}`;
+    ${loreOpen(FD_PPL)?loreSlot(fdPeople):`<div class="clrnote"><b>열람 제한</b> 재단 전체의 박사 · 요원 · 요주의 인물 기록은 보안 인가 4등급 이상에게만 공개됩니다. <a class="xref" href="#regs?p=${FD_PPL}">규정집에서 확인</a></div>`}`;
 }
 
 /* ── 통합 검색: 규정집(재단 설정) 항목도 찾기 ── */
 function fdSearch(q){
   const ql=q.toLowerCase(), hits=[];
   [RULES,...(LORE?LORE.pages:[])].filter(p=>loreOpen(p.slug)).forEach(p=>p.sections.forEach((s,i)=>{
-    if(!s.title) return;
+    if(!s.title||!loreSecOpen(p,i)) return;
     const inT=(s.title+" "+s.en).toLowerCase().includes(ql), inB=!inT&&s.body.toLowerCase().includes(ql);
     if(inT||inB) hits.push({p,s,i,w:inT?0:1});
   }));
@@ -4560,7 +4569,7 @@ function shake(){ if(!FX.on) return; document.body.classList.add("shake"); setTi
 function glitch(intensity=1){
   if(!FX.on){ if(SFX.on && intensity>1) SFX.burst(); return }
   const g=$("#glitch"); g.innerHTML="";
-  const docs=Object.values(SCP).filter(d=>d.full_text); const src=docs.length?pick(docs):pick(Object.values(SCP));
+  const docs=Object.values(SCP).filter(d=>d.full_text&&!SPECIAL[d.id]&&lvlFor(d.id)>=reqLevel(d.object_class)); const src=docs.length?pick(docs):{id:"",full_text:""};
   const lines=(src.full_text||"").split("\n").filter(l=>l.length>20);
   const n=rnd(3,6)*intensity;
   for(let i=0;i<n;i++){

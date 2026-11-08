@@ -36,7 +36,7 @@ function shake(){ if(!FX.on) return; document.body.classList.add("shake"); setTi
 function glitch(intensity=1){
   if(!FX.on){ if(SFX.on && intensity>1) SFX.burst(); return }
   const g=$("#glitch"); g.innerHTML="";
-  const docs=Object.values(SCP).filter(d=>d.full_text); const src=docs.length?pick(docs):pick(Object.values(SCP));
+  const docs=Object.values(SCP).filter(d=>d.full_text&&!SPECIAL[d.id]&&lvlFor(d.id)>=reqLevel(d.object_class)); const src=docs.length?pick(docs):{id:"",full_text:""};
   const lines=(src.full_text||"").split("\n").filter(l=>l.length>20);
   const n=rnd(3,6)*intensity;
   for(let i=0;i<n;i++){

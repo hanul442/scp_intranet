@@ -103,7 +103,7 @@ function showSub(id, idx){
 /* ════ 문서 열람 ════ */
 function showDoc(id){
   const d=SCP[id]; if(!d) return deadRef(id);
-  if(SPECIAL[id]){ S.doc=id; noteRecent(id); feedPush(`${S.user} 열람 — ${id}`,""); render(SPECIAL[id](d)); docEffects(id); return }
+  if(SPECIAL[id]&&lvlFor(id)>=reqLevel(d.object_class)){ S.doc=id; noteRecent(id); feedPush(`${S.user} 열람 — ${id}`,""); render(SPECIAL[id](d)); docEffects(id); return }
   const need=reqLevel(d.object_class), lv=lvlFor(id), until=grantUntil(id);
   S.doc=id;
   if(lv<need){ S.denied++; saveSession(); glitch(1); shake();
@@ -193,7 +193,7 @@ const SPECIAL={
   "SCP-2521": d=>`<a class="back" href="#database">← 데이터베이스</a>
    <div class="doc">
     <div class="hdr"><h1>SCP-2521</h1><span class="badge keter">●●|●●●●●|●●|●</span></div>
-    <div class="meta"><span>요구 권한 —</span><span>본 항목에 대한 문자 기반 정보는 보관할 수 없음</span></div>
+    <div class="meta"><span>요구 권한 Level ${reqLevel(d.object_class)}</span><span>본 항목에 대한 문자 기반 정보는 보관할 수 없음</span></div>
     <div class="pict">●●|●●●●●|●●|●<small>PICTOGRAPHIC RECORD ONLY</small></div>
     <div class="notice danger" id="p2521">본 항목에 관한 <b>문자·음성 형태의 정보</b>는 항목에 의해 회수됩니다. 이 안내문은 문자로 작성되어 있습니다.</div>
     <div class="sec"><h4>격리 절차</h4><div class="body" id="t2521">이 문서의 원문은 전부 그림문자로 작성되어 있으며 SCiPNET 단말은 이를 렌더링하지 못합니다. 원문은 출처 링크에서 열람하십시오. 다음 문장을 작성한 연구원은 현재 </div></div>
@@ -201,7 +201,7 @@ const SPECIAL={
   "SCP-3125": d=>`<a class="back" href="#database">← 데이터베이스</a>
    <div class="doc">
     <div class="hdr"><h1>SCP-3125</h1><span class="badge unknown">[반밈]</span></div>
-    <div class="meta"><span>요구 권한 Level 4</span><span>반밈과 (Antimemetics Division)</span></div>
+    <div class="meta"><span>요구 권한 Level ${reqLevel(d.object_class)}</span><span>반밈과 (Antimemetics Division)</span></div>
     <div class="sec"><h4>특수 격리 절차</h4><div class="body" id="t3125">이 페이지는 비어 있습니다.\n\n이 페이지는 처음부터 비어 있었습니다.\n\n귀하는 이 페이지에서 아무것도 읽지 않았고, 열람 기록에도 남지 않을 것입니다.\n\n</div></div>
     <div class="sec"><h4>설명</h4><div class="body dim2">— 기술 가능한 내용 없음 —</div></div>
     ${attrib(d)}</div>`,
